@@ -16,6 +16,7 @@
       turkey: "تركيا",
       non_arab_muslim: "العالم الإسلامي غير العربي",
       western: "الاستشراق الغربي",
+      global: "عابر للأقاليم",
     },
     country: {
       SA: "السعودية", AE: "الإمارات", QA: "قطر", KW: "الكويت", BH: "البحرين",
@@ -32,57 +33,96 @@
       AU: "أستراليا", JP: "اليابان", CN: "الصين", IL: "إسرائيل",
     },
     type: {
-      academic_chair: "كرسي علمي",
+      // بحث وتعليم
       university_center: "مركز جامعي",
       university_department: "قسم جامعي",
+      academic_chair: "كرسي علمي",
       research_center: "مركز بحثي",
-      foundation_waqf: "مؤسسة/وقف",
-      museum: "متحف",
-      exhibition: "معرض",
-      library_archive: "مكتبة/أرشيف",
-      award: "جائزة",
+      foundation_waqf: "مؤسسة/وقف بحثي",
+      encyclopedia_project: "مشروع موسوعي",
+      // نشر ومعرفة
       publisher: "دار نشر",
       journal: "مجلة محكّمة",
-      conference_series: "مؤتمر دوري",
+      popular_magazine: "مجلة ثقافية/شعبية",
+      library_archive: "مكتبة/أرشيف",
+      // إعلام وجمهور
       digital_platform: "منصة رقمية",
-      podcast_series: "بودكاست",
-      encyclopedia_project: "مشروع موسوعي",
-      ministry_program: "برنامج وزاري",
+      production_studio: "شركة إنتاج",
+      tv_channel: "قناة متخصصة",
+      podcast_institutional: "بودكاست مؤسسي",
+      mobile_app: "تطبيق جوّال",
+      film_or_series: "فيلم/مسلسل بارز",
+      // متاحف وثقافة
+      museum: "متحف/معرض",
       mosque_program: "برنامج مسجدي",
-      individual_researcher: "باحث فرد",
+      islamic_center: "مركز ثقافي إسلامي",
+      // بنية مؤسسية
+      award: "جائزة",
+      grant: "منحة بحثية",
+      conference_series: "مؤتمر دوري",
+      ministry_program: "برنامج وزاري",
+      royal_initiative: "مبادرة ملكية/رئاسية",
+      // فاعلون أفراد
+      individual_researcher: "باحث أكاديمي",
+      popular_writer: "كاتب جماهيري",
+      digital_creator: "صانع محتوى رقمي",
+      reference_thinker: "مفكّر مرجعي",
     },
     type_group: {
-      academic: "أكاديمي",
-      research_center: "مركز بحثي",
-      museum_archive: "متحف/أرشيف",
-      award: "جائزة",
-      publisher: "دار نشر",
-      journal: "مجلة",
-      digital: "منصة رقمية",
-      conference: "مؤتمر",
-      program: "برنامج",
+      research_education: "🎓 بحث وتعليم",
+      publishing_knowledge: "📚 نشر ومعرفة",
+      media_audience: "📺 إعلام وجمهور",
+      museums_culture: "🏛 متاحف وثقافة",
+      institutional_infra: "⚙ بنية مؤسسية",
+      individual_actors: "👤 فاعلون أفراد",
+    },
+    subjects_category: {
+      classical_corpus: "📖 المتن السيري الكلاسيكي",
+      geography_space: "🗺 الجغرافيا والفضاء",
+      prophetic_demography: "👥 الديموغرافيا النبوية",
+      auxiliary_sciences: "🔬 العلوم المساعدة",
+      methodology_critique: "🧭 المنهج والنقد",
+      application_outreach: "🌱 التطبيق والنشر",
+      applied_jurisprudence: "⚖ الفقه التطبيقي",
     },
     subjects: {
+      // المتن السيري الكلاسيكي
       seerah_general: "السيرة العامة",
       maghazi: "المغازي",
       shamail: "الشمائل",
+      dalail_nubuwwa: "الدلائل والإعجاز",
+      khasais_nabawiyyah: "الخصائص النبوية",
+      // الجغرافيا والفضاء
       seerah_geography: "جغرافيا السيرة",
+      makkah_studies: "دراسات مكة",
+      madinah_studies: "دراسات المدينة",
+      // الديموغرافيا النبوية
       early_islam: "الإسلام المبكر",
       rashidun: "الراشدون",
+      tabaqat_companions: "طبقات الصحابة",
+      women_in_seerah: "النساء في السيرة",
+      wufud_diplomacy: "الوفود والديبلوماسية",
+      ahlulbayt: "أهل البيت",
+      ahl_al_sunna: "أهل السنة",
+      family_household: "الأسرة النبوية",
+      // العلوم المساعدة
       manuscripts: "المخطوطات",
       hadith_sciences: "علوم الحديث",
       sources_critique: "نقد المتون والأسانيد",
-      orientalism_critique: "نقد الاستشراق",
       historiography: "التأريخ",
+      // المنهج والنقد
       biography_methodology: "منهج السيرة",
-      ahlulbayt: "أهل البيت",
-      ahl_al_sunna: "أهل السنة",
+      orientalism_critique: "نقد الاستشراق",
+      comparative_religion: "السيرة المقارنة",
+      // التطبيق والنشر
       sufism_seerah: "السيرة الصوفية",
       seerah_pedagogy: "تعليم السيرة",
       youth_outreach: "السيرة للناشئة",
       digital_seerah: "السيرة الرقمية",
       tarjamah: "ترجمة السيرة",
-      comparative_religion: "السيرة المقارنة",
+      // الفقه التطبيقي
+      medicine_prophetic: "الطب النبوي",
+      seerah_in_quran: "السيرة في القرآن",
     },
     verification: {
       field_verified: "محقّق ميدانياً",
@@ -123,7 +163,10 @@
       conference: "مؤتمرات",
       lectures: "محاضرات",
       podcast: "بودكاست",
+      podcast_episode: "حلقات بودكاست",
       video: "فيديو",
+      documentary_film: "أفلام وثائقية",
+      tv_series: "مسلسلات",
       exhibition: "معارض",
       database: "قواعد بيانات",
       encyclopedia: "موسوعات",
@@ -131,6 +174,9 @@
       courses: "دورات",
       fatwa: "فتاوى",
       translation: "ترجمات",
+      mobile_app_output: "تطبيقات جوّال",
+      educational_game: "ألعاب تعليمية",
+      khutbah_archive: "أرشيف خطب",
     },
     languages: {
       ar: "العربية", en: "الإنجليزية", tr: "التركية", fa: "الفارسية",
@@ -159,6 +205,10 @@
       "04": "الجولة 4 — تركيا",
       "05": "الجولة 5 — العالم الإسلامي غير العربي",
       "06": "الجولة 6 — الاستشراق الغربي",
+      "08a": "الجولة 8-أ — جنوب آسيا",
+      "08b": "الجولة 8-ب — المسجدي والإفريقي",
+      "08c": "الجولة 8-ج — الإعلامي والرقمي",
+      "08d": "الجولة 8-د — الحوزوي/الشيعي",
     },
   };
 
@@ -185,10 +235,11 @@
       country: new Set(),
       type_group: new Set(),
       type: new Set(),
+      subjects_category: new Set(),
+      subjects: new Set(),
       inclusion_tier: new Set(),
       verification: new Set(),
       founded_decade: new Set(),
-      subjects: new Set(),
       languages: new Set(),
       output_types: new Set(),
       funding_type: new Set(),
@@ -201,20 +252,36 @@
   };
 
   const FACET_ORDER = [
-    "region", "country", "type_group", "type", "inclusion_tier", "verification",
-    "founded_decade", "subjects", "languages", "output_types",
-    "funding_type", "status", "scale", "round",
+    "type_group", "type",                                  // التصنيف الهرمي
+    "subjects_category", "subjects",                       // الموضوع الهرمي
+    "region", "country",                                   // الجغرافيا
+    "inclusion_tier", "verification",                      // الجودة
+    "founded_decade", "round",                             // الزمن
+    "languages", "output_types",                           // المحتوى
+    "funding_type", "status", "scale",                     // الخصائص
+  ];
+
+  // تجميع الفلاتر في أقسام لعرضها كمجموعات منفصلة في الشريط الجانبي
+  const FACET_SECTIONS = [
+    { title: "التصنيف", facets: ["type_group", "type"] },
+    { title: "الموضوع", facets: ["subjects_category", "subjects"] },
+    { title: "الجغرافيا", facets: ["region", "country"] },
+    { title: "الجودة", facets: ["inclusion_tier", "verification"] },
+    { title: "الزمن", facets: ["founded_decade", "round"] },
+    { title: "المحتوى", facets: ["languages", "output_types"] },
+    { title: "خصائص أخرى", facets: ["funding_type", "status", "scale"] },
   ];
 
   const FACET_TITLES = {
     region: "الإقليم",
     country: "الدولة",
-    type_group: "نوع الكيان (عام)",
+    type_group: "المجموعة الرئيسة",
     type: "النوع التفصيلي",
+    subjects_category: "المجموعة الموضوعية",
+    subjects: "الموضوع التفصيلي",
     inclusion_tier: "مستوى الإدراج",
     verification: "درجة التحقق",
     founded_decade: "عقد التأسيس",
-    subjects: "الموضوع",
     languages: "اللغة",
     output_types: "نوع الإنتاج",
     funding_type: "التمويل",
@@ -230,12 +297,21 @@
   // العقد: من الأحدث للأقدم (تنازلي زمنياً)
   // الجولة: تسلسل تاريخي 1→6
   const FACET_SEMANTIC_ORDER = {
-    region: ["arabia", "levant_iraq_nile", "maghreb", "turkey_anatolia", "non_arab_muslim_world", "western"],
+    region: ["arabia", "levant_iraq_nile", "maghreb", "turkey", "non_arab_muslim", "western", "global"],
+    type_group: [
+      "research_education", "publishing_knowledge", "media_audience",
+      "museums_culture", "institutional_infra", "individual_actors",
+    ],
+    subjects_category: [
+      "classical_corpus", "geography_space", "prophetic_demography",
+      "auxiliary_sciences", "methodology_critique",
+      "application_outreach", "applied_jurisprudence",
+    ],
     inclusion_tier: ["core", "borderline", "below_threshold"],
     verification: ["field_verified", "desk_verified", "needs_verification", "unverifiable"],
     scale: ["international", "regional", "national", "local"],
     status: ["active", "dormant", "suspended", "closed", "archived_digital"],
-    round: ["1", "2", "3", "4", "5", "6", 1, 2, 3, 4, 5, 6],
+    round: ["01", "02", "03", "04", "05", "06", "08a", "08b", "08c", "08d"],
     // العقد يرتَّب رقمياً تنازلياً في الكود (لا قائمة ثابتة)
   };
 
@@ -483,15 +559,12 @@
   function getColorForValue(facet, value) {
     if (facet === "type_group") {
       const map = {
-        academic: "var(--type-academic)",
-        research_center: "var(--type-research)",
-        museum_archive: "var(--type-museum)",
-        award: "var(--type-award)",
-        publisher: "var(--type-publisher)",
-        journal: "var(--type-journal)",
-        digital: "var(--type-digital)",
-        conference: "var(--type-conference)",
-        program: "var(--type-program)",
+        research_education:   "var(--type-research-education)",
+        publishing_knowledge: "var(--type-publishing-knowledge)",
+        media_audience:       "var(--type-media-audience)",
+        museums_culture:      "var(--type-museums-culture)",
+        institutional_infra:  "var(--type-institutional-infra)",
+        individual_actors:    "var(--type-individual-actors)",
       };
       return map[value] || null;
     }
@@ -520,9 +593,10 @@
     if (!container) return;
     container.innerHTML = "";
 
-    FACET_ORDER.forEach((facet) => {
+    // مساعد لبناء filter-group واحد — مُستخرَج لتجنّب التكرار
+    const buildOneFilterGroup = (facet) => {
       const counts = getFacetCounts(facet);
-      if (counts.size === 0) return;
+      if (counts.size === 0) return null;
 
       const group = document.createElement("div");
       group.className = "filter-group";
@@ -610,7 +684,79 @@
       });
 
       group.appendChild(list);
-      container.appendChild(group);
+      return group;
+    };
+
+    // ابنِ الفلاتر داخل أقسام (sections) لتجميع منطقي
+    FACET_SECTIONS.forEach((section) => {
+      const sectionGroups = section.facets
+        .map((f) => buildOneFilterGroup(f))
+        .filter(Boolean);
+      if (sectionGroups.length === 0) return;
+
+      const sectionEl = document.createElement("div");
+      sectionEl.className = "filters__section";
+      const sectionTitle = document.createElement("h3");
+      sectionTitle.className = "filters__section-title";
+      sectionTitle.textContent = section.title;
+      sectionEl.appendChild(sectionTitle);
+      sectionGroups.forEach((g) => sectionEl.appendChild(g));
+      container.appendChild(sectionEl);
+    });
+
+    // كذلك ابنِ شريط شارات المجموعات الرئيسة فوق الشبكة
+    buildCategoriesNav();
+  }
+
+  // === شارات المجموعات الرئيسة فوق شبكة البطاقات ===
+  function buildCategoriesNav() {
+    const nav = document.querySelector(".categories-nav");
+    if (!nav) return;
+    const counts = getFacetCounts("type_group");
+    if (counts.size === 0) return;
+
+    // ترتيب المجموعات حسب الـ semantic order إن وُجد
+    const orderedKeys = [
+      "research_education", "publishing_knowledge", "media_audience",
+      "museums_culture", "institutional_infra", "individual_actors",
+    ];
+
+    nav.innerHTML = "";
+
+    // "الكل"
+    const allBadge = document.createElement("button");
+    allBadge.type = "button";
+    allBadge.className = "category-badge category-badge--all";
+    if (state.filters.type_group.size === 0) allBadge.classList.add("is-active");
+    allBadge.innerHTML = `الكل <span class="category-badge__count">${state.entities.length}</span>`;
+    allBadge.addEventListener("click", () => {
+      state.filters.type_group.clear();
+      syncHash();
+      render();
+    });
+    nav.appendChild(allBadge);
+
+    orderedKeys.forEach((key) => {
+      const count = counts.get(key) || 0;
+      if (count === 0) return;
+      const badge = document.createElement("button");
+      badge.type = "button";
+      badge.className = "category-badge";
+      const color = getColorForValue("type_group", key);
+      if (color) badge.style.setProperty("--badge-color", color);
+      if (state.filters.type_group.has(key)) badge.classList.add("is-active");
+      badge.innerHTML = `${escapeHtml(label("type_group", key))}<span class="category-badge__count">${count}</span>`;
+      badge.addEventListener("click", () => {
+        if (state.filters.type_group.has(key)) {
+          state.filters.type_group.delete(key);
+        } else {
+          state.filters.type_group.clear();
+          state.filters.type_group.add(key);
+        }
+        syncHash();
+        render();
+      });
+      nav.appendChild(badge);
     });
   }
 
@@ -676,6 +822,7 @@
     const filtered = getFiltered();
     renderResultsHeader(filtered.length);
     renderGrid(filtered);
+    buildCategoriesNav();  // حدّث الحالة النشطة للشارات
   }
 
   function renderResultsHeader(filteredCount) {
@@ -898,7 +1045,8 @@
     const modal = document.querySelector(".entity-modal");
     if (!modal) return;
 
-    const accent = `var(--type-${entity.type_group === "research_center" ? "research" : entity.type_group === "museum_archive" ? "museum" : entity.type_group})`;
+    // المجموعات الستّ الجديدة → CSS variable مباشرة (research_education → --type-research-education)
+    const accent = `var(--type-${(entity.type_group || "").replace(/_/g, "-")})`;
     modal.style.setProperty("--card-accent", accent);
 
     modal.querySelector(".entity-modal__type").textContent = label("type", entity.type);
@@ -1384,18 +1532,27 @@
     turkey: "#7B3B7B",
     non_arab_muslim: "#5B7B3E",
     western: "#B86E3B",
+    global: "#3A3A3A",
   };
 
+  // ألوان المجموعات الستّ الجديدة (v2 hierarchical)
   const PALETTE_TYPE_GROUPS = {
-    academic: "#3B70A8",
-    research_center: "#5B7B3E",
-    museum_archive: "#C9A646",
-    award: "#7B3B7B",
-    publisher: "#B86E3B",
-    journal: "#8B2929",
-    digital: "#4A4A4A",
-    conference: "#2A7F62",
-    program: "#6B5B95",
+    research_education: "#3B70A8",    // أزرق علمي
+    publishing_knowledge: "#8B2929",  // أحمر-كستنائي للنشر
+    media_audience: "#4A4A4A",        // رمادي رقمي
+    museums_culture: "#C9A646",       // ذهبي تراثي
+    institutional_infra: "#6B5B95",   // بنفسجي مؤسسي
+    individual_actors: "#2A7F62",     // أخضر فاعل
+  };
+
+  const PALETTE_SUBJECTS_CATEGORY = {
+    classical_corpus: "#0A4D68",
+    geography_space: "#5B7B3E",
+    prophetic_demography: "#7B3B7B",
+    auxiliary_sciences: "#8B2929",
+    methodology_critique: "#6B5B95",
+    application_outreach: "#2A7F62",
+    applied_jurisprudence: "#B86E3B",
   };
 
   const PALETTE_TIERS = {

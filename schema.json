@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "Seerah Encyclopedia — Entity Card Schema",
-  "description": "بطاقة كيان متخصص في خدمة السيرة النبوية. حقول غنية بالـ facets لتمكين الربط الضمني التشعبي بين البطاقات.",
+  "title": "Seerah Encyclopedia — Entity Card Schema (v2: Hierarchical)",
+  "description": "بطاقة كيان متخصص في خدمة السيرة النبوية. الإصدار 2 يدخل تصنيفاً هرمياً: type_group (6 مجموعات رئيسية) → type (28 نوعاً فرعياً)، subjects_category (7 مجموعات موضوعية) → subjects (26+ موضوعاً).",
   "type": "object",
   "required": [
     "id", "round", "name_ar", "type", "type_group",
@@ -10,48 +10,55 @@
   "properties": {
     "id": {
       "type": "string",
-      "pattern": "^(ARB|LEV|MAG|TUR|NAM|WEST)-\\d{3}$",
-      "description": "بادئة إقليمية (ARB/LEV/MAG/TUR/NAM/WEST) + رقم تسلسلي ثلاثي داخل الإقليم"
+      "pattern": "^(ARB|LEV|MAG|TUR|NAM|WEST|GLB)-\\d{3,4}$",
+      "description": "بادئة إقليمية + رقم تسلسلي. GLB للكيانات العابرة للأقاليم. 4 خانات تتيح التوسعة."
     },
     "round": {
       "type": "string",
-      "enum": ["01", "02", "03", "04", "05", "06"]
+      "enum": ["01", "02", "03", "04", "05", "06", "08a", "08b", "08c", "08d"]
     },
     "name_ar": { "type": "string" },
-    "name_en": { "type": "string", "description": "اختياري؛ للبحث بالـ transliteration الأكاديمي" },
-    "aka": { "type": "array", "items": { "type": "string" }, "description": "أسماء بديلة أو اختصارات" },
+    "name_en": { "type": "string" },
+    "aka": { "type": "array", "items": { "type": "string" } },
+
+    "type_group": {
+      "type": "string",
+      "enum": [
+        "research_education",
+        "publishing_knowledge",
+        "media_audience",
+        "museums_culture",
+        "institutional_infra",
+        "individual_actors"
+      ],
+      "description": "المجموعة الرئيسة (6). كل type يُشتق منها."
+    },
 
     "type": {
       "type": "string",
       "enum": [
-        "academic_chair", "university_center", "university_department",
-        "research_center", "foundation_waqf",
-        "museum", "exhibition", "library_archive",
-        "award",
-        "publisher",
-        "journal",
-        "conference_series",
-        "digital_platform", "podcast_series",
-        "encyclopedia_project",
-        "ministry_program", "mosque_program",
-        "individual_researcher"
+        "university_center", "university_department", "academic_chair",
+        "research_center", "foundation_waqf", "encyclopedia_project",
+        "publisher", "journal", "popular_magazine", "library_archive",
+        "digital_platform", "production_studio", "tv_channel",
+        "podcast_institutional", "mobile_app", "film_or_series",
+        "museum", "mosque_program", "islamic_center",
+        "award", "grant", "conference_series",
+        "ministry_program", "royal_initiative",
+        "individual_researcher", "popular_writer",
+        "digital_creator", "reference_thinker"
       ]
     },
-    "type_group": {
-      "type": "string",
-      "enum": ["academic", "research_center", "museum_archive", "award", "publisher", "journal", "digital", "conference", "program"],
-      "description": "تصنيف لوني مرئي. يُشتق من type"
-    },
 
-    "country": { "type": "string", "description": "ISO 3166-1 alpha-2 (SA, EG, MA, TR, UK, …)" },
+    "country": { "type": "string", "description": "ISO 3166-1 alpha-2" },
     "city_ar": { "type": "string" },
     "region": {
       "type": "string",
-      "enum": ["arabia", "levant_iraq_nile", "maghreb", "turkey", "non_arab_muslim", "western"]
+      "enum": ["arabia", "levant_iraq_nile", "maghreb", "turkey", "non_arab_muslim", "western", "global"]
     },
 
-    "founded": { "type": ["integer", "null"], "description": "سنة التأسيس" },
-    "founded_decade": { "type": ["string", "null"], "description": "مشتق: 2010s, 2020s, …" },
+    "founded": { "type": ["integer", "null"] },
+    "founded_decade": { "type": ["string", "null"] },
     "status": {
       "type": "string",
       "enum": ["active", "dormant", "suspended", "closed", "archived_digital"]
@@ -67,37 +74,61 @@
       "type": "array",
       "items": {
         "type": "string",
-        "enum": ["journal", "books", "conference", "lectures", "podcast", "video", "exhibition", "database", "encyclopedia", "manuscripts", "courses", "fatwa", "translation"]
+        "enum": [
+          "journal", "books", "conference", "lectures",
+          "podcast_episode", "video", "documentary_film", "tv_series",
+          "exhibition", "database", "encyclopedia", "manuscripts",
+          "courses", "fatwa", "translation",
+          "mobile_app_output", "educational_game", "khutbah_archive"
+        ]
       }
     },
+
     "languages": {
       "type": "array",
-      "items": { "type": "string", "description": "ISO 639-1 (ar, en, tr, fa, ur, fr, de, …)" }
+      "items": { "type": "string" }
     },
+
+    "subjects_category": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "classical_corpus",
+          "geography_space",
+          "prophetic_demography",
+          "auxiliary_sciences",
+          "methodology_critique",
+          "application_outreach",
+          "applied_jurisprudence"
+        ]
+      },
+      "description": "حقل مشتق: المجموعات الموضوعية المغطّاة (يُحسب تلقائياً من subjects)"
+    },
+
     "subjects": {
       "type": "array",
-      "description": "مفردات مضبوطة — تُحدَّث عند الحاجة",
       "items": {
         "type": "string",
         "enum": [
           "seerah_general", "maghazi", "shamail",
-          "seerah_geography",
+          "dalail_nubuwwa", "khasais_nabawiyyah",
+          "seerah_geography", "makkah_studies", "madinah_studies",
           "early_islam", "rashidun",
-          "manuscripts", "hadith_sciences",
-          "sources_critique", "orientalism_critique",
-          "historiography", "biography_methodology",
-          "ahlulbayt", "ahl_al_sunna",
-          "sufism_seerah", "seerah_pedagogy",
-          "youth_outreach", "digital_seerah",
-          "tarjamah", "comparative_religion"
+          "tabaqat_companions", "women_in_seerah", "wufud_diplomacy",
+          "ahlulbayt", "ahl_al_sunna", "family_household",
+          "manuscripts", "hadith_sciences", "sources_critique", "historiography",
+          "biography_methodology", "orientalism_critique", "comparative_religion",
+          "sufism_seerah", "seerah_pedagogy", "youth_outreach",
+          "digital_seerah", "tarjamah",
+          "medicine_prophetic", "seerah_in_quran"
         ]
       }
     },
 
     "key_figures": {
       "type": "array",
-      "items": { "type": "string" },
-      "description": "فقط من له دور هيكلي: مؤسس، مدير، رئيس تحرير، شاغل كرسي، أمين عام. لا يُذكر هنا كل من نشر مرة."
+      "items": { "type": "string" }
     },
     "parent_organization_ar": { "type": "string" },
     "funding_type": {
@@ -111,7 +142,7 @@
         "type": "object",
         "required": ["target", "type"],
         "properties": {
-          "target": { "type": "string", "description": "id بطاقة أخرى" },
+          "target": { "type": "string" },
           "type": {
             "type": "string",
             "enum": ["parent_of", "child_of", "partner", "successor_of", "predecessor_of", "member_of_network", "publisher_of", "cited_in", "translated_by"]
@@ -121,18 +152,16 @@
       }
     },
 
-    "description_ar": { "type": "string", "description": "2-4 أسطر" },
-    "notes_ar": { "type": "string", "description": "تحفّظات، تعارضات بيانات، ملاحظات منهجية" },
+    "description_ar": { "type": "string" },
+    "notes_ar": { "type": "string" },
 
     "verification": {
       "type": "string",
-      "enum": ["field_verified", "desk_verified", "needs_verification", "unverifiable"],
-      "description": "جودة البيانات فقط (هل الكيان موثَّق؟)"
+      "enum": ["field_verified", "desk_verified", "needs_verification", "unverifiable"]
     },
     "inclusion_tier": {
       "type": "string",
-      "enum": ["core", "borderline", "below_threshold"],
-      "description": "قوة تخصص الكيان في السيرة: core = تخصص أصلي؛ borderline = حدّي (تخصصه السنة/الحديث/إلخ والسيرة جزء)؛ below_threshold = تحت العتبة (السيرة هامش لا محور)"
+      "enum": ["core", "borderline", "below_threshold"]
     },
     "sources": {
       "type": "array",
@@ -142,7 +171,7 @@
         "required": ["round_file"],
         "properties": {
           "round_file": { "type": "string" },
-          "anchor": { "type": "string", "description": "عنوان قسم أو رقم/كلمة دالة" }
+          "anchor": { "type": "string" }
         }
       }
     },
