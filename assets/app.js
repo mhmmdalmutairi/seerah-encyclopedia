@@ -184,10 +184,13 @@
       region: new Set(),
       country: new Set(),
       type_group: new Set(),
+      type: new Set(),
       inclusion_tier: new Set(),
       verification: new Set(),
       founded_decade: new Set(),
       subjects: new Set(),
+      languages: new Set(),
+      output_types: new Set(),
       funding_type: new Set(),
       status: new Set(),
       scale: new Set(),
@@ -198,22 +201,42 @@
   };
 
   const FACET_ORDER = [
-    "region", "country", "type_group", "inclusion_tier", "verification",
-    "founded_decade", "subjects", "funding_type", "status", "scale", "round",
+    "region", "country", "type_group", "type", "inclusion_tier", "verification",
+    "founded_decade", "subjects", "languages", "output_types",
+    "funding_type", "status", "scale", "round",
   ];
 
   const FACET_TITLES = {
     region: "الإقليم",
     country: "الدولة",
-    type_group: "نوع الكيان",
+    type_group: "نوع الكيان (عام)",
+    type: "النوع التفصيلي",
     inclusion_tier: "مستوى الإدراج",
     verification: "درجة التحقق",
     founded_decade: "عقد التأسيس",
     subjects: "الموضوع",
+    languages: "اللغة",
+    output_types: "نوع الإنتاج",
     funding_type: "التمويل",
     status: "الحالة",
     scale: "النطاق",
     round: "الجولة",
+  };
+
+  // ترتيب دلالي للفلاتر — يُستخدم في buildFilters بدل ترتيب العدد
+  // الأقاليم: من الجزيرة العربية شرقاً ثم الشام ثم المغرب
+  // مستوى الإدراج: من الأقوى للأضعف
+  // التحقق: من الأعلى جودة للأدنى
+  // العقد: من الأحدث للأقدم (تنازلي زمنياً)
+  // الجولة: تسلسل تاريخي 1→6
+  const FACET_SEMANTIC_ORDER = {
+    region: ["arabia", "levant_iraq_nile", "maghreb", "turkey_anatolia", "non_arab_muslim_world", "western"],
+    inclusion_tier: ["core", "borderline", "below_threshold"],
+    verification: ["field_verified", "desk_verified", "needs_verification", "unverifiable"],
+    scale: ["international", "regional", "national", "local"],
+    status: ["active", "dormant", "suspended", "closed", "archived_digital"],
+    round: ["1", "2", "3", "4", "5", "6", 1, 2, 3, 4, 5, 6],
+    // العقد يرتَّب رقمياً تنازلياً في الكود (لا قائمة ثابتة)
   };
 
   // ============================================================
@@ -407,7 +430,12 @@
       const response = await fetch("data.json");
       if (!response.ok) throw new Error("HTTP " + response.status);
       const data = await response.json();
-      state.entities = Array.isArray(data.entities) ? data.entities : [];
+      // استبعد كيانات "توثيق فجوة" — هي توصيف لمنطقة لا كيان فيها،
+      // ليست كياناً مؤسسياً. نحتفظ بها للتشخيص لاحقاً لكن لا تُعدّ في الإجمالي.
+      const rawEntities = Array.isArray(data.entities) ? data.entities : [];
+      const gapMarker = (e) => /^\[توثيق فجوة\]/i.test(e?.name_ar || "");
+      state.gapMarkers = rawEntities.filter(gapMarker);
+      state.entities = rawEntities.filter((e) => !gapMarker(e));
       state.loaded = true;
 
       // تحديث العدادات في الهيدر والتبويب
@@ -514,7 +542,25 @@
       const list = document.createElement("div");
       list.className = "filter-group__options";
 
-      const sortedEntries = Array.from(counts.entries()).sort((a, b) => b[1] - a[1]);
+      let sortedEntries;
+      const semantic = FACET_SEMANTIC_ORDER[facet];
+      if (facet === "founded_decade") {
+        // ترتيب زمني تنازلي: 2020s، 2010s، ...
+        sortedEntries = Array.from(counts.entries())
+          .sort((a, b) => parseInt(String(b[0])) - parseInt(String(a[0])));
+      } else if (semantic) {
+        // ترتيب دلالي حسب القائمة + غيرها في النهاية
+        const rank = new Map();
+        semantic.forEach((v, i) => rank.set(String(v), i));
+        sortedEntries = Array.from(counts.entries()).sort((a, b) => {
+          const ra = rank.has(String(a[0])) ? rank.get(String(a[0])) : 999;
+          const rb = rank.has(String(b[0])) ? rank.get(String(b[0])) : 999;
+          return ra - rb || b[1] - a[1];
+        });
+      } else {
+        // الافتراضي: ترتيب حسب العدد تنازلياً
+        sortedEntries = Array.from(counts.entries()).sort((a, b) => b[1] - a[1]);
+      }
       sortedEntries.forEach(([value, count]) => {
         const optLabel = document.createElement("label");
         optLabel.className = "filter-option";
@@ -932,28 +978,57 @@
       body.appendChild(section);
     }
 
-    // اللغات
+    // اللغات — قابلة للنقر لتصبح فلتراً
     if (entity.languages && entity.languages.length) {
       const tags = entity.languages.map((l) =>
-        `<span class="tag-list__item">${escapeHtml(label("languages", l))}</span>`
+        `<span class="tag-list__item" data-facet="languages" data-value="${l}">${escapeHtml(label("languages", l))}</span>`
       ).join("");
-      body.appendChild(modalSection("اللغات", `<div class="tag-list">${tags}</div>`));
+      const section = modalSection("اللغات", `<div class="tag-list">${tags}</div>`);
+      section.querySelectorAll(".tag-list__item").forEach((el) => {
+        el.addEventListener("click", () => {
+          closeModal();
+          addFilter("languages", el.dataset.value);
+        });
+      });
+      body.appendChild(section);
     }
 
-    // المخرجات
+    // المخرجات — قابلة للنقر
     if (entity.output_types && entity.output_types.length) {
       const tags = entity.output_types.map((o) =>
-        `<span class="tag-list__item">${escapeHtml(label("output_types", o))}</span>`
+        `<span class="tag-list__item" data-facet="output_types" data-value="${o}">${escapeHtml(label("output_types", o))}</span>`
       ).join("");
-      body.appendChild(modalSection("نوع الإنتاج", `<div class="tag-list">${tags}</div>`));
+      const section = modalSection("نوع الإنتاج", `<div class="tag-list">${tags}</div>`);
+      section.querySelectorAll(".tag-list__item").forEach((el) => {
+        el.addEventListener("click", () => {
+          closeModal();
+          addFilter("output_types", el.dataset.value);
+        });
+      });
+      body.appendChild(section);
     }
 
-    // الشخصيات
+    // الشخصيات — نقرة = بحث نصّي بالاسم
     if (entity.key_figures && entity.key_figures.length) {
       const tags = entity.key_figures.map((p) =>
-        `<span class="tag-list__item">${escapeHtml(p)}</span>`
+        `<span class="tag-list__item is-person" data-name="${escapeHtml(p)}">${escapeHtml(p)}</span>`
       ).join("");
-      body.appendChild(modalSection("الشخصيات البارزة", `<div class="tag-list">${tags}</div>`));
+      const section = modalSection("الشخصيات البارزة", `<div class="tag-list">${tags}</div>`);
+      section.querySelectorAll(".tag-list__item").forEach((el) => {
+        el.addEventListener("click", () => {
+          closeModal();
+          const tabs = Array.from(document.querySelectorAll(".tab"));
+          const panels = Array.from(document.querySelectorAll(".panel"));
+          activateTab("entities", tabs, panels);
+          safeSetItem(STORAGE_KEY, "entities");
+          state.query = el.dataset.name;
+          const search = document.querySelector(".search-input");
+          if (search) search.value = el.dataset.name;
+          render();
+          window.scrollTo({ top: 0, behavior: "smooth" });
+        });
+      });
+      body.appendChild(section);
     }
 
     // المؤسسة الأم
@@ -1454,13 +1529,13 @@
     wrap.className = "charts";
 
     wrap.appendChild(buildWorldMap());
+    wrap.appendChild(buildProfilesIndex());      // مرتبة عالياً للظهور بوضوح
     wrap.appendChild(buildPieRegions());
     wrap.appendChild(buildBarTypeGroups());
     wrap.appendChild(buildTimelineDecades());
     wrap.appendChild(buildBarCountries());
     wrap.appendChild(buildHeatmapRegionSubject());
     wrap.appendChild(buildStackedTierVerification());
-    wrap.appendChild(buildProfilesIndex());
     wrap.appendChild(buildTimelineImmersive());
 
     return wrap;
@@ -3199,18 +3274,42 @@
         const tabs = Array.from(document.querySelectorAll(".tab"));
         const panels = Array.from(document.querySelectorAll(".panel"));
         activateTab(b.dataset.tab, tabs, panels);
-        nav.querySelectorAll("button").forEach((x) => x.classList.toggle("is-active", x === b));
+        syncMobileNavActive();
       });
     });
-    // الافتراضي
-    const activeName = document.querySelector(".tab.is-active")?.dataset.tab;
-    if (activeName) {
-      const btn = nav.querySelector(`[data-tab="${activeName}"]`);
-      if (btn) btn.classList.add("is-active");
+    syncMobileNavActive();
+
+    // مراقب: يحدّث التنقّل السفلي تلقائياً عند أي تغيير في .tab.is-active
+    // (مثلاً من بطاقات استشهادية، من URL hash، من overlay البحث، …)
+    const tabsContainer = document.querySelector(".tabs");
+    if (tabsContainer && window.MutationObserver) {
+      const mo = new MutationObserver(() => syncMobileNavActive());
+      mo.observe(tabsContainer, {
+        subtree: true,
+        attributes: true,
+        attributeFilter: ["class", "aria-selected"],
+      });
     }
   }
 
-  // === زر فلاتر للموبايل ===
+  function syncMobileNavActive() {
+    const nav = document.querySelector(".mobile-nav");
+    if (!nav) return;
+    const activeName = document.querySelector(".tab.is-active")?.dataset.tab;
+    nav.querySelectorAll("button").forEach((b) => {
+      b.classList.toggle("is-active", b.dataset.tab === activeName);
+    });
+    // إخفاء زر الفلاتر خارج تبويب الكيانات
+    const filtersToggle = document.querySelector(".filters__toggle");
+    if (filtersToggle) {
+      filtersToggle.style.display = activeName === "entities" ? "" : "none";
+    }
+    // إغلاق الـ drawer إذا انتقلنا لتبويب آخر
+    const filters = document.querySelector(".filters");
+    if (filters && activeName !== "entities") filters.classList.remove("is-open");
+  }
+
+  // === زر فلاتر للموبايل — يظهر فقط في تبويب الكيانات ===
   function initMobileFiltersToggle() {
     if (document.querySelector(".filters__toggle")) return;
     const btn = document.createElement("button");
@@ -3221,6 +3320,9 @@
       if (filters) filters.classList.toggle("is-open");
     });
     document.body.appendChild(btn);
+    // الإخفاء الأوّلي إن لم نكن في تبويب الكيانات
+    const activeName = document.querySelector(".tab.is-active")?.dataset.tab;
+    if (activeName !== "entities") btn.style.display = "none";
   }
 
   // === ربط الـ theme toggle بالهيدر ===
