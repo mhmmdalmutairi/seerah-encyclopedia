@@ -4535,33 +4535,41 @@
 
   function loadDocxLib() {
     if (docxLibLoaded) return docxLibLoaded;
-    // CDNs مرتّبة: unpkg أوّلاً (text/javascript صحيح)، ثم fallback إلى fetch+blob
-    // (يلتقط المصدر كنصّ ثم يُشغّله، فيتجاوز قيود MIME أو حظر CDN).
-    const cdnUrls = [
+    // المسار المحلّي (في repo نفسه — يعمل دائماً، بلا اعتماد على CDN خارجي).
+    // الـ CDNs محتفظ بها كاحتياط إذا تعطّل الملف المحلّي لأي سبب.
+    const sources = [
+      "assets/vendor/docx-9.6.1.umd.js",
       "https://unpkg.com/docx@9.6.1/dist/index.umd.cjs",
       "https://cdn.jsdelivr.net/npm/docx@9.6.1/dist/index.umd.cjs",
     ];
     docxLibLoaded = (async () => {
       if (window.docx) return window.docx;
 
-      // 1) محاولة <script src> مباشرة من unpkg
-      try {
-        await new Promise((resolve, reject) => {
-          const s = document.createElement("script");
-          s.src = cdnUrls[0];
-          s.async = true;
-          s.onload = resolve;
-          s.onerror = () => reject(new Error("script onerror"));
-          document.head.appendChild(s);
-        });
-        if (window.docx) return window.docx;
-      } catch (_) { /* جرّب الـ fallback */ }
+      const errors = [];
 
-      // 2) Fallback: fetch المصدر كنصّ ثم نفّذه عبر blob URL (يتجاوز MIME nosniff)
-      for (const url of cdnUrls) {
+      // 1) محاولة <script src> مباشرة من كل مصدر
+      for (const url of sources) {
+        try {
+          await new Promise((resolve, reject) => {
+            const s = document.createElement("script");
+            s.src = url;
+            s.async = true;
+            s.onload = resolve;
+            s.onerror = () => reject(new Error("script onerror"));
+            document.head.appendChild(s);
+          });
+          if (window.docx) return window.docx;
+          errors.push(`${url}: script loaded but window.docx undefined`);
+        } catch (e) {
+          errors.push(`${url}: ${e.message}`);
+        }
+      }
+
+      // 2) Fallback: fetch ثم blob URL (يتجاوز MIME nosniff)
+      for (const url of sources) {
         try {
           const res = await fetch(url);
-          if (!res.ok) continue;
+          if (!res.ok) { errors.push(`${url}: HTTP ${res.status}`); continue; }
           const src = await res.text();
           const blob = new Blob([src], { type: "text/javascript" });
           const blobUrl = URL.createObjectURL(blob);
@@ -4574,10 +4582,14 @@
           });
           URL.revokeObjectURL(blobUrl);
           if (window.docx) return window.docx;
-        } catch (_) { /* جرّب الـ CDN التالي */ }
+          errors.push(`${url} (blob): loaded but window.docx undefined`);
+        } catch (e) {
+          errors.push(`${url} (blob): ${e.message}`);
+        }
       }
 
-      throw new Error("تعذّر تحميل مكتبة docx — جرّب لاحقاً أو افحص اتصال الإنترنت");
+      console.error("[docx loader] all sources failed:", errors);
+      throw new Error("تعذّر تحميل مكتبة docx (راجع وحدة التحكّم Console للتفاصيل)");
     })();
     return docxLibLoaded;
   }
