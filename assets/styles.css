@@ -859,6 +859,87 @@ p {
   color: var(--color-text);
 }
 
+/* قص نصوص الفلاتر الطويلة على أي مقاس */
+.filter-option__text {
+  flex: 1;
+  min-inline-size: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* === تكييف الفلاتر الهرمية لشاشات التابلت والجوال === */
+/* md (≤1024px): الفلاتر تنتقل إلى drawer منزلق — تكييف الإزاحات */
+@media (max-width: 1024px) {
+  .filter-node__children {
+    padding-inline-start: var(--space-md);   /* بدلاً من lg */
+    margin-inline-start: var(--space-xs);
+  }
+  .filter-node__toggle {
+    inline-size: 32px;
+    block-size: 32px;
+    font-size: var(--text-lg);
+  }
+}
+
+/* sm (≤768px): تكثيف إضافي + لمس مريح */
+@media (max-width: 768px) {
+  .filters__section {
+    margin-block-end: var(--space-sm);
+    padding-block-end: var(--space-sm);
+  }
+  .filters__section-title {
+    font-size: var(--text-xs);
+    margin-block-end: var(--space-2xs);
+  }
+  .filter-node {
+    border-inline-start-width: 1px;
+  }
+  .filter-node__parent {
+    padding-inline: var(--space-3xs);
+  }
+  .filter-option {
+    padding: var(--space-xs) var(--space-2xs);
+    min-block-size: 40px;
+    font-size: var(--text-sm);
+  }
+  .filter-option input[type="checkbox"] {
+    inline-size: 20px;
+    block-size: 20px;
+  }
+  .filter-option--child {
+    font-size: var(--text-sm);
+    padding-inline-start: var(--space-2xs);
+  }
+  .filter-option__count {
+    font-size: var(--text-xs);
+  }
+  /* Drawer داخلي: السماح بالطول الكامل */
+  .filters {
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+/* xs (≤480px): إزاحة الأبناء أقل، خط أصغر، touch targets ≥44px */
+@media (max-width: 480px) {
+  .filter-node__children {
+    padding-inline-start: var(--space-sm);
+    margin-inline-start: var(--space-2xs);
+  }
+  .filter-option--child::before {
+    inset-inline-start: 0;
+    font-size: 10px;
+  }
+  .filter-node__toggle {
+    inline-size: 44px;
+    block-size: 44px;
+  }
+  .filter-group__title {
+    min-block-size: 44px;
+  }
+}
+
 /* شريط شارات المجموعات الرئيسة فوق شبكة البطاقات */
 .categories-nav {
   display: flex;
