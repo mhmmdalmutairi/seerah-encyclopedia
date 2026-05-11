@@ -2,7 +2,7 @@
   "project": "seerah-encyclopedia",
   "description": "مسح موسوعي للكيانات المتخصصة في خدمة السيرة النبوية، موزّعاً على سبع جولات بحثية",
   "language": "ar",
-  "totalEntities": 429,
+  "totalEntities": 454,
   "rounds": [
     {
       "id": "01",
@@ -83,9 +83,20 @@
       "region_ar": "جنوب آسيا",
       "region_en": "South Asia",
       "entityCount": 30,
-      "share": 0.070,
+      "share": 0.066,
       "type": "gap-filling-research",
       "note": "دفعة أولى من جولة سدّ الفجوة الجنوب-آسيوية بعد التشخيص. تستهدف ضعف التغطية الأصلية للجولة 5 (10 PK + 4 IN + 2 BD + 0 AF فقط)."
+    },
+    {
+      "id": "08c",
+      "file": "round-08c-media-digital.md",
+      "title_ar": "جولة 8-ج — الإعلامي والرقمي والإنتاجي",
+      "region_ar": "عابر للأقاليم — إعلامي رقمي",
+      "region_en": "Cross-Regional — Media & Digital",
+      "entityCount": 25,
+      "share": 0.055,
+      "type": "gap-filling-research",
+      "note": "يفعّل أنواع Schema v2 الجديدة: film_or_series, production_studio, tv_channel, digital_platform, mobile_app, digital_creator. يضيف بادئة GLB- للكيانات العابرة للأقاليم."
     }
   ]
 }

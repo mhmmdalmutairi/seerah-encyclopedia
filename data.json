@@ -9,7 +9,8 @@
     "04",
     "05",
     "06",
-    "08a"
+    "08a",
+    "08c"
   ],
   "entities": [
     {
@@ -17633,7 +17634,1180 @@
           "anchor": "NAM-093 — Markazud Dawah BD"
         }
       ]
+    },
+    {
+      "id": "ARB-053",
+      "round": "08c",
+      "name_ar": "مسلسل عمر (MBC، 2012)",
+      "name_en": "Omar (TV Series, MBC, 2012)",
+      "type": "film_or_series",
+      "type_group": "media_audience",
+      "country": "SA",
+      "city_ar": "الرياض",
+      "region": "arabia",
+      "founded": 2012,
+      "founded_decade": "2010s",
+      "status": "active",
+      "scale": "international",
+      "parent_organization_ar": "مجموعة MBC",
+      "funding_type": "private",
+      "subjects": [
+        "rashidun",
+        "early_islam",
+        "historiography",
+        "tabaqat_companions"
+      ],
+      "subjects_category": [
+        "prophetic_demography",
+        "auxiliary_sciences"
+      ],
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [
+        "tv_series"
+      ],
+      "description_ar": "إنتاج درامي تاريخي عربي ضخم، 31 حلقة، 200 مليون ريال، إخراج حاتم علي. يصوّر حياة عمر بن الخطاب من سنه 18 حتى وفاته. تجاوز 30,000 ممثل وطاقم من 10 دول، 300 يوم تصوير.",
+      "key_figures": [
+        "حاتم علي (إخراج)",
+        "شادي أبو",
+        "ولا الدين إبراهيم (سيناريو)"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "sources": [
+        {
+          "round_file": "round-08c-media-digital.md",
+          "anchor": "ARB-053 — Omar Series"
+        }
+      ]
+    },
+    {
+      "id": "ARB-054",
+      "round": "08c",
+      "name_ar": "مسلسل معاوية (MBC Studios، 2025)",
+      "name_en": "Muawiya (TV Series, MBC Studios, 2025)",
+      "type": "film_or_series",
+      "type_group": "media_audience",
+      "country": "SA",
+      "city_ar": "الرياض",
+      "region": "arabia",
+      "founded": 2025,
+      "founded_decade": "2020s",
+      "status": "active",
+      "scale": "international",
+      "parent_organization_ar": "MBC Studios",
+      "funding_type": "private",
+      "subjects": [
+        "rashidun",
+        "early_islam",
+        "historiography",
+        "ahl_al_sunna"
+      ],
+      "subjects_category": [
+        "prophetic_demography",
+        "auxiliary_sciences"
+      ],
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [
+        "tv_series"
+      ],
+      "description_ar": "بميزانية 100 مليون دولار، أكبر إنتاج درامي عربي حتى تاريخه. يصوّر حياة معاوية بن أبي سفيان مؤسس الخلافة الأموية. صُوّر في تونس (استوديوهات الحمامات + القيروان + المهدية + المنستير + نابل). أحدث جدلاً سياسياً وطائفياً.",
+      "key_figures": [
+        "محمد الياسري (سيناريو)",
+        "خالد صلاح",
+        "بشّار عباس",
+        "أحمد مدحت (إخراج)",
+        "لجين إسماعيل (دور معاوية)"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "sources": [
+        {
+          "round_file": "round-08c-media-digital.md",
+          "anchor": "ARB-054 — Muawiya Series"
+        }
+      ]
+    },
+    {
+      "id": "ARB-055",
+      "round": "08c",
+      "name_ar": "فيلم بلال: بطل من نوع جديد (2015)",
+      "name_en": "Bilal: A New Breed of Hero (2015)",
+      "type": "film_or_series",
+      "type_group": "media_audience",
+      "country": "AE",
+      "city_ar": "دبي",
+      "region": "arabia",
+      "founded": 2015,
+      "founded_decade": "2010s",
+      "status": "active",
+      "scale": "international",
+      "parent_organization_ar": "Barajoun Entertainment",
+      "funding_type": "mixed",
+      "subjects": [
+        "tabaqat_companions",
+        "early_islam",
+        "seerah_general"
+      ],
+      "subjects_category": [
+        "prophetic_demography",
+        "classical_corpus"
+      ],
+      "languages": [
+        "en",
+        "ar"
+      ],
+      "output_types": [
+        "documentary_film"
+      ],
+      "description_ar": "فيلم رسوم متحركة 3D إماراتي، أول إنتاج CGI في الخليج العربي. يصوّر حياة بلال بن رباح من العبودية إلى المكانة. عُرض في مهرجان دبي السينمائي الدولي 12، ثم برلين وكان وأنّسي وتورنتو. مموَّل من مستثمرين سعوديين وإماراتيين + مؤسسة الدوحة للفيلم.",
+      "key_figures": [
+        "أيمن جمال",
+        "خرّم علوي (إخراج مشترك)",
+        "Adewale Akinnuoye-Agbaje (صوت)"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "sources": [
+        {
+          "round_file": "round-08c-media-digital.md",
+          "anchor": "ARB-055 — Bilal"
+        }
+      ]
+    },
+    {
+      "id": "NAM-094",
+      "round": "08c",
+      "name_ar": "فيلم محمد رسول الله (مجيدي، 2015)",
+      "name_en": "Muhammad: The Messenger of God (Majidi, 2015)",
+      "type": "film_or_series",
+      "type_group": "media_audience",
+      "country": "IR",
+      "city_ar": "طهران",
+      "region": "non_arab_muslim",
+      "founded": 2015,
+      "founded_decade": "2010s",
+      "status": "active",
+      "scale": "international",
+      "funding_type": "state",
+      "subjects": [
+        "seerah_general",
+        "maghazi",
+        "shamail"
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "languages": [
+        "fa",
+        "ar",
+        "en"
+      ],
+      "output_types": [
+        "documentary_film"
+      ],
+      "description_ar": "إخراج مجيد مجيدي، 40 مليون دولار، أكبر ميزانية إنتاج إيراني تاريخياً. يصوّر طفولة النبي ﷺ. 171 دقيقة، أوّل ثلاثية مخططة. مصوّر بواسطة فيتوريو ستورارو، موسيقى أ. ر. رحمن. عُرض في مونتريال أولاً. ترشّح إيران لجائزة الأوسكار 2016. أثار انتقاد الأزهر ومفتي السعودية.",
+      "key_figures": [
+        "مجيد مجيدي (إخراج)",
+        "Kambuzia Partovi",
+        "فيتوريو ستورارو (تصوير)",
+        "أ. ر. رحمن (موسيقى)"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "sources": [
+        {
+          "round_file": "round-08c-media-digital.md",
+          "anchor": "NAM-094 — Majidi Film"
+        }
+      ]
+    },
+    {
+      "id": "TUR-063",
+      "round": "08c",
+      "name_ar": "مسلسل قيامة أرطغرل (TRT، 2014-2019)",
+      "name_en": "Diriliş: Ertuğrul (TRT, 2014-2019)",
+      "type": "film_or_series",
+      "type_group": "media_audience",
+      "country": "TR",
+      "city_ar": "إسطنبول",
+      "region": "turkey",
+      "founded": 2014,
+      "founded_decade": "2010s",
+      "status": "closed",
+      "status_note_ar": "انتهى البث 2019، مستمر التوزيع",
+      "scale": "international",
+      "parent_organization_ar": "Bozdağ Film + TRT 1",
+      "funding_type": "state",
+      "subjects": [
+        "historiography",
+        "ahl_al_sunna"
+      ],
+      "subjects_category": [
+        "auxiliary_sciences",
+        "prophetic_demography"
+      ],
+      "languages": [
+        "tr",
+        "ur",
+        "ar",
+        "en"
+      ],
+      "output_types": [
+        "tv_series"
+      ],
+      "description_ar": "5 مواسم على TRT 1 (10 ديسمبر 2014 → 29 مايو 2019). يصوّر حياة أرطغرل والد عثمان مؤسس الدولة العثمانية. مدبلج إلى 6 لغات، عُرض في 72 دولة، +1.5 مليار مشاهدة يوتيوب. قناته الأردية وحدها +10 مليون مشترك. اشترت PTV حقوق العرض الباكستاني 2020.",
+      "key_figures": [
+        "محمد بوزداع (إنتاج)"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "borderline",
+      "sources": [
+        {
+          "round_file": "round-08c-media-digital.md",
+          "anchor": "TUR-063 — Ertuğrul"
+        }
+      ]
+    },
+    {
+      "id": "GLB-001",
+      "round": "08c",
+      "name_ar": "فيلم الرسالة (مصطفى العقاد، 1976)",
+      "name_en": "The Message (Akkad, 1976)",
+      "type": "film_or_series",
+      "type_group": "media_audience",
+      "country": "SY",
+      "city_ar": "دمشق",
+      "region": "global",
+      "founded": 1976,
+      "founded_decade": "1970s",
+      "status": "archived_digital",
+      "scale": "international",
+      "parent_organization_ar": "Akkad International Productions",
+      "funding_type": "private",
+      "subjects": [
+        "seerah_general",
+        "maghazi",
+        "early_islam"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "prophetic_demography"
+      ],
+      "languages": [
+        "en",
+        "ar"
+      ],
+      "output_types": [
+        "documentary_film"
+      ],
+      "description_ar": "فيلم تاريخي إخراج وإنتاج مصطفى العقاد. سيناريو H.A.L. Craig، راجعه الأزهري توفيق الحكيم. إنتاج دولي (ليبيا/المغرب/لبنان/سوريا/بريطانيا). صدر بنسختين عربية وإنجليزية. ترشّح للأوسكار 1977 (أفضل موسيقى — موريس جار). مُنع في مصر والكويت والسعودية حتى 2018.",
+      "key_figures": [
+        "مصطفى العقاد (إخراج)",
+        "Anthony Quinn",
+        "H.A.L. Craig (سيناريو)"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "sources": [
+        {
+          "round_file": "round-08c-media-digital.md",
+          "anchor": "GLB-001 — The Message"
+        }
+      ]
+    },
+    {
+      "id": "ARB-056",
+      "round": "08c",
+      "name_ar": "MBC Studios",
+      "name_en": "MBC Studios",
+      "type": "production_studio",
+      "type_group": "media_audience",
+      "country": "SA",
+      "city_ar": "الرياض",
+      "region": "arabia",
+      "founded": 2019,
+      "founded_decade": "2010s",
+      "status": "active",
+      "scale": "international",
+      "url": "https://www.mbcstudios.com/",
+      "parent_organization_ar": "مجموعة MBC",
+      "funding_type": "private",
+      "subjects": [
+        "historiography",
+        "rashidun"
+      ],
+      "subjects_category": [
+        "auxiliary_sciences",
+        "prophetic_demography"
+      ],
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [
+        "tv_series",
+        "documentary_film",
+        "podcast_episode"
+      ],
+      "description_ar": "ذراع الإنتاج لمجموعة MBC. أنتجت Omar، Muawiya، Rashash، Rise of the Witches، وتنشر مع JB Pictures فيلم Desert Warrior. تطمح لتكون مركز إنتاج عالمياً ضمن رؤية 2030.",
+      "key_figures": [
+        "زينب أبو السمح (مديرة MBC Studios KSA)"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "borderline",
+      "sources": [
+        {
+          "round_file": "round-08c-media-digital.md",
+          "anchor": "ARB-056 — MBC Studios"
+        }
+      ]
+    },
+    {
+      "id": "ARB-057",
+      "round": "08c",
+      "name_ar": "Barajoun Entertainment",
+      "name_en": "Barajoun Entertainment / Studios",
+      "type": "production_studio",
+      "type_group": "media_audience",
+      "country": "AE",
+      "city_ar": "دبي",
+      "region": "arabia",
+      "founded_decade": "2010s",
+      "status": "active",
+      "scale": "international",
+      "parent_organization_ar": null,
+      "funding_type": "private",
+      "subjects": [
+        "tabaqat_companions",
+        "early_islam"
+      ],
+      "subjects_category": [
+        "prophetic_demography"
+      ],
+      "languages": [
+        "en",
+        "ar"
+      ],
+      "output_types": [
+        "documentary_film"
+      ],
+      "description_ar": "أوّل استوديو CGI animation في الخليج، تأسّس خصّيصاً لإنتاج Bilal بعد ما تبيّن غياب استوديوهات الرسوم في منطقة الشرق الأوسط.",
+      "explicit_relations": [
+        {
+          "target": "ARB-055",
+          "type": "publisher_of"
+        }
+      ],
+      "key_figures": [
+        "أيمن جمال",
+        "خرّم علوي"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "borderline",
+      "sources": [
+        {
+          "round_file": "round-08c-media-digital.md",
+          "anchor": "ARB-057 — Barajoun"
+        }
+      ]
+    },
+    {
+      "id": "NAM-095",
+      "round": "08c",
+      "name_ar": "شركة نور طبأن للإنتاج (إيران)",
+      "name_en": "Noor Taban Production",
+      "type": "production_studio",
+      "type_group": "media_audience",
+      "country": "IR",
+      "city_ar": "طهران",
+      "region": "non_arab_muslim",
+      "founded_decade": "2000s",
+      "status": "active",
+      "scale": "international",
+      "funding_type": "state",
+      "subjects": [
+        "seerah_general",
+        "maghazi"
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "languages": [
+        "fa",
+        "ar"
+      ],
+      "output_types": [
+        "documentary_film"
+      ],
+      "description_ar": "شركة الإنتاج الإيرانية التي أنتجت فيلم محمد رسول الله لمجيد مجيدي. تخدم الإنتاج السينمائي الديني الإيراني الكبير.",
+      "explicit_relations": [
+        {
+          "target": "NAM-094",
+          "type": "publisher_of"
+        }
+      ],
+      "verification": "needs_verification",
+      "inclusion_tier": "borderline",
+      "sources": [
+        {
+          "round_file": "round-08c-media-digital.md",
+          "anchor": "NAM-095 — Noor Taban"
+        }
+      ]
+    },
+    {
+      "id": "TUR-064",
+      "round": "08c",
+      "name_ar": "بوزداع فيلم",
+      "name_en": "Bozdağ Film",
+      "type": "production_studio",
+      "type_group": "media_audience",
+      "country": "TR",
+      "city_ar": "إسطنبول",
+      "region": "turkey",
+      "founded": 2014,
+      "founded_decade": "2010s",
+      "status": "active",
+      "scale": "international",
+      "parent_organization_ar": null,
+      "funding_type": "private",
+      "subjects": [
+        "historiography",
+        "ahl_al_sunna"
+      ],
+      "subjects_category": [
+        "auxiliary_sciences"
+      ],
+      "languages": [
+        "tr"
+      ],
+      "output_types": [
+        "tv_series"
+      ],
+      "description_ar": "شركة الإنتاج التركية التي أنتجت Diriliş Ertuğrul، Kuruluş Osman، وغيرها من الدراما التاريخية. تتلقّى دعم TRT.",
+      "explicit_relations": [
+        {
+          "target": "TUR-063",
+          "type": "publisher_of"
+        }
+      ],
+      "key_figures": [
+        "محمد بوزداع (مؤسس)"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "borderline",
+      "sources": [
+        {
+          "round_file": "round-08c-media-digital.md",
+          "anchor": "TUR-064 — Bozdağ"
+        }
+      ]
+    },
+    {
+      "id": "GLB-002",
+      "round": "08c",
+      "name_ar": "العقاد الدولية للإنتاج",
+      "name_en": "Akkad International Productions",
+      "type": "production_studio",
+      "type_group": "media_audience",
+      "country": "SY",
+      "city_ar": "دمشق",
+      "region": "global",
+      "founded": 1976,
+      "founded_decade": "1970s",
+      "status": "dormant",
+      "status_note_ar": "اغتيل مصطفى العقاد 2005",
+      "scale": "international",
+      "funding_type": "private",
+      "subjects": [
+        "seerah_general",
+        "maghazi"
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "languages": [
+        "en",
+        "ar"
+      ],
+      "output_types": [
+        "documentary_film"
+      ],
+      "description_ar": "شركة المخرج السوري-الأمريكي مصطفى العقاد. أنتجت الرسالة (1976) وأسد الصحراء (1981). توقّفت بعد اغتيال العقاد في تفجيرات عمّان 2005.",
+      "explicit_relations": [
+        {
+          "target": "GLB-001",
+          "type": "publisher_of"
+        }
+      ],
+      "key_figures": [
+        "مصطفى العقاد (مؤسس)"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "borderline",
+      "sources": [
+        {
+          "round_file": "round-08c-media-digital.md",
+          "anchor": "GLB-002 — Akkad"
+        }
+      ]
+    },
+    {
+      "id": "ARB-058",
+      "round": "08c",
+      "name_ar": "قناة اقرأ",
+      "name_en": "Iqraa TV",
+      "type": "tv_channel",
+      "type_group": "media_audience",
+      "country": "SA",
+      "city_ar": "جدة",
+      "region": "arabia",
+      "founded": 1998,
+      "founded_decade": "1990s",
+      "status": "active",
+      "scale": "international",
+      "url": "https://iqra.tv/",
+      "parent_organization_ar": "شركة الإعلام العربية لصالح كامل",
+      "funding_type": "private",
+      "subjects": [
+        "seerah_general",
+        "shamail",
+        "tarjamah",
+        "tabaqat_companions"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "prophetic_demography",
+        "application_outreach"
+      ],
+      "languages": [
+        "ar"
+      ],
+      "output_types": [
+        "video",
+        "lectures"
+      ],
+      "description_ar": "قناة فضائية إسلامية عائلية، أُسّست 1998، ملك صالح عبدالله كامل. تبث محاضرات دينية، فتاوى، برامج عائلية، أطفال، ووثائقيات. تشمل برامج \"قصص الأنبياء\" و\"حياة الشخصيات النبيلة\". تبث على Nilesat، Badr 3، Badr 2، AsiaSat 5، Hotbird.",
+      "verification": "desk_verified",
+      "inclusion_tier": "borderline",
+      "sources": [
+        {
+          "round_file": "round-08c-media-digital.md",
+          "anchor": "ARB-058 — Iqraa TV"
+        }
+      ]
+    },
+    {
+      "id": "NAM-096",
+      "round": "08c",
+      "name_ar": "قناة المدني",
+      "name_en": "Madani Channel",
+      "type": "tv_channel",
+      "type_group": "media_audience",
+      "country": "PK",
+      "city_ar": "كراتشي",
+      "region": "non_arab_muslim",
+      "founded": 2009,
+      "founded_decade": "2000s",
+      "status": "active",
+      "scale": "international",
+      "url": "https://www.madanichannel.tv/",
+      "parent_organization_ar": "Dawat-e-Islami",
+      "funding_type": "private",
+      "subjects": [
+        "seerah_general",
+        "shamail",
+        "sufism_seerah",
+        "tarjamah"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "application_outreach"
+      ],
+      "languages": [
+        "ur",
+        "ar",
+        "en",
+        "bn"
+      ],
+      "output_types": [
+        "video",
+        "lectures"
+      ],
+      "description_ar": "قناة باكستانية بريلوية تأسّست 2009. تبث بدون إعلانات تجارية، تعتمد التبرعات. أربع قنوات بالأردية والإنجليزية والعربية والبنغالية. مرتبطة بمنظمة Dawat-e-Islami المعنية بالنشر الديني.",
+      "verification": "desk_verified",
+      "inclusion_tier": "borderline",
+      "sources": [
+        {
+          "round_file": "round-08c-media-digital.md",
+          "anchor": "NAM-096 — Madani Channel"
+        }
+      ]
+    },
+    {
+      "id": "TUR-065",
+      "round": "08c",
+      "name_ar": "قناة TRT ديانت",
+      "name_en": "TRT Diyanet TV",
+      "type": "tv_channel",
+      "type_group": "media_audience",
+      "country": "TR",
+      "city_ar": "أنقرة",
+      "region": "turkey",
+      "founded": 2012,
+      "founded_decade": "2010s",
+      "status": "active",
+      "scale": "national",
+      "parent_organization_ar": "TRT + رئاسة الشؤون الدينية التركية (Diyanet)",
+      "funding_type": "state",
+      "subjects": [
+        "seerah_general",
+        "tarjamah",
+        "seerah_pedagogy",
+        "ahl_al_sunna"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "application_outreach"
+      ],
+      "languages": [
+        "tr",
+        "ar"
+      ],
+      "output_types": [
+        "video",
+        "lectures",
+        "khutbah_archive"
+      ],
+      "description_ar": "قناة دينية تركية بإشراف رئاسة الشؤون الدينية (Diyanet). تبث الدروس الدينية، خطب الجمعة، برامج السيرة، والتفسير. منذ 2012.",
+      "verification": "needs_verification",
+      "inclusion_tier": "borderline",
+      "sources": [
+        {
+          "round_file": "round-08c-media-digital.md",
+          "anchor": "TUR-065 — TRT Diyanet"
+        }
+      ]
+    },
+    {
+      "id": "ARB-059",
+      "round": "08c",
+      "name_ar": "قناة اقرأ العالمية (الإنجليزية)",
+      "name_en": "Iqraa International",
+      "type": "tv_channel",
+      "type_group": "media_audience",
+      "country": "SA",
+      "city_ar": "جدة",
+      "region": "arabia",
+      "founded_decade": "2000s",
+      "status": "active",
+      "scale": "international",
+      "parent_organization_ar": "شركة الإعلام العربية",
+      "funding_type": "private",
+      "subjects": [
+        "seerah_general",
+        "tarjamah"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "application_outreach"
+      ],
+      "languages": [
+        "en"
+      ],
+      "output_types": [
+        "video",
+        "lectures"
+      ],
+      "description_ar": "الفرع الإنجليزي لقناة اقرأ، يستهدف غير الناطقين بالعربية.",
+      "explicit_relations": [
+        {
+          "target": "ARB-058",
+          "type": "child_of"
+        }
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "borderline",
+      "sources": [
+        {
+          "round_file": "round-08c-media-digital.md",
+          "anchor": "ARB-059 — Iqraa Int"
+        }
+      ]
+    },
+    {
+      "id": "NAM-097",
+      "round": "08c",
+      "name_ar": "قناة ARY QTV",
+      "name_en": "ARY QTV",
+      "type": "tv_channel",
+      "type_group": "media_audience",
+      "country": "PK",
+      "city_ar": "كراتشي",
+      "region": "non_arab_muslim",
+      "founded": 2006,
+      "founded_decade": "2000s",
+      "status": "active",
+      "scale": "international",
+      "parent_organization_ar": "ARY Digital Network",
+      "funding_type": "private",
+      "subjects": [
+        "seerah_general",
+        "shamail",
+        "sufism_seerah"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "application_outreach"
+      ],
+      "languages": [
+        "ur",
+        "en"
+      ],
+      "output_types": [
+        "video",
+        "lectures"
+      ],
+      "description_ar": "قناة إسلامية حنفية بريلوية باكستانية، تبث بالأردية والإنجليزية. متاحة في باكستان والمملكة المتحدة وأمريكا الشمالية. تركّز السيرة والشمائل والذكر.",
+      "verification": "needs_verification",
+      "inclusion_tier": "borderline",
+      "sources": [
+        {
+          "round_file": "round-08c-media-digital.md",
+          "anchor": "NAM-097 — ARY QTV"
+        }
+      ]
+    },
+    {
+      "id": "WEST-127",
+      "round": "08c",
+      "name_ar": "معهد المغرب",
+      "name_en": "AlMaghrib Institute",
+      "type": "digital_platform",
+      "type_group": "media_audience",
+      "country": "US",
+      "city_ar": "هيوستن",
+      "region": "western",
+      "founded": 2002,
+      "founded_decade": "2000s",
+      "status": "active",
+      "scale": "international",
+      "url": "https://www.almaghrib.org/",
+      "funding_type": "private",
+      "subjects": [
+        "seerah_general",
+        "biography_methodology",
+        "seerah_pedagogy",
+        "hadith_sciences"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "methodology_critique",
+        "application_outreach",
+        "auxiliary_sciences"
+      ],
+      "languages": [
+        "en",
+        "ar"
+      ],
+      "output_types": [
+        "courses",
+        "video",
+        "lectures"
+      ],
+      "description_ar": "أكاديمية إسلامية أمريكية تأسّست 2002. منهج شامل: العقيدة، العبادة، السيرة، التفسير، الحديث، التزكية. شارك في تأسيسها ياسر قاضي ومحمد الشريف وآخرون.",
+      "key_figures": [
+        "ياسر قاضي (شارك في التأسيس)",
+        "محمد الشريف"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "sources": [
+        {
+          "round_file": "round-08c-media-digital.md",
+          "anchor": "WEST-127 — AlMaghrib"
+        }
+      ]
+    },
+    {
+      "id": "WEST-128",
+      "round": "08c",
+      "name_ar": "معهد سيكرز جايدنس",
+      "name_en": "SeekersGuidance",
+      "type": "digital_platform",
+      "type_group": "media_audience",
+      "country": "CA",
+      "city_ar": "تورنتو",
+      "region": "western",
+      "founded_decade": "2010s",
+      "status": "active",
+      "scale": "international",
+      "url": "https://seekersguidance.org/",
+      "funding_type": "private",
+      "subjects": [
+        "seerah_general",
+        "biography_methodology",
+        "sufism_seerah",
+        "hadith_sciences"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "methodology_critique",
+        "application_outreach",
+        "auxiliary_sciences"
+      ],
+      "languages": [
+        "en",
+        "ar"
+      ],
+      "output_types": [
+        "courses",
+        "video",
+        "podcast_episode"
+      ],
+      "description_ar": "منصة فقهية سنية شاملة كندية، أسّسها الشيخ فرز ربّاني (سوري الأصل). تضمّ دورات شاملة في السيرة، الفقه الحنفي، التزكية. بودكاست منتظم.",
+      "key_figures": [
+        "فرز ربّاني (مؤسس)"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "sources": [
+        {
+          "round_file": "round-08c-media-digital.md",
+          "anchor": "WEST-128 — SeekersGuidance"
+        }
+      ]
+    },
+    {
+      "id": "WEST-129",
+      "round": "08c",
+      "name_ar": "مؤسسة السنّة (Sunnah.com / Quran.com)",
+      "name_en": "Sunnah Foundation (Sunnah.com / Quran.com)",
+      "type": "digital_platform",
+      "type_group": "media_audience",
+      "country": "US",
+      "city_ar": "بوسطن",
+      "region": "western",
+      "founded_decade": "2010s",
+      "status": "active",
+      "scale": "international",
+      "url": "https://sunnah.com/",
+      "funding_type": "private",
+      "subjects": [
+        "hadith_sciences",
+        "sources_critique",
+        "seerah_general"
+      ],
+      "subjects_category": [
+        "auxiliary_sciences",
+        "classical_corpus"
+      ],
+      "languages": [
+        "en",
+        "ar"
+      ],
+      "output_types": [
+        "database",
+        "mobile_app_output"
+      ],
+      "description_ar": "منصتان مفتوحتا المصدر يديرهما فريق تطوّعي عالمي: Sunnah.com للحديث (الكتب التسعة + غيرها) وQuran.com للقرآن. APIs مفتوحة تُستخدم في مئات التطبيقات.",
+      "verification": "desk_verified",
+      "inclusion_tier": "borderline",
+      "sources": [
+        {
+          "round_file": "round-08c-media-digital.md",
+          "anchor": "WEST-129 — Sunnah Foundation"
+        }
+      ]
+    },
+    {
+      "id": "GLB-003",
+      "round": "08c",
+      "name_ar": "تطبيق Muslim Pro",
+      "name_en": "Muslim Pro",
+      "type": "mobile_app",
+      "type_group": "media_audience",
+      "country": "SG",
+      "city_ar": "سنغافورة",
+      "region": "global",
+      "founded": 2010,
+      "founded_decade": "2010s",
+      "status": "active",
+      "scale": "international",
+      "url": "https://www.muslimpro.com/",
+      "funding_type": "private",
+      "subjects": [
+        "seerah_general",
+        "seerah_pedagogy",
+        "digital_seerah"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "application_outreach"
+      ],
+      "languages": [
+        "en",
+        "ar",
+        "ms",
+        "id",
+        "ur",
+        "tr",
+        "fr"
+      ],
+      "output_types": [
+        "mobile_app_output",
+        "video"
+      ],
+      "description_ar": "أكثر تطبيقات الإسلام تنزيلاً عالمياً (مقره سنغافورة). يقدّم أوقات الصلاة، الأذان، القبلة، القرآن، الحديث، السيرة. منذ 2022 يضمّ منصة Qalbox للفيديو الإسلامي.",
+      "verification": "desk_verified",
+      "inclusion_tier": "borderline",
+      "sources": [
+        {
+          "round_file": "round-08c-media-digital.md",
+          "anchor": "GLB-003 — Muslim Pro"
+        }
+      ]
+    },
+    {
+      "id": "GLB-004",
+      "round": "08c",
+      "name_ar": "تطبيق السيرة (الرحيق المختوم) ومشروع MRDF للجدول النبوي",
+      "name_en": "Sealed Nectar / Seerah of Prophet Muhammad App",
+      "type": "mobile_app",
+      "type_group": "media_audience",
+      "country": "GB",
+      "city_ar": "لندن",
+      "region": "global",
+      "founded_decade": "2010s",
+      "status": "active",
+      "scale": "international",
+      "parent_organization_ar": "Muslim Research & Development Foundation (MRDF)",
+      "funding_type": "private",
+      "subjects": [
+        "seerah_general",
+        "maghazi",
+        "historiography"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "auxiliary_sciences"
+      ],
+      "languages": [
+        "en",
+        "ar",
+        "ur"
+      ],
+      "output_types": [
+        "mobile_app_output",
+        "books"
+      ],
+      "description_ar": "تطبيق يضمّ كتاب \"الرحيق المختوم\" لصفي الرحمن المباركفوري (الفائز بجائزة العالم الإسلامي للسيرة)، بالإضافة إلى الجدول الزمني النبوي (Prophetic Timeline) من MRDF.",
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "sources": [
+        {
+          "round_file": "round-08c-media-digital.md",
+          "anchor": "GLB-004 — Sealed Nectar App"
+        }
+      ]
+    },
+    {
+      "id": "GLB-005",
+      "round": "08c",
+      "name_ar": "تطبيق Quran.com للجوّال",
+      "name_en": "Quran.com Mobile App",
+      "type": "mobile_app",
+      "type_group": "media_audience",
+      "country": "US",
+      "region": "global",
+      "founded_decade": "2010s",
+      "status": "active",
+      "scale": "international",
+      "url": "https://quran.com/apps",
+      "parent_organization_ar": "مؤسسة السنّة (WEST-129)",
+      "funding_type": "private",
+      "subjects": [
+        "digital_seerah",
+        "tarjamah",
+        "seerah_in_quran"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "applied_jurisprudence"
+      ],
+      "languages": [
+        "ar",
+        "en",
+        "ur",
+        "tr",
+        "id",
+        "fr",
+        "de"
+      ],
+      "output_types": [
+        "mobile_app_output"
+      ],
+      "description_ar": "تطبيق القرآن المفتوح المصدر، يدعم وحدات السيرة والحديث عبر تكامل مع Sunnah.com. ميزات: تلاوة بأصوات متعدّدة، ترجمات بـ40+ لغة، تفسير بـ20+ لغة.",
+      "explicit_relations": [
+        {
+          "target": "WEST-129",
+          "type": "child_of"
+        }
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "borderline",
+      "sources": [
+        {
+          "round_file": "round-08c-media-digital.md",
+          "anchor": "GLB-005 — Quran.com App"
+        }
+      ]
+    },
+    {
+      "id": "GLB-006",
+      "round": "08c",
+      "name_ar": "قناة المفتي منك الرسمية",
+      "name_en": "Mufti Menk Official",
+      "type": "digital_creator",
+      "type_group": "individual_actors",
+      "country": "ZW",
+      "city_ar": "هراري",
+      "region": "global",
+      "founded_decade": "2010s",
+      "status": "active",
+      "scale": "international",
+      "url": "https://muftimenk.com/",
+      "funding_type": "mixed",
+      "subjects": [
+        "seerah_general",
+        "shamail",
+        "seerah_pedagogy",
+        "youth_outreach"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "application_outreach"
+      ],
+      "languages": [
+        "en",
+        "ar"
+      ],
+      "output_types": [
+        "video",
+        "lectures",
+        "podcast_episode"
+      ],
+      "description_ar": "د. مفتي إسماعيل منك، عالم زيمبابوي عالمي. قناة يوتيوب رسمية بملايين المشتركين. متخصّص في خطاب الإيمان المُيسّر والشمائل والسيرة. محاضرات حول العالم.",
+      "key_figures": [
+        "د. مفتي إسماعيل منك"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "borderline",
+      "sources": [
+        {
+          "round_file": "round-08c-media-digital.md",
+          "anchor": "GLB-006 — Mufti Menk"
+        }
+      ]
+    },
+    {
+      "id": "ARB-060",
+      "round": "08c",
+      "name_ar": "الشيخ مشاري راشد العفاسي – الإعلام الرسمي",
+      "name_en": "Mishary Rashid Alafasy Official",
+      "type": "digital_creator",
+      "type_group": "individual_actors",
+      "country": "KW",
+      "city_ar": "الكويت",
+      "region": "arabia",
+      "founded_decade": "2000s",
+      "status": "active",
+      "scale": "international",
+      "funding_type": "mixed",
+      "subjects": [
+        "seerah_general",
+        "shamail"
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [
+        "video",
+        "podcast_episode"
+      ],
+      "description_ar": "الشيخ مشاري راشد العفاسي، قارئ القرآن والمنشد الكويتي الأشهر عالمياً. قنواته الرسمية تضمّ تلاوات القرآن والأناشيد والأذكار.",
+      "key_figures": [
+        "الشيخ مشاري راشد العفاسي"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "borderline",
+      "sources": [
+        {
+          "round_file": "round-08c-media-digital.md",
+          "anchor": "ARB-060 — Mishary Alafasy"
+        }
+      ]
+    },
+    {
+      "id": "GLB-007",
+      "round": "08c",
+      "name_ar": "د. ياسر قاضي – المنصة الشخصية",
+      "name_en": "Yasir Qadhi Personal Platform",
+      "type": "digital_creator",
+      "type_group": "individual_actors",
+      "country": "US",
+      "city_ar": "دالاس",
+      "region": "global",
+      "founded_decade": "2000s",
+      "status": "active",
+      "scale": "international",
+      "funding_type": "private",
+      "subjects": [
+        "seerah_general",
+        "maghazi",
+        "biography_methodology",
+        "sources_critique",
+        "ahl_al_sunna"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "methodology_critique",
+        "auxiliary_sciences",
+        "prophetic_demography"
+      ],
+      "languages": [
+        "en",
+        "ar"
+      ],
+      "output_types": [
+        "video",
+        "lectures",
+        "podcast_episode",
+        "courses"
+      ],
+      "description_ar": "عالم سلفي أمريكي معاصر، شارك في تأسيس AlMaghrib. سلسلته \"Seerah of the Prophet\" (~100 محاضرة) من أهم سلاسل السيرة باللغة الإنجليزية عالمياً. عميد East Plano Islamic Center.",
+      "key_figures": [
+        "د. ياسر قاضي"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "sources": [
+        {
+          "round_file": "round-08c-media-digital.md",
+          "anchor": "GLB-007 — Yasir Qadhi"
+        }
+      ]
     }
   ],
-  "migration_note": "2026-05-11: hierarchical taxonomy + Round 8-أ South Asia (+30 entities)"
+  "migration_note": "2026-05-11: hierarchical taxonomy + 8-أ South Asia (+30) + 8-ج Media-Digital (+25) = 454"
 }
