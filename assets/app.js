@@ -4535,15 +4535,50 @@
 
   function loadDocxLib() {
     if (docxLibLoaded) return docxLibLoaded;
-    docxLibLoaded = new Promise((resolve, reject) => {
-      if (window.docx) return resolve(window.docx);
-      const s = document.createElement("script");
-      s.src = "https://cdn.jsdelivr.net/npm/docx@9.6.1/dist/index.umd.cjs";
-      s.async = true;
-      s.onload = () => window.docx ? resolve(window.docx) : reject(new Error("docx لم يُحمَّل"));
-      s.onerror = () => reject(new Error("تعذّر تحميل مكتبة docx"));
-      document.head.appendChild(s);
-    });
+    // CDNs مرتّبة: unpkg أوّلاً (text/javascript صحيح)، ثم fallback إلى fetch+blob
+    // (يلتقط المصدر كنصّ ثم يُشغّله، فيتجاوز قيود MIME أو حظر CDN).
+    const cdnUrls = [
+      "https://unpkg.com/docx@9.6.1/dist/index.umd.cjs",
+      "https://cdn.jsdelivr.net/npm/docx@9.6.1/dist/index.umd.cjs",
+    ];
+    docxLibLoaded = (async () => {
+      if (window.docx) return window.docx;
+
+      // 1) محاولة <script src> مباشرة من unpkg
+      try {
+        await new Promise((resolve, reject) => {
+          const s = document.createElement("script");
+          s.src = cdnUrls[0];
+          s.async = true;
+          s.onload = resolve;
+          s.onerror = () => reject(new Error("script onerror"));
+          document.head.appendChild(s);
+        });
+        if (window.docx) return window.docx;
+      } catch (_) { /* جرّب الـ fallback */ }
+
+      // 2) Fallback: fetch المصدر كنصّ ثم نفّذه عبر blob URL (يتجاوز MIME nosniff)
+      for (const url of cdnUrls) {
+        try {
+          const res = await fetch(url);
+          if (!res.ok) continue;
+          const src = await res.text();
+          const blob = new Blob([src], { type: "text/javascript" });
+          const blobUrl = URL.createObjectURL(blob);
+          await new Promise((resolve, reject) => {
+            const s = document.createElement("script");
+            s.src = blobUrl;
+            s.onload = resolve;
+            s.onerror = () => reject(new Error("blob script failed"));
+            document.head.appendChild(s);
+          });
+          URL.revokeObjectURL(blobUrl);
+          if (window.docx) return window.docx;
+        } catch (_) { /* جرّب الـ CDN التالي */ }
+      }
+
+      throw new Error("تعذّر تحميل مكتبة docx — جرّب لاحقاً أو افحص اتصال الإنترنت");
+    })();
     return docxLibLoaded;
   }
 
