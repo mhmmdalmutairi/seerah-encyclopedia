@@ -461,6 +461,10 @@
     if (tabName === "references") {
       renderStaticPage("references", "assets/references.html");
     }
+    if (tabName === "export") {
+      if (!state.loaded) loadEntities().then(() => renderExport());
+      else renderExport();
+    }
   }
 
   const staticPagesLoaded = new Set();
@@ -4423,6 +4427,765 @@
       trapFocus(modal);
     }, 50);
   };
+
+  // ============================================================
+  // تبويب التصدير إلى Word — لوحة تحكّم + توليد DOCX في المتصفح
+  // ============================================================
+
+  const exportState = {
+    filterMode: "all",       // all | region | type_group | subjects_category | country | round
+    filterValue: "",         // قيمة الفلتر (مثلاً "arabia")
+    structure: "region",     // region | type_group | subjects_category | round | hierarchical
+    contentLevel: "standard",// minimal | standard | full | table
+    extras: {
+      cover: true,
+      toc: true,
+      stats: true,
+      alphaIndex: false,
+      hyperlinks: true,
+    },
+  };
+
+  let docxLibLoaded = null;
+
+  function loadDocxLib() {
+    if (docxLibLoaded) return docxLibLoaded;
+    docxLibLoaded = new Promise((resolve, reject) => {
+      if (window.docx) return resolve(window.docx);
+      const s = document.createElement("script");
+      s.src = "https://cdn.jsdelivr.net/npm/docx@9.6.1/dist/index.umd.cjs";
+      s.async = true;
+      s.onload = () => window.docx ? resolve(window.docx) : reject(new Error("docx لم يُحمَّل"));
+      s.onerror = () => reject(new Error("تعذّر تحميل مكتبة docx"));
+      document.head.appendChild(s);
+    });
+    return docxLibLoaded;
+  }
+
+  function getExportFilterOptions(facet) {
+    const counts = new Map();
+    state.entities.forEach((e) => {
+      const v = e[facet];
+      if (Array.isArray(v)) v.forEach((x) => counts.set(x, (counts.get(x) || 0) + 1));
+      else if (v) counts.set(v, (counts.get(v) || 0) + 1);
+    });
+    return [...counts.entries()]
+      .sort((a, b) => b[1] - a[1])
+      .map(([code, n]) => ({ code, label: label(facet, code), count: n }));
+  }
+
+  function selectedEntitiesForExport() {
+    const m = exportState.filterMode;
+    if (m === "all") return state.entities;
+    const v = exportState.filterValue;
+    if (!v) return state.entities;
+    return state.entities.filter((e) => {
+      const ev = e[m];
+      if (Array.isArray(ev)) return ev.includes(v);
+      return ev === v;
+    });
+  }
+
+  function groupForStructure(entities, structure) {
+    const groups = new Map();
+    const push = (key, e) => {
+      if (!groups.has(key)) groups.set(key, []);
+      groups.get(key).push(e);
+    };
+    if (structure === "hierarchical") {
+      entities.forEach((e) => {
+        const reg = e.region || "—";
+        if (!groups.has(reg)) groups.set(reg, new Map());
+        const inner = groups.get(reg);
+        const tg = e.type_group || "—";
+        if (!inner.has(tg)) inner.set(tg, []);
+        inner.get(tg).push(e);
+      });
+    } else if (structure === "subjects_category") {
+      entities.forEach((e) => {
+        const cats = e.subjects_category && e.subjects_category.length ? e.subjects_category : ["—"];
+        cats.forEach((c) => push(c, e));
+      });
+    } else {
+      entities.forEach((e) => push(e[structure] || "—", e));
+    }
+    return groups;
+  }
+
+  function structureLabel(structure, code) {
+    if (structure === "region") return label("region", code);
+    if (structure === "type_group") return label("type_group", code);
+    if (structure === "subjects_category") return label("subjects_category", code);
+    if (structure === "round") return label("round", code);
+    return code;
+  }
+
+  // ترتيب الفصول بحسب البنية المختارة
+  const STRUCTURE_ORDER = {
+    region: ["arabia", "levant_iraq_nile", "maghreb", "turkey", "non_arab_muslim", "western", "global"],
+    type_group: ["research_education", "publishing_knowledge", "media_audience", "museums_culture", "institutional_infra", "individual_actors"],
+    subjects_category: ["classical_corpus", "geography_space", "prophetic_demography", "auxiliary_sciences", "methodology_critique", "application_outreach", "applied_jurisprudence"],
+    round: ["01", "02", "03", "04", "05", "06", "08a", "08b", "08c", "08d"],
+  };
+
+  function sortGroupKeys(structure, keys) {
+    const order = STRUCTURE_ORDER[structure];
+    if (!order) return [...keys].sort();
+    return [...keys].sort((a, b) => {
+      const ia = order.indexOf(a);
+      const ib = order.indexOf(b);
+      if (ia === -1 && ib === -1) return String(a).localeCompare(String(b), "ar");
+      if (ia === -1) return 1;
+      if (ib === -1) return -1;
+      return ia - ib;
+    });
+  }
+
+  function renderExport() {
+    const root = document.querySelector("#tab-export .container");
+    if (!root) return;
+
+    root.innerHTML = `
+      <div class="export">
+        <header class="export__header">
+          <h2 class="export__title">📥 تصدير إلى Word</h2>
+          <p class="export__hint">
+            اختر ما تريد تنزيله، نسّق ترتيبه، ثم احصل على ملف <code>.docx</code> مصمَّم بخطوط عربية، عناوين عريضة،
+            وعناوين فرعية، وروابط نشطة قابلة للنقر داخل Word.
+          </p>
+        </header>
+
+        <div class="export__layout">
+          <div class="export__controls">
+
+            <fieldset class="export-group">
+              <legend>① ماذا تنزّل؟</legend>
+              <label class="export-radio">
+                <input type="radio" name="ex-mode" value="all" checked> الكل
+              </label>
+              <label class="export-radio">
+                <input type="radio" name="ex-mode" value="region"> حسب الإقليم
+              </label>
+              <label class="export-radio">
+                <input type="radio" name="ex-mode" value="type_group"> حسب النوع
+              </label>
+              <label class="export-radio">
+                <input type="radio" name="ex-mode" value="subjects_category"> حسب الموضوع
+              </label>
+              <label class="export-radio">
+                <input type="radio" name="ex-mode" value="country"> حسب الدولة
+              </label>
+              <label class="export-radio">
+                <input type="radio" name="ex-mode" value="round"> حسب الجولة
+              </label>
+              <select class="export-select export-filter-value" disabled
+                      aria-label="اختر القيمة">
+                <option value="">— اختر —</option>
+              </select>
+            </fieldset>
+
+            <fieldset class="export-group">
+              <legend>② كيف ترتّب الفصول؟</legend>
+              <label class="export-radio">
+                <input type="radio" name="ex-struct" value="region" checked> حسب الإقليم (7 فصول)
+              </label>
+              <label class="export-radio">
+                <input type="radio" name="ex-struct" value="type_group"> حسب النوع (6 فصول)
+              </label>
+              <label class="export-radio">
+                <input type="radio" name="ex-struct" value="subjects_category"> حسب الموضوع (7 فصول)
+              </label>
+              <label class="export-radio">
+                <input type="radio" name="ex-struct" value="round"> حسب الجولة (10 فصول)
+              </label>
+              <label class="export-radio">
+                <input type="radio" name="ex-struct" value="hierarchical"> هرمي: إقليم → نوع → كيان
+              </label>
+            </fieldset>
+
+            <fieldset class="export-group">
+              <legend>③ مستوى التفاصيل</legend>
+              <label class="export-radio">
+                <input type="radio" name="ex-level" value="minimal"> سطر واحد (اسم + بلد + رابط)
+              </label>
+              <label class="export-radio">
+                <input type="radio" name="ex-level" value="standard" checked> قياسي (وصف + سنة + موضوع)
+              </label>
+              <label class="export-radio">
+                <input type="radio" name="ex-level" value="full"> كامل (كل الحقول)
+              </label>
+              <label class="export-radio">
+                <input type="radio" name="ex-level" value="table"> جدول واسع
+              </label>
+            </fieldset>
+
+            <fieldset class="export-group">
+              <legend>④ إضافات</legend>
+              <label class="export-check"><input type="checkbox" data-ex="cover" checked> صفحة غلاف</label>
+              <label class="export-check"><input type="checkbox" data-ex="toc" checked> فهرس محتويات تلقائي</label>
+              <label class="export-check"><input type="checkbox" data-ex="stats" checked> ملخص إحصائي في البداية</label>
+              <label class="export-check"><input type="checkbox" data-ex="alphaIndex"> فهرس أبجدي بالأسماء (نهاية)</label>
+              <label class="export-check"><input type="checkbox" data-ex="hyperlinks" checked> روابط نشطة قابلة للنقر</label>
+            </fieldset>
+          </div>
+
+          <aside class="export__preview">
+            <div class="export-summary">
+              <h3>المعاينة</h3>
+              <p class="export-summary__count">
+                <strong class="ex-count">—</strong> كياناً
+              </p>
+              <p class="export-summary__chapters">
+                <strong class="ex-chapters">—</strong> فصلاً
+              </p>
+              <p class="export-summary__pages">
+                ~<strong class="ex-pages">—</strong> صفحة تقريباً
+              </p>
+            </div>
+            <button class="btn btn--primary export-download" type="button">
+              <span aria-hidden="true">⬇</span> تنزيل DOCX
+            </button>
+            <button class="btn btn--ghost export-reset" type="button">↻ إعادة ضبط</button>
+            <p class="export-progress" hidden></p>
+          </aside>
+        </div>
+      </div>
+    `;
+
+    wireExportControls();
+    updateExportPreview();
+  }
+
+  function wireExportControls() {
+    const root = document.querySelector("#tab-export");
+    if (!root) return;
+
+    // الفلتر الرئيس
+    root.querySelectorAll('input[name="ex-mode"]').forEach((r) => {
+      r.addEventListener("change", () => {
+        exportState.filterMode = r.value;
+        exportState.filterValue = "";
+        const sel = root.querySelector(".export-filter-value");
+        if (r.value === "all") {
+          sel.disabled = true;
+          sel.innerHTML = '<option value="">— اختر —</option>';
+        } else {
+          sel.disabled = false;
+          const opts = getExportFilterOptions(r.value);
+          sel.innerHTML = '<option value="">— كل القيم —</option>' +
+            opts.map((o) => `<option value="${o.code}">${o.label} (${o.count})</option>`).join("");
+        }
+        updateExportPreview();
+      });
+    });
+
+    root.querySelector(".export-filter-value").addEventListener("change", (e) => {
+      exportState.filterValue = e.target.value;
+      updateExportPreview();
+    });
+
+    root.querySelectorAll('input[name="ex-struct"]').forEach((r) => {
+      r.addEventListener("change", () => {
+        exportState.structure = r.value;
+        updateExportPreview();
+      });
+    });
+
+    root.querySelectorAll('input[name="ex-level"]').forEach((r) => {
+      r.addEventListener("change", () => {
+        exportState.contentLevel = r.value;
+        updateExportPreview();
+      });
+    });
+
+    root.querySelectorAll('input[data-ex]').forEach((c) => {
+      c.addEventListener("change", () => {
+        exportState.extras[c.dataset.ex] = c.checked;
+      });
+    });
+
+    root.querySelector(".export-download").addEventListener("click", handleExportDownload);
+    root.querySelector(".export-reset").addEventListener("click", () => renderExport());
+  }
+
+  function updateExportPreview() {
+    const root = document.querySelector("#tab-export");
+    if (!root) return;
+    const entities = selectedEntitiesForExport();
+    const groups = groupForStructure(entities, exportState.structure);
+    const chapters = exportState.structure === "hierarchical"
+      ? [...groups.keys()].length
+      : groups.size;
+
+    // تقدير الصفحات حسب مستوى المحتوى
+    const perEntity = { minimal: 0.08, standard: 0.4, full: 0.9, table: 0.15 }[exportState.contentLevel] || 0.4;
+    const pages = Math.max(1, Math.round(entities.length * perEntity + chapters * 0.5));
+
+    root.querySelector(".ex-count").textContent = entities.length;
+    root.querySelector(".ex-chapters").textContent = chapters;
+    root.querySelector(".ex-pages").textContent = pages;
+  }
+
+  async function handleExportDownload() {
+    const root = document.querySelector("#tab-export");
+    const progress = root.querySelector(".export-progress");
+    const btn = root.querySelector(".export-download");
+    btn.disabled = true;
+    progress.hidden = false;
+    progress.textContent = "⏳ جاري تحميل المكتبة…";
+
+    try {
+      const docxLib = await loadDocxLib();
+      progress.textContent = "⏳ جاري بناء المستند…";
+      const blob = await buildDocxBlob(docxLib);
+      progress.textContent = "✓ جاهز — يبدأ التنزيل…";
+      const fname = `موسوعة-السيرة-النبوية-${new Date().toISOString().slice(0,10)}.docx`;
+      downloadBlob(blob, fname);
+      setTimeout(() => { progress.hidden = true; }, 3000);
+    } catch (err) {
+      console.error(err);
+      progress.textContent = "✗ فشل التصدير: " + err.message;
+    } finally {
+      btn.disabled = false;
+    }
+  }
+
+  async function buildDocxBlob(docxLib) {
+    const {
+      Document, Packer, Paragraph, TextRun, HeadingLevel, AlignmentType,
+      Table, TableRow, TableCell, WidthType, BorderStyle, ExternalHyperlink,
+      PageBreak, TableOfContents, LevelFormat, convertInchesToTwip,
+    } = docxLib;
+
+    const entities = selectedEntitiesForExport();
+    const sections = [];
+
+    // قسم: الغلاف + الإحصاءات + TOC
+    const introChildren = [];
+    if (exportState.extras.cover) introChildren.push(...buildCoverPage(docxLib, entities));
+    if (exportState.extras.stats) introChildren.push(...buildStatsPage(docxLib, entities));
+    if (exportState.extras.toc) introChildren.push(...buildTocPage(docxLib));
+
+    if (introChildren.length) {
+      sections.push({
+        properties: { page: { margin: { top: 1000, right: 1000, bottom: 1000, left: 1000 } } },
+        children: introChildren,
+      });
+    }
+
+    // قسم رئيس: الفصول (entities)
+    const mainChildren = buildBodyChildren(docxLib, entities);
+
+    // الفهرس الأبجدي
+    if (exportState.extras.alphaIndex) {
+      mainChildren.push(...buildAlphaIndex(docxLib, entities));
+    }
+
+    sections.push({
+      properties: { page: { margin: { top: 1000, right: 1000, bottom: 1000, left: 1000 } } },
+      children: mainChildren,
+    });
+
+    const doc = new Document({
+      creator: "موسوعة السيرة النبوية المؤسسية",
+      title: "موسوعة السيرة النبوية المؤسسية",
+      description: "تصدير من بوابة الموسوعة",
+      styles: { default: buildDocxStyles(docxLib) },
+      sections,
+    });
+
+    return Packer.toBlob(doc);
+  }
+
+  function buildDocxStyles(docxLib) {
+    return {
+      document: {
+        run: { font: "Tajawal", size: 22, rightToLeft: true },
+        paragraph: { spacing: { line: 360 } },
+      },
+      heading1: {
+        run: { font: "Tajawal", size: 40, bold: true, color: "0A4D68", rightToLeft: true },
+        paragraph: { spacing: { before: 480, after: 240 } },
+      },
+      heading2: {
+        run: { font: "Tajawal", size: 30, bold: true, color: "0A4D68", rightToLeft: true },
+        paragraph: { spacing: { before: 360, after: 180 } },
+      },
+      heading3: {
+        run: { font: "Tajawal", size: 26, bold: true, color: "C39B5C", rightToLeft: true },
+        paragraph: { spacing: { before: 240, after: 120 } },
+      },
+    };
+  }
+
+  function rtl(opts = {}) {
+    return Object.assign({ bidirectional: true, alignment: "right" }, opts);
+  }
+
+  function P(docxLib, text, opts = {}) {
+    const { Paragraph, TextRun } = docxLib;
+    return new Paragraph({
+      bidirectional: true,
+      alignment: opts.alignment || "right",
+      spacing: opts.spacing,
+      heading: opts.heading,
+      pageBreakBefore: opts.pageBreakBefore,
+      children: [new TextRun({
+        text: text,
+        bold: opts.bold,
+        size: opts.size,
+        color: opts.color,
+        font: "Tajawal",
+        rightToLeft: true,
+      })],
+    });
+  }
+
+  function buildCoverPage(docxLib, entities) {
+    const { Paragraph, TextRun, AlignmentType } = docxLib;
+    return [
+      new Paragraph({
+        bidirectional: true,
+        alignment: AlignmentType.CENTER,
+        spacing: { before: 2400, after: 480 },
+        children: [new TextRun({
+          text: "موسوعة السيرة النبوية المؤسسية",
+          bold: true, size: 56, color: "0A4D68", font: "Tajawal", rightToLeft: true,
+        })],
+      }),
+      new Paragraph({
+        bidirectional: true,
+        alignment: AlignmentType.CENTER,
+        spacing: { after: 360 },
+        children: [new TextRun({
+          text: "رصد وتشخيص الكيانات المتخصصة في خدمة السيرة النبوية على مستوى العالم",
+          size: 28, color: "3A3A3A", font: "Tajawal", rightToLeft: true,
+        })],
+      }),
+      new Paragraph({
+        bidirectional: true,
+        alignment: AlignmentType.CENTER,
+        spacing: { before: 1200, after: 120 },
+        children: [new TextRun({
+          text: `${entities.length} كياناً مؤسسياً`,
+          bold: true, size: 36, color: "C39B5C", font: "Tajawal", rightToLeft: true,
+        })],
+      }),
+      new Paragraph({
+        bidirectional: true,
+        alignment: AlignmentType.CENTER,
+        children: [new TextRun({
+          text: `صادر بتاريخ ${new Date().toLocaleDateString("ar-EG")}`,
+          size: 22, color: "666666", font: "Tajawal", rightToLeft: true,
+        })],
+      }),
+      new Paragraph({ children: [new docxLib.PageBreak()] }),
+    ];
+  }
+
+  function buildStatsPage(docxLib, entities) {
+    const { Paragraph, TextRun, AlignmentType, PageBreak } = docxLib;
+    const out = [];
+    out.push(P(docxLib, "ملخص إحصائي", { heading: "Heading1" }));
+
+    // إحصاءات سريعة
+    const byRegion = new Map();
+    const byTypeGroup = new Map();
+    const countries = new Set();
+    entities.forEach((e) => {
+      if (e.region) byRegion.set(e.region, (byRegion.get(e.region) || 0) + 1);
+      if (e.type_group) byTypeGroup.set(e.type_group, (byTypeGroup.get(e.type_group) || 0) + 1);
+      if (e.country) countries.add(e.country);
+    });
+
+    out.push(P(docxLib, `إجمالي الكيانات: ${entities.length}`, { size: 24 }));
+    out.push(P(docxLib, `عدد الدول: ${countries.size}`, { size: 24 }));
+    out.push(P(docxLib, "", { size: 12 }));
+
+    out.push(P(docxLib, "التوزيع الإقليمي", { heading: "Heading2" }));
+    [...byRegion.entries()].sort((a, b) => b[1] - a[1]).forEach(([k, v]) => {
+      out.push(P(docxLib, `• ${label("region", k)}: ${v} كياناً`, { size: 22 }));
+    });
+
+    out.push(P(docxLib, "التوزيع حسب النوع", { heading: "Heading2" }));
+    [...byTypeGroup.entries()].sort((a, b) => b[1] - a[1]).forEach(([k, v]) => {
+      out.push(P(docxLib, `• ${label("type_group", k)}: ${v} كياناً`, { size: 22 }));
+    });
+
+    out.push(new Paragraph({ children: [new PageBreak()] }));
+    return out;
+  }
+
+  function buildTocPage(docxLib) {
+    const { Paragraph, TextRun, TableOfContents, PageBreak } = docxLib;
+    return [
+      P(docxLib, "فهرس المحتويات", { heading: "Heading1" }),
+      new TableOfContents("فهرس المحتويات", {
+        hyperlink: true,
+        headingStyleRange: "1-3",
+      }),
+      new Paragraph({ children: [new PageBreak()] }),
+    ];
+  }
+
+  function buildBodyChildren(docxLib, entities) {
+    const out = [];
+    const struct = exportState.structure;
+
+    if (struct === "hierarchical") {
+      const groups = groupForStructure(entities, "hierarchical");
+      const regionKeys = sortGroupKeys("region", [...groups.keys()]);
+      regionKeys.forEach((reg) => {
+        out.push(P(docxLib, structureLabel("region", reg), { heading: "Heading1", pageBreakBefore: true }));
+        const inner = groups.get(reg);
+        const tgKeys = sortGroupKeys("type_group", [...inner.keys()]);
+        tgKeys.forEach((tg) => {
+          out.push(P(docxLib, structureLabel("type_group", tg), { heading: "Heading2" }));
+          inner.get(tg)
+            .sort((a, b) => (a.name_ar || "").localeCompare(b.name_ar || "", "ar"))
+            .forEach((e) => out.push(...renderEntityBlock(docxLib, e)));
+        });
+      });
+    } else {
+      const groups = groupForStructure(entities, struct);
+      const keys = sortGroupKeys(struct, [...groups.keys()]);
+      keys.forEach((k) => {
+        out.push(P(docxLib, structureLabel(struct, k), { heading: "Heading1", pageBreakBefore: true }));
+        const list = groups.get(k).sort((a, b) => (a.name_ar || "").localeCompare(b.name_ar || "", "ar"));
+
+        if (exportState.contentLevel === "table") {
+          out.push(buildEntitiesTable(docxLib, list));
+        } else {
+          list.forEach((e) => out.push(...renderEntityBlock(docxLib, e)));
+        }
+      });
+    }
+    return out;
+  }
+
+  function renderEntityBlock(docxLib, e) {
+    const level = exportState.contentLevel;
+    const { Paragraph, TextRun, ExternalHyperlink } = docxLib;
+    const out = [];
+
+    // عنوان الكيان
+    const titleRuns = [new TextRun({
+      text: `[${e.id}] ${e.name_ar || ""}`,
+      bold: true, size: 26, color: "0A4D68", font: "Tajawal", rightToLeft: true,
+    })];
+    out.push(new Paragraph({
+      bidirectional: true, alignment: "right",
+      heading: "Heading3",
+      spacing: { before: 240, after: 80 },
+      children: titleRuns,
+    }));
+
+    // الاسم الإنجليزي إن وُجد
+    if (e.name_en) {
+      out.push(new Paragraph({
+        bidirectional: true, alignment: "right",
+        spacing: { after: 80 },
+        children: [new TextRun({
+          text: e.name_en, italics: true, size: 20, color: "666666",
+          font: "Tajawal", rightToLeft: true,
+        })],
+      }));
+    }
+
+    if (level === "minimal") {
+      const parts = [];
+      if (e.country) parts.push(`📍 ${label("country", e.country)}`);
+      if (e.type) parts.push(label("type", e.type));
+      const meta = parts.length ? parts.join(" | ") + " " : "";
+      const runs = [new TextRun({ text: meta, size: 22, font: "Tajawal", rightToLeft: true })];
+      if (e.url && exportState.extras.hyperlinks) {
+        out.push(new Paragraph({
+          bidirectional: true, alignment: "right",
+          children: [
+            ...runs,
+            new ExternalHyperlink({
+              link: e.url,
+              children: [new TextRun({ text: e.url, color: "0563C1", underline: {}, size: 22, font: "Tajawal", rightToLeft: true })],
+            }),
+          ],
+        }));
+      } else {
+        out.push(new Paragraph({ bidirectional: true, alignment: "right", children: runs }));
+      }
+      return out;
+    }
+
+    // قياسي / كامل: جدول الحقول
+    const fields = [
+      ["النوع", label("type", e.type)],
+      ["المجموعة", label("type_group", e.type_group)],
+      ["البلد", label("country", e.country)],
+      ["الإقليم", label("region", e.region)],
+      ["سنة التأسيس", e.founded ? String(e.founded) : "—"],
+      ["مستوى التحقّق", label("verification", e.verification)],
+    ];
+    if (level === "full") {
+      fields.push(
+        ["التمويل", label("funding_type", e.funding_type)],
+        ["الحالة", label("status", e.status)],
+        ["النطاق", label("scale", e.scale)],
+        ["مستوى الإدراج", label("inclusion_tier", e.inclusion_tier)],
+        ["الجولة", label("round", e.round)],
+        ["اللغات", (e.languages || []).map((l) => label("languages", l)).join("، ") || "—"],
+        ["المخرجات", (e.output_types || []).map((o) => label("output_types", o)).join("، ") || "—"],
+        ["الموضوعات", (e.subjects || []).map((s) => label("subjects", s)).join("، ") || "—"],
+      );
+    } else {
+      fields.push(["الموضوعات", (e.subjects || []).slice(0, 4).map((s) => label("subjects", s)).join("، ") || "—"]);
+    }
+
+    out.push(buildFieldTable(docxLib, fields));
+
+    // الوصف
+    if (e.description_ar) {
+      out.push(new Paragraph({
+        bidirectional: true, alignment: "right",
+        spacing: { before: 120, after: 80 },
+        children: [new TextRun({
+          text: e.description_ar, size: 22, font: "Tajawal", rightToLeft: true,
+        })],
+      }));
+    }
+
+    if (level === "full") {
+      if (e.key_figures && e.key_figures.length) {
+        out.push(P(docxLib, "الشخصيات الرئيسة: " + e.key_figures.join("، "), { size: 20 }));
+      }
+      if (e.parent_organization_ar) {
+        out.push(P(docxLib, "المؤسسة الأم: " + e.parent_organization_ar, { size: 20 }));
+      }
+      if (e.notes_ar) {
+        out.push(P(docxLib, "ملاحظات: " + e.notes_ar, { size: 20, color: "666666" }));
+      }
+    }
+
+    // الرابط
+    if (e.url && exportState.extras.hyperlinks) {
+      out.push(new Paragraph({
+        bidirectional: true, alignment: "right",
+        spacing: { before: 80, after: 200 },
+        children: [
+          new TextRun({ text: "🔗 ", size: 22, font: "Tajawal", rightToLeft: true }),
+          new ExternalHyperlink({
+            link: e.url,
+            children: [new TextRun({
+              text: e.url, color: "0563C1", underline: {}, size: 20, font: "Tajawal", rightToLeft: true,
+            })],
+          }),
+        ],
+      }));
+    } else if (e.url) {
+      out.push(P(docxLib, "🔗 " + e.url, { size: 20, color: "0563C1" }));
+    }
+
+    return out;
+  }
+
+  function buildFieldTable(docxLib, fields) {
+    const { Table, TableRow, TableCell, Paragraph, TextRun, WidthType, BorderStyle } = docxLib;
+    const border = { style: BorderStyle.SINGLE, size: 4, color: "D8D2C1" };
+    const borders = { top: border, bottom: border, left: border, right: border };
+
+    const rows = fields.map(([key, val]) => new TableRow({
+      children: [
+        new TableCell({
+          width: { size: 30, type: WidthType.PERCENTAGE },
+          shading: { fill: "F5F1E8" },
+          children: [new Paragraph({
+            bidirectional: true, alignment: "right",
+            children: [new TextRun({
+              text: key, bold: true, size: 20, font: "Tajawal", rightToLeft: true, color: "0A4D68",
+            })],
+          })],
+        }),
+        new TableCell({
+          width: { size: 70, type: WidthType.PERCENTAGE },
+          children: [new Paragraph({
+            bidirectional: true, alignment: "right",
+            children: [new TextRun({
+              text: String(val ?? "—"), size: 20, font: "Tajawal", rightToLeft: true,
+            })],
+          })],
+        }),
+      ],
+    }));
+
+    return new Table({
+      visuallyRightToLeft: true,
+      width: { size: 100, type: WidthType.PERCENTAGE },
+      rows,
+      borders: {
+        top: border, bottom: border, left: border, right: border,
+        insideHorizontal: border, insideVertical: border,
+      },
+    });
+  }
+
+  function buildEntitiesTable(docxLib, entities) {
+    const { Table, TableRow, TableCell, Paragraph, TextRun, WidthType, BorderStyle } = docxLib;
+    const border = { style: BorderStyle.SINGLE, size: 4, color: "D8D2C1" };
+
+    const headerCell = (txt, w) => new TableCell({
+      width: { size: w, type: WidthType.PERCENTAGE },
+      shading: { fill: "0A4D68" },
+      children: [new Paragraph({
+        bidirectional: true, alignment: "right",
+        children: [new TextRun({ text: txt, bold: true, color: "FFFFFF", size: 20, font: "Tajawal", rightToLeft: true })],
+      })],
+    });
+
+    const cell = (txt, w) => new TableCell({
+      width: { size: w, type: WidthType.PERCENTAGE },
+      children: [new Paragraph({
+        bidirectional: true, alignment: "right",
+        children: [new TextRun({ text: txt, size: 18, font: "Tajawal", rightToLeft: true })],
+      })],
+    });
+
+    const rows = [
+      new TableRow({ tableHeader: true, children: [
+        headerCell("الرمز", 8),
+        headerCell("الاسم", 32),
+        headerCell("النوع", 18),
+        headerCell("البلد", 12),
+        headerCell("السنة", 8),
+        headerCell("الموضوعات", 22),
+      ]}),
+      ...entities.map((e) => new TableRow({ children: [
+        cell(e.id, 8),
+        cell(e.name_ar || "", 32),
+        cell(label("type", e.type), 18),
+        cell(label("country", e.country), 12),
+        cell(e.founded ? String(e.founded) : "—", 8),
+        cell((e.subjects || []).slice(0, 3).map((s) => label("subjects", s)).join("، "), 22),
+      ]})),
+    ];
+
+    return new Table({
+      visuallyRightToLeft: true,
+      width: { size: 100, type: WidthType.PERCENTAGE },
+      rows,
+      borders: {
+        top: border, bottom: border, left: border, right: border,
+        insideHorizontal: border, insideVertical: border,
+      },
+    });
+  }
+
+  function buildAlphaIndex(docxLib, entities) {
+    const out = [];
+    out.push(P(docxLib, "فهرس أبجدي بالأسماء", { heading: "Heading1", pageBreakBefore: true }));
+    const sorted = [...entities].sort((a, b) => (a.name_ar || "").localeCompare(b.name_ar || "", "ar"));
+    sorted.forEach((e) => {
+      out.push(P(docxLib, `${e.name_ar || ""} — [${e.id}] (${label("country", e.country)})`, { size: 20 }));
+    });
+    return out;
+  }
 
   // === التشغيل الفعلي ===
   if (document.readyState === "loading") {

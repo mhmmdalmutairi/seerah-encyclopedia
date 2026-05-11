@@ -4183,3 +4183,203 @@ mark.search-hit {
   background-color: rgba(79, 168, 197, 0.08);
   color: var(--color-primary-light);
 }
+
+/* ============================================================
+   تبويب التصدير إلى Word
+   ============================================================ */
+
+.export {
+  padding-block: 1.5rem;
+}
+
+.export__header {
+  margin-bottom: 1.5rem;
+}
+
+.export__title {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--color-primary);
+  margin: 0 0 0.5rem;
+}
+
+.export__hint {
+  color: var(--color-text-muted, #555);
+  font-size: 0.95rem;
+  line-height: 1.7;
+  max-width: 70ch;
+}
+
+.export__hint code {
+  background-color: rgba(195, 155, 92, 0.15);
+  padding: 0.1em 0.35em;
+  border-radius: 3px;
+  font-size: 0.9em;
+}
+
+.export__layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 280px;
+  gap: 1.5rem;
+  align-items: start;
+}
+
+.export__controls {
+  display: grid;
+  gap: 1rem;
+}
+
+.export-group {
+  border: 1px solid var(--color-border, #e2dccc);
+  border-radius: 8px;
+  padding: 1rem 1.25rem;
+  background-color: var(--color-surface, #fdfbf5);
+  margin: 0;
+}
+
+.export-group legend {
+  font-weight: 700;
+  color: var(--color-primary);
+  padding-inline: 0.5rem;
+  font-size: 0.95rem;
+}
+
+.export-radio,
+.export-check {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.4rem 0.25rem;
+  cursor: pointer;
+  font-size: 0.95rem;
+  min-height: 36px;
+  border-radius: 4px;
+  transition: background-color 0.15s;
+}
+
+.export-radio:hover,
+.export-check:hover {
+  background-color: rgba(10, 77, 104, 0.05);
+}
+
+.export-radio input,
+.export-check input {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.export-select {
+  display: block;
+  width: 100%;
+  margin-top: 0.5rem;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--color-border, #e2dccc);
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 0.95rem;
+  background-color: #fff;
+  min-height: 40px;
+}
+
+.export-select:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.export__preview {
+  position: sticky;
+  top: 1rem;
+  background-color: var(--color-bg-soft, #f5f1e8);
+  border: 1px solid var(--color-border, #e2dccc);
+  border-radius: 10px;
+  padding: 1.25rem;
+  display: grid;
+  gap: 0.75rem;
+}
+
+.export-summary h3 {
+  margin: 0 0 0.75rem;
+  font-size: 1rem;
+  color: var(--color-primary);
+  border-bottom: 1px solid var(--color-border, #e2dccc);
+  padding-bottom: 0.5rem;
+}
+
+.export-summary p {
+  margin: 0.3rem 0;
+  font-size: 0.95rem;
+  color: var(--color-text, #3a3a3a);
+}
+
+.export-summary strong {
+  color: var(--color-primary);
+  font-size: 1.15em;
+}
+
+.export-download {
+  width: 100%;
+  min-height: 48px;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.export-download:disabled {
+  opacity: 0.6;
+  cursor: wait;
+}
+
+.export-reset {
+  width: 100%;
+}
+
+.export-progress {
+  margin: 0;
+  padding: 0.6rem 0.75rem;
+  border-radius: 4px;
+  background-color: rgba(195, 155, 92, 0.15);
+  color: var(--color-text, #3a3a3a);
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+/* تابلت: تخطيط عمودي */
+@media (max-width: 1024px) {
+  .export__layout {
+    grid-template-columns: 1fr;
+  }
+  .export__preview {
+    position: static;
+    order: -1;
+  }
+}
+
+/* هاتف: تقليل الحشو */
+@media (max-width: 768px) {
+  .export-group {
+    padding: 0.75rem 1rem;
+  }
+  .export__title {
+    font-size: 1.35rem;
+  }
+}
+
+/* الوضع الداكن */
+[data-theme="dark"] .export-group {
+  background-color: var(--color-surface-elevated, #1c2228);
+  border-color: var(--color-border-strong, #2c3540);
+}
+[data-theme="dark"] .export__preview {
+  background-color: var(--color-surface-elevated, #1c2228);
+  border-color: var(--color-border-strong, #2c3540);
+}
+[data-theme="dark"] .export-select {
+  background-color: #1a1f24;
+  color: var(--color-text, #d8d2c1);
+  border-color: var(--color-border-strong, #2c3540);
+}
+[data-theme="dark"] .export-radio:hover,
+[data-theme="dark"] .export-check:hover {
+  background-color: rgba(79, 168, 197, 0.1);
+}
