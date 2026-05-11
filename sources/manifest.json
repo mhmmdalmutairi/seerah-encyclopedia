@@ -2,7 +2,7 @@
   "project": "seerah-encyclopedia",
   "description": "مسح موسوعي للكيانات المتخصصة في خدمة السيرة النبوية، موزّعاً على سبع جولات بحثية",
   "language": "ar",
-  "totalEntities": 391,
+  "totalEntities": 429,
   "rounds": [
     {
       "id": "01",
@@ -75,6 +75,17 @@
       "entityCount": null,
       "type": "synthesis",
       "note": "تقرير وصفي إحصائي مكاني يعتمد على الجولات الست ولا يضيف كيانات جديدة. الجولة السابعة-ب (التحليل الاستراتيجي والفجوات) لم تُنجَز بعد."
+    },
+    {
+      "id": "08a",
+      "file": "round-08a-south-asia.md",
+      "title_ar": "جولة 8-أ — جنوب آسيا (باكستان، الهند، بنغلاديش، أفغانستان)",
+      "region_ar": "جنوب آسيا",
+      "region_en": "South Asia",
+      "entityCount": 30,
+      "share": 0.070,
+      "type": "gap-filling-research",
+      "note": "دفعة أولى من جولة سدّ الفجوة الجنوب-آسيوية بعد التشخيص. تستهدف ضعف التغطية الأصلية للجولة 5 (10 PK + 4 IN + 2 BD + 0 AF فقط)."
     }
   ]
 }

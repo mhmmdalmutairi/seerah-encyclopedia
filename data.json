@@ -8,7 +8,8 @@
     "03",
     "04",
     "05",
-    "06"
+    "06",
+    "08a"
   ],
   "entities": [
     {
@@ -16213,7 +16214,1426 @@
       "subjects_category": [
         "auxiliary_sciences"
       ]
+    },
+    {
+      "id": "NAM-064",
+      "round": "08a",
+      "name_ar": "قسم السيرة والتاريخ الإسلامي – الجامعة الإسلامية العالمية إسلام آباد",
+      "name_en": "Department of Seerah & Islamic History – IIUI",
+      "type": "university_department",
+      "type_group": "research_education",
+      "country": "PK",
+      "city_ar": "إسلام آباد",
+      "region": "non_arab_muslim",
+      "founded": 1980,
+      "founded_decade": "1980s",
+      "status": "active",
+      "scale": "international",
+      "url": "https://www.iiu.edu.pk/faculties/islamic-studies-usuluddin/departments/seerah-islamic-history/",
+      "parent_organization_ar": "كلية أصول الدين – الجامعة الإسلامية العالمية",
+      "funding_type": "state",
+      "subjects": [
+        "seerah_general",
+        "maghazi",
+        "biography_methodology",
+        "historiography"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "auxiliary_sciences",
+        "methodology_critique"
+      ],
+      "languages": [
+        "ar",
+        "en",
+        "ur"
+      ],
+      "output_types": [
+        "lectures",
+        "books",
+        "courses"
+      ],
+      "description_ar": "أقدم قسم جامعي باكستاني متخصّص في السيرة، يقدّم بكالوريوس وماجستير ودكتوراه. ينتمي إلى كلية أصول الدين التي أُسّست 1981 وتغطّي تفسير، حديث، سيرة، عقيدة، دعوة، أديان.",
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "sources": [
+        {
+          "round_file": "round-08a-south-asia.md",
+          "anchor": "NAM-064 — IIUI Department of Seerah"
+        }
+      ]
+    },
+    {
+      "id": "NAM-065",
+      "round": "08a",
+      "name_ar": "معهد البحوث الإسلامية – الجامعة الإسلامية العالمية إسلام آباد",
+      "name_en": "Islamic Research Institute (IRI), IIUI",
+      "type": "research_center",
+      "type_group": "research_education",
+      "country": "PK",
+      "city_ar": "إسلام آباد",
+      "region": "non_arab_muslim",
+      "founded": 1960,
+      "founded_decade": "1960s",
+      "status": "active",
+      "scale": "international",
+      "url": "https://iri.iiu.edu.pk/",
+      "parent_organization_ar": "الجامعة الإسلامية العالمية – إسلام آباد",
+      "funding_type": "state",
+      "subjects": [
+        "seerah_general",
+        "hadith_sciences",
+        "sources_critique",
+        "biography_methodology"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "auxiliary_sciences",
+        "methodology_critique"
+      ],
+      "languages": [
+        "ar",
+        "en",
+        "ur"
+      ],
+      "output_types": [
+        "journal",
+        "books",
+        "conference"
+      ],
+      "description_ar": "أُسّس 1960 كمتطلب دستوري حكومي للبحوث الإسلامية، ضُمّ للجامعة الإسلامية العالمية 1980. يصدر مجلة Islamic Studies (إنجليزية) ومجلات بالأردية والعربية. ينظّم ورش السيرة وندوات تخصصية.",
+      "verification": "desk_verified",
+      "inclusion_tier": "borderline",
+      "sources": [
+        {
+          "round_file": "round-08a-south-asia.md",
+          "anchor": "NAM-065 — Islamic Research Institute"
+        }
+      ]
+    },
+    {
+      "id": "NAM-066",
+      "round": "08a",
+      "name_ar": "كرسي السيرة – جامعة بهاولبور الإسلامية",
+      "name_en": "Seerat Chair, Islamia University of Bahawalpur (IUB)",
+      "type": "academic_chair",
+      "type_group": "research_education",
+      "country": "PK",
+      "city_ar": "بهاولبور",
+      "region": "non_arab_muslim",
+      "founded": 1987,
+      "founded_decade": "1980s",
+      "status": "active",
+      "scale": "international",
+      "url": "https://www.iub.edu.pk/",
+      "parent_organization_ar": "كلية الدراسات الإسلامية والعربية – جامعة بهاولبور الإسلامية",
+      "funding_type": "state",
+      "subjects": [
+        "seerah_general",
+        "maghazi",
+        "shamail",
+        "biography_methodology"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "methodology_critique"
+      ],
+      "languages": [
+        "ar",
+        "en",
+        "ur"
+      ],
+      "output_types": [
+        "conference",
+        "books",
+        "journal"
+      ],
+      "description_ar": "أقدم كرسي سيرة في باكستان (1987). نظّم 11 مؤتمراً دولياً للسيرة + مؤتمرات قرآنية + سلاسل محاضرات. يصدر مجلة \"أنوار السيرة\" منذ 2023.",
+      "key_figures": [
+        "د. حافظ شفيق الرحمن"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "sources": [
+        {
+          "round_file": "round-08a-south-asia.md",
+          "anchor": "NAM-066 — IUB Seerat Chair"
+        }
+      ]
+    },
+    {
+      "id": "NAM-067",
+      "round": "08a",
+      "name_ar": "مجلة أنوار السيرة",
+      "name_en": "Anwar al-Sirah Journal",
+      "type": "journal",
+      "type_group": "publishing_knowledge",
+      "country": "PK",
+      "city_ar": "بهاولبور",
+      "region": "non_arab_muslim",
+      "founded": 2023,
+      "founded_decade": "2020s",
+      "status": "active",
+      "scale": "international",
+      "url": "https://journals.iub.edu.pk/index.php/anwaralsirah/",
+      "parent_organization_ar": "كرسي السيرة – جامعة بهاولبور الإسلامية",
+      "funding_type": "state",
+      "subjects": [
+        "seerah_general",
+        "maghazi",
+        "shamail",
+        "biography_methodology",
+        "historiography"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "methodology_critique"
+      ],
+      "languages": [
+        "ar",
+        "en",
+        "ur"
+      ],
+      "output_types": [
+        "journal"
+      ],
+      "description_ar": "مجلة دولية محكّمة نصف سنوية بثلاث لغات (عربي/أردو/إنجليزي)، مفتوحة الوصول. ISSN 3006-7766 إلكتروني، 3006-7758 ورقي. مصنّفة Y في HEC.",
+      "explicit_relations": [
+        {
+          "target": "NAM-066",
+          "type": "child_of"
+        }
+      ],
+      "key_figures": [
+        "د. حافظ شفيق الرحمن (رئيس التحرير)"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "sources": [
+        {
+          "round_file": "round-08a-south-asia.md",
+          "anchor": "NAM-067 — Anwar al-Sirah"
+        }
+      ]
+    },
+    {
+      "id": "NAM-068",
+      "round": "08a",
+      "name_ar": "برنامج دكتوراه السيرة النبوية – جامعة سرغودا",
+      "name_en": "PhD Program in Seerat-un-Nabi, University of Sargodha",
+      "type": "university_department",
+      "type_group": "research_education",
+      "country": "PK",
+      "city_ar": "سرغودا",
+      "region": "non_arab_muslim",
+      "founded": 2019,
+      "founded_decade": "2010s",
+      "status": "active",
+      "scale": "national",
+      "url": "https://su.edu.pk/",
+      "parent_organization_ar": "كرسي السيرة – جامعة سرغودا",
+      "funding_type": "state",
+      "subjects": [
+        "seerah_general",
+        "maghazi",
+        "biography_methodology"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "methodology_critique"
+      ],
+      "languages": [
+        "ar",
+        "en",
+        "ur"
+      ],
+      "output_types": [
+        "courses",
+        "books"
+      ],
+      "description_ar": "أول دكتوراه في باكستان تخصّص السيرة النبوية (أُعلنت 2019 من رئيس الوزراء عمران خان). يدمج مقررات وأطروحة بثلاث لغات. لها كرسي سيرة مرافق ومجلس استشاريين علماء.",
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "sources": [
+        {
+          "round_file": "round-08a-south-asia.md",
+          "anchor": "NAM-068 — Sargodha PhD Seerat"
+        }
+      ]
+    },
+    {
+      "id": "NAM-069",
+      "round": "08a",
+      "name_ar": "قسم دراسات السيرة – جامعة العلامة إقبال المفتوحة",
+      "name_en": "Department of Seerat Studies, Allama Iqbal Open University (AIOU)",
+      "type": "university_department",
+      "type_group": "research_education",
+      "country": "PK",
+      "city_ar": "إسلام آباد",
+      "region": "non_arab_muslim",
+      "founded": 1974,
+      "founded_decade": "1970s",
+      "status": "active",
+      "scale": "national",
+      "url": "https://aiou.edu.pk/faculty-arabic-islamic-studies",
+      "parent_organization_ar": "كلية الدراسات العربية والإسلامية – AIOU",
+      "funding_type": "state",
+      "subjects": [
+        "seerah_general",
+        "seerah_pedagogy",
+        "biography_methodology"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "application_outreach"
+      ],
+      "languages": [
+        "ur",
+        "en",
+        "ar"
+      ],
+      "output_types": [
+        "courses",
+        "books"
+      ],
+      "description_ar": "تخصّص M.Phil في دراسات السيرة، عبر التعليم عن بُعد. تخدم +1.4 مليون طالب باكستاني. تأسّست الكلية 1974 وضمّت قسم Seerat Studies مستقلاً.",
+      "verification": "desk_verified",
+      "inclusion_tier": "borderline",
+      "sources": [
+        {
+          "round_file": "round-08a-south-asia.md",
+          "anchor": "NAM-069 — AIOU Seerat Studies"
+        }
+      ]
+    },
+    {
+      "id": "NAM-070",
+      "round": "08a",
+      "name_ar": "مركز الشيخ زايد الإسلامي – جامعة كراتشي",
+      "name_en": "Sheikh Zayed Islamic Centre, University of Karachi",
+      "type": "research_center",
+      "type_group": "research_education",
+      "country": "PK",
+      "city_ar": "كراتشي",
+      "region": "non_arab_muslim",
+      "founded_decade": "2000s",
+      "status": "active",
+      "scale": "national",
+      "url": "https://szic.edu.pk/",
+      "parent_organization_ar": "جامعة كراتشي",
+      "funding_type": "state",
+      "subjects": [
+        "seerah_general",
+        "hadith_sciences",
+        "sources_critique",
+        "historiography"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "auxiliary_sciences"
+      ],
+      "languages": [
+        "ar",
+        "en",
+        "ur"
+      ],
+      "output_types": [
+        "books",
+        "courses",
+        "journal"
+      ],
+      "description_ar": "أحد ثلاثة مراكز للشيخ زايد في باكستان، تأسّس عبر بروتوكول حكومي مع الإمارات لتعزيز الدراسات الإسلامية والعربية. مكتبته تضمّ مواد التفسير والحديث والسيرة والفقه والتصوف.",
+      "verification": "desk_verified",
+      "inclusion_tier": "borderline",
+      "sources": [
+        {
+          "round_file": "round-08a-south-asia.md",
+          "anchor": "NAM-070 — SZIC Karachi"
+        }
+      ]
+    },
+    {
+      "id": "NAM-071",
+      "round": "08a",
+      "name_ar": "مركز الشيخ زايد الإسلامي – جامعة بنجاب لاهور",
+      "name_en": "Sheikh Zayed Islamic Centre, University of the Punjab",
+      "type": "research_center",
+      "type_group": "research_education",
+      "country": "PK",
+      "city_ar": "لاهور",
+      "region": "non_arab_muslim",
+      "founded_decade": "2000s",
+      "status": "active",
+      "scale": "national",
+      "url": "https://pu.edu.pk/home/department/33/sheikh-zayed-islamic-centre",
+      "parent_organization_ar": "جامعة بنجاب",
+      "funding_type": "state",
+      "subjects": [
+        "seerah_general",
+        "biography_methodology",
+        "hadith_sciences"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "methodology_critique",
+        "auxiliary_sciences"
+      ],
+      "languages": [
+        "ar",
+        "en",
+        "ur"
+      ],
+      "output_types": [
+        "books",
+        "courses"
+      ],
+      "description_ar": "النظير اللاهوري لمركز كراتشي، يقدّم BS/M.Phil/PhD في الدراسات الإسلامية.",
+      "verification": "desk_verified",
+      "inclusion_tier": "borderline",
+      "sources": [
+        {
+          "round_file": "round-08a-south-asia.md",
+          "anchor": "NAM-071 — SZIC Punjab"
+        }
+      ]
+    },
+    {
+      "id": "NAM-072",
+      "round": "08a",
+      "name_ar": "دار العلوم كراتشي",
+      "name_en": "Darul Uloom Karachi",
+      "type": "research_center",
+      "type_group": "research_education",
+      "country": "PK",
+      "city_ar": "كراتشي",
+      "region": "non_arab_muslim",
+      "founded": 1951,
+      "founded_decade": "1950s",
+      "status": "active",
+      "scale": "international",
+      "funding_type": "private",
+      "subjects": [
+        "seerah_general",
+        "hadith_sciences",
+        "sources_critique"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "auxiliary_sciences"
+      ],
+      "languages": [
+        "ur",
+        "ar"
+      ],
+      "output_types": [
+        "books",
+        "fatwa",
+        "courses"
+      ],
+      "description_ar": "أسّسها محمد شفيع 1951، أكبر مدرسة ديوبندية في كراتشي. تتبع المنهج الديوباندي تاريخياً. لديها تجديدات في تدريس السيرة عبر مجلتها وإصداراتها.",
+      "key_figures": [
+        "محمد شفيع (مؤسس)",
+        "محمد رفيع عثماني",
+        "محمد تقي عثماني"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "borderline",
+      "sources": [
+        {
+          "round_file": "round-08a-south-asia.md",
+          "anchor": "NAM-072 — Darul Uloom Karachi"
+        }
+      ]
+    },
+    {
+      "id": "NAM-073",
+      "round": "08a",
+      "name_ar": "جامعة الأشرفية لاهور",
+      "name_en": "Jamia Ashrafia Lahore",
+      "type": "research_center",
+      "type_group": "research_education",
+      "country": "PK",
+      "city_ar": "لاهور",
+      "region": "non_arab_muslim",
+      "founded": 1947,
+      "founded_decade": "1940s",
+      "status": "active",
+      "scale": "national",
+      "url": "https://jamiaashrafia.org/",
+      "funding_type": "waqf",
+      "subjects": [
+        "seerah_general",
+        "hadith_sciences",
+        "sufism_seerah"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "auxiliary_sciences",
+        "application_outreach"
+      ],
+      "languages": [
+        "ur",
+        "ar"
+      ],
+      "output_types": [
+        "books",
+        "courses",
+        "fatwa"
+      ],
+      "description_ar": "أسّسها مفتي محمد حسن 1947، أكبر مدرسة سُنية ديوبندية في لاهور. لها 10 فروع إضافية في المدينة. تتمتّع بسلطة منح شهادات معترف بها حكومياً.",
+      "key_figures": [
+        "مفتي محمد حسن (مؤسس)"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "borderline",
+      "sources": [
+        {
+          "round_file": "round-08a-south-asia.md",
+          "anchor": "NAM-073 — Jamia Ashrafia"
+        }
+      ]
+    },
+    {
+      "id": "NAM-074",
+      "round": "08a",
+      "name_ar": "جامعة نعيمية لاهور",
+      "name_en": "Jamia Naeemia Lahore",
+      "type": "research_center",
+      "type_group": "research_education",
+      "country": "PK",
+      "city_ar": "لاهور",
+      "region": "non_arab_muslim",
+      "founded_decade": "1940s",
+      "status": "active",
+      "scale": "national",
+      "url": "https://jamianaeemia.com/",
+      "funding_type": "private",
+      "subjects": [
+        "seerah_general",
+        "shamail",
+        "sufism_seerah"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "application_outreach"
+      ],
+      "languages": [
+        "ur",
+        "ar"
+      ],
+      "output_types": [
+        "books",
+        "courses",
+        "fatwa"
+      ],
+      "description_ar": "أكبر مؤسسة للتيار البريلوي السني في باكستان. مؤسسها مفتي محمد حسين نعيمي (والد سرفراز أحمد نعيمي). تركّز السيرة بمنظور البريلوية الصوفية والشمائل والمولد.",
+      "key_figures": [
+        "مفتي محمد حسين نعيمي (مؤسس)",
+        "سرفراز أحمد نعيمي"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "borderline",
+      "sources": [
+        {
+          "round_file": "round-08a-south-asia.md",
+          "anchor": "NAM-074 — Jamia Naeemia"
+        }
+      ]
+    },
+    {
+      "id": "NAM-075",
+      "round": "08a",
+      "name_ar": "جامعة بنوريا العالمية كراتشي",
+      "name_en": "Jamia Binoria Aalamia Karachi",
+      "type": "research_center",
+      "type_group": "research_education",
+      "country": "PK",
+      "city_ar": "كراتشي",
+      "region": "non_arab_muslim",
+      "founded": 1978,
+      "founded_decade": "1970s",
+      "status": "active",
+      "scale": "international",
+      "url": "https://binoria.edu.pk/",
+      "funding_type": "private",
+      "subjects": [
+        "seerah_general",
+        "hadith_sciences",
+        "sources_critique"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "auxiliary_sciences"
+      ],
+      "languages": [
+        "ur",
+        "ar",
+        "en"
+      ],
+      "output_types": [
+        "books",
+        "courses",
+        "fatwa"
+      ],
+      "description_ar": "مدرسة ديوبندية حديثة، أسّسها مفتي محمد نعيم 1978. أدخلت تعليم إفتاء النساء (\"المفتيات\") وعلاقات دولية واسعة مع مؤسسات إسلامية حول العالم.",
+      "key_figures": [
+        "مفتي محمد نعيم (مؤسس)"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "borderline",
+      "sources": [
+        {
+          "round_file": "round-08a-south-asia.md",
+          "anchor": "NAM-075 — Jamia Binoria"
+        }
+      ]
+    },
+    {
+      "id": "NAM-076",
+      "round": "08a",
+      "name_ar": "مؤتمر السيرة النبوية الدولي – وزارة الشؤون الدينية الباكستانية",
+      "name_en": "International Seerat-un-Nabi Conference – Ministry of Religious Affairs Pakistan",
+      "type": "conference_series",
+      "type_group": "institutional_infra",
+      "country": "PK",
+      "city_ar": "إسلام آباد",
+      "region": "non_arab_muslim",
+      "founded_decade": "1970s",
+      "status": "active",
+      "scale": "international",
+      "url": "https://www.mora.gov.pk/",
+      "parent_organization_ar": "وزارة الشؤون الدينية والوئام البيندي – باكستان",
+      "funding_type": "state",
+      "subjects": [
+        "seerah_general",
+        "shamail",
+        "biography_methodology"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "methodology_critique"
+      ],
+      "languages": [
+        "ar",
+        "en",
+        "ur"
+      ],
+      "output_types": [
+        "conference",
+        "books"
+      ],
+      "description_ar": "أكبر تجمّع ديني سنوي في باكستان، يعقد في شهر ربيع الأول. الدورة الـ50 الدولية + الدورة الـ49 الوطنية (2025). تنظّم مسابقات كتب السيرة بالأردية والعربية والإنجليزية واللغات الإقليمية.",
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "sources": [
+        {
+          "round_file": "round-08a-south-asia.md",
+          "anchor": "NAM-076 — Seerat Conference MORA"
+        }
+      ]
+    },
+    {
+      "id": "NAM-077",
+      "round": "08a",
+      "name_ar": "إدارة ثقافة إسلامية لاهور",
+      "name_en": "Idara-e-Saqafat-e-Islamia, Lahore",
+      "type": "publisher",
+      "type_group": "publishing_knowledge",
+      "country": "PK",
+      "city_ar": "لاهور",
+      "region": "non_arab_muslim",
+      "founded_decade": "1950s",
+      "status": "active",
+      "scale": "national",
+      "funding_type": "private",
+      "subjects": [
+        "seerah_general",
+        "shamail",
+        "historiography"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "auxiliary_sciences"
+      ],
+      "languages": [
+        "ur"
+      ],
+      "output_types": [
+        "books"
+      ],
+      "description_ar": "ناشر باكستاني تاريخي للأدب الإسلامي بالأردية، يضمّ مكتبة سيرة وافرة وكتباً تاريخية.",
+      "verification": "desk_verified",
+      "inclusion_tier": "borderline",
+      "sources": [
+        {
+          "round_file": "round-08a-south-asia.md",
+          "anchor": "NAM-077 — Idara Saqafat"
+        }
+      ]
+    },
+    {
+      "id": "NAM-078",
+      "round": "08a",
+      "name_ar": "إدارة تحقيقات إسلامي إسلام آباد",
+      "name_en": "Idara Tahqiqat-e-Islami, Islamabad",
+      "type": "research_center",
+      "type_group": "research_education",
+      "country": "PK",
+      "city_ar": "إسلام آباد",
+      "region": "non_arab_muslim",
+      "founded_decade": "1970s",
+      "status": "active",
+      "scale": "national",
+      "funding_type": "private",
+      "subjects": [
+        "seerah_general",
+        "biography_methodology",
+        "sources_critique"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "methodology_critique",
+        "auxiliary_sciences"
+      ],
+      "languages": [
+        "ur",
+        "ar"
+      ],
+      "output_types": [
+        "books"
+      ],
+      "description_ar": "معهد بحوث إسلامية ودار نشر متخصّصة في النشر العلمي الأردي.",
+      "verification": "needs_verification",
+      "inclusion_tier": "borderline",
+      "sources": [
+        {
+          "round_file": "round-08a-south-asia.md",
+          "anchor": "NAM-078 — Idara Tahqiqat"
+        }
+      ]
+    },
+    {
+      "id": "NAM-079",
+      "round": "08a",
+      "name_ar": "إدارة معارف إسلامي لاهور",
+      "name_en": "Idara Marif-e-Islami, Lahore",
+      "type": "publisher",
+      "type_group": "publishing_knowledge",
+      "country": "PK",
+      "city_ar": "لاهور",
+      "region": "non_arab_muslim",
+      "founded_decade": "1960s",
+      "status": "active",
+      "scale": "national",
+      "parent_organization_ar": "الجماعة الإسلامية – باكستان",
+      "funding_type": "private",
+      "subjects": [
+        "seerah_general",
+        "historiography"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "auxiliary_sciences"
+      ],
+      "languages": [
+        "ur",
+        "en"
+      ],
+      "output_types": [
+        "books"
+      ],
+      "description_ar": "ناشر تابع للجماعة الإسلامية الباكستانية، يصدر مؤلفات السيد المودودي ومذهب الإسلام السياسي.",
+      "verification": "desk_verified",
+      "inclusion_tier": "below_threshold",
+      "sources": [
+        {
+          "round_file": "round-08a-south-asia.md",
+          "anchor": "NAM-079 — Idara Marif"
+        }
+      ]
+    },
+    {
+      "id": "NAM-080",
+      "round": "08a",
+      "name_ar": "دار العلوم ديوبند",
+      "name_en": "Darul Uloom Deoband",
+      "type": "research_center",
+      "type_group": "research_education",
+      "country": "IN",
+      "city_ar": "ديوبند، أوتر براديش",
+      "region": "non_arab_muslim",
+      "founded": 1866,
+      "founded_decade": "1860s",
+      "status": "active",
+      "scale": "international",
+      "url": "https://darululoom-deoband.com/en/",
+      "funding_type": "waqf",
+      "subjects": [
+        "seerah_general",
+        "hadith_sciences",
+        "sources_critique",
+        "biography_methodology"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "auxiliary_sciences",
+        "methodology_critique"
+      ],
+      "languages": [
+        "ur",
+        "ar",
+        "fa"
+      ],
+      "output_types": [
+        "books",
+        "fatwa",
+        "courses"
+      ],
+      "description_ar": "أكبر مدرسة سنية في شبه القارة الهندية، تأسّست 1866 على يد محمد قاسم نانوتوي. ثاني أكبر مرجعية إسلامية تاريخياً بعد الأزهر. تخرّج منها قادة الفكر الديوبندي في الهند وباكستان وبنغلاديش.",
+      "key_figures": [
+        "محمد قاسم نانوتوي (مؤسس)",
+        "رشيد أحمد گنگوهي",
+        "محمود الحسن ديوبندي"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "borderline",
+      "sources": [
+        {
+          "round_file": "round-08a-south-asia.md",
+          "anchor": "NAM-080 — Deoband"
+        }
+      ]
+    },
+    {
+      "id": "NAM-081",
+      "round": "08a",
+      "name_ar": "دار العلوم ندوة العلماء – لكهنو",
+      "name_en": "Darul Uloom Nadwatul Ulama, Lucknow",
+      "type": "research_center",
+      "type_group": "research_education",
+      "country": "IN",
+      "city_ar": "لكهنو",
+      "region": "non_arab_muslim",
+      "founded": 1898,
+      "founded_decade": "1890s",
+      "status": "active",
+      "scale": "international",
+      "url": "https://www.nadwa.in/en/",
+      "funding_type": "waqf",
+      "subjects": [
+        "seerah_general",
+        "maghazi",
+        "biography_methodology",
+        "historiography"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "methodology_critique",
+        "auxiliary_sciences"
+      ],
+      "languages": [
+        "ar",
+        "ur",
+        "en"
+      ],
+      "output_types": [
+        "books",
+        "journal",
+        "courses"
+      ],
+      "description_ar": "أُسّست 1898 على يد محمد علي مونگيري، بمبادرة ندوة العلماء (مجلس 1893). جمعت بين منهج ديوبند التقليدي ومنهج عليكره الحديث. مدرسة سيرة عريقة عبر شبلي النعماني وسليمان الندوي ثم أبي الحسن علي الندوي.",
+      "key_figures": [
+        "محمد علي مونگيري (مؤسس)",
+        "أبو الحسن علي الندوي",
+        "محمد الرابع الحسني الندوي"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "sources": [
+        {
+          "round_file": "round-08a-south-asia.md",
+          "anchor": "NAM-081 — Nadwa"
+        }
+      ]
+    },
+    {
+      "id": "NAM-082",
+      "round": "08a",
+      "name_ar": "مدرسة الإصلاح – سراي مير، أعظم گرة",
+      "name_en": "Madrasatul Islah, Sarai Mir, Azamgarh",
+      "type": "research_center",
+      "type_group": "research_education",
+      "country": "IN",
+      "city_ar": "أعظم گرة",
+      "region": "non_arab_muslim",
+      "founded": 1908,
+      "founded_decade": "1900s",
+      "status": "active",
+      "scale": "national",
+      "url": "https://madrasatulislah.org/",
+      "funding_type": "waqf",
+      "subjects": [
+        "seerah_general",
+        "biography_methodology",
+        "sources_critique"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "methodology_critique",
+        "auxiliary_sciences"
+      ],
+      "languages": [
+        "ar",
+        "ur",
+        "en"
+      ],
+      "output_types": [
+        "books",
+        "courses"
+      ],
+      "description_ar": "أسّسها محمد شفيع 1908 بمنهج مختلف عن ديوبند وندوة. أبرز معماريها شبلي النعماني وحميد الدين الفراهي. تجمع بين القرآن والعلوم الحديثة. تستضيف ~1500 طالب.",
+      "key_figures": [
+        "محمد شفيع (مؤسس)",
+        "حميد الدين الفراهي",
+        "شبلي النعماني"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "borderline",
+      "sources": [
+        {
+          "round_file": "round-08a-south-asia.md",
+          "anchor": "NAM-082 — Madrasatul Islah"
+        }
+      ]
+    },
+    {
+      "id": "NAM-083",
+      "round": "08a",
+      "name_ar": "جامعة الفلاح أعظم گرة",
+      "name_en": "Jamiatul Falah, Azamgarh",
+      "type": "research_center",
+      "type_group": "research_education",
+      "country": "IN",
+      "city_ar": "أعظم گرة",
+      "region": "non_arab_muslim",
+      "founded": 1962,
+      "founded_decade": "1960s",
+      "status": "active",
+      "scale": "national",
+      "url": "https://jamiatulfalah.in/",
+      "funding_type": "waqf",
+      "subjects": [
+        "seerah_general",
+        "biography_methodology",
+        "sources_critique"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "methodology_critique"
+      ],
+      "languages": [
+        "ur",
+        "ar",
+        "en"
+      ],
+      "output_types": [
+        "books",
+        "courses"
+      ],
+      "description_ar": "أُسست 1962، تتبع منهج الفراهي/الإصلاح في تأويل القرآن وقراءة السيرة. تقع على بعد 50 كم من مدرسة الإصلاح.",
+      "verification": "desk_verified",
+      "inclusion_tier": "borderline",
+      "sources": [
+        {
+          "round_file": "round-08a-south-asia.md",
+          "anchor": "NAM-083 — Jamiatul Falah"
+        }
+      ]
+    },
+    {
+      "id": "NAM-084",
+      "round": "08a",
+      "name_ar": "دار المصنفين شبلي أكاديمي – أعظم گرة",
+      "name_en": "Darul Musannefin Shibli Academy, Azamgarh",
+      "type": "research_center",
+      "type_group": "research_education",
+      "country": "IN",
+      "city_ar": "أعظم گرة",
+      "region": "non_arab_muslim",
+      "founded": 1914,
+      "founded_decade": "1910s",
+      "status": "active",
+      "scale": "international",
+      "url": "https://shibliacademy.org/",
+      "funding_type": "waqf",
+      "subjects": [
+        "seerah_general",
+        "maghazi",
+        "biography_methodology",
+        "historiography",
+        "shamail"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "auxiliary_sciences",
+        "methodology_critique"
+      ],
+      "languages": [
+        "ur",
+        "ar",
+        "en"
+      ],
+      "output_types": [
+        "books",
+        "journal",
+        "manuscripts"
+      ],
+      "description_ar": "أعرق دار مصنّفين في شبه القارة، أسّسها شبلي النعماني 1914 في بستان المانگو الخاص به. صاحبة سيرة \"سيرت النبي\" (7 مجلدات أنجزها سليمان الندوي بعد شبلي). أصدرت +275 كتاباً وأكثر منذ 1914.",
+      "key_figures": [
+        "شبلي النعماني (مؤسس)",
+        "سليمان الندوي"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "sources": [
+        {
+          "round_file": "round-08a-south-asia.md",
+          "anchor": "NAM-084 — Shibli Academy"
+        }
+      ]
+    },
+    {
+      "id": "NAM-085",
+      "round": "08a",
+      "name_ar": "مجلة معارف – شبلي أكاديمي",
+      "name_en": "Ma'arif Monthly Journal – Shibli Academy",
+      "type": "journal",
+      "type_group": "publishing_knowledge",
+      "country": "IN",
+      "city_ar": "أعظم گرة",
+      "region": "non_arab_muslim",
+      "founded": 1916,
+      "founded_decade": "1910s",
+      "status": "active",
+      "scale": "international",
+      "url": "http://shibliacademy.org/",
+      "parent_organization_ar": "دار المصنفين شبلي أكاديمي",
+      "funding_type": "waqf",
+      "subjects": [
+        "seerah_general",
+        "historiography",
+        "biography_methodology"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "auxiliary_sciences",
+        "methodology_critique"
+      ],
+      "languages": [
+        "ur"
+      ],
+      "output_types": [
+        "journal"
+      ],
+      "description_ar": "أقدم مجلة أردية شهرية في الدراسات الإسلامية (منذ 1916). تواصل الصدور بلا انقطاع لأكثر من قرن. متخصّصة في الإسلاميات والثقافة.",
+      "explicit_relations": [
+        {
+          "target": "NAM-084",
+          "type": "child_of"
+        }
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "sources": [
+        {
+          "round_file": "round-08a-south-asia.md",
+          "anchor": "NAM-085 — Ma'arif Journal"
+        }
+      ]
+    },
+    {
+      "id": "NAM-086",
+      "round": "08a",
+      "name_ar": "قسم الدراسات الإسلامية – جامعة جامعة مليّة إسلاميّة",
+      "name_en": "Department of Islamic Studies, Jamia Millia Islamia",
+      "type": "university_department",
+      "type_group": "research_education",
+      "country": "IN",
+      "city_ar": "دلهي",
+      "region": "non_arab_muslim",
+      "founded": 1988,
+      "founded_decade": "1980s",
+      "status": "active",
+      "scale": "international",
+      "url": "https://jmi.ac.in/islamicstudies",
+      "parent_organization_ar": "جامعة مليّة إسلاميّة (مركزية)",
+      "funding_type": "state",
+      "subjects": [
+        "seerah_general",
+        "hadith_sciences",
+        "sources_critique",
+        "biography_methodology",
+        "historiography"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "auxiliary_sciences",
+        "methodology_critique"
+      ],
+      "languages": [
+        "en",
+        "ar",
+        "ur",
+        "hi"
+      ],
+      "output_types": [
+        "books",
+        "journal",
+        "courses"
+      ],
+      "description_ar": "قسم منفصل منذ 1988 (الإسلاميات في المنهج منذ تأسيس الجامعة 1920 في عليكره). الجامعة مركزية تأسّست رداً على نفوذ بريطانيا في عليكره.",
+      "verification": "desk_verified",
+      "inclusion_tier": "borderline",
+      "sources": [
+        {
+          "round_file": "round-08a-south-asia.md",
+          "anchor": "NAM-086 — JMI Islamic Studies"
+        }
+      ]
+    },
+    {
+      "id": "NAM-087",
+      "round": "08a",
+      "name_ar": "كلية اللاهوت – الجامعة الإسلامية عليكره",
+      "name_en": "Faculty of Theology, Aligarh Muslim University (AMU)",
+      "type": "university_department",
+      "type_group": "research_education",
+      "country": "IN",
+      "city_ar": "عليكره، أوتر براديش",
+      "region": "non_arab_muslim",
+      "founded": 1875,
+      "founded_decade": "1870s",
+      "status": "active",
+      "scale": "international",
+      "url": "https://www.amu.ac.in/department/shia-theology",
+      "parent_organization_ar": "الجامعة الإسلامية عليكره (مركزية)",
+      "funding_type": "state",
+      "subjects": [
+        "seerah_general",
+        "hadith_sciences",
+        "biography_methodology",
+        "ahlulbayt",
+        "ahl_al_sunna"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "auxiliary_sciences",
+        "prophetic_demography"
+      ],
+      "languages": [
+        "en",
+        "ar",
+        "ur",
+        "fa"
+      ],
+      "output_types": [
+        "books",
+        "journal",
+        "courses"
+      ],
+      "description_ar": "الجامعة الهندية الوحيدة بقسمين منفصلين للسنة والشيعة. أسّس النظامين سيد أحمد خان نفسه. الجامعة تأسّست 1875 كـ\"الكلية العالية المحمدية الأنجلو-شرقية\".",
+      "key_figures": [
+        "سيد أحمد خان (مؤسس)"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "borderline",
+      "sources": [
+        {
+          "round_file": "round-08a-south-asia.md",
+          "anchor": "NAM-087 — AMU Theology"
+        }
+      ]
+    },
+    {
+      "id": "NAM-088",
+      "round": "08a",
+      "name_ar": "قسم الدراسات الإسلامية – جامعة مولانا أزاد الأردية – حيدر آباد",
+      "name_en": "Department of Islamic Studies, MANUU Hyderabad",
+      "type": "university_department",
+      "type_group": "research_education",
+      "country": "IN",
+      "city_ar": "حيدر آباد",
+      "region": "non_arab_muslim",
+      "founded": 1998,
+      "founded_decade": "1990s",
+      "status": "active",
+      "scale": "national",
+      "url": "https://manuu.edu.in/",
+      "parent_organization_ar": "جامعة مولانا أزاد الوطنية للأردية (مركزية)",
+      "funding_type": "state",
+      "subjects": [
+        "seerah_general",
+        "biography_methodology",
+        "tarjamah"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "methodology_critique",
+        "application_outreach"
+      ],
+      "languages": [
+        "ur",
+        "ar",
+        "en"
+      ],
+      "output_types": [
+        "courses",
+        "books"
+      ],
+      "description_ar": "جامعة مركزية، تأسّست 1998 لتعزيز اللغة الأردية. قسم الإسلاميات يقدّم BA/MA/M.Phil/PhD. تُعتمد لديها برامج مدارس ديوبند ومدرسة الإصلاح وغيرها كمدخلات.",
+      "verification": "desk_verified",
+      "inclusion_tier": "borderline",
+      "sources": [
+        {
+          "round_file": "round-08a-south-asia.md",
+          "anchor": "NAM-088 — MANUU"
+        }
+      ]
+    },
+    {
+      "id": "NAM-089",
+      "round": "08a",
+      "name_ar": "المركزي مكتبة إسلامي ببليشرز – دلهي",
+      "name_en": "Markazi Maktaba Islami Publishers (MMI), New Delhi",
+      "type": "publisher",
+      "type_group": "publishing_knowledge",
+      "country": "IN",
+      "city_ar": "دلهي",
+      "region": "non_arab_muslim",
+      "founded": 1948,
+      "founded_decade": "1940s",
+      "status": "active",
+      "scale": "international",
+      "url": "https://mmipublishers.net/",
+      "parent_organization_ar": "الجماعة الإسلامية الهندية – Human Welfare Trust",
+      "funding_type": "private",
+      "subjects": [
+        "seerah_general",
+        "biography_methodology",
+        "tarjamah",
+        "youth_outreach",
+        "digital_seerah"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "methodology_critique",
+        "application_outreach"
+      ],
+      "languages": [
+        "ur",
+        "hi",
+        "en"
+      ],
+      "output_types": [
+        "books"
+      ],
+      "description_ar": "أكبر ناشر إسلامي في الهند، تأسّس 1948 في ملي حباد (لكهنو). +2500 عنوان منذ التأسيس: 1400 بالأردية، 441 بالهندية، 300 بالإنجليزية. كتب السيرة جزء أساسي من إنتاجه.",
+      "verification": "desk_verified",
+      "inclusion_tier": "borderline",
+      "sources": [
+        {
+          "round_file": "round-08a-south-asia.md",
+          "anchor": "NAM-089 — MMI Publishers"
+        }
+      ]
+    },
+    {
+      "id": "NAM-090",
+      "round": "08a",
+      "name_ar": "قسم الدراسات الإسلامية – جامعة دكا",
+      "name_en": "Department of Islamic Studies, University of Dhaka",
+      "type": "university_department",
+      "type_group": "research_education",
+      "country": "BD",
+      "city_ar": "دكا",
+      "region": "non_arab_muslim",
+      "founded": 1921,
+      "founded_decade": "1920s",
+      "status": "active",
+      "scale": "international",
+      "url": "https://islamicstudiesdu.ac.bd/",
+      "parent_organization_ar": "جامعة دكا (الحكومية)",
+      "funding_type": "state",
+      "subjects": [
+        "seerah_general",
+        "hadith_sciences",
+        "biography_methodology",
+        "historiography"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "auxiliary_sciences",
+        "methodology_critique"
+      ],
+      "languages": [
+        "bn",
+        "ar",
+        "en"
+      ],
+      "output_types": [
+        "books",
+        "journal",
+        "courses"
+      ],
+      "description_ar": "أقدم قسم دراسات إسلامية في بنغلاديش، تأسّس 1921. يقدّم BA/MA/M.Phil/PhD. الهدف الأصلي: نشر التعليم الإسلامي والقيم في بنغلاديش وعالمياً.",
+      "verification": "desk_verified",
+      "inclusion_tier": "borderline",
+      "sources": [
+        {
+          "round_file": "round-08a-south-asia.md",
+          "anchor": "NAM-090 — Dhaka Univ Islamic Studies"
+        }
+      ]
+    },
+    {
+      "id": "NAM-091",
+      "round": "08a",
+      "name_ar": "مؤسسة الإسلامية في بنغلاديش",
+      "name_en": "Islamic Foundation Bangladesh (IFB)",
+      "type": "ministry_program",
+      "type_group": "institutional_infra",
+      "country": "BD",
+      "city_ar": "دكا",
+      "region": "non_arab_muslim",
+      "founded": 1975,
+      "founded_decade": "1970s",
+      "status": "active",
+      "scale": "national",
+      "parent_organization_ar": "وزارة الشؤون الدينية – بنغلاديش",
+      "funding_type": "state",
+      "subjects": [
+        "seerah_general",
+        "tarjamah",
+        "youth_outreach",
+        "seerah_pedagogy"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "application_outreach"
+      ],
+      "languages": [
+        "bn",
+        "ar",
+        "en"
+      ],
+      "output_types": [
+        "books",
+        "lectures"
+      ],
+      "description_ar": "مؤسسة حكومية تحت وزارة الشؤون الدينية. 6 مكاتب إقليمية + 64 محلياً + 7 معاهد إمامة + 29 مركزاً إسلامياً. تنشر السيرة باللغات البنغالية والعربية والإنجليزية.",
+      "verification": "desk_verified",
+      "inclusion_tier": "borderline",
+      "sources": [
+        {
+          "round_file": "round-08a-south-asia.md",
+          "anchor": "NAM-091 — IFB"
+        }
+      ]
+    },
+    {
+      "id": "NAM-092",
+      "round": "08a",
+      "name_ar": "الجامعة الإسلامية العالمية – جيتاجونج",
+      "name_en": "International Islamic University Chittagong (IIUC)",
+      "type": "university_center",
+      "type_group": "research_education",
+      "country": "BD",
+      "city_ar": "جيتاجونج",
+      "region": "non_arab_muslim",
+      "founded": 1995,
+      "founded_decade": "1990s",
+      "status": "active",
+      "scale": "international",
+      "url": "https://www.iiuc.ac.bd/",
+      "funding_type": "private",
+      "subjects": [
+        "seerah_general",
+        "biography_methodology",
+        "hadith_sciences"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "methodology_critique",
+        "auxiliary_sciences"
+      ],
+      "languages": [
+        "bn",
+        "ar",
+        "en"
+      ],
+      "output_types": [
+        "books",
+        "journal",
+        "courses"
+      ],
+      "description_ar": "جامعة بنغلادشية خاصة، تأسّست 1995. لديها مركز للبحث والنشر (CRP). تصدر 4 مجلات منها واحدة بالعربية: \"دراسات الجامعة الإسلامية العالمية جيتاجونج\".",
+      "verification": "desk_verified",
+      "inclusion_tier": "borderline",
+      "sources": [
+        {
+          "round_file": "round-08a-south-asia.md",
+          "anchor": "NAM-092 — IIUC"
+        }
+      ]
+    },
+    {
+      "id": "NAM-093",
+      "round": "08a",
+      "name_ar": "مركز الدعوة الإسلامية – دكا",
+      "name_en": "Markazud Dawah Al-Islamia, Dhaka",
+      "type": "research_center",
+      "type_group": "research_education",
+      "country": "BD",
+      "city_ar": "دكا",
+      "region": "non_arab_muslim",
+      "founded": 1996,
+      "founded_decade": "1990s",
+      "status": "active",
+      "scale": "national",
+      "url": "https://www.markazuddawah.com/",
+      "funding_type": "private",
+      "subjects": [
+        "seerah_general",
+        "hadith_sciences",
+        "sources_critique"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "auxiliary_sciences"
+      ],
+      "languages": [
+        "bn",
+        "ar",
+        "ur"
+      ],
+      "output_types": [
+        "books",
+        "courses",
+        "fatwa"
+      ],
+      "description_ar": "مركز عالٍ للدراسات الإسلامية المتخصّص في الحديث والفقه، تأسّس 1996. يشارك في إدارته محمد عبد المالك (الأمين العام للتعليم ورئيس قسم الحديث).",
+      "key_figures": [
+        "محمد عبد المالك"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "borderline",
+      "sources": [
+        {
+          "round_file": "round-08a-south-asia.md",
+          "anchor": "NAM-093 — Markazud Dawah BD"
+        }
+      ]
     }
   ],
-  "migration_note": "2026-05-11: hierarchical taxonomy applied. type_group is now category (6 groups)."
+  "migration_note": "2026-05-11: hierarchical taxonomy + Round 8-أ South Asia (+30 entities)"
 }
