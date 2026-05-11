@@ -10,6 +10,7 @@
     "05",
     "06",
     "08a",
+    "08b",
     "08c"
   ],
   "entities": [
@@ -18807,7 +18808,1267 @@
           "anchor": "GLB-007 — Yasir Qadhi"
         }
       ]
+    },
+    {
+      "id": "ARB-061",
+      "round": "08b",
+      "name_ar": "الرئاسة العامة لشؤون الحرمين الشريفين",
+      "name_en": "General Presidency for the Affairs of the Two Holy Mosques",
+      "type": "ministry_program",
+      "type_group": "institutional_infra",
+      "country": "SA",
+      "city_ar": "مكة المكرمة",
+      "region": "arabia",
+      "founded": 1986,
+      "founded_decade": "1980s",
+      "status": "active",
+      "scale": "international",
+      "url": "https://alharamain.gov.sa/",
+      "funding_type": "state",
+      "subjects": [
+        "seerah_general",
+        "shamail",
+        "tarjamah",
+        "seerah_pedagogy"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "application_outreach"
+      ],
+      "languages": [
+        "ar",
+        "en",
+        "fr",
+        "ur",
+        "id",
+        "tr"
+      ],
+      "output_types": [
+        "lectures",
+        "books",
+        "video",
+        "khutbah_archive"
+      ],
+      "description_ar": "هيئة حكومية سعودية تشرف على البرامج العلمية والدعوية والإدارية في الحرمين. أعيد هيكلتها 2016 لتفصل العمل الإداري عن العلمي/الديني. تدير الدروس، الخطب، الفتاوى، الإصدارات، البرامج التعليمية للأئمة، والمعارض.",
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "sources": [
+        {
+          "round_file": "round-08b-mosque-museum-african.md",
+          "anchor": "ARB-061 — Presidency Haramain"
+        }
+      ]
+    },
+    {
+      "id": "ARB-062",
+      "round": "08b",
+      "name_ar": "مكتبة المسجد النبوي",
+      "name_en": "Library of the Prophet's Mosque",
+      "type": "library_archive",
+      "type_group": "publishing_knowledge",
+      "country": "SA",
+      "city_ar": "المدينة المنورة",
+      "region": "arabia",
+      "founded": 1933,
+      "founded_decade": "1930s",
+      "status": "active",
+      "scale": "international",
+      "url": "https://alharamain.gov.sa/public/?page=nabawi-library-ar",
+      "parent_organization_ar": "الرئاسة العامة لشؤون الحرمين الشريفين",
+      "funding_type": "state",
+      "subjects": [
+        "seerah_general",
+        "maghazi",
+        "shamail",
+        "hadith_sciences",
+        "manuscripts",
+        "sources_critique"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "auxiliary_sciences"
+      ],
+      "languages": [
+        "ar",
+        "en",
+        "ur",
+        "fr",
+        "id"
+      ],
+      "output_types": [
+        "books",
+        "manuscripts",
+        "database"
+      ],
+      "description_ar": "تأسّست 1352هـ/1933م. تضمّ 182 ألف كتاب + 143,105 كتاب رقمي + أرشيف 43 مليون صفحة رقمية. تخصّصات: القرآن، الحديث، الفقه، السيرة، اللغة العربية، الفنون.",
+      "explicit_relations": [
+        {
+          "target": "ARB-061",
+          "type": "child_of"
+        }
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "sources": [
+        {
+          "round_file": "round-08b-mosque-museum-african.md",
+          "anchor": "ARB-062 — Library Prophet's Mosque"
+        }
+      ]
+    },
+    {
+      "id": "ARB-063",
+      "round": "08b",
+      "name_ar": "معهد المسجد النبوي الشريف",
+      "name_en": "Institute of the Prophet's Mosque",
+      "type": "research_center",
+      "type_group": "research_education",
+      "country": "SA",
+      "city_ar": "المدينة المنورة",
+      "region": "arabia",
+      "founded_decade": "1990s",
+      "status": "active",
+      "scale": "international",
+      "url": "https://gph.edu.sa/public/?site=ins",
+      "parent_organization_ar": "الرئاسة العامة لشؤون الحرمين الشريفين",
+      "funding_type": "state",
+      "subjects": [
+        "seerah_general",
+        "hadith_sciences",
+        "biography_methodology",
+        "seerah_pedagogy"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "auxiliary_sciences",
+        "application_outreach"
+      ],
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [
+        "courses",
+        "lectures",
+        "books"
+      ],
+      "description_ar": "معهد علمي تابع للرئاسة العامة، يقدّم دبلومات وشهادات في علوم السيرة والحديث والإفتاء. يستهدف أئمة وخطباء الحرمين.",
+      "explicit_relations": [
+        {
+          "target": "ARB-061",
+          "type": "child_of"
+        }
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "sources": [
+        {
+          "round_file": "round-08b-mosque-museum-african.md",
+          "anchor": "ARB-063 — Institute Prophet's Mosque"
+        }
+      ]
+    },
+    {
+      "id": "ARB-064",
+      "round": "08b",
+      "name_ar": "المسجد الحرام – البرامج العلمية والدعوية",
+      "name_en": "Grand Mosque of Mecca – Scholarly & Outreach Programs",
+      "type": "mosque_program",
+      "type_group": "museums_culture",
+      "country": "SA",
+      "city_ar": "مكة المكرمة",
+      "region": "arabia",
+      "founded_decade": "600s",
+      "status": "active",
+      "scale": "international",
+      "parent_organization_ar": "الرئاسة العامة لشؤون الحرمين الشريفين",
+      "funding_type": "state",
+      "subjects": [
+        "seerah_general",
+        "shamail",
+        "tarjamah"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "application_outreach"
+      ],
+      "languages": [
+        "ar",
+        "en",
+        "ur",
+        "tr",
+        "id",
+        "fr",
+        "ms",
+        "fa"
+      ],
+      "output_types": [
+        "lectures",
+        "khutbah_archive",
+        "video",
+        "books"
+      ],
+      "description_ar": "أكبر برنامج سيرة جماهيري على مستوى العالم. الدروس اليومية، الخطب الأسبوعية، الفتاوى المباشرة، المعارض الموسمية. يحضرها +10 مليون مصلٍّ سنوياً بشكل مباشر، ومئات الملايين عبر البث.",
+      "explicit_relations": [
+        {
+          "target": "ARB-061",
+          "type": "child_of"
+        }
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "sources": [
+        {
+          "round_file": "round-08b-mosque-museum-african.md",
+          "anchor": "ARB-064 — Grand Mosque Programs"
+        }
+      ]
+    },
+    {
+      "id": "ARB-065",
+      "round": "08b",
+      "name_ar": "مكتبة الحرم المكي الشريف",
+      "name_en": "Library of the Grand Mosque",
+      "type": "library_archive",
+      "type_group": "publishing_knowledge",
+      "country": "SA",
+      "city_ar": "مكة المكرمة",
+      "region": "arabia",
+      "founded": 1939,
+      "founded_decade": "1930s",
+      "status": "active",
+      "scale": "international",
+      "parent_organization_ar": "الرئاسة العامة لشؤون الحرمين الشريفين",
+      "funding_type": "state",
+      "subjects": [
+        "seerah_general",
+        "hadith_sciences",
+        "manuscripts",
+        "makkah_studies"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "auxiliary_sciences",
+        "geography_space"
+      ],
+      "languages": [
+        "ar",
+        "en",
+        "ur"
+      ],
+      "output_types": [
+        "books",
+        "manuscripts",
+        "database"
+      ],
+      "description_ar": "أُسّست 1357هـ/1939م. تضمّ +60 ألف مخطوط ومطبوع، منها مخطوطات نادرة من القرن الثاني الهجري.",
+      "explicit_relations": [
+        {
+          "target": "ARB-061",
+          "type": "child_of"
+        }
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "sources": [
+        {
+          "round_file": "round-08b-mosque-museum-african.md",
+          "anchor": "ARB-065 — Library Grand Mosque"
+        }
+      ]
+    },
+    {
+      "id": "ARB-066",
+      "round": "08b",
+      "name_ar": "متحف الفن الإسلامي – الدوحة",
+      "name_en": "Museum of Islamic Art (MIA), Doha",
+      "type": "museum",
+      "type_group": "museums_culture",
+      "country": "QA",
+      "city_ar": "الدوحة",
+      "region": "arabia",
+      "founded": 2008,
+      "founded_decade": "2000s",
+      "status": "active",
+      "scale": "international",
+      "url": "https://mia.org.qa/en/",
+      "parent_organization_ar": "متاحف قطر (Qatar Museums)",
+      "funding_type": "state",
+      "subjects": [
+        "seerah_general",
+        "shamail",
+        "manuscripts",
+        "historiography",
+        "makkah_studies",
+        "madinah_studies"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "auxiliary_sciences",
+        "geography_space"
+      ],
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [
+        "exhibition",
+        "books",
+        "database"
+      ],
+      "description_ar": "صمّمه آي. إم. باي على مساحة 45,000م². 18 معرضاً جديداً افتُتح 2022. مجموعات من 7 إلى 20 قرناً، تشمل صفحة من \"المصحف الأزرق\". يخدم برامج تعليمية وأكاديمية متعدّدة.",
+      "verification": "desk_verified",
+      "inclusion_tier": "borderline",
+      "sources": [
+        {
+          "round_file": "round-08b-mosque-museum-african.md",
+          "anchor": "ARB-066 — MIA Doha"
+        }
+      ]
+    },
+    {
+      "id": "ARB-067",
+      "round": "08b",
+      "name_ar": "متحف الحضارة الإسلامية بالشارقة",
+      "name_en": "Sharjah Museum of Islamic Civilization",
+      "type": "museum",
+      "type_group": "museums_culture",
+      "country": "AE",
+      "city_ar": "الشارقة",
+      "region": "arabia",
+      "founded": 2008,
+      "founded_decade": "2000s",
+      "status": "active",
+      "scale": "international",
+      "url": "https://www.sharjahmuseums.ae/en-US/Museums/Sharjah-Museum-of-Islamic-Civilization",
+      "funding_type": "state",
+      "subjects": [
+        "seerah_general",
+        "manuscripts",
+        "historiography",
+        "makkah_studies"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "auxiliary_sciences",
+        "geography_space"
+      ],
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [
+        "exhibition",
+        "books"
+      ],
+      "description_ar": "افتُتح 2008، أوّل متحف إسلامي شامل في الإمارات. +5000 قطعة عبر 7 معارض على طابقَين. خط القرن 1هـ/7م إلى 14هـ/20م. يقع بسوق المجرة التاريخي على ضفّة الخور.",
+      "verification": "desk_verified",
+      "inclusion_tier": "borderline",
+      "sources": [
+        {
+          "round_file": "round-08b-mosque-museum-african.md",
+          "anchor": "ARB-067 — Sharjah Museum"
+        }
+      ]
+    },
+    {
+      "id": "LEV-047",
+      "round": "08b",
+      "name_ar": "متحف الفن الإسلامي بالقاهرة",
+      "name_en": "Museum of Islamic Art, Cairo",
+      "type": "museum",
+      "type_group": "museums_culture",
+      "country": "EG",
+      "city_ar": "القاهرة",
+      "region": "levant_iraq_nile",
+      "founded": 1881,
+      "founded_decade": "1880s",
+      "status": "active",
+      "scale": "international",
+      "funding_type": "state",
+      "subjects": [
+        "seerah_general",
+        "manuscripts",
+        "historiography"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "auxiliary_sciences"
+      ],
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [
+        "exhibition",
+        "books"
+      ],
+      "description_ar": "أُسّس 1881، أحد أعظم متاحف الفن الإسلامي في العالم. تعرّض مبناه لتفجير 2014 (انفجار سيارة مفخّخة قرب مديرية الأمن) ودمّر آلاف القطع. أُعيد افتتاحه 2017 بعد ترميم واسع.",
+      "verification": "desk_verified",
+      "inclusion_tier": "borderline",
+      "sources": [
+        {
+          "round_file": "round-08b-mosque-museum-african.md",
+          "anchor": "LEV-047 — Cairo Islamic Art"
+        }
+      ]
+    },
+    {
+      "id": "WEST-130",
+      "round": "08b",
+      "name_ar": "متحف الآغا خان – تورنتو",
+      "name_en": "Aga Khan Museum, Toronto",
+      "type": "museum",
+      "type_group": "museums_culture",
+      "country": "CA",
+      "city_ar": "تورنتو",
+      "region": "western",
+      "founded": 2014,
+      "founded_decade": "2010s",
+      "status": "active",
+      "scale": "international",
+      "url": "https://agakhanmuseum.org/",
+      "parent_organization_ar": "شبكة الآغا خان للتنمية (AKDN)",
+      "funding_type": "private",
+      "subjects": [
+        "seerah_general",
+        "manuscripts",
+        "historiography",
+        "ahlulbayt"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "auxiliary_sciences",
+        "prophetic_demography"
+      ],
+      "languages": [
+        "en",
+        "fr"
+      ],
+      "output_types": [
+        "exhibition",
+        "books",
+        "video"
+      ],
+      "description_ar": "افتُتح 18 سبتمبر 2014 في نورث يورك تورنتو. صمّمه فوميهيكو ماكي. +1000 قطعة من مجموعات الإمام الآغا خان الرابع + معهد الدراسات الإسماعيلية لندن. أوّل متحف خصّصته كندا للفن والثقافة الإسلامية. كان أصلاً مخطّطاً للندن لكن تحوّل لتورنتو 2002.",
+      "verification": "desk_verified",
+      "inclusion_tier": "borderline",
+      "sources": [
+        {
+          "round_file": "round-08b-mosque-museum-african.md",
+          "anchor": "WEST-130 — Aga Khan Museum"
+        }
+      ]
+    },
+    {
+      "id": "WEST-131",
+      "round": "08b",
+      "name_ar": "المركز الإسلامي بلندن – مسجد ريجنتس بارك",
+      "name_en": "Islamic Cultural Centre London (ICC) / Regent's Park Mosque",
+      "type": "islamic_center",
+      "type_group": "museums_culture",
+      "country": "GB",
+      "city_ar": "لندن",
+      "region": "western",
+      "founded": 1944,
+      "founded_decade": "1940s",
+      "status": "active",
+      "scale": "international",
+      "url": "https://www.iccuk.org/",
+      "funding_type": "mixed",
+      "subjects": [
+        "seerah_general",
+        "shamail",
+        "tarjamah",
+        "seerah_pedagogy",
+        "youth_outreach"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "application_outreach"
+      ],
+      "languages": [
+        "en",
+        "ar",
+        "ur"
+      ],
+      "output_types": [
+        "lectures",
+        "courses",
+        "khutbah_archive"
+      ],
+      "description_ar": "تأسّس 24 أكتوبر 1940 (تخصيص الأرض)، افتُتح المركز نوفمبر 1944. صمّم المسجد فردريك جيبرد واكتمل 1977. مكتبة مرجعية بـ25 ألف كتاب + قرآن بـ30 لغة. برامج: العربية، فقه، سيرة، تاريخ، Hikmah Youth، استشارات أسرية، خدمات بريديّة.",
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "sources": [
+        {
+          "round_file": "round-08b-mosque-museum-african.md",
+          "anchor": "WEST-131 — ICC London"
+        }
+      ]
+    },
+    {
+      "id": "WEST-132",
+      "round": "08b",
+      "name_ar": "مسجد باريس الكبير",
+      "name_en": "Grande Mosquée de Paris",
+      "type": "islamic_center",
+      "type_group": "museums_culture",
+      "country": "FR",
+      "city_ar": "باريس",
+      "region": "western",
+      "founded": 1926,
+      "founded_decade": "1920s",
+      "status": "active",
+      "scale": "national",
+      "funding_type": "state",
+      "subjects": [
+        "seerah_general",
+        "tarjamah",
+        "seerah_pedagogy"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "application_outreach"
+      ],
+      "languages": [
+        "fr",
+        "ar"
+      ],
+      "output_types": [
+        "lectures",
+        "courses",
+        "fatwa"
+      ],
+      "description_ar": "أُسّس 1926 كأول مسجد دائم في فرنسا، رمزياً تكريماً للجنود المسلمين الفرنسيين في الحرب العالمية الأولى. مقرّ المجلس الفرنسي للديانة الإسلامية في فترات. يدير برامج تعليمية بالفرنسية والعربية.",
+      "verification": "desk_verified",
+      "inclusion_tier": "borderline",
+      "sources": [
+        {
+          "round_file": "round-08b-mosque-museum-african.md",
+          "anchor": "WEST-132 — Grande Mosquée Paris"
+        }
+      ]
+    },
+    {
+      "id": "WEST-133",
+      "round": "08b",
+      "name_ar": "المركز الإسلامي بأمريكا – ديربورن",
+      "name_en": "Islamic Center of America (ICOFA), Dearborn",
+      "type": "islamic_center",
+      "type_group": "museums_culture",
+      "country": "US",
+      "city_ar": "ديربورن، ميشيغان",
+      "region": "western",
+      "founded": 1949,
+      "founded_decade": "1940s",
+      "status": "active",
+      "scale": "international",
+      "url": "https://icofa.com/",
+      "funding_type": "private",
+      "subjects": [
+        "seerah_general",
+        "ahlulbayt",
+        "shamail",
+        "seerah_pedagogy",
+        "youth_outreach"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "prophetic_demography",
+        "application_outreach"
+      ],
+      "languages": [
+        "en",
+        "ar"
+      ],
+      "output_types": [
+        "lectures",
+        "courses",
+        "khutbah_archive"
+      ],
+      "description_ar": "أُسّس 1949، أكبر مسجد في أمريكا الشمالية وأقدم مسجد شيعي مبني عن قصد في الولايات المتحدة. يشغّل أكاديمية MAYA الإسلامية للابتدائي والمتوسط. مرافق: قاعة اجتماعات، مكتبة، قاعة نسائية معلّقة.",
+      "verification": "desk_verified",
+      "inclusion_tier": "borderline",
+      "sources": [
+        {
+          "round_file": "round-08b-mosque-museum-african.md",
+          "anchor": "WEST-133 — ICOFA Dearborn"
+        }
+      ]
+    },
+    {
+      "id": "WEST-134",
+      "round": "08b",
+      "name_ar": "المركز الثقافي الإسلامي – أمستردام",
+      "name_en": "Islamic Cultural Center Amsterdam",
+      "type": "islamic_center",
+      "type_group": "museums_culture",
+      "country": "NL",
+      "city_ar": "أمستردام",
+      "region": "western",
+      "founded_decade": "1990s",
+      "status": "active",
+      "scale": "national",
+      "funding_type": "private",
+      "subjects": [
+        "seerah_general",
+        "seerah_pedagogy",
+        "tarjamah"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "application_outreach"
+      ],
+      "languages": [
+        "nl",
+        "ar",
+        "tr"
+      ],
+      "output_types": [
+        "lectures",
+        "courses"
+      ],
+      "description_ar": "من أكبر المراكز الإسلامية في هولندا، يدير برامج تعليم الكبار والسيرة بالعربية والتركية والهولندية. يخدم الجالية المغربية والتركية والهولندية الأصلية.",
+      "verification": "needs_verification",
+      "inclusion_tier": "borderline",
+      "sources": [
+        {
+          "round_file": "round-08b-mosque-museum-african.md",
+          "anchor": "WEST-134 — IC Amsterdam"
+        }
+      ]
+    },
+    {
+      "id": "WEST-135",
+      "round": "08b",
+      "name_ar": "المركز الإسلامي بواشنطن",
+      "name_en": "Islamic Center of Washington",
+      "type": "islamic_center",
+      "type_group": "museums_culture",
+      "country": "US",
+      "city_ar": "واشنطن العاصمة",
+      "region": "western",
+      "founded": 1957,
+      "founded_decade": "1950s",
+      "status": "active",
+      "scale": "international",
+      "funding_type": "mixed",
+      "subjects": [
+        "seerah_general",
+        "tarjamah",
+        "seerah_pedagogy"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "application_outreach"
+      ],
+      "languages": [
+        "en",
+        "ar"
+      ],
+      "output_types": [
+        "lectures",
+        "courses",
+        "khutbah_archive"
+      ],
+      "description_ar": "أُسّس 1957، أوّل مسجد بمبنى مخصّص في الولايات المتحدة. مُوّل من 16 دولة إسلامية. يدير برامج جمعة، فتاوى، تعريف بالإسلام، وعلاقات دولية ودبلوماسية.",
+      "verification": "desk_verified",
+      "inclusion_tier": "borderline",
+      "sources": [
+        {
+          "round_file": "round-08b-mosque-museum-african.md",
+          "anchor": "WEST-135 — IC Washington"
+        }
+      ]
+    },
+    {
+      "id": "WEST-136",
+      "round": "08b",
+      "name_ar": "معهد الدراسات الإسماعيلية – لندن",
+      "name_en": "Institute of Ismaili Studies (IIS), London",
+      "type": "research_center",
+      "type_group": "research_education",
+      "country": "GB",
+      "city_ar": "لندن",
+      "region": "western",
+      "founded": 1977,
+      "founded_decade": "1970s",
+      "status": "active",
+      "scale": "international",
+      "url": "https://www.iis.ac.uk/",
+      "parent_organization_ar": "شبكة الآغا خان للتنمية – الإمام الآغا خان الرابع",
+      "funding_type": "private",
+      "subjects": [
+        "ahlulbayt",
+        "historiography",
+        "biography_methodology",
+        "sufism_seerah",
+        "early_islam"
+      ],
+      "subjects_category": [
+        "prophetic_demography",
+        "auxiliary_sciences",
+        "methodology_critique",
+        "application_outreach"
+      ],
+      "languages": [
+        "en",
+        "ar",
+        "fa",
+        "ur"
+      ],
+      "output_types": [
+        "books",
+        "journal",
+        "courses"
+      ],
+      "description_ar": "أُسّس 1977 من قبل الإمام الآغا خان الرابع. المركز البحثي الرئيس للدراسات الشيعية الإسماعيلية. ينشر سلسلة دراسات إسماعيلية رصينة. مرتبط ببرنامج Aga Khan University للدراسات العليا في الحضارات الإسلامية (WEST-027).",
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "sources": [
+        {
+          "round_file": "round-08b-mosque-museum-african.md",
+          "anchor": "WEST-136 — Institute Ismaili Studies"
+        }
+      ]
+    },
+    {
+      "id": "WEST-137",
+      "round": "08b",
+      "name_ar": "المركز الإسماعيلي بتورنتو",
+      "name_en": "Ismaili Centre Toronto",
+      "type": "islamic_center",
+      "type_group": "museums_culture",
+      "country": "CA",
+      "city_ar": "تورنتو",
+      "region": "western",
+      "founded": 2014,
+      "founded_decade": "2010s",
+      "status": "active",
+      "scale": "international",
+      "parent_organization_ar": "شبكة الآغا خان للتنمية",
+      "funding_type": "private",
+      "subjects": [
+        "ahlulbayt",
+        "sufism_seerah",
+        "seerah_pedagogy"
+      ],
+      "subjects_category": [
+        "prophetic_demography",
+        "application_outreach"
+      ],
+      "languages": [
+        "en",
+        "fr",
+        "ar"
+      ],
+      "output_types": [
+        "lectures",
+        "courses"
+      ],
+      "description_ar": "افتُتح 2014 بالتزامن مع متحف الآغا خان. المركز الإسماعيلي السادس عالمياً. يُعتبر منزل الإمامة في كندا. مرافقه تشمل قاعات صلاة ومحاضرات.",
+      "explicit_relations": [
+        {
+          "target": "WEST-130",
+          "type": "partner"
+        }
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "borderline",
+      "sources": [
+        {
+          "round_file": "round-08b-mosque-museum-african.md",
+          "anchor": "WEST-137 — Ismaili Centre Toronto"
+        }
+      ]
+    },
+    {
+      "id": "NAM-098",
+      "round": "08b",
+      "name_ar": "معهد أحمد بابا للتعليم العالي والبحوث الإسلامية – تمبكتو",
+      "name_en": "Ahmed Baba Institute (IHERI-AB), Timbuktu",
+      "type": "library_archive",
+      "type_group": "publishing_knowledge",
+      "country": "ML",
+      "city_ar": "تمبكتو",
+      "region": "non_arab_muslim",
+      "founded": 1973,
+      "founded_decade": "1970s",
+      "status": "active",
+      "status_note_ar": "أُجلِيت مخطوطاته 2012-2025 إثر أزمة شمال مالي",
+      "scale": "international",
+      "funding_type": "state",
+      "subjects": [
+        "seerah_general",
+        "historiography",
+        "manuscripts",
+        "biography_methodology",
+        "sources_critique"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "auxiliary_sciences",
+        "methodology_critique"
+      ],
+      "languages": [
+        "ar",
+        "fr"
+      ],
+      "output_types": [
+        "manuscripts",
+        "books",
+        "database"
+      ],
+      "description_ar": "أُسّس 1973 بتمويل كويتي، سُمّي تيمناً بالعالم أحمد بابا الصكلي (ق17). يحفظ 30-40 ألف مخطوط في الفنون، الطب، الفلسفة، السيرة بالعربية والعجمية (Fula, Songhay, Tamasheq, Bambara, Soninke). أعيدت مخطوطاته لتمبكتو 2025 بعد 13 سنة إخلاء في باماكو.",
+      "key_figures": [
+        "د. محمود زبير (المدير الأول)",
+        "عبد القادر حيدرة"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "sources": [
+        {
+          "round_file": "round-08b-mosque-museum-african.md",
+          "anchor": "NAM-098 — Ahmed Baba Institute"
+        }
+      ]
+    },
+    {
+      "id": "NAM-099",
+      "round": "08b",
+      "name_ar": "قسم الدراسات الإسلامية – جامعة الشيخ أنتا ديوب بداكار",
+      "name_en": "Department of Islamic Studies, UCAD Dakar",
+      "type": "university_department",
+      "type_group": "research_education",
+      "country": "SN",
+      "city_ar": "داكار",
+      "region": "non_arab_muslim",
+      "founded": 1957,
+      "founded_decade": "1950s",
+      "status": "active",
+      "scale": "international",
+      "url": "https://www.ucad.sn/",
+      "parent_organization_ar": "جامعة الشيخ أنتا ديوب (UCAD)",
+      "funding_type": "state",
+      "subjects": [
+        "seerah_general",
+        "sufism_seerah",
+        "biography_methodology"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "application_outreach",
+        "methodology_critique"
+      ],
+      "languages": [
+        "fr",
+        "ar",
+        "wo"
+      ],
+      "output_types": [
+        "courses",
+        "books"
+      ],
+      "description_ar": "الجامعة أُسّست 1957 كـ\"جامعة داكار\"، أعيد تسميتها 1987. تضمّ +60 ألف طالب. عضو فدرالية جامعات العالم الإسلامي. التدريس بالفرنسية بشكل رئيسي. تقدّم برامج إسلاميات ولها صلات بالمدارس الصوفية السنغالية (التجانية، المريدية، القادرية).",
+      "verification": "desk_verified",
+      "inclusion_tier": "borderline",
+      "sources": [
+        {
+          "round_file": "round-08b-mosque-museum-african.md",
+          "anchor": "NAM-099 — UCAD Dakar"
+        }
+      ]
+    },
+    {
+      "id": "NAM-100",
+      "round": "08b",
+      "name_ar": "الجامعة الإسلامية بموروغورو – تنزانيا",
+      "name_en": "Muslim University of Morogoro (MUM)",
+      "type": "university_center",
+      "type_group": "research_education",
+      "country": "TZ",
+      "city_ar": "موروغورو",
+      "region": "non_arab_muslim",
+      "founded": 2004,
+      "founded_decade": "2000s",
+      "status": "active",
+      "scale": "national",
+      "url": "http://www.mum.ac.tz/",
+      "parent_organization_ar": "المؤسسة الإسلامية للتنمية (MDF)",
+      "funding_type": "private",
+      "subjects": [
+        "seerah_general",
+        "biography_methodology",
+        "tarjamah"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "methodology_critique",
+        "application_outreach"
+      ],
+      "languages": [
+        "sw",
+        "en",
+        "ar"
+      ],
+      "output_types": [
+        "courses",
+        "books"
+      ],
+      "description_ar": "أُسّست 2004 بمنح من الرئيس بنيامين مكابا، شغّلت 2005. تقع بسفح جبال أولوغورو على بُعد 200 كم من دار السلام. تخدم تعليماً جامعياً ضمن إطار إسلامي.",
+      "key_figures": [
+        "كتوانا كوندو (رئيس مجلس أمناء، متوفى)",
+        "رمضاني داو",
+        "عبد الرحمن كنانة"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "borderline",
+      "sources": [
+        {
+          "round_file": "round-08b-mosque-museum-african.md",
+          "anchor": "NAM-100 — MUM Tanzania"
+        }
+      ]
+    },
+    {
+      "id": "NAM-101",
+      "round": "08b",
+      "name_ar": "قسم الدراسات الإسلامية – جامعة الإلورين",
+      "name_en": "Department of Islamic Studies, University of Ilorin",
+      "type": "university_department",
+      "type_group": "research_education",
+      "country": "NG",
+      "city_ar": "الإلورين",
+      "region": "non_arab_muslim",
+      "founded": 1975,
+      "founded_decade": "1970s",
+      "status": "active",
+      "scale": "national",
+      "url": "https://www.unilorin.edu.ng/",
+      "parent_organization_ar": "جامعة الإلورين (Unilorin)",
+      "funding_type": "state",
+      "subjects": [
+        "seerah_general",
+        "biography_methodology",
+        "sufism_seerah",
+        "ahl_al_sunna"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "methodology_critique",
+        "application_outreach",
+        "prophetic_demography"
+      ],
+      "languages": [
+        "en",
+        "ar",
+        "yo",
+        "ha"
+      ],
+      "output_types": [
+        "courses",
+        "books",
+        "journal"
+      ],
+      "description_ar": "إحدى أعرق كليات الدراسات الإسلامية في نيجيريا. تقدّم بكالوريوس وماجستير ودكتوراه. تركّز على السيرة في سياق التراث الإسلامي اليوروبا والهوسا.",
+      "verification": "desk_verified",
+      "inclusion_tier": "borderline",
+      "sources": [
+        {
+          "round_file": "round-08b-mosque-museum-african.md",
+          "anchor": "NAM-101 — Ilorin"
+        }
+      ]
+    },
+    {
+      "id": "NAM-102",
+      "round": "08b",
+      "name_ar": "الجامعة الإسلامية بأوغندا",
+      "name_en": "Islamic University in Uganda (IUIU)",
+      "type": "university_center",
+      "type_group": "research_education",
+      "country": "UG",
+      "city_ar": "مبالي",
+      "region": "non_arab_muslim",
+      "founded": 1988,
+      "founded_decade": "1980s",
+      "status": "active",
+      "scale": "international",
+      "url": "https://www.iuiu.ac.ug/",
+      "parent_organization_ar": "البنك الإسلامي للتنمية (دعم)",
+      "funding_type": "mixed",
+      "subjects": [
+        "seerah_general",
+        "biography_methodology",
+        "tarjamah"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "methodology_critique",
+        "application_outreach"
+      ],
+      "languages": [
+        "en",
+        "ar",
+        "sw"
+      ],
+      "output_types": [
+        "courses",
+        "books"
+      ],
+      "description_ar": "أُسّست 1988 بدعم من البنك الإسلامي للتنمية. مقرّها مبالي شرقي أوغندا. من أقدم الجامعات الإسلامية في شرق إفريقيا. تخدم الجالية الإسلامية الأوغندية والإقليمية.",
+      "verification": "desk_verified",
+      "inclusion_tier": "borderline",
+      "sources": [
+        {
+          "round_file": "round-08b-mosque-museum-african.md",
+          "anchor": "NAM-102 — IUIU"
+        }
+      ]
+    },
+    {
+      "id": "NAM-103",
+      "round": "08b",
+      "name_ar": "الجامعة الإسلامية العالمية – الخرطوم",
+      "name_en": "International University of Africa, Khartoum",
+      "type": "university_center",
+      "type_group": "research_education",
+      "country": "SD",
+      "city_ar": "الخرطوم",
+      "region": "non_arab_muslim",
+      "founded": 1977,
+      "founded_decade": "1970s",
+      "status": "active",
+      "status_note_ar": "تأثّر النشاط بسبب الحرب 2023-",
+      "scale": "international",
+      "url": "https://iua.edu.sd/",
+      "funding_type": "state",
+      "subjects": [
+        "seerah_general",
+        "biography_methodology",
+        "tarjamah",
+        "seerah_pedagogy"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "methodology_critique",
+        "application_outreach"
+      ],
+      "languages": [
+        "ar",
+        "en",
+        "fr",
+        "sw",
+        "ha"
+      ],
+      "output_types": [
+        "courses",
+        "books",
+        "journal"
+      ],
+      "description_ar": "أُسّست 1977 لتكون بوّابة الدراسات الإسلامية لإفريقيا. تستقبل طلاباً من +60 دولة إفريقية. تأثّر نشاطها بسبب حرب السودان 2023.",
+      "verification": "desk_verified",
+      "inclusion_tier": "borderline",
+      "sources": [
+        {
+          "round_file": "round-08b-mosque-museum-african.md",
+          "anchor": "NAM-103 — IUA Khartoum"
+        }
+      ]
+    },
+    {
+      "id": "ARB-068",
+      "round": "08b",
+      "name_ar": "كلية الحديث الشريف والدراسات الإسلامية – الجامعة الإسلامية بالمدينة",
+      "name_en": "Faculty of Hadith & Islamic Studies, Islamic University of Madinah",
+      "type": "university_department",
+      "type_group": "research_education",
+      "country": "SA",
+      "city_ar": "المدينة المنورة",
+      "region": "arabia",
+      "founded": 1963,
+      "founded_decade": "1960s",
+      "status": "active",
+      "scale": "international",
+      "parent_organization_ar": "الجامعة الإسلامية بالمدينة المنورة",
+      "funding_type": "state",
+      "subjects": [
+        "seerah_general",
+        "hadith_sciences",
+        "sources_critique",
+        "biography_methodology"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "auxiliary_sciences",
+        "methodology_critique"
+      ],
+      "languages": [
+        "ar",
+        "en",
+        "ur"
+      ],
+      "output_types": [
+        "courses",
+        "books",
+        "journal"
+      ],
+      "description_ar": "كلية متخصّصة في علوم الحديث والسيرة، تُعدّ من أعرق كليات الحديث في العالم الإسلامي السني. تخرّج فيها مئات العلماء من +100 دولة.",
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "sources": [
+        {
+          "round_file": "round-08b-mosque-museum-african.md",
+          "anchor": "ARB-068 — IUM Hadith Faculty"
+        }
+      ]
+    },
+    {
+      "id": "ARB-069",
+      "round": "08b",
+      "name_ar": "قسم السيرة والتاريخ الإسلامي – جامعة طيبة بالمدينة",
+      "name_en": "Department of Seerah & Islamic History, Taibah University",
+      "type": "university_department",
+      "type_group": "research_education",
+      "country": "SA",
+      "city_ar": "المدينة المنورة",
+      "region": "arabia",
+      "founded": 2003,
+      "founded_decade": "2000s",
+      "status": "active",
+      "scale": "national",
+      "url": "https://www.taibahu.edu.sa/",
+      "parent_organization_ar": "جامعة طيبة",
+      "funding_type": "state",
+      "subjects": [
+        "seerah_general",
+        "maghazi",
+        "madinah_studies",
+        "biography_methodology"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "geography_space",
+        "methodology_critique"
+      ],
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [
+        "courses",
+        "books"
+      ],
+      "description_ar": "يقدّم بكالوريوس وماجستير ودكتوراه في السيرة والتاريخ الإسلامي. يستفيد من قربه من الحرم النبوي ومكتبته. تأسّست جامعة طيبة 2003.",
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "sources": [
+        {
+          "round_file": "round-08b-mosque-museum-african.md",
+          "anchor": "ARB-069 — Taibah Seerah"
+        }
+      ]
+    },
+    {
+      "id": "ARB-070",
+      "round": "08b",
+      "name_ar": "كرسي الملك سلمان للسيرة النبوية وعلومها – جامعة طيبة",
+      "name_en": "King Salman Chair for Seerah Studies, Taibah University",
+      "type": "academic_chair",
+      "type_group": "research_education",
+      "country": "SA",
+      "city_ar": "المدينة المنورة",
+      "region": "arabia",
+      "founded": 2015,
+      "founded_decade": "2010s",
+      "status": "active",
+      "scale": "national",
+      "parent_organization_ar": "جامعة طيبة",
+      "funding_type": "state",
+      "subjects": [
+        "seerah_general",
+        "maghazi",
+        "biography_methodology",
+        "madinah_studies"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "methodology_critique",
+        "geography_space"
+      ],
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [
+        "conference",
+        "books",
+        "journal"
+      ],
+      "description_ar": "كرسي علمي برعاية ملكية، يدعم البحوث والمؤتمرات المتخصّصة في السيرة. يقع ضمن منظومة جامعة طيبة وبجوار الحرم النبوي.",
+      "explicit_relations": [
+        {
+          "target": "ARB-069",
+          "type": "partner"
+        }
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "sources": [
+        {
+          "round_file": "round-08b-mosque-museum-african.md",
+          "anchor": "ARB-070 — King Salman Chair Seerah"
+        }
+      ]
+    },
+    {
+      "id": "ARB-071",
+      "round": "08b",
+      "name_ar": "المعهد العالي لأئمة وخطباء المسجد الحرام والمسجد النبوي",
+      "name_en": "Higher Institute for Imams and Preachers of the Two Holy Mosques",
+      "type": "research_center",
+      "type_group": "research_education",
+      "country": "SA",
+      "city_ar": "مكة المكرمة",
+      "region": "arabia",
+      "founded_decade": "2010s",
+      "status": "active",
+      "scale": "national",
+      "parent_organization_ar": "الرئاسة العامة لشؤون الحرمين الشريفين",
+      "funding_type": "state",
+      "subjects": [
+        "seerah_general",
+        "shamail",
+        "seerah_pedagogy"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "application_outreach"
+      ],
+      "languages": [
+        "ar"
+      ],
+      "output_types": [
+        "courses",
+        "khutbah_archive"
+      ],
+      "description_ar": "يقدّم تدريباً متخصصاً لأئمة الحرمين في علوم الخطبة والتلاوة والسيرة. مرتبط بالرئاسة العامة لشؤون الحرمين.",
+      "explicit_relations": [
+        {
+          "target": "ARB-061",
+          "type": "child_of"
+        }
+      ],
+      "verification": "needs_verification",
+      "inclusion_tier": "core",
+      "sources": [
+        {
+          "round_file": "round-08b-mosque-museum-african.md",
+          "anchor": "ARB-071 — Higher Institute Imams"
+        }
+      ]
     }
   ],
-  "migration_note": "2026-05-11: hierarchical taxonomy + 8-أ South Asia (+30) + 8-ج Media-Digital (+25) = 454"
+  "migration_note": "2026-05-11: hierarchical taxonomy + 8-أ (+30) + 8-ج (+25) + 8-ب (+26) = 480"
 }

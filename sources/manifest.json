@@ -2,7 +2,7 @@
   "project": "seerah-encyclopedia",
   "description": "مسح موسوعي للكيانات المتخصصة في خدمة السيرة النبوية، موزّعاً على سبع جولات بحثية",
   "language": "ar",
-  "totalEntities": 454,
+  "totalEntities": 480,
   "rounds": [
     {
       "id": "01",
@@ -94,9 +94,20 @@
       "region_ar": "عابر للأقاليم — إعلامي رقمي",
       "region_en": "Cross-Regional — Media & Digital",
       "entityCount": 25,
-      "share": 0.055,
+      "share": 0.052,
       "type": "gap-filling-research",
       "note": "يفعّل أنواع Schema v2 الجديدة: film_or_series, production_studio, tv_channel, digital_platform, mobile_app, digital_creator. يضيف بادئة GLB- للكيانات العابرة للأقاليم."
+    },
+    {
+      "id": "08b",
+      "file": "round-08b-mosque-museum-african.md",
+      "title_ar": "جولة 8-ب — المسجدي/المتحفي/الإفريقي",
+      "region_ar": "متاحف وثقافة + إفريقيا الإسلامية",
+      "region_en": "Mosques, Museums & African Islamic Institutions",
+      "entityCount": 26,
+      "share": 0.054,
+      "type": "gap-filling-research",
+      "note": "يسدّ فجوة mosque_program (كانت 3 جزائرية فقط)، يضيف برامج الحرمين، المتاحف الإسلامية الكبرى، المراكز الإسلامية الغربية، المؤسسات الإفريقية الإسلامية. مجموعة 🏛 متاحف وثقافة قفزت من 11 إلى 22 كياناً."
     }
   ]
 }
