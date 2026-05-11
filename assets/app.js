@@ -443,6 +443,10 @@
       if (!state.loaded) loadEntities().then(() => renderStats());
       else renderStats();
     }
+    if (tabName === "gaps") {
+      if (!state.loaded) loadEntities().then(() => renderGaps());
+      else renderGaps();
+    }
     if (tabName === "network") {
       if (!state.loaded) loadEntities().then(() => renderNetwork());
       else renderNetwork();
@@ -559,6 +563,9 @@
       const gapMarker = (e) => /^\[توثيق فجوة\]/i.test(e?.name_ar || "");
       state.gapMarkers = rawEntities.filter(gapMarker);
       state.entities = rawEntities.filter((e) => !gapMarker(e));
+      // طبّق التعديلات المحفوظة محلياً (من تبويب "الفجوات")
+      loadGapEdits();
+      applyGapEdits();
       state.loaded = true;
 
       // تحديث العدادات في الهيدر والتبويب
@@ -1776,6 +1783,348 @@
     container.appendChild(buildChartsGrid());
     statsRendered = true;
     if (!tooltipEl) initTooltip();
+  }
+
+  // ============================================================
+  // الفجوات — تبويب استدراك البيانات الناقصة
+  // ============================================================
+
+  // تعريفات الفجوات: لكل حقل، نوع المدخلات + شرط "ناقص"
+  const GAP_DEFS = [
+    {
+      field: "founded",
+      title: "تاريخ التأسيس",
+      icon: "📅",
+      input: "year",
+      missing: (e) => !e.founded,
+      hint: "أدخل سنة التأسيس (مثلاً 1985)",
+    },
+    {
+      field: "funding_type",
+      title: "نوع التمويل",
+      icon: "💰",
+      input: "select",
+      options: "funding_type",
+      missing: (e) => !e.funding_type || e.funding_type === "unknown",
+      hint: "حدّد المصدر التمويلي للكيان",
+    },
+    {
+      field: "url",
+      title: "الرابط الإلكتروني",
+      icon: "🔗",
+      input: "url",
+      missing: (e) => !e.url,
+      hint: "الموقع الرسمي أو صفحة تعريفية",
+    },
+    {
+      field: "description_ar",
+      title: "الوصف بالعربية",
+      icon: "📝",
+      input: "textarea",
+      missing: (e) => !e.description_ar || e.description_ar.length < 40,
+      hint: "وصف موجز 2-4 أسطر",
+    },
+    {
+      field: "key_figures",
+      title: "الشخصيات البارزة",
+      icon: "👥",
+      input: "tags",
+      missing: (e) => !e.key_figures || e.key_figures.length === 0,
+      hint: "أسماء مفصولة بفواصل (مؤسس، مدير، رئيس تحرير…)",
+    },
+    {
+      field: "parent_organization_ar",
+      title: "المؤسسة الأم",
+      icon: "🏛",
+      input: "text",
+      missing: (e) => !e.parent_organization_ar,
+      hint: "الجامعة أو المؤسسة التابع لها (إن وُجد)",
+    },
+  ];
+
+  function loadGapEdits() {
+    try {
+      state.gapEdits = JSON.parse(localStorage.getItem("seerah-gap-edits") || "{}");
+    } catch (_) {
+      state.gapEdits = {};
+    }
+  }
+
+  function saveGapEdit(entityId, field, value) {
+    if (!state.gapEdits) state.gapEdits = {};
+    if (!state.gapEdits[entityId]) state.gapEdits[entityId] = {};
+    if (value === "" || value === null || value === undefined ||
+        (Array.isArray(value) && value.length === 0)) {
+      delete state.gapEdits[entityId][field];
+      if (Object.keys(state.gapEdits[entityId]).length === 0) {
+        delete state.gapEdits[entityId];
+      }
+    } else {
+      state.gapEdits[entityId][field] = value;
+    }
+    try {
+      localStorage.setItem("seerah-gap-edits", JSON.stringify(state.gapEdits));
+    } catch (_) {}
+    // طبّق على الكيان في الذاكرة فوراً
+    const e = state.entities.find((x) => x.id === entityId);
+    if (e) {
+      if (value === "" || value === null || value === undefined ||
+          (Array.isArray(value) && value.length === 0)) {
+        delete e[field];
+      } else {
+        e[field] = value;
+        // اضبط founded_decade تلقائياً
+        if (field === "founded" && typeof value === "number") {
+          e.founded_decade = (Math.floor(value / 10) * 10) + "s";
+        }
+      }
+    }
+  }
+
+  function applyGapEdits() {
+    if (!state.gapEdits) return;
+    Object.entries(state.gapEdits).forEach(([id, fields]) => {
+      const e = state.entities.find((x) => x.id === id);
+      if (!e) return;
+      Object.entries(fields).forEach(([f, v]) => {
+        e[f] = v;
+        if (f === "founded" && typeof v === "number") {
+          e.founded_decade = (Math.floor(v / 10) * 10) + "s";
+        }
+      });
+    });
+  }
+
+  function countEditedEntities() {
+    return Object.keys(state.gapEdits || {}).length;
+  }
+
+  function getTotalMissingCount() {
+    return GAP_DEFS.reduce((sum, g) =>
+      sum + state.entities.filter((e) => g.missing(e)).length, 0);
+  }
+
+  function renderGaps() {
+    const container = document.querySelector("#tab-gaps .gaps");
+    if (!container) return;
+
+    const totalEdits = countEditedEntities();
+    const totalMissing = getTotalMissingCount();
+
+    // البطاقات الإجمالية + أزرار التحكم
+    const summaryHtml = `
+      <div class="gaps__header">
+        <div>
+          <h2 class="gaps__title">استدراك فجوات البيانات</h2>
+          <p class="gaps__hint">حرّر الحقول الناقصة مباشرة. التعديلات تُحفظ محلياً ويمكن تصديرها كملف data.json محدّث.</p>
+        </div>
+        <div class="gaps__actions">
+          <span class="gaps__counter" data-edits-counter>${totalEdits} تعديل محفوظ محلياً</span>
+          <button class="btn btn--primary" type="button" id="gaps-export">⬇ تصدير data.json المعدّل</button>
+          <button class="btn btn--ghost" type="button" id="gaps-clear">مسح التعديلات</button>
+        </div>
+      </div>
+
+      <div class="gaps__overview">
+        ${GAP_DEFS.map((g) => {
+          const missing = state.entities.filter((e) => g.missing(e)).length;
+          const pct = Math.round((missing / state.entities.length) * 100);
+          return `
+            <div class="gaps__overview-card" data-field="${g.field}">
+              <div class="gaps__overview-icon">${g.icon}</div>
+              <div class="gaps__overview-value">${missing}</div>
+              <div class="gaps__overview-label">${escapeHtml(g.title)}</div>
+              <div class="gaps__overview-pct">${pct}% من الإجمالي</div>
+            </div>
+          `;
+        }).join("")}
+      </div>
+
+      <div class="gaps__sections">
+        ${GAP_DEFS.map((g) => `
+          <details class="gap-section" data-field="${g.field}">
+            <summary class="gap-section__summary">
+              <span class="gap-section__icon">${g.icon}</span>
+              <span class="gap-section__title">${escapeHtml(g.title)}</span>
+              <span class="gap-section__count">
+                <span data-missing-count="${g.field}">${state.entities.filter((e) => g.missing(e)).length}</span>
+                <span>ناقص</span>
+              </span>
+            </summary>
+            <div class="gap-section__body" data-body="${g.field}"></div>
+          </details>
+        `).join("")}
+      </div>
+    `;
+    container.innerHTML = summaryHtml;
+
+    // اربط أزرار التحكم
+    container.querySelector("#gaps-export").addEventListener("click", exportEditedDataJson);
+    container.querySelector("#gaps-clear").addEventListener("click", clearAllGapEdits);
+
+    // عند فتح section لأول مرة، ابنِ القائمة (lazy)
+    container.querySelectorAll(".gap-section").forEach((section) => {
+      section.addEventListener("toggle", () => {
+        if (section.open) buildGapSectionBody(section.dataset.field);
+      });
+    });
+
+    // اضغط على بطاقة الـ overview → افتح الـ section
+    container.querySelectorAll(".gaps__overview-card").forEach((card) => {
+      card.addEventListener("click", () => {
+        const field = card.dataset.field;
+        const section = container.querySelector(`.gap-section[data-field="${field}"]`);
+        if (section) {
+          section.open = true;
+          section.scrollIntoView({ behavior: "smooth", block: "start" });
+          buildGapSectionBody(field);
+        }
+      });
+    });
+
+    updateGapsTabBadge();
+  }
+
+  function buildGapSectionBody(field) {
+    const body = document.querySelector(`.gap-section__body[data-body="${field}"]`);
+    if (!body || body.dataset.built) return;
+    body.dataset.built = "1";
+
+    const gap = GAP_DEFS.find((g) => g.field === field);
+    if (!gap) return;
+    const list = state.entities.filter((e) => gap.missing(e));
+
+    body.innerHTML = `
+      <p class="gap-section__hint">${escapeHtml(gap.hint)}</p>
+      <ol class="gap-rows">
+        ${list.map((e) => renderGapRow(e, gap)).join("")}
+      </ol>
+    `;
+    body.querySelectorAll(".gap-row").forEach((row) => {
+      bindGapRowEvents(row, gap);
+    });
+  }
+
+  function renderGapRow(entity, gap) {
+    const safeId = entity.id;
+    const safeName = escapeHtml(entity.name_ar || "");
+    const country = entity.country ? `${flag(entity.country)} ${label("country", entity.country)}` : "";
+    const region = entity.region ? label("region", entity.region) : "";
+    const type = entity.type ? label("type", entity.type) : "";
+    const inputHtml = gapInputHtml(entity, gap);
+    return `
+      <li class="gap-row" data-id="${safeId}">
+        <div class="gap-row__meta">
+          <span class="gap-row__id">${safeId}</span>
+          <span class="gap-row__name">${safeName}</span>
+          <span class="gap-row__chips">
+            ${region ? `<span class="gap-row__chip">${escapeHtml(region)}</span>` : ""}
+            ${country ? `<span class="gap-row__chip">${escapeHtml(country)}</span>` : ""}
+            ${type ? `<span class="gap-row__chip">${escapeHtml(type)}</span>` : ""}
+          </span>
+        </div>
+        <div class="gap-row__input">${inputHtml}</div>
+        <button class="btn btn--ghost btn--small gap-row__open" type="button" title="افتح بطاقة الكيان">↗</button>
+      </li>
+    `;
+  }
+
+  function gapInputHtml(entity, gap) {
+    const v = entity[gap.field];
+    if (gap.input === "year") {
+      return `<input type="number" min="500" max="2100" class="gap-input" data-field="${gap.field}" placeholder="مثلاً 1985" value="${v || ""}">`;
+    }
+    if (gap.input === "select") {
+      const options = LABELS[gap.options] || {};
+      return `<select class="gap-input" data-field="${gap.field}">
+        <option value="">— اختر —</option>
+        ${Object.entries(options).map(([k, lbl]) =>
+          `<option value="${k}" ${v === k ? "selected" : ""}>${escapeHtml(lbl)}</option>`).join("")}
+      </select>`;
+    }
+    if (gap.input === "url") {
+      return `<input type="url" class="gap-input" data-field="${gap.field}" placeholder="https://…" value="${v || ""}">`;
+    }
+    if (gap.input === "textarea") {
+      return `<textarea class="gap-input" data-field="${gap.field}" rows="2" placeholder="وصف موجز…">${escapeHtml(v || "")}</textarea>`;
+    }
+    if (gap.input === "tags") {
+      const tags = Array.isArray(v) ? v.join(", ") : "";
+      return `<input type="text" class="gap-input" data-field="${gap.field}" data-input-kind="tags" placeholder="اسم 1، اسم 2، …" value="${escapeHtml(tags)}">`;
+    }
+    return `<input type="text" class="gap-input" data-field="${gap.field}" value="${escapeHtml(v || "")}">`;
+  }
+
+  function bindGapRowEvents(row, gap) {
+    const id = row.dataset.id;
+    const input = row.querySelector(".gap-input");
+    const openBtn = row.querySelector(".gap-row__open");
+    const commit = debounce(() => {
+      let value = input.value.trim();
+      if (gap.input === "year") {
+        value = value ? parseInt(value, 10) : null;
+        if (!Number.isFinite(value)) value = null;
+      } else if (input.dataset.inputKind === "tags") {
+        value = value.split(/[،,]\s*/).map((s) => s.trim()).filter(Boolean);
+      }
+      saveGapEdit(id, gap.field, value);
+      // علامة بصرية
+      row.classList.add("is-saved");
+      setTimeout(() => row.classList.remove("is-saved"), 1200);
+      // إذا الحقل لم يعد ناقصاً، أزل الصف من الـ section
+      const updated = state.entities.find((e) => e.id === id);
+      if (updated && !gap.missing(updated)) {
+        row.classList.add("is-resolved");
+        setTimeout(() => row.remove(), 600);
+        // حدّث العدّاد
+        const cntEl = document.querySelector(`[data-missing-count="${gap.field}"]`);
+        if (cntEl) cntEl.textContent = String(parseInt(cntEl.textContent, 10) - 1);
+      }
+      updateEditsCounter();
+      updateGapsTabBadge();
+    }, 600);
+    input.addEventListener("input", commit);
+    input.addEventListener("change", commit);
+    openBtn.addEventListener("click", () => {
+      buildModal();
+      openModal(id);
+    });
+  }
+
+  function updateEditsCounter() {
+    const el = document.querySelector("[data-edits-counter]");
+    if (el) el.textContent = `${countEditedEntities()} تعديل محفوظ محلياً`;
+  }
+
+  function updateGapsTabBadge() {
+    const badge = document.querySelector('[data-count="gaps"]');
+    if (!badge) return;
+    const total = state.entities.length;
+    const complete = state.entities.filter((e) => !GAP_DEFS.some((g) => g.missing(e))).length;
+    badge.textContent = `${total - complete}`;
+  }
+
+  function exportEditedDataJson() {
+    // ابنِ نسخة كاملة من data.json بمحتوى state.entities الحالي
+    const out = {
+      version: "2.1-edited",
+      generated: new Date().toISOString().split("T")[0],
+      schema: "schema.json (v2)",
+      rounds_completed: ["01", "02", "03", "04", "05", "06"],
+      edits_count: countEditedEntities(),
+      entities: state.entities,
+    };
+    const blob = new Blob([JSON.stringify(out, null, 2)], { type: "application/json;charset=utf-8" });
+    downloadBlob(blob, "data.json");
+    if (typeof toast === "function") toast(`تم تصدير ${countEditedEntities()} تعديل`);
+  }
+
+  function clearAllGapEdits() {
+    if (!confirm(`سيُحذف ${countEditedEntities()} تعديل من تخزينك المحلي. تأكيد؟`)) return;
+    state.gapEdits = {};
+    try { localStorage.removeItem("seerah-gap-edits"); } catch (_) {}
+    if (typeof toast === "function") toast("حُذفت التعديلات المحلية. أعد تحميل الصفحة لاسترداد القيم الأصلية.");
+    updateEditsCounter();
   }
 
   function initTooltip() {
@@ -3683,6 +4032,7 @@
     const tabsList = [
       { id: "diagnostic", icon: "📊", name: "تشخيص" },
       { id: "entities", icon: "📋", name: "كيانات" },
+      { id: "gaps", icon: "⚠", name: "فجوات" },
       { id: "network", icon: "🕸", name: "شبكة" },
       { id: "stats", icon: "📈", name: "إحصاء" },
       { id: "methodology", icon: "📐", name: "منهجية" },

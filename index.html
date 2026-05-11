@@ -84,6 +84,14 @@
         <span class="tab__count" data-count="entities">397</span>
       </button>
       <button role="tab" class="tab"
+              data-tab="gaps"
+              aria-selected="false"
+              aria-controls="tab-gaps"
+              tabindex="-1">
+        الفجوات
+        <span class="tab__count" data-count="gaps">—</span>
+      </button>
+      <button role="tab" class="tab"
               data-tab="network"
               aria-selected="false"
               aria-controls="tab-network"
@@ -194,7 +202,20 @@
       </div>
     </section>
 
-    <!-- التبويب 3: الشبكة -->
+    <!-- التبويب 3: الفجوات -->
+    <section id="tab-gaps" class="panel" role="tabpanel"
+             aria-labelledby="tab-gaps-btn" aria-hidden="true">
+      <div class="container">
+        <div class="gaps">
+          <div class="empty-state">
+            <h3 class="empty-state__title">جاري إعداد فجوات البيانات…</h3>
+            <p class="empty-state__hint">رصد الكيانات الناقصة في تاريخ التأسيس، التمويل، الرابط، الوصف…</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- التبويب 4: الشبكة -->
     <section id="tab-network" class="panel" role="tabpanel"
              aria-labelledby="tab-network-btn" aria-hidden="true">
       <div class="container">
