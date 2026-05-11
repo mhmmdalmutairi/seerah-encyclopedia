@@ -12,7 +12,9 @@
     "08a",
     "08b",
     "08c",
-    "08d"
+    "08d",
+    "08e",
+    "08f"
   ],
   "entities": [
     {
@@ -21148,7 +21150,1219 @@
           "anchor": "GLB-008 — AKTC"
         }
       ]
+    },
+    {
+      "id": "MAG-051",
+      "name_ar": "زاوية سيدي أحمد التجاني الكبرى - فاس",
+      "name_en": "Zawiya of Sidi Ahmed al-Tijani (Mother Zawiya), Fez",
+      "type": "mosque_program",
+      "type_group": "museums_culture",
+      "region": "maghreb",
+      "country": "MA",
+      "founded": 1800,
+      "description_ar": "الزاوية الأم للطريقة التيجانية في حيّ البليدة بفاس البالي، تضمّ ضريح الشيخ أحمد التجاني (ت 1815) ومركز لإحياء المولد النبوي وتدريس الشمائل ودلائل الخيرات، ويزورها سنوياً آلاف المريدين من إفريقيا جنوب الصحراء خلال موسم المولد.",
+      "url": "https://en.wikipedia.org/wiki/Zawiya_of_Sidi_Ahmed_al-Tijani",
+      "subjects": [
+        "sufism_seerah",
+        "shamail",
+        "dalail_nubuwwa",
+        "seerah_pedagogy"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "أحمد التجاني"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "regional",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "religious_authority",
+      "round": "08e"
+    },
+    {
+      "id": "NAM-114",
+      "name_ar": "زاوية مدينة باي - كاولاخ",
+      "name_en": "Medina Baye Zawiya / Grand Mosque, Kaolack",
+      "type": "mosque_program",
+      "type_group": "museums_culture",
+      "region": "non_arab_muslim",
+      "country": "SN",
+      "founded": 1930,
+      "description_ar": "المقر العالمي لطريقة الفيضة التيجانية التي أسّسها الشيخ إبراهيم نياس عام 1930 في ضاحية كاولاخ. تضمّ المسجد الجامع ومدارس قرآنية ومعاهد دينية، وتستقبل ملايين الحجاج في احتفال المولد النبوي السنوي (Gàmmu/Maouloud).",
+      "url": "https://bayeniasse.net/",
+      "subjects": [
+        "sufism_seerah",
+        "shamail",
+        "seerah_pedagogy",
+        "dalail_nubuwwa"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "إبراهيم نياس",
+        "أحمد التجاني علي سيسي"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "regional",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "religious_authority",
+      "round": "08e"
+    },
+    {
+      "id": "NAM-115",
+      "name_ar": "زاوية الحاج مالك سي - تيواوان",
+      "name_en": "Zawiya El Hadj Malick Sy, Tivaouane",
+      "type": "mosque_program",
+      "type_group": "museums_culture",
+      "region": "non_arab_muslim",
+      "country": "SN",
+      "founded": 1902,
+      "description_ar": "إحدى أبرز مؤسسات التيجانية في السنغال، أسّسها الحاج مالك سي (ت 1922) في تيواوان. تُنظِّم سنوياً مهرجان الـGàmmu للمولد النبوي مع آلاف الحضور، وتُدرِّس الشمائل وعلوم السيرة، وتمثّلها رسمياً خلية CEZAT.",
+      "url": "https://zawiya.sn/",
+      "subjects": [
+        "sufism_seerah",
+        "shamail",
+        "seerah_pedagogy",
+        "dalail_nubuwwa"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "الحاج مالك سي"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "regional",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "religious_authority",
+      "round": "08e"
+    },
+    {
+      "id": "NAM-116",
+      "name_ar": "مهرجان المغال الكبير - طوبى",
+      "name_en": "Grand Magal of Touba",
+      "type": "conference_series",
+      "type_group": "institutional_infra",
+      "region": "non_arab_muslim",
+      "country": "SN",
+      "founded": 1928,
+      "description_ar": "أكبر تجمّع روحي مؤسسي للطريقة المريدية، يُقام في طوبى في 18 صفر منذ 1928. يستقطب أكثر من 6 ملايين زائر سنوياً وتُتلى فيه قصائد أحمد بمبا في مدح النبي ﷺ وتُدرَّس الشمائل والسيرة.",
+      "url": "https://en.wikipedia.org/wiki/Grand_Magal_of_Touba",
+      "subjects": [
+        "sufism_seerah",
+        "shamail",
+        "seerah_pedagogy"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "أحمد بمبا",
+        "سيرين منتخا مباكي"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "regional",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08e"
+    },
+    {
+      "id": "NAM-117",
+      "name_ar": "مكتبة شيخ الخادم (دارا كميل) - طوبى",
+      "name_en": "Bibliothèque Cheikhoul Khadim (Daaray Kamil), Touba",
+      "type": "library_archive",
+      "type_group": "publishing_knowledge",
+      "region": "non_arab_muslim",
+      "country": "SN",
+      "founded": 1977,
+      "description_ar": "المكتبة المركزية للطريقة المريدية شرق المسجد الجامع بطوبى، تضمّ أكثر من 30 ألف نسخة من القرآن ومخطوطات الشيخ أحمد بمبا وقصائد المديح النبوي. وتُجهَّز حالياً بقسم وسائط متعدّدة.",
+      "url": "https://aps.sn/touba-la-bibliotheque-cheikhoul-khadim-bientot-dotee-dune-salle-mediatheque-conservateur/",
+      "subjects": [
+        "manuscripts",
+        "sufism_seerah",
+        "shamail"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "auxiliary_sciences",
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "أحمد بمبا"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "regional",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08e"
+    },
+    {
+      "id": "NAM-118",
+      "name_ar": "جامعة الشيخ أحمدو بمبا - طوبى",
+      "name_en": "Université Cheikh Ahmadou Bamba (UCAB)",
+      "type": "university_center",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "SN",
+      "founded": 2009,
+      "description_ar": "جامعة مريدية خاصة في حيّ نداما داروالعلم بطوبى، حصلت على الاعتماد النهائي 2016. تستكمل شبكة معاهد الأزهر-السنغال، وتُدرِّس العلوم الدينية وعلوم السيرة ضمن منهج قائم على تعاليم الشيخ أحمد بمبا.",
+      "url": "https://www.ucab.sn/",
+      "subjects": [
+        "sufism_seerah",
+        "seerah_pedagogy",
+        "hadith_sciences"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "auxiliary_sciences"
+      ],
+      "key_figures": [
+        "أحمد بمبا",
+        "محمد المرتضى مباكي"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "regional",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08e"
+    },
+    {
+      "id": "NAM-119",
+      "name_ar": "معاهد الأزهر بالسنغال",
+      "name_en": "Al-Azhar Institutes of Senegal",
+      "type": "university_center",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "SN",
+      "founded": 1974,
+      "description_ar": "شبكة من 425 مؤسسة تعليمية إسلامية أسّسها سيرين محمد المرتضى مباكي 1974 بشراكة مع الأزهر بالقاهرة، يدرس فيها أكثر من 90 ألف طالب علوم الشريعة والسيرة باللغتين العربية والفرنسية ضمن الإطار المريدي.",
+      "url": "https://alazharsn.com/",
+      "subjects": [
+        "seerah_general",
+        "seerah_pedagogy",
+        "hadith_sciences",
+        "sufism_seerah"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "auxiliary_sciences",
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "محمد المرتضى مباكي"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "regional",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08e"
+    },
+    {
+      "id": "NAM-120",
+      "name_ar": "حزب الترقية المريدية",
+      "name_en": "Hizbut Tarqiyyah",
+      "type": "foundation_waqf",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "SN",
+      "founded": 1976,
+      "description_ar": "منظمة مريدية تأسّست 1976 في جامعة داكار، أعاد سيرين سالي مباكي تسميتها 1992. تعمل على نشر مؤلفات أحمد بمبا وترجمتها، وتُدير مدارس قرآنية ومكتبات وخلايا في كل مناطق السنغال وتنشط في المغال.",
+      "url": "https://fr.wikipedia.org/wiki/Hizbut_Tarqiyyah",
+      "subjects": [
+        "sufism_seerah",
+        "tarjamah",
+        "seerah_pedagogy",
+        "shamail"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "سيرين سالي مباكي"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "regional",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08e"
+    },
+    {
+      "id": "NAM-121",
+      "name_ar": "المعهد الإسلامي الأمريكي-الإفريقي - كاولاخ",
+      "name_en": "African American Islamic Institute (AAII)",
+      "type": "islamic_center",
+      "type_group": "museums_culture",
+      "region": "non_arab_muslim",
+      "country": "SN",
+      "founded": 1988,
+      "description_ar": "منظمة غير حكومية تابعة للأمم المتحدة، أسّسها الشيخ حسن سيسي 1988 في مدينة باي كاولاخ. تُدير مدرسة قرآنية داخلية دولية تأسّست 1983 وأكاديمية AAII Legacy، وتدرّس السيرة والشمائل للطلاب الأمريكيين والأفارقة.",
+      "url": "https://aaii.info/",
+      "subjects": [
+        "sufism_seerah",
+        "seerah_pedagogy",
+        "youth_outreach",
+        "shamail"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "حسن علي سيسي",
+        "تيجان علي سيسي"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "regional",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08e"
+    },
+    {
+      "id": "NAM-122",
+      "name_ar": "زاوية النياسين الحمويّة - نيورو دو ساحل",
+      "name_en": "Tijaniyya Hamawiyya Zawiya, Nioro du Sahel",
+      "type": "mosque_program",
+      "type_group": "museums_culture",
+      "region": "non_arab_muslim",
+      "country": "ML",
+      "founded": 1909,
+      "description_ar": "زاوية فرع الحمويّة من التيجانية في مدينة نيورو، التي أسّسها الشيخ حمى الله بن محمد بن عمر (ت 1943) في النصف الأول من القرن العشرين. تُدرَّس فيها الأوراد التيجانية والسيرة، وأصبحت مركزاً إقليمياً يخدم مالي والسنغال وساحل العاج وبوركينا فاسو.",
+      "url": "https://en.wikipedia.org/wiki/Hammallism",
+      "subjects": [
+        "sufism_seerah",
+        "shamail",
+        "seerah_pedagogy"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "حمى الله بن محمد",
+        "بوي حيدرة"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "regional",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "religious_authority",
+      "round": "08e"
+    },
+    {
+      "id": "MAG-052",
+      "name_ar": "زاوية بوتلميت القادرية - الشيخ سيديا",
+      "name_en": "Zawiya Sheikh Sidiyya, Boutilimit",
+      "type": "library_archive",
+      "type_group": "publishing_knowledge",
+      "region": "maghreb",
+      "country": "MR",
+      "founded": 1828,
+      "description_ar": "زاوية ومكتبة آل الشيخ سيديا في بوتلميت بمنطقة الترارزة، مركز رئيسي للقادرية في موريتانيا. تضمّ آلاف المخطوطات الإسلامية فُهرست في عمل دولي. وقد رعى الشيخ سيديا بابا (ت 1924) تدريس النحو والفقه والتصوف والسيرة فيها.",
+      "url": "https://aodl.org/islamicmodernity/sidiyyababa/",
+      "subjects": [
+        "manuscripts",
+        "sufism_seerah",
+        "seerah_general"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "auxiliary_sciences",
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "الشيخ سيديا الكبير",
+        "الشيخ سيديا بابا"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08e"
+    },
+    {
+      "id": "NAM-123",
+      "name_ar": "زاوية ندياسان القادرية",
+      "name_en": "Zawiya of Ndiassane (Qadiriyya)",
+      "type": "mosque_program",
+      "type_group": "museums_culture",
+      "region": "non_arab_muslim",
+      "country": "SN",
+      "founded": 1883,
+      "description_ar": "العاصمة الروحية للقادرية في السنغال، أسّسها الشيخ بوه كنته 1883. تستقبل سنوياً آلاف المريدين من السنغال ومالي والنيجر وتشاد وموريتانيا لإحياء ليلة الـthieyaba (الأسبوع الثامن من مولد النبي ﷺ) وتُدرَّس فيها السيرة والشمائل.",
+      "url": "https://www.seneweb.com/en/news/Religion/ndiassane-the-spiritual-capital-of-the-qadiriyya-of-senegal_n_467093.html",
+      "subjects": [
+        "sufism_seerah",
+        "shamail",
+        "seerah_pedagogy"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "بوه كنته",
+        "سيدي لامين كنته"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "regional",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "religious_authority",
+      "round": "08e"
+    },
+    {
+      "id": "MAG-053",
+      "name_ar": "الزاوية السنوسية الكبرى بالجغبوب",
+      "name_en": "Sanusi Zawiya and Islamic University of Jaghbub",
+      "type": "university_center",
+      "type_group": "research_education",
+      "region": "maghreb",
+      "country": "LY",
+      "founded": 1856,
+      "description_ar": "المقر التاريخي للحركة السنوسية في واحة الجغبوب شرق ليبيا، أسّسها محمد بن علي السنوسي 1856 ضمن جامعة سنوسية ومكتبة، وكانت ثاني أكبر جامعة في إفريقيا بعد الأزهر. أُعيدت ملكيتها للأسرة السنوسية في 2024.",
+      "url": "https://en.wikipedia.org/wiki/Sanusiyya",
+      "subjects": [
+        "sufism_seerah",
+        "seerah_general",
+        "manuscripts",
+        "hadith_sciences"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "auxiliary_sciences",
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "محمد بن علي السنوسي"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "regional",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08e"
+    },
+    {
+      "id": "NAM-124",
+      "name_ar": "الطريقة البرهانية الدسوقية الشاذلية - مجمع الخرطوم",
+      "name_en": "Tariqa Burhaniya Disuqiya Shadhuliya Main Complex, Khartoum",
+      "type": "islamic_center",
+      "type_group": "museums_culture",
+      "region": "non_arab_muslim",
+      "country": "SD",
+      "founded": 1980,
+      "description_ar": "المقر الأكبر للطريقة البرهانية في السوق الشعبي بالخرطوم، أسّسه الشيخ محمد عثمان عبده البرهاني نهاية السبعينيات. يُقيم احتفالات الحَوْلية السنوية ومجالس الذكر والمدائح النبوية ودروس السيرة لأتباع منتشرين في أكثر من 50 دولة.",
+      "url": "https://burhaniya.info/en/welcome-tariqa-burhaniya/",
+      "subjects": [
+        "sufism_seerah",
+        "shamail",
+        "dalail_nubuwwa"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "محمد عثمان عبده البرهاني",
+        "محمد إبراهيم البرهاني"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "suspended",
+      "scale": "regional",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08e"
+    },
+    {
+      "id": "NAM-125",
+      "name_ar": "الطريقة السمانية الطيبية - أم مريخ والخرطوم",
+      "name_en": "Tariqa Sammaniyya Tayyibiyya, Um Marih / Omdurman",
+      "type": "mosque_program",
+      "type_group": "museums_culture",
+      "region": "non_arab_muslim",
+      "country": "SD",
+      "founded": 1800,
+      "description_ar": "أقدم زوايا السمانية في السودان، أسّسها الشيخ أحمد الطيب ود البشير (ت 1824) في أم مريخ شمال أمدرمان بعد بيعته للسماني. مركز تدريس السيرة والشمائل والمدائح النبوية، ومرّ منها محمد أحمد المهدي.",
+      "url": "https://islaminafrica.wordpress.com/2011/09/30/tariqa-tayebiyya-sammaniyya-omaidan/",
+      "subjects": [
+        "sufism_seerah",
+        "shamail",
+        "seerah_pedagogy",
+        "dalail_nubuwwa"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "أحمد الطيب ود البشير",
+        "قريب الله أبو صالح"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "suspended",
+      "scale": "regional",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "religious_authority",
+      "round": "08e"
+    },
+    {
+      "id": "NAM-126",
+      "name_ar": "قُبّة المهدي - أم درمان",
+      "name_en": "The Mahdi's Tomb (Qubbat al-Mahdi), Omdurman",
+      "type": "mosque_program",
+      "type_group": "museums_culture",
+      "region": "non_arab_muslim",
+      "country": "SD",
+      "founded": 1886,
+      "description_ar": "ضريح ومركز حركة الأنصار السمانية في أمدرمان، بُني بعد وفاة محمد أحمد المهدي 1885. أُعيد بناؤه بعد قصف 1898، وعاد كمركز روحي ومحجّ سنوي للأنصار يُقام فيه ذكر السيرة والمدائح النبوية تحت قيادة الخلافة العامة لآل المهدي.",
+      "url": "https://en.wikipedia.org/wiki/The_Mahdi%27s_tomb",
+      "subjects": [
+        "sufism_seerah",
+        "shamail",
+        "early_islam"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "classical_corpus",
+        "prophetic_demography"
+      ],
+      "key_figures": [
+        "محمد أحمد المهدي",
+        "عبد الرحمن المهدي"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "suspended",
+      "scale": "regional",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "religious_authority",
+      "round": "08e"
+    },
+    {
+      "id": "NAM-127",
+      "name_ar": "مدرسة شيخ شريف إبراهيم صالح الإسلامية - ميدوغوري",
+      "name_en": "Sheikh Shariff Ibrahim Saleh Islamic Center (SHISIC)",
+      "type": "islamic_center",
+      "type_group": "museums_culture",
+      "region": "non_arab_muslim",
+      "country": "NG",
+      "founded": 1957,
+      "description_ar": "مركز تعليمي ومسجد جامع في ميدوغوري بولاية بورنو شمال شرق نيجيريا، أسّسه الشيخ الشريف إبراهيم صالح الحسيني المفتي العام لنيجيريا. يُدرَّس فيه التفسير والحديث والسيرة وفق المنهج التيجاني، وأنشأ كذلك كلية النهضة للعلوم والدراسات الإسلامية.",
+      "url": "https://sheikhibrahimsaleh.com/en/biography/about",
+      "subjects": [
+        "sufism_seerah",
+        "hadith_sciences",
+        "seerah_pedagogy"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "auxiliary_sciences"
+      ],
+      "key_figures": [
+        "إبراهيم صالح الحسيني"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "regional",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08e"
+    },
+    {
+      "id": "NAM-128",
+      "name_ar": "منظمة سفاما-دسي لصون مخطوطات تمبكتو",
+      "name_en": "SAVAMA-DCI (ONG for Safeguarding the Manuscripts of Timbuktu)",
+      "type": "library_archive",
+      "type_group": "publishing_knowledge",
+      "region": "non_arab_muslim",
+      "country": "ML",
+      "founded": 1996,
+      "description_ar": "منظمة غير حكومية ماليّة في تمبكتو، أنقذت أكثر من 350 ألف مخطوط أثناء أزمة 2012-2013 ورقمنت منها أكثر من 150 ألفاً بالشراكة مع HMML. يضمّ أرشيفها نسبة 7-13% من مخطوطات السيرة والتصوف للأطر القادرية والكنتية.",
+      "url": "https://hmml.org/about/global-operations/mali/",
+      "subjects": [
+        "manuscripts",
+        "sufism_seerah",
+        "historiography",
+        "biography_methodology"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "auxiliary_sciences",
+        "methodology_critique"
+      ],
+      "key_figures": [
+        "عبد القادر حيدرة"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "regional",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08e"
+    },
+    {
+      "id": "NAM-129",
+      "name_ar": "زاوية القادرية في باغامويو - مسجد ومولد",
+      "name_en": "Bagamoyo Qadiriyya Mosque and Maulid",
+      "type": "mosque_program",
+      "type_group": "museums_culture",
+      "region": "non_arab_muslim",
+      "country": "TZ",
+      "founded": 1885,
+      "description_ar": "مركز الطريقة القادرية الأويسية في باغامويو على ساحل تنزانيا، نشره الشيخ محمد معروف بن الشيخ أحمد وأكمله الشيخ يحيى بن عبد الله رمية (ت 1931). أسّس مهرجان المولد النبوي في باغامويو الذي صار أكبر احتفال إسلامي على البر التنزاني في الحقبة الاستعمارية وما زال قائماً.",
+      "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/yahya-bin-abdallah-ramiya-1856-1931",
+      "subjects": [
+        "sufism_seerah",
+        "shamail",
+        "seerah_pedagogy"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "يحيى بن عبد الله رمية",
+        "محمد معروف"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "regional",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "religious_authority",
+      "round": "08e"
+    },
+    {
+      "id": "NAM-130",
+      "name_ar": "أكاديمية AAII Legacy - مدينة باي",
+      "name_en": "AAII Legacy Academy, Medina Baye",
+      "type": "islamic_center",
+      "type_group": "museums_culture",
+      "region": "non_arab_muslim",
+      "country": "SN",
+      "founded": 2010,
+      "description_ar": "أكاديمية تابعة للمعهد الإسلامي الأمريكي-الإفريقي في مدينة باي كاولاخ، تُدرّس برنامج تحفيظ القرآن والشمائل والسيرة والعربية للطلاب الدوليين خاصةً الأمريكيين-الأفارقة، استمراراً لمشروع الشيخ حسن سيسي.",
+      "url": "https://www.aaiilegacyacademy.com/",
+      "subjects": [
+        "sufism_seerah",
+        "shamail",
+        "seerah_pedagogy",
+        "youth_outreach"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "حسن سيسي",
+        "تيجان علي سيسي"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "regional",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08e"
+    },
+    {
+      "id": "NAM-131",
+      "name_ar": "جامعة الأمة",
+      "name_en": "Umma University",
+      "type": "university_center",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "KE",
+      "founded": 1977,
+      "description_ar": "أول جامعة إسلامية معتمدة في كينيا، نشأت أصلاً ككلية ثيكا للشريعة والدراسات الإسلامية عام 1977، وتحوّلت إلى جامعة عام 2013. تقدّم كلية الشريعة والدراسات الإسلامية برامج بكالوريوس وماجستير ودكتوراه تشمل علوم الحديث ونقد الحديث ومناهج المحدّثين وتدريس السيرة النبوية ضمن مقررات أصول الدين والدراسات الإسلامية، وهي الوحيدة المعتمدة من هيئة التعليم الجامعي الكينية في الشريعة.",
+      "url": "https://www.umma.ac.ke/school-of-sharia-islamic-studies/",
+      "subjects": [
+        "seerah_general",
+        "hadith_sciences",
+        "sources_critique",
+        "biography_methodology"
+      ],
+      "subjects_category": [
+        "auxiliary_sciences",
+        "classical_corpus",
+        "methodology_critique"
+      ],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "regional",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08f"
+    },
+    {
+      "id": "NAM-132",
+      "name_ar": "المجلس الأعلى لمسلمي كينيا (سوبكم)",
+      "name_en": "Supreme Council of Kenya Muslims (SUPKEM)",
+      "type": "foundation_waqf",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "KE",
+      "founded": 1973,
+      "description_ar": "الهيئة المظلّة لمنظمات المسلمين في كينيا، تأسست عام 1973 في نيروبي. تعتمد المدارس والمراكز الإسلامية وتنسّق برامج التربية الدينية والتدريب الدعوي وتدرّس السيرة النبوية كجزء من المنهج الدعوي والتربوي عبر مدارسها المنتسبة، كما ترعى المؤتمرات حول التراث النبوي والقيم الإسلامية في المجتمع الكيني.",
+      "url": "https://supkem.org/",
+      "subjects": [
+        "seerah_general",
+        "seerah_pedagogy",
+        "youth_outreach"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "classical_corpus"
+      ],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "regional",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08f"
+    },
+    {
+      "id": "NAM-133",
+      "name_ar": "قسم الفلسفة والدراسات الدينية - جامعة كينياتا",
+      "name_en": "Department of Philosophy and Religious Studies, Kenyatta University",
+      "type": "university_department",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "KE",
+      "founded": 2004,
+      "description_ar": "قسم في كلية العلوم الإنسانية بجامعة كينياتا، يقدّم بكالوريوس الدراسات الإسلامية وبكالوريوس وماجستير ودكتوراه الدراسات الدينية، ويغطّي السيرة النبوية والتقاليد الإسلامية ضمن مقررات الإسلام المقارن، ويضم 24 عضو هيئة تدريس متخصصين في الدراسات الإسلامية والمسيحية والأديان الإفريقية.",
+      "url": "https://socialscience.ku.ac.ke/departments/philosophy-and-religious-studies",
+      "subjects": [
+        "seerah_general",
+        "early_islam",
+        "historiography"
+      ],
+      "subjects_category": [
+        "auxiliary_sciences",
+        "classical_corpus",
+        "prophetic_demography"
+      ],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "regional",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08f"
+    },
+    {
+      "id": "NAM-134",
+      "name_ar": "كلية معلمي العلوم الإسلامية - مومباسا",
+      "name_en": "Islamic Teachers Training College (ITTC), Mombasa",
+      "type": "university_center",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "KE",
+      "founded": null,
+      "description_ar": "كلية معتمدة من وزارة التعليم الكينية لإعداد معلمي التربية الإسلامية على مستوى الدبلوم، تقع في ميكينداني بمومباسا. تدرّس مناهج التربية الإسلامية المتكاملة وفق منهج هيئة تطوير المناهج الكينية، وتدرج السيرة النبوية والشمائل ضمن مقررات إعداد معلم التعليم الابتدائي ورياض الأطفال للمدارس الإسلامية في الساحل الكيني.",
+      "url": "https://ittcmsa.com/newweb/",
+      "subjects": [
+        "seerah_pedagogy",
+        "seerah_general",
+        "shamail"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "classical_corpus"
+      ],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "regional",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08f"
+    },
+    {
+      "id": "NAM-135",
+      "name_ar": "كلية أوليا الإسلامية",
+      "name_en": "Awolia College (Awoliya Muslim Mission Schools)",
+      "type": "islamic_center",
+      "type_group": "museums_culture",
+      "region": "non_arab_muslim",
+      "country": "ET",
+      "founded": 1944,
+      "description_ar": "أقدم مؤسسة إسلامية تعليمية في إثيوبيا، تأسست عام 1944 بجوار مسجد أنور الكبير في أديس أبابا. تقدّم تعليماً نظامياً أكاديمياً ودينياً متكاملاً، وتشمل مناهجها السيرة النبوية والحديث الشريف والشمائل المحمدية، وتدير دار تحفيظ القرآن وتشرف عليها منظمة أوليا للإغاثة والتنمية تحت مظلة المجلس الأعلى للشؤون الإسلامية الإثيوبية.",
+      "url": "https://ethiopianmajlis.org.et/awolia-project/",
+      "subjects": [
+        "seerah_general",
+        "shamail",
+        "hadith_sciences",
+        "seerah_pedagogy"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "auxiliary_sciences",
+        "classical_corpus"
+      ],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "regional",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08f"
+    },
+    {
+      "id": "NAM-136",
+      "name_ar": "المجلس الأعلى للشؤون الإسلامية الإثيوبية (المجلس)",
+      "name_en": "Ethiopian Islamic Affairs Supreme Council (EIASC / Majlis)",
+      "type": "ministry_program",
+      "type_group": "institutional_infra",
+      "region": "non_arab_muslim",
+      "country": "ET",
+      "founded": 1975,
+      "description_ar": "الهيئة المرجعية الإسلامية الرسمية في إثيوبيا، تأسست في 6 أبريل 1975. تعتمد المدارس والمعاهد والكليات الإسلامية وتشرف على مناهجها التي تتضمن السيرة النبوية والحديث، وتدير برامج التدريب الدعوي وتأهيل الأئمة، ويرأسها حالياً الشيخ إبراهيم توفا منذ 2022.",
+      "url": "https://ethiopianmajlis.org.et/",
+      "subjects": [
+        "seerah_general",
+        "seerah_pedagogy",
+        "youth_outreach"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "إبراهيم توفا"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "regional",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08f"
+    },
+    {
+      "id": "NAM-137",
+      "name_ar": "مسجد النجاشي ومركزه التراثي",
+      "name_en": "Al-Nejashi Mosque Heritage Centre",
+      "type": "mosque_program",
+      "type_group": "museums_culture",
+      "region": "non_arab_muslim",
+      "country": "ET",
+      "founded": 615,
+      "description_ar": "أول مسجد في إفريقيا، يقع في قرية نجاش بإقليم تيغراي ويُنسب إلى الملك أصحمة النجاشي الذي آوى مهاجري الحبشة. يضم 15 قبراً منسوباً لأوائل مهاجري الإسلام، ويُعدّ مركزاً للزيارة والتدريس التراثي للسيرة النبوية وقصة الهجرة الأولى، ورُمّم بدعم تركي عبر TIKA واكتمل عام 2025.",
+      "url": "https://en.wikipedia.org/wiki/Al_Nejashi_Mosque",
+      "subjects": [
+        "early_islam",
+        "seerah_general",
+        "seerah_geography",
+        "tabaqat_companions"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "geography_space",
+        "prophetic_demography"
+      ],
+      "key_figures": [
+        "أصحمة النجاشي"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "regional",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "religious_authority",
+      "round": "08f"
+    },
+    {
+      "id": "NAM-138",
+      "name_ar": "جامعة مقديشو - كلية الشريعة والقانون",
+      "name_en": "Mogadishu University - Faculty of Sharia and Law (FOSHAL)",
+      "type": "university_center",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "SO",
+      "founded": 1997,
+      "description_ar": "كلية الشريعة والقانون في جامعة مقديشو، تأسست في 22 سبتمبر 1997. تقدّم بكالوريوس على مدى أربع سنوات في الفقه والحديث والقرآن والسنة والدراسات الإسلامية، وتركّز على إعداد العلماء المتخصصين في تخريج الأحاديث وعلوم السنة وقضايا الفقه المعاصر، وتدرّس السيرة النبوية ضمن أصول الدراسات الإسلامية.",
+      "url": "https://mu.edu.so/foshal/",
+      "subjects": [
+        "seerah_general",
+        "hadith_sciences",
+        "sources_critique",
+        "biography_methodology"
+      ],
+      "subjects_category": [
+        "auxiliary_sciences",
+        "classical_corpus",
+        "methodology_critique"
+      ],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08f"
+    },
+    {
+      "id": "NAM-139",
+      "name_ar": "الجامعة الإسلامية - الصومال",
+      "name_en": "Islamic University - Somalia (IUM)",
+      "type": "university_center",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "SO",
+      "founded": 2001,
+      "description_ar": "جامعة إسلامية متخصصة تأسست في مقديشو في 22 سبتمبر 2001. تضم كلية الدراسات الإسلامية وفيها قسم السنة النبوية وعلومها الذي يقدّم برامج بكالوريوس وماجستير في الحديث ومصطلحه ومناهج المحدّثين والحديث التحليلي والموضوعي، ويعدّ متخصصين في تمييز الصحيح من الضعيف وإعداد البحث العلمي في علوم السنة.",
+      "url": "https://site.ium.edu.so/en/faculty/islamic-studies/department-of-the-sunnah-and-its-sciences",
+      "subjects": [
+        "hadith_sciences",
+        "sources_critique",
+        "seerah_general",
+        "biography_methodology"
+      ],
+      "subjects_category": [
+        "auxiliary_sciences",
+        "classical_corpus",
+        "methodology_critique"
+      ],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08f"
+    },
+    {
+      "id": "NAM-140",
+      "name_ar": "جامعة الإمام الشافعي",
+      "name_en": "Imam Shafi'i University (ISHU)",
+      "type": "university_center",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "SO",
+      "founded": 2013,
+      "description_ar": "جامعة في مقديشو أسستها مؤسسة المعلم نور عام 2013 (والمؤسسة قائمة منذ 1942). تضم كلية القرآن الكريم بمعهد القراءات وقسم التفسير وقسم الدراسات الإسلامية، وتدرّس السيرة النبوية والحديث الشريف، ولديها برامج لتأهيل الأئمة والدعاة ومركز للدعوة وتنمية المجتمع.",
+      "url": "https://ishu.edu.so/",
+      "subjects": [
+        "seerah_general",
+        "hadith_sciences",
+        "seerah_pedagogy",
+        "youth_outreach"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "auxiliary_sciences",
+        "classical_corpus"
+      ],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08f"
+    },
+    {
+      "id": "NAM-141",
+      "name_ar": "جامعة الصومال - كلية الشريعة والدراسات الإسلامية",
+      "name_en": "University of Somalia (UNISO) - Faculty of Sharia and Islamic Studies",
+      "type": "university_center",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "SO",
+      "founded": 2005,
+      "description_ar": "جامعة خاصة في مقديشو تأسست عام 2005 على يد مجموعة من العلماء المستقلين. تضم كلية الشريعة والدراسات الإسلامية وتقدّم برامج في الدراسات الإسلامية واللغة العربية والدعوة والإعلام والفقه وأصوله، وتدرّس السيرة النبوية وعلوم الحديث ضمن مناهجها الأساسية.",
+      "url": "https://www.uniso.edu.so/",
+      "subjects": [
+        "seerah_general",
+        "hadith_sciences",
+        "seerah_pedagogy"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "auxiliary_sciences",
+        "classical_corpus"
+      ],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08f"
+    },
+    {
+      "id": "NAM-142",
+      "name_ar": "جامعة كيسمايو - معهد الإمام الشافعي",
+      "name_en": "Kismayo University - Imam Shafi'i Institute",
+      "type": "university_center",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "SO",
+      "founded": 2005,
+      "description_ar": "جامعة في مدينة كيسمايو جنوب الصومال تأسست في أغسطس 2005 وتضم معهد الإمام الشافعي الذي يقدّم بكالوريوس الدراسات الإسلامية واللغة العربية. يدرّس المعهد السيرة النبوية وعلوم الحديث ضمن مناهجه، وهو معتمد من وزارة التعليم العالي والثقافة الصومالية.",
+      "url": "https://ku.edu.so/category/imam-shafii-institute/",
+      "subjects": [
+        "seerah_general",
+        "hadith_sciences",
+        "tarjamah"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "auxiliary_sciences",
+        "classical_corpus"
+      ],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08f"
+    },
+    {
+      "id": "NAM-143",
+      "name_ar": "مجلس علماء الصومال",
+      "name_en": "Somali Religious Scholars Council (Ulema Council)",
+      "type": "foundation_waqf",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "SO",
+      "founded": 2009,
+      "description_ar": "مجلس العلماء الذي تأسس في مقديشو عام 2009، يضم كبار علماء الصومال ويقدّم مرجعية أخلاقية ودينية. ينظّم المؤتمرات الوطنية للعلماء حول الأمن ومكافحة التطرف، ويصدر التوجيهات الفقهية، ويشرف على نشر السيرة النبوية والمنهج النبوي في تربية المجتمع الصومالي.",
+      "url": "https://hornobserver.com/articles/3551/Somali-Scholars-Unite-to-Address-Security-Extremism-at-National-Ulema-Conference",
+      "subjects": [
+        "seerah_general",
+        "youth_outreach",
+        "seerah_pedagogy"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "يوسف علي عينتي"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08f"
+    },
+    {
+      "id": "NAM-144",
+      "name_ar": "مدرسة الضياء الإسلامية في أسمرة",
+      "name_en": "Al-Diaa Islamic School of Asmara",
+      "type": "islamic_center",
+      "type_group": "museums_culture",
+      "region": "non_arab_muslim",
+      "country": "ER",
+      "founded": 1968,
+      "description_ar": "مدرسة إسلامية خاصة تأسست عام 1968 في أسمرة، خدمت قرابة 3000 طالب من رياض الأطفال إلى الثانوية. تدرّس السيرة النبوية والحديث والعربية والعلوم الإسلامية إلى جانب المنهج النظامي. أُغلقت عام 2017 بسبب نزاع مع الحكومة حول المنهج الديني ثم أُعيد فتح القسم الثانوي. تعدّ من أبرز المؤسسات التعليمية الإسلامية المتبقية في إريتريا.",
+      "url": "https://en.wikipedia.org/wiki/Religion_in_Eritrea",
+      "subjects": [
+        "seerah_general",
+        "seerah_pedagogy",
+        "hadith_sciences"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "auxiliary_sciences",
+        "classical_corpus"
+      ],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "dormant",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08f"
     }
   ],
-  "migration_note": "2026-05-11: hierarchical taxonomy + 8-أ + 8-ب + 8-ج + 8-د = 502 entities"
+  "migration_note": "2026-05-11: + 8-هـ (Sufi African) + 8-و (Horn of Africa) = 536 entities"
 }
