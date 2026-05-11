@@ -4927,48 +4927,71 @@
     progress.hidden = false;
     progress.textContent = "⏳ جاري تحميل المكتبة…";
 
+    let container = null;
     try {
       const html2pdf = await loadPdfLib();
-      progress.textContent = "⏳ جاري بناء المستند (قد يستغرق دقيقة لمحتوى كبير)…";
+      progress.textContent = "⏳ جاري بناء المستند (قد يستغرق وقتاً لمحتوى كبير)…";
 
-      // ابنِ DOM مؤقت (خارج الشاشة) ثم مرّره لـ html2pdf
-      const container = buildPdfHtmlContainer();
+      // ابنِ DOM مؤقت داخل المستند — html2canvas يحتاج عنصراً مرئياً للتصوير،
+      // لذا نضعه `absolute` بـ z-index سالب وعفّتيٍّ صفر بدل `fixed; left:-10000px`
+      // (الأخير يفشل أحياناً في html2canvas).
+      container = buildPdfHtmlContainer();
+      container.style.cssText += `
+        position: absolute; top: 0; left: 0; z-index: -9999;
+        opacity: 0.01; pointer-events: none;
+      `;
       document.body.appendChild(container);
 
-      // تأكد أن الخطوط محمّلة قبل التصوير
+      // انتظر إطار رسم واحداً + الخطوط
+      await new Promise((r) => requestAnimationFrame(() => requestAnimationFrame(r)));
       if (document.fonts && document.fonts.ready) {
         try { await document.fonts.ready; } catch (_) {}
       }
 
       const fname = `موسوعة-السيرة-النبوية-${new Date().toISOString().slice(0,10)}.pdf`;
       const opts = {
-        margin: [12, 12, 14, 12], // mm: top, right, bottom, left
+        margin: [12, 12, 14, 12],
         filename: fname,
         image: { type: "jpeg", quality: 0.92 },
-        html2canvas: { scale: 2, useCORS: true, letterRendering: true, backgroundColor: "#ffffff" },
+        html2canvas: {
+          scale: 2,
+          useCORS: true,
+          letterRendering: true,
+          backgroundColor: "#ffffff",
+          logging: false,
+          windowWidth: container.scrollWidth,
+        },
         jsPDF: { unit: "mm", format: "a4", orientation: "portrait", compress: true },
         pagebreak: { mode: ["css", "legacy"], before: ".pdf-page-break" },
       };
 
-      await html2pdf().set(opts).from(container).save();
-      container.remove();
+      progress.textContent = "⏳ جاري الرسم وتحويله إلى PDF…";
 
-      progress.textContent = "✓ جاهز — تم التنزيل.";
+      // بدل .save() (يفشل صامتاً أحياناً) — أحصل على blob ثم نزّله يدوياً
+      const blob = await html2pdf().set(opts).from(container).outputPdf("blob");
+      console.log("[pdf export] blob ready, size:", blob && blob.size, "bytes");
+
+      if (!blob || blob.size < 100) {
+        throw new Error("الـ blob فارغ — قد تكون مشكلة في html2canvas");
+      }
+
+      progress.textContent = "✓ جاهز — يبدأ التنزيل…";
+      downloadBlob(blob, fname);
       setTimeout(() => { progress.hidden = true; }, 3000);
     } catch (err) {
-      console.error(err);
-      progress.textContent = "✗ فشل التصدير: " + err.message;
+      console.error("[pdf export] failed:", err);
+      progress.textContent = "✗ فشل التصدير: " + (err.message || err);
     } finally {
       btn.disabled = false; btnDocx.disabled = false;
+      if (container && container.parentNode) container.remove();
     }
   }
 
-  // يبني عنصر HTML مؤقّت (خارج التدفّق المرئي) يتضمّن نفس المحتوى المُصدَّر إلى DOCX
+  // يبني عنصر HTML مؤقّت يتضمّن نفس محتوى DOCX. الـ caller يحدّد الموضع.
   function buildPdfHtmlContainer() {
     const c = document.createElement("div");
     c.className = "pdf-export-root";
     c.style.cssText = `
-      position: fixed; inset-inline-start: -10000px; inset-block-start: 0;
       width: 186mm;
       direction: rtl; font-family: "Tajawal","IBM Plex Sans Arabic", sans-serif;
       color: #2a2a2a; background: #fff; padding: 0; font-size: 11pt; line-height: 1.7;
