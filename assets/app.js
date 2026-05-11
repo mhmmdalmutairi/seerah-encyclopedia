@@ -261,16 +261,63 @@
     "funding_type", "status", "scale",                     // الخصائص
   ];
 
-  // تجميع الفلاتر في أقسام لعرضها كمجموعات منفصلة في الشريط الجانبي
+  // تجميع الفلاتر في أقسام لعرضها كمجموعات منفصلة في الشريط الجانبي.
+  // النوعان: `hierarchy` (شجرة أب→أبناء) أو `facets` (قائمة مسطّحة).
   const FACET_SECTIONS = [
-    { title: "التصنيف", facets: ["type_group", "type"] },
-    { title: "الموضوع", facets: ["subjects_category", "subjects"] },
-    { title: "الجغرافيا", facets: ["region", "country"] },
+    { title: "التصنيف", hierarchy: { parent: "type_group", child: "type" } },
+    { title: "الموضوع", hierarchy: { parent: "subjects_category", child: "subjects" } },
+    { title: "الجغرافيا", hierarchy: { parent: "region", child: "country" } },
     { title: "الجودة", facets: ["inclusion_tier", "verification"] },
     { title: "الزمن", facets: ["founded_decade", "round"] },
     { title: "المحتوى", facets: ["languages", "output_types"] },
     { title: "خصائص أخرى", facets: ["funding_type", "status", "scale"] },
   ];
+
+  // خرائط أب→أبناء — تُحسب من البيانات ساعة التحميل (تعكس الواقع الفعلي،
+  // وليس قائمة مفترضة من الـ schema)
+  function computeHierarchyMaps() {
+    const tg2type = new Map(), sc2sub = new Map(), reg2country = new Map();
+    state.entities.forEach((e) => {
+      if (e.type_group && e.type) {
+        if (!tg2type.has(e.type_group)) tg2type.set(e.type_group, new Set());
+        tg2type.get(e.type_group).add(e.type);
+      }
+      (e.subjects || []).forEach((s) => {
+        const cat = SUBJECT_CAT_LOOKUP[s];
+        if (cat) {
+          if (!sc2sub.has(cat)) sc2sub.set(cat, new Set());
+          sc2sub.get(cat).add(s);
+        }
+      });
+      if (e.region && e.country) {
+        if (!reg2country.has(e.region)) reg2country.set(e.region, new Set());
+        reg2country.get(e.region).add(e.country);
+      }
+    });
+    return { type_group: tg2type, subjects_category: sc2sub, region: reg2country };
+  }
+
+  // قاموس عكسي subject → subjects_category (لاختصار الحساب)
+  const SUBJECT_CAT_LOOKUP = {
+    seerah_general: "classical_corpus", maghazi: "classical_corpus",
+    shamail: "classical_corpus", dalail_nubuwwa: "classical_corpus",
+    khasais_nabawiyyah: "classical_corpus",
+    seerah_geography: "geography_space", makkah_studies: "geography_space",
+    madinah_studies: "geography_space",
+    early_islam: "prophetic_demography", rashidun: "prophetic_demography",
+    tabaqat_companions: "prophetic_demography", women_in_seerah: "prophetic_demography",
+    wufud_diplomacy: "prophetic_demography", ahlulbayt: "prophetic_demography",
+    ahl_al_sunna: "prophetic_demography", family_household: "prophetic_demography",
+    manuscripts: "auxiliary_sciences", hadith_sciences: "auxiliary_sciences",
+    sources_critique: "auxiliary_sciences", historiography: "auxiliary_sciences",
+    biography_methodology: "methodology_critique",
+    orientalism_critique: "methodology_critique",
+    comparative_religion: "methodology_critique",
+    sufism_seerah: "application_outreach", seerah_pedagogy: "application_outreach",
+    youth_outreach: "application_outreach", digital_seerah: "application_outreach",
+    tarjamah: "application_outreach",
+    medicine_prophetic: "applied_jurisprudence", seerah_in_quran: "applied_jurisprudence",
+  };
 
   const FACET_TITLES = {
     region: "الإقليم",
@@ -687,12 +734,160 @@
       return group;
     };
 
-    // ابنِ الفلاتر داخل أقسام (sections) لتجميع منطقي
+    // مساعد للترتيب الدلائلي/الزمني/العددي لقيم facet
+    const sortFacetEntries = (counts, facet) => {
+      const semantic = FACET_SEMANTIC_ORDER[facet];
+      if (facet === "founded_decade") {
+        return Array.from(counts.entries())
+          .sort((a, b) => parseInt(String(b[0])) - parseInt(String(a[0])));
+      }
+      if (semantic) {
+        const rank = new Map();
+        semantic.forEach((v, i) => rank.set(String(v), i));
+        return Array.from(counts.entries()).sort((a, b) => {
+          const ra = rank.has(String(a[0])) ? rank.get(String(a[0])) : 999;
+          const rb = rank.has(String(b[0])) ? rank.get(String(b[0])) : 999;
+          return ra - rb || b[1] - a[1];
+        });
+      }
+      return Array.from(counts.entries()).sort((a, b) => b[1] - a[1]);
+    };
+
+    // مساعد لبناء صف option واحد (مع checkbox/swatch/label/count)
+    const buildOptionRow = (facet, value, count, extraClass = "") => {
+      const optLabel = document.createElement("label");
+      optLabel.className = "filter-option " + extraClass;
+
+      const checkbox = document.createElement("input");
+      checkbox.type = "checkbox";
+      checkbox.value = value;
+      checkbox.dataset.facet = facet;
+      checkbox.checked = state.filters[facet].has(value);
+      checkbox.addEventListener("change", () => {
+        if (checkbox.checked) state.filters[facet].add(value);
+        else state.filters[facet].delete(value);
+        syncHash();
+        render();
+      });
+
+      const color = getColorForValue(facet, value);
+      if (color) {
+        const swatch = document.createElement("span");
+        swatch.className = "filter-option__color";
+        swatch.style.backgroundColor = color;
+        optLabel.appendChild(checkbox);
+        optLabel.appendChild(swatch);
+      } else {
+        optLabel.appendChild(checkbox);
+      }
+
+      const text = document.createElement("span");
+      text.textContent = label(facet, value);
+      text.className = "filter-option__text";
+      optLabel.appendChild(text);
+
+      const countEl = document.createElement("span");
+      countEl.className = "filter-option__count";
+      countEl.textContent = count;
+      optLabel.appendChild(countEl);
+      return optLabel;
+    };
+
+    // === بناء فلتر هرمي: أب → أبناء داخل عُقد قابلة للطيّ ===
+    const buildHierarchical = (parentFacet, childFacet, hierarchyMap) => {
+      const parentCounts = getFacetCounts(parentFacet);
+      const childCounts = getFacetCounts(childFacet);
+      if (parentCounts.size === 0) return null;
+
+      const group = document.createElement("div");
+      group.className = "filter-group filter-group--hierarchy";
+      group.dataset.facet = parentFacet;
+
+      const titleBtn = document.createElement("button");
+      titleBtn.className = "filter-group__title";
+      titleBtn.type = "button";
+      titleBtn.setAttribute("aria-expanded", "true");
+      titleBtn.innerHTML = `
+        <span>${escapeHtml(FACET_TITLES[parentFacet] || parentFacet)}</span>
+        <span class="filter-group__count">${parentCounts.size}</span>
+      `;
+      titleBtn.addEventListener("click", () => {
+        const isCollapsing = !group.classList.contains("is-collapsed");
+        group.classList.toggle("is-collapsed");
+        titleBtn.setAttribute("aria-expanded", isCollapsing ? "false" : "true");
+      });
+      group.appendChild(titleBtn);
+
+      const list = document.createElement("div");
+      list.className = "filter-group__options";
+
+      const parentEntries = sortFacetEntries(parentCounts, parentFacet);
+      parentEntries.forEach(([parentVal, parentCount]) => {
+        // عقدة الأب
+        const node = document.createElement("div");
+        node.className = "filter-node";
+
+        const parentRow = document.createElement("div");
+        parentRow.className = "filter-node__parent";
+
+        const toggle = document.createElement("button");
+        toggle.type = "button";
+        toggle.className = "filter-node__toggle";
+        toggle.setAttribute("aria-label", "تمدّد/طيّ");
+        toggle.textContent = "▾";
+        parentRow.appendChild(toggle);
+
+        parentRow.appendChild(buildOptionRow(parentFacet, parentVal, parentCount, "filter-option--parent"));
+        node.appendChild(parentRow);
+
+        // عقد الأبناء — فقط ما ينتمي للأب
+        const childrenSet = hierarchyMap.get(parentVal) || new Set();
+        if (childrenSet.size > 0) {
+          const childList = document.createElement("div");
+          childList.className = "filter-node__children";
+          const childEntries = Array.from(childrenSet)
+            .filter((c) => childCounts.has(c))
+            .map((c) => [c, childCounts.get(c)])
+            .sort((a, b) => b[1] - a[1]);
+          childEntries.forEach(([childVal, childCount]) => {
+            childList.appendChild(buildOptionRow(childFacet, childVal, childCount, "filter-option--child"));
+          });
+          node.appendChild(childList);
+
+          toggle.addEventListener("click", (e) => {
+            e.preventDefault();
+            node.classList.toggle("is-children-collapsed");
+            toggle.textContent = node.classList.contains("is-children-collapsed") ? "▸" : "▾";
+          });
+          // الأبناء مطوية بشكل افتراضي للأقسام الطويلة
+          if (childrenSet.size > 8 || parentEntries.length > 4) {
+            node.classList.add("is-children-collapsed");
+            toggle.textContent = "▸";
+          }
+        } else {
+          toggle.style.visibility = "hidden";
+        }
+
+        list.appendChild(node);
+      });
+
+      group.appendChild(list);
+      return group;
+    };
+
+    // === ابنِ الأقسام ===
+    const hierarchyMaps = computeHierarchyMaps();
+
     FACET_SECTIONS.forEach((section) => {
-      const sectionGroups = section.facets
-        .map((f) => buildOneFilterGroup(f))
-        .filter(Boolean);
-      if (sectionGroups.length === 0) return;
+      let groups = [];
+      if (section.hierarchy) {
+        const { parent, child } = section.hierarchy;
+        const g = buildHierarchical(parent, child, hierarchyMaps[parent]);
+        if (g) groups.push(g);
+      } else if (section.facets) {
+        groups = section.facets.map((f) => buildOneFilterGroup(f)).filter(Boolean);
+      }
+      if (groups.length === 0) return;
 
       const sectionEl = document.createElement("div");
       sectionEl.className = "filters__section";
@@ -700,7 +895,7 @@
       sectionTitle.className = "filters__section-title";
       sectionTitle.textContent = section.title;
       sectionEl.appendChild(sectionTitle);
-      sectionGroups.forEach((g) => sectionEl.appendChild(g));
+      groups.forEach((g) => sectionEl.appendChild(g));
       container.appendChild(sectionEl);
     });
 

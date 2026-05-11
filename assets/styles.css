@@ -789,6 +789,76 @@ p {
   text-transform: uppercase;
 }
 
+/* === فلتر هرمي (أب ↳ أبناء) === */
+.filter-group--hierarchy .filter-group__options {
+  max-height: none;       /* السماح بطول كامل للهرم */
+  overflow-y: visible;
+}
+.filter-node {
+  border-inline-start: 2px solid var(--color-border);
+  margin-block-end: var(--space-2xs);
+}
+.filter-node__parent {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2xs);
+  background-color: var(--color-bg-muted);
+  border-radius: var(--radius-sm);
+  padding-inline: var(--space-2xs);
+}
+.filter-node__toggle {
+  background: none;
+  border: none;
+  color: var(--color-primary);
+  font-size: var(--text-base);
+  font-weight: var(--weight-bold);
+  cursor: pointer;
+  inline-size: 22px;
+  block-size: 22px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  flex-shrink: 0;
+  transition: transform var(--transition-fast);
+}
+.filter-node__toggle:hover {
+  background-color: var(--color-primary-50);
+  border-radius: var(--radius-sm);
+}
+.filter-option--parent {
+  flex: 1;
+  font-weight: var(--weight-semibold);
+}
+.filter-node__children {
+  padding-inline-start: var(--space-lg);
+  padding-block-start: var(--space-2xs);
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  border-inline-start: 1px dashed var(--color-border);
+  margin-inline-start: var(--space-sm);
+}
+.filter-node.is-children-collapsed .filter-node__children {
+  display: none;
+}
+.filter-option--child {
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+  padding-inline-start: var(--space-xs);
+  position: relative;
+}
+.filter-option--child::before {
+  content: "↳";
+  position: absolute;
+  inset-inline-start: -2px;
+  color: var(--color-text-faint);
+  font-size: var(--text-xs);
+}
+.filter-option--child .filter-option__text {
+  color: var(--color-text);
+}
+
 /* شريط شارات المجموعات الرئيسة فوق شبكة البطاقات */
 .categories-nav {
   display: flex;
