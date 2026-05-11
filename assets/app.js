@@ -4932,21 +4932,26 @@
       const html2pdf = await loadPdfLib();
       progress.textContent = "⏳ جاري بناء المستند (قد يستغرق وقتاً لمحتوى كبير)…";
 
-      // ابنِ DOM مؤقت داخل المستند — html2canvas يحتاج عنصراً مرئياً للتصوير،
-      // لذا نضعه `absolute` بـ z-index سالب وعفّتيٍّ صفر بدل `fixed; left:-10000px`
-      // (الأخير يفشل أحياناً في html2canvas).
+      // ابنِ DOM مؤقت في تدفّق المستند خارج الإطار المرئي (سالب-اليسار).
+      // ⚠ لا نستخدم opacity ولا visibility: html2canvas يطبّقها على المخرج.
       container = buildPdfHtmlContainer();
+      container.setAttribute("dir", "rtl");
       container.style.cssText += `
-        position: absolute; top: 0; left: 0; z-index: -9999;
-        opacity: 0.01; pointer-events: none;
+        position: absolute; top: 0; left: -9999px;
+        width: 794px;  /* ~210mm @ 96dpi، مطابق لعرض A4 */
+        background: #ffffff;
       `;
       document.body.appendChild(container);
 
-      // انتظر إطار رسم واحداً + الخطوط
+      // انتظر إطارَيْ رسم لضمان حساب التخطيط، ثم الخطوط
       await new Promise((r) => requestAnimationFrame(() => requestAnimationFrame(r)));
       if (document.fonts && document.fonts.ready) {
         try { await document.fonts.ready; } catch (_) {}
       }
+
+      console.log("[pdf export] container size:",
+        container.scrollWidth, "x", container.scrollHeight,
+        " children:", container.children.length);
 
       const fname = `موسوعة-السيرة-النبوية-${new Date().toISOString().slice(0,10)}.pdf`;
       const opts = {
@@ -4959,7 +4964,9 @@
           letterRendering: true,
           backgroundColor: "#ffffff",
           logging: false,
-          windowWidth: container.scrollWidth,
+          width: 794,
+          windowWidth: 794,
+          scrollY: 0,
         },
         jsPDF: { unit: "mm", format: "a4", orientation: "portrait", compress: true },
         pagebreak: { mode: ["css", "legacy"], before: ".pdf-page-break" },
@@ -4971,8 +4978,8 @@
       const blob = await html2pdf().set(opts).from(container).outputPdf("blob");
       console.log("[pdf export] blob ready, size:", blob && blob.size, "bytes");
 
-      if (!blob || blob.size < 100) {
-        throw new Error("الـ blob فارغ — قد تكون مشكلة في html2canvas");
+      if (!blob || blob.size < 1000) {
+        throw new Error(`الـ blob صغير جداً (${blob ? blob.size : 0}b) — html2canvas لم يلتقط المحتوى`);
       }
 
       progress.textContent = "✓ جاهز — يبدأ التنزيل…";
