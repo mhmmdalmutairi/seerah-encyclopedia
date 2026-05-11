@@ -4041,6 +4041,7 @@
       { id: "stats", icon: "📈", name: "إحصاء" },
       { id: "methodology", icon: "📐", name: "منهجية" },
       { id: "references", icon: "📚", name: "مراجع" },
+      { id: "export", icon: "📥", name: "تصدير" },
     ];
     const nav = document.createElement("nav");
     nav.className = "mobile-nav";

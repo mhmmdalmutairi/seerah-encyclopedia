@@ -3988,7 +3988,7 @@ mark.search-hit {
     position: fixed;
     inset-block-end: 0;
     inset-inline: 0;
-    grid-template-columns: repeat(7, 1fr);
+    grid-template-columns: repeat(8, 1fr);
     background-color: var(--color-bg-elevated);
     border-block-start: 1px solid var(--color-border);
     box-shadow: 0 -2px 12px rgba(0, 0, 0, 0.08);
@@ -4075,6 +4075,17 @@ mark.search-hit {
     display: inline-flex;
     align-items: center;
     gap: var(--space-2xs);
+  }
+}
+
+/* شاشات ضيقة جداً (≤420px): قلّل الحشو والخطّ لاستيعاب 8 أزرار */
+@media (max-width: 420px) {
+  .mobile-nav button {
+    font-size: 9px;
+    padding-inline: 0;
+  }
+  .mobile-nav button .mobile-nav__icon {
+    font-size: 15px;
   }
 }
 
