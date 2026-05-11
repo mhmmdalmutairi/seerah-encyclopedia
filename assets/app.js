@@ -4928,116 +4928,105 @@
     progress.textContent = "⏳ جاري بناء المستند…";
 
     try {
-      const container = buildPdfHtmlContainer();
-      const innerHtml = container.innerHTML;
-      const dateStr = new Date().toLocaleDateString("ar-EG");
-      const fname = `موسوعة-السيرة-النبوية-${new Date().toISOString().slice(0,10)}`;
+      // نهج بلا نوافذ منبثقة (يفشل على الجوال): نحقن المحتوى داخل الصفحة الحالية،
+      // ثم نضع CSS طباعة يُظهره ويُخفي الباقي، ثم window.print()
+      cleanupPdfPrintArea(); // إزالة أي بقايا من تشغيل سابق
 
-      // افتح نافذة جديدة فيها HTML منسّق ثم استدعِ Print تلقائياً.
-      // ⚠ لا نضع "noopener" — يُرجع المتصفح null حسب المواصفة حتى لو نجح فتح النافذة،
-      //   فيُختلط الأمر مع حالة الحظر الفعلي.
-      const w = window.open("", "_blank");
-      if (!w || w.closed || typeof w.document === "undefined") {
-        throw new Error("منع المتصفح فتح النافذة. اسمح بالنوافذ المنبثقة لهذا الموقع ثم أعد المحاولة.");
-      }
+      const built = buildPdfHtmlContainer();
+      const area = document.createElement("div");
+      area.id = "pdf-print-area";
+      area.innerHTML = built.innerHTML;
+      document.body.appendChild(area);
 
-      const htmlDoc = `<!DOCTYPE html>
-<html lang="ar" dir="rtl">
-<head>
-<meta charset="UTF-8">
-<title>${fname}</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&family=IBM+Plex+Sans+Arabic:wght@400;500;700&display=swap" rel="stylesheet">
-<style>
-  @page { size: A4; margin: 14mm 12mm; }
-  * { box-sizing: border-box; }
-  html, body { margin: 0; padding: 0; }
-  body {
-    font-family: "Tajawal", "IBM Plex Sans Arabic", sans-serif;
-    font-size: 11pt; line-height: 1.7; color: #2a2a2a;
-    direction: rtl; text-align: right;
-    background: #fff;
-  }
-  h1 { font-size: 22pt; color: #0A4D68; margin: 16pt 0 10pt;
-       padding-bottom: 6pt; border-bottom: 2px solid #0A4D68; page-break-after: avoid; }
-  h2 { font-size: 16pt; color: #0A4D68; margin: 14pt 0 8pt; page-break-after: avoid; }
-  h3 { font-size: 13pt; color: #C39B5C; margin: 12pt 0 6pt; page-break-after: avoid; }
-  p { margin: 6pt 0; }
-  a { color: #0563C1; text-decoration: underline; word-break: break-all; }
-  ul { padding-inline-start: 0; padding-inline-end: 18pt; margin: 6pt 0; }
-  li { margin: 3pt 0; }
-  table { width: 100%; border-collapse: collapse; margin: 6pt 0; font-size: 10pt; }
-  th, td { border: 1px solid #d8d2c1; padding: 4pt 6pt; text-align: right; vertical-align: top; }
-  .pdf-entity { margin: 10pt 0 16pt; padding: 6pt 0; page-break-inside: avoid; }
-  .pdf-entity__en { font-style: italic; color: #777; font-size: 10pt; margin-bottom: 6pt; }
-  .pdf-entity__fields th { background: #F5F1E8; font-weight: 700; color: #0A4D68; width: 30%; }
-  .pdf-entity__desc { margin: 6pt 0; line-height: 1.75; }
-  .pdf-entity__url { font-size: 10pt; color: #0563C1; word-break: break-all; }
-  .pdf-entity__notes { color: #666; font-size: 10pt; }
-  .pdf-page-break { page-break-before: always; break-before: page; height: 0; }
-  .pdf-cover { text-align: center; padding-block: 40mm 20mm; }
-  .pdf-cover__title { font-size: 32pt; font-weight: 800; color: #0A4D68; margin-bottom: 12pt; }
-  .pdf-cover__subtitle { font-size: 14pt; color: #555; margin-bottom: 30pt; line-height: 1.6; }
-  .pdf-cover__count { font-size: 22pt; font-weight: 700; color: #C39B5C; margin: 18pt 0 8pt; }
-  .pdf-cover__date { font-size: 11pt; color: #888; }
-  .pdf-toc { list-style: none; padding: 0; }
-  .pdf-toc li { padding: 4pt 0; border-bottom: 1px dotted #ccc; }
-  .pdf-toc__count { color: #888; font-size: 10pt; }
-  .pdf-alpha { list-style: none; padding: 0; font-size: 10pt;
-               columns: 2; column-gap: 12pt; }
-  .pdf-alpha li { padding: 2pt 0; break-inside: avoid; }
-  .pdf-wide-table th { background: #0A4D68; color: #fff; padding: 5pt; }
-  .pdf-wide-table td { border: 1px solid #d8d2c1; padding: 4pt; }
-  .pdf-hint {
-    position: fixed; inset-block-start: 0; inset-inline: 0;
-    background: #0A4D68; color: #fff; padding: 8pt 12pt;
-    text-align: center; font-size: 10pt; z-index: 9999;
-  }
-  .pdf-hint button {
-    background: #C39B5C; color: #fff; border: none; padding: 4pt 10pt;
-    border-radius: 4px; cursor: pointer; font-family: inherit; font-size: 10pt;
-    margin-inline-start: 8pt;
-  }
-  @media print {
-    .pdf-hint { display: none !important; }
-  }
-</style>
-</head>
-<body>
-<div class="pdf-hint">
-  للحفظ كـ PDF: اضغط «طباعة» ثم اختر «Save as PDF» من قائمة الطابعات.
-  <button onclick="window.print()">🖨 طباعة الآن</button>
-  <button onclick="window.close()">✕ إغلاق</button>
-</div>
-${innerHtml}
-<script>
-  // انتظر تحميل الخطوط ثم استدعِ Print تلقائياً
-  (async function() {
-    if (document.fonts && document.fonts.ready) {
-      try { await document.fonts.ready; } catch(_){}
-    }
-    // إطار رسم إضافي للاطمئنان أن الـ DOM تخطّط بالكامل
-    requestAnimationFrame(() => {
-      setTimeout(() => { try { window.print(); } catch(_){} }, 350);
-    });
-  })();
-</script>
-</body>
-</html>`;
+      const printStyle = document.createElement("style");
+      printStyle.id = "pdf-print-style";
+      printStyle.textContent = `
+        /* الإخفاء الافتراضي على الشاشة (لا يظهر للمستخدم) */
+        #pdf-print-area { display: none; }
 
-      w.document.open();
-      w.document.write(htmlDoc);
-      w.document.close();
+        @media print {
+          @page { size: A4; margin: 14mm 12mm; }
 
-      progress.textContent = "✓ فُتحت نافذة الطباعة — اختر «Save as PDF»";
-      setTimeout(() => { progress.hidden = true; }, 5000);
+          /* أخفِ كل شيء على الجسم ثم أظهر منطقة الطباعة فقط */
+          body > *:not(#pdf-print-area) { display: none !important; }
+          html, body { margin: 0 !important; padding: 0 !important; background: #fff !important; }
+
+          #pdf-print-area {
+            display: block !important;
+            font-family: "Tajawal", "IBM Plex Sans Arabic", sans-serif;
+            font-size: 11pt; line-height: 1.7; color: #2a2a2a;
+            direction: rtl; text-align: right;
+          }
+          #pdf-print-area h1 { font-size: 22pt; color: #0A4D68; margin: 16pt 0 10pt;
+            padding-bottom: 6pt; border-bottom: 2px solid #0A4D68; page-break-after: avoid; }
+          #pdf-print-area h2 { font-size: 16pt; color: #0A4D68; margin: 14pt 0 8pt; page-break-after: avoid; }
+          #pdf-print-area h3 { font-size: 13pt; color: #C39B5C; margin: 12pt 0 6pt; page-break-after: avoid; }
+          #pdf-print-area p { margin: 6pt 0; }
+          #pdf-print-area a { color: #0563C1; text-decoration: underline; word-break: break-all; }
+          #pdf-print-area ul { padding-inline-start: 0; padding-inline-end: 18pt; margin: 6pt 0; }
+          #pdf-print-area li { margin: 3pt 0; }
+          #pdf-print-area table { width: 100%; border-collapse: collapse; margin: 6pt 0; font-size: 10pt; }
+          #pdf-print-area th, #pdf-print-area td {
+            border: 1px solid #d8d2c1; padding: 4pt 6pt; text-align: right; vertical-align: top; }
+          #pdf-print-area .pdf-entity { margin: 10pt 0 16pt; padding: 6pt 0; page-break-inside: avoid; }
+          #pdf-print-area .pdf-entity__en { font-style: italic; color: #777; font-size: 10pt; margin-bottom: 6pt; }
+          #pdf-print-area .pdf-entity__fields th { background: #F5F1E8; font-weight: 700; color: #0A4D68; width: 30%; }
+          #pdf-print-area .pdf-entity__desc { margin: 6pt 0; line-height: 1.75; }
+          #pdf-print-area .pdf-entity__url { font-size: 10pt; color: #0563C1; word-break: break-all; }
+          #pdf-print-area .pdf-page-break { page-break-before: always; break-before: page; height: 0; }
+          #pdf-print-area .pdf-cover { text-align: center; padding-block: 40mm 20mm; }
+          #pdf-print-area .pdf-cover__title { font-size: 32pt; font-weight: 800; color: #0A4D68; margin-bottom: 12pt; }
+          #pdf-print-area .pdf-cover__subtitle { font-size: 14pt; color: #555; margin-bottom: 30pt; line-height: 1.6; }
+          #pdf-print-area .pdf-cover__count { font-size: 22pt; font-weight: 700; color: #C39B5C; margin: 18pt 0 8pt; }
+          #pdf-print-area .pdf-cover__date { font-size: 11pt; color: #888; }
+          #pdf-print-area .pdf-toc { list-style: none; padding: 0; }
+          #pdf-print-area .pdf-toc li { padding: 4pt 0; border-bottom: 1px dotted #ccc; }
+          #pdf-print-area .pdf-alpha { list-style: none; padding: 0; font-size: 10pt;
+                                       columns: 2; column-gap: 12pt; }
+          #pdf-print-area .pdf-alpha li { padding: 2pt 0; break-inside: avoid; }
+          #pdf-print-area .pdf-wide-table th { background: #0A4D68; color: #fff !important; padding: 5pt; }
+          #pdf-print-area .pdf-wide-table td { border: 1px solid #d8d2c1; padding: 4pt; }
+        }
+      `;
+      document.head.appendChild(printStyle);
+
+      // التنظيف بعد إغلاق نافذة الطباعة
+      const cleanup = () => {
+        cleanupPdfPrintArea();
+        window.removeEventListener("afterprint", cleanup);
+      };
+      window.addEventListener("afterprint", cleanup);
+      // احتياط: نظّف بعد 5 دقائق على أبعد تقدير
+      setTimeout(cleanup, 300000);
+
+      progress.textContent = "🖨 ستظهر نافذة الطباعة — اختر «Save as PDF» ثم احفظ.";
+
+      // انتظر إطار رسم لضمان أن الـ DOM والـ CSS التحما، ثم استدعِ Print
+      requestAnimationFrame(() => {
+        requestAnimationFrame(() => {
+          try {
+            window.print();
+          } catch (e) {
+            console.error("[pdf print] failed:", e);
+            progress.textContent = "✗ فشل استدعاء الطباعة: " + e.message;
+            cleanup();
+          }
+        });
+      });
+
+      setTimeout(() => { progress.hidden = true; }, 8000);
     } catch (err) {
       console.error("[pdf export] failed:", err);
       progress.textContent = "✗ فشل التصدير: " + (err.message || err);
+      cleanupPdfPrintArea();
     } finally {
       btn.disabled = false; btnDocx.disabled = false;
     }
+  }
+
+  function cleanupPdfPrintArea() {
+    document.getElementById("pdf-print-area")?.remove();
+    document.getElementById("pdf-print-style")?.remove();
   }
 
   // يبني عنصر HTML مؤقّت يتضمّن نفس محتوى DOCX. الـ caller يحدّد الموضع.
