@@ -1383,6 +1383,23 @@
     window.scrollTo({ top: 0, behavior: "smooth" });
   }
 
+  // sparkline صغير — sequence من القيم → SVG bars بسيط
+  function sparkline(values, color = "currentColor") {
+    if (!values.length) return "";
+    const max = Math.max(...values, 1);
+    const w = 100, h = 24, gap = 2;
+    const barW = (w - gap * (values.length - 1)) / values.length;
+    let svg = `<svg class="sparkline" viewBox="0 0 ${w} ${h}" preserveAspectRatio="none" aria-hidden="true">`;
+    values.forEach((v, i) => {
+      const bh = Math.max((v / max) * h, 1);
+      const x = i * (barW + gap);
+      const y = h - bh;
+      svg += `<rect x="${x}" y="${y}" width="${barW}" height="${bh}" fill="${color}" rx="1"/>`;
+    });
+    svg += `</svg>`;
+    return svg;
+  }
+
   function buildKPIs() {
     const ents = state.entities;
     const total = ents.length;
@@ -1392,12 +1409,25 @@
     const active = ents.filter((e) => e.status === "active").length;
     const suspended = ents.filter((e) => e.status === "suspended" || e.status === "closed").length;
 
+    // sparkline data per round (1..6)
+    const rounds = [1, 2, 3, 4, 5, 6];
+    const perRound = (filter) => rounds.map((r) => ents.filter((e) => e.round === r && filter(e)).length);
+    const seriesTotal = perRound(() => true);
+    const seriesCore = perRound((e) => e.inclusion_tier === "core");
+    const seriesCountries = rounds.map((r) =>
+      new Set(ents.filter((e) => e.round === r).map((e) => e.country).filter(Boolean)).size
+    );
+    const seriesRelations = rounds.map((r) =>
+      ents.filter((e) => e.round === r).reduce((s, e) => s + (e.explicit_relations?.length || 0), 0)
+    );
+    const seriesActive = perRound((e) => e.status === "active");
+
     const kpis = [
-      { label: "إجمالي الكيانات", value: total, hint: "موزّعة على 6 جولات", accent: "var(--color-primary)" },
-      { label: "تخصص أصلي (core)", value: coreCount, hint: `${Math.round(coreCount/total*100)}% من الإجمالي`, accent: "var(--tier-core)" },
-      { label: "دول مغطّاة", value: countries, hint: "في 5 قارات", accent: "var(--color-accent)" },
-      { label: "علاقات صريحة", value: relations, hint: "بين الكيانات", accent: "var(--type-research)" },
-      { label: "كيانات نشطة", value: active, hint: `${suspended} معلَّق/مغلق`, accent: "var(--verif-field)" },
+      { label: "إجمالي الكيانات", value: total, hint: "موزّعة على 6 جولات", accent: "var(--color-primary)", series: seriesTotal },
+      { label: "تخصص أصلي (core)", value: coreCount, hint: `${Math.round(coreCount/total*100)}% من الإجمالي`, accent: "var(--tier-core)", series: seriesCore },
+      { label: "دول مغطّاة", value: countries, hint: "في 5 قارات", accent: "var(--color-accent)", series: seriesCountries },
+      { label: "علاقات صريحة", value: relations, hint: "بين الكيانات", accent: "var(--type-research)", series: seriesRelations },
+      { label: "كيانات نشطة", value: active, hint: `${suspended} معلَّق/مغلق`, accent: "var(--verif-field)", series: seriesActive },
     ];
 
     const wrap = document.createElement("div");
@@ -1410,6 +1440,9 @@
         <div class="kpi__label">${escapeHtml(k.label)}</div>
         <div class="kpi__value">${k.value}</div>
         <div class="kpi__hint">${escapeHtml(k.hint)}</div>
+        <div class="kpi__spark" title="التوزيع عبر الجولات الستّ (1 → 6)" style="color: ${k.accent};">
+          ${sparkline(k.series)}
+        </div>
       `;
       wrap.appendChild(card);
     });
@@ -1420,14 +1453,310 @@
     const wrap = document.createElement("div");
     wrap.className = "charts";
 
+    wrap.appendChild(buildWorldMap());
     wrap.appendChild(buildPieRegions());
     wrap.appendChild(buildBarTypeGroups());
     wrap.appendChild(buildTimelineDecades());
     wrap.appendChild(buildBarCountries());
     wrap.appendChild(buildHeatmapRegionSubject());
     wrap.appendChild(buildStackedTierVerification());
+    wrap.appendChild(buildProfilesIndex());
+    wrap.appendChild(buildTimelineImmersive());
 
     return wrap;
+  }
+
+  // ============================================================
+  // إحداثيات تقريبية للدول (lng, lat) — لاستخدامها في الخريطة العالمية
+  // ============================================================
+  const COUNTRY_COORDS = {
+    AE:[54,24], SA:[45,24], YE:[48,15], OM:[56,21], QA:[51,25], KW:[47.5,29],
+    BH:[50.6,26], IQ:[44,33], JO:[36,31], SY:[38,35], LB:[35.9,33.9],
+    PS:[35.2,31.9], IL:[34.8,31.5], EG:[30,27], SD:[30,12], LY:[17,27],
+    TN:[10,34], DZ:[3,28], MA:[-7,32], MR:[-10,20], SN:[-14,14], NG:[8,10],
+    SO:[46,5], TZ:[35,-6], ZA:[25,-29], TR:[35,39], IR:[53,32], PK:[70,30],
+    IN:[78,22], BD:[90,24], CN:[105,35], JP:[138,36], MY:[102,4], ID:[120,-2],
+    KZ:[68,48], UZ:[64,41], RU:[80,60], DE:[10,51], FR:[2,47], IT:[12,42],
+    ES:[-4,40], GB:[-2,54], NL:[5,52], BE:[4,50], CH:[8,47], AT:[14,47],
+    CZ:[15,50], PL:[20,52], HU:[19,47], SE:[15,62], NO:[10,62], DK:[10,56],
+    FI:[25,62], US:[-95,38], CA:[-95,60], AU:[135,-25]
+  };
+
+  // ============================================================
+  // خريطة العالم — دوائر مرقّمة وملوّنة حسب الإقليم
+  // ============================================================
+  function buildWorldMap() {
+    const w = 1000, h = 500, pad = 20;
+    // equirectangular projection
+    const project = (lng, lat) => {
+      const x = ((lng + 180) / 360) * (w - pad * 2) + pad;
+      const y = ((90 - lat) / 180) * (h - pad * 2) + pad;
+      return { x, y };
+    };
+
+    // عدد الكيانات + الإقليم السائد لكل دولة
+    const byCountry = new Map();
+    state.entities.forEach((e) => {
+      if (!e.country) return;
+      const rec = byCountry.get(e.country) || { count: 0, regions: new Map(), names: new Set() };
+      rec.count++;
+      if (e.region) rec.regions.set(e.region, (rec.regions.get(e.region) || 0) + 1);
+      rec.names.add(e.name_ar || e.id);
+      byCountry.set(e.country, rec);
+    });
+
+    const max = Math.max(...Array.from(byCountry.values()).map((r) => r.count), 1);
+
+    // خطوط الشبكة — خطوط الطول وخطوط العرض كل 30°
+    let bg = "";
+    for (let lng = -180; lng <= 180; lng += 30) {
+      const p1 = project(lng, 90), p2 = project(lng, -90);
+      bg += `<line x1="${p1.x}" y1="${p1.y}" x2="${p2.x}" y2="${p2.y}" class="worldmap__grid"/>`;
+    }
+    for (let lat = -60; lat <= 90; lat += 30) {
+      const p1 = project(-180, lat), p2 = project(180, lat);
+      bg += `<line x1="${p1.x}" y1="${p1.y}" x2="${p2.x}" y2="${p2.y}" class="worldmap__grid"/>`;
+    }
+
+    // المناطق كحقول بصرية (هالة) خلف الدول
+    const regionCenters = {};
+    Object.entries(COUNTRY_COORDS).forEach(([cc, coord]) => {
+      const rec = byCountry.get(cc);
+      if (!rec) return;
+      const topRegion = Array.from(rec.regions.entries()).sort((a,b) => b[1]-a[1])[0]?.[0];
+      if (!topRegion) return;
+      if (!regionCenters[topRegion]) regionCenters[topRegion] = { x: 0, y: 0, n: 0 };
+      const p = project(coord[0], coord[1]);
+      regionCenters[topRegion].x += p.x;
+      regionCenters[topRegion].y += p.y;
+      regionCenters[topRegion].n++;
+    });
+    let halos = "";
+    Object.entries(regionCenters).forEach(([reg, c]) => {
+      const cx = c.x / c.n;
+      const cy = c.y / c.n;
+      const color = PALETTE_REGIONS[reg] || "#888";
+      halos += `<circle cx="${cx}" cy="${cy}" r="80" fill="${color}" opacity="0.08"/>`;
+    });
+
+    // الدوائر للدول
+    let dots = "";
+    Object.entries(COUNTRY_COORDS).forEach(([cc, coord]) => {
+      const rec = byCountry.get(cc);
+      if (!rec) return;
+      const p = project(coord[0], coord[1]);
+      const r = 4 + (rec.count / max) * 18;
+      const topRegion = Array.from(rec.regions.entries()).sort((a,b) => b[1]-a[1])[0]?.[0];
+      const color = PALETTE_REGIONS[topRegion] || "var(--color-primary)";
+      const countryLabel = label("country", cc);
+      dots += `<g class="worldmap__country" data-country="${cc}" data-count="${rec.count}"
+                  data-label="${escapeHtml(countryLabel)}" tabindex="0" role="button"
+                  aria-label="${escapeHtml(countryLabel)}: ${rec.count}">
+                <circle cx="${p.x}" cy="${p.y}" r="${r}" fill="${color}" opacity="0.85" stroke="#fff" stroke-width="1.5"/>
+                ${rec.count >= 5 ? `<text x="${p.x}" y="${p.y + 3}" font-size="11" font-weight="700" fill="#fff" text-anchor="middle" pointer-events="none">${rec.count}</text>` : ''}
+              </g>`;
+    });
+
+    const svg = `<svg class="worldmap__svg" viewBox="0 0 ${w} ${h}"
+                     role="img" aria-label="خريطة عالم: توزيع الكيانات حسب الدول">
+                  <rect x="0" y="0" width="${w}" height="${h}" fill="var(--color-bg-subtle)"/>
+                  ${halos}
+                  ${bg}
+                  ${dots}
+                </svg>`;
+
+    // مفتاح حجم
+    const legend = `
+      <div class="worldmap__legend">
+        <span class="worldmap__legend-title">حجم الدائرة = عدد الكيانات</span>
+        <span class="worldmap__legend-scale">
+          <span><span class="worldmap__legend-dot" style="inline-size:8px;block-size:8px;"></span>1-4</span>
+          <span><span class="worldmap__legend-dot" style="inline-size:14px;block-size:14px;"></span>5-19</span>
+          <span><span class="worldmap__legend-dot" style="inline-size:22px;block-size:22px;"></span>20+</span>
+        </span>
+      </div>
+    `;
+
+    const card = chartCard(
+      "الخريطة العالمية للكيانات",
+      `${byCountry.size} دولة، مسقط متساوي المستطيلات`,
+      svg + legend,
+      {
+        wide: true,
+        csv: () => {
+          const rows = ["دولة,رمز ISO,خط الطول,خط العرض,عدد الكيانات"];
+          Object.entries(COUNTRY_COORDS).forEach(([cc, coord]) => {
+            const rec = byCountry.get(cc);
+            if (!rec) return;
+            rows.push(`${csvCell(label("country", cc))},${cc},${coord[0]},${coord[1]},${rec.count}`);
+          });
+          return rows.join("\n");
+        },
+        csvName: "world-map"
+      }
+    );
+
+    card.querySelectorAll(".worldmap__country").forEach((g) => {
+      const count = g.dataset.count;
+      const lbl = g.dataset.label;
+      const cc = g.dataset.country;
+      g.addEventListener("mouseenter", (e) => showTooltip(lbl, `${count} كياناً`, e));
+      g.addEventListener("mousemove", moveTooltip);
+      g.addEventListener("mouseleave", hideTooltip);
+      const go = () => jumpToEntitiesFilter("country", cc);
+      g.addEventListener("click", go);
+      g.addEventListener("keydown", (e) => {
+        if (e.key === "Enter" || e.key === " ") { e.preventDefault(); go(); }
+      });
+    });
+    return card;
+  }
+
+  // ============================================================
+  // فهرس الشخصيات — استخراج key_figures عبر الكيانات
+  // ============================================================
+  function buildProfilesIndex() {
+    const peopleMap = new Map();
+    state.entities.forEach((e) => {
+      (e.key_figures || []).forEach((p) => {
+        const trimmed = String(p).trim();
+        if (!trimmed) return;
+        const rec = peopleMap.get(trimmed) || { entities: [], regions: new Set(), countries: new Set() };
+        rec.entities.push(e.id);
+        if (e.region) rec.regions.add(e.region);
+        if (e.country) rec.countries.add(e.country);
+        peopleMap.set(trimmed, rec);
+      });
+    });
+
+    const all = Array.from(peopleMap.entries())
+      .map(([name, rec]) => ({
+        name,
+        count: rec.entities.length,
+        entities: rec.entities,
+        regions: Array.from(rec.regions),
+        countries: Array.from(rec.countries),
+      }))
+      .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name, "ar"));
+
+    const top = all.slice(0, 30);
+    const html = `
+      <div class="profiles">
+        <div class="profiles__stats">
+          <span><strong>${all.length}</strong> شخصية</span>
+          <span><strong>${all.filter((p) => p.count > 1).length}</strong> مذكورة في كيانين أو أكثر</span>
+        </div>
+        <ol class="profiles__list">
+          ${top.map((p, i) => `
+            <li class="profiles__row" data-name="${escapeHtml(p.name)}" tabindex="0" role="button" aria-label="${escapeHtml(p.name)}: ${p.count} كياناً">
+              <span class="profiles__rank">${i + 1}</span>
+              <span class="profiles__name">${escapeHtml(p.name)}</span>
+              <span class="profiles__meta">${p.regions.map((r) => escapeHtml(label("region", r))).join("، ")}</span>
+              <span class="profiles__count">${p.count}</span>
+            </li>
+          `).join("")}
+        </ol>
+        ${all.length > 30 ? `<p class="profiles__note">يعرض أعلى 30 شخصية. الإجمالي ${all.length} اسماً.</p>` : ''}
+      </div>
+    `;
+
+    const card = chartCard(
+      "أعلام الحقل",
+      "الشخصيات الأكثر ذكراً عبر الكيانات (key_figures)",
+      html,
+      {
+        wide: true,
+        csv: () => ["الاسم,عدد الكيانات,الكيانات,الأقاليم"]
+          .concat(all.map((p) =>
+            `${csvCell(p.name)},${p.count},${csvCell(p.entities.join("; "))},${csvCell(p.regions.map((r) => label("region", r)).join("; "))}`
+          )).join("\n"),
+        csvName: "profiles"
+      }
+    );
+    card.querySelectorAll(".profiles__row").forEach((row) => {
+      const go = () => {
+        const tabs = Array.from(document.querySelectorAll(".tab"));
+        const panels = Array.from(document.querySelectorAll(".panel"));
+        activateTab("entities", tabs, panels);
+        safeSetItem(STORAGE_KEY, "entities");
+        state.query = row.dataset.name;
+        const search = document.querySelector(".search-input");
+        if (search) search.value = row.dataset.name;
+        render();
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      };
+      row.addEventListener("click", go);
+      row.addEventListener("keydown", (e) => {
+        if (e.key === "Enter" || e.key === " ") { e.preventDefault(); go(); }
+      });
+    });
+    return card;
+  }
+
+  // ============================================================
+  // خط زمني غامر — كل عقد عمود يحتوي على البطاقات
+  // ============================================================
+  function buildTimelineImmersive() {
+    const byDecade = new Map();
+    state.entities.forEach((e) => {
+      if (!e.founded_decade) return;
+      const arr = byDecade.get(e.founded_decade) || [];
+      arr.push(e);
+      byDecade.set(e.founded_decade, arr);
+    });
+
+    const decades = Array.from(byDecade.keys())
+      .sort((a, b) => parseInt(b) - parseInt(a));
+
+    if (decades.length === 0) {
+      return chartCard("خط زمني غامر", "لا بيانات تأسيس", "<p>—</p>", { wide: true });
+    }
+
+    const html = `
+      <div class="timeline-imm__scroll" tabindex="0" aria-label="خط زمني — اسحب أفقياً">
+        ${decades.map((dec) => {
+          const ents = byDecade.get(dec).sort((a, b) =>
+            (a.founded || 9999) - (b.founded || 9999) || a.name_ar.localeCompare(b.name_ar, "ar")
+          );
+          return `
+            <div class="timeline-imm__col">
+              <div class="timeline-imm__decade">${dec}</div>
+              <div class="timeline-imm__count">${ents.length} كياناً</div>
+              <ol class="timeline-imm__list">
+                ${ents.slice(0, 50).map((e) => `
+                  <li class="timeline-imm__entry" data-id="${e.id}" tabindex="0" role="button" title="${escapeHtml(e.name_ar)}">
+                    <span class="timeline-imm__year">${e.founded || "؟"}</span>
+                    <span class="timeline-imm__name">${escapeHtml(e.name_ar)}</span>
+                  </li>
+                `).join("")}
+                ${ents.length > 50 ? `<li class="timeline-imm__more">+${ents.length - 50} أخرى</li>` : ''}
+              </ol>
+            </div>
+          `;
+        }).join("")}
+      </div>
+    `;
+    const card = chartCard("خط زمني غامر", `${decades.length} عقد، من ${decades[decades.length-1]} إلى ${decades[0]} — اسحب أفقياً`, html, {
+      wide: true,
+      csv: () => {
+        const rows = ["معرّف,الاسم,سنة التأسيس,عقد,الدولة,الإقليم"];
+        decades.forEach((dec) => byDecade.get(dec).forEach((e) => {
+          rows.push([e.id, csvCell(e.name_ar), e.founded || "", dec, e.country || "", e.region || ""].join(","));
+        }));
+        return rows.join("\n");
+      },
+      csvName: "timeline"
+    });
+    card.querySelectorAll(".timeline-imm__entry").forEach((row) => {
+      row.addEventListener("click", () => {
+        buildModal();
+        openModal(row.dataset.id);
+      });
+      row.addEventListener("keydown", (e) => {
+        if (e.key === "Enter" || e.key === " ") { e.preventDefault(); buildModal(); openModal(row.dataset.id); }
+      });
+    });
+    return card;
   }
 
   // ============================================================
@@ -1479,7 +1808,15 @@
       </span>
     `).join("");
 
-    const card = chartCard("التوزيع الإقليمي", "النسبة المئوية للكيانات في كل إقليم", svg + `<div class="chart-legend">${legend}</div>`);
+    const card = chartCard("التوزيع الإقليمي", "النسبة المئوية للكيانات في كل إقليم",
+      svg + `<div class="chart-legend">${legend}</div>`, {
+        csv: () => ["إقليم,عدد,نسبة%"]
+          .concat(data.map((d) => [
+            csvCell(label("region", d.region)), d.count, Math.round(d.count/total*100)
+          ].join(","))).join("\n"),
+        csvName: "regions"
+      }
+    );
     bindChartInteractions(card, "region");
     return card;
   }
@@ -1488,44 +1825,78 @@
   // 16. مخطط أعمدة: مجموعات الأنواع
   // ============================================================
 
+  // --- Helper مشترك: مخطط أعمدة أفقية بـ HTML/CSS Grid ---
+  // التسميات والأرقام بـ HTML نصّ عادي يحترم RTL وحجم الخط ثابت بالبكسل،
+  // بينما عرض الشريط % من المساحة المتاحة. لا يوجد SVG هنا.
+  function htmlHorizontalBars(items, opts = {}) {
+    const max = Math.max(...items.map((it) => it.value), 1);
+    const defaultColor = opts.color || "var(--color-primary)";
+    const valueColor = opts.valueColor || defaultColor;
+    return `<div class="hbars">${items.map((it) => {
+      const pct = (it.value / max) * 100;
+      const color = it.color || defaultColor;
+      const vColor = it.color ? color : valueColor;
+      const safeLabel = escapeHtml(it.label);
+      return `
+        <div class="hbars__row" role="button" tabindex="0"
+             data-key="${escapeHtml(String(it.key))}"
+             data-label="${safeLabel}"
+             data-count="${it.value}"
+             aria-label="${safeLabel}: ${it.value}">
+          <span class="hbars__label" title="${safeLabel}">${safeLabel}</span>
+          <div class="hbars__track">
+            <div class="hbars__bar" style="inline-size: ${pct}%; background: ${color};"></div>
+          </div>
+          <span class="hbars__value" style="color: ${vColor};">${it.value}</span>
+        </div>
+      `;
+    }).join("")}</div>`;
+  }
+
+  function bindHBarsInteractions(card, facet) {
+    card.querySelectorAll(".hbars__row").forEach((row) => {
+      const key = row.dataset.key;
+      const lbl = row.dataset.label;
+      const cnt = row.dataset.count;
+      row.addEventListener("mouseenter", (e) => showTooltip(lbl, `${cnt} كياناً`, e));
+      row.addEventListener("mousemove", moveTooltip);
+      row.addEventListener("mouseleave", hideTooltip);
+      if (facet) {
+        const go = () => jumpToEntitiesFilter(facet, key);
+        row.addEventListener("click", go);
+        row.addEventListener("keydown", (e) => {
+          if (e.key === "Enter" || e.key === " ") { e.preventDefault(); go(); }
+        });
+      }
+    });
+  }
+
   function buildBarTypeGroups() {
     const counts = new Map();
     state.entities.forEach((e) => {
       if (e.type_group) counts.set(e.type_group, (counts.get(e.type_group) || 0) + 1);
     });
-    const data = Array.from(counts.entries())
-      .map(([tg, count]) => ({ tg, count, color: PALETTE_TYPE_GROUPS[tg] || "#888" }))
-      .sort((a, b) => b.count - a.count);
+    const items = Array.from(counts.entries())
+      .map(([tg, count]) => ({
+        key: tg,
+        label: label("type_group", tg),
+        value: count,
+        color: PALETTE_TYPE_GROUPS[tg] || "#888",
+      }))
+      .sort((a, b) => b.value - a.value);
 
-    // أفقي: التسمية يسار، الشريط في الوسط، الرقم يمين
-    const w = 480;
-    const rowH = 32, gap = 6;
-    const h = data.length * (rowH + gap) + 20;
-    const padTop = 10, padBottom = 10;
-    const padStart = 110, padEnd = 50;
-    const max = Math.max(...data.map((d) => d.count));
-    const chartW = w - padStart - padEnd;
-
-    let svg = `<svg viewBox="0 0 ${w} ${h}" role="img" aria-label="أنواع الكيانات">`;
-    data.forEach((d, i) => {
-      const y = padTop + i * (rowH + gap);
-      const barW = (d.count / max) * chartW;
-      // التسمية على اليسار (في RTL تظهر يميناً، لكن text-anchor end يجعلها تنتهي قرب الشريط)
-      svg += `<text x="${padStart - 8}" y="${y + rowH/2 + 4}" class="chart-axis" text-anchor="end">${escapeHtml(label("type_group", d.tg))}</text>`;
-      // الشريط
-      svg += `<rect x="${padStart}" y="${y}" width="${barW}" height="${rowH}" fill="${d.color}" class="chart-segment" data-type_group="${d.tg}" data-count="${d.count}" data-label="${escapeHtml(label("type_group", d.tg))}" rx="4"/>`;
-      // الرقم في نهاية الشريط
-      svg += `<text x="${padStart + barW + 6}" y="${y + rowH/2 + 4}" class="chart-axis" font-weight="700" fill="${d.color}">${d.count}</text>`;
+    const card = chartCard("أنواع الكيانات", "9 مجموعات لونية", htmlHorizontalBars(items), {
+      csv: () => ["مجموعة النوع,عدد"]
+        .concat(items.map((it) => `${csvCell(it.label)},${it.value}`))
+        .join("\n"),
+      csvName: "type-groups"
     });
-    svg += `</svg>`;
-
-    const card = chartCard("أنواع الكيانات", "9 مجموعات لونية", svg);
-    bindChartInteractions(card, "type_group");
+    bindHBarsInteractions(card, "type_group");
     return card;
   }
 
   // ============================================================
-  // 17. خط زمني: العقود
+  // 17. خط زمني: العقود (أعمدة أفقية)
   // ============================================================
 
   function buildTimelineDecades() {
@@ -1533,40 +1904,30 @@
     state.entities.forEach((e) => {
       if (e.founded_decade) counts.set(e.founded_decade, (counts.get(e.founded_decade) || 0) + 1);
     });
-    // ترتيب تنازلي: الأحدث في الأعلى
-    const data = Array.from(counts.entries())
-      .map(([dec, count]) => ({ dec, count }))
-      .sort((a, b) => parseInt(b.dec) - parseInt(a.dec));
+    const items = Array.from(counts.entries())
+      .map(([dec, count]) => ({ key: dec, label: `عقد ${dec}`, value: count }))
+      .sort((a, b) => parseInt(b.key) - parseInt(a.key));
 
-    if (data.length === 0) {
+    if (items.length === 0) {
       return chartCard("موجات النشأة", "لا بيانات تاريخ متوفرة", "<p>—</p>");
     }
 
-    const max = Math.max(...data.map((d) => d.count));
-    const w = 480;
-    const rowH = 22, gap = 4;
-    const h = data.length * (rowH + gap) + 20;
-    const padTop = 10, padBottom = 10;
-    const padStart = 60, padEnd = 50;
-    const chartW = w - padStart - padEnd;
-
-    let svg = `<svg viewBox="0 0 ${w} ${h}" role="img" aria-label="موجات النشأة عبر العقود">`;
-    data.forEach((d, i) => {
-      const y = padTop + i * (rowH + gap);
-      const barW = (d.count / max) * chartW;
-      svg += `<text x="${padStart - 8}" y="${y + rowH/2 + 4}" class="chart-axis" text-anchor="end" font-weight="600">${d.dec}</text>`;
-      svg += `<rect x="${padStart}" y="${y}" width="${barW}" height="${rowH}" fill="var(--color-primary)" class="chart-segment" data-founded_decade="${d.dec}" data-count="${d.count}" data-label="عقد ${d.dec}" rx="3"/>`;
-      svg += `<text x="${padStart + barW + 6}" y="${y + rowH/2 + 4}" class="chart-axis" font-weight="700" fill="var(--color-primary)">${d.count}</text>`;
-    });
-    svg += `</svg>`;
-
-    const card = chartCard("موجات النشأة", `${data[0].dec} (الأحدث) ← ${data[data.length-1].dec}`, svg);
-    bindChartInteractions(card, "founded_decade");
+    const subtitle = `${items[0].key} (الأحدث) ← ${items[items.length - 1].key}`;
+    const card = chartCard("موجات النشأة", subtitle,
+      htmlHorizontalBars(items, { color: "var(--color-primary)" }),
+      {
+        csv: () => ["عقد,عدد الكيانات"]
+          .concat(items.map((it) => `${it.key},${it.value}`))
+          .join("\n"),
+        csvName: "decades"
+      }
+    );
+    bindHBarsInteractions(card, "founded_decade");
     return card;
   }
 
   // ============================================================
-  // 18. أعمدة أفقية: أعلى الدول
+  // 18. أعمدة أفقية: أعلى 15 دولة
   // ============================================================
 
   function buildBarCountries() {
@@ -1574,36 +1935,26 @@
     state.entities.forEach((e) => {
       if (e.country) counts.set(e.country, (counts.get(e.country) || 0) + 1);
     });
-    const data = Array.from(counts.entries())
-      .map(([c, count]) => ({ c, count }))
-      .sort((a, b) => b.count - a.count)
+    const items = Array.from(counts.entries())
+      .map(([c, count]) => ({ key: c, label: label("country", c), value: count }))
+      .sort((a, b) => b.value - a.value)
       .slice(0, 15);
 
-    const max = data[0].count;
-    const w = 480;
-    const rowH = 26, gap = 4;
-    const h = data.length * (rowH + gap) + 20;
-    const padTop = 10, padBottom = 10;
-    const padStart = 140, padEnd = 50;          // مساحة أكبر للأسماء الطويلة (الإمارات، المملكة المتحدة، الولايات المتحدة، جنوب أفريقيا)
-    const chartW = w - padStart - padEnd;
-
-    let svg = `<svg viewBox="0 0 ${w} ${h}" role="img" aria-label="أعلى 15 دولة بعدد الكيانات">`;
-    data.forEach((d, i) => {
-      const y = padTop + i * (rowH + gap);
-      const barW = (d.count / max) * chartW;
-      svg += `<text x="${padStart - 8}" y="${y + rowH/2 + 4}" class="chart-axis" text-anchor="end">${escapeHtml(label("country", d.c))}</text>`;
-      svg += `<rect x="${padStart}" y="${y}" width="${barW}" height="${rowH}" fill="var(--color-accent)" class="chart-segment" data-country="${d.c}" data-count="${d.count}" data-label="${escapeHtml(label("country", d.c))}" rx="3"/>`;
-      svg += `<text x="${padStart + barW + 6}" y="${y + rowH/2 + 4}" class="chart-axis" font-weight="700" fill="var(--color-accent-dark)">${d.count}</text>`;
-    });
-    svg += `</svg>`;
-
-    const card = chartCard("أعلى 15 دولة", "حسب عدد الكيانات", svg);
-    bindChartInteractions(card, "country");
+    const card = chartCard("أعلى 15 دولة", "حسب عدد الكيانات",
+      htmlHorizontalBars(items, { color: "var(--color-accent)", valueColor: "var(--color-accent-dark)" }),
+      {
+        csv: () => ["دولة,رمز ISO,عدد"]
+          .concat(items.map((it) => `${csvCell(it.label)},${it.key},${it.value}`))
+          .join("\n"),
+        csvName: "countries-top15"
+      }
+    );
+    bindHBarsInteractions(card, "country");
     return card;
   }
 
   // ============================================================
-  // 19. خريطة حرارية: إقليم × موضوع
+  // 19. خريطة حرارية: إقليم × موضوع (HTML Grid)
   // ============================================================
 
   function buildHeatmapRegionSubject() {
@@ -1619,73 +1970,72 @@
       .slice(0, 10)
       .map(([s]) => s);
 
-    const grid = regions.map((reg) => {
-      return topSubjects.map((sub) => {
-        const count = state.entities.filter((e) =>
+    const grid = regions.map((reg) =>
+      topSubjects.map((sub) => ({
+        region: reg,
+        subject: sub,
+        count: state.entities.filter((e) =>
           e.region === reg && (e.subjects || []).includes(sub)
-        ).length;
-        return { region: reg, subject: sub, count };
-      });
-    });
-
+        ).length,
+      }))
+    );
     const maxCount = Math.max(...grid.flat().map((c) => c.count), 1);
-    const cellSize = 50;
-    const padStart = 200, padTop = 50, padBottom = 20, padEnd = 20;
-    const cols = topSubjects.length;
-    const rows = regions.length;
-    const w = padStart + cols * cellSize + padEnd;
-    const h = padTop + rows * cellSize + padBottom;
 
-    let svg = `<svg viewBox="0 0 ${w} ${h}" role="img" aria-label="الخريطة الحرارية: الإقليم × الموضوع">`;
-
-    // ترميز رقمي للأعمدة (1-10) لتجنّب التداخل
+    // الترويسة العلوية (أرقام 1..N) + الصفوف
+    let cells = '<div class="heatmap__corner" aria-hidden="true"></div>';
     topSubjects.forEach((sub, j) => {
-      const x = padStart + j * cellSize + cellSize / 2;
-      const y = padTop - 20;
-      svg += `<text x="${x}" y="${y}" class="chart-axis" text-anchor="middle" font-weight="700" font-size="13" fill="var(--color-primary)">${j + 1}</text>`;
+      cells += `<div class="heatmap__col-head" title="${escapeHtml(label("subjects", sub))}">${j + 1}</div>`;
     });
-    // labels الصفوف (أقاليم)
-    regions.forEach((reg, i) => {
-      const x = padStart - 10;
-      const y = padTop + i * cellSize + cellSize / 2 + 4;
-      svg += `<text x="${x}" y="${y}" class="chart-axis" text-anchor="end" font-size="12" font-weight="600">${escapeHtml(label("region", reg))}</text>`;
-    });
-    // الخلايا
     grid.forEach((row, i) => {
-      row.forEach((cell, j) => {
-        const x = padStart + j * cellSize;
-        const y = padTop + i * cellSize;
+      cells += `<div class="heatmap__row-head">${escapeHtml(label("region", regions[i]))}</div>`;
+      row.forEach((cell) => {
         const intensity = cell.count / maxCount;
-        const fill = intensity === 0
+        const bg = cell.count === 0
           ? "var(--color-bg-muted)"
           : `rgba(10, 77, 104, ${0.15 + intensity * 0.75})`;
-        svg += `<rect x="${x}" y="${y}" width="${cellSize}" height="${cellSize}" fill="${fill}" class="heatmap-cell" data-region="${cell.region}" data-subjects="${cell.subject}" data-count="${cell.count}" data-label="${escapeHtml(label("region", cell.region))} × ${escapeHtml(label("subjects", cell.subject))}"/>`;
-        if (cell.count > 0) {
-          const textColor = intensity > 0.5 ? "#fff" : "var(--color-text)";
-          svg += `<text x="${x + cellSize/2}" y="${y + cellSize/2 + 5}" font-size="14" text-anchor="middle" fill="${textColor}" font-family="var(--font-mono)" font-weight="700" pointer-events="none">${cell.count}</text>`;
-        }
+        const fg = intensity > 0.5 ? "#fff" : "var(--color-text)";
+        const tip = `${escapeHtml(label("region", cell.region))} × ${escapeHtml(label("subjects", cell.subject))}: ${cell.count}`;
+        cells += `<div class="heatmap__cell${cell.count === 0 ? ' is-empty' : ''}"
+                       data-region="${cell.region}" data-subject="${cell.subject}" data-count="${cell.count}"
+                       style="background:${bg}; color:${fg};"
+                       title="${tip}">${cell.count > 0 ? cell.count : ""}</div>`;
       });
     });
-    svg += `</svg>`;
 
-    // مفتاح الترقيم تحت المخطط
-    const numberLegend = `
-      <div class="chart-legend" style="grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); display: grid;">
+    const html = `
+      <div class="heatmap" style="--heatmap-cols: ${topSubjects.length};">${cells}</div>
+      <div class="heatmap__legend">
         ${topSubjects.map((sub, i) => `
-          <span class="chart-legend__item" data-subjects="${sub}" title="${escapeHtml(label("subjects", sub))}">
-            <span style="display: inline-flex; align-items: center; justify-content: center; inline-size: 22px; block-size: 22px; background: var(--color-primary); color: #fff; border-radius: 50%; font-size: 11px; font-weight: 700; font-family: var(--font-mono);">${i + 1}</span>
-            ${escapeHtml(label("subjects", sub))}
+          <span class="heatmap__legend-item" title="${escapeHtml(label("subjects", sub))}">
+            <span class="heatmap__num">${i + 1}</span>
+            <span class="heatmap__legend-text">${escapeHtml(label("subjects", sub))}</span>
           </span>
         `).join("")}
       </div>
     `;
 
-    const card = chartCard("الخريطة الحرارية: إقليم × موضوع", "تقاطع 6 أقاليم مع أعلى 10 موضوعات (الأرقام في الجدول تطابق الموضوعات أسفله)", svg + numberLegend, true);
-    // تفاعلية مزدوجة: ينقل لتبويب الكيانات مع فلترين معاً
-    card.querySelectorAll("[data-region][data-subjects]").forEach((cell) => {
+    const card = chartCard(
+      "الخريطة الحرارية: إقليم × موضوع",
+      "الأرقام أعلى الجدول تطابق الموضوعات أسفله",
+      html, {
+        wide: true,
+        csv: () => {
+          const rows = ["إقليم,موضوع,عدد"];
+          grid.forEach((row) => {
+            row.forEach((cell) => {
+              rows.push(`${csvCell(label("region", cell.region))},${csvCell(label("subjects", cell.subject))},${cell.count}`);
+            });
+          });
+          return rows.join("\n");
+        },
+        csvName: "heatmap-region-subject"
+      }
+    );
+    card.querySelectorAll(".heatmap__cell").forEach((cell) => {
       const count = parseInt(cell.dataset.count, 10);
       if (count === 0) return;
-      cell.addEventListener("mouseenter", (e) => showTooltip(cell.dataset.label, `${count} كياناً`, e));
+      const lbl = cell.getAttribute("title").split(":")[0];
+      cell.addEventListener("mouseenter", (e) => showTooltip(lbl, `${count} كياناً`, e));
       cell.addEventListener("mousemove", moveTooltip);
       cell.addEventListener("mouseleave", hideTooltip);
       cell.addEventListener("click", () => {
@@ -1695,7 +2045,7 @@
         safeSetItem(STORAGE_KEY, "entities");
         clearAllFilters();
         addFilter("region", cell.dataset.region);
-        addFilter("subjects", cell.dataset.subjects);
+        addFilter("subjects", cell.dataset.subject);
         window.scrollTo({ top: 0, behavior: "smooth" });
       });
     });
@@ -1703,7 +2053,7 @@
   }
 
   // ============================================================
-  // 20. مصفوفة: مستوى الإدراج × درجة التحقق
+  // 20. مصفوفة عمودية: مستوى الإدراج × درجة التحقق (HTML)
   // ============================================================
 
   function buildStackedTierVerification() {
@@ -1713,39 +2063,33 @@
       state.entities.filter((e) => e.inclusion_tier === t && e.verification === v).length
     ));
 
-    const w = 480, h = 280;
-    const padTop = 16, padBottom = 60, padStart = 60, padEnd = 16;
-    const chartH = h - padTop - padBottom;
-    const chartW = w - padStart - padEnd;
-    const barW = chartW / tiers.length * 0.7;
-    const step = chartW / tiers.length;
-
     const totals = matrix.map((row) => row.reduce((a, b) => a + b, 0));
-    const max = Math.max(...totals);
+    const maxTotal = Math.max(...totals, 1);
 
-    let svg = `<svg viewBox="0 0 ${w} ${h}" role="img" aria-label="مستوى الإدراج × درجة التحقق">`;
-    for (let i = 0; i <= 4; i++) {
-      const y = padTop + (chartH / 4) * i;
-      const val = Math.round(max - (max / 4) * i);
-      svg += `<line x1="${padStart}" y1="${y}" x2="${w - padEnd}" y2="${y}" class="chart-grid-line"/>`;
-      svg += `<text x="${padStart - 4}" y="${y + 3}" class="chart-axis" text-anchor="end">${val}</text>`;
-    }
-
-    tiers.forEach((tier, i) => {
-      const x = padStart + step * i + (step - barW) / 2;
-      let cumY = padTop + chartH;
-      matrix[i].forEach((count, j) => {
-        if (count === 0) return;
-        const segH = (count / max) * chartH;
-        cumY -= segH;
-        svg += `<rect x="${x}" y="${cumY}" width="${barW}" height="${segH}" fill="${PALETTE_VERIFICATION[verifs[j]]}" class="chart-segment" data-inclusion_tier="${tier}" data-verification="${verifs[j]}" data-count="${count}" data-label="${escapeHtml(label("inclusion_tier", tier))} + ${escapeHtml(label("verification", verifs[j]))}"/>`;
-      });
-      // الإجمالي على القمة
-      svg += `<text x="${x + barW/2}" y="${padTop + chartH - (totals[i] / max) * chartH - 4}" class="chart-axis" text-anchor="middle" font-weight="700" fill="var(--color-primary)">${totals[i]}</text>`;
-      // التسمية تحت
-      svg += `<text x="${x + barW/2}" y="${padTop + chartH + 16}" class="chart-axis" text-anchor="middle">${escapeHtml(label("inclusion_tier", tier))}</text>`;
-    });
-    svg += `</svg>`;
+    const columnsHtml = tiers.map((tier, i) => {
+      const colPct = (totals[i] / maxTotal) * 100;
+      const segments = verifs.map((v, j) => {
+        const cnt = matrix[i][j];
+        if (cnt === 0) return "";
+        const segPct = (cnt / totals[i]) * 100;
+        return `<div class="stacked-vbars__seg"
+                     data-inclusion_tier="${tier}" data-verification="${v}" data-count="${cnt}"
+                     data-label="${escapeHtml(label("inclusion_tier", tier))} + ${escapeHtml(label("verification", v))}"
+                     style="--seg-pct: ${segPct}; background: ${PALETTE_VERIFICATION[v]};"
+                     title="${escapeHtml(label("verification", v))}: ${cnt}"></div>`;
+      }).join("");
+      return `
+        <div class="stacked-vbars__column">
+          <div class="stacked-vbars__rail">
+            <div class="stacked-vbars__stack" style="--col-pct: ${colPct};">
+              ${segments}
+            </div>
+          </div>
+          <div class="stacked-vbars__total">${totals[i]}</div>
+          <div class="stacked-vbars__label">${escapeHtml(label("inclusion_tier", tier))}</div>
+        </div>
+      `;
+    }).join("");
 
     const legend = verifs.map((v) => `
       <span class="chart-legend__item">
@@ -1754,11 +2098,24 @@
       </span>
     `).join("");
 
-    const card = chartCard("الإدراج × التحقق", "تقاطع مستوى التخصص مع جودة البيانات", svg + `<div class="chart-legend">${legend}</div>`);
-    bindChartInteractions(card, null); // تفاعل مخصص أدناه
-    card.querySelectorAll(".chart-segment").forEach((seg) => {
+    const html = `
+      <div class="stacked-vbars">${columnsHtml}</div>
+      <div class="chart-legend">${legend}</div>
+    `;
+    const card = chartCard("الإدراج × التحقق", "تقاطع مستوى التخصص مع جودة البيانات", html, {
+      csv: () => {
+        const rows = ["مستوى الإدراج,درجة التحقق,عدد"];
+        tiers.forEach((t, i) => verifs.forEach((v, j) => {
+          rows.push(`${csvCell(label("inclusion_tier", t))},${csvCell(label("verification", v))},${matrix[i][j]}`);
+        }));
+        return rows.join("\n");
+      },
+      csvName: "tier-by-verification"
+    });
+    card.querySelectorAll(".stacked-vbars__seg").forEach((seg) => {
       const count = parseInt(seg.dataset.count, 10);
-      seg.addEventListener("mouseenter", (e) => showTooltip(seg.dataset.label, `${count} كياناً`, e));
+      const lbl = seg.dataset.label;
+      seg.addEventListener("mouseenter", (e) => showTooltip(lbl, `${count} كياناً`, e));
       seg.addEventListener("mousemove", moveTooltip);
       seg.addEventListener("mouseleave", hideTooltip);
       seg.addEventListener("click", () => {
@@ -1779,16 +2136,35 @@
   // 21. أدوات مساعدة للمخططات
   // ============================================================
 
-  function chartCard(title, subtitle, bodyHtml, wide = false) {
+  // chartCard(title, subtitle, bodyHtml, opts)
+  // opts (object): { wide?: bool, csv?: () => string, csvName?: string }
+  // opts (boolean): يُعتبر wide (للتوافق مع الاستدعاءات السابقة)
+  function chartCard(title, subtitle, bodyHtml, opts = {}) {
+    if (typeof opts === "boolean") opts = { wide: opts };
     const card = document.createElement("div");
-    card.className = "chart-card" + (wide ? " chart-card--wide" : "");
+    card.className = "chart-card" + (opts.wide ? " chart-card--wide" : "");
+    const exportBtn = opts.csv
+      ? `<button class="chart-card__export" type="button"
+                 title="تصدير بيانات المخطط CSV" aria-label="تصدير CSV">⤓</button>`
+      : "";
     card.innerHTML = `
       <div class="chart-card__header">
-        <h3 class="chart-card__title">${escapeHtml(title)}</h3>
-        <span class="chart-card__subtitle">${escapeHtml(subtitle)}</span>
+        <div class="chart-card__heading">
+          <h3 class="chart-card__title">${escapeHtml(title)}</h3>
+          <span class="chart-card__subtitle">${escapeHtml(subtitle)}</span>
+        </div>
+        ${exportBtn}
       </div>
       <div class="chart-card__body">${bodyHtml}</div>
     `;
+    if (opts.csv) {
+      card.querySelector(".chart-card__export").addEventListener("click", (e) => {
+        e.stopPropagation();
+        const blob = new Blob(["﻿" + opts.csv()], { type: "text/csv;charset=utf-8" });
+        downloadBlob(blob, (opts.csvName || title) + ".csv");
+        if (typeof toast === "function") toast("تم تنزيل CSV");
+      });
+    }
     return card;
   }
 
@@ -2857,11 +3233,16 @@
       <button class="theme-toggle" aria-label="وضع داكن" title="تبديل الوضع (D)">🌙</button>
       <button class="theme-toggle" aria-label="بحث (/)" title="بحث (Ctrl+K)" id="search-trigger">🔎</button>
       <button class="theme-toggle" aria-label="مشاركة" title="مشاركة الرابط" id="share-trigger">↗</button>
+      <button class="theme-toggle" aria-label="جولة تعريفية" title="عرض الجولة التعريفية" id="tour-trigger">?</button>
     `;
     header.appendChild(actions);
     actions.querySelector(".theme-toggle").addEventListener("click", toggleTheme);
     actions.querySelector("#search-trigger").addEventListener("click", openSearchOverlay);
     actions.querySelector("#share-trigger").addEventListener("click", shareLink);
+    actions.querySelector("#tour-trigger").addEventListener("click", () => {
+      try { localStorage.removeItem("seerah-tour-seen"); } catch (_) {}
+      startTour();
+    });
   }
 
   // === تحسين العلم في الفلاتر والبطاقات (post-render hook) ===
@@ -2965,15 +3346,108 @@
     };
   }
 
+  // === Guided Tour — يظهر مرة واحدة (مع localStorage) ===
+  const TOUR_STEPS = [
+    {
+      icon: "📖",
+      title: "أهلاً بك في الموسوعة",
+      text: "موسوعة مؤسسية لرصد وتشخيص 399 كياناً متخصصاً في خدمة السيرة النبوية، عبر 56 دولة و6 جولات بحثية."
+    },
+    {
+      icon: "🔎",
+      title: "ابحث في كل مكان",
+      text: "اضغط Ctrl+K (أو / على لوحة المفاتيح) لفتح بحث عالمي يغطي البطاقات، أقسام التشخيص، والشخصيات."
+    },
+    {
+      icon: "🗂️",
+      title: "فلترة متعدّدة الأبعاد",
+      text: "في تبويب «الكيانات» يمكنك تطبيق فلاتر متراكبة (الإقليم + النوع + الموضوع + …) لاستكشاف تقاطعات مخصّصة."
+    },
+    {
+      icon: "📊",
+      title: "إحصاءات قابلة للتصدير",
+      text: "كل مخطّط في «الإحصاءات» له زرّ ⤓ يصدّر بيانات المخطّط مباشرة كملف CSV."
+    },
+    {
+      icon: "🌙",
+      title: "الوضع الداكن",
+      text: "زر 🌙 في الترويسة يبدّل الوضع. تجربتك محفوظة محلياً."
+    }
+  ];
+
+  function shouldShowTour() {
+    if (!state.entities || state.entities.length === 0) return false;
+    try { return !localStorage.getItem("seerah-tour-seen"); } catch (_) { return false; }
+  }
+
+  function startTour() {
+    let step = 0;
+    const backdrop = document.createElement("div");
+    backdrop.className = "tour-backdrop";
+    document.body.appendChild(backdrop);
+
+    function render() {
+      const s = TOUR_STEPS[step];
+      backdrop.innerHTML = `
+        <div class="tour-card" role="dialog" aria-modal="true" aria-labelledby="tour-title">
+          <button class="tour-card__skip" aria-label="تخطّي الجولة">×</button>
+          <div class="tour-card__icon" aria-hidden="true">${s.icon}</div>
+          <h3 class="tour-card__title" id="tour-title">${escapeHtml(s.title)}</h3>
+          <p class="tour-card__text">${escapeHtml(s.text)}</p>
+          <div class="tour-card__progress" aria-hidden="true">
+            ${TOUR_STEPS.map((_, i) => `<span class="tour-card__dot${i === step ? ' is-active' : ''}"></span>`).join("")}
+          </div>
+          <div class="tour-card__actions">
+            ${step > 0 ? `<button class="btn btn--ghost" data-action="prev">السابق</button>` : ''}
+            ${step < TOUR_STEPS.length - 1
+              ? `<button class="btn btn--primary" data-action="next">التالي</button>`
+              : `<button class="btn btn--primary" data-action="finish">ابدأ التصفّح</button>`}
+          </div>
+        </div>
+      `;
+      backdrop.querySelector(".tour-card__skip").addEventListener("click", end);
+      const next = backdrop.querySelector('[data-action="next"]');
+      const prev = backdrop.querySelector('[data-action="prev"]');
+      const fin = backdrop.querySelector('[data-action="finish"]');
+      if (next) next.addEventListener("click", () => { step++; render(); });
+      if (prev) prev.addEventListener("click", () => { step--; render(); });
+      if (fin) fin.addEventListener("click", end);
+    }
+
+    function end() {
+      try { localStorage.setItem("seerah-tour-seen", "1"); } catch (_) {}
+      backdrop.remove();
+      document.removeEventListener("keydown", onKey);
+    }
+
+    function onKey(e) {
+      if (e.key === "Escape") end();
+      else if (e.key === "ArrowRight" && step > 0) { step--; render(); }
+      else if (e.key === "ArrowLeft" && step < TOUR_STEPS.length - 1) { step++; render(); }
+    }
+
+    document.addEventListener("keydown", onKey);
+    render();
+  }
+
   // === تشغيل وحدات المرحلة 8 ===
   function bootPhase8() {
     initDarkMode();
     injectHeaderActions();
     initKeyboardShortcuts();
-    if (window.innerWidth <= 720) {
+    if (window.innerWidth <= 768) {
       initMobileNav();
       initMobileFiltersToggle();
     }
+    // الجولة التعريفية — بعد تحميل البيانات
+    const tryTour = () => {
+      if (state.entities && state.entities.length > 0) {
+        if (shouldShowTour()) setTimeout(startTour, 800);
+      } else {
+        setTimeout(tryTour, 300);
+      }
+    };
+    tryTour();
   }
 
   // === ربط hook على renderGrid لإضافة أزرار المقارنة ===
