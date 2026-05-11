@@ -11,7 +11,8 @@
     "06",
     "08a",
     "08b",
-    "08c"
+    "08c",
+    "08d"
   ],
   "entities": [
     {
@@ -20068,7 +20069,1086 @@
           "anchor": "ARB-071 — Higher Institute Imams"
         }
       ]
+    },
+    {
+      "id": "LEV-048",
+      "round": "08d",
+      "name_ar": "الحوزة العلمية بالنجف",
+      "name_en": "Hawza of Najaf",
+      "type": "research_center",
+      "type_group": "research_education",
+      "country": "IQ",
+      "city_ar": "النجف",
+      "region": "levant_iraq_nile",
+      "founded_decade": "1100s",
+      "status": "active",
+      "scale": "international",
+      "url": "https://www.sistani.org/",
+      "funding_type": "religious_authority",
+      "subjects": [
+        "seerah_general",
+        "ahlulbayt",
+        "biography_methodology",
+        "hadith_sciences",
+        "sources_critique",
+        "historiography"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "prophetic_demography",
+        "auxiliary_sciences",
+        "methodology_critique"
+      ],
+      "languages": [
+        "ar",
+        "fa",
+        "ur",
+        "en"
+      ],
+      "output_types": [
+        "books",
+        "fatwa",
+        "courses"
+      ],
+      "description_ar": "أقدم وأكبر حوزة شيعية في العالم، تأسّست تاريخياً قرب ضريح الإمام علي. حوالي 13,000 طالب (2014). تركّز الفقه وأصول الفقه وتطوير المجتهدين. يقودها حالياً السيد علي السيستاني مع آيتي الله محمد إسحاق الفياض وبشير النجفي.",
+      "key_figures": [
+        "السيد علي السيستاني",
+        "الشيخ محمد إسحاق الفياض",
+        "الشيخ بشير النجفي"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "sources": [
+        {
+          "round_file": "round-08d-shia-zaydi-ibadi.md",
+          "anchor": "LEV-048 — Hawza Najaf"
+        }
+      ]
+    },
+    {
+      "id": "LEV-049",
+      "round": "08d",
+      "name_ar": "مكتب السيد علي الحسيني السيستاني",
+      "name_en": "Office of Grand Ayatollah Sistani",
+      "type": "research_center",
+      "type_group": "research_education",
+      "country": "IQ",
+      "city_ar": "النجف",
+      "region": "levant_iraq_nile",
+      "founded_decade": "1990s",
+      "status": "active",
+      "scale": "international",
+      "url": "https://www.sistani.org/",
+      "funding_type": "religious_authority",
+      "subjects": [
+        "seerah_general",
+        "ahlulbayt",
+        "biography_methodology"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "prophetic_demography",
+        "methodology_critique"
+      ],
+      "languages": [
+        "ar",
+        "fa",
+        "ur",
+        "en"
+      ],
+      "output_types": [
+        "fatwa",
+        "books",
+        "database"
+      ],
+      "description_ar": "مكتب المرجع الأعلى للشيعة عالمياً، السيد علي الحسيني السيستاني (مرجع التقليد المهيمن حالياً). يدير شبكة من المؤسسات التعليمية والخيرية والإفتائية. لقاء السيد مع البابا فرنسيس 2021 كان حدثاً تاريخياً للحوار بين النجف والفاتيكان.",
+      "key_figures": [
+        "السيد علي الحسيني السيستاني"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "sources": [
+        {
+          "round_file": "round-08d-shia-zaydi-ibadi.md",
+          "anchor": "LEV-049 — Sistani Office"
+        }
+      ]
+    },
+    {
+      "id": "LEV-050",
+      "round": "08d",
+      "name_ar": "مكتبة الروضة الحيدرية",
+      "name_en": "Library of the Imam Ali Shrine, Najaf",
+      "type": "library_archive",
+      "type_group": "publishing_knowledge",
+      "country": "IQ",
+      "city_ar": "النجف",
+      "region": "levant_iraq_nile",
+      "founded_decade": "1900s",
+      "status": "active",
+      "scale": "international",
+      "parent_organization_ar": "العتبة العلوية المقدّسة",
+      "funding_type": "religious_authority",
+      "subjects": [
+        "seerah_general",
+        "ahlulbayt",
+        "manuscripts",
+        "historiography",
+        "tabaqat_companions"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "prophetic_demography",
+        "auxiliary_sciences"
+      ],
+      "languages": [
+        "ar",
+        "fa",
+        "ur"
+      ],
+      "output_types": [
+        "manuscripts",
+        "books"
+      ],
+      "description_ar": "مكتبة العتبة العلوية بالنجف، مخطوطات نادرة تتصل بتاريخ آل البيت والإمام علي بن أبي طالب.",
+      "verification": "desk_verified",
+      "inclusion_tier": "borderline",
+      "sources": [
+        {
+          "round_file": "round-08d-shia-zaydi-ibadi.md",
+          "anchor": "LEV-050 — Imam Ali Shrine Library"
+        }
+      ]
+    },
+    {
+      "id": "LEV-051",
+      "round": "08d",
+      "name_ar": "المكتبة العامة للعتبة الحسينية المقدسة بكربلاء",
+      "name_en": "Public Library of the Imam Hussain Holy Shrine, Karbala",
+      "type": "library_archive",
+      "type_group": "publishing_knowledge",
+      "country": "IQ",
+      "city_ar": "كربلاء",
+      "region": "levant_iraq_nile",
+      "founded": 1975,
+      "founded_decade": "1970s",
+      "status": "active",
+      "scale": "international",
+      "url": "https://imamhussain.org/english",
+      "parent_organization_ar": "العتبة الحسينية المقدّسة",
+      "funding_type": "religious_authority",
+      "subjects": [
+        "seerah_general",
+        "ahlulbayt",
+        "manuscripts",
+        "historiography"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "prophetic_demography",
+        "auxiliary_sciences"
+      ],
+      "languages": [
+        "ar",
+        "fa",
+        "ur",
+        "en"
+      ],
+      "output_types": [
+        "manuscripts",
+        "books",
+        "database"
+      ],
+      "description_ar": "بُنيت 1975 على الجانب الغربي من الحرم الحسيني. مع مركز بحوث للأرشيف والمخطوطات افتُتح 2005. يدير المكتبة والمتحف د. سعيد رشيد زميزم.",
+      "key_figures": [
+        "د. سعيد رشيد زميزم (رئيس قسم التوثيق والمعارض)"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "sources": [
+        {
+          "round_file": "round-08d-shia-zaydi-ibadi.md",
+          "anchor": "LEV-051 — Imam Hussain Library"
+        }
+      ]
+    },
+    {
+      "id": "NAM-104",
+      "round": "08d",
+      "name_ar": "الحوزة العلمية بقم",
+      "name_en": "Hawza of Qom",
+      "type": "research_center",
+      "type_group": "research_education",
+      "country": "IR",
+      "city_ar": "قم",
+      "region": "non_arab_muslim",
+      "founded": 1922,
+      "founded_decade": "1920s",
+      "status": "active",
+      "scale": "international",
+      "funding_type": "religious_authority",
+      "subjects": [
+        "seerah_general",
+        "ahlulbayt",
+        "biography_methodology",
+        "hadith_sciences",
+        "sources_critique"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "prophetic_demography",
+        "auxiliary_sciences",
+        "methodology_critique"
+      ],
+      "languages": [
+        "fa",
+        "ar",
+        "en",
+        "ur"
+      ],
+      "output_types": [
+        "books",
+        "fatwa",
+        "courses",
+        "journal"
+      ],
+      "description_ar": "أكبر حوزة شيعية في إيران، أحيا نشاطها 1922 عبد الكريم الحائري اليزدي لتدريب علماء الأصول. +40,000 طالب إيراني ودولي. الفقه، أصول الفقه، الفلسفة، الكلام. أبرز المراجع الحاليون: حسين وحيد الخراساني، موسى الشبيري الزنجاني، ناصر مكارم الشيرازي.",
+      "key_figures": [
+        "عبد الكريم الحائري اليزدي (مؤسس النهضة الحديثة)",
+        "حسين وحيد الخراساني",
+        "ناصر مكارم الشيرازي",
+        "عبد الله جوادي آملي"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "sources": [
+        {
+          "round_file": "round-08d-shia-zaydi-ibadi.md",
+          "anchor": "NAM-104 — Hawza Qom"
+        }
+      ]
+    },
+    {
+      "id": "NAM-105",
+      "round": "08d",
+      "name_ar": "جامعة الإمام الصادق – طهران",
+      "name_en": "Imam Sadiq University, Tehran",
+      "type": "university_center",
+      "type_group": "research_education",
+      "country": "IR",
+      "city_ar": "طهران",
+      "region": "non_arab_muslim",
+      "founded": 1982,
+      "founded_decade": "1980s",
+      "status": "active",
+      "scale": "international",
+      "url": "https://isu.ac.ir/",
+      "funding_type": "state",
+      "subjects": [
+        "seerah_general",
+        "ahlulbayt",
+        "biography_methodology",
+        "historiography"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "prophetic_demography",
+        "methodology_critique",
+        "auxiliary_sciences"
+      ],
+      "languages": [
+        "fa",
+        "ar",
+        "en"
+      ],
+      "output_types": [
+        "courses",
+        "books",
+        "journal"
+      ],
+      "description_ar": "جامعة خاصة إسلامية أُسّست 1982 لتدريب «السياسيين والفقهاء المبلّغين بالإسلام». 6 كليات: الإلهيات، الاقتصاد، الإدارة، القانون، العلوم السياسية، الثقافة والاتصال. تخرّج كثير من قيادات الجمهورية الإيرانية.",
+      "verification": "desk_verified",
+      "inclusion_tier": "borderline",
+      "sources": [
+        {
+          "round_file": "round-08d-shia-zaydi-ibadi.md",
+          "anchor": "NAM-105 — Imam Sadiq Univ"
+        }
+      ]
+    },
+    {
+      "id": "NAM-106",
+      "round": "08d",
+      "name_ar": "جامعة مفيد – قم",
+      "name_en": "Mofid University, Qom",
+      "type": "university_center",
+      "type_group": "research_education",
+      "country": "IR",
+      "city_ar": "قم",
+      "region": "non_arab_muslim",
+      "founded": 1989,
+      "founded_decade": "1980s",
+      "status": "active",
+      "scale": "international",
+      "url": "https://www.mofidu.ac.ir/",
+      "funding_type": "private",
+      "subjects": [
+        "seerah_general",
+        "biography_methodology",
+        "comparative_religion"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "methodology_critique"
+      ],
+      "languages": [
+        "fa",
+        "ar",
+        "en"
+      ],
+      "output_types": [
+        "courses",
+        "books",
+        "journal"
+      ],
+      "description_ar": "أُسّست 1989. مركز رائد للعلوم الإنسانية الإسلامية بهدف التواصل بين العلوم الإنسانية والأسس الدينية. 4 مراكز بحثية: حقوق الإنسان (2003)، الاقتصاد (2005)، الدراسات القرآنية (2006).",
+      "verification": "desk_verified",
+      "inclusion_tier": "borderline",
+      "sources": [
+        {
+          "round_file": "round-08d-shia-zaydi-ibadi.md",
+          "anchor": "NAM-106 — Mofid Univ"
+        }
+      ]
+    },
+    {
+      "id": "NAM-107",
+      "round": "08d",
+      "name_ar": "جامعة الرضوية للعلوم الإسلامية – مشهد",
+      "name_en": "Razavi University of Islamic Sciences, Mashhad",
+      "type": "university_center",
+      "type_group": "research_education",
+      "country": "IR",
+      "city_ar": "مشهد",
+      "region": "non_arab_muslim",
+      "founded": 1984,
+      "founded_decade": "1980s",
+      "status": "active",
+      "scale": "international",
+      "url": "https://razavi.ac.ir/en",
+      "parent_organization_ar": "العتبة الرضوية المقدّسة (Astan Quds Razavi)",
+      "funding_type": "religious_authority",
+      "subjects": [
+        "seerah_general",
+        "ahlulbayt",
+        "hadith_sciences",
+        "biography_methodology"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "prophetic_demography",
+        "auxiliary_sciences",
+        "methodology_critique"
+      ],
+      "languages": [
+        "fa",
+        "ar"
+      ],
+      "output_types": [
+        "courses",
+        "books",
+        "journal"
+      ],
+      "description_ar": "افتُتحت رسمياً 9 أغسطس 1984، أوّل حوزة جامعية في إيران. أسّسها آية الله عباس واعظ طبسي. تستضيف مدرستَين تاريخيتَين عمر كلٍ منهما 400 سنة (ميرزا جعفر وخيرات خان). مقرّها داخل الحرم الرضوي.",
+      "key_figures": [
+        "آية الله عباس واعظ طبسي (مؤسس)"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "sources": [
+        {
+          "round_file": "round-08d-shia-zaydi-ibadi.md",
+          "anchor": "NAM-107 — Razavi Univ"
+        }
+      ]
+    },
+    {
+      "id": "NAM-108",
+      "round": "08d",
+      "name_ar": "المجمع العالمي لأهل البيت (مجمع جهاني أهل البيت)",
+      "name_en": "Ahl al-Bayt World Assembly (ABWA)",
+      "type": "research_center",
+      "type_group": "research_education",
+      "country": "IR",
+      "city_ar": "طهران",
+      "region": "non_arab_muslim",
+      "founded": 1990,
+      "founded_decade": "1990s",
+      "status": "active",
+      "scale": "international",
+      "url": "https://www.ahl-ul-bayt.org/en/",
+      "funding_type": "state",
+      "subjects": [
+        "seerah_general",
+        "ahlulbayt",
+        "tarjamah",
+        "historiography",
+        "sources_critique"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "prophetic_demography",
+        "auxiliary_sciences",
+        "application_outreach"
+      ],
+      "languages": [
+        "ar",
+        "fa",
+        "en",
+        "ur",
+        "tr",
+        "fr",
+        "de",
+        "es",
+        "sw",
+        "ms",
+        "id",
+        "ru"
+      ],
+      "output_types": [
+        "books",
+        "journal",
+        "database",
+        "courses"
+      ],
+      "description_ar": "أُسّس مايو 1990 بإشراف آية الله خامنئي بعد مؤتمر دولي شارك فيه +300 مفكر إسلامي. مقرّه طهران، نشاطه عالمي. +1800 كتاب بـ55 لغة. مكتبته بقم تضمّ +30,000 كتاب ومجلة. أُسّست تحته جامعة أهل البيت الدولية 2000.",
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "sources": [
+        {
+          "round_file": "round-08d-shia-zaydi-ibadi.md",
+          "anchor": "NAM-108 — Ahl al-Bayt Assembly"
+        }
+      ]
+    },
+    {
+      "id": "NAM-109",
+      "round": "08d",
+      "name_ar": "المكتبة المركزية للعتبة الرضوية – مشهد",
+      "name_en": "Central Library of Astan Quds Razavi",
+      "type": "library_archive",
+      "type_group": "publishing_knowledge",
+      "country": "IR",
+      "city_ar": "مشهد",
+      "region": "non_arab_muslim",
+      "founded": 1457,
+      "founded_decade": "1450s",
+      "status": "active",
+      "scale": "international",
+      "url": "https://library.razavi.ir/en",
+      "parent_organization_ar": "العتبة الرضوية المقدّسة",
+      "funding_type": "religious_authority",
+      "subjects": [
+        "seerah_general",
+        "ahlulbayt",
+        "manuscripts",
+        "historiography",
+        "sources_critique",
+        "hadith_sciences"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "prophetic_demography",
+        "auxiliary_sciences"
+      ],
+      "languages": [
+        "fa",
+        "ar",
+        "en"
+      ],
+      "output_types": [
+        "manuscripts",
+        "books",
+        "database"
+      ],
+      "description_ar": "أُسّست قبل 1457م. تحوي +1.1 مليون مجلد. مركز دولي للبحوث الإسلامية. مخطوطات نادرة فريدة من تاريخ الإسلام المبكر. قدّمت لمكتبة قطر الرقمية + مكتبة الكونغرس مجموعات نادرة.",
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "sources": [
+        {
+          "round_file": "round-08d-shia-zaydi-ibadi.md",
+          "anchor": "NAM-109 — Astan Quds Razavi Library"
+        }
+      ]
+    },
+    {
+      "id": "NAM-110",
+      "round": "08d",
+      "name_ar": "جمعية مدرسي حوزة قم",
+      "name_en": "Society of Seminary Teachers of Qom",
+      "type": "research_center",
+      "type_group": "research_education",
+      "country": "IR",
+      "city_ar": "قم",
+      "region": "non_arab_muslim",
+      "founded_decade": "1960s",
+      "status": "active",
+      "scale": "national",
+      "funding_type": "religious_authority",
+      "subjects": [
+        "seerah_general",
+        "ahlulbayt",
+        "biography_methodology"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "prophetic_demography",
+        "methodology_critique"
+      ],
+      "languages": [
+        "fa",
+        "ar"
+      ],
+      "output_types": [
+        "books",
+        "fatwa"
+      ],
+      "description_ar": "هيئة مرجعية تشكّلت لتحقيق إجماع بين الفقهاء، تشكّلت بعد الثورة الإيرانية 1979. تلعب دور هيئة استشارية محافظة على الحوزة.",
+      "verification": "desk_verified",
+      "inclusion_tier": "borderline",
+      "sources": [
+        {
+          "round_file": "round-08d-shia-zaydi-ibadi.md",
+          "anchor": "NAM-110 — Society Qom Teachers"
+        }
+      ]
+    },
+    {
+      "id": "NAM-111",
+      "round": "08d",
+      "name_ar": "متحف العتبة الرضوية – مشهد",
+      "name_en": "Astan Quds Razavi Central Museum",
+      "type": "museum",
+      "type_group": "museums_culture",
+      "country": "IR",
+      "city_ar": "مشهد",
+      "region": "non_arab_muslim",
+      "founded": 1937,
+      "founded_decade": "1930s",
+      "status": "active",
+      "scale": "international",
+      "parent_organization_ar": "العتبة الرضوية المقدّسة",
+      "funding_type": "religious_authority",
+      "subjects": [
+        "seerah_general",
+        "ahlulbayt",
+        "historiography",
+        "manuscripts"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "prophetic_demography",
+        "auxiliary_sciences"
+      ],
+      "languages": [
+        "fa",
+        "ar",
+        "en"
+      ],
+      "output_types": [
+        "exhibition",
+        "books"
+      ],
+      "description_ar": "أُسّس 1937، يقع بجوار الحرم الرضوي ومسجد جوهر شاد. مجموعات في تاريخ الإسلام وآل البيت، مخطوطات قرآنية نادرة، تحف من الفن الإسلامي.",
+      "verification": "desk_verified",
+      "inclusion_tier": "borderline",
+      "sources": [
+        {
+          "round_file": "round-08d-shia-zaydi-ibadi.md",
+          "anchor": "NAM-111 — Astan Quds Museum"
+        }
+      ]
+    },
+    {
+      "id": "NAM-112",
+      "round": "08d",
+      "name_ar": "جامعة الإمام الحسين – طهران",
+      "name_en": "Imam Hussain University, Tehran",
+      "type": "university_center",
+      "type_group": "research_education",
+      "country": "IR",
+      "city_ar": "طهران",
+      "region": "non_arab_muslim",
+      "founded": 1985,
+      "founded_decade": "1980s",
+      "status": "active",
+      "scale": "national",
+      "parent_organization_ar": "الحرس الثوري الإيراني (IRGC)",
+      "funding_type": "state",
+      "subjects": [
+        "seerah_general",
+        "ahlulbayt",
+        "historiography",
+        "hadith_sciences"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "prophetic_demography",
+        "auxiliary_sciences"
+      ],
+      "languages": [
+        "fa",
+        "ar",
+        "en"
+      ],
+      "output_types": [
+        "courses",
+        "books"
+      ],
+      "description_ar": "جامعة إسلامية تابعة للحرس الثوري، تقدّم دراسات إسلامية مكثّفة في علوم القرآن والسنة وأهل البيت ضمن إطار العلوم الإستراتيجية والدفاعية.",
+      "verification": "needs_verification",
+      "inclusion_tier": "below_threshold",
+      "sources": [
+        {
+          "round_file": "round-08d-shia-zaydi-ibadi.md",
+          "anchor": "NAM-112 — Imam Hussain Univ"
+        }
+      ]
+    },
+    {
+      "id": "NAM-113",
+      "round": "08d",
+      "name_ar": "مؤسسة بحوث الحرم الحسيني – كربلاء",
+      "name_en": "Imam Hussain Shrine Research Foundation",
+      "type": "research_center",
+      "type_group": "research_education",
+      "country": "IQ",
+      "city_ar": "كربلاء",
+      "region": "levant_iraq_nile",
+      "founded": 2005,
+      "founded_decade": "2000s",
+      "status": "active",
+      "scale": "international",
+      "parent_organization_ar": "العتبة الحسينية المقدّسة",
+      "funding_type": "religious_authority",
+      "subjects": [
+        "seerah_general",
+        "ahlulbayt",
+        "historiography",
+        "manuscripts",
+        "sources_critique"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "prophetic_demography",
+        "auxiliary_sciences"
+      ],
+      "languages": [
+        "ar",
+        "fa",
+        "en"
+      ],
+      "output_types": [
+        "books",
+        "journal",
+        "database",
+        "manuscripts"
+      ],
+      "description_ar": "افتُتحت 2005/1425هـ كجزء من مكتبة الحرم الحسيني. تعمل على تحقيق المخطوطات الشيعية وإصدار دوريات بحثية.",
+      "explicit_relations": [
+        {
+          "target": "LEV-051",
+          "type": "child_of"
+        }
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "sources": [
+        {
+          "round_file": "round-08d-shia-zaydi-ibadi.md",
+          "anchor": "NAM-113 — Hussain Shrine Research"
+        }
+      ]
+    },
+    {
+      "id": "ARB-072",
+      "round": "08d",
+      "name_ar": "مكتبة الجامع الكبير بصنعاء",
+      "name_en": "Library of the Great Mosque of Sana'a",
+      "type": "library_archive",
+      "type_group": "publishing_knowledge",
+      "country": "YE",
+      "city_ar": "صنعاء",
+      "region": "arabia",
+      "founded_decade": "1000s",
+      "status": "suspended",
+      "status_note_ar": "تأثّر النشاط بسبب الحرب 2015-",
+      "scale": "international",
+      "funding_type": "religious_authority",
+      "subjects": [
+        "seerah_general",
+        "manuscripts",
+        "historiography",
+        "sources_critique",
+        "ahl_al_sunna",
+        "ahlulbayt"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "auxiliary_sciences",
+        "prophetic_demography"
+      ],
+      "languages": [
+        "ar"
+      ],
+      "output_types": [
+        "manuscripts",
+        "books"
+      ],
+      "description_ar": "أعرق مكتبة زيدية في اليمن، آلاف المخطوطات بما فيها مخطوطات صنعاء القرآنية الفريدة (اكتُشفت 1972 وتُعدّ من أقدم المخطوطات القرآنية). تأثّر النشاط بسبب الحرب اليمنية.",
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "sources": [
+        {
+          "round_file": "round-08d-shia-zaydi-ibadi.md",
+          "anchor": "ARB-072 — Sana'a Great Mosque"
+        }
+      ]
+    },
+    {
+      "id": "ARB-073",
+      "round": "08d",
+      "name_ar": "دار المخطوطات بصنعاء",
+      "name_en": "Manuscript Library of Sana'a",
+      "type": "library_archive",
+      "type_group": "publishing_knowledge",
+      "country": "YE",
+      "city_ar": "صنعاء",
+      "region": "arabia",
+      "founded_decade": "1980s",
+      "status": "suspended",
+      "scale": "national",
+      "funding_type": "state",
+      "subjects": [
+        "seerah_general",
+        "manuscripts",
+        "historiography"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "auxiliary_sciences"
+      ],
+      "languages": [
+        "ar"
+      ],
+      "output_types": [
+        "manuscripts",
+        "database"
+      ],
+      "description_ar": "مؤسسة حكومية يمنية تحوي آلاف المخطوطات الزيدية والإسلامية العامة. تأثّر نشاطها بسبب الحرب.",
+      "verification": "needs_verification",
+      "inclusion_tier": "borderline",
+      "sources": [
+        {
+          "round_file": "round-08d-shia-zaydi-ibadi.md",
+          "anchor": "ARB-073 — Sana'a Manuscripts"
+        }
+      ]
+    },
+    {
+      "id": "ARB-074",
+      "round": "08d",
+      "name_ar": "وزارة الأوقاف والشؤون الدينية – عُمان (برنامج التراث الإباضي)",
+      "name_en": "Ministry of Awqaf and Religious Affairs Oman (Ibadi Heritage Programme)",
+      "type": "ministry_program",
+      "type_group": "institutional_infra",
+      "country": "OM",
+      "city_ar": "مسقط",
+      "region": "arabia",
+      "founded_decade": "1970s",
+      "status": "active",
+      "scale": "national",
+      "funding_type": "state",
+      "subjects": [
+        "seerah_general",
+        "biography_methodology",
+        "seerah_pedagogy"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "application_outreach",
+        "methodology_critique"
+      ],
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [
+        "books",
+        "courses",
+        "khutbah_archive"
+      ],
+      "description_ar": "تشرف على معاهد دار القرآن في كل محافظات عُمان. تحفظ التراث الإباضي الكلاسيكي (مركزه التاريخي نزوى). تنسّق مع وزارة التعليم في تطوير منهج إسلامي يتضمّن الفقه الإباضي وتاريخ الإمامة الإباضية.",
+      "verification": "desk_verified",
+      "inclusion_tier": "borderline",
+      "sources": [
+        {
+          "round_file": "round-08d-shia-zaydi-ibadi.md",
+          "anchor": "ARB-074 — Oman Awqaf Ibadi"
+        }
+      ]
+    },
+    {
+      "id": "ARB-075",
+      "round": "08d",
+      "name_ar": "معهد العلوم الشرعية بمسقط",
+      "name_en": "Institute of Shari'a Sciences, Muscat",
+      "type": "research_center",
+      "type_group": "research_education",
+      "country": "OM",
+      "city_ar": "مسقط",
+      "region": "arabia",
+      "founded": 1985,
+      "founded_decade": "1980s",
+      "status": "active",
+      "scale": "national",
+      "parent_organization_ar": "وزارة الأوقاف والشؤون الدينية – عُمان",
+      "funding_type": "state",
+      "subjects": [
+        "seerah_general",
+        "biography_methodology",
+        "hadith_sciences"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "methodology_critique",
+        "auxiliary_sciences"
+      ],
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [
+        "courses",
+        "books"
+      ],
+      "description_ar": "معهد عُماني متخصّص يدرّس الفقه الإباضي والسيرة والحديث. تُعتبر مرجعية تعليمية للتيار الإباضي الحديث.",
+      "verification": "desk_verified",
+      "inclusion_tier": "borderline",
+      "sources": [
+        {
+          "round_file": "round-08d-shia-zaydi-ibadi.md",
+          "anchor": "ARB-075 — Oman Shari'a Institute"
+        }
+      ]
+    },
+    {
+      "id": "WEST-138",
+      "round": "08d",
+      "name_ar": "مؤسسة الإمام الخوئي – لندن",
+      "name_en": "Al-Khoei Foundation, London",
+      "type": "foundation_waqf",
+      "type_group": "research_education",
+      "country": "GB",
+      "city_ar": "لندن",
+      "region": "western",
+      "founded": 1989,
+      "founded_decade": "1980s",
+      "status": "active",
+      "scale": "international",
+      "url": "https://www.al-khoei.org/",
+      "funding_type": "religious_authority",
+      "subjects": [
+        "seerah_general",
+        "ahlulbayt",
+        "biography_methodology",
+        "seerah_pedagogy"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "prophetic_demography",
+        "methodology_critique",
+        "application_outreach"
+      ],
+      "languages": [
+        "en",
+        "ar",
+        "ur",
+        "fa"
+      ],
+      "output_types": [
+        "books",
+        "courses",
+        "video"
+      ],
+      "description_ar": "أكبر منظمة شيعية دولية بمقرّ لندن، +15 فرع عالمياً. أُسّست لخدمة الجالية الشيعية في الرعاية والتعليم. تشغّل مدارس الصادق للأولاد والزهراء للبنات (المدارس الشيعية الوحيدة بالمملكة المتحدة).",
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "sources": [
+        {
+          "round_file": "round-08d-shia-zaydi-ibadi.md",
+          "anchor": "WEST-138 — Al-Khoei London"
+        }
+      ]
+    },
+    {
+      "id": "WEST-139",
+      "round": "08d",
+      "name_ar": "معهد المهدي – برمنغهام",
+      "name_en": "Al-Mahdi Institute (AMI), Birmingham",
+      "type": "research_center",
+      "type_group": "research_education",
+      "country": "GB",
+      "city_ar": "برمنغهام",
+      "region": "western",
+      "founded": 1993,
+      "founded_decade": "1990s",
+      "status": "active",
+      "scale": "international",
+      "url": "https://almahdi.edu/",
+      "funding_type": "private",
+      "subjects": [
+        "seerah_general",
+        "ahlulbayt",
+        "biography_methodology",
+        "hadith_sciences",
+        "comparative_religion",
+        "sufism_seerah"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "prophetic_demography",
+        "methodology_critique",
+        "auxiliary_sciences",
+        "application_outreach"
+      ],
+      "languages": [
+        "en",
+        "ar",
+        "fa"
+      ],
+      "output_types": [
+        "courses",
+        "books",
+        "journal",
+        "video"
+      ],
+      "description_ar": "أُسّس 1993 على يد الشيخ عارف عبد الحسين. شراكة مع جامعة برمنغهام (Russell Group). 6 أقسام بحثية: الفقه، الفلسفة والكلام، القرآن، الحديث والتاريخ، التصوف، الأديان المقارنة.",
+      "key_figures": [
+        "الشيخ عارف عبد الحسين (مؤسس)"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "sources": [
+        {
+          "round_file": "round-08d-shia-zaydi-ibadi.md",
+          "anchor": "WEST-139 — Al-Mahdi Institute"
+        }
+      ]
+    },
+    {
+      "id": "WEST-140",
+      "round": "08d",
+      "name_ar": "مؤسسة الإمام الخوئي – نيويورك",
+      "name_en": "Al-Khoei Foundation, New York",
+      "type": "islamic_center",
+      "type_group": "museums_culture",
+      "country": "US",
+      "city_ar": "نيويورك",
+      "region": "western",
+      "founded_decade": "1980s",
+      "status": "active",
+      "scale": "international",
+      "url": "https://www.al-khoei.org/",
+      "parent_organization_ar": "مؤسسة الإمام الخوئي – لندن",
+      "funding_type": "religious_authority",
+      "subjects": [
+        "seerah_general",
+        "ahlulbayt",
+        "seerah_pedagogy",
+        "tarjamah"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "prophetic_demography",
+        "application_outreach"
+      ],
+      "languages": [
+        "en",
+        "ar",
+        "ur"
+      ],
+      "output_types": [
+        "lectures",
+        "courses",
+        "khutbah_archive"
+      ],
+      "description_ar": "الفرع الأمريكي الرئيس لمؤسسة الخوئي. يخدم الجالية الشيعية في أمريكا الشمالية بالتعليم والخدمات الدينية والبحوث.",
+      "explicit_relations": [
+        {
+          "target": "WEST-138",
+          "type": "child_of"
+        }
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "borderline",
+      "sources": [
+        {
+          "round_file": "round-08d-shia-zaydi-ibadi.md",
+          "anchor": "WEST-140 — Al-Khoei NY"
+        }
+      ]
+    },
+    {
+      "id": "GLB-008",
+      "round": "08d",
+      "name_ar": "مؤسسة الآغا خان للثقافة (AKTC)",
+      "name_en": "Aga Khan Trust for Culture (AKTC)",
+      "type": "foundation_waqf",
+      "type_group": "research_education",
+      "country": "CH",
+      "city_ar": "جنيف",
+      "region": "global",
+      "founded": 1988,
+      "founded_decade": "1980s",
+      "status": "active",
+      "scale": "international",
+      "parent_organization_ar": "شبكة الآغا خان للتنمية (AKDN)",
+      "funding_type": "private",
+      "subjects": [
+        "seerah_general",
+        "historiography",
+        "manuscripts",
+        "makkah_studies",
+        "madinah_studies"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "auxiliary_sciences",
+        "geography_space"
+      ],
+      "languages": [
+        "en",
+        "fr",
+        "ar",
+        "fa",
+        "ur"
+      ],
+      "output_types": [
+        "books",
+        "exhibition",
+        "database"
+      ],
+      "description_ar": "جزء من شبكة الآغا خان للتنمية. تشرف على: الجائزة العالمية للعمارة الإسلامية (الأكبر في فئتها)، الترميم التراثي الإسلامي، الحدائق التاريخية في القاهرة ومراكش ودلهي، برامج مدن التراث الإسلامي. منظمة مرجعية في حفظ التراث الإسلامي معمارياً وتراثياً.",
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "sources": [
+        {
+          "round_file": "round-08d-shia-zaydi-ibadi.md",
+          "anchor": "GLB-008 — AKTC"
+        }
+      ]
     }
   ],
-  "migration_note": "2026-05-11: hierarchical taxonomy + 8-أ (+30) + 8-ج (+25) + 8-ب (+26) = 480"
+  "migration_note": "2026-05-11: hierarchical taxonomy + 8-أ + 8-ب + 8-ج + 8-د = 502 entities"
 }
