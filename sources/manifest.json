@@ -2,7 +2,7 @@
   "project": "seerah-encyclopedia",
   "description": "مسح موسوعي للكيانات المتخصصة في خدمة السيرة النبوية، موزّعاً على سبع جولات بحثية",
   "language": "ar",
-  "totalEntities": 536,
+  "totalEntities": 607,
   "rounds": [
     {
       "id": "01",
@@ -138,9 +138,42 @@
       "region_ar": "كنيا، إثيوبيا، الصومال، إريتريا",
       "region_en": "Horn of Africa",
       "entityCount": 14,
-      "share": 0.026,
+      "share": 0.023,
       "type": "gap-filling-research",
       "note": "كنيا 4 + إثيوبيا 3 + الصومال 6 + إريتريا 1. شملت جامعة الأمة، مسجد النجاشي (أول مسجد في إفريقيا)، كلية أوليا، جامعة مقديشو."
+    },
+    {
+      "id": "08g",
+      "file": "round-08g-indonesia-malaysia.md",
+      "title_ar": "جولة 8-ز — الأرخبيل الإسلامي (إندونيسيا، ماليزيا، بروناي)",
+      "region_ar": "إندونيسيا 27 + ماليزيا 5 + بروناي 2",
+      "region_en": "Indonesian Archipelago Islamic Heartland",
+      "entityCount": 34,
+      "share": 0.056,
+      "type": "gap-filling-research",
+      "note": "أكبر تجمّع مسلم في العالم (260M+). نهضة العلماء، المحمدية، بيسانترين سيدوغيري (1745) كأقدم بيسانترين، 6 جامعات UIN جديدة، UNISSA بروناي، ثلاث ناشرين كبار."
+    },
+    {
+      "id": "08h",
+      "file": "round-08h-central-asia.md",
+      "title_ar": "جولة 8-ح — آسيا الوسطى والصين والقوقاز",
+      "region_ar": "أوزبكستان 7 + كازاخستان 2 + قيرغيزستان 2 + طاجيكستان 2 + تركمانستان 1 + الصين 4 + أذربيجان 2",
+      "region_en": "Central Asia, China, Caucasus",
+      "entityCount": 20,
+      "share": 0.033,
+      "type": "gap-filling-research",
+      "note": "مراكز الإمام البخاري والترمذي والماتريدي بأوزبكستان، Mir-i Arab Madrasa، مركز الحضارة الإسلامية بطشقند 2026، China Islamic Institute بكين، أكاديمية الإلهيات بأذربيجان."
+    },
+    {
+      "id": "08k",
+      "file": "round-08k-southeast-asia.md",
+      "title_ar": "جولة 8-ك — جنوب شرق آسيا",
+      "region_ar": "الفلبين 4 + تايلاند 4 + سنغافورة 3 + سريلانكا 2 + بنغلاديش 2 + كمبوديا 1 + فيتنام 1",
+      "region_en": "Southeast Asia (Beyond ID/MY)",
+      "entityCount": 17,
+      "share": 0.028,
+      "type": "gap-filling-research",
+      "note": "MSU Marawi، جامعة فطاني، Madrasah Aljunied، MUIS سنغافورة، Naleemiah سريلانكا، IUT بنغلاديش. منطقة كانت معدومة التغطية."
     }
   ]
 }

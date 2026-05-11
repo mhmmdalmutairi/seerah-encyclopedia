@@ -14,7 +14,10 @@
     "08c",
     "08d",
     "08e",
-    "08f"
+    "08f",
+    "08g",
+    "08h",
+    "08k"
   ],
   "entities": [
     {
@@ -22407,7 +22410,2567 @@
       "output_types": [],
       "funding_type": "academic_host",
       "round": "08f"
+    },
+    {
+      "id": "NAM-145",
+      "name_ar": "نهضة العلماء",
+      "name_en": "Nahdlatul Ulama (NU)",
+      "type": "foundation_waqf",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "ID",
+      "founded": 1926,
+      "description_ar": "أكبر منظمة إسلامية في العالم بأكثر من تسعين مليون عضو، أسّسها الشيخ هاشم أشعري في سورابايا. تخدم السيرة النبوية عبر شبكة واسعة من البيسانترين التقليدية، وإحياء المولد النبوي، وتدريس كتب السيرة الكلاسيكية كالبرزنجي والديباع، ونشر كتب الشمائل المحمدية في الأرخبيل الإندونيسي بمنهج سني أشعري شافعي.",
+      "url": "https://www.nu.or.id",
+      "subjects": [
+        "seerah_general",
+        "shamail",
+        "seerah_pedagogy",
+        "sufism_seerah"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "هاشم أشعري",
+        "وحاب حسب الله",
+        "سعيد عقيل سراج"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08g"
+    },
+    {
+      "id": "NAM-146",
+      "name_ar": "المحمدية",
+      "name_en": "Muhammadiyah",
+      "type": "foundation_waqf",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "ID",
+      "founded": 1912,
+      "description_ar": "ثاني أكبر منظمة إسلامية في إندونيسيا بأكثر من ستين مليون عضو، أسّسها أحمد دحلان في يوغياكارتا على منهج تجديدي إصلاحي. تدير آلاف المدارس والجامعات وتُصدر كتباً ومناهج في السيرة النبوية والحديث، وتُعنى بدراسات السيرة الإصلاحية المتأثّرة بمدرسة محمد عبده ورشيد رضا، مع تركيز على تنقية السيرة من الإسرائيليات.",
+      "url": "https://muhammadiyah.or.id",
+      "subjects": [
+        "seerah_general",
+        "hadith_sciences",
+        "sources_critique",
+        "seerah_pedagogy"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "auxiliary_sciences",
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "أحمد دحلان",
+        "حيدر ناشر",
+        "حدر ناشر"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08g"
+    },
+    {
+      "id": "NAM-147",
+      "name_ar": "بيسانترين دار السلام كونتور الحديث",
+      "name_en": "Pondok Modern Darussalam Gontor",
+      "type": "university_center",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "ID",
+      "founded": 1926,
+      "description_ar": "أشهر معاهد البيسانترين الحديثة في إندونيسيا، أسّسه الإخوة الثلاثة في بونوروغو بشرق جاوة. يعتمد على تدريس السيرة النبوية والحديث باللغتين العربية والإنجليزية، ويُخرّج آلاف الطلاب سنوياً يدرسون نور اليقين والرحيق المختوم وصحيح البخاري بمنهج يجمع بين التراث الأزهري والإصلاح الحديث.",
+      "url": "https://www.gontor.ac.id",
+      "subjects": [
+        "seerah_general",
+        "hadith_sciences",
+        "seerah_pedagogy",
+        "tarjamah"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "auxiliary_sciences",
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "أحمد سهل",
+        "إمام زركشي",
+        "زين الدين فناني"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08g"
+    },
+    {
+      "id": "NAM-148",
+      "name_ar": "بيسانترين ليربويو كديري",
+      "name_en": "Pondok Pesantren Lirboyo",
+      "type": "university_center",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "ID",
+      "founded": 1910,
+      "description_ar": "من أعرق معاهد البيسانترين السلفية التقليدية في جاوة الشرقية، أسّسه الشيخ عبد الكريم. يدرّس كتب السيرة الكلاسيكية كالشفا للقاضي عياض ودلائل النبوة للبيهقي، والشمائل للترمذي، بمنهج النحو والصرف والفقه الشافعي. يحتضن آلاف الطلاب ويُعدّ من أبرز معاقل العلوم الشرعية التقليدية المرتبطة بنهضة العلماء.",
+      "url": "https://lirboyo.net",
+      "subjects": [
+        "seerah_general",
+        "shamail",
+        "dalail_nubuwwa",
+        "hadith_sciences"
+      ],
+      "subjects_category": [
+        "auxiliary_sciences",
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "عبد الكريم الحاج",
+        "محرّر الحاج",
+        "إدريس مرزوقي"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08g"
+    },
+    {
+      "id": "NAM-149",
+      "name_ar": "بيسانترين سيدوغيري",
+      "name_en": "Pondok Pesantren Sidogiri",
+      "type": "university_center",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "ID",
+      "founded": 1745,
+      "description_ar": "أقدم بيسانترين في إندونيسيا في باسوروان بشرق جاوة، يعود تأسيسه إلى السيد سليمان من سلالة الأشراف الحضارمة. يتميّز بتدريس السيرة النبوية ضمن منهج الشفا والمواهب اللدنية، وله مؤسسة نشر تطبع كتب السيرة والشمائل بالعربية والإندونيسية، ويُخرّج علماء في الحديث والفقه الشافعي.",
+      "url": "https://sidogiri.net",
+      "subjects": [
+        "seerah_general",
+        "shamail",
+        "hadith_sciences",
+        "sufism_seerah"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "auxiliary_sciences",
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "السيد سليمان",
+        "نواوي عبد الجليل",
+        "عبد العالم"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08g"
+    },
+    {
+      "id": "NAM-150",
+      "name_ar": "بيسانترين تبو إيرنغ جومبانغ",
+      "name_en": "Pondok Pesantren Tebuireng",
+      "type": "university_center",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "ID",
+      "founded": 1899,
+      "description_ar": "البيسانترين التاريخي الذي أسّسه الشيخ هاشم أشعري في جومبانغ بشرق جاوة، ومنه انطلقت نهضة العلماء عام 1926. يدرّس السيرة النبوية والحديث في كتب كصحيح البخاري ومختصر السيرة لابن هشام، ويُعدّ المرجع الأوّل للمنهج النهضي في إندونيسيا. يضمّ متحفاً للسيرة النبوية وضريح المؤسس الذي يزوره الملايين سنوياً.",
+      "url": "https://tebuireng.online",
+      "subjects": [
+        "seerah_general",
+        "hadith_sciences",
+        "biography_methodology",
+        "seerah_pedagogy"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "auxiliary_sciences",
+        "classical_corpus",
+        "methodology_critique"
+      ],
+      "key_figures": [
+        "هاشم أشعري",
+        "يوسف هاشم",
+        "صلاح الدين وحيد"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08g"
+    },
+    {
+      "id": "NAM-151",
+      "name_ar": "بيسانترين كرابياك يوغياكارتا",
+      "name_en": "Pondok Pesantren Krapyak",
+      "type": "university_center",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "ID",
+      "founded": 1910,
+      "description_ar": "بيسانترين أسّسه الشيخ منور في يوغياكارتا، ويُعدّ من أهم مراكز تحفيظ القرآن وتدريس علوم الحديث والسيرة في وسط جاوة. يُدرّس فيه الموطأ والصحيحان وكتب السيرة كنور اليقين، ويُخرّج علماء بارزين في علوم الإسناد والحفظ ويرتبط بشبكة نهضة العلماء.",
+      "url": "https://almunawwir.com",
+      "subjects": [
+        "seerah_general",
+        "hadith_sciences",
+        "seerah_pedagogy"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "auxiliary_sciences",
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "محمد منوّر",
+        "علي ماكصوم",
+        "عطية الله"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08g"
+    },
+    {
+      "id": "NAM-152",
+      "name_ar": "جامعة سونان أمبيل الإسلامية الحكومية – سورابايا",
+      "name_en": "Universitas Islam Negeri Sunan Ampel Surabaya (UINSA)",
+      "type": "university_center",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "ID",
+      "founded": 1965,
+      "description_ar": "إحدى أكبر الجامعات الإسلامية الحكومية في إندونيسيا، سُمّيت على اسم سونان أمبيل أحد التسعة الأولياء ناشري الإسلام في جاوة. تضمّ كلية أصول الدين بقسم علوم الحديث والتفسير، وتُصدر مجلات محكّمة في السيرة والحديث، وتُنظّم مؤتمرات دولية في الدراسات الإسلامية والسيرة النبوية.",
+      "url": "https://www.uinsby.ac.id",
+      "subjects": [
+        "seerah_general",
+        "hadith_sciences",
+        "historiography",
+        "early_islam"
+      ],
+      "subjects_category": [
+        "auxiliary_sciences",
+        "classical_corpus",
+        "prophetic_demography"
+      ],
+      "key_figures": [
+        "مسد ماسود",
+        "أبو إسحق"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08g"
+    },
+    {
+      "id": "NAM-153",
+      "name_ar": "جامعة والي سونغو الإسلامية الحكومية – سيمارانغ",
+      "name_en": "Universitas Islam Negeri Walisongo Semarang",
+      "type": "university_center",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "ID",
+      "founded": 1970,
+      "description_ar": "جامعة إسلامية حكومية كبرى في وسط جاوة، سُمّيت على اسم الأولياء التسعة. تُعنى كلية أصول الدين والإنسانيات بتدريس السيرة النبوية وعلوم الحديث، ولديها مركز دراسات الجندر يعنى بالنساء في السيرة، وتُصدر مجلة Walisongo المحكّمة التي تنشر بحوثاً في التاريخ الإسلامي المبكّر والسيرة.",
+      "url": "https://walisongo.ac.id",
+      "subjects": [
+        "seerah_general",
+        "hadith_sciences",
+        "women_in_seerah",
+        "early_islam"
+      ],
+      "subjects_category": [
+        "auxiliary_sciences",
+        "classical_corpus",
+        "prophetic_demography"
+      ],
+      "key_figures": [
+        "إمام تاويلا",
+        "محبّ الدين"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08g"
+    },
+    {
+      "id": "NAM-154",
+      "name_ar": "جامعة مولانا مالك إبراهيم الإسلامية الحكومية – مالانغ",
+      "name_en": "Universitas Islam Negeri Maulana Malik Ibrahim Malang",
+      "type": "university_center",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "ID",
+      "founded": 2004,
+      "description_ar": "جامعة إسلامية حكومية بشرق جاوة، سُمّيت على اسم مولانا مالك إبراهيم أوّل التسعة الأولياء. تتميّز بإلزامية تعليم العربية والإنجليزية، وتدرّس السيرة النبوية ضمن مقرّرات إجبارية لجميع الطلاب، وتُخرّج باحثين في الحديث والسيرة بمنهج يجمع بين العلوم الشرعية والحديثة.",
+      "url": "https://www.uin-malang.ac.id",
+      "subjects": [
+        "seerah_general",
+        "hadith_sciences",
+        "seerah_pedagogy",
+        "tarjamah"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "auxiliary_sciences",
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "إمام سُهروني",
+        "عبد الحارث"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08g"
+    },
+    {
+      "id": "NAM-155",
+      "name_ar": "جامعة الرانيري الإسلامية الحكومية – باندا آتشيه",
+      "name_en": "Universitas Islam Negeri Ar-Raniry Banda Aceh",
+      "type": "university_center",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "ID",
+      "founded": 1963,
+      "description_ar": "جامعة إسلامية حكومية في إقليم آتشيه (الذي يطبّق الشريعة الإسلامية)، سُمّيت على اسم العالم نور الدين الرانيري. تضمّ كلية الشريعة وأصول الدين بقسم تفسير الحديث، وتُصدر بحوثاً متخصّصة في السيرة النبوية والتاريخ الإسلامي في الأرخبيل الملايو، ولها مركز دراسات الإسلام في جنوب شرق آسيا.",
+      "url": "https://www.ar-raniry.ac.id",
+      "subjects": [
+        "seerah_general",
+        "hadith_sciences",
+        "historiography",
+        "early_islam"
+      ],
+      "subjects_category": [
+        "auxiliary_sciences",
+        "classical_corpus",
+        "prophetic_demography"
+      ],
+      "key_figures": [
+        "نور الدين الرانيري",
+        "مهيب الذكير"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08g"
+    },
+    {
+      "id": "NAM-156",
+      "name_ar": "جامعة سومطرة الشمالية الإسلامية الحكومية",
+      "name_en": "Universitas Islam Negeri Sumatera Utara (UIN-SU)",
+      "type": "university_center",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "ID",
+      "founded": 1973,
+      "description_ar": "جامعة إسلامية حكومية في ميدان بسومطرة الشمالية، تخدم منطقة ذات تنوّع ثقافي ودياني. تضمّ كلية أصول الدين والدراسات الإسلامية، وتدرّس السيرة النبوية وعلوم الحديث، وتُنظّم مؤتمرات سنوية في الدراسات الإسلامية، وتُصدر مجلة Miqot المحكّمة في علوم الإسلام والحديث.",
+      "url": "https://www.uinsu.ac.id",
+      "subjects": [
+        "seerah_general",
+        "hadith_sciences",
+        "historiography"
+      ],
+      "subjects_category": [
+        "auxiliary_sciences",
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "سيد أكبر هاوي",
+        "نور أحمد فاضل لوبيس"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08g"
+    },
+    {
+      "id": "NAM-157",
+      "name_ar": "جامعة أنتاساري الإسلامية الحكومية – بنجرماسين",
+      "name_en": "Universitas Islam Negeri Antasari Banjarmasin",
+      "type": "university_center",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "ID",
+      "founded": 1964,
+      "description_ar": "جامعة إسلامية حكومية في كاليمنتان الجنوبية، سُمّيت على اسم الأمير أنتاساري بطل المقاومة ضدّ الاستعمار الهولندي. تخدم إقليماً مالكي شافعي بقوّة، وتدرّس السيرة النبوية وعلوم الحديث، وتُعنى بتراث الشيخ محمد أرشد البنجاري وعلاقته بالسيرة في الأرخبيل.",
+      "url": "https://www.uin-antasari.ac.id",
+      "subjects": [
+        "seerah_general",
+        "hadith_sciences",
+        "biography_methodology"
+      ],
+      "subjects_category": [
+        "auxiliary_sciences",
+        "classical_corpus",
+        "methodology_critique"
+      ],
+      "key_figures": [
+        "محمد أرشد البنجاري",
+        "زفري"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08g"
+    },
+    {
+      "id": "NAM-158",
+      "name_ar": "جامعة الإمام بنجول الإسلامية الحكومية – بادانغ",
+      "name_en": "Universitas Islam Negeri Imam Bonjol Padang",
+      "type": "university_center",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "ID",
+      "founded": 1966,
+      "description_ar": "جامعة إسلامية حكومية في غرب سومطرة، معقل الإصلاح الإسلامي والحركة البادري التاريخية. سُمّيت على اسم الإمام بنجول قائد المقاومة. تُعنى بدراسة السيرة النبوية في سياق المنهج الإصلاحي الميناغكاباوي وعلاقتها بحركة البادري والحاج آغوس سالم وحمكا.",
+      "url": "https://www.uinib.ac.id",
+      "subjects": [
+        "seerah_general",
+        "hadith_sciences",
+        "biography_methodology"
+      ],
+      "subjects_category": [
+        "auxiliary_sciences",
+        "classical_corpus",
+        "methodology_critique"
+      ],
+      "key_figures": [
+        "الإمام بنجول",
+        "حمكا"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08g"
+    },
+    {
+      "id": "NAM-159",
+      "name_ar": "جامعة العلوم الإسلامية الماليزية",
+      "name_en": "Universiti Sains Islam Malaysia (USIM)",
+      "type": "university_center",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "MY",
+      "founded": 1998,
+      "description_ar": "جامعة حكومية ماليزية في نيلائي تتميّز بدمج العلوم الإسلامية مع العلوم التطبيقية. تضمّ كلية الدراسات القرآنية والسنة بقسم متخصّص في علوم الحديث والسيرة النبوية، وتُخرّج دكاترة في السيرة والشمائل، وتُصدر مجلة Al-Bayan المحكّمة، وتُنظّم مؤتمراً دولياً سنوياً في القرآن والسنة.",
+      "url": "https://www.usim.edu.my",
+      "subjects": [
+        "seerah_general",
+        "hadith_sciences",
+        "shamail",
+        "biography_methodology"
+      ],
+      "subjects_category": [
+        "auxiliary_sciences",
+        "classical_corpus",
+        "methodology_critique"
+      ],
+      "key_figures": [
+        "لقمان عبد المهيمن",
+        "موسى أحمد"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08g"
+    },
+    {
+      "id": "NAM-160",
+      "name_ar": "جامعة السلطان الشريف علي الإسلامية – بروناي",
+      "name_en": "Universiti Islam Sultan Sharif Ali (UNISSA)",
+      "type": "university_center",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "BN",
+      "founded": 2007,
+      "description_ar": "أوّل جامعة إسلامية حكومية في سلطنة بروناي دار السلام، سُمّيت على اسم السلطان الشريف علي ثالث سلاطين بروناي. تضمّ كلية أصول الدين والكلية الشرعية، وتدرّس السيرة النبوية وعلوم الحديث على المذهب الشافعي، وتستقطب طلاباً من جنوب شرق آسيا، وتُصدر مجلة علمية محكّمة.",
+      "url": "https://www.unissa.edu.bn",
+      "subjects": [
+        "seerah_general",
+        "hadith_sciences",
+        "shamail"
+      ],
+      "subjects_category": [
+        "auxiliary_sciences",
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "الشريف علي",
+        "حسن البلقية"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08g"
+    },
+    {
+      "id": "NAM-161",
+      "name_ar": "أكاديمية الدراسات الإسلامية – جامعة ملايا",
+      "name_en": "Academy of Islamic Studies, Universiti Malaya",
+      "type": "university_department",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "MY",
+      "founded": 1959,
+      "description_ar": "الأكاديمية الأقدم في ماليزيا للدراسات الإسلامية، تأسّست ضمن أعرق جامعة في البلاد. تضمّ قسم القرآن والحديث وقسم العقيدة والفكر الإسلامي، وتُخرّج باحثين في السيرة النبوية والحديث، وتُصدر مجلة Jurnal Usuluddin المحكّمة، وتستضيف مؤتمرات دولية في الدراسات النبوية.",
+      "url": "https://apium.um.edu.my",
+      "subjects": [
+        "seerah_general",
+        "hadith_sciences",
+        "biography_methodology",
+        "historiography"
+      ],
+      "subjects_category": [
+        "auxiliary_sciences",
+        "classical_corpus",
+        "methodology_critique"
+      ],
+      "key_figures": [
+        "محمد كمال حسن",
+        "أكرم خصير"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08g"
+    },
+    {
+      "id": "NAM-162",
+      "name_ar": "كلية الدراسات الإسلامية – الجامعة الوطنية الماليزية",
+      "name_en": "Faculty of Islamic Studies, Universiti Kebangsaan Malaysia (UKM)",
+      "type": "university_department",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "MY",
+      "founded": 1970,
+      "description_ar": "إحدى أعرق كليات الدراسات الإسلامية في ماليزيا في جامعة كبانغسان (الوطنية) بمدينة بانغي. تضمّ قسم القرآن والسنة وقسم العقيدة والفلسفة الإسلامية، وتُخرّج باحثين في السيرة النبوية والحديث، وتُصدر مجلة Islamiyyat ومجلة AlBayan في الدراسات النبوية.",
+      "url": "https://www.ukm.my/fpi",
+      "subjects": [
+        "seerah_general",
+        "hadith_sciences",
+        "sources_critique",
+        "biography_methodology"
+      ],
+      "subjects_category": [
+        "auxiliary_sciences",
+        "classical_corpus",
+        "methodology_critique"
+      ],
+      "key_figures": [
+        "محمد رضوان عثمان",
+        "زكريا ستابا"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08g"
+    },
+    {
+      "id": "NAM-163",
+      "name_ar": "كلية معارف الوحي والعلوم الإنسانية – الجامعة الإسلامية العالمية بماليزيا",
+      "name_en": "Kulliyyah of Islamic Revealed Knowledge and Human Sciences (IRKHS), IIUM",
+      "type": "university_department",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "MY",
+      "founded": 1983,
+      "description_ar": "كلية متخصّصة في الجامعة الإسلامية العالمية بماليزيا، تضمّ قسم القرآن والسنة بشعبة دراسات الحديث المتقدّمة. تُدرّس السيرة النبوية والشمائل والمغازي ضمن برامج البكالوريوس والماجستير والدكتوراه باللغة الإنجليزية، وتستقطب طلاباً من أكثر من مئة دولة، وتُصدر مجلة Intellectual Discourse.",
+      "url": "https://www.iium.edu.my/irkhs",
+      "subjects": [
+        "seerah_general",
+        "hadith_sciences",
+        "maghazi",
+        "shamail",
+        "biography_methodology"
+      ],
+      "subjects_category": [
+        "auxiliary_sciences",
+        "classical_corpus",
+        "methodology_critique"
+      ],
+      "key_figures": [
+        "ضياء الدين الزرنوجي",
+        "إسرار أحمد خان"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08g"
+    },
+    {
+      "id": "NAM-164",
+      "name_ar": "اتّحاد الإسلام (بيرسيس)",
+      "name_en": "Persatuan Islam (Persis)",
+      "type": "foundation_waqf",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "ID",
+      "founded": 1923,
+      "description_ar": "منظمة إسلامية إصلاحية أسّسها هاجي زمزم وهاجي محمد يونس في باندونغ، تتميّز بالمنهج الإصلاحي السلفي والاهتمام بنقد الإسرائيليات في السيرة النبوية. أصدرت كتباً مهمة في السيرة والحديث، ومن أعلامها أحمد حسن المسمى (تونكو حسن) الذي صنّف في الفقه والسيرة، وتدير مدارس وبيسانترين تخدم السيرة بمنهج صحيح السند.",
+      "url": "https://persis.or.id",
+      "subjects": [
+        "seerah_general",
+        "hadith_sciences",
+        "sources_critique",
+        "sources_critique"
+      ],
+      "subjects_category": [
+        "auxiliary_sciences",
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "أحمد حسن",
+        "محمد ناصر"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08g"
+    },
+    {
+      "id": "NAM-165",
+      "name_ar": "جمعية الإرشاد الإسلامية",
+      "name_en": "Al-Irsyad Al-Islamiyyah",
+      "type": "foundation_waqf",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "ID",
+      "founded": 1914,
+      "description_ar": "منظمة أسّسها الشيخ أحمد سوركتي السوداني في جاكرتا للجالية الحضرمية والإندونيسية، على منهج إصلاحي. تدير مدارس ومعاهد تدرّس السيرة النبوية والحديث بالعربية، وأسهمت في نشر كتب السيرة الإصلاحية المتأثّرة برشيد رضا، ولها دور تاريخي في تدريس الحديث للعرب والمسلمين في الأرخبيل.",
+      "url": "https://alirsyad.or.id",
+      "subjects": [
+        "seerah_general",
+        "hadith_sciences",
+        "tarjamah"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "auxiliary_sciences",
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "أحمد سوركتي",
+        "عمر باجنيد"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08g"
+    },
+    {
+      "id": "NAM-166",
+      "name_ar": "مجلس الدعوة الإسلامية الإندونيسي",
+      "name_en": "Dewan Da'wah Islamiyah Indonesia (DDII)",
+      "type": "foundation_waqf",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "ID",
+      "founded": 1967,
+      "description_ar": "مجلس دعوي تأسّس بقيادة محمد ناصر رئيس وزراء إندونيسيا الأسبق، يخدم الدعوة في القرى والمناطق النائية. يُصدر سلاسل في السيرة النبوية بالإندونيسية، ويُدرّس الدعاة سيرة النبي ﷺ كأسوة دعوية، وله مؤسسة نشر تُصدر كتباً مترجمة من العربية في السيرة والحديث.",
+      "url": "https://dewandakwah.or.id",
+      "subjects": [
+        "seerah_general",
+        "youth_outreach",
+        "tarjamah",
+        "seerah_pedagogy"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "محمد ناصر",
+        "محمد رشيدي"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08g"
+    },
+    {
+      "id": "NAM-167",
+      "name_ar": "معهد إنسستس للفكر والحضارة الإسلامية",
+      "name_en": "INSISTS (Institute for the Study of Islamic Thought and Civilization)",
+      "type": "research_center",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "ID",
+      "founded": 2003,
+      "description_ar": "معهد بحثي أسّسه طلاب الفلسفة الإسلامية والفكر، متأثّرين بمنهج نقيب العطّاس (مؤسس ISTAC). يُعنى بنقد العلمنة في دراسات السيرة النبوية، ويُصدر مجلة Tsaqafah وسلسلة كتب في فكر السيرة، وله نشاط في تدريس السيرة كحضارة لا مجرّد سرد تاريخي، ويعقد ندوات نقدية للدراسات الاستشراقية.",
+      "url": "https://insists.id",
+      "subjects": [
+        "seerah_general",
+        "historiography",
+        "sources_critique",
+        "biography_methodology"
+      ],
+      "subjects_category": [
+        "auxiliary_sciences",
+        "classical_corpus",
+        "methodology_critique"
+      ],
+      "key_figures": [
+        "هاميد فهمي زركشي",
+        "أديان حصين"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08g"
+    },
+    {
+      "id": "NAM-168",
+      "name_ar": "مركز دراسات الإسلام والمجتمع – جامعة شريف هداية الله",
+      "name_en": "PPIM UIN Syarif Hidayatullah Jakarta",
+      "type": "research_center",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "ID",
+      "founded": 1994,
+      "description_ar": "مركز بحثي تابع لجامعة شريف هداية الله جاكرتا، يُعدّ من أبرز مراكز الدراسات الإسلامية في إندونيسيا. يُصدر مجلة Studia Islamika المحكّمة باللغات الثلاث (الإندونيسية والعربية والإنجليزية) بمعامل تأثير عالي، وينشر بحوثاً في تاريخ المخطوطات الإسلامية والسيرة النبوية في الأرخبيل.",
+      "url": "https://ppim.uinjkt.ac.id",
+      "subjects": [
+        "seerah_general",
+        "manuscripts",
+        "historiography",
+        "biography_methodology"
+      ],
+      "subjects_category": [
+        "auxiliary_sciences",
+        "classical_corpus",
+        "methodology_critique"
+      ],
+      "key_figures": [
+        "عظيم الموتي",
+        "جمهاري"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08g"
+    },
+    {
+      "id": "NAM-169",
+      "name_ar": "معهد معارف للثقافة والإنسانية",
+      "name_en": "Maarif Institute",
+      "type": "research_center",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "ID",
+      "founded": 2003,
+      "description_ar": "معهد بحثي أسّسه أحمد شفيع معارف الرئيس الأسبق للمحمدية، يُعنى بربط القيم الإسلامية بالتعدّدية. يُصدر بحوثاً ومجلة في الفكر الإسلامي والسيرة النبوية بمنظور الأخلاق والقيم، ويعقد ندوات حول النبي ﷺ كنموذج للقيادة والتعايش في المجتمعات المتعدّدة.",
+      "url": "https://maarifinstitute.org",
+      "subjects": [
+        "seerah_general",
+        "biography_methodology",
+        "youth_outreach"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "classical_corpus",
+        "methodology_critique"
+      ],
+      "key_figures": [
+        "أحمد شفيع معارف",
+        "محمد عبد الفتاح"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08g"
+    },
+    {
+      "id": "NAM-170",
+      "name_ar": "معهد وحيد",
+      "name_en": "Wahid Institute (Wahid Foundation)",
+      "type": "research_center",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "ID",
+      "founded": 2004,
+      "description_ar": "مؤسسة أسّسها الرئيس الأسبق عبد الرحمن وحيد (غوس دور) لتعزيز الإسلام التعدّدي والسلام. تُصدر منشورات في السيرة النبوية باعتبارها مصدراً لقيم التسامح والعدالة الاجتماعية، وتُنظّم ندوات حول صحيفة المدينة كنموذج تعدّدي مبكّر، وتعتني بالنساء في السيرة وتاريخ نهضة العلماء.",
+      "url": "https://wahidfoundation.org",
+      "subjects": [
+        "seerah_general",
+        "madinah_studies",
+        "women_in_seerah",
+        "youth_outreach"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "classical_corpus",
+        "geography_space",
+        "prophetic_demography"
+      ],
+      "key_figures": [
+        "عبد الرحمن وحيد",
+        "ينّي وحيد"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08g"
+    },
+    {
+      "id": "NAM-171",
+      "name_ar": "دار النشر ميزان",
+      "name_en": "Mizan Publishing",
+      "type": "publisher",
+      "type_group": "publishing_knowledge",
+      "region": "non_arab_muslim",
+      "country": "ID",
+      "founded": 1983,
+      "description_ar": "أكبر دار نشر إسلامية ثقافية في إندونيسيا، أسّسها هيدار باغر في باندونغ. نشرت ترجمات إندونيسية للسيرة النبوية من العربية والإنجليزية، بما فيها أعمال مارتن لينغز ومحمد حسين هيكل وأبي الحسن الندوي. لها بصمة قوية في توطين أدبيات السيرة العالمية للقارئ الإندونيسي.",
+      "url": "https://mizanstore.com",
+      "subjects": [
+        "seerah_general",
+        "tarjamah",
+        "biography_methodology"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "classical_corpus",
+        "methodology_critique"
+      ],
+      "key_figures": [
+        "هيدار باغر",
+        "أحمد بقير"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08g"
+    },
+    {
+      "id": "NAM-172",
+      "name_ar": "دار غيما إنساني للنشر",
+      "name_en": "Gema Insani Press",
+      "type": "publisher",
+      "type_group": "publishing_knowledge",
+      "region": "non_arab_muslim",
+      "country": "ID",
+      "founded": 1986,
+      "description_ar": "دار نشر إسلامية كبرى في جاكرتا، متخصّصة في الكتب الإسلامية المترجمة والإندونيسية الأصلية. نشرت ترجمات لأكثر كتب السيرة شيوعاً عربياً كالرحيق المختوم للمباركفوري وفقه السيرة للغزالي وفي ظلال السيرة لسيد قطب، وتلعب دوراً أساسياً في تعريف القارئ الإندونيسي بأدبيات السيرة الحديثة.",
+      "url": "https://gemainsani.com",
+      "subjects": [
+        "seerah_general",
+        "tarjamah",
+        "biography_methodology"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "classical_corpus",
+        "methodology_critique"
+      ],
+      "key_figures": [
+        "عمر باسالم"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08g"
+    },
+    {
+      "id": "NAM-173",
+      "name_ar": "دار النشر بستاكا الكوثر",
+      "name_en": "Pustaka Al-Kautsar",
+      "type": "publisher",
+      "type_group": "publishing_knowledge",
+      "region": "non_arab_muslim",
+      "country": "ID",
+      "founded": 1990,
+      "description_ar": "دار نشر إسلامية في جاكرتا تركّز على ترجمة كتب التراث العربي إلى الإندونيسية. لديها كتالوج واسع من ترجمات السيرة النبوية الكلاسيكية والحديثة، بما فيها سيرة ابن هشام، وزاد المعاد لابن القيم، والبداية والنهاية لابن كثير، وتُعدّ من أهمّ ناقلي تراث السيرة من العربية للقارئ الإندونيسي.",
+      "url": "https://kautsar.co.id",
+      "subjects": [
+        "seerah_general",
+        "tarjamah",
+        "maghazi",
+        "biography_methodology"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "classical_corpus",
+        "methodology_critique"
+      ],
+      "key_figures": [
+        "لقمان حركيم"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08g"
+    },
+    {
+      "id": "NAM-174",
+      "name_ar": "كلية الحديث – جامعة المدينة العالمية",
+      "name_en": "Faculty of Hadith Sciences, Al-Madinah International University",
+      "type": "university_department",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "MY",
+      "founded": 2007,
+      "description_ar": "جامعة عربية إسلامية في شاه عالم بماليزيا، تُدرّس بالعربية والإنجليزية. تضمّ كلية الحديث وكلية أصول الدين بقسم متخصّص في علوم الحديث ودراسات السيرة النبوية، وتقدّم برامج عن بُعد تستقطب طلاباً من أكثر من خمسين دولة، وتُخرّج باحثين في السيرة على المنهج السلفي.",
+      "url": "https://mediu.edu.my",
+      "subjects": [
+        "seerah_general",
+        "hadith_sciences",
+        "biography_methodology",
+        "tarjamah"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "auxiliary_sciences",
+        "classical_corpus",
+        "methodology_critique"
+      ],
+      "key_figures": [
+        "أحمد سيرومان",
+        "محمد خليفة التميمي"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08g"
+    },
+    {
+      "id": "NAM-175",
+      "name_ar": "بيسانترين الأمين برندوان",
+      "name_en": "Pondok Pesantren Al-Amien Prenduan",
+      "type": "university_center",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "ID",
+      "founded": 1952,
+      "description_ar": "بيسانترين حديث على غرار كونتور في جزيرة مادورا، يدمج النهج التقليدي السلفي مع التعليم العصري. يدرّس السيرة النبوية والحديث بالعربية والإنجليزية والإندونيسية، ويُخرّج حفّاظ القرآن والحديث، وله معهد متخصّص في الدراسات النبوية للنساء، ويتميّز بمنهج جامع بين النهضي والإصلاحي.",
+      "url": "https://al-amien.ac.id",
+      "subjects": [
+        "seerah_general",
+        "hadith_sciences",
+        "women_in_seerah",
+        "seerah_pedagogy"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "auxiliary_sciences",
+        "classical_corpus",
+        "prophetic_demography"
+      ],
+      "key_figures": [
+        "محمد إدريس جوهري",
+        "محمد طيب"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08g"
+    },
+    {
+      "id": "NAM-176",
+      "name_ar": "مكتبة دار العلوم الإسلامية – بروناي",
+      "name_en": "Pusat Dakwah Islamiah Library, Brunei",
+      "type": "library_archive",
+      "type_group": "publishing_knowledge",
+      "region": "non_arab_muslim",
+      "country": "BN",
+      "founded": 1985,
+      "description_ar": "مكتبة وأرشيف تابع لمركز الدعوة الإسلامية في بندر سري بكاوان، يحوي مجموعة نادرة من المخطوطات والمطبوعات الإسلامية المالاوية والعربية. يضمّ مخطوطات للسيرة النبوية باللغة الجاوية والمالاوية القديمة، ويُعدّ مرجعاً لتاريخ انتشار السيرة في الأرخبيل المالاوي.",
+      "url": "https://www.religious-affairs.gov.bn",
+      "subjects": [
+        "manuscripts",
+        "seerah_general",
+        "historiography"
+      ],
+      "subjects_category": [
+        "auxiliary_sciences",
+        "classical_corpus"
+      ],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08g"
+    },
+    {
+      "id": "NAM-177",
+      "name_ar": "جامعة محمدية مالانغ",
+      "name_en": "Universitas Muhammadiyah Malang (UMM)",
+      "type": "university_center",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "ID",
+      "founded": 1964,
+      "description_ar": "إحدى أكبر جامعات شبكة المحمدية في شرق جاوة، تضمّ كلية الدراسات الإسلامية بقسم تفسير الحديث والشريعة. تُدرّس السيرة النبوية ضمن المنهج المحمدي الإصلاحي، وتُصدر مجلة Progresiva في الفكر الإسلامي، وتُخرّج باحثين متخصّصين في الحديث وفقه السيرة بمنهج تجديدي.",
+      "url": "https://www.umm.ac.id",
+      "subjects": [
+        "seerah_general",
+        "hadith_sciences",
+        "seerah_pedagogy"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "auxiliary_sciences",
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "مالك فجر",
+        "محاجر أنوار"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08g"
+    },
+    {
+      "id": "NAM-178",
+      "name_ar": "بيسانترين بويا حمكا – باداني بانجانغ",
+      "name_en": "Pesantren Buya Hamka",
+      "type": "university_center",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "ID",
+      "founded": 1957,
+      "description_ar": "بيسانترين تاريخي مرتبط بالعلّامة حمكا (الحاج عبد المالك كريم أمر الله) صاحب تفسير الأزهر وكاتب السيرة النبوية بالإندونيسية. يخدم منطقة ميناغكاباو في غرب سومطرة، ويدرّس السيرة بمنهج إصلاحي تجديدي مع تركيز على فهم السيرة في سياق التغيير الاجتماعي والوطني.",
+      "url": "https://buya-hamka.com",
+      "subjects": [
+        "seerah_general",
+        "biography_methodology",
+        "tarjamah"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "classical_corpus",
+        "methodology_critique"
+      ],
+      "key_figures": [
+        "حمكا",
+        "رشيد حمكا"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08g"
+    },
+    {
+      "id": "NAM-179",
+      "name_ar": "الأكاديمية الإسلامية الدولية بأوزبكستان",
+      "name_en": "International Islamic Academy of Uzbekistan (IIAU)",
+      "type": "university_center",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "UZ",
+      "founded": 2018,
+      "description_ar": "مؤسسة جامعية حكومية كبرى في طشقند تأسست بمرسوم رئاسي على أساس أكاديمية أوزبكستان الإسلامية وجامعة طشقند الإسلامية. تضم ثلاث كليات: الدراسات الإسلامية، والفقه الكلاسيكي الشرقي، والاقتصاد الإسلامي. تمنح درجات البكالوريوس والماجستير والدكتوراه في تخصصات القرآن والحديث والفقه والعقيدة، وتصدر مجلة علمية محكّمة في علوم الحديث والتفسير والشريعة.",
+      "url": "https://iiau.uz/en",
+      "subjects": [
+        "hadith_sciences",
+        "quran_tafsir",
+        "fiqh_usul",
+        "aqidah_kalam",
+        "islamic_history"
+      ],
+      "subjects_category": [
+        "auxiliary_sciences"
+      ],
+      "key_figures": [
+        "مظفّر قمر الدينوف"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08h"
+    },
+    {
+      "id": "NAM-180",
+      "name_ar": "مركز الحضارة الإسلامية في أوزبكستان",
+      "name_en": "Center for Islamic Civilization of Uzbekistan",
+      "type": "research_center",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "UZ",
+      "founded": 2026,
+      "description_ar": "أكبر مجمّع ثقافي علمي تعليمي إسلامي في أوزبكستان، افتتحه الرئيس شوكت ميرضياييف في 17 مارس 2026 على أرض مجمع حضرة الإمام في طشقند. يضم متحفاً، ومعهد أبحاث، ومكتبة تحوي 200 ألف مجلد، ومختبرات ترميم، وقاعة مؤتمرات بسعة 460 مقعداً. وأبرز مقتنياته مصحف عثمان الكوفي السمرقندي، أحد أقدم المصاحف المخطوطة في العالم.",
+      "url": "https://iccu.uz/en",
+      "subjects": [
+        "islamic_history",
+        "manuscripts_codicology",
+        "seerah_general",
+        "quran_tafsir",
+        "civilization_studies"
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "شوكت ميرضياييف (راعي المشروع)"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08h"
+    },
+    {
+      "id": "NAM-181",
+      "name_ar": "مركز الإمام البخاري الدولي للبحوث العلمية",
+      "name_en": "Imam al-Bukhari International Scientific Research Center",
+      "type": "research_center",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "UZ",
+      "founded": 2017,
+      "description_ar": "مركز بحثي حكومي تابع لمجلس وزراء جمهورية أوزبكستان، أُسس بمرسوم رئاسي في 27 مارس 2017 في قرية خوجة إسماعيل بمنطقة بياريك في سمرقند بجوار مقام الإمام البخاري. يُعنى بدراسة حياة الإمام البخاري وكتبه الحديثية ونشر تراثه ومنهجه في علم الجرح والتعديل والتخريج، ويتعاون مع IRCICA وICESCO في مشاريع علمية مشتركة.",
+      "url": "https://bukhari.uz/?lang=en",
+      "subjects": [
+        "hadith_sciences",
+        "rijal_jarh_tadeel",
+        "seerah_general",
+        "islamic_history",
+        "manuscripts_codicology"
+      ],
+      "subjects_category": [
+        "auxiliary_sciences",
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "شوواصل ضيا أوف"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08h"
+    },
+    {
+      "id": "NAM-182",
+      "name_ar": "مركز الإمام الترمذي الدولي للبحوث العلمية",
+      "name_en": "Imam al-Termezi International Scientific Research Center",
+      "type": "research_center",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "UZ",
+      "founded": 2017,
+      "description_ar": "مركز بحثي حكومي في مدينة ترمذ بأوزبكستان، أُنشئ بمرسوم رئاسي وقّعه شوكت ميرضياييف في 14 فبراير 2017. يُعنى بدراسة علوم الحديث وتراث الإمام أبي عيسى الترمذي صاحب الجامع، وسائر علماء ترمذ، ويصدر ترجمات ودراسات نقدية مقارنة لمصنفاتهم. ويستقطب علماء من أفغانستان ومصر والهند والعراق وباكستان وروسيا وتركيا والمملكة المتحدة لمؤتمراته الدولية.",
+      "url": "https://termizi.uz/en/",
+      "subjects": [
+        "hadith_sciences",
+        "rijal_jarh_tadeel",
+        "seerah_general",
+        "islamic_history",
+        "tasawwuf_spirituality"
+      ],
+      "subjects_category": [
+        "auxiliary_sciences",
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "الإمام أبو عيسى الترمذي (الموروث العلمي)"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08h"
+    },
+    {
+      "id": "NAM-183",
+      "name_ar": "مركز الإمام الماتريدي الدولي للبحوث العلمية",
+      "name_en": "Imam Maturidi International Scientific Research Center",
+      "type": "research_center",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "UZ",
+      "founded": 2020,
+      "description_ar": "مركز أبحاث متخصص في تجديد المنهج الماتريدي في علم العقيدة، أُسس بمبادرة من الرئيس ميرضياييف في 11 أغسطس 2020. يقع ضمن مجمع الإمام الماتريدي في مقبرة جوكارديزة التاريخية بسمرقند على 26 هكتاراً. يدرس تراث أبي منصور الماتريدي وأبي المعين النسفي في علم الكلام، ووقّع مذكرة تفاهم مع الإيسيسكو لإطلاق مبادرات علمية مشتركة.",
+      "url": "https://imammaturidi.uz/",
+      "subjects": [
+        "aqidah_kalam",
+        "islamic_history",
+        "civilization_studies",
+        "manuscripts_codicology"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "أبو منصور الماتريدي (الموروث)",
+        "أبو المعين النسفي (الموروث)"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08h"
+    },
+    {
+      "id": "NAM-184",
+      "name_ar": "مدرسة مير عرب العليا، بخارى",
+      "name_en": "Mir-i Arab Higher Madrasa, Bukhara",
+      "type": "university_center",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "UZ",
+      "founded": 1535,
+      "description_ar": "أعرق مدرسة دينية مستمرة في آسيا الوسطى، شُيّدت في عهد عبيد الله خان الشيباني عام 1535 بإشراف الشيخ عبد الله اليماني (مير عرب). كانت إحدى المدرستين الإسلاميتين الوحيدتين المرخّص لهما بالعمل في الاتحاد السوفيتي، واستعادت دورها التعليمي عام 1945. تُدرّس اليوم الفقه الحنفي والحديث والتفسير والعربية لطلبة يستعدّون لمناصب الإمامة في أوزبكستان.",
+      "url": "https://uzbekistan.travel/en/o/miri-arab-madrasah/",
+      "subjects": [
+        "fiqh_usul",
+        "hadith_sciences",
+        "quran_tafsir",
+        "aqidah_kalam",
+        "arabic_language"
+      ],
+      "subjects_category": [
+        "auxiliary_sciences"
+      ],
+      "key_figures": [
+        "الشيخ عبد الله اليماني (المؤسس)",
+        "عبيد الله خان الشيباني (الراعي)"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08h"
+    },
+    {
+      "id": "NAM-185",
+      "name_ar": "معهد طشقند الإسلامي باسم الإمام البخاري",
+      "name_en": "Tashkent Islamic Institute named after Imam al-Bukhari",
+      "type": "university_center",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "UZ",
+      "founded": 1971,
+      "description_ar": "المعهد الإسلامي العالي الأبرز في عهد الاتحاد السوفيتي، افتتحه الشيخ ضياء الدين خان بن إيشان بابخان في 1 نوفمبر 1971 بطشقند، وسُمّي عام 1974 باسم الإمام البخاري بمناسبة مرور 1200 سنة على مولده. يدرس فيه أكثر من 650 طالباً منهج أربع سنوات بالأوزبكية والعربية، ويعمل خريجوه أئمة وخطباء في مساجد أوزبكستان. يقع ضمن مجمع حضرة الإمام تحت إشراف إدارة مسلمي أوزبكستان.",
+      "url": "https://oliymahad.uz/en/",
+      "subjects": [
+        "hadith_sciences",
+        "fiqh_usul",
+        "quran_tafsir",
+        "arabic_language",
+        "aqidah_kalam"
+      ],
+      "subjects_category": [
+        "auxiliary_sciences"
+      ],
+      "key_figures": [
+        "الشيخ ضياء الدين خان بابخان (المؤسس)"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08h"
+    },
+    {
+      "id": "NAM-186",
+      "name_ar": "جامعة نور مبارك المصرية للثقافة الإسلامية",
+      "name_en": "Egyptian University of Islamic Culture Nur-Mubarak",
+      "type": "university_center",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "KZ",
+      "founded": 2001,
+      "description_ar": "جامعة مشتركة بين كازاخستان ومصر مقرها في ألماتي على شارع الفارابي، تأسست عام 2001 وافتُتحت رسمياً عام 2003 بعد زيارة الرئيس نزارباييف إلى مصر في 1993. تضم نحو 2800 خريج، وتُدرّس أصول الإسلام والقرآن والحديث والفقه باللغة العربية، مع مشاركة أساتذة من الأزهر من السنة الثانية. تضم ضمن العشرين الأولى في كازاخستان، ولها برامج تبادل مع تركيا ومصر وماليزيا.",
+      "url": "https://www.nmu.edu.kz/en/",
+      "subjects": [
+        "hadith_sciences",
+        "quran_tafsir",
+        "fiqh_usul",
+        "arabic_language",
+        "aqidah_kalam"
+      ],
+      "subjects_category": [
+        "auxiliary_sciences"
+      ],
+      "key_figures": [
+        "نور سلطان نزارباييف (الراعي)",
+        "حسني مبارك (الراعي المصري)"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08h"
+    },
+    {
+      "id": "NAM-187",
+      "name_ar": "الإدارة الروحية لمسلمي كازاخستان",
+      "name_en": "Spiritual Administration of Muslims of Kazakhstan (DUMK)",
+      "type": "ministry_program",
+      "type_group": "institutional_infra",
+      "region": "non_arab_muslim",
+      "country": "KZ",
+      "founded": 1990,
+      "description_ar": "الهيئة الدينية الرسمية للمسلمين في كازاخستان، تأسست في كورولتاي يناير 1990 خَلَفاً للإدارة السوفيتية. تُشرف على أكثر من 2500 مسجد ومؤسسة تعليمية، وتنشر منهج المذهب الحنفي السني. قدّمت دورات للأمية الدينية في 966 مسجداً درّبت 82000 شخص في 2018، وتُطلق تطبيق «إمام AI» للإجابة الفقهية. تتعاون مع جامعة نور مبارك وIRCICA في تحقيق المخطوطات.",
+      "url": "https://www.muftyat.kz/",
+      "subjects": [
+        "fiqh_usul",
+        "hadith_sciences",
+        "quran_tafsir",
+        "fatwa_ifta",
+        "imam_training"
+      ],
+      "subjects_category": [
+        "auxiliary_sciences"
+      ],
+      "key_figures": [
+        "رتبيك حاجي نسانبائيف (المفتي المؤسس)",
+        "ناوريزباي قاجي طاغان أولي (المفتي الحالي)"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "state",
+      "round": "08h"
+    },
+    {
+      "id": "NAM-188",
+      "name_ar": "الإدارة الروحية لمسلمي قيرغيزستان (المفتية)",
+      "name_en": "Spiritual Administration of Muslims of Kyrgyzstan (Muftiate)",
+      "type": "ministry_program",
+      "type_group": "institutional_infra",
+      "region": "non_arab_muslim",
+      "country": "KG",
+      "founded": 1993,
+      "description_ar": "الهيئة الإسلامية العليا في قيرغيزستان، تأسست عام 1993، وتشرف على المعاهد والمدارس والمساجد والمنظمات الإسلامية. مقرها الجديد افتُتح في بيشكك في 27 أغسطس 2023. لها فروع إقليمية (قاضيات) في كل المقاطعات السبع وفي مدينتي بيشكك وأوش. تروّج المذهب الحنفي السني التقليدي، وتشرف على التعليم الديني ومناهج الأئمة والوعاظ.",
+      "url": "https://muftiyat.kg/",
+      "subjects": [
+        "fiqh_usul",
+        "fatwa_ifta",
+        "imam_training",
+        "hadith_sciences",
+        "quran_tafsir"
+      ],
+      "subjects_category": [
+        "auxiliary_sciences"
+      ],
+      "key_figures": [
+        "عبد العزيز قاري ذاكروف (المفتي)",
+        "شاكر مماتوف (نائب المفتي)"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "state",
+      "round": "08h"
+    },
+    {
+      "id": "NAM-189",
+      "name_ar": "الجامعة الإسلامية لقيرغيزستان (الحضرة عمر سابقاً)",
+      "name_en": "Islamic University of Kyrgyzstan",
+      "type": "university_center",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "KG",
+      "founded": 1993,
+      "description_ar": "أعرق مؤسسة إسلامية تعليمية في قيرغيزستان، افتُتحت في مايو 1993 معهداً باسم «حضرة عمر»، وحُوّلت إلى جامعة في 19 يونيو 2003 بقرار الكورولتاي الثاني لمسلمي البلاد. يدرس فيها 400 طالب سنوياً مع 40 محاضراً برنامج خمس سنوات في الفقه والشريعة والعربية واللاهوت الإسلامي. وقد منحت دكتوراه فخرية لإمام المسجد النبوي. خرّجت 197 طالباً بين 1993-2013.",
+      "url": "https://muftiyat.kg/",
+      "subjects": [
+        "fiqh_usul",
+        "hadith_sciences",
+        "quran_tafsir",
+        "arabic_language",
+        "aqidah_kalam"
+      ],
+      "subjects_category": [
+        "auxiliary_sciences"
+      ],
+      "key_figures": [
+        "عبد الشكور نارماتوف (الرئيس المؤسس للجامعة)"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08h"
+    },
+    {
+      "id": "NAM-190",
+      "name_ar": "معهد الإمام الأعظم أبي حنيفة الإسلامي بطاجيكستان",
+      "name_en": "Imam Abu Hanifa Islamic Institute of Tajikistan",
+      "type": "university_center",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "TJ",
+      "founded": 1997,
+      "description_ar": "المؤسسة الإسلامية الرسمية الأبرز في طاجيكستان، تأسست عام 1997 جامعةً للإمام الترمذي ثم سُميت عام 2009 باسم الإمام الأعظم أبي حنيفة بمرسوم رئاسي. تقع في حي السينو بدوشانبه على مساحة هكتارين، وافتتح الرئيس إمام علي رحمان مبانيها الجديدة في 21 أغسطس 2025 بسبع مبانٍ متعددة الطوابق ومكتبة إلكترونية وقاعة محاضرات لـ500 شخص ومسكن لـ520 طالباً. تُدرّس الفقه الحنفي والحديث والتفسير.",
+      "url": "https://www.fumi-fuiw.org/fuiw/en/member/365",
+      "subjects": [
+        "fiqh_usul",
+        "hadith_sciences",
+        "quran_tafsir",
+        "aqidah_kalam",
+        "arabic_language"
+      ],
+      "subjects_category": [
+        "auxiliary_sciences"
+      ],
+      "key_figures": [
+        "إمام علي رحمان (الراعي الرسمي)"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08h"
+    },
+    {
+      "id": "NAM-191",
+      "name_ar": "مجلس علماء طاجيكستان (المركز الإسلامي)",
+      "name_en": "Council of Ulama of Tajikistan (Islamic Center)",
+      "type": "ministry_program",
+      "type_group": "institutional_infra",
+      "region": "non_arab_muslim",
+      "country": "TJ",
+      "founded": 1996,
+      "description_ar": "السلطة الإسلامية العليا في طاجيكستان والهيئة الوحيدة المخوّلة بإصدار الفتاوى. يرأسها منذ 2010 المفتي سيد مكرّم عبد القادر زاده. تعمل تحت إشراف الحكومة، وتشرف على المسجد المركزي في دوشانبه وتُحدّد مواعيد الأعياد الشرعية. أصدرت مؤخراً بيانات حول التشيّع الإيراني، ويعمل المجلس على ترشيد الخطاب الديني وتدريب الأئمة وفق المذهب الحنفي الماتريدي.",
+      "url": "https://islamic.tj/",
+      "subjects": [
+        "fatwa_ifta",
+        "fiqh_usul",
+        "hadith_sciences",
+        "imam_training",
+        "aqidah_kalam"
+      ],
+      "subjects_category": [
+        "auxiliary_sciences"
+      ],
+      "key_figures": [
+        "سيد مكرّم عبد القادر زاده (رئيس المجلس)"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "state",
+      "round": "08h"
+    },
+    {
+      "id": "NAM-192",
+      "name_ar": "كنكاش الشؤون الدينية في تركمانستان",
+      "name_en": "Gengesh (Council) for Religious Affairs of Turkmenistan",
+      "type": "ministry_program",
+      "type_group": "institutional_infra",
+      "region": "non_arab_muslim",
+      "country": "TM",
+      "founded": 1994,
+      "description_ar": "الهيئة الحكومية الرئيسية المشرفة على الشؤون الدينية في تركمانستان، تعمل تحت رئاسة الجمهورية ومقرها عشق آباد مع فروع في الولايات الخمس. تُشرف على تعيين المفتي الأعلى والأئمة على المستوى الإقليمي، وتُوافق على استيراد الكتب الدينية، وتمنح التراخيص لكل نشاط ديني. يرأس المفتية حالياً ياقشي مراد آتامرادوف، ويتركّز عملها على الإسلام السني الحنفي.",
+      "url": "https://turkmenistan.gov.tm/",
+      "subjects": [
+        "fatwa_ifta",
+        "imam_training",
+        "fiqh_usul",
+        "quran_tafsir"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "ياقشي مراد آتامرادوف (المفتي)"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "state",
+      "round": "08h"
+    },
+    {
+      "id": "NAM-193",
+      "name_ar": "الجمعية الإسلامية الصينية",
+      "name_en": "Islamic Association of China (IAC)",
+      "type": "ministry_program",
+      "type_group": "institutional_infra",
+      "region": "non_arab_muslim",
+      "country": "CN",
+      "founded": 1953,
+      "description_ar": "الهيئة الإسلامية الرسمية الكبرى في الصين، تأسست في 11 مايو 1953 في بكين خلال أول مؤتمر وطني لممثلي القوميات المسلمة. مقرها بكين، وتشرف على نشر القرآن الكريم وأحاديث النبي ﷺ بالعربية والصينية، وتدير شبكة من تسعة معاهد إسلامية إقليمية. تنظّم بعثات الحج وتُصدر الفتاوى وتدرّب الأئمة (الآخوند) ضمن إطار يدمج التعاليم الإسلامية مع السياسة الصينية.",
+      "url": "http://www.chinaislam.net.cn/",
+      "subjects": [
+        "fatwa_ifta",
+        "imam_training",
+        "quran_tafsir",
+        "hadith_sciences",
+        "arabic_language"
+      ],
+      "subjects_category": [
+        "auxiliary_sciences"
+      ],
+      "key_figures": [
+        "يانغ فا مينغ (الرئيس الحالي)"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "state",
+      "round": "08h"
+    },
+    {
+      "id": "NAM-194",
+      "name_ar": "المعهد الإسلامي الصيني، بكين",
+      "name_en": "China Islamic Institute, Beijing",
+      "type": "university_center",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "CN",
+      "founded": 1955,
+      "description_ar": "أول وأبرز معهد إسلامي وطني في الصين، أسسته الجمعية الإسلامية الصينية عام 1955 في بكين لتأهيل الأئمة والآخوند والمعلّمين الدينيين. منهجه الدراسي خمس سنوات يشمل علم التفسير والحديث وعلم الكلام والشريعة وفلسفة التصوف، إضافة إلى العربية والصينية والتاريخ الإسلامي والعالمي. احتفل بمرور 70 سنة على تأسيسه في 2025، ويُعدّ النموذج لـ8 معاهد إقليمية في شينجيانغ ونينغشيا ويوننان وقانسو وغيرها.",
+      "url": "http://www.chinaislam.net.cn/",
+      "subjects": [
+        "hadith_sciences",
+        "quran_tafsir",
+        "fiqh_usul",
+        "aqidah_kalam",
+        "arabic_language",
+        "tasawwuf_spirituality"
+      ],
+      "subjects_category": [
+        "auxiliary_sciences"
+      ],
+      "key_figures": [
+        "برهان شهيدي (الرئيس المؤسس)"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08h"
+    },
+    {
+      "id": "NAM-195",
+      "name_ar": "المعهد الإسلامي بشينجيانغ، أورومتشي",
+      "name_en": "Xinjiang Islamic Institute, Urumqi",
+      "type": "university_center",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "CN",
+      "founded": 1986,
+      "description_ar": "أكبر معهد إسلامي في منطقة شينجيانغ ذات الأغلبية المسلمة، تأسس عام 1986 في أورومتشي ونُقل إلى حرم جديد موسّع عام 2017. يدرس فيه أكثر من 1100 طالب، و70% من منهجه إسلامي يشمل تلاوة القرآن وتفسيره والحديث والشريعة والعربية، و30% أدب ويغوري وصيني. تضم مكتبته 17 ألف كتاب، ويُترجم القرآن والمؤلفات الإسلامية إلى الويغورية والصينية. له 8 فروع في إيلي وكاشغر وهوتان وغيرها.",
+      "url": "http://www.chinaislam.net.cn/",
+      "subjects": [
+        "quran_tafsir",
+        "hadith_sciences",
+        "fiqh_usul",
+        "arabic_language",
+        "translation"
+      ],
+      "subjects_category": [
+        "auxiliary_sciences"
+      ],
+      "key_figures": [
+        "عبد الرقيب الحاج تومينياز (رئيس سابق)"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08h"
+    },
+    {
+      "id": "NAM-196",
+      "name_ar": "المعهد الإسلامي بنينغشيا، يينتشوان",
+      "name_en": "Ningxia Islamic Institute, Yinchuan",
+      "type": "university_center",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "CN",
+      "founded": 1985,
+      "description_ar": "أحد أهم المعاهد الإسلامية الإقليمية في الصين، يقع في يينتشوان عاصمة منطقة نينغشيا ذات الأغلبية الهوي المسلمة. أُسس في ثمانينيات القرن العشرين بتمويل جزئي من البنك الإسلامي للتنمية السعودي. يُدرّس العربية والقرآن والحديث والفقه، وضمن تسعة معاهد إسلامية حكومية معتمدة في الصين. يخرّج الأئمة والآخوند للمساجد المحلية، ويرتبط بشبكة الجمعية الإسلامية الصينية.",
+      "url": "http://www.chinaislam.net.cn/",
+      "subjects": [
+        "quran_tafsir",
+        "hadith_sciences",
+        "arabic_language",
+        "fiqh_usul",
+        "imam_training"
+      ],
+      "subjects_category": [
+        "auxiliary_sciences"
+      ],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08h"
+    },
+    {
+      "id": "NAM-197",
+      "name_ar": "إدارة مسلمي القوقاز",
+      "name_en": "Caucasus Muslims Board (CMB)",
+      "type": "ministry_program",
+      "type_group": "institutional_infra",
+      "region": "non_arab_muslim",
+      "country": "AZ",
+      "founded": 1959,
+      "description_ar": "المرجعية الإسلامية العليا في القوقاز، تأسست عام 1959 بعد الإدارة الروحية لمسلمي ما وراء القوقاز (1944). مقرها 7 شارع م. فضل علي في باكو، ويرأسها منذ 1980 شيخ الإسلام الله شكر باشا زاده. تُوحّد مسلمي أذربيجان وأرمينيا وجورجيا وشمال القوقاز الروسي، وهي الهيئة الوحيدة بين إدارات المسلمين السوفيتية السابقة التي يجمع فيها رئيس شيعي ونائب سني وفق الميثاق.",
+      "url": "https://www.caucasus-muslims.org/",
+      "subjects": [
+        "fatwa_ifta",
+        "fiqh_usul",
+        "interfaith_dialogue",
+        "imam_training",
+        "hadith_sciences"
+      ],
+      "subjects_category": [
+        "auxiliary_sciences"
+      ],
+      "key_figures": [
+        "شيخ الإسلام الله شكر باشا زاده (الرئيس منذ 1980)"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "state",
+      "round": "08h"
+    },
+    {
+      "id": "NAM-198",
+      "name_ar": "معهد اللاهوت في أذربيجان",
+      "name_en": "Azerbaijan Institute of Theology (AIT)",
+      "type": "university_center",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "AZ",
+      "founded": 2018,
+      "description_ar": "مؤسسة جامعية حكومية متخصصة في علم اللاهوت الإسلامي والدراسات الدينية العامة في باكو، أُسست بمرسوم الرئيس إلهام علييف في 9 فبراير 2018 تحت إشراف اللجنة الحكومية للعمل مع المنظمات الدينية. خلفت كلية اللاهوت التابعة لجامعة باكو الحكومية (1992) التي أُنشئت بالتعاون مع وقف الديانة التركي. تُدرّس العقيدة والحديث والفقه والقرآن والعربية، وتُعدّ المرجع الأكاديمي الرسمي للتعليم الديني العالي.",
+      "url": "https://ait.edu.az/en/",
+      "subjects": [
+        "aqidah_kalam",
+        "hadith_sciences",
+        "quran_tafsir",
+        "fiqh_usul",
+        "arabic_language",
+        "interfaith_dialogue"
+      ],
+      "subjects_category": [
+        "auxiliary_sciences"
+      ],
+      "key_figures": [
+        "إلهام علييف (الراعي الرسمي)"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08h"
+    },
+    {
+      "id": "NAM-199",
+      "name_ar": "معهد الدراسات الإسلامية - جامعة الفلبين ديليمان",
+      "name_en": "Institute of Islamic Studies, University of the Philippines – Diliman",
+      "type": "university_center",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "PH",
+      "founded": 1973,
+      "description_ar": "أُسِّس بمرسوم رئاسي رقم 342 في 22 نوفمبر 1973 ضمن مركز الفلبين للدراسات المتقدمة، ثم أُعيد تأسيسه وحدةً مستقلة عام 1979. يُعدّ المؤسسة الرائدة في الفلبين لمنح الدرجات العليا في الدراسات الإسلامية ويقدّم ماجستير الدراسات الإسلامية وندوات بحثية في علوم الشريعة والتاريخ الإسلامي والمجتمعات المسلمة في الفلبين.",
+      "url": "https://iis.upd.edu.ph/",
+      "subjects": [
+        "seerah_general",
+        "hadith_sciences",
+        "islamic_history",
+        "islamic_jurisprudence"
+      ],
+      "subjects_category": [
+        "auxiliary_sciences",
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "جلكفلي م. وادي"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08k"
+    },
+    {
+      "id": "NAM-200",
+      "name_ar": "مركز الملك فيصل للدراسات الإسلامية والعربية والآسيوية - جامعة ولاية مينداناو، ماراوي",
+      "name_en": "King Faisal Center for Islamic, Arabic and Asian Studies, Mindanao State University – Marawi",
+      "type": "university_center",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "PH",
+      "founded": 1973,
+      "description_ar": "وحدة أكاديمية متميزة في جامعة ولاية مينداناو بماراوي، وهي معقل المسلمين الفلبينيين. يضمّ المركز قسم الدراسات الإسلامية الذي يقدّم بكالوريوس الآداب في الدراسات الإسلامية تخصّص الشريعة على مدى أربع سنوات، ويشمل علوم القرآن والحديث والفقه وأصوله والاقتصاد والمواريث، ويُخرّج أوائل امتحانات نقابة الشريعة في الفلبين.",
+      "url": "https://www.msumain.edu.ph/islamic-studies-department/",
+      "subjects": [
+        "seerah_general",
+        "hadith_sciences",
+        "islamic_jurisprudence",
+        "quranic_studies"
+      ],
+      "subjects_category": [
+        "auxiliary_sciences",
+        "classical_corpus"
+      ],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08k"
+    },
+    {
+      "id": "NAM-201",
+      "name_ar": "جامعة مسلمي مينداناو",
+      "name_en": "Jamiatu Muslim Mindanao (JMM)",
+      "type": "university_center",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "PH",
+      "founded": 1956,
+      "description_ar": "أسّسها الشيخ أحمد بشير بدعم من جمعية أغاما الإسلامية، وتقع في ماراوي. تُعدّ من أقدم وأكبر المدارس الإسلامية في الفلبين، وتقدّم تعليماً إسلامياً وعربياً متكاملاً من رياض الأطفال حتى الجامعة، ولها 132 فرعاً في أنحاء الفلبين. عضو في رابطة الجامعات الإسلامية بالقاهرة وانتُخبت في مجلسها التنفيذي عام 1999.",
+      "url": "https://jmm.edu.ph/",
+      "subjects": [
+        "seerah_general",
+        "arabic_language",
+        "quranic_studies",
+        "islamic_jurisprudence"
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "الشيخ أحمد بشير"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08k"
+    },
+    {
+      "id": "NAM-202",
+      "name_ar": "اللجنة الوطنية للمسلمين الفلبينيين",
+      "name_en": "National Commission on Muslim Filipinos (NCMF)",
+      "type": "ministry_program",
+      "type_group": "institutional_infra",
+      "region": "non_arab_muslim",
+      "country": "PH",
+      "founded": 2010,
+      "description_ar": "هيئة حكومية فلبينية أُنشئت بموجب القانون الجمهوري 9997 في 18 فبراير 2010 بدلاً من مكتب شؤون المسلمين. مهمّتها صون ثقافة المسلمين الفلبينيين وتقاليدهم ومؤسساتهم وتعزيز حقوقهم. تتألف من تسعة أعضاء يعيّنهم الرئيس من القبائل المسلمة المختلفة، وتشرف على شؤون الحج والأوقاف والمدارس والشهادة الحلال.",
+      "url": "https://ncmf.gov.ph/",
+      "subjects": [
+        "islamic_history",
+        "fatwa_council",
+        "education_administration"
+      ],
+      "subjects_category": [],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "state",
+      "round": "08k"
+    },
+    {
+      "id": "NAM-203",
+      "name_ar": "كلية العلوم الإسلامية - جامعة الأمير سونغكلا، حرم فطاني",
+      "name_en": "Faculty of Islamic Sciences, Prince of Songkla University – Pattani Campus",
+      "type": "university_department",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "TH",
+      "founded": 1989,
+      "description_ar": "تقع في فطاني جنوبي تايلاند، وتُعدّ من أهمّ المؤسسات الأكاديمية في تنمية المجتمع المسلم الملايوي في تايلاند. تقدّم بكالوريوس الآداب في الدراسات الإسلامية وبرامج في الإدارة التربوية الإسلامية والاقتصاد والتمويل الإسلامي. تستضيف \"مذاكرة علماء الشريعة في نوسانتارا\" بالتعاون مع ISRA الماليزية، ولها برامج دولية باللغة الإنجليزية.",
+      "url": "https://fais.psu.ac.th/en",
+      "subjects": [
+        "seerah_general",
+        "hadith_sciences",
+        "islamic_jurisprudence",
+        "islamic_finance"
+      ],
+      "subjects_category": [
+        "auxiliary_sciences",
+        "classical_corpus"
+      ],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08k"
+    },
+    {
+      "id": "NAM-204",
+      "name_ar": "جامعة فطاني (كلية يالا الإسلامية سابقاً)",
+      "name_en": "Fatoni University (formerly Yala Islamic University)",
+      "type": "university_center",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "TH",
+      "founded": 1998,
+      "description_ar": "أول مؤسسة تعليم عالٍ إسلامية خاصة في تايلاند، أسّسها علماء وأكاديميون مسلمون محليون. بدأت عام 1998 ككلية يالا الإسلامية، وحصلت على اعتماد الجامعة عام 2007 باسم جامعة يالا الإسلامية، ثم أُعيدت تسميتها جامعة فطاني في 31 أكتوبر 2013. تقدّم برامج بكالوريوس وماجستير ودكتوراه في الدراسات الإسلامية والتربية والإنسانيات، وتدمج التعاليم الإسلامية بالمعرفة الحديثة.",
+      "url": "https://www.ftu.ac.th/",
+      "subjects": [
+        "seerah_general",
+        "hadith_sciences",
+        "islamic_jurisprudence",
+        "arabic_language"
+      ],
+      "subjects_category": [
+        "auxiliary_sciences",
+        "classical_corpus"
+      ],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08k"
+    },
+    {
+      "id": "NAM-205",
+      "name_ar": "مكتب شيخ الإسلام في تايلاند (الجولاراجمونتري)",
+      "name_en": "Sheikhul Islam Office of Thailand (Chularajmontri)",
+      "type": "ministry_program",
+      "type_group": "institutional_infra",
+      "region": "non_arab_muslim",
+      "country": "TH",
+      "founded": 1945,
+      "description_ar": "المؤسسة الرسمية لشيخ الإسلام في تايلاند، يقع مقرّها في منطقة نونغ تشوك ببانكوك. يتولّى شيخ الإسلام (الجولاراجمونتري) دور المستشار الأعلى للحكومة في شؤون المسلمين والإفتاء، ويُنتخب من أعضاء المجلس المركزي الإسلامي. يُسهم في جهود السلام في الجنوب التايلاندي المسلم وفي توحيد كلمة الجالية المسلمة في البلاد.",
+      "url": "https://www.cicot.or.th/en/chularatchamontri/detail/27",
+      "subjects": [
+        "fatwa_council",
+        "islamic_jurisprudence"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "أرون بونتشوم (شيخ الإسلام التاسع عشر)"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "state",
+      "round": "08k"
+    },
+    {
+      "id": "NAM-206",
+      "name_ar": "المجلس الإسلامي المركزي في تايلاند",
+      "name_en": "Central Islamic Council of Thailand (CICOT)",
+      "type": "ministry_program",
+      "type_group": "institutional_infra",
+      "region": "non_arab_muslim",
+      "country": "TH",
+      "founded": 1948,
+      "description_ar": "منظمة حكومية مسؤولة عن شؤون المسلمين في تايلاند ومنح شهادات الحلال ومراقبتها. وضع المجلس عام 2001 لوائح الاعتماد الحلال كمعيار وطني موحّد. يدعم معهد العلوم الحلال في جامعة شولالونغكورن ومعهد المعايير الحلال التايلاندي، ويُموَّل ذاتياً من رسوم الاعتماد ودعم حكومي جزئي.",
+      "url": "https://www.cicot.or.th/en/",
+      "subjects": [
+        "fatwa_council",
+        "halal_certification"
+      ],
+      "subjects_category": [],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "state",
+      "round": "08k"
+    },
+    {
+      "id": "NAM-207",
+      "name_ar": "مدرسة الجنيد الإسلامية",
+      "name_en": "Madrasah Aljunied Al-Islamiah",
+      "type": "mosque_program",
+      "type_group": "museums_culture",
+      "region": "non_arab_muslim",
+      "country": "SG",
+      "founded": 1927,
+      "description_ar": "أسّسها المحسن السيد عبد الرحمن الجنيد عام 1927، وهي ثاني أقدم مدرسة إسلامية في سنغافورة بعد مدرسة الصقاف. تقع في 30 فيكتوريا لين وتُعدّ المؤسسة الإسلامية التعليمية الأبرز في البلاد، اشتُهرت بعلوّ مستواها في اللغة العربية والعلوم الشرعية في المنطقة، وتخرّج منها كبار علماء سنغافورة وجنوب شرق آسيا. أدرجت الإنجليزية والعلوم الحديثة منذ 1966.",
+      "url": "https://www.aljunied.edu.sg/",
+      "subjects": [
+        "seerah_general",
+        "hadith_sciences",
+        "arabic_language",
+        "quranic_studies"
+      ],
+      "subjects_category": [
+        "auxiliary_sciences",
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "السيد عبد الرحمن الجنيد (المؤسّس)"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "religious_authority",
+      "round": "08k"
+    },
+    {
+      "id": "NAM-208",
+      "name_ar": "المجلس الديني الإسلامي في سنغافورة",
+      "name_en": "Majlis Ugama Islam Singapura (MUIS)",
+      "type": "ministry_program",
+      "type_group": "institutional_infra",
+      "region": "non_arab_muslim",
+      "country": "SG",
+      "founded": 1968,
+      "description_ar": "هيئة قانونية حكومية أُنشئت عام 1968 بموجب قانون إدارة الشريعة الإسلامية AMLA. تابعة لوزارة الثقافة والمجتمع والشباب، تنصح رئيس سنغافورة في كل شؤون الإسلام. ترعى الزكاة والأوقاف وشؤون الحج وشهادة الحلال (منذ 1978) والمساجد والتعليم الإسلامي. يقع مقرّها في المركز الإسلامي السنغافوري بشارع برادل منذ 2009.",
+      "url": "https://www.muis.gov.sg/",
+      "subjects": [
+        "fatwa_council",
+        "halal_certification",
+        "waqf_zakat"
+      ],
+      "subjects_category": [],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "state",
+      "round": "08k"
+    },
+    {
+      "id": "NAM-209",
+      "name_ar": "جمعية علماء سنغافورة والمعلّمين الدينيين (برغاس)",
+      "name_en": "Pergas – Singapore Islamic Scholars and Religious Teachers Association",
+      "type": "foundation_waqf",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "SG",
+      "founded": 1957,
+      "description_ar": "سُجِّلت رسمياً جمعيةً في 20 فبراير 1957، وأسّسها عدد من كبار المعلّمين والمشايخ من بينهم الكياي زهري متمم الذي انتُخب أول رئيس لها. منظمة غير حكومية تهدف لتنمية المجتمع المسلم عبر قيادة علمائية وأساتذة دينيين موثوقين، وتُشرف على شبكة الأساتذة الإسلاميين المعتمدين (ARS) ومبادرة شبكة المتطوّعين الأساتذة المهنيين (APVN).",
+      "url": "https://www.pergas.org.sg/",
+      "subjects": [
+        "seerah_general",
+        "islamic_jurisprudence",
+        "dawah"
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "الكياي زهري متمم",
+        "الأستاذ داود علي",
+        "الأستاذ إدريس أحمد"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08k"
+    },
+    {
+      "id": "NAM-210",
+      "name_ar": "المجلس الأعلى للشؤون الدينية الإسلامية في كمبوديا (المفتي العام)",
+      "name_en": "Highest Islamic Council of Religious Affairs of Cambodia (HICIRAC) / Mufti's Office",
+      "type": "ministry_program",
+      "type_group": "institutional_infra",
+      "region": "non_arab_muslim",
+      "country": "KH",
+      "founded": 1953,
+      "description_ar": "المؤسسة الرسمية لشؤون المسلمين في كمبوديا، ويرأسها المفتي العام المعترف به حكومياً وملكياً. تعود جذورها إلى عهد الحماية الفرنسية (1863-1953)، وأعاد الملك سيهانوك هيكلتها عام 2000 لتُصبح تابعة مباشرة للملكية. تنسّق مع المركز الإسلامي الكمبودي وتُشرف على توحيد الممارسات الإسلامية وتدريب الأئمة وعلاقات المسلمين الكمبوديين الدولية.",
+      "url": "http://islamcambodia.org/highest-islamic-councilmufti",
+      "subjects": [
+        "fatwa_council",
+        "islamic_jurisprudence"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "الشيخ قمر الدين بن يوسف (المفتي العام)"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "state",
+      "round": "08k"
+    },
+    {
+      "id": "NAM-211",
+      "name_ar": "لجنة تمثيل المسلمين في مدينة هو تشي منه",
+      "name_en": "Ho Chi Minh City Muslim Representative Committee",
+      "type": "islamic_center",
+      "type_group": "museums_culture",
+      "region": "non_arab_muslim",
+      "country": "VN",
+      "founded": 1992,
+      "description_ar": "أُسّست عام 1992 ممثّلةً رسمية للمسلمين في مدينة هو تشي منه، وتُعدّ منظمة دينية معترف بها حكومياً للجالية المسلمة (معظمها من الشام). تُدير الأنشطة الدينية وتنسّق مع الحكومة المحلية والمركزية، وأنشئت لجنة شقيقة في إقليم آن جيانغ عام 2004. تربط المجتمع المسلم المحلي بالعالم الإسلامي عبر علاقات إقليمية ودولية.",
+      "url": "https://www.religion.vn/religion/islam-postrxqeYepq8y.html",
+      "subjects": [
+        "seerah_general",
+        "islamic_jurisprudence"
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08k"
+    },
+    {
+      "id": "NAM-212",
+      "name_ar": "معهد النعيمية للدراسات الإسلامية (جامعة النعيمية)",
+      "name_en": "Naleemiah Institute of Islamic Studies / Jamiah Naleemiah",
+      "type": "university_center",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "LK",
+      "founded": 1973,
+      "description_ar": "تأسّس عام 1973 على يد الحاج م. إ. م. نعيم بهدف تخريج علماء يجمعون بين الدراسات الإسلامية والعلوم الحديثة. يقع في بيرووالا، وأصبح من أبرز مؤسسات التعليم العالي الإسلامي في سريلانكا وجنوب آسيا بين الناطقين بالتاميل. أُسّست كلية الدراسات الإسلامية فيه عام 1996، وتقدّم برامج في اللغة العربية والقرآن والسنّة والشريعة، وتخرّج منه 27 حاصلاً على الدكتوراه.",
+      "url": "https://naleemiah.edu.lk/",
+      "subjects": [
+        "seerah_general",
+        "hadith_sciences",
+        "quranic_studies",
+        "islamic_jurisprudence",
+        "arabic_language"
+      ],
+      "subjects_category": [
+        "auxiliary_sciences",
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "الحاج م. إ. م. نعيم (المؤسّس)",
+        "د. م. أ. م. شكري"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08k"
+    },
+    {
+      "id": "NAM-213",
+      "name_ar": "قسم اللغة العربية والحضارة الإسلامية - جامعة بيرادينيا",
+      "name_en": "Department of Arabic and Islamic Civilization, University of Peradeniya",
+      "type": "university_department",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "LK",
+      "founded": 1945,
+      "description_ar": "أحد أعرق أقسام جامعة بيرادينيا، أُنشئ عام 1945 ضمن كلية الدراسات الشرقية، وأُدرجت الحضارة الإسلامية مادةً عام 1969. يقدّم برامج بكالوريوس وماجستير في العربية (منذ 1957) ودكتوراه في الحضارة الإسلامية (منذ التسعينيات)، ويضمّ نحو 100 طالب عربية و250 طالب حضارة إسلامية، ويُعدّ مركز تميّز إقليمي في الدراسات العربية والإسلامية بسريلانكا.",
+      "url": "https://arts.pdn.ac.lk/arabic/",
+      "subjects": [
+        "arabic_language",
+        "islamic_history",
+        "seerah_general"
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08k"
+    },
+    {
+      "id": "NAM-214",
+      "name_ar": "المؤسسة الإسلامية في بنغلاديش",
+      "name_en": "Islamic Foundation Bangladesh (IFB)",
+      "type": "ministry_program",
+      "type_group": "institutional_infra",
+      "region": "non_arab_muslim",
+      "country": "BD",
+      "founded": 1975,
+      "description_ar": "هيئة حكومية تابعة لوزارة الشؤون الدينية، أُنشئت بقانون المؤسسة الإسلامية في 28 مارس 1975 بدمج جمعية بيت المكرّم والأكاديمية الإسلامية. تنشر تعاليم الإسلام، وتدير مسجد بيت المكرّم الوطني وستة فروع إدارية و64 مكتباً محلياً وسبعة مراكز تدريب الأئمة و29 مركز بعثة إسلامية. تُجري بحوثاً في التاريخ والفلسفة والثقافة الإسلامية وتنشر مجلات وكتباً.",
+      "url": "https://islamicfoundation.gov.bd/",
+      "subjects": [
+        "seerah_general",
+        "islamic_history",
+        "dawah",
+        "imam_training"
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "state",
+      "round": "08k"
+    },
+    {
+      "id": "NAM-215",
+      "name_ar": "الجامعة الإسلامية للتكنولوجيا",
+      "name_en": "Islamic University of Technology (IUT)",
+      "type": "university_center",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "BD",
+      "founded": 1981,
+      "description_ar": "جامعة هندسية تكنولوجية دولية تابعة لمنظمة التعاون الإسلامي OIC، تقع في غازيبور ببنغلاديش. أُقرّت في المؤتمر الإسلامي التاسع لوزراء الخارجية بداكار عام 1978، ووضع الرئيس ضياء الرحمن حجر الأساس عام 1981 بحضور ياسر عرفات. أُعيدت تسميتها IUT عام 2001. تموَّل بمساهمات دول OIC وتمنح طلابها منحاً كاملة، وتُقدّم تعليماً تقنياً وهندسياً مع توجّه إسلامي.",
+      "url": "https://www.iutoic-dhaka.edu/",
+      "subjects": [
+        "islamic_history",
+        "science_technology"
+      ],
+      "subjects_category": [],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08k"
     }
   ],
-  "migration_note": "2026-05-11: + 8-هـ (Sufi African) + 8-و (Horn of Africa) = 536 entities"
+  "migration_note": "2026-05-12: + 8-ز (ID/MY/BN) + 8-ح (CA/CN) + 8-ك (SE Asia) = 607 entities"
 }
