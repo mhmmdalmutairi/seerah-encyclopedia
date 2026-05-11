@@ -4928,22 +4928,40 @@
     progress.textContent = "⏳ جاري تحميل المكتبة…";
 
     let container = null;
+    let overlay = null;
+    let savedScrollY = 0;
+
     try {
       const html2pdf = await loadPdfLib();
-      progress.textContent = "⏳ جاري بناء المستند (قد يستغرق وقتاً لمحتوى كبير)…";
+      progress.textContent = "⏳ جاري بناء المستند…";
 
-      // ابنِ DOM مؤقت في تدفّق المستند خارج الإطار المرئي (سالب-اليسار).
-      // ⚠ لا نستخدم opacity ولا visibility: html2canvas يطبّقها على المخرج.
+      // (1) طبقة تحميل تغطّي الشاشة فوق كل شيء — المستخدم لا يرى ما تحتها
+      overlay = document.createElement("div");
+      overlay.className = "pdf-export-overlay";
+      overlay.innerHTML = `
+        <div class="pdf-export-overlay__inner">
+          <div class="pdf-export-overlay__spinner"></div>
+          <div class="pdf-export-overlay__text">⏳ جاري بناء ملف PDF…</div>
+          <div class="pdf-export-overlay__hint">قد يستغرق وقتاً للمحتوى الكبير. لا تغلق الصفحة.</div>
+        </div>
+      `;
+      document.body.appendChild(overlay);
+
+      // (2) ابنِ العنصر بحجم طبيعي مرئي عند (0,0) — html2canvas يجده ويرسمه بدقّة
       container = buildPdfHtmlContainer();
       container.setAttribute("dir", "rtl");
       container.style.cssText += `
-        position: absolute; top: 0; left: -9999px;
-        width: 794px;  /* ~210mm @ 96dpi، مطابق لعرض A4 */
+        position: absolute; top: 0; left: 0;
+        width: 794px;
         background: #ffffff;
+        z-index: 1;
       `;
+      // احفظ موقع التمرير الحالي وارجع للأعلى ليُلتقط العنصر صحيحاً
+      savedScrollY = window.scrollY;
+      window.scrollTo(0, 0);
       document.body.appendChild(container);
 
-      // انتظر إطارَيْ رسم لضمان حساب التخطيط، ثم الخطوط
+      // (3) انتظر إطارَيْ رسم + جاهزية الخطوط
       await new Promise((r) => requestAnimationFrame(() => requestAnimationFrame(r)));
       if (document.fonts && document.fonts.ready) {
         try { await document.fonts.ready; } catch (_) {}
@@ -4961,12 +4979,10 @@
         html2canvas: {
           scale: 2,
           useCORS: true,
+          allowTaint: true,
           letterRendering: true,
           backgroundColor: "#ffffff",
           logging: false,
-          width: 794,
-          windowWidth: 794,
-          scrollY: 0,
         },
         jsPDF: { unit: "mm", format: "a4", orientation: "portrait", compress: true },
         pagebreak: { mode: ["css", "legacy"], before: ".pdf-page-break" },
@@ -4974,7 +4990,6 @@
 
       progress.textContent = "⏳ جاري الرسم وتحويله إلى PDF…";
 
-      // بدل .save() (يفشل صامتاً أحياناً) — أحصل على blob ثم نزّله يدوياً
       const blob = await html2pdf().set(opts).from(container).outputPdf("blob");
       console.log("[pdf export] blob ready, size:", blob && blob.size, "bytes");
 
@@ -4991,6 +5006,8 @@
     } finally {
       btn.disabled = false; btnDocx.disabled = false;
       if (container && container.parentNode) container.remove();
+      if (overlay && overlay.parentNode) overlay.remove();
+      window.scrollTo(0, savedScrollY);
     }
   }
 
