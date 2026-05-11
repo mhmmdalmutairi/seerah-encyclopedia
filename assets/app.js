@@ -531,12 +531,21 @@
       const titleBtn = document.createElement("button");
       titleBtn.className = "filter-group__title";
       titleBtn.type = "button";
-      titleBtn.textContent = FACET_TITLES[facet] || facet;
+      titleBtn.setAttribute("aria-expanded", "true");
+      titleBtn.innerHTML = `
+        <span>${escapeHtml(FACET_TITLES[facet] || facet)}</span>
+        <span class="filter-group__count">${counts.size}</span>
+      `;
       titleBtn.addEventListener("click", () => {
+        const isCollapsing = !group.classList.contains("is-collapsed");
         group.classList.toggle("is-collapsed");
+        titleBtn.setAttribute("aria-expanded", isCollapsing ? "false" : "true");
       });
-      // اطوِ بشكل افتراضي الفلاتر الأطول لتقليل التشويش
-      if (counts.size > 10) group.classList.add("is-collapsed");
+      // اطوِ افتراضياً فقط الفلاتر الطويلة جداً (>25 قيمة) — البقية مفتوحة
+      if (counts.size > 25) {
+        group.classList.add("is-collapsed");
+        titleBtn.setAttribute("aria-expanded", "false");
+      }
       group.appendChild(titleBtn);
 
       const list = document.createElement("div");
@@ -3299,30 +3308,65 @@
     nav.querySelectorAll("button").forEach((b) => {
       b.classList.toggle("is-active", b.dataset.tab === activeName);
     });
-    // إخفاء زر الفلاتر خارج تبويب الكيانات
-    const filtersToggle = document.querySelector(".filters__toggle");
-    if (filtersToggle) {
-      filtersToggle.style.display = activeName === "entities" ? "" : "none";
-    }
     // إغلاق الـ drawer إذا انتقلنا لتبويب آخر
-    const filters = document.querySelector(".filters");
-    if (filters && activeName !== "entities") filters.classList.remove("is-open");
+    if (activeName !== "entities" && state._closeFiltersDrawer) {
+      state._closeFiltersDrawer();
+    }
   }
 
-  // === زر فلاتر للموبايل — يظهر فقط في تبويب الكيانات ===
+  // === تشغيل الفلاتر للموبايل ===
+  // الزرّ inline داخل شريط الأدوات (يظهر فقط ≤1024px عبر CSS).
+  // الـ drawer ينزلق من الأسفل عند النقر، مع backdrop + زرّ إغلاق.
   function initMobileFiltersToggle() {
-    if (document.querySelector(".filters__toggle")) return;
-    const btn = document.createElement("button");
-    btn.className = "btn btn--primary filters__toggle";
-    btn.textContent = "⚙ فلاتر";
-    btn.addEventListener("click", () => {
-      const filters = document.querySelector(".filters");
-      if (filters) filters.classList.toggle("is-open");
+    const toolbarBtn = document.querySelector(".toolbar-filters-btn");
+    const filters = document.querySelector(".filters");
+    if (!toolbarBtn || !filters) return;
+    if (toolbarBtn.dataset.bound) return;
+    toolbarBtn.dataset.bound = "1";
+
+    // backdrop
+    let backdrop = document.querySelector(".filters-backdrop");
+    if (!backdrop) {
+      backdrop = document.createElement("div");
+      backdrop.className = "filters-backdrop";
+      backdrop.setAttribute("aria-hidden", "true");
+      document.body.appendChild(backdrop);
+    }
+
+    // زرّ إغلاق داخل رأس الفلاتر
+    const filtersHeader = filters.querySelector(".filters__header");
+    if (filtersHeader && !filtersHeader.querySelector(".filters__close")) {
+      const closeBtn = document.createElement("button");
+      closeBtn.className = "filters__close";
+      closeBtn.type = "button";
+      closeBtn.setAttribute("aria-label", "إغلاق الفلاتر");
+      closeBtn.textContent = "×";
+      closeBtn.addEventListener("click", closeFiltersDrawer);
+      filtersHeader.appendChild(closeBtn);
+    }
+
+    function openFiltersDrawer() {
+      filters.classList.add("is-open");
+      backdrop.classList.add("is-visible");
+      document.body.style.overflow = "hidden";
+    }
+    function closeFiltersDrawer() {
+      filters.classList.remove("is-open");
+      backdrop.classList.remove("is-visible");
+      document.body.style.overflow = "";
+    }
+
+    toolbarBtn.addEventListener("click", () => {
+      if (filters.classList.contains("is-open")) closeFiltersDrawer();
+      else openFiltersDrawer();
     });
-    document.body.appendChild(btn);
-    // الإخفاء الأوّلي إن لم نكن في تبويب الكيانات
-    const activeName = document.querySelector(".tab.is-active")?.dataset.tab;
-    if (activeName !== "entities") btn.style.display = "none";
+    backdrop.addEventListener("click", closeFiltersDrawer);
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape" && filters.classList.contains("is-open")) closeFiltersDrawer();
+    });
+
+    // اجعل إغلاق الـ drawer تلقائياً عند الانتقال لتبويب آخر
+    state._closeFiltersDrawer = closeFiltersDrawer;
   }
 
   // === ربط الـ theme toggle بالهيدر ===
@@ -3537,10 +3581,21 @@
     initDarkMode();
     injectHeaderActions();
     initKeyboardShortcuts();
-    if (window.innerWidth <= 768) {
-      initMobileNav();
+    // الفلاتر السفلية تظهر على التابلت والجوال (≤1024px)
+    initMobileFiltersToggle();
+    // التنقّل السفلي يظهر فقط على الجوال (≤768px)
+    if (window.innerWidth <= 768) initMobileNav();
+    // عند تغيير العرض، أعد التشغيل إن لزم
+    let lastIsMobile = window.innerWidth <= 768;
+    window.addEventListener("resize", debounce(() => {
+      const isMobile = window.innerWidth <= 768;
+      if (isMobile && !lastIsMobile) {
+        initMobileNav();
+        syncMobileNavActive();
+      }
       initMobileFiltersToggle();
-    }
+      lastIsMobile = isMobile;
+    }, 250));
     // الجولة التعريفية — بعد تحميل البيانات
     const tryTour = () => {
       if (state.entities && state.entities.length > 0) {

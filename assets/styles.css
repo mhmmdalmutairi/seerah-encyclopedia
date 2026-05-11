@@ -770,26 +770,47 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: var(--space-xs);
   width: 100%;
-  padding: var(--space-xs) 0;
+  padding: var(--space-sm) var(--space-2xs);
   font-size: var(--text-sm);
   font-weight: var(--weight-semibold);
   color: var(--color-text);
   background: none;
   border: none;
+  border-radius: var(--radius-sm);
   cursor: pointer;
   text-align: start;
+  min-block-size: 44px;          /* أدنى حجم لمنطقة اللمس على الجوال */
+  transition: background-color var(--transition-fast);
+}
+.filter-group__title:hover {
+  background-color: var(--color-bg-muted);
+}
+.filter-group__title:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 1px;
 }
 
-.filter-group__title::after {
-  content: "−";
-  font-size: var(--text-lg);
+.filter-group__count {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
   color: var(--color-text-muted);
-  transition: transform var(--transition-fast);
+  background-color: var(--color-bg-muted);
+  padding: 0 var(--space-xs);
+  border-radius: var(--radius-pill);
+  margin-inline-start: auto;
 }
-
+.filter-group__title::after {
+  content: "▾";
+  font-size: var(--text-base);
+  color: var(--color-primary);
+  font-weight: var(--weight-bold);
+  transition: transform 200ms ease;
+  margin-inline-start: var(--space-2xs);
+}
 .filter-group.is-collapsed .filter-group__title::after {
-  content: "+";
+  transform: rotate(-90deg);
 }
 
 .filter-group__options {
@@ -3373,25 +3394,21 @@ mark.search-hit {
   .filters {
     position: fixed;
     inset-inline: 0;
-    inset-block-end: 60px;
+    inset-block-end: 0;
     inset-block-start: auto;
-    max-block-size: 70vh;
+    max-block-size: 78vh;
     border-radius: var(--radius-xl) var(--radius-xl) 0 0;
     transform: translateY(100%);
     transition: transform 300ms;
-    z-index: 45;
+    z-index: 50;
+    visibility: hidden;          /* تماماً مخفي حتى يفتحه المستخدم */
+    box-shadow: 0 -8px 32px rgba(0, 0, 0, 0.12);
+    padding-block-end: calc(var(--space-md) + 60px);  /* مساحة لزر التطبيق + ارتفاع التنقّل السفلي */
   }
 
   .filters.is-open {
     transform: translateY(0);
-  }
-
-  .filters__toggle {
-    display: flex !important;
-    position: fixed;
-    inset-block-end: 70px;
-    inset-inline-start: 16px;
-    z-index: 35;
+    visibility: visible;
   }
 
   .site-header__meta {
@@ -3407,8 +3424,61 @@ mark.search-hit {
   }
 }
 
-.filters__toggle {
+/* الزرّ السابق العائم — لم يعد مستخدماً، نخفيه تماماً */
+.filters__toggle { display: none !important; }
+
+/* زرّ الفلاتر داخل شريط الأدوات — يظهر فقط ≤1024px (تابلت/جوال) */
+.toolbar-filters-btn {
   display: none;
+  white-space: nowrap;
+}
+@media (max-width: 1024px) {
+  .toolbar-filters-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-2xs);
+  }
+}
+
+/* Backdrop خلف الـ drawer — يُغلق عند النقر */
+.filters-backdrop {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background-color: rgba(7, 58, 80, 0.45);
+  z-index: 44;
+  backdrop-filter: blur(2px);
+  animation: fadeIn 200ms ease;
+}
+.filters-backdrop.is-visible {
+  display: block;
+}
+
+/* رأس الـ drawer على الجوال — زرّ إغلاق واضح */
+@media (max-width: 1024px) {
+  .filters__close {
+    inline-size: 32px;
+    block-size: 32px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-bg-muted);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-pill);
+    color: var(--color-text);
+    font-size: var(--text-lg);
+    cursor: pointer;
+    margin-inline-start: var(--space-xs);
+  }
+  .filters__close:hover {
+    background-color: var(--color-primary);
+    color: var(--color-text-inverse);
+  }
+}
+@media (min-width: 1025px) {
+  .filters__close {
+    display: none;
+  }
 }
 
 /* === Skeleton loading === */
