@@ -1271,6 +1271,7 @@
     if (typeof modal.showModal === "function") modal.showModal();
     else modal.setAttribute("open", "");
     state.selectedId = id;
+    syncHash();
   }
 
   function renderModalBody(modal, entity) {
@@ -1526,6 +1527,7 @@
     const modal = document.querySelector(".entity-modal");
     if (modal && modal.open) modal.close();
     state.selectedId = null;
+    syncHash();
   }
 
   // ============================================================
@@ -1653,6 +1655,7 @@
         params.set(facet, Array.from(state.filters[facet]).join(","));
       }
     });
+    if (state.selectedId) params.set("entity", state.selectedId);
     const hash = params.toString();
     history.replaceState(null, "", hash ? `#${hash}` : window.location.pathname);
   }
@@ -1686,7 +1689,29 @@
       });
     });
     render();
+
+    // افتح الكيان المُمرَّر في URL (deep link) — يجب أن يأتي بعد render
+    const entityId = params.get("entity");
+    if (entityId) {
+      // اضمن وجود المودال المبني
+      if (typeof buildModal === "function") buildModal();
+      setTimeout(() => openModal(entityId), 60);
+    }
   }
+
+  // مستمع لزرّ الرجوع/التقدّم في المتصفح — يحدّث المودال تلقائياً
+  window.addEventListener("hashchange", () => {
+    const params = new URLSearchParams(window.location.hash.slice(1));
+    const entityId = params.get("entity");
+    const modal = document.querySelector(".entity-modal");
+    if (entityId && state.selectedId !== entityId) {
+      if (typeof buildModal === "function") buildModal();
+      openModal(entityId);
+    } else if (!entityId && modal && modal.open) {
+      modal.close();
+      state.selectedId = null;
+    }
+  });
 
   // ============================================================
   // 13. التشغيل
@@ -4481,6 +4506,38 @@
       toast(`نُسخ ${entity.id} ✓`);
     });
     footer.prepend(copyBtn);
+
+    // زرّ نسخ رابط مشاركة الكيان (deep link)
+    if (!footer.querySelector(".btn-share-link")) {
+      const shareBtn = document.createElement("button");
+      shareBtn.className = "btn btn--ghost btn--small btn-share-link";
+      shareBtn.textContent = "🔗 نسخ الرابط";
+      shareBtn.title = "نسخ رابط مباشر لهذه البطاقة للمشاركة";
+      shareBtn.addEventListener("click", async () => {
+        const base = window.location.origin + window.location.pathname;
+        const url = `${base}#entity=${entity.id}`;
+        try {
+          // Web Share API على الجوال
+          if (navigator.share && /Mobi|Android|iPhone|iPad/i.test(navigator.userAgent)) {
+            await navigator.share({
+              title: entity.name_ar,
+              text: `${entity.name_ar} — موسوعة السيرة النبوية المؤسسية`,
+              url,
+            });
+            return;
+          }
+        } catch (_) { /* fallback to clipboard */ }
+        try {
+          await navigator.clipboard.writeText(url);
+          toast("نُسخ رابط البطاقة ✓");
+        } catch (_) {
+          // fallback: prompt
+          prompt("انسخ الرابط:", url);
+        }
+      });
+      footer.appendChild(shareBtn);
+    }
+
     // أضف زرّ ترجمة إذا في البطاقة محتوى غير عربي
     if (hasNonArabicContent(entity) && !footer.querySelector(".btn-translate")) {
       const translateBtn = document.createElement("button");
