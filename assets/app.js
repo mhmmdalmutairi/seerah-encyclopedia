@@ -1260,9 +1260,12 @@
 
     modal.querySelector(".entity-modal__type").textContent = label("type", entity.type);
     modal.querySelector(".entity-modal__title").textContent = entity.name_ar;
+    // الاسم الإنجليزي (name_en) لا يُعرض كعنوان فرعي بعد الآن — بدلاً منه نعرض
+    // التعريب إن وُجد (name_ar_alt) أو نخفي العنصر تماماً.
     const subtitle = modal.querySelector(".entity-modal__subtitle");
-    subtitle.textContent = entity.name_en || "";
-    subtitle.style.display = entity.name_en ? "block" : "none";
+    const altArabic = entity.name_ar_alt || "";
+    subtitle.textContent = altArabic;
+    subtitle.style.display = altArabic ? "block" : "none";
     modal.querySelector(".entity-modal__id").textContent = entity.id;
 
     renderModalBody(modal, entity);
@@ -4538,15 +4541,8 @@
       footer.appendChild(shareBtn);
     }
 
-    // أضف زرّ ترجمة إذا في البطاقة محتوى غير عربي
-    if (hasNonArabicContent(entity) && !footer.querySelector(".btn-translate")) {
-      const translateBtn = document.createElement("button");
-      translateBtn.className = "btn btn--ghost btn--small btn-translate";
-      translateBtn.textContent = "🌐 ترجم البطاقة";
-      translateBtn.title = "افتح ترجمة المحتوى في Google Translate";
-      translateBtn.addEventListener("click", () => openTranslateForEntity(entity));
-      footer.appendChild(translateBtn);
-    }
+    // (أُلغي زرّ الترجمة بناءً على طلب المستخدم — الهدف أن يكون المحتوى
+    //  المعروض عربياً بالكامل، لا الاعتماد على Google Translate.)
   }
 
   // === Hook لتعزيز المودال بعد الفتح ===
