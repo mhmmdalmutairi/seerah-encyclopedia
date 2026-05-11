@@ -7057,7 +7057,7 @@
     {
       "id": "TUR-022",
       "round": "04",
-      "name_ar": "مجلة İSTEM",
+      "name_ar": "مجلة إستم للفنون والتاريخ والأدب والموسيقى الإسلامية",
       "name_en": "İstem (İslâm San'at Tarih Edebiyat ve Mûsıkîsi)",
       "type": "journal",
       "type_group": "publishing_knowledge",
@@ -7094,7 +7094,8 @@
       "subjects_category": [
         "auxiliary_sciences",
         "classical_corpus"
-      ]
+      ],
+      "name_ar_original": "مجلة İSTEM"
     },
     {
       "id": "TUR-023",
@@ -7357,7 +7358,7 @@
     {
       "id": "TUR-029",
       "round": "04",
-      "name_ar": "دار Endülüs Yayınları",
+      "name_ar": "دار إندولوس للنشر",
       "type": "publisher",
       "type_group": "publishing_knowledge",
       "country": "TR",
@@ -7387,12 +7388,13 @@
       "subjects_category": [
         "classical_corpus",
         "methodology_critique"
-      ]
+      ],
+      "name_ar_original": "دار Endülüs Yayınları"
     },
     {
       "id": "TUR-030",
       "round": "04",
-      "name_ar": "دار Ensar Neşriyat",
+      "name_ar": "دار إنصار للنشر",
       "type": "publisher",
       "type_group": "publishing_knowledge",
       "country": "TR",
@@ -7422,7 +7424,8 @@
       "subjects_category": [
         "classical_corpus",
         "methodology_critique"
-      ]
+      ],
+      "name_ar_original": "دار Ensar Neşriyat"
     },
     {
       "id": "TUR-031",
@@ -7568,7 +7571,7 @@
     {
       "id": "TUR-034",
       "round": "04",
-      "name_ar": "قناة Siyer TV",
+      "name_ar": "قناة سِيَر تي في",
       "type": "digital_platform",
       "type_group": "media_audience",
       "country": "TR",
@@ -7610,7 +7613,8 @@
       "subjects_category": [
         "application_outreach",
         "classical_corpus"
-      ]
+      ],
+      "name_ar_original": "قناة Siyer TV"
     },
     {
       "id": "TUR-035",
@@ -7750,7 +7754,7 @@
     {
       "id": "TUR-038",
       "round": "04",
-      "name_ar": "منصة siyerinebi.com",
+      "name_ar": "منصة سِيَر النبي (siyerinebi.com)",
       "type": "digital_platform",
       "type_group": "media_audience",
       "country": "TR",
@@ -7782,7 +7786,8 @@
       "url": "https://www.siyerinebi.com/",
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "name_ar_original": "منصة siyerinebi.com"
     },
     {
       "id": "TUR-039",
@@ -9430,7 +9435,7 @@
     {
       "id": "NAM-016",
       "round": "05",
-      "name_ar": "Maktaba tul Madinah – باكستان",
+      "name_ar": "مكتبة المدينة – باكستان",
       "type": "publisher",
       "type_group": "publishing_knowledge",
       "country": "PK",
@@ -9459,12 +9464,13 @@
       "url": "https://maktabatulmadinah.com",
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "name_ar_original": "Maktaba tul Madinah – باكستان"
     },
     {
       "id": "NAM-017",
       "round": "05",
-      "name_ar": "UIN Syarif Hidayatullah – جاكرتا",
+      "name_ar": "جامعة شريف هداية الله الإسلامية الحكومية – جاكرتا",
       "name_en": "UIN Jakarta",
       "type": "university_center",
       "type_group": "research_education",
@@ -9500,12 +9506,13 @@
       "url": "https://uinjkt.ac.id",
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "name_ar_original": "UIN Syarif Hidayatullah – جاكرتا"
     },
     {
       "id": "NAM-018",
       "round": "05",
-      "name_ar": "UIN Sunan Kalijaga – يوغياكارتا",
+      "name_ar": "جامعة سونان كاليجاغا الإسلامية الحكومية – يوغياكارتا",
       "type": "university_center",
       "type_group": "research_education",
       "country": "ID",
@@ -9539,7 +9546,8 @@
       "subjects_category": [
         "auxiliary_sciences",
         "classical_corpus"
-      ]
+      ],
+      "name_ar_original": "UIN Sunan Kalijaga – يوغياكارتا"
     },
     {
       "id": "NAM-019",
@@ -9587,7 +9595,7 @@
     {
       "id": "NAM-020",
       "round": "05",
-      "name_ar": "ISTAC – IIUM",
+      "name_ar": "المعهد الدولي للفكر والحضارة الإسلامية – الجامعة الإسلامية العالمية بماليزيا",
       "name_en": "International Institute of Islamic Thought and Civilization",
       "type": "research_center",
       "type_group": "research_education",
@@ -9631,7 +9639,8 @@
         "auxiliary_sciences",
         "classical_corpus",
         "methodology_critique"
-      ]
+      ],
+      "name_ar_original": "ISTAC – IIUM"
     },
     {
       "id": "NAM-021",
@@ -9720,7 +9729,7 @@
     {
       "id": "NAM-023",
       "round": "05",
-      "name_ar": "Yayasan Restu – ماليزيا",
+      "name_ar": "مؤسسة رستو (يايا سان رستو) – ماليزيا",
       "type": "foundation_waqf",
       "type_group": "research_education",
       "country": "MY",
@@ -9755,12 +9764,13 @@
       "subjects_category": [
         "auxiliary_sciences",
         "classical_corpus"
-      ]
+      ],
+      "name_ar_original": "Yayasan Restu – ماليزيا"
     },
     {
       "id": "NAM-024",
       "round": "05",
-      "name_ar": "مؤسسة CRIS + tafsiralquran.id",
+      "name_ar": "مؤسسة مركز دراسات القرآن (CRIS) ومنصة تفسير القرآن الإندونيسية",
       "type": "digital_platform",
       "type_group": "media_audience",
       "country": "ID",
@@ -9791,12 +9801,13 @@
       ],
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "name_ar_original": "مؤسسة CRIS + tafsiralquran.id"
     },
     {
       "id": "NAM-025",
       "round": "05",
-      "name_ar": "UIN K.H. Abdurrahman Wahid Pekalongan + International Journal of Islamic Thought and Humanities",
+      "name_ar": "جامعة كياهي حاج عبد الرحمن وحيد – بيكالونغان، والمجلة الدولية للفكر الإسلامي والإنسانيات",
       "type": "journal",
       "type_group": "publishing_knowledge",
       "country": "ID",
@@ -9828,12 +9839,13 @@
       "subjects_category": [
         "classical_corpus",
         "methodology_critique"
-      ]
+      ],
+      "name_ar_original": "UIN K.H. Abdurrahman Wahid Pekalongan + International Journal of Islamic Thought and Humanities"
     },
     {
       "id": "NAM-026",
       "round": "05",
-      "name_ar": "Universitas Muhammadiyah Yogyakarta – Faculty of Islamic Studies",
+      "name_ar": "جامعة المحمدية – يوغياكارتا، كلية الدراسات الإسلامية",
       "type": "university_department",
       "type_group": "research_education",
       "country": "ID",
@@ -9862,12 +9874,13 @@
       ],
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "name_ar_original": "Universitas Muhammadiyah Yogyakarta – Faculty of Islamic Studies"
     },
     {
       "id": "NAM-027",
       "round": "05",
-      "name_ar": "Universitas Muhammadiyah Surakarta – Faculty of Islamic Studies",
+      "name_ar": "جامعة المحمدية – سوراكارتا، كلية الدراسات الإسلامية",
       "type": "university_department",
       "type_group": "research_education",
       "country": "ID",
@@ -9897,7 +9910,8 @@
       ],
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "name_ar_original": "Universitas Muhammadiyah Surakarta – Faculty of Islamic Studies"
     },
     {
       "id": "NAM-028",
@@ -9939,7 +9953,7 @@
     {
       "id": "NAM-029",
       "round": "05",
-      "name_ar": "Pesantren As'adiyah Sengkang",
+      "name_ar": "بيسانترين الأسعدية – سينجكانج",
       "type": "university_center",
       "type_group": "research_education",
       "country": "ID",
@@ -9970,12 +9984,13 @@
       ],
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "name_ar_original": "Pesantren As'adiyah Sengkang"
     },
     {
       "id": "NAM-030",
       "round": "05",
-      "name_ar": "Pesantren Daarun Najaah وغيرها",
+      "name_ar": "بيسانترين دار النجاح وأخواتها (دار النجاح، الحكمة، المسجد الأكبر بجاوة الوسطى)",
       "type": "foundation_waqf",
       "type_group": "research_education",
       "country": "ID",
@@ -10005,12 +10020,13 @@
       "subjects_category": [
         "application_outreach",
         "classical_corpus"
-      ]
+      ],
+      "name_ar_original": "Pesantren Daarun Najaah وغيرها"
     },
     {
       "id": "NAM-031",
       "round": "05",
-      "name_ar": "Maktabah Santri (تطبيقات السيرة الإندونيسية)",
+      "name_ar": "مكتبة سانتري (تطبيقات السيرة الإندونيسية)",
       "type": "digital_platform",
       "type_group": "media_audience",
       "country": "ID",
@@ -10040,7 +10056,8 @@
       "subjects_category": [
         "application_outreach",
         "classical_corpus"
-      ]
+      ],
+      "name_ar_original": "Maktabah Santri (تطبيقات السيرة الإندونيسية)"
     },
     {
       "id": "NAM-032",
@@ -10447,7 +10464,7 @@
     {
       "id": "NAM-042",
       "round": "05",
-      "name_ar": "مدرسة الإنعامية – Camperdown",
+      "name_ar": "مدرسة الإنعامية – كامبردون (Camperdown، جنوب إفريقيا)",
       "name_en": "Madrasah In'aamiyyah",
       "type": "university_center",
       "type_group": "research_education",
@@ -10482,12 +10499,13 @@
       "subjects_category": [
         "classical_corpus",
         "methodology_critique"
-      ]
+      ],
+      "name_ar_original": "مدرسة الإنعامية – Camperdown"
     },
     {
       "id": "NAM-043",
       "round": "05",
-      "name_ar": "DUAI – Strand, Cape Town",
+      "name_ar": "دار العلوم زكريا الإسلامية – ستراند، كيب تاون (DUAI)",
       "type": "university_center",
       "type_group": "research_education",
       "country": "ZA",
@@ -10519,7 +10537,8 @@
       "url": "https://duai.org.za/institute",
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "name_ar_original": "DUAI – Strand, Cape Town"
     },
     {
       "id": "NAM-044",
@@ -11281,7 +11300,7 @@
     {
       "id": "NAM-062",
       "round": "05",
-      "name_ar": "Faith Essentials Online",
+      "name_ar": "منصة أساسيات الإيمان أونلاين (Faith Essentials Online)",
       "type": "digital_platform",
       "type_group": "media_audience",
       "country": "US",
@@ -11315,12 +11334,13 @@
       "url": "https://faithessentials.online",
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "name_ar_original": "Faith Essentials Online"
     },
     {
       "id": "NAM-063",
       "round": "05",
-      "name_ar": "Bayyinah – Nouman Ali Khan",
+      "name_ar": "معهد بيّنة – نعمان علي خان",
       "type": "digital_platform",
       "type_group": "media_audience",
       "country": "US",
@@ -11353,7 +11373,8 @@
       ],
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "name_ar_original": "Bayyinah – Nouman Ali Khan"
     },
     {
       "id": "WEST-001",
@@ -11380,7 +11401,7 @@
         "early_islam"
       ],
       "key_figures": [
-        "Sean Anthony"
+        "شون أنتوني"
       ],
       "funding_type": "state",
       "description_ar": "شون أنتوني أستاذ مشارك، صاحب Muhammad and the Empires of Faith (UCP 2020). المنهج: نقدي-تاريخي مع تكامل مصادر سريانية ويونانية. الموقع: Imperial Context School / Late Antique.",
@@ -11419,7 +11440,7 @@
         "seerah_general"
       ],
       "key_figures": [
-        "Khaled El-Rouayheb"
+        "خالد الرويهب"
       ],
       "funding_type": "private",
       "notes_ar": "[تحت العتبة] — السيرة كنسبة حدّية.",
@@ -11459,8 +11480,8 @@
         "early_islam"
       ],
       "key_figures": [
-        "Patricia Crone",
-        "Christian Robin"
+        "باتريشيا كرون",
+        "كريستيان روبان"
       ],
       "funding_type": "private",
       "description_ar": "تركة Patricia Crone (ت. 2015) المؤسِّسة لـRevisionist School. حالياً Christian Robin زائر دائم.",
@@ -11502,9 +11523,9 @@
         "early_islam"
       ],
       "key_figures": [
-        "Michael Cook",
-        "Bernard Haykel",
-        "Hossein Modarressi"
+        "مايكل كوك",
+        "برنارد هايكل",
+        "حسين مدرّسي"
       ],
       "funding_type": "private",
       "description_ar": "Michael Cook مؤلف Hagarism 1977 مع Crone. سلسلة Studies in Late Antiquity and Early Islam ضمّت Donner (Narratives of Islamic Origins, 1998).",
@@ -11547,7 +11568,7 @@
         "historiography"
       ],
       "key_figures": [
-        "Fred Donner"
+        "فريد دونر"
       ],
       "funding_type": "private",
       "description_ar": "تركة Fred Donner (متقاعد، مؤلف Muhammad and the Believers, 2010). نشره مجلة JNES. الموقع: Revisionist معتدل / Believers Movement.",
@@ -11587,9 +11608,9 @@
         "comparative_religion"
       ],
       "key_figures": [
-        "John Esposito",
-        "Jonathan Brown",
-        "John Voll"
+        "جون إسبوزيتو",
+        "جوناثان براون",
+        "جون فول"
       ],
       "funding_type": "private",
       "notes_ar": "[تحت العتبة] — السيرة حدّية.",
@@ -11625,8 +11646,8 @@
         "seerah_general"
       ],
       "key_figures": [
-        "Frank Griffel",
-        "Gerhard Bowering"
+        "فرانك غريفل",
+        "غيرهارد باورينغ"
       ],
       "funding_type": "private",
       "notes_ar": "[تحت العتبة].",
@@ -11667,7 +11688,7 @@
         "sources_critique"
       ],
       "key_figures": [
-        "Robert Hoyland"
+        "روبرت هويلاند"
       ],
       "funding_type": "private",
       "description_ar": "Robert Hoyland أستاذ تاريخ الشرق الأوسط في العصور المتأخرة منذ 2012. صاحب Seeing Islam as Others Saw It (1997) و In God's Path: The Arab Conquests (OUP 2014). الموقع: نقدي-تاريخي ميّال إلى مدرسة Crone.",
@@ -11709,7 +11730,7 @@
         "early_islam"
       ],
       "key_figures": [
-        "Stephen J. Shoemaker"
+        "ستيفن ج. شوميكر"
       ],
       "funding_type": "state",
       "description_ar": "صاحب The Death of a Prophet (Penn Press 2011)، The Apocalypse of Empire (Penn 2018)، A Prophet Has Appeared (UCP 2021)، Creating the Qur'an (UCP 2022). الموقع: Revisionist متشدد / Late Antique Apocalyptic.",
@@ -11730,7 +11751,7 @@
     {
       "id": "WEST-010",
       "round": "06",
-      "name_ar": "جامعة ستانفورد – Behnam Sadeghi",
+      "name_ar": "جامعة ستانفورد – بهنام صادقي",
       "name_en": "Stanford University",
       "type": "university_department",
       "type_group": "research_education",
@@ -11750,7 +11771,7 @@
         "early_islam"
       ],
       "key_figures": [
-        "Behnam Sadeghi"
+        "بهنام صادقي"
       ],
       "funding_type": "private",
       "description_ar": "Behnam Sadeghi (سابقاً) صاحب الدراسة المؤسِّسة للقياس الكربوني لمخطوط صنعاء 1 (مع Bergmann 2010 و Goudarzi 2012).",
@@ -11766,7 +11787,8 @@
       "subjects_category": [
         "auxiliary_sciences",
         "prophetic_demography"
-      ]
+      ],
+      "name_ar_original": "جامعة ستانفورد – Behnam Sadeghi"
     },
     {
       "id": "WEST-011",
@@ -11789,7 +11811,7 @@
         "seerah_general"
       ],
       "key_figures": [
-        "Wael Hallaq"
+        "وائل حلاق"
       ],
       "funding_type": "private",
       "description_ar": "Wael Hallaq (Avalon Foundation Professor). شراكة دبلوم مزدوج مع AKU-ISMC لندن.",
@@ -11824,7 +11846,7 @@
         "seerah_general"
       ],
       "key_figures": [
-        "Bruce Lawrence"
+        "بروس لورنس"
       ],
       "funding_type": "private",
       "notes_ar": "[تحت العتبة] — تركة فقط.",
@@ -11858,7 +11880,7 @@
         "seerah_general"
       ],
       "key_figures": [
-        "Joseph Lowry"
+        "جوزيف لوري"
       ],
       "funding_type": "private",
       "notes_ar": "[تحت العتبة].",
@@ -11898,7 +11920,7 @@
         "early_islam"
       ],
       "key_figures": [
-        "Gabriel Said Reynolds"
+        "غابرييل سعيد رينولدز"
       ],
       "funding_type": "private",
       "description_ar": "Gabriel Said Reynolds، صاحب The Qur'an and the Bible (Yale UP 2018)، The Qur'an and Its Biblical Subtext (Routledge 2010). الموقع: Late Antique / Christian-Quranic Intertext.",
@@ -11919,7 +11941,7 @@
     {
       "id": "WEST-015",
       "round": "06",
-      "name_ar": "SHARIAsource – كلية الحقوق بهارفارد",
+      "name_ar": "منصّة شريعة سورس – كلية الحقوق بجامعة هارفارد",
       "name_en": "SHARIAsource — Harvard Law School",
       "type": "digital_platform",
       "type_group": "media_audience",
@@ -11935,7 +11957,7 @@
         "historiography"
       ],
       "key_figures": [
-        "Intisar Rabb"
+        "انتصار رب"
       ],
       "funding_type": "private",
       "notes_ar": "[تحت العتبة].",
@@ -11949,7 +11971,8 @@
       ],
       "subjects_category": [
         "auxiliary_sciences"
-      ]
+      ],
+      "name_ar_original": "SHARIAsource – كلية الحقوق بهارفارد"
     },
     {
       "id": "WEST-016",
@@ -11973,9 +11996,9 @@
         "seerah_general"
       ],
       "key_figures": [
-        "Wilfred Cantwell Smith",
-        "Wael Hallaq",
-        "Robert Wisnovsky"
+        "ويلفرد كانتويل سميث",
+        "وائل حلاق",
+        "روبرت ويزنوفسكي"
       ],
       "funding_type": "private",
       "description_ar": "أسسه Wilfred Cantwell Smith. تركة Wael Hallaq (انتقل لكولومبيا 2009). الكوادر الحالية: Robert Wisnovsky.",
@@ -12014,7 +12037,7 @@
         "biography_methodology"
       ],
       "key_figures": [
-        "Walid Saleh"
+        "وليد صالح"
       ],
       "funding_type": "state",
       "description_ar": "Walid Saleh أستاذ متميز، مدير Institute of Islamic Studies الناشئ. صاحب The Formation of the Classical Tafsir Tradition (Brill 2004). محرر سلسلة Routledge Qur'an. الموقع: تكاملي.",
@@ -12051,7 +12074,7 @@
         "seerah_general"
       ],
       "key_figures": [
-        "Lynda Clarke"
+        "ليندا كلارك"
       ],
       "notes_ar": "[تحت العتبة].",
       "verification": "desk_verified",
@@ -12122,8 +12145,8 @@
         "early_islam"
       ],
       "key_figures": [
-        "Nicolai Sinai",
-        "Christopher Melchert"
+        "نيكولاي سيناي",
+        "كريستوفر ملشرت"
       ],
       "funding_type": "state",
       "description_ar": "Nicolai Sinai (Sheikh Zayed Lecturer، Pembroke Fellow). الإنتاج 2019-2026: Rain-Giver, Bone-Breaker, Score-Settler (AOS 2019)، Unlocking the Medinan Qur'an (Brill 2022)، Key Terms of the Qur'an (Princeton 2023، 811 ص). الموقع: Empirical Linguistic / Late Antique.",
@@ -12144,7 +12167,7 @@
     {
       "id": "WEST-021",
       "round": "06",
-      "name_ar": "مشروع QuCIP — ERC Consolidator Grant",
+      "name_ar": "مشروع كيوسيب (QuCIP) – منحة المجلس الأوروبي للأبحاث، جامعة أكسفورد",
       "name_en": "ERC Consolidator Grant QuCIP — Oxford",
       "type": "research_center",
       "type_group": "research_education",
@@ -12168,9 +12191,9 @@
         "biography_methodology"
       ],
       "key_figures": [
-        "Nicolai Sinai",
-        "Marianna Klar",
-        "Saqib Hussain"
+        "نيكولاي سيناي",
+        "ماريانا كلار",
+        "ثاقب حسين"
       ],
       "parent_organization_ar": "ERC / جامعة أكسفورد",
       "funding_type": "state",
@@ -12192,7 +12215,8 @@
       "subjects_category": [
         "classical_corpus",
         "methodology_critique"
-      ]
+      ],
+      "name_ar_original": "مشروع QuCIP — ERC Consolidator Grant"
     },
     {
       "id": "WEST-022",
@@ -12218,8 +12242,8 @@
         "seerah_general"
       ],
       "key_figures": [
-        "Farhan Nizami",
-        "Turki Al-Faisal"
+        "فرحان نظامي",
+        "تركي الفيصل"
       ],
       "funding_type": "private",
       "description_ar": "Royal Charter 2012. الراعي: الملك تشارلز الثالث. يصدر Journal of Islamic Studies (OUP منذ 1990).",
@@ -12255,8 +12279,8 @@
         "seerah_general"
       ],
       "key_figures": [
-        "James Montgomery",
-        "Yasir Suleiman"
+        "جيمس مونتغمري",
+        "ياسر سليمان"
       ],
       "funding_type": "state",
       "notes_ar": "[تحت العتبة بدرجة منخفضة].",
@@ -12295,7 +12319,7 @@
         "biography_methodology"
       ],
       "key_figures": [
-        "Mustafa Shah"
+        "مصطفى شاه"
       ],
       "funding_type": "state",
       "description_ar": "يصدر Journal of Qur'anic Studies (JQS).",
@@ -12336,8 +12360,8 @@
         "hadith_sciences"
       ],
       "key_figures": [
-        "Andreas Görke",
-        "Carole Hillenbrand"
+        "أندرياس غوركه",
+        "كارول هيلينبراند"
       ],
       "funding_type": "state",
       "description_ar": "Andreas Görke (أحد ثلاثي مدرسة Isnad-cum-Matn). سلسلة Edinburgh Studies in Classical Islamic History and Culture بتحرير Hillenbrand. الموقع: Rehabilitative School.",
@@ -12418,8 +12442,8 @@
         "historiography"
       ],
       "key_figures": [
-        "Sarah Savant",
-        "Stephen Burge"
+        "سارة سافانت",
+        "ستيفن بيرج"
       ],
       "funding_type": "private",
       "explicit_relations": [
@@ -12450,7 +12474,7 @@
     {
       "id": "WEST-028",
       "round": "06",
-      "name_ar": "مشروع KITAB",
+      "name_ar": "مشروع كتاب (KITAB)",
       "name_en": "KITAB Project",
       "type": "digital_platform",
       "type_group": "media_audience",
@@ -12471,8 +12495,8 @@
         "digital_seerah"
       ],
       "key_figures": [
-        "Sarah Savant",
-        "Maxim Romanov"
+        "سارة سافانت",
+        "مكسيم رومانوف"
       ],
       "parent_organization_ar": "AKU-ISMC + Vienna + Hamburg",
       "funding_type": "private",
@@ -12488,7 +12512,8 @@
       "subjects_category": [
         "application_outreach",
         "auxiliary_sciences"
-      ]
+      ],
+      "name_ar_original": "مشروع KITAB"
     },
     {
       "id": "WEST-029",
@@ -12514,7 +12539,7 @@
         "early_islam"
       ],
       "key_figures": [
-        "Harry Munt"
+        "هاري مونت"
       ],
       "funding_type": "state",
       "description_ar": "Harry Munt صاحب The Holy City of Medina: Sacred Space in Early Islamic Arabia (CUP 2014).",
@@ -12582,7 +12607,7 @@
         "seerah_general"
       ],
       "key_figures": [
-        "Robert Gleave"
+        "روبرت غليف"
       ],
       "notes_ar": "[تحت العتبة].",
       "verification": "desk_verified",
@@ -12725,7 +12750,7 @@
         "historiography"
       ],
       "key_figures": [
-        "Angelika Neuwirth"
+        "أنجيليكا نويفرت"
       ],
       "parent_organization_ar": "BBAW (سابقاً) / ZIT Münster (منذ 2024)",
       "funding_type": "state",
@@ -12799,9 +12824,9 @@
         "sources_critique"
       ],
       "key_figures": [
-        "Angelika Neuwirth",
-        "Islam Dayeh",
-        "Ali Aghaei"
+        "أنجيليكا نويفرت",
+        "إسلام ضايع",
+        "علي آغائي"
       ],
       "funding_type": "state",
       "description_ar": "مقرّ Neuwirth الأكاديمي السابق.",
@@ -12842,7 +12867,7 @@
         "sources_critique"
       ],
       "key_figures": [
-        "Tilman Nagel"
+        "تيلمان ناغل"
       ],
       "funding_type": "state",
       "description_ar": "تركة Tilman Nagel (متقاعد، صاحب Mohammed: Leben und Legende, 2008، ناقد منهج Isnad-cum-Matn). الموقع: مدرسة فيلولوجية تقليدية.",
@@ -12879,8 +12904,8 @@
         "seerah_general"
       ],
       "key_figures": [
-        "Tilman Nagel",
-        "Sebastian Günther"
+        "تيلمان ناغل",
+        "سيباستيان غونتر"
       ],
       "funding_type": "state",
       "description_ar": "تركة Tilman Nagel كأستاذ سابق. الكوادر الحالية: Sebastian Günther.",
@@ -12915,7 +12940,7 @@
         "seerah_general"
       ],
       "key_figures": [
-        "Stephan Conermann"
+        "شتيفان كونرمان"
       ],
       "notes_ar": "[تحت العتبة].",
       "verification": "desk_verified",
@@ -12958,11 +12983,11 @@
         "biography_methodology"
       ],
       "key_figures": [
-        "Ruggero Vimercati Sanseverino",
-        "Mouez Khalfaoui",
-        "Lejla Demiri",
-        "Hossam Ouf",
-        "Besnik Sinani"
+        "روجيرو فيمركاتي سانسيفيرينو",
+        "معز الخلفاوي",
+        "ليلى دميري",
+        "حسام عوف",
+        "بسنيك سيناني"
       ],
       "funding_type": "state",
       "description_ar": "Vimercati Sanseverino كرسي Theological Hadith Studies — يدرس السيرة كشهادة حية إسلامية، يدير ندوات Sira مع Ouf و Sinani. عدد خاص من Arabica 2023 حول كتابة السيرة. كيان نموذجي يخدم السيرة في السياق الأكاديمي الألماني.",
@@ -13004,7 +13029,7 @@
         "biography_methodology"
       ],
       "key_figures": [
-        "Mouhanad Khorchide"
+        "مهنّد خورشيد"
       ],
       "funding_type": "state",
       "explicit_relations": [
@@ -13047,7 +13072,7 @@
         "seerah_general"
       ],
       "key_figures": [
-        "Christian Lange"
+        "كريستيان لانغه"
       ],
       "notes_ar": "[تحت العتبة].",
       "verification": "desk_verified",
@@ -13085,7 +13110,7 @@
         "historiography"
       ],
       "key_figures": [
-        "Andreas Kaplony"
+        "أندرياس كابلوني"
       ],
       "funding_type": "state",
       "description_ar": "Andreas Kaplony محرر Geschichte der arabischen Welt (C.H. Beck 2024)، يضم فصل Sinai عن الحجاز في عصر محمد.",
@@ -13126,7 +13151,7 @@
         "digital_seerah"
       ],
       "key_figures": [
-        "Maxim Romanov"
+        "مكسيم رومانوف"
       ],
       "funding_type": "state",
       "description_ar": "Emmy Noether Programm DFG، مشروع «The Evolution of Islamic Societies c. 600-1600 CE: Algorithmic Analysis into Social History». الموقع: Digital Humanities.",
@@ -13170,10 +13195,10 @@
         "orientalism_critique"
       ],
       "key_figures": [
-        "Karl-Heinz Ohlig",
-        "Christoph Luxenberg",
-        "Markus Groß",
-        "Robert M. Kerr"
+        "كارل-هاينتس أوليغ",
+        "كريستوف لوكسنبرغ",
+        "ماركوس غروس",
+        "روبرت م. كير"
       ],
       "funding_type": "private",
       "description_ar": "أعضاء أبرز: Karl-Heinz Ohlig، Christoph Luxenberg (Die syro-aramäische Lesart des Koran 2000). الموقع: Hyper-Revisionist / تشكيك جذري.",
@@ -13194,7 +13219,7 @@
     {
       "id": "WEST-047",
       "round": "06",
-      "name_ar": "سلسلة إنارا – Schiler & Mücke",
+      "name_ar": "سلسلة إنارا – دار شيلر وموكه للنشر",
       "name_en": "Inârah Schriften zur Islamgeschichte und zum Koran",
       "type": "publisher",
       "type_group": "publishing_knowledge",
@@ -13230,7 +13255,8 @@
       "subjects_category": [
         "auxiliary_sciences",
         "prophetic_demography"
-      ]
+      ],
+      "name_ar_original": "سلسلة إنارا – Schiler & Mücke"
     },
     {
       "id": "WEST-048",
@@ -13324,8 +13350,8 @@
         "seerah_general"
       ],
       "key_figures": [
-        "Stephan Procházka",
-        "Rüdiger Lohlker"
+        "شتيفان بروخاسكا",
+        "روديغر لولكر"
       ],
       "notes_ar": "[تحت العتبة].",
       "verification": "desk_verified",
@@ -13364,7 +13390,7 @@
         "historiography"
       ],
       "key_figures": [
-        "Aziz Al-Azmeh"
+        "عزيز العظمة"
       ],
       "funding_type": "private",
       "description_ar": "صاحب The Emergence of Islam in Late Antiquity: Allah and his People (CUP 2014)، Secularism in the Arab World (Edinburgh 2020). الموقع: Late Antique Imperial Monotheism.",
@@ -13408,9 +13434,9 @@
         "historiography"
       ],
       "key_figures": [
-        "Kinga Dévényi",
-        "István Ormos",
-        "István Zimonyi"
+        "كينغا ديفيني",
+        "إشتفان أورموش",
+        "إشتفان زيموني"
       ],
       "funding_type": "state",
       "description_ar": "مجلة The Arabist: Budapest Studies in Arabic منذ 1988. شريك في EuQu.",
@@ -13452,7 +13478,7 @@
         "early_islam"
       ],
       "key_figures": [
-        "Petra Sijpesteijn"
+        "بترا سيبستاين"
       ],
       "funding_type": "state",
       "description_ar": "سلسلة Leiden Studies in Islam and Society (Brill). Petra Sijpesteijn أستاذة كرسي اللغة العربية، صاحبة ERC Consolidator «Embedding Conquest» (2017-2023).",
@@ -13473,7 +13499,7 @@
     {
       "id": "WEST-054",
       "round": "06",
-      "name_ar": "Marijn van Putten – جامعة ليدن",
+      "name_ar": "مارين فان بوتن – جامعة لايدن",
       "type": "individual_researcher",
       "type_group": "individual_actors",
       "country": "NL",
@@ -13493,7 +13519,7 @@
         "manuscripts"
       ],
       "key_figures": [
-        "Marijn van Putten"
+        "ماراين فان بوتن"
       ],
       "description_ar": "أستاذ مساعد، لغوي تاريخي. Quranic Arabic: From Its Hijazi Origins to Its Classical Reading Traditions (Brill 2022). محرر JIQSA. الموقع: Empirical Linguistic.",
       "verification": "desk_verified",
@@ -13506,12 +13532,13 @@
       ],
       "subjects_category": [
         "auxiliary_sciences"
-      ]
+      ],
+      "name_ar_original": "Marijn van Putten – جامعة ليدن"
     },
     {
       "id": "WEST-055",
       "round": "06",
-      "name_ar": "كرسي الإسلاميات – ULB بروكسل – Guillaume Dye",
+      "name_ar": "كرسي الدراسات الإسلامية – جامعة بروكسل الحرة (ULB) – غيوم داي",
       "name_en": "Chaire d'islamologie, ULB Bruxelles",
       "type": "academic_chair",
       "type_group": "research_education",
@@ -13533,7 +13560,7 @@
         "comparative_religion"
       ],
       "key_figures": [
-        "Guillaume Dye"
+        "غيوم دي"
       ],
       "funding_type": "state",
       "description_ar": "Chair Islam: histoire, cultures, sociétés. تحرير Le Coran des historiens مع Amir-Moezzi (3 مجلدات، Cerf 2019)، Early Islam: The Sectarian Milieu of Late Antiquity? (ULB 2023)، The Study of Islamic Origins (De Gruyter 2021). الموقع: Revisionist Late Antique.",
@@ -13549,7 +13576,8 @@
         "auxiliary_sciences",
         "methodology_critique",
         "prophetic_demography"
-      ]
+      ],
+      "name_ar_original": "كرسي الإسلاميات – ULB بروكسل – Guillaume Dye"
     },
     {
       "id": "WEST-056",
@@ -13578,11 +13606,11 @@
         "early_islam"
       ],
       "key_figures": [
-        "Guillaume Dye",
-        "Carlos A. Segovia",
-        "Emilio González Ferrín",
-        "Manfred Kropp",
-        "Tommaso Tesei"
+        "غيوم دي",
+        "كارلوس أ. سيغوفيا",
+        "إميليو غونزاليس فيرين",
+        "مانفريد كروب",
+        "توماسو تيزي"
       ],
       "funding_type": "private",
       "description_ar": "اجتماعات Nangeroni دورية. الإنتاج: مجلدا De Gruyter و ULB. الموقع: Revisionist Sectarian Milieu.",
@@ -13602,7 +13630,7 @@
     {
       "id": "WEST-057",
       "round": "06",
-      "name_ar": "KU Leuven — Mehdi Azaiez",
+      "name_ar": "جامعة لوفان الكاثوليكية – مهدي عزايز",
       "type": "individual_researcher",
       "type_group": "individual_actors",
       "country": "BE",
@@ -13621,7 +13649,7 @@
         "sources_critique"
       ],
       "key_figures": [
-        "Mehdi Azaiez"
+        "مهدي عزايز"
       ],
       "description_ar": "موقع Coran et sciences de l'Homme.",
       "verification": "desk_verified",
@@ -13634,7 +13662,8 @@
       ],
       "subjects_category": [
         "auxiliary_sciences"
-      ]
+      ],
+      "name_ar_original": "KU Leuven — Mehdi Azaiez"
     },
     {
       "id": "WEST-058",
@@ -13662,7 +13691,7 @@
         "sources_critique"
       ],
       "key_figures": [
-        "François Déroche"
+        "فرانسوا ديروش"
       ],
       "funding_type": "state",
       "description_ar": "أُسس 2014 لـFrançois Déroche. الإنتاج 2023-2024: كولوكيوم Histoire(s) et Coran (مايو 2024)، تحرير The Qurʾan and Its Handwritten Transmission (Brill 2024). الموقع: Codicology + Late Antique.",
@@ -13738,8 +13767,8 @@
         "historiography"
       ],
       "key_figures": [
-        "Vincent Geisser",
-        "Christian Robin"
+        "فنسان غيسر",
+        "كريستيان روبان"
       ],
       "funding_type": "state",
       "description_ar": "UMR 7310 CNRS-AMU. مشروع MIRCAP (2017-2018) لإدارة بحوث جزيرة العرب قبل الإسلام. Christian Robin عضو Académie des Inscriptions et Belles-Lettres.",
@@ -13787,10 +13816,10 @@
         "tarjamah"
       ],
       "key_figures": [
-        "Mercedes García-Arenal",
-        "John Tolan",
-        "Jan Loop",
-        "Roberto Tottoli"
+        "مرسيدس غارثيا-آريينال",
+        "جون تولان",
+        "يان لوب",
+        "روبرتو توتولي"
       ],
       "funding_type": "state",
       "description_ar": "مساهمة ERC €9,842,534. ممتد 2019-2026. PIs من 4 مؤسسات (CSIC مدريد، Nantes، كوبنهاغن، L'Orientale نابولي). سلسلة The European Qur'an في De Gruyter. أكبر مشروع ممول حالياً على القرآن في الأكاديميا الغربية.",
@@ -13830,7 +13859,7 @@
         "early_islam"
       ],
       "key_figures": [
-        "Christian Robin"
+        "كريستيان روبان"
       ],
       "funding_type": "state",
       "description_ar": "ينشر Comptes rendus. مساهمات Christian Robin على نقوش حِمى ونجران، حملة أبرهة 548-565م.",
@@ -13870,7 +13899,7 @@
         "sources_critique"
       ],
       "key_figures": [
-        "Mohammad Ali Amir-Moezzi"
+        "محمد علي أمير معزّي"
       ],
       "funding_type": "state",
       "description_ar": "Amir-Moezzi: شيعة مبكرة وقرآن.",
@@ -13914,8 +13943,8 @@
         "historiography"
       ],
       "key_figures": [
-        "Carole Roche-Hawley",
-        "Iyas Hassan"
+        "كارول روش-هاولي",
+        "إياس حسن"
       ],
       "funding_type": "state",
       "description_ar": "تأسس 2002 من دمج IFEAD (1922) + IFAPO (1946) + CERMOC. ثلاثة أقسام: الأركيولوجيا، الدراسات العربية الكلاسيكية. يصدر مجلة Syria.",
@@ -13952,7 +13981,7 @@
         "early_islam"
       ],
       "key_figures": [
-        "Roland-Pierre Gayraud"
+        "رولان-بيير غيرو"
       ],
       "funding_type": "state",
       "description_ar": "حفريات الفسطاط/إسطبل عنتر.",
@@ -13992,7 +14021,7 @@
         "early_islam"
       ],
       "key_figures": [
-        "Claudia Bührig"
+        "كلاوديا بوريغ"
       ],
       "funding_type": "state",
       "description_ar": "مشروع «Qurh/al-Mabiyat: Early Islamic Urbanism in the Hijaz» (2024). سلسلة Damaszener Forschungen.",
@@ -14031,7 +14060,7 @@
         "biography_methodology"
       ],
       "key_figures": [
-        "Gregor Schoeler"
+        "غريغور شويلر"
       ],
       "funding_type": "state",
       "description_ar": "متقاعد، أحد ثلاثي مدرسة Isnad-cum-Matn.",
@@ -14067,7 +14096,7 @@
         "seerah_general"
       ],
       "key_figures": [
-        "Andreas Kaplony"
+        "أندرياس كابلوني"
       ],
       "notes_ar": "[تحت العتبة].",
       "verification": "desk_verified",
@@ -14107,7 +14136,7 @@
         "historiography"
       ],
       "key_figures": [
-        "Mayte Penelas"
+        "مايتي بينيلاس"
       ],
       "funding_type": "state",
       "description_ar": "مجلة MEAH منذ 1952.",
@@ -14160,7 +14189,7 @@
     {
       "id": "WEST-071",
       "round": "06",
-      "name_ar": "Mercedes García-Arenal – CSIC مدريد – EuQu PI",
+      "name_ar": "مرسيدس غارسيا-أرينال – المجلس الأعلى للأبحاث العلمية بمدريد – الباحث الرئيسي لمشروع EuQu",
       "type": "individual_researcher",
       "type_group": "individual_actors",
       "country": "ES",
@@ -14180,7 +14209,7 @@
         "historiography"
       ],
       "key_figures": [
-        "Mercedes García-Arenal"
+        "مرسيدس غارثيا-آريينال"
       ],
       "funding_type": "state",
       "explicit_relations": [
@@ -14201,12 +14230,13 @@
       ],
       "subjects_category": [
         "auxiliary_sciences"
-      ]
+      ],
+      "name_ar_original": "Mercedes García-Arenal – CSIC مدريد – EuQu PI"
     },
     {
       "id": "WEST-072",
       "round": "06",
-      "name_ar": "جامعة نابولي «L'Orientale»",
+      "name_ar": "جامعة نابولي الشرقية (لورينتالي)",
       "name_en": "Università degli Studi di Napoli L'Orientale",
       "type": "university_department",
       "type_group": "research_education",
@@ -14229,8 +14259,8 @@
         "sources_critique"
       ],
       "key_figures": [
-        "Roberto Tottoli",
-        "Carmela Baffioni"
+        "روبرتو توتولي",
+        "كارميلا بافيوني"
       ],
       "funding_type": "state",
       "description_ar": "Tottoli رئيس الجامعة منذ 2020، PI EuQu، صاحب The Qurʾān: A Guidebook (De Gruyter 2023)، The Qurʾān in Rome (2023). Baffioni: إخوان الصفا.",
@@ -14245,7 +14275,8 @@
       "subjects_category": [
         "auxiliary_sciences",
         "classical_corpus"
-      ]
+      ],
+      "name_ar_original": "جامعة نابولي «L'Orientale»"
     },
     {
       "id": "WEST-073",
@@ -14266,7 +14297,7 @@
         "seerah_general"
       ],
       "key_figures": [
-        "Raoul Villano"
+        "راؤول فيلانو"
       ],
       "funding_type": "state",
       "verification": "desk_verified",
@@ -14300,7 +14331,7 @@
         "seerah_general"
       ],
       "key_figures": [
-        "Joseph E. Sanzo"
+        "جوزيف إ. سانزو"
       ],
       "notes_ar": "[تحت العتبة].",
       "verification": "desk_verified",
@@ -14334,7 +14365,7 @@
         "historiography"
       ],
       "key_figures": [
-        "Letizia Osti"
+        "ليتيتسيا أوستي"
       ],
       "notes_ar": "[تحت العتبة] — التأريخ العباسي.",
       "verification": "desk_verified",
@@ -14420,7 +14451,7 @@
     {
       "id": "WEST-078",
       "round": "06",
-      "name_ar": "جامعة كوبنهاغن – Jan Loop @ ToRS",
+      "name_ar": "جامعة كوبنهاغن – يان لووب، قسم الدراسات المتعددة الثقافات والإقليمية (ToRS)",
       "name_en": "University of Copenhagen / Jan Loop @ ToRS",
       "type": "individual_researcher",
       "type_group": "individual_actors",
@@ -14439,7 +14470,7 @@
         "sources_critique"
       ],
       "key_figures": [
-        "Jan Loop"
+        "يان لوب"
       ],
       "explicit_relations": [
         {
@@ -14459,7 +14490,8 @@
       ],
       "subjects_category": [
         "auxiliary_sciences"
-      ]
+      ],
+      "name_ar_original": "جامعة كوبنهاغن – Jan Loop @ ToRS"
     },
     {
       "id": "WEST-079",
@@ -14481,7 +14513,7 @@
         "seerah_general"
       ],
       "key_figures": [
-        "Jan Hjärpe"
+        "يان يربه"
       ],
       "description_ar": "برنامج الدكتوراه الوحيد في علم الإسلاميات في السويد.",
       "notes_ar": "[تحت العتبة].",
@@ -14516,7 +14548,7 @@
         "seerah_general"
       ],
       "key_figures": [
-        "Mohammad Fazlhashemi"
+        "محمد فضل هاشمي"
       ],
       "notes_ar": "[تحت العتبة].",
       "verification": "desk_verified",
@@ -14596,7 +14628,7 @@
     {
       "id": "WEST-083",
       "round": "06",
-      "name_ar": "جامعة هلسنكي – كلية اللاهوت – Ilkka Lindstedt",
+      "name_ar": "جامعة هلسنكي – كلية اللاهوت – إلكا ليندستيدت",
       "name_en": "University of Helsinki — Faculty of Theology — Ilkka Lindstedt",
       "type": "individual_researcher",
       "type_group": "individual_actors",
@@ -14619,7 +14651,7 @@
         "historiography"
       ],
       "key_figures": [
-        "Ilkka Lindstedt"
+        "إلكا ليندستيدت"
       ],
       "funding_type": "state",
       "description_ar": "محاضر أول في اللاهوت الإسلامي منذ 2025. Muḥammad and His Followers in Context: The Religious Map of Late Antique Arabia (Brill 2024)؛ Epigraphy and Theory in the Study of Early Islam (Routledge 2026). الموقع: Late Antique / Empirical Epigraphic. أحد أبرز شباب الحقل.",
@@ -14635,7 +14667,8 @@
         "auxiliary_sciences",
         "classical_corpus",
         "prophetic_demography"
-      ]
+      ],
+      "name_ar_original": "جامعة هلسنكي – كلية اللاهوت – Ilkka Lindstedt"
     },
     {
       "id": "WEST-084",
@@ -14663,8 +14696,8 @@
         "sources_critique"
       ],
       "key_figures": [
-        "J. Bielawski",
-        "Marcin Grodzki"
+        "ج. بييلافسكي",
+        "مارتسين غرودزكي"
       ],
       "funding_type": "state",
       "description_ar": "مجلة Studia Arabistyczne i Islamistyczne منذ 1993. Grodzki يحلّل تيار Inârah.",
@@ -14702,7 +14735,7 @@
         "seerah_general"
       ],
       "key_figures": [
-        "Barbara Michalak-Pikulska"
+        "باربرا ميخالاك-بيكولسكا"
       ],
       "funding_type": "state",
       "verification": "desk_verified",
@@ -14736,7 +14769,7 @@
         "seerah_general"
       ],
       "key_figures": [
-        "Pamela Klasova"
+        "باميلا كلاسوفا"
       ],
       "funding_type": "state",
       "description_ar": "تتعاون مع Oriental Institute of the Czech Academy of Sciences. درّبت Pamela Klasova.",
@@ -14778,7 +14811,7 @@
         "sources_critique"
       ],
       "key_figures": [
-        "Efim A. Rezvan"
+        "إفيم أ. ريزفان"
       ],
       "funding_type": "state",
       "description_ar": "يحفظ مصحف عثمان (MS E 20) ومخطوطات كاتا لانغار. Rezvan نائب المدير، رئيس تحرير Manuscripta Orientalia منذ 1995. The Qurʾan and Its World (Kunstkamera 2012)، The Qurʾan of Uthman (RAS 2004). مركز محوري للمخطوطات القرآنية المبكرة.",
@@ -14887,7 +14920,7 @@
         "seerah_general"
       ],
       "key_figures": [
-        "Amin Saikal"
+        "أمين صيقل"
       ],
       "funding_type": "state",
       "description_ar": "أكبر مركز من نوعه في أستراليا.",
@@ -14971,7 +15004,7 @@
     {
       "id": "WEST-093",
       "round": "06",
-      "name_ar": "Toyo Bunko (الشرقية) طوكيو",
+      "name_ar": "مكتبة طويو بونكو الشرقية – طوكيو",
       "name_en": "Toyo Bunko Tokyo",
       "type": "library_archive",
       "type_group": "publishing_knowledge",
@@ -15002,7 +15035,8 @@
       ],
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "name_ar_original": "Toyo Bunko (الشرقية) طوكيو"
     },
     {
       "id": "WEST-094",
@@ -15121,8 +15155,8 @@
         "early_islam"
       ],
       "key_figures": [
-        "Saqib Hussain",
-        "Nicolai Sinai"
+        "ثاقب حسين",
+        "نيكولاي سيناي"
       ],
       "funding_type": "private",
       "description_ar": "محكّمة سنوية. الناشر De Gruyter (منذ 2022)، سابقاً Lockwood Press. مجلدات 4-9 (2019-2026).",
@@ -15197,8 +15231,8 @@
         "sources_critique"
       ],
       "key_figures": [
-        "Johanna Pink",
-        "Jane Dammen McAuliffe"
+        "يوهانا بينك",
+        "جين دامن مكوليف"
       ],
       "funding_type": "private",
       "description_ar": "محررة عامة: Johanna Pink (Universität Freiburg). تحديث الموسوعة منذ المجلدات الأصلية 2001-2006 (ed. McAuliffe).",
@@ -15237,11 +15271,11 @@
         "historiography"
       ],
       "key_figures": [
-        "Kate Fleet",
-        "Gudrun Krämer",
-        "Denis Matringe",
-        "John Nawas",
-        "Everett Rowson"
+        "كيت فليت",
+        "غودرون كريمر",
+        "دوني ماترانج",
+        "جون نواس",
+        "إيفريت روسون"
       ],
       "funding_type": "private",
       "verification": "desk_verified",
@@ -15355,7 +15389,7 @@
         "historiography"
       ],
       "key_figures": [
-        "Carole Hillenbrand"
+        "كارول هيلينبراند"
       ],
       "description_ar": "تحرير Carole Hillenbrand. ضمّت Magnusson (Zoroastrians 2024)، Bowman (Christian Monastic Life 2021).",
       "verification": "desk_verified",
@@ -15554,7 +15588,7 @@
     {
       "id": "WEST-109",
       "round": "06",
-      "name_ar": "Arabica – مجلة بريل",
+      "name_ar": "مجلة أرابيكا – دار بريل للنشر",
       "name_en": "Arabica — Brill",
       "type": "journal",
       "type_group": "publishing_knowledge",
@@ -15585,7 +15619,8 @@
       "subjects_category": [
         "classical_corpus",
         "methodology_critique"
-      ]
+      ],
+      "name_ar_original": "Arabica – مجلة بريل"
     },
     {
       "id": "WEST-110",
@@ -15731,7 +15766,7 @@
     {
       "id": "WEST-114",
       "round": "06",
-      "name_ar": "Studia Islamica",
+      "name_ar": "مجلة ستوديا إسلاميكا (الدراسات الإسلامية)",
       "type": "journal",
       "type_group": "publishing_knowledge",
       "country": "NL",
@@ -15759,7 +15794,8 @@
       ],
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "name_ar_original": "Studia Islamica"
     },
     {
       "id": "WEST-115",
@@ -15942,7 +15978,7 @@
         "historiography"
       ],
       "key_figures": [
-        "Petra Sijpesteijn"
+        "بترا سيبستاين"
       ],
       "funding_type": "state",
       "explicit_relations": [
@@ -16034,7 +16070,7 @@
     {
       "id": "WEST-122",
       "round": "06",
-      "name_ar": "Manuscripta Orientalia",
+      "name_ar": "مجلة مانوسكريبتا أورينتاليا (المخطوطات الشرقية)",
       "type": "journal",
       "type_group": "publishing_knowledge",
       "country": "RU",
@@ -16052,7 +16088,7 @@
         "manuscripts"
       ],
       "key_figures": [
-        "Efim Rezvan"
+        "إفيم ريزفان"
       ],
       "parent_organization_ar": "IOM RAS",
       "explicit_relations": [
@@ -16071,7 +16107,8 @@
       ],
       "subjects_category": [
         "auxiliary_sciences"
-      ]
+      ],
+      "name_ar_original": "Manuscripta Orientalia"
     },
     {
       "id": "WEST-123",
@@ -17690,7 +17727,7 @@
     {
       "id": "ARB-054",
       "round": "08c",
-      "name_ar": "مسلسل معاوية (MBC Studios، 2025)",
+      "name_ar": "مسلسل معاوية (استوديوهات إم بي سي، 2025)",
       "name_en": "Muawiya (TV Series, MBC Studios, 2025)",
       "type": "film_or_series",
       "type_group": "media_audience",
@@ -17735,7 +17772,8 @@
           "round_file": "round-08c-media-digital.md",
           "anchor": "ARB-054 — Muawiya Series"
         }
-      ]
+      ],
+      "name_ar_original": "مسلسل معاوية (MBC Studios، 2025)"
     },
     {
       "id": "ARB-055",
@@ -17773,7 +17811,7 @@
       "key_figures": [
         "أيمن جمال",
         "خرّم علوي (إخراج مشترك)",
-        "Adewale Akinnuoye-Agbaje (صوت)"
+        "أديوالي أكينوي-أغباجي (صوت)"
       ],
       "verification": "desk_verified",
       "inclusion_tier": "core",
@@ -17818,7 +17856,7 @@
       "description_ar": "إخراج مجيد مجيدي، 40 مليون دولار، أكبر ميزانية إنتاج إيراني تاريخياً. يصوّر طفولة النبي ﷺ. 171 دقيقة، أوّل ثلاثية مخططة. مصوّر بواسطة فيتوريو ستورارو، موسيقى أ. ر. رحمن. عُرض في مونتريال أولاً. ترشّح إيران لجائزة الأوسكار 2016. أثار انتقاد الأزهر ومفتي السعودية.",
       "key_figures": [
         "مجيد مجيدي (إخراج)",
-        "Kambuzia Partovi",
+        "كامبوزيا بارتوي",
         "فيتوريو ستورارو (تصوير)",
         "أ. ر. رحمن (موسيقى)"
       ],
@@ -17913,7 +17951,7 @@
       "description_ar": "فيلم تاريخي إخراج وإنتاج مصطفى العقاد. سيناريو H.A.L. Craig، راجعه الأزهري توفيق الحكيم. إنتاج دولي (ليبيا/المغرب/لبنان/سوريا/بريطانيا). صدر بنسختين عربية وإنجليزية. ترشّح للأوسكار 1977 (أفضل موسيقى — موريس جار). مُنع في مصر والكويت والسعودية حتى 2018.",
       "key_figures": [
         "مصطفى العقاد (إخراج)",
-        "Anthony Quinn",
+        "أنتوني كوين",
         "H.A.L. Craig (سيناريو)"
       ],
       "verification": "desk_verified",
@@ -17928,7 +17966,7 @@
     {
       "id": "ARB-056",
       "round": "08c",
-      "name_ar": "MBC Studios",
+      "name_ar": "استوديوهات إم بي سي (MBC Studios)",
       "name_en": "MBC Studios",
       "type": "production_studio",
       "type_group": "media_audience",
@@ -17970,12 +18008,13 @@
           "round_file": "round-08c-media-digital.md",
           "anchor": "ARB-056 — MBC Studios"
         }
-      ]
+      ],
+      "name_ar_original": "MBC Studios"
     },
     {
       "id": "ARB-057",
       "round": "08c",
-      "name_ar": "Barajoun Entertainment",
+      "name_ar": "براجون إنترتينمنت للإنتاج الفني",
       "name_en": "Barajoun Entertainment / Studios",
       "type": "production_studio",
       "type_group": "media_audience",
@@ -18019,7 +18058,8 @@
           "round_file": "round-08c-media-digital.md",
           "anchor": "ARB-057 — Barajoun"
         }
-      ]
+      ],
+      "name_ar_original": "Barajoun Entertainment"
     },
     {
       "id": "NAM-095",
@@ -18348,7 +18388,7 @@
     {
       "id": "NAM-097",
       "round": "08c",
-      "name_ar": "قناة ARY QTV",
+      "name_ar": "قناة إيه آر واي كيو تي في (ARY QTV)",
       "name_en": "ARY QTV",
       "type": "tv_channel",
       "type_group": "media_audience",
@@ -18386,7 +18426,8 @@
           "round_file": "round-08c-media-digital.md",
           "anchor": "NAM-097 — ARY QTV"
         }
-      ]
+      ],
+      "name_ar_original": "قناة ARY QTV"
     },
     {
       "id": "WEST-127",
@@ -18491,7 +18532,7 @@
     {
       "id": "WEST-129",
       "round": "08c",
-      "name_ar": "مؤسسة السنّة (Sunnah.com / Quran.com)",
+      "name_ar": "مؤسسة السنّة (موقعا سُنّة دوت كوم وقرآن دوت كوم)",
       "name_en": "Sunnah Foundation (Sunnah.com / Quran.com)",
       "type": "digital_platform",
       "type_group": "media_audience",
@@ -18528,12 +18569,13 @@
           "round_file": "round-08c-media-digital.md",
           "anchor": "WEST-129 — Sunnah Foundation"
         }
-      ]
+      ],
+      "name_ar_original": "مؤسسة السنّة (Sunnah.com / Quran.com)"
     },
     {
       "id": "GLB-003",
       "round": "08c",
-      "name_ar": "تطبيق Muslim Pro",
+      "name_ar": "تطبيق مسلم برو (Muslim Pro)",
       "name_en": "Muslim Pro",
       "type": "mobile_app",
       "type_group": "media_audience",
@@ -18576,7 +18618,8 @@
           "round_file": "round-08c-media-digital.md",
           "anchor": "GLB-003 — Muslim Pro"
         }
-      ]
+      ],
+      "name_ar_original": "تطبيق Muslim Pro"
     },
     {
       "id": "GLB-004",
@@ -18624,7 +18667,7 @@
     {
       "id": "GLB-005",
       "round": "08c",
-      "name_ar": "تطبيق Quran.com للجوّال",
+      "name_ar": "تطبيق قرآن دوت كوم للجوّال",
       "name_en": "Quran.com Mobile App",
       "type": "mobile_app",
       "type_group": "media_audience",
@@ -18671,7 +18714,8 @@
           "round_file": "round-08c-media-digital.md",
           "anchor": "GLB-005 — Quran.com App"
         }
-      ]
+      ],
+      "name_ar_original": "تطبيق Quran.com للجوّال"
     },
     {
       "id": "GLB-006",
@@ -21844,7 +21888,7 @@
     },
     {
       "id": "NAM-130",
-      "name_ar": "أكاديمية AAII Legacy - مدينة باي",
+      "name_ar": "أكاديمية إرث المعهد الإسلامي الأمريكي-الإفريقي (AAII) – مدينة باي",
       "name_en": "AAII Legacy Academy, Medina Baye",
       "type": "islamic_center",
       "type_group": "museums_culture",
@@ -21877,7 +21921,8 @@
       ],
       "output_types": [],
       "funding_type": "academic_host",
-      "round": "08e"
+      "round": "08e",
+      "name_ar_original": "أكاديمية AAII Legacy - مدينة باي"
     },
     {
       "id": "NAM-131",
