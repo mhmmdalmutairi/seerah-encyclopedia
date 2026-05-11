@@ -4594,6 +4594,38 @@
     return docxLibLoaded;
   }
 
+  let pdfLibLoaded = null;
+  function loadPdfLib() {
+    if (pdfLibLoaded) return pdfLibLoaded;
+    const sources = [
+      "assets/vendor/html2pdf-0.10.3.bundle.min.js",
+      "https://unpkg.com/html2pdf.js@0.10.3/dist/html2pdf.bundle.min.js",
+    ];
+    pdfLibLoaded = (async () => {
+      if (window.html2pdf) return window.html2pdf;
+      const errors = [];
+      for (const url of sources) {
+        try {
+          await new Promise((resolve, reject) => {
+            const s = document.createElement("script");
+            s.src = url;
+            s.async = true;
+            s.onload = resolve;
+            s.onerror = () => reject(new Error("script onerror"));
+            document.head.appendChild(s);
+          });
+          if (window.html2pdf) return window.html2pdf;
+          errors.push(`${url}: script loaded but window.html2pdf undefined`);
+        } catch (e) {
+          errors.push(`${url}: ${e.message}`);
+        }
+      }
+      console.error("[pdf loader] all sources failed:", errors);
+      throw new Error("تعذّر تحميل مكتبة PDF (راجع وحدة التحكّم Console)");
+    })();
+    return pdfLibLoaded;
+  }
+
   function getExportFilterOptions(facet) {
     const counts = new Map();
     state.entities.forEach((e) => {
@@ -4777,6 +4809,9 @@
             <button class="btn btn--primary export-download" type="button">
               <span aria-hidden="true">⬇</span> تنزيل DOCX
             </button>
+            <button class="btn btn--primary export-download-pdf" type="button">
+              <span aria-hidden="true">⬇</span> تنزيل PDF
+            </button>
             <button class="btn btn--ghost export-reset" type="button">↻ إعادة ضبط</button>
             <p class="export-progress" hidden></p>
           </aside>
@@ -4837,6 +4872,7 @@
     });
 
     root.querySelector(".export-download").addEventListener("click", handleExportDownload);
+    root.querySelector(".export-download-pdf").addEventListener("click", handleExportDownloadPdf);
     root.querySelector(".export-reset").addEventListener("click", () => renderExport());
   }
 
@@ -4880,6 +4916,252 @@
     } finally {
       btn.disabled = false;
     }
+  }
+
+  async function handleExportDownloadPdf() {
+    const root = document.querySelector("#tab-export");
+    const progress = root.querySelector(".export-progress");
+    const btn = root.querySelector(".export-download-pdf");
+    const btnDocx = root.querySelector(".export-download");
+    btn.disabled = true; btnDocx.disabled = true;
+    progress.hidden = false;
+    progress.textContent = "⏳ جاري تحميل المكتبة…";
+
+    try {
+      const html2pdf = await loadPdfLib();
+      progress.textContent = "⏳ جاري بناء المستند (قد يستغرق دقيقة لمحتوى كبير)…";
+
+      // ابنِ DOM مؤقت (خارج الشاشة) ثم مرّره لـ html2pdf
+      const container = buildPdfHtmlContainer();
+      document.body.appendChild(container);
+
+      // تأكد أن الخطوط محمّلة قبل التصوير
+      if (document.fonts && document.fonts.ready) {
+        try { await document.fonts.ready; } catch (_) {}
+      }
+
+      const fname = `موسوعة-السيرة-النبوية-${new Date().toISOString().slice(0,10)}.pdf`;
+      const opts = {
+        margin: [12, 12, 14, 12], // mm: top, right, bottom, left
+        filename: fname,
+        image: { type: "jpeg", quality: 0.92 },
+        html2canvas: { scale: 2, useCORS: true, letterRendering: true, backgroundColor: "#ffffff" },
+        jsPDF: { unit: "mm", format: "a4", orientation: "portrait", compress: true },
+        pagebreak: { mode: ["css", "legacy"], before: ".pdf-page-break" },
+      };
+
+      await html2pdf().set(opts).from(container).save();
+      container.remove();
+
+      progress.textContent = "✓ جاهز — تم التنزيل.";
+      setTimeout(() => { progress.hidden = true; }, 3000);
+    } catch (err) {
+      console.error(err);
+      progress.textContent = "✗ فشل التصدير: " + err.message;
+    } finally {
+      btn.disabled = false; btnDocx.disabled = false;
+    }
+  }
+
+  // يبني عنصر HTML مؤقّت (خارج التدفّق المرئي) يتضمّن نفس المحتوى المُصدَّر إلى DOCX
+  function buildPdfHtmlContainer() {
+    const c = document.createElement("div");
+    c.className = "pdf-export-root";
+    c.style.cssText = `
+      position: fixed; inset-inline-start: -10000px; inset-block-start: 0;
+      width: 186mm;
+      direction: rtl; font-family: "Tajawal","IBM Plex Sans Arabic", sans-serif;
+      color: #2a2a2a; background: #fff; padding: 0; font-size: 11pt; line-height: 1.7;
+    `;
+
+    const entities = selectedEntitiesForExport();
+    const struct = exportState.structure;
+    const level = exportState.contentLevel;
+
+    let html = "";
+
+    // غلاف
+    if (exportState.extras.cover) {
+      html += `
+        <section class="pdf-cover">
+          <div class="pdf-cover__title">موسوعة السيرة النبوية المؤسسية</div>
+          <div class="pdf-cover__subtitle">رصد وتشخيص الكيانات المتخصصة في خدمة السيرة النبوية على مستوى العالم</div>
+          <div class="pdf-cover__count">${entities.length} كياناً مؤسسياً</div>
+          <div class="pdf-cover__date">صادر بتاريخ ${new Date().toLocaleDateString("ar-EG")}</div>
+        </section>
+        <div class="pdf-page-break"></div>
+      `;
+    }
+
+    // إحصاءات
+    if (exportState.extras.stats) {
+      const byRegion = new Map(), byTypeGroup = new Map();
+      const countries = new Set();
+      entities.forEach((e) => {
+        if (e.region) byRegion.set(e.region, (byRegion.get(e.region) || 0) + 1);
+        if (e.type_group) byTypeGroup.set(e.type_group, (byTypeGroup.get(e.type_group) || 0) + 1);
+        if (e.country) countries.add(e.country);
+      });
+      html += `<h1>ملخص إحصائي</h1>`;
+      html += `<p><strong>إجمالي الكيانات:</strong> ${entities.length}</p>`;
+      html += `<p><strong>عدد الدول:</strong> ${countries.size}</p>`;
+      html += `<h2>التوزيع الإقليمي</h2><ul>`;
+      [...byRegion.entries()].sort((a, b) => b[1] - a[1]).forEach(([k, v]) => {
+        html += `<li>${escapeHtml(label("region", k))}: ${v} كياناً</li>`;
+      });
+      html += `</ul>`;
+      html += `<h2>التوزيع حسب النوع</h2><ul>`;
+      [...byTypeGroup.entries()].sort((a, b) => b[1] - a[1]).forEach(([k, v]) => {
+        html += `<li>${escapeHtml(label("type_group", k))}: ${v} كياناً</li>`;
+      });
+      html += `</ul><div class="pdf-page-break"></div>`;
+    }
+
+    // فهرس المحتويات
+    if (exportState.extras.toc) {
+      html += `<h1>فهرس المحتويات</h1><ul class="pdf-toc">`;
+      const groupsForToc = groupForStructure(entities, struct);
+      const keys = struct === "hierarchical"
+        ? sortGroupKeys("region", [...groupsForToc.keys()])
+        : sortGroupKeys(struct, [...groupsForToc.keys()]);
+      keys.forEach((k) => {
+        const innerSize = struct === "hierarchical"
+          ? [...groupsForToc.get(k).values()].reduce((a, arr) => a + arr.length, 0)
+          : groupsForToc.get(k).length;
+        html += `<li>${escapeHtml(structureLabel(struct === "hierarchical" ? "region" : struct, k))} <span class="pdf-toc__count">(${innerSize})</span></li>`;
+      });
+      html += `</ul><div class="pdf-page-break"></div>`;
+    }
+
+    // المحتوى الرئيس
+    html += buildPdfBodyHtml(entities, struct, level);
+
+    // الفهرس الأبجدي
+    if (exportState.extras.alphaIndex) {
+      html += `<div class="pdf-page-break"></div><h1>فهرس أبجدي بالأسماء</h1><ul class="pdf-alpha">`;
+      [...entities].sort((a, b) => (a.name_ar || "").localeCompare(b.name_ar || "", "ar"))
+        .forEach((e) => {
+          html += `<li>${escapeHtml(e.name_ar || "")} — [${e.id}] (${escapeHtml(label("country", e.country))})</li>`;
+        });
+      html += `</ul>`;
+    }
+
+    c.innerHTML = html;
+    return c;
+  }
+
+  function buildPdfBodyHtml(entities, struct, level) {
+    let html = "";
+    if (struct === "hierarchical") {
+      const groups = groupForStructure(entities, "hierarchical");
+      const regionKeys = sortGroupKeys("region", [...groups.keys()]);
+      regionKeys.forEach((reg, i) => {
+        if (i > 0) html += `<div class="pdf-page-break"></div>`;
+        html += `<h1>${escapeHtml(structureLabel("region", reg))}</h1>`;
+        const inner = groups.get(reg);
+        sortGroupKeys("type_group", [...inner.keys()]).forEach((tg) => {
+          html += `<h2>${escapeHtml(structureLabel("type_group", tg))}</h2>`;
+          inner.get(tg)
+            .sort((a, b) => (a.name_ar || "").localeCompare(b.name_ar || "", "ar"))
+            .forEach((e) => { html += renderEntityHtml(e, level); });
+        });
+      });
+    } else {
+      const groups = groupForStructure(entities, struct);
+      const keys = sortGroupKeys(struct, [...groups.keys()]);
+      keys.forEach((k, i) => {
+        if (i > 0) html += `<div class="pdf-page-break"></div>`;
+        html += `<h1>${escapeHtml(structureLabel(struct, k))}</h1>`;
+        const list = groups.get(k).sort((a, b) => (a.name_ar || "").localeCompare(b.name_ar || "", "ar"));
+        if (level === "table") {
+          html += renderEntitiesTableHtml(list);
+        } else {
+          list.forEach((e) => { html += renderEntityHtml(e, level); });
+        }
+      });
+    }
+    return html;
+  }
+
+  function renderEntityHtml(e, level) {
+    const url = e.url ? `<a href="${escapeHtml(e.url)}" target="_blank" rel="noopener">${escapeHtml(e.url)}</a>` : "";
+    if (level === "minimal") {
+      const parts = [];
+      if (e.country) parts.push(`📍 ${escapeHtml(label("country", e.country))}`);
+      if (e.type) parts.push(escapeHtml(label("type", e.type)));
+      return `<div class="pdf-entity pdf-entity--mini">
+        <h3>[${e.id}] ${escapeHtml(e.name_ar || "")}</h3>
+        <p>${parts.join(" | ")} ${url ? "— " + url : ""}</p>
+      </div>`;
+    }
+
+    const fields = [
+      ["النوع", label("type", e.type)],
+      ["المجموعة", label("type_group", e.type_group)],
+      ["البلد", label("country", e.country)],
+      ["الإقليم", label("region", e.region)],
+      ["سنة التأسيس", e.founded ? String(e.founded) : "—"],
+      ["مستوى التحقّق", label("verification", e.verification)],
+    ];
+    if (level === "full") {
+      fields.push(
+        ["التمويل", label("funding_type", e.funding_type)],
+        ["الحالة", label("status", e.status)],
+        ["النطاق", label("scale", e.scale)],
+        ["مستوى الإدراج", label("inclusion_tier", e.inclusion_tier)],
+        ["الجولة", label("round", e.round)],
+        ["اللغات", (e.languages || []).map((l) => label("languages", l)).join("، ") || "—"],
+        ["المخرجات", (e.output_types || []).map((o) => label("output_types", o)).join("، ") || "—"],
+        ["الموضوعات", (e.subjects || []).map((s) => label("subjects", s)).join("، ") || "—"],
+      );
+    } else {
+      fields.push(["الموضوعات", (e.subjects || []).slice(0, 4).map((s) => label("subjects", s)).join("، ") || "—"]);
+    }
+
+    let html = `<div class="pdf-entity">`;
+    html += `<h3>[${e.id}] ${escapeHtml(e.name_ar || "")}</h3>`;
+    if (e.name_en) html += `<div class="pdf-entity__en">${escapeHtml(e.name_en)}</div>`;
+    html += `<table class="pdf-entity__fields"><tbody>`;
+    fields.forEach(([k, v]) => {
+      html += `<tr><th>${escapeHtml(k)}</th><td>${escapeHtml(String(v ?? "—"))}</td></tr>`;
+    });
+    html += `</tbody></table>`;
+    if (e.description_ar) html += `<p class="pdf-entity__desc">${escapeHtml(e.description_ar)}</p>`;
+    if (level === "full") {
+      if (e.key_figures && e.key_figures.length) html += `<p><strong>الشخصيات الرئيسة:</strong> ${escapeHtml(e.key_figures.join("، "))}</p>`;
+      if (e.parent_organization_ar) html += `<p><strong>المؤسسة الأم:</strong> ${escapeHtml(e.parent_organization_ar)}</p>`;
+      if (e.notes_ar) html += `<p class="pdf-entity__notes"><strong>ملاحظات:</strong> ${escapeHtml(e.notes_ar)}</p>`;
+    }
+    if (url) html += `<p class="pdf-entity__url">🔗 ${url}</p>`;
+    html += `</div>`;
+    return html;
+  }
+
+  function renderEntitiesTableHtml(list) {
+    let html = `<table class="pdf-wide-table"><thead><tr>
+      <th>الرمز</th><th>الاسم</th><th>النوع</th><th>البلد</th><th>السنة</th><th>الموضوعات</th>
+    </tr></thead><tbody>`;
+    list.forEach((e) => {
+      html += `<tr>
+        <td>${escapeHtml(e.id)}</td>
+        <td>${escapeHtml(e.name_ar || "")}</td>
+        <td>${escapeHtml(label("type", e.type))}</td>
+        <td>${escapeHtml(label("country", e.country))}</td>
+        <td>${e.founded || "—"}</td>
+        <td>${escapeHtml((e.subjects || []).slice(0, 3).map((s) => label("subjects", s)).join("، "))}</td>
+      </tr>`;
+    });
+    html += `</tbody></table>`;
+    return html;
+  }
+
+  function escapeHtml(s) {
+    return String(s ?? "")
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;")
+      .replace(/'/g, "&#39;");
   }
 
   async function buildDocxBlob(docxLib) {

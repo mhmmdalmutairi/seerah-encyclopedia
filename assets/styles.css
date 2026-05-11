@@ -4483,3 +4483,178 @@ mark.search-hit {
 [data-theme="dark"] .export-check:hover {
   background-color: rgba(79, 168, 197, 0.1);
 }
+
+/* ============================================================
+   تنسيق المحتوى داخل PDF (الـ DOM المؤقّت غير الظاهر للمستخدم)
+   ============================================================ */
+
+.pdf-export-root {
+  color: #2a2a2a;
+}
+.pdf-export-root h1 {
+  font-size: 22pt;
+  color: #0A4D68;
+  margin: 16pt 0 10pt;
+  padding-bottom: 6pt;
+  border-bottom: 2px solid #0A4D68;
+  page-break-after: avoid;
+}
+.pdf-export-root h2 {
+  font-size: 16pt;
+  color: #0A4D68;
+  margin: 14pt 0 8pt;
+  page-break-after: avoid;
+}
+.pdf-export-root h3 {
+  font-size: 13pt;
+  color: #C39B5C;
+  margin: 12pt 0 6pt;
+  page-break-after: avoid;
+}
+.pdf-export-root p {
+  margin: 6pt 0;
+}
+.pdf-export-root a {
+  color: #0563C1;
+  text-decoration: underline;
+}
+.pdf-export-root ul {
+  padding-inline-start: 0;
+  padding-inline-end: 18pt;
+  margin: 6pt 0;
+}
+.pdf-export-root li {
+  margin: 3pt 0;
+}
+
+.pdf-cover {
+  text-align: center;
+  padding-block: 40mm 20mm;
+}
+.pdf-cover__title {
+  font-size: 32pt;
+  font-weight: 800;
+  color: #0A4D68;
+  margin-bottom: 12pt;
+}
+.pdf-cover__subtitle {
+  font-size: 14pt;
+  color: #555;
+  margin-bottom: 30pt;
+  line-height: 1.6;
+}
+.pdf-cover__count {
+  font-size: 22pt;
+  font-weight: 700;
+  color: #C39B5C;
+  margin: 18pt 0 8pt;
+}
+.pdf-cover__date {
+  font-size: 11pt;
+  color: #888;
+}
+
+.pdf-page-break {
+  page-break-before: always;
+  break-before: page;
+  height: 0;
+}
+
+.pdf-entity {
+  margin: 10pt 0 16pt;
+  padding: 6pt 0;
+  page-break-inside: avoid;
+}
+.pdf-entity--mini {
+  margin: 4pt 0 8pt;
+}
+.pdf-entity__en {
+  font-style: italic;
+  color: #777;
+  font-size: 10pt;
+  margin-bottom: 6pt;
+}
+.pdf-entity__fields {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 6pt 0;
+  font-size: 10pt;
+}
+.pdf-entity__fields th,
+.pdf-entity__fields td {
+  border: 1px solid #d8d2c1;
+  padding: 4pt 6pt;
+  text-align: right;
+}
+.pdf-entity__fields th {
+  background-color: #F5F1E8;
+  font-weight: 700;
+  color: #0A4D68;
+  width: 30%;
+}
+.pdf-entity__desc {
+  margin: 6pt 0;
+  line-height: 1.75;
+}
+.pdf-entity__url {
+  font-size: 10pt;
+  color: #0563C1;
+  word-break: break-all;
+}
+.pdf-entity__notes {
+  color: #666;
+  font-size: 10pt;
+}
+
+.pdf-toc {
+  list-style: none;
+  padding: 0;
+}
+.pdf-toc li {
+  padding: 4pt 0;
+  border-bottom: 1px dotted #ccc;
+}
+.pdf-toc__count {
+  color: #888;
+  font-size: 10pt;
+}
+
+.pdf-alpha {
+  list-style: none;
+  padding: 0;
+  font-size: 10pt;
+  columns: 2;
+  column-gap: 12pt;
+}
+.pdf-alpha li {
+  padding: 2pt 0;
+  break-inside: avoid;
+}
+
+.pdf-wide-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 9pt;
+  margin: 8pt 0;
+}
+.pdf-wide-table th {
+  background-color: #0A4D68;
+  color: #fff;
+  padding: 5pt;
+  text-align: right;
+}
+.pdf-wide-table td {
+  border: 1px solid #d8d2c1;
+  padding: 4pt;
+  vertical-align: top;
+}
+
+/* الزرّ الثاني (PDF) — تمييز بصري بسيط */
+.export-download-pdf {
+  background-color: #C0392B;
+  border-color: #C0392B;
+}
+.export-download-pdf:hover {
+  background-color: #A93226;
+  border-color: #A93226;
+}
