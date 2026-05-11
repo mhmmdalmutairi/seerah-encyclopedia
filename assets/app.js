@@ -4934,9 +4934,10 @@
       const fname = `موسوعة-السيرة-النبوية-${new Date().toISOString().slice(0,10)}`;
 
       // افتح نافذة جديدة فيها HTML منسّق ثم استدعِ Print تلقائياً.
-      // المتصفح يرسم العربية بشكل ممتاز محلّياً ويتيح "Save as PDF" بنقرة واحدة.
-      const w = window.open("", "_blank", "noopener");
-      if (!w) {
+      // ⚠ لا نضع "noopener" — يُرجع المتصفح null حسب المواصفة حتى لو نجح فتح النافذة،
+      //   فيُختلط الأمر مع حالة الحظر الفعلي.
+      const w = window.open("", "_blank");
+      if (!w || w.closed || typeof w.document === "undefined") {
         throw new Error("منع المتصفح فتح النافذة. اسمح بالنوافذ المنبثقة لهذا الموقع ثم أعد المحاولة.");
       }
 
