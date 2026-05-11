@@ -1,0 +1,80 @@
+{
+  "project": "seerah-encyclopedia",
+  "description": "مسح موسوعي للكيانات المتخصصة في خدمة السيرة النبوية، موزّعاً على سبع جولات بحثية",
+  "language": "ar",
+  "totalEntities": 391,
+  "rounds": [
+    {
+      "id": "01",
+      "file": "round-01-arabia.md",
+      "title_ar": "المسح الأفقي الموسوعي للكيانات المتخصصة في خدمة السيرة النبوية في الجزيرة العربية (2019-2026)",
+      "region_ar": "الجزيرة العربية",
+      "region_en": "Arabian Peninsula",
+      "entityCount": 52,
+      "share": 0.133,
+      "type": "regional-survey"
+    },
+    {
+      "id": "02",
+      "file": "round-02-levant-iraq-nile.md",
+      "title_ar": "المسح الموسوعي للكيانات المتخصصة في خدمة السيرة النبوية في بلاد الشام والعراق ووادي النيل (2019-2026)",
+      "region_ar": "بلاد الشام والعراق ووادي النيل",
+      "region_en": "Levant, Iraq, and Nile Valley",
+      "entityCount": 46,
+      "share": 0.118,
+      "type": "regional-survey"
+    },
+    {
+      "id": "03",
+      "file": "round-03-maghreb.md",
+      "title_ar": "المسح الموسوعي للكيانات العلمية والمؤسسية المتخصصة في خدمة السيرة النبوية بالمغرب العربي",
+      "region_ar": "المغرب العربي",
+      "region_en": "Maghreb",
+      "entityCount": 45,
+      "share": 0.115,
+      "type": "regional-survey"
+    },
+    {
+      "id": "04",
+      "file": "round-04-turkey.md",
+      "title_ar": "المسح الأفقي الموسوعي لكيانات خدمة السيرة النبوية في تركيا",
+      "region_ar": "تركيا",
+      "region_en": "Turkey",
+      "entityCount": 62,
+      "share": 0.159,
+      "type": "regional-survey"
+    },
+    {
+      "id": "05",
+      "file": "round-05-non-arab-muslim.md",
+      "title_ar": "المسح الموسوعي للكيانات المتخصصة في خدمة السيرة النبوية في العالم الإسلامي غير العربي — الجولة الخامسة",
+      "region_ar": "العالم الإسلامي غير العربي",
+      "region_en": "Non-Arab Muslim World",
+      "entityCount": 63,
+      "share": 0.161,
+      "type": "regional-survey"
+    },
+    {
+      "id": "06",
+      "file": "round-06-western.md",
+      "title_ar": "مسح موسوعي للكيانات الأكاديمية الغربية والاستشراقية في خدمة السيرة النبوية والإسلام المبكر — الجولة السادسة",
+      "region_ar": "الاستشراق الأكاديمي الغربي",
+      "region_en": "Western Academia and Orientalism",
+      "entityCount": 96,
+      "entityCountBelowThreshold": 22,
+      "entityCountUnverified": 7,
+      "share": 0.246,
+      "type": "regional-survey"
+    },
+    {
+      "id": "07a",
+      "file": "round-07a-synthesis.md",
+      "title_ar": "تقرير الجولة السابعة-أ — تركيبي إحصائي مكاني",
+      "region_ar": "تركيب شامل للجولات الست",
+      "region_en": "Synthesis (Descriptive Statistical)",
+      "entityCount": null,
+      "type": "synthesis",
+      "note": "تقرير وصفي إحصائي مكاني يعتمد على الجولات الست ولا يضيف كيانات جديدة. الجولة السابعة-ب (التحليل الاستراتيجي والفجوات) لم تُنجَز بعد."
+    }
+  ]
+}

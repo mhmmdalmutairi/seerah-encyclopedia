@@ -1,0 +1,221 @@
+<!-- محتوى تبويب المنهجية -->
+
+<aside class="diagnostic__toc">
+  <h3>محتويات المنهجية</h3>
+  <ol>
+    <li><a href="#m-1">الإطار النظري</a></li>
+    <li><a href="#m-2">معايير الإدراج</a></li>
+    <li><a href="#m-3">تصنيف مستوى الإدراج</a></li>
+    <li><a href="#m-4">تصنيف درجة التحقق</a></li>
+    <li><a href="#m-5">شارات الموثوقية</a></li>
+    <li><a href="#m-6">التعارضات الموثَّقة</a></li>
+    <li><a href="#m-7">التحفظات والقيود</a></li>
+    <li><a href="#m-8">بنية البيانات</a></li>
+  </ol>
+</aside>
+
+<div class="diagnostic__content">
+
+<header style="padding-block-end: var(--space-lg); border-block-end: 2px solid var(--color-accent); margin-block-end: var(--space-md);">
+  <h1 style="margin: 0; font-size: var(--text-3xl); color: var(--color-primary);">المنهجية</h1>
+  <p style="margin-block-start: var(--space-sm); color: var(--color-text-muted); font-size: var(--text-base);">
+    الإطار النظري، معايير الإدراج، تصنيف البيانات، والتحفظات المنهجية المعتمدة في هذا المسح.
+  </p>
+</header>
+
+<article id="m-1" class="diag-section">
+  <span class="diag-section__number">1</span>
+  <h2 class="diag-section__title">الإطار النظري</h2>
+  <div class="diag-section__body">
+    <p>يستند هذا المسح إلى إطار نظري ثلاثي مفصَّل في <strong>القسم 1 من التشخيص</strong>:</p>
+    <ul>
+      <li><strong>نظرية الحقل العلمي لبيير بورديو</strong>: قراءة الإنتاج المؤسسي بوصفه ساحة تنافس على رأسمال علمي ورمزي واقتصادي.</li>
+      <li><strong>سوسيولوجيا المعرفة المؤسسية</strong>: تحليل السياق المؤسسي للإنتاج (التمويل، التبعية، المظلة الرسمية، القيود).</li>
+      <li><strong>القراءة الجيوبوليتيكية للإنتاج الديني</strong>: قراءة المؤسسات بوصفها أدوات قوى ناعمة دولتية.</li>
+    </ul>
+    <p>هذه الأطر متكاملة لا متعارضة. الأول يكشف ديناميكية المنافسة الداخلية، الثاني يكشف القيود البنيوية، الثالث يكشف السياق الجيوسياسي العالمي.</p>
+  </div>
+</article>
+
+<article id="m-2" class="diag-section">
+  <span class="diag-section__number">2</span>
+  <h2 class="diag-section__title">معايير الإدراج</h2>
+  <div class="diag-section__body">
+    <p>تأهَّل الكيان للإدراج في الموسوعة إذا استوفى الشروط الثلاثة:</p>
+    <ol>
+      <li><strong>الهوية المؤسسية</strong>: أن يكون للكيان وجود مؤسسي قابل للتعريف (موقع، شعار، رئيس، عنوان، تاريخ تأسيس). الباحث الفرد يُدرَج كنوع <code>individual_researcher</code> فقط إذا كان له <em>منصة مؤسسية مرتبطة به</em> (كرسي علمي، مؤسسة، إصدارات مرجعية).</li>
+      <li><strong>صلة بالسيرة النبوية</strong>: أن تكون السيرة النبوية موضوعاً مدرجاً في رسالة الكيان أو إنتاجه. درجة الصلة تُصنَّف بثلاثة مستويات (انظر القسم 3).</li>
+      <li><strong>الإنتاج الموثَّق</strong>: على الأقل <strong>منشور أو فعالية أو إصدار</strong> موثَّق خلال الفترة 2019-2026، أو تأسيس حديث (2020-2026) مع خطة عمل معلنة.</li>
+    </ol>
+    <p>هذه المعايير ليست صارمة بشكل مطلق: الكيانات الموسومة <em>تحت العتبة</em> قد لا تستوفي الشرط الثاني بشكل قوي، لكنها تستوفي الأول والثالث.</p>
+  </div>
+</article>
+
+<article id="m-3" class="diag-section">
+  <span class="diag-section__number">3</span>
+  <h2 class="diag-section__title">تصنيف مستوى الإدراج (Inclusion Tier)</h2>
+  <div class="diag-section__body">
+    <p>كل بطاقة تحمل قيمة في حقل <code>inclusion_tier</code> تعكس قوة تخصص الكيان في السيرة:</p>
+
+    <table class="diag-table">
+      <thead><tr><th>المستوى</th><th class="num">العدد</th><th>التعريف</th></tr></thead>
+      <tbody>
+        <tr>
+          <td><strong>core</strong> (تخصص أصلي)</td>
+          <td class="num">190 (47.6%)</td>
+          <td>السيرة هي المحور الرسالي للكيان وإنتاجه الرئيس. مثل: وقف السيرة، دار الرسول الأعظم، كرسي الدريس.</td>
+        </tr>
+        <tr>
+          <td><strong>borderline</strong> (حدّي)</td>
+          <td class="num">79 (19.8%)</td>
+          <td>السيرة جزء مهم من نشاط الكيان لكن ليس حصرياً. مثل: المجلس العلمي الأعلى المغربي، İSAM التركية، مؤسسة آل البيت الأردنية.</td>
+        </tr>
+        <tr>
+          <td><strong>below_threshold</strong> (تحت العتبة)</td>
+          <td class="num">130 (32.6%)</td>
+          <td>الكيان موثّق ومُدرَج، لكن السيرة موضوع هامشي ضمن منظومة أوسع. مثل: كلية شريعة جامعية تُدرّس السيرة مادةً ضمن 40 مادة، أو دار نشر عامة تُصدر بعض كتب السيرة.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p><strong>ملاحظة مهمّة</strong>: مستوى الإدراج <em>مستقل</em> عن جودة البيانات. كيان «تحت العتبة» قد يكون موثّقاً 100% مكتبياً، لكنه لا يُعدّ متخصصاً في السيرة. هذه ثنائية متقاطعة تتيح فلترةً دقيقة.</p>
+  </div>
+</article>
+
+<article id="m-4" class="diag-section">
+  <span class="diag-section__number">4</span>
+  <h2 class="diag-section__title">تصنيف درجة التحقق (Verification)</h2>
+  <div class="diag-section__body">
+    <p>درجة التحقق تقيس جودة البيانات وثقافتها، بأربع قيم:</p>
+
+    <table class="diag-table">
+      <thead><tr><th>الدرجة</th><th class="num">العدد</th><th>المعنى</th></tr></thead>
+      <tbody>
+        <tr><td><strong>field_verified</strong></td><td class="num">0</td><td>محقّق ميدانياً (زيارة فعلية). فجوة منهجية في هذه الجولات.</td></tr>
+        <tr><td><strong>desk_verified</strong></td><td class="num">374 (93.7%)</td><td>محقّق مكتبياً عبر موقع رسمي + مصدر ثانوي مستقل.</td></tr>
+        <tr><td><strong>needs_verification</strong></td><td class="num">22 (5.5%)</td><td>مصدر واحد فقط، يحتاج تحقّقاً إضافياً.</td></tr>
+        <tr><td><strong>unverifiable</strong></td><td class="num">3 (0.8%)</td><td>تعذّر التحقق من الكيان أو من المعلومات الأساسية عنه.</td></tr>
+      </tbody>
+    </table>
+
+    <p>الكيانات الـ3 «غير القابلة للتحقق» تشمل بطاقتي توثيق فجوة جغرافية (آسيا الوسطى وإفريقيا جنوب الصحراء) — تمثّل غياباً موثَّقاً لا وجوداً مشكوكاً فيه — وكرسي ابن باز للسيرة بالجامعة الإسلامية (ذُكر في القائمة الاسترشادية دون أي توثيق رسمي).</p>
+  </div>
+</article>
+
+<article id="m-5" class="diag-section">
+  <span class="diag-section__number">5</span>
+  <h2 class="diag-section__title">شارات الموثوقية في النصوص التحليلية</h2>
+  <div class="diag-section__body">
+    <p>عند الكتابة التحليلية (في تبويب التشخيص)، تُستخدم أربع شارات لتمييز مستوى الادعاء:</p>
+
+    <ul>
+      <li><span class="rel-tag rel-tag--documented">موثّق</span> رقم أو معلومة مستخرجة مباشرة من <code>data.json</code> أو ملفات الجولات، قابلة للتحقّق الفوري.</li>
+      <li><span class="rel-tag rel-tag--analysis">تحليل</span> قراءة تفسيرية مبنية على بيانات موثَّقة لكنها تتجاوز الوصف الكمّي إلى التفسير.</li>
+      <li><span class="rel-tag rel-tag--inference">استنتاج</span> ربط بين أنماط متعددة يتطلّب قبولاً لمقدّمات تفسيرية. يحتاج تحقّقاً مستقلاً.</li>
+      <li><span class="rel-tag rel-tag--needs">يحتاج تحقّق</span> ادعاء مؤقّت غير موثَّق كلياً، أُورد كفرضية عمل.</li>
+    </ul>
+
+    <p>القارئ الناقد يقرأ كل ادعاء وفق شارته. الادعاءات الموثَّقة هي أرضية المسح؛ التحليلات والاستنتاجات هي بناء عليه.</p>
+  </div>
+</article>
+
+<article id="m-6" class="diag-section">
+  <span class="diag-section__number">6</span>
+  <h2 class="diag-section__title">التعارضات الموثَّقة</h2>
+  <div class="diag-section__body">
+    <p>الجولات الست رصدت بعض التعارضات بين المصادر، وثَّقتها بوضوح بدلاً من إخفائها:</p>
+
+    <h3>تعارض زوار متحف الرباط</h3>
+    <p>ذكرت <strong>الجولة 3</strong> أن عدد زوار فرع الرباط للمعرض والمتحف الدولي للسيرة بلغ <strong>1.2 مليون بحلول 2024</strong>. ذكرت <strong>الجولة 1</strong> رقم <strong>10 ملايين بحلول أبريل 2026</strong> نقلاً عن احتفال الإيسيسكو. أكّدت <strong>الجولة 7-أ</strong> أن الرقم الأخير صحيح ميدانياً وفق بيانات الإيسيسكو الرسمية اللاحقة، وأن رقم الـ1.2 مليون كان متجاوزاً وقت رصده. <em>الحلّ المعتمد</em>: العشرة ملايين هي الرقم التراكمي الموثَّق حتى أبريل 2026.</p>
+
+    <h3>غموض حول الذكرى الـ1500</h3>
+    <p>تتبنّى <strong>رئاسة الديانة التركية</strong> رواية أن 2025-2026 هي الذكرى الـ1500 لمولد النبي ﷺ، وأطلقت شعار «Doğumunun 1500. Yılında Âlemlere Rahmet». تتبنّى <strong>المؤتمر الباكستاني (الدورة الـ50)</strong> الرواية ذاتها. <em>الموقف المنهجي</em>: تُذكر الرواية بوصفها <em>تيمة محتوى مؤسسية</em>، لا حكماً تاريخياً متفقاً عليه.</p>
+
+    <h3>تعارض ميزانية مركز طشقند</h3>
+    <p>الميزانية الموثَّقة في ويكيبيديا: <strong>161.8 مليون دولار</strong>. تقديرات إعلامية لاحقة بلغت <strong>200 مليون دولار</strong>. <em>الحلّ</em>: تُذكر القيمتان مع توضيح المصدر.</p>
+
+    <h3>اختلاف عدد الدول</h3>
+    <p>في وقت سابق من بناء البوابة، ظهر رقم «36+ دولة» في الهيدر — كان نصاً محشوراً من المرحلة الأولى قبل إنجاز كل الجولات. <strong>الرقم الفعلي بعد إنجاز الجولات الست: 56 دولة</strong>. تُحسب آلياً من <code>data.json</code> ولا تحتاج تحديثاً يدوياً.</p>
+  </div>
+</article>
+
+<article id="m-7" class="diag-section">
+  <span class="diag-section__number">7</span>
+  <h2 class="diag-section__title">التحفظات والقيود المنهجية</h2>
+  <div class="diag-section__body">
+
+    <h3>قيود الوصول</h3>
+    <ul>
+      <li><strong>لغات لم تُمسح بكفاءة</strong>: الأوزبكية، الكازاخية، التركمانية، الطاجيكية، الباشتو، السنده، الكشمير، السومالية، الأمهرية، السواحيلية، الفولانية، الكيماري، التغالوغ. المسح المستقبلي يحتاج فرقاً متعددة اللغات.</li>
+      <li><strong>قواعد بيانات غير متاحة كلياً</strong>: قاعدة YÖK التركية (الأطاريح المتخصصة)، أرشيف الكيوم القطري الداخلي، تقارير IFAO الفرنسية الكاملة، أرشيف Kunstkamera الروسي.</li>
+      <li><strong>مناطق حرب وأزمة</strong>: سوريا، اليمن، السودان (بعد أبريل 2023)، غزة (بعد أكتوبر 2023). البيانات المتوفرة عن كياناتها قد تكون متجاوزة.</li>
+    </ul>
+
+    <h3>صفر تحقّق ميداني</h3>
+    <p>من بين 399 كياناً، لا يوجد كيان واحد محقَّق ميدانياً بزيارة فعلية. كل التحقق مكتبي اعتماداً على المواقع الرسمية والمصادر الثانوية والقصاصات الإعلامية. هذه فجوة منهجية كبرى يجب رفعها في الجولات اللاحقة.</p>
+
+    <h3>الانحياز التدريبي المحتمل</h3>
+    <p>أي مسح كهذا قد يحمل انحيازات:</p>
+    <ul>
+      <li><strong>انحياز التغطية الرقمية</strong>: الكيانات ذات الحضور الرقمي القوي تُرصد أكثر من ذات الحضور التقليدي. هذا قد يقلّل من تمثيل المحاضر التقليدية (المريدية، التيجانية) والمدارس الأهلية.</li>
+      <li><strong>انحياز اللغة</strong>: المسح بالعربية والإنجليزية يكشف أكثر مما يكشفه بلغات أخرى.</li>
+      <li><strong>انحياز المؤسسة</strong>: الكيانات بشعار ومسمى صريح للسيرة تُرصد أسرع من تلك التي تعمل ضمن مظلات أوسع.</li>
+      <li><strong>انحياز التعريف</strong>: تعريف «الكيان المتخصص في السيرة» نفسه قرار نظري قد يُختلف عليه. ما يُدرج تحت العتبة في هذا المسح قد يُرى عند آخرين كياناً متخصصاً.</li>
+    </ul>
+
+    <h3>طبيعة البيانات الموسوعية</h3>
+    <p>البطاقات تُجرّد الواقع المعقد. كيان مثل وقف السيرة (TUR-001) له تفاصيل لا تستوعبها بطاقة: تطوّره عبر 15 سنة، خلافات داخلية محتملة، تموضع سياسي محدّد. <strong>البطاقة منطلق للبحث لا خاتمته</strong>.</p>
+
+    <h3>تطوّر سريع 2025-2026</h3>
+    <p>الحقل يتغيّر بسرعة. كيانات جديدة تتأسس (متحف عُمان الوقفي 2026، مركز طشقند مارس 2026، متحف ديوراما إسطنبول أبريل 2026)، وأخرى تنتقل (Corpus Coranicum من برلين إلى مونستر يونيو 2024). <strong>هذا المسح صورة لحظة 2025-2026، لا حصر دائم</strong>.</p>
+  </div>
+</article>
+
+<article id="m-8" class="diag-section">
+  <span class="diag-section__number">8</span>
+  <h2 class="diag-section__title">بنية البيانات</h2>
+  <div class="diag-section__body">
+    <p>كل بطاقة كيان في <code>data.json</code> تتبع مخطّط <code>schema.json</code> الذي يحدّد:</p>
+
+    <h3>الحقول الإلزامية</h3>
+    <ul>
+      <li><code>id</code> معرّف فريد بتنسيق <code>PREFIX-NNN</code> (ARB، LEV، MAG، TUR، NAM، WEST)</li>
+      <li><code>round</code> الجولة البحثية (01-06)</li>
+      <li><code>name_ar</code> الاسم العربي الكامل</li>
+      <li><code>type</code> النوع (18 قيمة مضبوطة)</li>
+      <li><code>type_group</code> المجموعة اللونية البصرية (9 قيم)</li>
+      <li><code>country</code> رمز ISO ثنائي (SA، EG، TR، …)</li>
+      <li><code>region</code> رمز الإقليم (arabia، turkey، western، …)</li>
+      <li><code>verification</code> درجة جودة البيانات</li>
+      <li><code>inclusion_tier</code> مستوى تخصص السيرة</li>
+      <li><code>sources</code> المصدر داخل ملف الجولة</li>
+    </ul>
+
+    <h3>الحقول الاختيارية الغنية</h3>
+    <p>17 حقلاً اختيارياً تُغني البطاقة وتنشئ روابط ضمنية تشعّبية:</p>
+    <ul>
+      <li><strong>اللغة والترجمة</strong>: <code>name_en</code>، <code>aka</code> (مرادفات)، <code>languages</code> (مصفوفة لغات الإنتاج)</li>
+      <li><strong>الزمان والمكان</strong>: <code>city_ar</code>، <code>founded</code>، <code>founded_decade</code>، <code>status</code>، <code>status_note_ar</code></li>
+      <li><strong>الموضوع والإنتاج</strong>: <code>subjects</code>، <code>output_types</code></li>
+      <li><strong>الناس والمؤسسات</strong>: <code>key_figures</code>، <code>parent_organization_ar</code>، <code>funding_type</code></li>
+      <li><strong>النطاق والوصف</strong>: <code>scale</code>، <code>description_ar</code>، <code>notes_ar</code>، <code>url</code></li>
+      <li><strong>العلاقات</strong>: <code>explicit_relations</code> (مصفوفة من <code>{target, type, note_ar}</code>) — 102 علاقة موثَّقة في المجموع</li>
+    </ul>
+
+    <h3>المفردات المضبوطة (Controlled Vocabularies)</h3>
+    <p>سبع مفردات مضبوطة تضمن سلامة الفلترة والتحليل:</p>
+    <ul>
+      <li><strong>type</strong>: 18 قيمة</li>
+      <li><strong>subjects</strong>: 20 موضوعاً</li>
+      <li><strong>verification</strong>: 4 قيم</li>
+      <li><strong>inclusion_tier</strong>: 3 قيم</li>
+      <li><strong>funding_type</strong>: 7 قيم</li>
+      <li><strong>status</strong>: 5 قيم</li>
+      <li><strong>relation_type</strong>: 9 قيم</li>
+    </ul>
+
+    <p>المخطّط الكامل في الملف <code>schema.json</code> بمواصفات JSON Schema Draft-07.</p>
+  </div>
+</article>
+
+</div>

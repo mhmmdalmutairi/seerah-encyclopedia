@@ -1,0 +1,210 @@
+<!-- محتوى تبويب المراجع -->
+
+<aside class="diagnostic__toc">
+  <h3>محتويات المراجع</h3>
+  <ol>
+    <li><a href="#r-1">الجولات البحثية المصدرية</a></li>
+    <li><a href="#r-2">ملفات بنية البيانات</a></li>
+    <li><a href="#r-3">أبرز الأعمال المرجعية المعاصرة</a></li>
+    <li><a href="#r-4">القواعد البيانية المرجعية</a></li>
+    <li><a href="#r-5">المؤتمرات الدورية الكبرى</a></li>
+    <li><a href="#r-6">إطار الجولة 7-أ التركيبي</a></li>
+  </ol>
+</aside>
+
+<div class="diagnostic__content">
+
+<header style="padding-block-end: var(--space-lg); border-block-end: 2px solid var(--color-accent); margin-block-end: var(--space-md);">
+  <h1 style="margin: 0; font-size: var(--text-3xl); color: var(--color-primary);">المراجع</h1>
+  <p style="margin-block-start: var(--space-sm); color: var(--color-text-muted); font-size: var(--text-base);">
+    المصادر التي بُنيت عليها الموسوعة، وقواعد البيانات الكبرى ذات الصلة بالحقل.
+  </p>
+</header>
+
+<article id="r-1" class="diag-section">
+  <span class="diag-section__number">1</span>
+  <h2 class="diag-section__title">الجولات البحثية المصدرية</h2>
+  <div class="diag-section__body">
+    <p>ست جولات أُنجزت في عامي 2025-2026، رصدت <strong>399 كياناً</strong> موزعاً على ستة أقاليم. كل ملف يحوي بطاقات تفصيلية للكيانات + تحليلاً موضوعياً + قائمة الكيانات تحت العتبة + قائمة الكيانات التي تعذّر التحقّق منها + التحفظات المنهجية.</p>
+
+    <table class="diag-table">
+      <thead><tr><th>الجولة</th><th>النطاق</th><th class="num">الكيانات</th><th>الملف</th></tr></thead>
+      <tbody>
+        <tr>
+          <td>01</td>
+          <td>الجزيرة العربية</td>
+          <td class="num">52</td>
+          <td><a href="sources/round-01-arabia.md" target="_blank"><code>round-01-arabia.md</code></a></td>
+        </tr>
+        <tr>
+          <td>02</td>
+          <td>بلاد الشام والعراق ووادي النيل</td>
+          <td class="num">46</td>
+          <td><a href="sources/round-02-levant-iraq-nile.md" target="_blank"><code>round-02-levant-iraq-nile.md</code></a></td>
+        </tr>
+        <tr>
+          <td>03</td>
+          <td>المغرب العربي</td>
+          <td class="num">50</td>
+          <td><a href="sources/round-03-maghreb.md" target="_blank"><code>round-03-maghreb.md</code></a></td>
+        </tr>
+        <tr>
+          <td>04</td>
+          <td>تركيا</td>
+          <td class="num">62</td>
+          <td><a href="sources/round-04-turkey.md" target="_blank"><code>round-04-turkey.md</code></a></td>
+        </tr>
+        <tr>
+          <td>05</td>
+          <td>العالم الإسلامي غير العربي</td>
+          <td class="num">63</td>
+          <td><a href="sources/round-05-non-arab-muslim.md" target="_blank"><code>round-05-non-arab-muslim.md</code></a></td>
+        </tr>
+        <tr>
+          <td>06</td>
+          <td>الاستشراق الأكاديمي الغربي</td>
+          <td class="num">126</td>
+          <td><a href="sources/round-06-western.md" target="_blank"><code>round-06-western.md</code></a></td>
+        </tr>
+        <tr>
+          <td>07-أ</td>
+          <td>تركيب إحصائي مكاني</td>
+          <td class="num">—</td>
+          <td><a href="sources/round-07a-synthesis.md" target="_blank"><code>round-07a-synthesis.md</code></a></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p>كل بطاقة في الموسوعة تشير لمصدرها الأصلي عبر حقل <code>sources[].round_file</code> + <code>sources[].anchor</code>. يمكن تتبع أي بطاقة إلى نصها المصدري ضمن ملف الجولة المعني.</p>
+  </div>
+</article>
+
+<article id="r-2" class="diag-section">
+  <span class="diag-section__number">2</span>
+  <h2 class="diag-section__title">ملفات بنية البيانات</h2>
+  <div class="diag-section__body">
+    <ul>
+      <li><a href="data.json" target="_blank"><code>data.json</code></a> — 399 بطاقة كيان كاملة بحقولها الـ27.</li>
+      <li><a href="schema.json" target="_blank"><code>schema.json</code></a> — مخطّط JSON Schema يحدّد البنية الدقيقة لكل بطاقة.</li>
+      <li><a href="sources/manifest.json" target="_blank"><code>sources/manifest.json</code></a> — فهرس برمجي للجولات السبع.</li>
+      <li><a href="README.md" target="_blank"><code>README.md</code></a> — مدخل مشروع الموسوعة.</li>
+    </ul>
+  </div>
+</article>
+
+<article id="r-3" class="diag-section">
+  <span class="diag-section__number">3</span>
+  <h2 class="diag-section__title">أبرز الأعمال المرجعية المعاصرة</h2>
+  <div class="diag-section__body">
+
+    <h3>أصول المنهج النقدي الغربي</h3>
+    <ul>
+      <li>Patricia Crone &amp; Michael Cook, <em>Hagarism: The Making of the Islamic World</em>, CUP, 1977 — منشأ تيار Revisionist.</li>
+      <li>Robert Hoyland, <em>Seeing Islam as Others Saw It</em>, Darwin Press, 1997 — قراءة المصادر غير الإسلامية المبكرة.</li>
+      <li>Fred Donner, <em>Narratives of Islamic Origins</em>, Darwin Press, 1998 — تأسيس Studies in Late Antiquity and Early Islam.</li>
+      <li>Andreas Görke, Harald Motzki, Gregor Schoeler — منهج Isnad-cum-Matn (تيار Rehabilitative).</li>
+    </ul>
+
+    <h3>الموجة المعاصرة (2019-2026)</h3>
+    <ul>
+      <li>Sean Anthony, <em>Muhammad and the Empires of Faith</em>, UCP, 2020.</li>
+      <li>Stephen Shoemaker, <em>Creating the Qur'an</em>, UCP, 2022.</li>
+      <li>Nicolai Sinai, <em>Key Terms of the Qur'an</em>, Princeton, 2023.</li>
+      <li>Ilkka Lindstedt, <em>Muḥammad and His Followers in Context</em>, Brill, 2024.</li>
+      <li>Marijn van Putten, <em>Quranic Arabic: From Its Hijazi Origins to Its Classical Reading Traditions</em>, Brill, 2022.</li>
+    </ul>
+
+    <h3>المراجع التركية</h3>
+    <ul>
+      <li>عدنان دميرجان، «Bir Bilim Olarak Siyer ve Kaynakları»، Siyer Yayınları.</li>
+      <li>كاسم شولول (ت. 2023)، «Siyer Usûlü»، Ensar Neşriyat، 2019.</li>
+      <li>شعبان أوز، «Siyer Bibliyografyası» و«Ebû Hüreyre - Bir Otoritenin İnşası»، SAMER Yayınları.</li>
+      <li>محمد أبايدن، «Siyer Kronolojisi»، 2018.</li>
+    </ul>
+
+    <h3>المراجع الإيرانية الشيعية</h3>
+    <ul>
+      <li>محمد محمدي ري‌شهري (ت. 2022)، «سيرة بيغمبر خاتم(ص)»، 7 مجلدات، دار الحديث.</li>
+      <li>مهدي پيشوايي (ت. 2021)، «سيره پيشوايان»، الإمام الخميني.</li>
+      <li>رسول جعفريان، «تاريخ سياسي إسلام، جلد اول: سيره رسول خدا(ص)»، نشر دليل ما (الطبعة 14، 2021).</li>
+      <li>دانشنامه سيره نبوي، پژوهشگاه حوزه ودانشگاه.</li>
+    </ul>
+
+    <h3>المراجع العربية السنّية</h3>
+    <ul>
+      <li>صفي الرحمن المباركفوري، «الرحيق المختوم» — أحد أكثر كتب السيرة انتشاراً.</li>
+      <li>محمد سعيد رمضان البوطي (الشهيد، 2013)، «فقه السيرة النبوية» (دار الفكر دمشق، الطبعة 25 صدرت 1426هـ).</li>
+      <li>صالح أحمد الشامي، «معالم السنة النبوية»، 3 أجزاء، دار القلم دمشق.</li>
+      <li>أحمد عمر هاشم، موسوعة السيرة (الجائزة التقديرية لشخصية العام الإسلامية بدبي 2023).</li>
+      <li>عبد الرزاق مرزوق (إشراف)، أكاديمية السيرة النبوية للتعليم عن بُعد (sira.academy).</li>
+    </ul>
+
+    <h3>الأعمال المغاربية</h3>
+    <ul>
+      <li>محمد يسف، «المصنفات المغربية في السيرة النبوية» — أهم مرجع عن السيرة في الغرب الإسلامي.</li>
+      <li>مصطفى بن مبارك عكلي، «منظومات السيرة النبوية في الغرب الإسلامي»، الرابطة المحمدية، 2015.</li>
+      <li>عبد الله بلمدني، «شرح الروض الأنف والمشرع الرِّوَى» للسهيلي (107+ درس بكرسي الإمام السهيلي).</li>
+    </ul>
+  </div>
+</article>
+
+<article id="r-4" class="diag-section">
+  <span class="diag-section__number">4</span>
+  <h2 class="diag-section__title">قواعد البيانات والموسوعات الرقمية</h2>
+  <div class="diag-section__body">
+
+    <ul>
+      <li><a href="https://islamansiklopedisi.org.tr/" target="_blank" rel="noopener">TDV İslam Ansiklopedisi (DİA)</a> — 392 مدخلاً بيوغرافياً عن الأنبياء والصحابة.</li>
+      <li><a href="https://corpuscoranicum.de/" target="_blank" rel="noopener">Corpus Coranicum</a> — ثلاث قواعد بيانات: المخطوطات، النصوص المعاصرة، التعليق الأدبي-الزمني.</li>
+      <li><a href="https://kitab-project.org/" target="_blank" rel="noopener">KITAB Project</a> — قاعدة بيانات النصوص الإسلامية المفتوحة (OpenITI).</li>
+      <li><a href="https://www.hadisvesiyer.info/" target="_blank" rel="noopener">قاعدة الحديث الميريديانية</a> — 283,000 رواية، أُطلقت 2022.</li>
+      <li><a href="https://www.qdl.qa/" target="_blank" rel="noopener">Qatar Digital Library</a> — 2.4 مليون صورة أرشيفية بشراكة المكتبة البريطانية.</li>
+      <li><a href="https://referenceworks.brillonline.com/" target="_blank" rel="noopener">Brill Encyclopaedia of the Quran Online</a> — تحديث مستمر منذ 2001.</li>
+      <li><a href="https://islamicfoundation.gov.bd" target="_blank" rel="noopener">سيرات بيشكوش (Sirat Bisshokosh)</a> — موسوعة السيرة بالبنغالية في 22 مجلداً.</li>
+      <li><a href="https://chinguitipedia.net" target="_blank" rel="noopener">شنقيطيبيديا</a> — موسوعة التراث الموريتاني الرقمية.</li>
+      <li><a href="https://daralrasul.com" target="_blank" rel="noopener">دار الرسول الأعظم — العتبة العباسية</a> — مع مجلة «نبينا» المحكَّمة ثلاثية اللغات.</li>
+    </ul>
+  </div>
+</article>
+
+<article id="r-5" class="diag-section">
+  <span class="diag-section__number">5</span>
+  <h2 class="diag-section__title">المؤتمرات الدورية الكبرى</h2>
+  <div class="diag-section__body">
+
+    <table class="diag-table">
+      <thead><tr><th>المؤتمر</th><th>الجهة المنظِّمة</th><th class="num">آخر دورة</th></tr></thead>
+      <tbody>
+        <tr><td>المؤتمر الدولي للسيرة بإسلام آباد</td><td>وزارة الشؤون الدينية الباكستانية</td><td class="num">50 (2025)</td></tr>
+        <tr><td>المؤتمر الدولي للسيرة بنواكشوط</td><td>التجمع الثقافي الإسلامي</td><td class="num">38 (2024)</td></tr>
+        <tr><td>ملتقى السيرة بالجامع الأزهر</td><td>مشيخة الأزهر</td><td class="num">53+ (مايو 2026)</td></tr>
+        <tr><td>المؤتمر العالمي للباحثين بفاس</td><td>مؤسسة مبدع</td><td class="num">4 (2019)</td></tr>
+        <tr><td>مؤتمر السيرة بـ HBKU قطر</td><td>مركز محمد بن حمد آل ثاني</td><td class="num">3 (2025)</td></tr>
+        <tr><td>المؤتمر الدولي لدار الرسول الأعظم</td><td>العتبة العباسية</td><td class="num">4 (2025)</td></tr>
+        <tr><td>BRAIS Annual Conference</td><td>الجمعية البريطانية للدراسات الإسلامية</td><td class="num">2025 كامبريدج</td></tr>
+        <tr><td>IQSA Annual Meeting</td><td>الرابطة الدولية للدراسات القرآنية</td><td class="num">سنوي منذ 2014</td></tr>
+        <tr><td>Deutscher Orientalistentag (DOT)</td><td>المستشرقون الألمان</td><td class="num">34 (سبتمبر 2022)</td></tr>
+        <tr><td>Genç Akademisyenler Sempozyumu</td><td>SAMER (KSÜ)</td><td class="num">4 (2022)</td></tr>
+        <tr><td>Uluslararası Siyer Sempozyumu</td><td>وقف السيرة (إسطنبول)</td><td class="num">سنوي</td></tr>
+      </tbody>
+    </table>
+
+  </div>
+</article>
+
+<article id="r-6" class="diag-section">
+  <span class="diag-section__number">6</span>
+  <h2 class="diag-section__title">إطار الجولة 7-أ التركيبي</h2>
+  <div class="diag-section__body">
+    <p>تقرير <strong>الجولة 7-أ</strong> (<a href="sources/round-07a-synthesis.md" target="_blank"><code>round-07a-synthesis.md</code></a>) هو تركيب وصفي إحصائي مكاني للجولات الست. اعتُمد بوصفه <em>مرجع التحقق العابر للجولات</em>:</p>
+    <ul>
+      <li>تجميع الإحصاءات الكليّة (391 كياناً وفق العدّ التركيبي، 399 وفق العدّ الفعلي للبطاقات).</li>
+      <li>حلّ التعارضات بين الجولات (متحف الرباط، الـ22 تحت العتبة، الـ7 المتعذّر التحقق).</li>
+      <li>تحديد الفجوات النوعية المرشّحة لمشروع المركز الناشئ.</li>
+      <li>إعلان صريح: «وصفي إحصائي بحت، التحليل الاستراتيجي في الجولة 7-ب».</li>
+    </ul>
+    <p>هذا المسح (الجولة 7-ب-1: التشخيص البنيوي) هو الامتداد التحليلي للجولة 7-أ، يحوّل أرقامها إلى قراءة سوسيولوجية-جيوبوليتيكية.</p>
+  </div>
+</article>
+
+</div>

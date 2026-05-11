@@ -1,0 +1,151 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Seerah Encyclopedia — Entity Card Schema",
+  "description": "بطاقة كيان متخصص في خدمة السيرة النبوية. حقول غنية بالـ facets لتمكين الربط الضمني التشعبي بين البطاقات.",
+  "type": "object",
+  "required": [
+    "id", "round", "name_ar", "type", "type_group",
+    "country", "region", "verification", "inclusion_tier", "sources"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^(ARB|LEV|MAG|TUR|NAM|WEST)-\\d{3}$",
+      "description": "بادئة إقليمية (ARB/LEV/MAG/TUR/NAM/WEST) + رقم تسلسلي ثلاثي داخل الإقليم"
+    },
+    "round": {
+      "type": "string",
+      "enum": ["01", "02", "03", "04", "05", "06"]
+    },
+    "name_ar": { "type": "string" },
+    "name_en": { "type": "string", "description": "اختياري؛ للبحث بالـ transliteration الأكاديمي" },
+    "aka": { "type": "array", "items": { "type": "string" }, "description": "أسماء بديلة أو اختصارات" },
+
+    "type": {
+      "type": "string",
+      "enum": [
+        "academic_chair", "university_center", "university_department",
+        "research_center", "foundation_waqf",
+        "museum", "exhibition", "library_archive",
+        "award",
+        "publisher",
+        "journal",
+        "conference_series",
+        "digital_platform", "podcast_series",
+        "encyclopedia_project",
+        "ministry_program", "mosque_program",
+        "individual_researcher"
+      ]
+    },
+    "type_group": {
+      "type": "string",
+      "enum": ["academic", "research_center", "museum_archive", "award", "publisher", "journal", "digital", "conference", "program"],
+      "description": "تصنيف لوني مرئي. يُشتق من type"
+    },
+
+    "country": { "type": "string", "description": "ISO 3166-1 alpha-2 (SA, EG, MA, TR, UK, …)" },
+    "city_ar": { "type": "string" },
+    "region": {
+      "type": "string",
+      "enum": ["arabia", "levant_iraq_nile", "maghreb", "turkey", "non_arab_muslim", "western"]
+    },
+
+    "founded": { "type": ["integer", "null"], "description": "سنة التأسيس" },
+    "founded_decade": { "type": ["string", "null"], "description": "مشتق: 2010s, 2020s, …" },
+    "status": {
+      "type": "string",
+      "enum": ["active", "dormant", "suspended", "closed", "archived_digital"]
+    },
+    "status_note_ar": { "type": "string" },
+
+    "scale": {
+      "type": "string",
+      "enum": ["local", "national", "regional", "international"]
+    },
+
+    "output_types": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": ["journal", "books", "conference", "lectures", "podcast", "video", "exhibition", "database", "encyclopedia", "manuscripts", "courses", "fatwa", "translation"]
+      }
+    },
+    "languages": {
+      "type": "array",
+      "items": { "type": "string", "description": "ISO 639-1 (ar, en, tr, fa, ur, fr, de, …)" }
+    },
+    "subjects": {
+      "type": "array",
+      "description": "مفردات مضبوطة — تُحدَّث عند الحاجة",
+      "items": {
+        "type": "string",
+        "enum": [
+          "seerah_general", "maghazi", "shamail",
+          "seerah_geography",
+          "early_islam", "rashidun",
+          "manuscripts", "hadith_sciences",
+          "sources_critique", "orientalism_critique",
+          "historiography", "biography_methodology",
+          "ahlulbayt", "ahl_al_sunna",
+          "sufism_seerah", "seerah_pedagogy",
+          "youth_outreach", "digital_seerah",
+          "tarjamah", "comparative_religion"
+        ]
+      }
+    },
+
+    "key_figures": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "فقط من له دور هيكلي: مؤسس، مدير، رئيس تحرير، شاغل كرسي، أمين عام. لا يُذكر هنا كل من نشر مرة."
+    },
+    "parent_organization_ar": { "type": "string" },
+    "funding_type": {
+      "type": "string",
+      "enum": ["state", "religious_authority", "waqf", "private", "academic_host", "mixed", "unknown"]
+    },
+
+    "explicit_relations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["target", "type"],
+        "properties": {
+          "target": { "type": "string", "description": "id بطاقة أخرى" },
+          "type": {
+            "type": "string",
+            "enum": ["parent_of", "child_of", "partner", "successor_of", "predecessor_of", "member_of_network", "publisher_of", "cited_in", "translated_by"]
+          },
+          "note_ar": { "type": "string" }
+        }
+      }
+    },
+
+    "description_ar": { "type": "string", "description": "2-4 أسطر" },
+    "notes_ar": { "type": "string", "description": "تحفّظات، تعارضات بيانات، ملاحظات منهجية" },
+
+    "verification": {
+      "type": "string",
+      "enum": ["field_verified", "desk_verified", "needs_verification", "unverifiable"],
+      "description": "جودة البيانات فقط (هل الكيان موثَّق؟)"
+    },
+    "inclusion_tier": {
+      "type": "string",
+      "enum": ["core", "borderline", "below_threshold"],
+      "description": "قوة تخصص الكيان في السيرة: core = تخصص أصلي؛ borderline = حدّي (تخصصه السنة/الحديث/إلخ والسيرة جزء)؛ below_threshold = تحت العتبة (السيرة هامش لا محور)"
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["round_file"],
+        "properties": {
+          "round_file": { "type": "string" },
+          "anchor": { "type": "string", "description": "عنوان قسم أو رقم/كلمة دالة" }
+        }
+      }
+    },
+    "url": { "type": "string", "format": "uri" }
+  }
+}
