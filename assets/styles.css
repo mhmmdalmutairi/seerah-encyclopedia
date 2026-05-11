@@ -2212,12 +2212,30 @@ p {
   block-size: auto;
   display: block;
   border-radius: var(--radius-md);
-  background-color: var(--color-bg-subtle);
+  background-color: #E8EEF5;          /* لون البحر */
+}
+.worldmap__sea {
+  fill: #E8EEF5;
+}
+.worldmap__continent {
+  fill: #E8E4D5;                      /* لون اليابسة الرملي */
+  stroke: #C7BFA8;
+  stroke-width: 0.8;
+  stroke-linejoin: round;
 }
 .worldmap__grid {
-  stroke: var(--color-border);
+  stroke: rgba(95, 120, 145, 0.18);
   stroke-width: 0.5;
   stroke-dasharray: 2 3;
+}
+[data-theme="dark"] .worldmap__svg,
+[data-theme="dark"] .worldmap__sea {
+  fill: #1A2630;
+  background-color: #1A2630;
+}
+[data-theme="dark"] .worldmap__continent {
+  fill: #2A3540;
+  stroke: #3A4550;
 }
 .worldmap__country {
   cursor: pointer;
@@ -3514,7 +3532,7 @@ mark.search-hit {
 
 .compare-grid {
   display: grid;
-  grid-template-columns: 140px repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: 140px repeat(var(--compare-cols, 2), minmax(200px, 1fr));
   gap: 1px;
   background-color: var(--color-border);
   border: 1px solid var(--color-border);
@@ -3539,6 +3557,75 @@ mark.search-hit {
   font-weight: var(--weight-bold);
   color: var(--color-primary);
   background-color: var(--color-primary-50);
+}
+
+/* الحاوي scroll أفقي لشاشات صغيرة */
+.compare-modal__body {
+  -webkit-overflow-scrolling: touch;
+}
+
+/* === تكييف المقارنة لكل المقاسات === */
+/* sm (≤768px): زر المقارنة يبرز دائماً (لا hover على اللمس)،
+   shared shelf فوق التنقّل السفلي، الشبكة تتمدّد أفقياً */
+@media (max-width: 768px) {
+  .compare-btn-in-card {
+    opacity: 1;             /* دائماً ظاهر — لا hover على الجوال */
+    background-color: var(--color-bg-elevated);
+    inline-size: 32px;
+    block-size: 32px;
+    font-size: var(--text-base);
+    border-width: 2px;
+    box-shadow: var(--shadow-sm);
+  }
+  /* compare-tray فوق التنقّل السفلي (60px ارتفاع نحو) */
+  .compare-tray {
+    inset-block-end: 60px;
+    padding: var(--space-xs) var(--space-sm);
+    gap: var(--space-xs);
+    font-size: var(--text-xs);
+  }
+  .compare-tray__items {
+    inline-size: 100%;
+    order: 2;
+  }
+  /* المودال يأخذ الشاشة كاملة على الجوال */
+  .compare-modal {
+    inline-size: 100vw;
+    max-inline-size: 100vw;
+    max-block-size: 100vh;
+    block-size: 100vh;
+    border-radius: 0;
+    margin: 0;
+  }
+  .compare-modal__body {
+    padding: var(--space-sm);
+    max-block-size: calc(100vh - 60px);
+    overflow: auto;
+  }
+  /* الشبكة تظل بأعمدة لكن مع scroll أفقي داخل المودال */
+  .compare-grid {
+    grid-template-columns: 100px repeat(var(--compare-cols, 2), minmax(160px, 1fr));
+    min-inline-size: max-content;
+    font-size: var(--text-xs);
+  }
+  .compare-cell {
+    padding: var(--space-xs) var(--space-sm);
+  }
+}
+
+/* xs (≤480px): اضغط أكثر، استخدم scroll للمصفوفة */
+@media (max-width: 480px) {
+  .compare-tray {
+    flex-direction: column;
+    align-items: stretch;
+    padding: var(--space-xs);
+  }
+  .compare-grid {
+    grid-template-columns: 90px repeat(var(--compare-cols, 2), minmax(140px, 1fr));
+  }
+  .compare-cell {
+    font-size: 11px;
+  }
 }
 
 /* === Hero Section للتشخيص === */

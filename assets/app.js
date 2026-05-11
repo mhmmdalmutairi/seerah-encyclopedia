@@ -1890,7 +1890,6 @@
     wrap.className = "charts";
 
     wrap.appendChild(buildWorldMap());
-    wrap.appendChild(buildProfilesIndex());      // مرتبة عالياً للظهور بوضوح
     wrap.appendChild(buildPieRegions());
     wrap.appendChild(buildBarTypeGroups());
     wrap.appendChild(buildTimelineDecades());
@@ -1898,6 +1897,7 @@
     wrap.appendChild(buildHeatmapRegionSubject());
     wrap.appendChild(buildStackedTierVerification());
     wrap.appendChild(buildTimelineImmersive());
+    wrap.appendChild(buildProfilesIndex());      // طويلة — تُوضع في الذيل
 
     return wrap;
   }
@@ -1921,6 +1921,46 @@
   // ============================================================
   // خريطة العالم — دوائر مرقّمة وملوّنة حسب الإقليم
   // ============================================================
+  // خطوط القارات المبسّطة (lng, lat) — تُسقَط عبر project() لتشكيل خلفية الخريطة
+  const CONTINENT_OUTLINES = {
+    north_america: [
+      [-168,65],[-160,72],[-100,78],[-75,78],[-58,70],[-50,60],[-55,50],
+      [-65,45],[-72,42],[-80,32],[-85,30],[-97,25],[-105,22],[-110,22],
+      [-117,32],[-125,40],[-127,48],[-135,57],[-150,60],[-165,60],
+    ],
+    south_america: [
+      [-80,12],[-75,11],[-65,8],[-55,5],[-50,0],[-44,-3],[-38,-12],
+      [-38,-22],[-50,-30],[-58,-38],[-65,-50],[-71,-53],[-74,-50],
+      [-72,-40],[-77,-30],[-72,-15],[-78,-5],[-80,5],
+    ],
+    europe: [
+      [-10,36],[-9,43],[-5,48],[-3,52],[5,52],[8,54],[10,58],[18,60],
+      [25,62],[30,65],[40,68],[45,60],[40,50],[37,45],[28,41],[20,40],
+      [15,38],[5,38],[-5,36],
+    ],
+    africa: [
+      [-17,14],[-17,21],[-12,28],[-5,35],[5,35],[15,32],[28,32],[36,32],
+      [42,16],[51,12],[51,8],[44,2],[42,-5],[40,-12],[36,-18],[30,-30],
+      [22,-34],[15,-32],[12,-22],[10,-12],[8,-3],[0,5],[-8,8],[-14,12],
+    ],
+    asia: [
+      [42,40],[45,45],[55,55],[60,60],[80,72],[105,75],[140,73],[160,68],
+      [175,65],[170,55],[155,50],[145,45],[140,35],[130,30],[121,20],
+      [110,8],[105,2],[100,4],[90,15],[80,9],[72,17],[68,25],[60,25],
+      [50,30],[40,38],
+    ],
+    indonesia_malaysia: [
+      [95,3],[105,3],[120,-2],[135,-3],[140,-5],[120,-10],[105,-8],[95,-5],
+    ],
+    australia: [
+      [113,-22],[120,-12],[135,-10],[143,-12],[150,-18],[153,-30],
+      [148,-38],[140,-38],[120,-35],[114,-30],
+    ],
+    greenland: [
+      [-50,60],[-45,65],[-30,70],[-22,77],[-30,82],[-50,80],[-55,70],
+    ],
+  };
+
   function buildWorldMap() {
     const w = 1000, h = 500, pad = 20;
     // equirectangular projection
@@ -1943,7 +1983,16 @@
 
     const max = Math.max(...Array.from(byCountry.values()).map((r) => r.count), 1);
 
-    // خطوط الشبكة — خطوط الطول وخطوط العرض كل 30°
+    // 1) القارات المرسومة كـ polygons في الخلفية
+    const continents = Object.entries(CONTINENT_OUTLINES).map(([name, coords]) => {
+      const points = coords.map(([lng, lat]) => {
+        const p = project(lng, lat);
+        return `${p.x.toFixed(1)},${p.y.toFixed(1)}`;
+      }).join(" ");
+      return `<polygon class="worldmap__continent" points="${points}"/>`;
+    }).join("");
+
+    // 2) خطوط الشبكة — خطوط الطول وخطوط العرض كل 30°
     let bg = "";
     for (let lng = -180; lng <= 180; lng += 30) {
       const p1 = project(lng, 90), p2 = project(lng, -90);
@@ -1995,9 +2044,10 @@
 
     const svg = `<svg class="worldmap__svg" viewBox="0 0 ${w} ${h}"
                      role="img" aria-label="خريطة عالم: توزيع الكيانات حسب الدول">
-                  <rect x="0" y="0" width="${w}" height="${h}" fill="var(--color-bg-subtle)"/>
-                  ${halos}
+                  <rect class="worldmap__sea" x="0" y="0" width="${w}" height="${h}"/>
+                  ${continents}
                   ${bg}
+                  ${halos}
                   ${dots}
                 </svg>`;
 
@@ -3480,14 +3530,14 @@
       ["الموقع", (e) => e.url ? `<a href="${e.url}" target="_blank" rel="noopener">↗</a>` : "—"],
     ];
 
-    const gridCols = `repeat(${ents.length}, minmax(200px, 1fr))`;
+    // اضبط --compare-cols لتعمل CSS responsive للمصفوفة على الجوال
     let html = `
       <div class="compare-modal__header">
         <h3 style="margin:0; color:#fff;">مقارنة ${ents.length} كيانات</h3>
         <button class="entity-modal__close" aria-label="إغلاق">×</button>
       </div>
       <div class="compare-modal__body">
-        <div class="compare-grid" style="grid-template-columns: 140px ${gridCols};">
+        <div class="compare-grid" style="--compare-cols: ${ents.length};">
           <div class="compare-cell compare-cell--label">المعرّف</div>
           ${ents.map((e) => `<div class="compare-cell compare-cell--header">${escapeHtml(e.name_ar)}<br><span style="font-size:11px; color:var(--color-text-faint); font-family:var(--font-mono);">${e.id}</span></div>`).join("")}
     `;
@@ -3503,13 +3553,31 @@
     if (typeof modal.showModal === "function") modal.showModal();
   }
 
-  // === Web fallback links (Google/Wikipedia) للبطاقات بدون URL ===
-  function webFallbackLinks(entity) {
-    const query = encodeURIComponent(entity.name_en || entity.name_ar);
-    return `
-      <a class="btn btn--ghost btn--small" href="https://www.google.com/search?q=${query}" target="_blank" rel="noopener" title="بحث Google">🔎 Google</a>
-      <a class="btn btn--ghost btn--small" href="https://ar.wikipedia.org/wiki/Special:Search?search=${query}" target="_blank" rel="noopener" title="بحث ويكيبيديا">📖 Wikipedia</a>
-    `;
+  // كشف وجود نص لاتيني في حقول البطاقة (للترجمة)
+  function hasNonArabicContent(entity) {
+    const text = [
+      entity.name_en, entity.description_ar, entity.notes_ar,
+      entity.city_ar, entity.parent_organization_ar,
+      ...(entity.key_figures || []),
+    ].filter(Boolean).join(" ");
+    if (!text) return false;
+    const latin = (text.match(/[a-zA-Z]/g) || []).length;
+    const arabic = (text.match(/[؀-ۿ]/g) || []).length;
+    // إذا اللاتيني ≥ 15 حرف ولا يوجد كثير عربي → فيها محتوى غير عربي
+    return latin >= 15 && latin / Math.max(arabic, 1) > 0.2;
+  }
+
+  // افتح Google Translate لمحتوى البطاقة (يكتشف اللغة تلقائياً → العربية)
+  function openTranslateForEntity(entity) {
+    const text = [
+      entity.name_ar, entity.name_en,
+      entity.description_ar, entity.notes_ar,
+      entity.parent_organization_ar,
+      ...(entity.key_figures || []),
+    ].filter(Boolean).join("\n\n");
+    if (!text) return;
+    const url = "https://translate.google.com/?sl=auto&tl=ar&op=translate&text=" + encodeURIComponent(text);
+    window.open(url, "_blank", "noopener");
   }
 
   // === Keyboard Shortcuts ===
@@ -3767,8 +3835,10 @@
     const content = document.querySelector("#tab-diagnostic .diagnostic__content");
     if (!content || content.querySelector(".diag-hero")) return;
     const ents = state.entities;
+    const institutions = ents.filter((e) => e.type_group !== "individual_actors").length;
+    const individuals = ents.filter((e) => e.type_group === "individual_actors").length;
     const stats = [
-      { value: ents.length, label: "كياناً موسوعياً" },
+      { value: ents.length, label: `كياناً (${institutions} مؤسسة + ${individuals} فاعل فرد)` },
       { value: new Set(ents.map(e => e.country).filter(Boolean)).size, label: "دولة في 5 قارات" },
       { value: 6, label: "جولات بحثية" },
       { value: ents.filter(e => e.inclusion_tier === "core").length, label: "تخصص أصلي" },
@@ -3821,13 +3891,14 @@
       toast(`نُسخ ${entity.id} ✓`);
     });
     footer.prepend(copyBtn);
-    // إذا لا URL، أضف روابط Google/Wikipedia
-    if (!entity.url) {
-      const wrap = document.createElement("span");
-      wrap.style.display = "inline-flex";
-      wrap.style.gap = "var(--space-xs)";
-      wrap.innerHTML = webFallbackLinks(entity);
-      footer.appendChild(wrap);
+    // أضف زرّ ترجمة إذا في البطاقة محتوى غير عربي
+    if (hasNonArabicContent(entity) && !footer.querySelector(".btn-translate")) {
+      const translateBtn = document.createElement("button");
+      translateBtn.className = "btn btn--ghost btn--small btn-translate";
+      translateBtn.textContent = "🌐 ترجم البطاقة";
+      translateBtn.title = "افتح ترجمة المحتوى في Google Translate";
+      translateBtn.addEventListener("click", () => openTranslateForEntity(entity));
+      footer.appendChild(translateBtn);
     }
   }
 
