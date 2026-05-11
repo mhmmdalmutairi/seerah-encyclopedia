@@ -4030,30 +4030,73 @@
     }
   }
 
-  // === Mobile Bottom Nav ===
+  // === Mobile Bottom Nav (4 ثابتة + زرّ «المزيد» يفتح ورقة بالباقي) ===
+  const MOBILE_NAV_PRIMARY = [
+    { id: "diagnostic", icon: "📊", name: "تشخيص" },
+    { id: "entities", icon: "📋", name: "كيانات" },
+    { id: "stats", icon: "📈", name: "إحصاء" },
+    { id: "export", icon: "📥", name: "تصدير" },
+  ];
+  const MOBILE_NAV_SECONDARY = [
+    { id: "gaps", icon: "⚠", name: "الفجوات" },
+    { id: "network", icon: "🕸", name: "الشبكة" },
+    { id: "methodology", icon: "📐", name: "المنهجية" },
+    { id: "references", icon: "📚", name: "المراجع" },
+  ];
+
   function initMobileNav() {
     if (document.querySelector(".mobile-nav")) return;
-    const tabsList = [
-      { id: "diagnostic", icon: "📊", name: "تشخيص" },
-      { id: "entities", icon: "📋", name: "كيانات" },
-      { id: "gaps", icon: "⚠", name: "فجوات" },
-      { id: "network", icon: "🕸", name: "شبكة" },
-      { id: "stats", icon: "📈", name: "إحصاء" },
-      { id: "methodology", icon: "📐", name: "منهجية" },
-      { id: "references", icon: "📚", name: "مراجع" },
-      { id: "export", icon: "📥", name: "تصدير" },
-    ];
+
     const nav = document.createElement("nav");
     nav.className = "mobile-nav";
     nav.setAttribute("role", "tablist");
-    nav.innerHTML = tabsList.map((t) => `
-      <button data-tab="${t.id}" aria-label="${t.name}">
-        <span class="mobile-nav__icon">${t.icon}</span>
-        <span>${t.name}</span>
-      </button>
-    `).join("");
+    nav.innerHTML =
+      MOBILE_NAV_PRIMARY.map((t) => `
+        <button data-tab="${t.id}" aria-label="${t.name}">
+          <span class="mobile-nav__icon">${t.icon}</span>
+          <span>${t.name}</span>
+        </button>
+      `).join("") +
+      `<button class="mobile-nav__more" data-more="1" aria-label="المزيد" aria-expanded="false">
+        <span class="mobile-nav__icon">⋯</span>
+        <span>المزيد</span>
+      </button>`;
     document.body.appendChild(nav);
-    nav.querySelectorAll("button").forEach((b) => {
+
+    // الورقة السفلية للتبويبات الثانوية
+    const sheet = document.createElement("div");
+    sheet.className = "mobile-more-sheet";
+    sheet.setAttribute("aria-hidden", "true");
+    sheet.innerHTML = `
+      <div class="mobile-more-sheet__backdrop"></div>
+      <div class="mobile-more-sheet__panel" role="dialog" aria-label="المزيد">
+        <div class="mobile-more-sheet__handle"></div>
+        <h3 class="mobile-more-sheet__title">المزيد من التبويبات</h3>
+        <div class="mobile-more-sheet__grid">
+          ${MOBILE_NAV_SECONDARY.map((t) => `
+            <button data-tab="${t.id}" aria-label="${t.name}">
+              <span class="mobile-more-sheet__icon">${t.icon}</span>
+              <span>${t.name}</span>
+            </button>
+          `).join("")}
+        </div>
+      </div>
+    `;
+    document.body.appendChild(sheet);
+
+    const openSheet = () => {
+      sheet.classList.add("is-open");
+      sheet.setAttribute("aria-hidden", "false");
+      nav.querySelector(".mobile-nav__more").setAttribute("aria-expanded", "true");
+    };
+    const closeSheet = () => {
+      sheet.classList.remove("is-open");
+      sheet.setAttribute("aria-hidden", "true");
+      nav.querySelector(".mobile-nav__more").setAttribute("aria-expanded", "false");
+    };
+
+    // أزرار التبويبات الأولية
+    nav.querySelectorAll("button[data-tab]").forEach((b) => {
       b.addEventListener("click", () => {
         const tabs = Array.from(document.querySelectorAll(".tab"));
         const panels = Array.from(document.querySelectorAll(".panel"));
@@ -4061,10 +4104,36 @@
         syncMobileNavActive();
       });
     });
+
+    // زرّ «المزيد»
+    nav.querySelector(".mobile-nav__more").addEventListener("click", () => {
+      sheet.classList.contains("is-open") ? closeSheet() : openSheet();
+    });
+
+    // أزرار الورقة السفلية
+    sheet.querySelectorAll("button[data-tab]").forEach((b) => {
+      b.addEventListener("click", () => {
+        const tabs = Array.from(document.querySelectorAll(".tab"));
+        const panels = Array.from(document.querySelectorAll(".panel"));
+        activateTab(b.dataset.tab, tabs, panels);
+        closeSheet();
+        syncMobileNavActive();
+      });
+    });
+
+    // إغلاق الورقة عند النقر على الخلفية
+    sheet.querySelector(".mobile-more-sheet__backdrop").addEventListener("click", closeSheet);
+
+    // إغلاق بـ Escape
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape" && sheet.classList.contains("is-open")) closeSheet();
+    });
+
+    state._closeMobileMoreSheet = closeSheet;
+
     syncMobileNavActive();
 
     // مراقب: يحدّث التنقّل السفلي تلقائياً عند أي تغيير في .tab.is-active
-    // (مثلاً من بطاقات استشهادية، من URL hash، من overlay البحث، …)
     const tabsContainer = document.querySelector(".tabs");
     if (tabsContainer && window.MutationObserver) {
       const mo = new MutationObserver(() => syncMobileNavActive());
@@ -4080,10 +4149,25 @@
     const nav = document.querySelector(".mobile-nav");
     if (!nav) return;
     const activeName = document.querySelector(".tab.is-active")?.dataset.tab;
-    nav.querySelectorAll("button").forEach((b) => {
+    const isPrimary = MOBILE_NAV_PRIMARY.some((t) => t.id === activeName);
+    const isSecondary = MOBILE_NAV_SECONDARY.some((t) => t.id === activeName);
+
+    nav.querySelectorAll("button[data-tab]").forEach((b) => {
       b.classList.toggle("is-active", b.dataset.tab === activeName);
     });
-    // إغلاق الـ drawer إذا انتقلنا لتبويب آخر
+    // إضاءة زرّ «المزيد» إذا كان التبويب الحالي ثانوياً
+    const moreBtn = nav.querySelector(".mobile-nav__more");
+    if (moreBtn) moreBtn.classList.toggle("is-active", isSecondary);
+
+    // أبرز التبويب الحالي داخل الورقة أيضاً
+    const sheet = document.querySelector(".mobile-more-sheet");
+    if (sheet) {
+      sheet.querySelectorAll("button[data-tab]").forEach((b) => {
+        b.classList.toggle("is-active", b.dataset.tab === activeName);
+      });
+    }
+
+    // إغلاق فلتر الجوال إذا انتقلنا لتبويب غير الكيانات
     if (activeName !== "entities" && state._closeFiltersDrawer) {
       state._closeFiltersDrawer();
     }
