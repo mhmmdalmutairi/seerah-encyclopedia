@@ -4649,6 +4649,110 @@ mark.search-hit {
   vertical-align: top;
 }
 
+/* ============================================================
+   الخط الزمني المتحرّك — لوحة الخريطة المتحرّكة
+   ============================================================ */
+
+.timeline-card {
+  display: grid;
+  gap: var(--space-md, 1rem);
+}
+
+.timeline-controls {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm, 0.75rem);
+  flex-wrap: wrap;
+  padding-block: 0.5rem;
+}
+
+.timeline-play {
+  min-block-size: 40px;
+  padding: 0.5rem 1rem;
+  background-color: var(--color-primary, #0A4D68);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 0.95rem;
+  font-weight: 600;
+  transition: background-color 0.2s;
+  flex-shrink: 0;
+}
+
+.timeline-play:hover {
+  background-color: var(--color-primary-dark, #073A50);
+}
+
+.timeline-play:focus-visible {
+  outline: 2px solid var(--color-accent, #C39B5C);
+  outline-offset: 2px;
+}
+
+.timeline-slider {
+  flex: 1;
+  min-inline-size: 200px;
+  block-size: 8px;
+  cursor: pointer;
+  accent-color: var(--color-primary, #0A4D68);
+  direction: ltr; /* الشريط يبدأ من الأقدم (يسار) للأحدث (يمين) */
+}
+
+.timeline-year-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-inline-size: 70px;
+  padding: 0.4rem 0.75rem;
+  background-color: var(--color-accent, #C39B5C);
+  color: #fff;
+  border-radius: 6px;
+  font-weight: 700;
+  font-size: 1.05rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.timeline-stats {
+  display: flex;
+  gap: 1.5rem;
+  font-size: 0.95rem;
+  color: var(--color-text-muted, #666);
+}
+
+.timeline-stat strong {
+  color: var(--color-primary, #0A4D68);
+  font-size: 1.15em;
+  font-variant-numeric: tabular-nums;
+}
+
+.timeline-map-host .worldmap__svg {
+  inline-size: 100%;
+  block-size: auto;
+}
+
+.timeline-map-host circle,
+.timeline-map-host text {
+  transition: opacity 0.3s ease, r 0.4s ease, transform 0.4s ease;
+}
+
+/* الجوال: ترتيب عمودي */
+@media (max-width: 600px) {
+  .timeline-controls {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .timeline-slider {
+    flex-basis: 100%;
+    order: 3;
+    margin-block-start: 0.5rem;
+  }
+}
+
+[data-theme="dark"] .timeline-year-badge {
+  color: #1a1a1a;
+}
+
 /* الزرّ الثاني (PDF) — تمييز بصري بسيط */
 .export-download-pdf {
   background-color: #C0392B;

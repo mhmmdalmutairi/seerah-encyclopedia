@@ -2246,6 +2246,7 @@
     wrap.className = "charts";
 
     wrap.appendChild(buildWorldMap());
+    wrap.appendChild(buildAnimatedTimeline());
     wrap.appendChild(buildPieRegions());
     wrap.appendChild(buildBarTypeGroups());
     wrap.appendChild(buildTimelineDecades());
@@ -2451,6 +2452,152 @@
         if (e.key === "Enter" || e.key === " ") { e.preventDefault(); go(); }
       });
     });
+    return card;
+  }
+
+  // ============================================================
+  // الخط الزمني المتحرّك — خريطة عالمية تنمو عقداً بعد عقد
+  // ============================================================
+  function buildAnimatedTimeline() {
+    const w = 1000, h = 500, pad = 20;
+    const project = (lng, lat) => ({
+      x: ((lng + 180) / 360) * (w - pad * 2) + pad,
+      y: ((90 - lat) / 180) * (h - pad * 2) + pad,
+    });
+
+    // نطاق العقود من البيانات الفعلية
+    const foundedValues = state.entities.map((e) => e.founded).filter((f) => f && f > 500 && f < 2030);
+    const minYear = Math.floor(Math.min(...foundedValues) / 10) * 10;
+    const maxYear = 2030;
+
+    // قالب الخلفية (قارات وشبكة) — يُحسب مرّة واحدة
+    const continents = Object.entries(CONTINENT_OUTLINES).map(([_, coords]) => {
+      const points = coords.map(([lng, lat]) => {
+        const p = project(lng, lat);
+        return `${p.x.toFixed(1)},${p.y.toFixed(1)}`;
+      }).join(" ");
+      return `<polygon class="worldmap__continent" points="${points}"/>`;
+    }).join("");
+    let grid = "";
+    for (let lng = -180; lng <= 180; lng += 30) {
+      const p1 = project(lng, 90), p2 = project(lng, -90);
+      grid += `<line x1="${p1.x}" y1="${p1.y}" x2="${p2.x}" y2="${p2.y}" class="worldmap__grid"/>`;
+    }
+    for (let lat = -60; lat <= 90; lat += 30) {
+      const p1 = project(-180, lat), p2 = project(180, lat);
+      grid += `<line x1="${p1.x}" y1="${p1.y}" x2="${p2.x}" y2="${p2.y}" class="worldmap__grid"/>`;
+    }
+    const bg = continents + grid;
+
+    function dotsForYear(maxFounded) {
+      const byCountry = new Map();
+      state.entities.forEach((e) => {
+        if (!e.country) return;
+        if (e.founded && e.founded > maxFounded) return;
+        const rec = byCountry.get(e.country) || { count: 0, regions: new Map() };
+        rec.count++;
+        if (e.region) rec.regions.set(e.region, (rec.regions.get(e.region) || 0) + 1);
+        byCountry.set(e.country, rec);
+      });
+      const max = Math.max(...Array.from(byCountry.values()).map((r) => r.count), 1);
+      let dots = "";
+      Object.entries(COUNTRY_COORDS).forEach(([cc, coord]) => {
+        const rec = byCountry.get(cc);
+        if (!rec) return;
+        const p = project(coord[0], coord[1]);
+        const r = 4 + (rec.count / max) * 18;
+        const topRegion = Array.from(rec.regions.entries()).sort((a,b) => b[1]-a[1])[0]?.[0];
+        const color = PALETTE_REGIONS[topRegion] || "var(--color-primary)";
+        dots += `<circle cx="${p.x}" cy="${p.y}" r="${r}" fill="${color}" opacity="0.85" stroke="#fff" stroke-width="1.5"/>`;
+        if (rec.count >= 5) {
+          dots += `<text x="${p.x}" y="${p.y + 3}" font-size="11" font-weight="700" fill="#fff" text-anchor="middle" pointer-events="none">${rec.count}</text>`;
+        }
+      });
+      return { dots, total: Array.from(byCountry.values()).reduce((a, r) => a + r.count, 0), countries: byCountry.size };
+    }
+
+    const card = document.createElement("article");
+    card.className = "chart-card chart-card--wide timeline-card";
+    card.innerHTML = `
+      <header class="chart-card__head">
+        <h3 class="chart-card__title">📅 الخط الزمني المتحرّك للحقل</h3>
+        <p class="chart-card__hint">شغّل العرض لترى المؤسسات تظهر عقداً بعد عقد. اسحب الشريط للتنقّل بين العقود.</p>
+      </header>
+      <div class="timeline-controls">
+        <button class="timeline-play" type="button" aria-label="تشغيل">▶ تشغيل</button>
+        <input type="range" class="timeline-slider" min="${minYear}" max="${maxYear}" step="10" value="${minYear}" aria-label="عقد التصدير">
+        <span class="timeline-year-badge" aria-live="polite">${minYear}</span>
+      </div>
+      <div class="timeline-stats">
+        <span class="timeline-stat"><strong class="timeline-stat-entities">—</strong> كياناً</span>
+        <span class="timeline-stat"><strong class="timeline-stat-countries">—</strong> دولة</span>
+      </div>
+      <div class="timeline-map-host">
+        <svg class="worldmap__svg" viewBox="0 0 ${w} ${h}" role="img" aria-label="خريطة عالم متحرّكة">
+          <rect class="worldmap__sea" x="0" y="0" width="${w}" height="${h}"/>
+          ${bg}
+          <g class="timeline-dots"></g>
+        </svg>
+      </div>
+    `;
+
+    const slider = card.querySelector(".timeline-slider");
+    const yearBadge = card.querySelector(".timeline-year-badge");
+    const statEntities = card.querySelector(".timeline-stat-entities");
+    const statCountries = card.querySelector(".timeline-stat-countries");
+    const dotsGroup = card.querySelector(".timeline-dots");
+    const playBtn = card.querySelector(".timeline-play");
+
+    let timer = null;
+    let playing = false;
+
+    function renderAt(year) {
+      const { dots, total, countries } = dotsForYear(year);
+      dotsGroup.innerHTML = dots;
+      yearBadge.textContent = year;
+      statEntities.textContent = total;
+      statCountries.textContent = countries;
+    }
+
+    function stopPlay() {
+      playing = false;
+      playBtn.textContent = "▶ تشغيل";
+      playBtn.setAttribute("aria-label", "تشغيل");
+      if (timer) { clearInterval(timer); timer = null; }
+    }
+
+    function startPlay() {
+      playing = true;
+      playBtn.textContent = "⏸ إيقاف";
+      playBtn.setAttribute("aria-label", "إيقاف");
+      // ابدأ من البداية إذا كنّا في النهاية
+      if (+slider.value >= maxYear) {
+        slider.value = minYear;
+        renderAt(minYear);
+      }
+      timer = setInterval(() => {
+        let y = +slider.value + 10;
+        if (y > maxYear) {
+          stopPlay();
+          return;
+        }
+        slider.value = y;
+        renderAt(y);
+      }, 600);
+    }
+
+    playBtn.addEventListener("click", () => {
+      playing ? stopPlay() : startPlay();
+    });
+
+    slider.addEventListener("input", () => {
+      if (playing) stopPlay();
+      renderAt(+slider.value);
+    });
+
+    // الرسم الأوّلي
+    renderAt(minYear);
+
     return card;
   }
 
