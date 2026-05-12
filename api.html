@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="توثيق واجهة برمجة التطبيقات JSON لموسوعة السيرة النبوية المؤسسية. وصول حرّ مفتوح للبيانات بترخيص CC BY 4.0.">
+  <title>API — موسوعة السيرة النبوية المؤسسية</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&family=Tajawal:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css">
+  <style>
+    body { background: #f5f1e8; color: #2a2a2a; padding: 2rem 1rem; font-family: "Tajawal","IBM Plex Sans Arabic",sans-serif; }
+    .api-page { max-width: 980px; margin: 0 auto; background: #fff; border-radius: 12px; padding: 2.5rem; box-shadow: 0 4px 24px rgba(0,0,0,.06); }
+    .api-page h1 { color: #0A4D68; font-size: 2rem; margin: 0 0 .5rem; }
+    .api-page h2 { color: #0A4D68; font-size: 1.4rem; margin: 2rem 0 .8rem; padding-bottom: .4rem; border-bottom: 2px solid #C39B5C; }
+    .api-page h3 { color: #C39B5C; font-size: 1.1rem; margin: 1.5rem 0 .6rem; }
+    .api-page p { line-height: 1.85; margin: .6rem 0; }
+    .api-page a { color: #0563C1; text-decoration: underline; }
+    .api-page code { background: #f5f1e8; padding: .15em .4em; border-radius: 3px; font-family: "JetBrains Mono", monospace; font-size: .92em; }
+    .api-page pre { background: #0A4D68; color: #fff; padding: 1rem 1.25rem; border-radius: 8px; overflow-x: auto; line-height: 1.6; font-family: "JetBrains Mono", monospace; font-size: .88rem; direction: ltr; text-align: left; }
+    .api-page pre code { background: transparent; color: inherit; padding: 0; }
+    .api-page table { width: 100%; border-collapse: collapse; margin: 1rem 0; }
+    .api-page th, .api-page td { border: 1px solid #e2dccc; padding: .55rem .8rem; text-align: right; }
+    .api-page th { background: #F5F1E8; color: #0A4D68; font-weight: 700; }
+    .badge { display: inline-block; padding: .2em .6em; border-radius: 4px; font-size: .85em; font-weight: 600; }
+    .badge--cors { background: #2E7D32; color: #fff; }
+    .badge--license { background: #C39B5C; color: #fff; }
+    .badge--public { background: #0A4D68; color: #fff; }
+    .back-link { display: inline-block; margin-bottom: 1rem; color: #0A4D68; font-weight: 600; }
+    .endpoint { background: #f5f1e8; padding: 1rem; border-radius: 8px; border-inline-start: 4px solid #C39B5C; margin: 1rem 0; }
+    .endpoint-url { font-family: "JetBrains Mono", monospace; color: #0563C1; font-weight: 600; word-break: break-all; direction: ltr; }
+  </style>
+</head>
+<body>
+  <div class="api-page">
+    <a href="./" class="back-link">← العودة للموسوعة</a>
+
+    <h1>📡 واجهة برمجة التطبيقات (API)</h1>
+    <p>
+      موسوعة السيرة النبوية المؤسسية تتيح بياناتها <strong>مجاناً ومفتوحاً</strong> للباحثين والمطوّرين. لا تحتاج مفتاحاً، لا تسجيلاً، لا حدّ معدّل.
+    </p>
+    <p>
+      <span class="badge badge--public">عام</span>
+      <span class="badge badge--cors">CORS مفعّل</span>
+      <span class="badge badge--license">CC BY 4.0</span>
+    </p>
+
+    <h2>1. النقاط النهائية (Endpoints)</h2>
+
+    <div class="endpoint">
+      <h3 style="margin-top:0">GET <code>/data.json</code></h3>
+      <p>قاعدة بيانات الكيانات الكاملة (~1.2MB).</p>
+      <p class="endpoint-url">https://mhmmdalmutairi.github.io/seerah-encyclopedia/data.json</p>
+    </div>
+
+    <div class="endpoint">
+      <h3 style="margin-top:0">GET <code>/sources/manifest.json</code></h3>
+      <p>قائمة الجولات البحثية ومجموع الكيانات لكل جولة.</p>
+      <p class="endpoint-url">https://mhmmdalmutairi.github.io/seerah-encyclopedia/sources/manifest.json</p>
+    </div>
+
+    <div class="endpoint">
+      <h3 style="margin-top:0">GET <code>/schema.json</code></h3>
+      <p>JSON Schema يصف بنية الكيانات (الحقول المتاحة والقيم الممكنة).</p>
+      <p class="endpoint-url">https://mhmmdalmutairi.github.io/seerah-encyclopedia/schema.json</p>
+    </div>
+
+    <h2>2. مثال استخدام (JavaScript)</h2>
+    <pre><code>// تحميل كل الكيانات
+const res = await fetch("https://mhmmdalmutairi.github.io/seerah-encyclopedia/data.json");
+const { entities } = await res.json();
+
+// فلترة الكيانات الإندونيسية
+const indonesian = entities.filter(e =&gt; e.country === "ID");
+console.log(`${indonesian.length} كياناً إندونيسياً`);
+
+// كيانات السيرة الرقمية
+const digital = entities.filter(e =&gt; e.subjects?.includes("digital_seerah"));
+
+// كيانات تأسّست بعد 2010
+const recent = entities.filter(e =&gt; e.founded &amp;&amp; e.founded &gt;= 2010);</code></pre>
+
+    <h2>3. مثال (Python)</h2>
+    <pre><code>import requests
+
+r = requests.get("https://mhmmdalmutairi.github.io/seerah-encyclopedia/data.json")
+data = r.json()
+entities = data["entities"]
+
+# المؤسسات الصوفية
+sufi = [e for e in entities if "sufism_seerah" in (e.get("subjects") or [])]
+print(f"{len(sufi)} مؤسسة صوفية")
+
+# توزيع حسب الدولة
+from collections import Counter
+by_country = Counter(e.get("country") for e in entities)
+print(by_country.most_common(10))</code></pre>
+
+    <h2>4. الحقول الرئيسة</h2>
+    <table>
+      <thead>
+        <tr><th>الحقل</th><th>النوع</th><th>الوصف</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><code>id</code></td><td>string</td><td>معرّف فريد (مثل NAM-104)</td></tr>
+        <tr><td><code>name_ar</code></td><td>string</td><td>الاسم بالعربية</td></tr>
+        <tr><td><code>name_en</code></td><td>string</td><td>الاسم بالإنجليزية (إن وُجد)</td></tr>
+        <tr><td><code>type</code></td><td>string</td><td>نوع المؤسسة (28 نوعاً)</td></tr>
+        <tr><td><code>type_group</code></td><td>string</td><td>المجموعة الرئيسة (6 مجموعات)</td></tr>
+        <tr><td><code>region</code></td><td>string</td><td>الإقليم الجيوبوليتيكي (7 أقاليم)</td></tr>
+        <tr><td><code>country</code></td><td>string</td><td>كود ISO 3166-1 alpha-2</td></tr>
+        <tr><td><code>founded</code></td><td>integer</td><td>سنة التأسيس</td></tr>
+        <tr><td><code>description_ar</code></td><td>string</td><td>وصف بالعربية</td></tr>
+        <tr><td><code>url</code></td><td>string</td><td>الموقع الرسمي</td></tr>
+        <tr><td><code>subjects</code></td><td>array</td><td>الموضوعات السيرية المخدومة</td></tr>
+        <tr><td><code>subjects_category</code></td><td>array</td><td>تصنيفات الموضوعات الكبرى</td></tr>
+        <tr><td><code>key_figures</code></td><td>array</td><td>الشخصيات الرئيسة</td></tr>
+        <tr><td><code>verification</code></td><td>string</td><td>درجة التحقّق: field_verified, desk_verified, needs_verification</td></tr>
+        <tr><td><code>funding_type</code></td><td>string</td><td>نوع التمويل: state, religious_authority, private, academic_host, waqf, mixed</td></tr>
+        <tr><td><code>status</code></td><td>string</td><td>الحالة: active, dormant, suspended, closed</td></tr>
+        <tr><td><code>round</code></td><td>string</td><td>الجولة البحثية التي أُضيف فيها</td></tr>
+      </tbody>
+    </table>
+
+    <h2>5. الترخيص</h2>
+    <p>
+      البيانات متاحة تحت ترخيص <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">Creative Commons Attribution 4.0 (CC BY 4.0)</a>.
+      تستطيع نسخها، تعديلها، توزيعها، استخدامها تجارياً — بشرط <strong>الإشارة للموسوعة</strong> برابط <a href="./">https://mhmmdalmutairi.github.io/seerah-encyclopedia/</a>.
+    </p>
+
+    <h2>6. الاقتباس الأكاديمي</h2>
+    <pre><code>الموسوعة المؤسسية للسيرة النبوية. (2026). محمد المطيري.
+استُرجع من https://mhmmdalmutairi.github.io/seerah-encyclopedia/
+
+Almutairi, M. (2026). Institutional Encyclopedia of the
+Prophetic Biography. Retrieved from
+https://mhmmdalmutairi.github.io/seerah-encyclopedia/</code></pre>
+
+    <h2>7. اقتراح كيان جديد أو تصحيح</h2>
+    <p>
+      هذه الموسوعة قابلة للنمو. إذا كنت تعرف كياناً غير مرصود أو لاحظت معلومة خاطئة:
+    </p>
+    <ul>
+      <li>📨 <a href="suggest.html">انقر هنا لاقتراح كيان جديد</a></li>
+      <li>🐙 <a href="https://github.com/mhmmdalmutairi/seerah-encyclopedia/issues/new" target="_blank" rel="noopener">فتح Issue في GitHub</a></li>
+      <li>📧 أو راسل المؤلّف عبر GitHub Profile</li>
+    </ul>
+
+    <h2>8. التحديثات</h2>
+    <p>
+      الموسوعة تُحدَّث بشكل دوري عبر «الموجات البحثية». لمتابعة التحديثات:
+    </p>
+    <ul>
+      <li>📡 RSS Feed: <a href="feed.json">feed.json</a> (JSON Feed 1.1)</li>
+      <li>🐙 GitHub Releases: <a href="https://github.com/mhmmdalmutairi/seerah-encyclopedia/releases" target="_blank" rel="noopener">آخر الإصدارات</a></li>
+    </ul>
+
+  </div>
+</body>
+</html>

@@ -1,0 +1,268 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "موسوعة السيرة النبوية المؤسسية — التحديثات",
+  "home_page_url": "https://mhmmdalmutairi.github.io/seerah-encyclopedia/",
+  "feed_url": "https://mhmmdalmutairi.github.io/seerah-encyclopedia/feed.json",
+  "description": "تحديثات الموسوعة المؤسسية لكيانات السيرة النبوية. 641 كياناً عبر 19 جولة بحثية.",
+  "language": "ar",
+  "icon": "https://mhmmdalmutairi.github.io/seerah-encyclopedia/favicon.png",
+  "authors": [
+    {
+      "name": "Mohammed Almutairi"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://mhmmdalmutairi.github.io/seerah-encyclopedia/#round-08y",
+      "url": "https://mhmmdalmutairi.github.io/seerah-encyclopedia/#round=08y",
+      "title": "جولة 8-ي — السيرة للأطفال والناشئة",
+      "content_text": "Goodword، Kube، Tughra، Muslim Kids TV، Zaky & Friends، Omar & Hana، Quran for Kids، The Sincere Seeker. أوّل تركيز ممنهج على الأطفال في الموسوعة.\n\nعدد الكيانات في هذه الجولة: 16\nالإقليم: عابر للأقاليم — تركيز على الأطفال",
+      "tags": [
+        "gap-filling-research",
+        "Children & Youth — Global"
+      ],
+      "_meta": {
+        "round_id": "08y",
+        "entity_count": 16
+      }
+    },
+    {
+      "id": "https://mhmmdalmutairi.github.io/seerah-encyclopedia/#round-08m",
+      "url": "https://mhmmdalmutairi.github.io/seerah-encyclopedia/#round=08m",
+      "title": "جولة 8-م — أستراليا ونيوزيلندا",
+      "content_text": "ANIC، ISRA، CISAC (Charles Sturt)، FIANZ، Al-Manar College، مسجد جالوبولي. أستراليا كانت 3 فقط، نيوزيلندا 0.\n\nعدد الكيانات في هذه الجولة: 8\nالإقليم: أستراليا 6 + نيوزيلندا 2",
+      "tags": [
+        "gap-filling-research",
+        "Australia & New Zealand"
+      ],
+      "_meta": {
+        "round_id": "08m",
+        "entity_count": 8
+      }
+    },
+    {
+      "id": "https://mhmmdalmutairi.github.io/seerah-encyclopedia/#round-08l",
+      "url": "https://mhmmdalmutairi.github.io/seerah-encyclopedia/#round=08l",
+      "title": "جولة 8-ل — أمريكا اللاتينية",
+      "content_text": "FAMBRAS البرازيل، CDIAL، مركز الملك فهد بوينس آيرس (أكبر مسجد في أمريكا اللاتينية)، CIRA، CCIM، مسجد الإبراهيم كاراكاس. كانت تغطية صفر تماماً.\n\nعدد الكيانات في هذه الجولة: 10\nالإقليم: البرازيل، الأرجنتين، المكسيك، فنزويلا، كولومبيا، شيلي، بيرو، كوبا",
+      "tags": [
+        "gap-filling-research",
+        "Latin America"
+      ],
+      "_meta": {
+        "round_id": "08l",
+        "entity_count": 10
+      }
+    },
+    {
+      "id": "https://mhmmdalmutairi.github.io/seerah-encyclopedia/#round-08k",
+      "url": "https://mhmmdalmutairi.github.io/seerah-encyclopedia/#round=08k",
+      "title": "جولة 8-ك — جنوب شرق آسيا",
+      "content_text": "MSU Marawi، جامعة فطاني، Madrasah Aljunied، MUIS سنغافورة، Naleemiah سريلانكا، IUT بنغلاديش. منطقة كانت معدومة التغطية.\n\nعدد الكيانات في هذه الجولة: 17\nالإقليم: الفلبين 4 + تايلاند 4 + سنغافورة 3 + سريلانكا 2 + بنغلاديش 2 + كمبوديا 1 + فيتنام 1",
+      "tags": [
+        "gap-filling-research",
+        "Southeast Asia (Beyond ID/MY)"
+      ],
+      "_meta": {
+        "round_id": "08k",
+        "entity_count": 17
+      }
+    },
+    {
+      "id": "https://mhmmdalmutairi.github.io/seerah-encyclopedia/#round-08h",
+      "url": "https://mhmmdalmutairi.github.io/seerah-encyclopedia/#round=08h",
+      "title": "جولة 8-ح — آسيا الوسطى والصين والقوقاز",
+      "content_text": "مراكز الإمام البخاري والترمذي والماتريدي بأوزبكستان، Mir-i Arab Madrasa، مركز الحضارة الإسلامية بطشقند 2026، China Islamic Institute بكين، أكاديمية الإلهيات بأذربيجان.\n\nعدد الكيانات في هذه الجولة: 20\nالإقليم: أوزبكستان 7 + كازاخستان 2 + قيرغيزستان 2 + طاجيكستان 2 + تركمانستان 1 + الصين 4 + أذربيجان 2",
+      "tags": [
+        "gap-filling-research",
+        "Central Asia, China, Caucasus"
+      ],
+      "_meta": {
+        "round_id": "08h",
+        "entity_count": 20
+      }
+    },
+    {
+      "id": "https://mhmmdalmutairi.github.io/seerah-encyclopedia/#round-08g",
+      "url": "https://mhmmdalmutairi.github.io/seerah-encyclopedia/#round=08g",
+      "title": "جولة 8-ز — الأرخبيل الإسلامي (إندونيسيا، ماليزيا، بروناي)",
+      "content_text": "أكبر تجمّع مسلم في العالم (260M+). نهضة العلماء، المحمدية، بيسانترين سيدوغيري (1745) كأقدم بيسانترين، 6 جامعات UIN جديدة، UNISSA بروناي، ثلاث ناشرين كبار.\n\nعدد الكيانات في هذه الجولة: 34\nالإقليم: إندونيسيا 27 + ماليزيا 5 + بروناي 2",
+      "tags": [
+        "gap-filling-research",
+        "Indonesian Archipelago Islamic Heartland"
+      ],
+      "_meta": {
+        "round_id": "08g",
+        "entity_count": 34
+      }
+    },
+    {
+      "id": "https://mhmmdalmutairi.github.io/seerah-encyclopedia/#round-08f",
+      "url": "https://mhmmdalmutairi.github.io/seerah-encyclopedia/#round=08f",
+      "title": "جولة 8-و — القرن الإفريقي",
+      "content_text": "كنيا 4 + إثيوبيا 3 + الصومال 6 + إريتريا 1. شملت جامعة الأمة، مسجد النجاشي (أول مسجد في إفريقيا)، كلية أوليا، جامعة مقديشو.\n\nعدد الكيانات في هذه الجولة: 14\nالإقليم: كنيا، إثيوبيا، الصومال، إريتريا",
+      "tags": [
+        "gap-filling-research",
+        "Horn of Africa"
+      ],
+      "_meta": {
+        "round_id": "08f",
+        "entity_count": 14
+      }
+    },
+    {
+      "id": "https://mhmmdalmutairi.github.io/seerah-encyclopedia/#round-08e",
+      "url": "https://mhmmdalmutairi.github.io/seerah-encyclopedia/#round=08e",
+      "title": "جولة 8-هـ — التيارات الصوفية الإفريقية",
+      "content_text": "التيجانية + المريدية + القادرية + السنوسية + السمانية + البرهانية — منظومات سيرة-تربية ضخمة في غرب وشمال إفريقيا غُيّبت في الجولات 1-6 لطبيعتها اللامركزية.\n\nعدد الكيانات في هذه الجولة: 20\nالإقليم: الصوفية الإفريقية",
+      "tags": [
+        "gap-filling-research",
+        "African Sufi Networks"
+      ],
+      "_meta": {
+        "round_id": "08e",
+        "entity_count": 20
+      }
+    },
+    {
+      "id": "https://mhmmdalmutairi.github.io/seerah-encyclopedia/#round-08d",
+      "url": "https://mhmmdalmutairi.github.io/seerah-encyclopedia/#round=08d",
+      "title": "جولة 8-د — الحوزوي/الشيعي/الإسماعيلي/الزيدي/الإباضي",
+      "content_text": "يكمل التوازن المذهبي. يضيف حوزات النجف وقم، مكاتب المراجع، مكتبات الأضرحة، المؤسسات الزيدية والإباضية، الجاليات الشيعية في الغرب.\n\nعدد الكيانات في هذه الجولة: 22\nالإقليم: المؤسسات المذهبية غير السنية",
+      "tags": [
+        "gap-filling-research",
+        "Non-Sunni Sectarian Institutions"
+      ],
+      "_meta": {
+        "round_id": "08d",
+        "entity_count": 22
+      }
+    },
+    {
+      "id": "https://mhmmdalmutairi.github.io/seerah-encyclopedia/#round-08b",
+      "url": "https://mhmmdalmutairi.github.io/seerah-encyclopedia/#round=08b",
+      "title": "جولة 8-ب — المسجدي/المتحفي/الإفريقي",
+      "content_text": "يسدّ فجوة mosque_program (كانت 3 جزائرية فقط)، يضيف برامج الحرمين، المتاحف الإسلامية الكبرى، المراكز الإسلامية الغربية، المؤسسات الإفريقية الإسلامية. مجموعة 🏛 متاحف وثقافة قفزت من 11 إلى 22 كياناً.\n\nعدد الكيانات في هذه الجولة: 26\nالإقليم: متاحف وثقافة + إفريقيا الإسلامية",
+      "tags": [
+        "gap-filling-research",
+        "Mosques, Museums & African Islamic Institutions"
+      ],
+      "_meta": {
+        "round_id": "08b",
+        "entity_count": 26
+      }
+    },
+    {
+      "id": "https://mhmmdalmutairi.github.io/seerah-encyclopedia/#round-08c",
+      "url": "https://mhmmdalmutairi.github.io/seerah-encyclopedia/#round=08c",
+      "title": "جولة 8-ج — الإعلامي والرقمي والإنتاجي",
+      "content_text": "يفعّل أنواع Schema v2 الجديدة: film_or_series, production_studio, tv_channel, digital_platform, mobile_app, digital_creator. يضيف بادئة GLB- للكيانات العابرة للأقاليم.\n\nعدد الكيانات في هذه الجولة: 25\nالإقليم: عابر للأقاليم — إعلامي رقمي",
+      "tags": [
+        "gap-filling-research",
+        "Cross-Regional — Media & Digital"
+      ],
+      "_meta": {
+        "round_id": "08c",
+        "entity_count": 25
+      }
+    },
+    {
+      "id": "https://mhmmdalmutairi.github.io/seerah-encyclopedia/#round-08a",
+      "url": "https://mhmmdalmutairi.github.io/seerah-encyclopedia/#round=08a",
+      "title": "جولة 8-أ — جنوب آسيا (باكستان، الهند، بنغلاديش، أفغانستان)",
+      "content_text": "دفعة أولى من جولة سدّ الفجوة الجنوب-آسيوية بعد التشخيص. تستهدف ضعف التغطية الأصلية للجولة 5 (10 PK + 4 IN + 2 BD + 0 AF فقط).\n\nعدد الكيانات في هذه الجولة: 30\nالإقليم: جنوب آسيا",
+      "tags": [
+        "gap-filling-research",
+        "South Asia"
+      ],
+      "_meta": {
+        "round_id": "08a",
+        "entity_count": 30
+      }
+    },
+    {
+      "id": "https://mhmmdalmutairi.github.io/seerah-encyclopedia/#round-06",
+      "url": "https://mhmmdalmutairi.github.io/seerah-encyclopedia/#round=06",
+      "title": "مسح موسوعي للكيانات الأكاديمية الغربية والاستشراقية في خدمة السيرة النبوية والإسلام المبكر — الجولة السادسة",
+      "content_text": "\n\nعدد الكيانات في هذه الجولة: 96\nالإقليم: الاستشراق الأكاديمي الغربي",
+      "tags": [
+        "regional-survey",
+        "Western Academia and Orientalism"
+      ],
+      "_meta": {
+        "round_id": "06",
+        "entity_count": 96
+      }
+    },
+    {
+      "id": "https://mhmmdalmutairi.github.io/seerah-encyclopedia/#round-05",
+      "url": "https://mhmmdalmutairi.github.io/seerah-encyclopedia/#round=05",
+      "title": "المسح الموسوعي للكيانات المتخصصة في خدمة السيرة النبوية في العالم الإسلامي غير العربي — الجولة الخامسة",
+      "content_text": "\n\nعدد الكيانات في هذه الجولة: 63\nالإقليم: العالم الإسلامي غير العربي",
+      "tags": [
+        "regional-survey",
+        "Non-Arab Muslim World"
+      ],
+      "_meta": {
+        "round_id": "05",
+        "entity_count": 63
+      }
+    },
+    {
+      "id": "https://mhmmdalmutairi.github.io/seerah-encyclopedia/#round-04",
+      "url": "https://mhmmdalmutairi.github.io/seerah-encyclopedia/#round=04",
+      "title": "المسح الأفقي الموسوعي لكيانات خدمة السيرة النبوية في تركيا",
+      "content_text": "\n\nعدد الكيانات في هذه الجولة: 62\nالإقليم: تركيا",
+      "tags": [
+        "regional-survey",
+        "Turkey"
+      ],
+      "_meta": {
+        "round_id": "04",
+        "entity_count": 62
+      }
+    },
+    {
+      "id": "https://mhmmdalmutairi.github.io/seerah-encyclopedia/#round-03",
+      "url": "https://mhmmdalmutairi.github.io/seerah-encyclopedia/#round=03",
+      "title": "المسح الموسوعي للكيانات العلمية والمؤسسية المتخصصة في خدمة السيرة النبوية بالمغرب العربي",
+      "content_text": "\n\nعدد الكيانات في هذه الجولة: 45\nالإقليم: المغرب العربي",
+      "tags": [
+        "regional-survey",
+        "Maghreb"
+      ],
+      "_meta": {
+        "round_id": "03",
+        "entity_count": 45
+      }
+    },
+    {
+      "id": "https://mhmmdalmutairi.github.io/seerah-encyclopedia/#round-02",
+      "url": "https://mhmmdalmutairi.github.io/seerah-encyclopedia/#round=02",
+      "title": "المسح الموسوعي للكيانات المتخصصة في خدمة السيرة النبوية في بلاد الشام والعراق ووادي النيل (2019-2026)",
+      "content_text": "\n\nعدد الكيانات في هذه الجولة: 46\nالإقليم: بلاد الشام والعراق ووادي النيل",
+      "tags": [
+        "regional-survey",
+        "Levant, Iraq, and Nile Valley"
+      ],
+      "_meta": {
+        "round_id": "02",
+        "entity_count": 46
+      }
+    },
+    {
+      "id": "https://mhmmdalmutairi.github.io/seerah-encyclopedia/#round-01",
+      "url": "https://mhmmdalmutairi.github.io/seerah-encyclopedia/#round=01",
+      "title": "المسح الأفقي الموسوعي للكيانات المتخصصة في خدمة السيرة النبوية في الجزيرة العربية (2019-2026)",
+      "content_text": "\n\nعدد الكيانات في هذه الجولة: 52\nالإقليم: الجزيرة العربية",
+      "tags": [
+        "regional-survey",
+        "Arabian Peninsula"
+      ],
+      "_meta": {
+        "round_id": "01",
+        "entity_count": 52
+      }
+    }
+  ]
+}

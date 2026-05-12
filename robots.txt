@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Sitemap: https://mhmmdalmutairi.github.io/seerah-encyclopedia/sitemap.xml
+
+# JSON Feed for changes
+# https://mhmmdalmutairi.github.io/seerah-encyclopedia/feed.json
