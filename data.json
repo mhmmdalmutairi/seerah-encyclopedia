@@ -17,7 +17,10 @@
     "08f",
     "08g",
     "08h",
-    "08k"
+    "08k",
+    "08l",
+    "08m",
+    "08y"
   ],
   "entities": [
     {
@@ -24970,7 +24973,1166 @@
       "output_types": [],
       "funding_type": "academic_host",
       "round": "08k"
+    },
+    {
+      "id": "WEST-141",
+      "name_ar": "اتحاد الجمعيات الإسلامية في البرازيل (فامبراس)",
+      "name_en": "Federação das Associações Muçulmanas do Brasil (FAMBRAS)",
+      "type": "foundation_waqf",
+      "type_group": "research_education",
+      "region": "western",
+      "country": "BR",
+      "founded": 1979,
+      "description_ar": "الهيئة المظلّة لـ 47+ جمعية إسلامية في البرازيل. تأسّست 1979 ومقرّها ساو باولو. تشرف على تعليم العربية والإسلام، وتنشر السيرة النبوية للجالية البرازيلية (1.5M+ مسلم) عبر منشورات ومؤتمرات بالبرتغالية. تدير القناة الرسمية canalfambras.org.br.",
+      "url": "https://www.fambras.org.br/en",
+      "subjects": [
+        "seerah_general",
+        "seerah_pedagogy",
+        "tarjamah",
+        "youth_outreach"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "محمد العزوزي"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08l"
+    },
+    {
+      "id": "WEST-142",
+      "name_ar": "مركز نشر الإسلام بأمريكا اللاتينية (سديال)",
+      "name_en": "Centro de Divulgação do Islam para América Latina (CDIAL)",
+      "type": "foundation_waqf",
+      "type_group": "research_education",
+      "region": "western",
+      "country": "BR",
+      "founded": 1994,
+      "description_ar": "أكبر مركز دعوي إسلامي في البرازيل، مقرّه ساو باولو. ينتج كتباً ومقالات ومحاضرات عن السيرة النبوية والإسلام بالبرتغالية، ويوزّعها مجاناً في كل أنحاء أمريكا اللاتينية. أسّس مكتبة إسلامية متخصصة في النشر البرتغالي.",
+      "url": "https://cdial.org.br/",
+      "subjects": [
+        "seerah_general",
+        "tarjamah",
+        "seerah_pedagogy"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "أحمد علي صيفي"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08l"
+    },
+    {
+      "id": "WEST-143",
+      "name_ar": "المركز الثقافي الإسلامي «خادم الحرمين الشريفين الملك فهد» – الأرجنتين",
+      "name_en": "King Fahd Islamic Cultural Center (CCIAR)",
+      "type": "islamic_center",
+      "type_group": "museums_culture",
+      "region": "western",
+      "country": "AR",
+      "founded": 2000,
+      "description_ar": "أكبر مسجد في أمريكا اللاتينية، افتُتح عام 2000 في حي باليرمو ببوينس آيرس على 34,000 م² تبرّعت بها الأرجنتين والمملكة العربية السعودية بنته. يخدم مسلمي الأرجنتين (~500 ألف) ودول أمريكا اللاتينية والكاريبي. يُدرّس العربية والسيرة بالإسبانية، طاقة 1,200 مصلٍّ + 400 مصلية.",
+      "url": "http://www.ccislamicoreyfahd.org.ar/",
+      "subjects": [
+        "seerah_general",
+        "seerah_pedagogy",
+        "tarjamah"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "زهير فايز (المعماري)"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08l"
+    },
+    {
+      "id": "WEST-144",
+      "name_ar": "المركز الإسلامي للجمهورية الأرجنتينية (سيرا)",
+      "name_en": "Centro Islámico de la República Argentina (CIRA)",
+      "type": "islamic_center",
+      "type_group": "museums_culture",
+      "region": "western",
+      "country": "AR",
+      "founded": 1931,
+      "description_ar": "أقدم منظمة إسلامية في الأرجنتين، تأسّست 1931 في بوينس آيرس. تدير مدارس إسلامية ومسجداً وبرامج تعليم العربية، وتُصدر منشورات السيرة النبوية بالإسبانية للجالية المسلمة (~500 ألف). معترف بها رسمياً من حكومة الأرجنتين كهيئة دينية.",
+      "url": "https://islam.com.ar/",
+      "subjects": [
+        "seerah_general",
+        "seerah_pedagogy",
+        "tarjamah",
+        "youth_outreach"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "classical_corpus"
+      ],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08l"
+    },
+    {
+      "id": "WEST-145",
+      "name_ar": "المركز الثقافي الإسلامي بالمكسيك",
+      "name_en": "Centro Cultural Islámico de México (CCIM)",
+      "type": "islamic_center",
+      "type_group": "museums_culture",
+      "region": "western",
+      "country": "MX",
+      "founded": 1994,
+      "description_ar": "المركز الرئيس للمسلمين في المكسيك، مقرّه مكسيكو سيتي. يخدم جالية صغيرة (~5,000 مسلم) لكن نشطة. يُترجم السيرة والقرآن للإسبانية، وينظم دروس تعريف بالإسلام ودورات تعليم العربية. مرتبط بمبادرات تعريف بالإسلام في أمريكا اللاتينية كاملة.",
+      "url": "https://ccimac.com/",
+      "subjects": [
+        "seerah_general",
+        "tarjamah",
+        "seerah_pedagogy"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "classical_corpus"
+      ],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08l"
+    },
+    {
+      "id": "WEST-146",
+      "name_ar": "مسجد الشيخ إبراهيم الإبراهيم – كاراكاس",
+      "name_en": "Mezquita Sheikh Ibrahim Al-Ibrahim",
+      "type": "mosque_program",
+      "type_group": "museums_culture",
+      "region": "western",
+      "country": "VE",
+      "founded": 1993,
+      "description_ar": "أكبر مسجد في أمريكا الجنوبية (ثاني أكبر بعد فهد بـبوينس آيرس)، يقع في كاراكاس بفنزويلا. مساحته 5,000 م² وأكثر من 3,500 مصلٍّ. أسّسته الجالية السورية-اللبنانية مع تمويل سعودي. يُدرّس السيرة والعربية للجالية المسلمة الفنزويلية (~100,000).",
+      "url": "https://es.wikipedia.org/wiki/Mezquita_Sheikh_Ibrahim_Al-Ibrahim",
+      "subjects": [
+        "seerah_general",
+        "seerah_pedagogy"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "إبراهيم الإبراهيم (الممول)"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "religious_authority",
+      "round": "08l"
+    },
+    {
+      "id": "WEST-147",
+      "name_ar": "المركز الثقافي الإسلامي العربي بكولومبيا – بوغوتا",
+      "name_en": "Centro Cultural Islámico Colombo Árabe",
+      "type": "islamic_center",
+      "type_group": "museums_culture",
+      "region": "western",
+      "country": "CO",
+      "founded": 1981,
+      "description_ar": "مقرّ المسلمين الكولومبيين (~80,000) في بوغوتا. ينظم دروس السيرة والعربية بالإسبانية، ويصدر بعض النشريات. تأثّر نشاطه بالتقلّبات السياسية لكنه ما زال نشطاً.",
+      "url": "https://es.wikipedia.org/wiki/Islam_en_Colombia",
+      "subjects": [
+        "seerah_general",
+        "tarjamah",
+        "seerah_pedagogy"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "classical_corpus"
+      ],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08l"
+    },
+    {
+      "id": "WEST-148",
+      "name_ar": "المركز الإسلامي في شيلي – سانتياغو",
+      "name_en": "Centro Islámico de Chile",
+      "type": "islamic_center",
+      "type_group": "museums_culture",
+      "region": "western",
+      "country": "CL",
+      "founded": 1989,
+      "description_ar": "المقر الرئيس لمسلمي شيلي (~3,000-4,000)، يدير مسجد السلام في سانتياغو الذي افتُتح 1995. يُدرّس السيرة والعربية بالإسبانية، ويصدر بعض النشريات للجالية. يستضيف زيارات أساتذة من جامعات إسلامية كبرى.",
+      "url": "https://centroislamico.cl/",
+      "subjects": [
+        "seerah_general",
+        "seerah_pedagogy",
+        "tarjamah"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "classical_corpus"
+      ],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08l"
+    },
+    {
+      "id": "WEST-149",
+      "name_ar": "الجمعية الإسلامية بالبيرو – ليما",
+      "name_en": "Asociación Islámica del Perú",
+      "type": "islamic_center",
+      "type_group": "museums_culture",
+      "region": "western",
+      "country": "PE",
+      "founded": 1994,
+      "description_ar": "أكبر مركز إسلامي في بيرو، يخدم جالية صغيرة (~1,500 مسلم). يدير مسجد باب الإسلام في ليما، وينظم نشاطات سيرة وتعليم عربي. ربط بشبكات إسلامية في برازيل وكولومبيا.",
+      "url": "https://aip.org.pe/",
+      "subjects": [
+        "seerah_general",
+        "seerah_pedagogy"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "classical_corpus"
+      ],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08l"
+    },
+    {
+      "id": "WEST-150",
+      "name_ar": "اللجنة الإسلامية بكوبا – مسجد عبدالله",
+      "name_en": "Liga Islámica de Cuba — Mezquita Abdallah",
+      "type": "islamic_center",
+      "type_group": "museums_culture",
+      "region": "western",
+      "country": "CU",
+      "founded": 2015,
+      "description_ar": "أوّل مسجد دائم في كوبا، افتُتح 2015 في هافانا بدعم تركي (الديانة). يدير دروس السيرة والعربية لجالية مسلمة صغيرة (~10,000، أغلبهم من الجالية اللبنانية والأفروكوبية الجديدة). إنجاز رمزي في بلد كان فيه الإسلام شبه معدوم.",
+      "url": "https://en.wikipedia.org/wiki/Islam_in_Cuba",
+      "subjects": [
+        "seerah_general",
+        "seerah_pedagogy"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "classical_corpus"
+      ],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08l"
+    },
+    {
+      "id": "WEST-151",
+      "name_ar": "المجلس الوطني الأسترالي للأئمة (آنيك)",
+      "name_en": "Australian National Imams Council (ANIC)",
+      "type": "foundation_waqf",
+      "type_group": "research_education",
+      "region": "western",
+      "country": "AU",
+      "founded": 2006,
+      "description_ar": "الهيئة الوحيدة للأئمة والعلماء المسلمين في أستراليا، تأسّست 2006 وتضم 300+ إماماً مسجّلاً. تصدر الفتوى الرسمية للجالية، وتشرف على تأهيل الأئمة، وتنظم برامج السيرة والتدريب الديني للجالية الأسترالية المسلمة (~800,000). مقرّها سيدني.",
+      "url": "https://anic.org.au/",
+      "subjects": [
+        "seerah_general",
+        "seerah_pedagogy",
+        "youth_outreach"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "شيخ شادي الصليح"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08m"
+    },
+    {
+      "id": "WEST-152",
+      "name_ar": "أكاديمية العلوم والبحوث الإسلامية بأستراليا (إسرا)",
+      "name_en": "Islamic Sciences and Research Academy of Australia (ISRA)",
+      "type": "research_center",
+      "type_group": "research_education",
+      "region": "western",
+      "country": "AU",
+      "founded": 2009,
+      "description_ar": "مركز بحثي إسلامي تأسّس 16 نوفمبر 2009، يشارك جامعة تشارلز ستيرت في تشغيل مركز الدراسات الإسلامية والحضارة (CISAC). يقدّم برامج بكالوريوس وماجستير ودكتوراه في الدراسات الإسلامية بأستراليا. أكثر من 2,200 طالب و415 خريجاً خلال 13 سنة. لديه فرعان في أوبرن (سيدني) وملبورن.",
+      "url": "https://www.isra.org.au/",
+      "subjects": [
+        "seerah_general",
+        "hadith_sciences",
+        "biography_methodology",
+        "seerah_pedagogy"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "auxiliary_sciences",
+        "classical_corpus",
+        "methodology_critique"
+      ],
+      "key_figures": [
+        "محمد أوزالب"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08m"
+    },
+    {
+      "id": "WEST-153",
+      "name_ar": "مركز الدراسات الإسلامية والحضارة – جامعة تشارلز ستيرت (سيساك)",
+      "name_en": "Centre for Islamic Studies and Civilisation (CISAC), Charles Sturt University",
+      "type": "university_center",
+      "type_group": "research_education",
+      "region": "western",
+      "country": "AU",
+      "founded": 2011,
+      "description_ar": "أكاديمي رسمي بالشراكة بين جامعة تشارلز ستيرت وأكاديمية ISRA. أسّس 2011 وجدّد عقد الشراكة 2022 لعقد كامل. يقدّم برامج معتمدة في الدراسات الإسلامية وقسماً نشطاً في علوم السيرة والحديث، مع تركيز على إعداد علماء مسلمين أستراليين.",
+      "url": "https://arts-ed.csu.edu.au/centres/cisac",
+      "subjects": [
+        "seerah_general",
+        "hadith_sciences",
+        "biography_methodology"
+      ],
+      "subjects_category": [
+        "auxiliary_sciences",
+        "classical_corpus",
+        "methodology_critique"
+      ],
+      "key_figures": [
+        "محمد أوزالب"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08m"
+    },
+    {
+      "id": "WEST-154",
+      "name_ar": "اتحاد الجمعيات الإسلامية في نيوزيلندا (فيانز)",
+      "name_en": "Federation of Islamic Associations of New Zealand (FIANZ)",
+      "type": "foundation_waqf",
+      "type_group": "research_education",
+      "region": "western",
+      "country": "NZ",
+      "founded": 1979,
+      "description_ar": "الهيئة المظلّة لمسلمي نيوزيلندا (~75,000)، تأسّست 1979 ومقرّها ولينغتون. تشرف على المساجد والمدارس الإسلامية، وتنسّق التعليم الديني، وتنظم احتفالات المولد النبوي ودروس السيرة بالإنجليزية. صارت أكثر بروزاً بعد حادثة كرايست تشيرش 2019.",
+      "url": "https://fianz.com/",
+      "subjects": [
+        "seerah_general",
+        "seerah_pedagogy",
+        "youth_outreach"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "classical_corpus"
+      ],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08m"
+    },
+    {
+      "id": "WEST-155",
+      "name_ar": "كلية المنار الإسلامية – أوكلاند",
+      "name_en": "Al-Manar College",
+      "type": "islamic_center",
+      "type_group": "museums_culture",
+      "region": "western",
+      "country": "NZ",
+      "founded": 1995,
+      "description_ar": "أوّل مدرسة إسلامية شاملة في نيوزيلندا، تأسّست 1995 في أوكلاند. تقدّم منهجاً يجمع بين المنهج النيوزيلندي الرسمي والعلوم الإسلامية والعربية والسيرة النبوية. تخدم ~400 طالب من الابتدائية إلى الثانوية.",
+      "url": "https://en.wikipedia.org/wiki/Al-Madinah_School",
+      "subjects": [
+        "seerah_general",
+        "seerah_pedagogy",
+        "youth_outreach"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "classical_corpus"
+      ],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08m"
+    },
+    {
+      "id": "WEST-156",
+      "name_ar": "مسجد أوبرن جالوبولي – سيدني",
+      "name_en": "Auburn Gallipoli Mosque",
+      "type": "mosque_program",
+      "type_group": "museums_culture",
+      "region": "western",
+      "country": "AU",
+      "founded": 1999,
+      "description_ar": "أحد أكبر مساجد سيدني، اكتمل بناؤه 1999 على نمط معماري عثماني تركي. يدير برامج سيرة ومدارس قرآنية للجالية التركية-الأسترالية وغيرها (~10,000 مصلٍّ سنوياً). مرتبط بشبكة الديانة التركية في أستراليا.",
+      "url": "https://en.wikipedia.org/wiki/Auburn_Gallipoli_Mosque",
+      "subjects": [
+        "seerah_general",
+        "seerah_pedagogy"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "classical_corpus"
+      ],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "religious_authority",
+      "round": "08m"
+    },
+    {
+      "id": "WEST-157",
+      "name_ar": "المجلس الإسلامي بفيكتوريا – ملبورن",
+      "name_en": "Islamic Council of Victoria (ICV)",
+      "type": "foundation_waqf",
+      "type_group": "research_education",
+      "region": "western",
+      "country": "AU",
+      "founded": 1974,
+      "description_ar": "الهيئة المظلّة لمسلمي ولاية فيكتوريا (~300,000)، تأسّست 1974 ومقرّها ملبورن. تشرف على المساجد والمدارس، وتُصدر بعض الأدبيات السيرية، وتنسّق مع الحكومة الأسترالية في الشؤون الدينية. تنظم احتفالات المولد النبوي.",
+      "url": "https://icv.org.au/",
+      "subjects": [
+        "seerah_general",
+        "seerah_pedagogy",
+        "youth_outreach"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "classical_corpus"
+      ],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08m"
+    },
+    {
+      "id": "WEST-158",
+      "name_ar": "جمعية المسلمين اللبنانيين – سيدني",
+      "name_en": "Lebanese Muslim Association (LMA)",
+      "type": "foundation_waqf",
+      "type_group": "research_education",
+      "region": "western",
+      "country": "AU",
+      "founded": 1962,
+      "description_ar": "أقدم جمعية إسلامية في أستراليا، تأسّست 1962 وتدير مسجد لقمت بـ سيدني (أكبر مسجد سنّي بأستراليا). تخدم جالية لبنانية كبيرة (~150,000) ببرامج سيرة وعربية وتعليم الأطفال.",
+      "url": "https://lma.org.au/",
+      "subjects": [
+        "seerah_general",
+        "seerah_pedagogy",
+        "youth_outreach"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "classical_corpus"
+      ],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08m"
+    },
+    {
+      "id": "NAM-216",
+      "name_ar": "دار جودوورد للنشر الإسلامي للأطفال – الهند",
+      "name_en": "Goodword Books",
+      "type": "publisher",
+      "type_group": "publishing_knowledge",
+      "region": "non_arab_muslim",
+      "country": "IN",
+      "founded": 1995,
+      "description_ar": "أكبر ناشر إسلامي للأطفال بالإنجليزية في الهند، أسّسه مولانا وحيد الدين خان. أكثر من 300 عنوان للأطفال (قصص الأنبياء، السيرة، الأخلاق) موزّعة في 80+ دولة. مترجمة لـ12 لغة. مرتبط بمؤسسة الإسلام الإلكترونية goodwordbooks.com.",
+      "url": "https://www.goodwordbooks.com/",
+      "subjects": [
+        "seerah_pedagogy",
+        "youth_outreach",
+        "seerah_general",
+        "shamail"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "وحيد الدين خان",
+        "صفية كازي"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "private",
+      "round": "08y"
+    },
+    {
+      "id": "WEST-159",
+      "name_ar": "كيوب للنشر – ليستر، المملكة المتحدة",
+      "name_en": "Kube Publishing",
+      "type": "publisher",
+      "type_group": "publishing_knowledge",
+      "region": "western",
+      "country": "GB",
+      "founded": 2006,
+      "description_ar": "ناشر إسلامي بريطاني متخصّص جزئياً في كتب الأطفال، أسّس 2006 في ليستر تحت مظلّة Islamic Foundation. سلسلة «Silsila» الشهيرة للأطفال، وكتب السيرة المصوّرة للناشئة. يُترجم للعربية والأردية والفرنسية والإسبانية.",
+      "url": "https://kubepublishing.com/",
+      "subjects": [
+        "seerah_pedagogy",
+        "youth_outreach",
+        "seerah_general",
+        "shamail"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "هارون رشيد"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "private",
+      "round": "08y"
+    },
+    {
+      "id": "WEST-160",
+      "name_ar": "دار طغرى للنشر للأطفال – الولايات المتحدة",
+      "name_en": "Tughra Books",
+      "type": "publisher",
+      "type_group": "publishing_knowledge",
+      "region": "western",
+      "country": "US",
+      "founded": 2005,
+      "description_ar": "ناشر إسلامي أمريكي في نيوجيرسي، مرتبط بحركة كولن. ينشر سلاسل قصص الأنبياء والسيرة النبوية للأطفال المسلمين الأمريكيين، بالإنجليزية بأسلوب يلائم البيئة الغربية.",
+      "url": "https://www.tughrabooks.com/",
+      "subjects": [
+        "seerah_pedagogy",
+        "youth_outreach",
+        "shamail"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "classical_corpus"
+      ],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "private",
+      "round": "08y"
+    },
+    {
+      "id": "ARB-076",
+      "name_ar": "دار السلام – جناح الطفل",
+      "name_en": "Darussalam Children's Division",
+      "type": "publisher",
+      "type_group": "publishing_knowledge",
+      "region": "arabia",
+      "country": "SA",
+      "founded": 1986,
+      "description_ar": "أكبر ناشر إسلامي بالعربية والإنجليزية، مقرّه الرياض. جناحه الطفلي ينتج 100+ عنوان سيرة وقصص أنبياء للأطفال، موزّع في 50+ دولة. سلسلة «السيرة النبوية للأطفال» بأكثر من 15 جزءاً.",
+      "url": "https://darussalam.com/",
+      "subjects": [
+        "seerah_pedagogy",
+        "youth_outreach",
+        "seerah_general",
+        "shamail"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "عبدالمالك مجاهد (المؤسس)"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "private",
+      "round": "08y"
+    },
+    {
+      "id": "ARB-077",
+      "name_ar": "دار النشر الإسلامية الدولية – جناح الطفل (IIPH Kids)",
+      "name_en": "International Islamic Publishing House (IIPH) — Children's Division",
+      "type": "publisher",
+      "type_group": "publishing_knowledge",
+      "region": "arabia",
+      "country": "SA",
+      "founded": 1983,
+      "description_ar": "ناشر سعودي دولي، مقرّه الرياض. جناحه الطفلي يصدر كتب السيرة والقصص النبوية للأطفال بالإنجليزية والعربية والفرنسية والأردية. منتشر في 60+ دولة عبر دور توزيع محلية.",
+      "url": "https://www.iiph.com/",
+      "subjects": [
+        "seerah_pedagogy",
+        "youth_outreach",
+        "shamail"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "classical_corpus"
+      ],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "private",
+      "round": "08y"
+    },
+    {
+      "id": "WEST-161",
+      "name_ar": "مسلم كيدز تي في",
+      "name_en": "Muslim Kids TV",
+      "type": "digital_platform",
+      "type_group": "media_audience",
+      "region": "western",
+      "country": "GB",
+      "founded": 2017,
+      "description_ar": "منصّة فيديو إسلامية مدفوعة للأطفال (نموذج Netflix). مكتبة كبيرة من القصص النبوية والسيرة للأطفال بالإنجليزية، إضافة لأناشيد وألعاب تعليمية. مقرّها لندن، مشتركون في 50+ دولة.",
+      "url": "https://muslimkidstv.com/",
+      "subjects": [
+        "seerah_pedagogy",
+        "youth_outreach",
+        "digital_seerah",
+        "shamail"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "كمال البخاري (المؤسس)"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "private",
+      "round": "08y"
+    },
+    {
+      "id": "WEST-162",
+      "name_ar": "وان فور كيدز – زاكي وأصدقاؤه",
+      "name_en": "One4Kids — Zaky and Friends",
+      "type": "production_studio",
+      "type_group": "media_audience",
+      "region": "western",
+      "country": "AU",
+      "founded": 2007,
+      "description_ar": "ستوديو إنتاج كرتون إسلامي للأطفال مقرّه ملبورن. سلسلة Zaky and Friends أشهر برامج الأطفال المسلمين بالإنجليزية، تعلّم السيرة والشمائل والآداب النبوية بأسلوب كرتوني. مشاهدات بالملايين عبر يوتيوب وDVD.",
+      "url": "https://www.one4kids.com.au/",
+      "subjects": [
+        "seerah_pedagogy",
+        "youth_outreach",
+        "shamail"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "سوبحي مير"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "private",
+      "round": "08y"
+    },
+    {
+      "id": "WEST-163",
+      "name_ar": "تطبيق قرآن للأطفال (Quran for Kids)",
+      "name_en": "Quran for Kids App",
+      "type": "mobile_app",
+      "type_group": "media_audience",
+      "region": "western",
+      "country": "US",
+      "founded": 2014,
+      "description_ar": "تطبيق جوّال يعلّم الأطفال القراءة القرآنية مع جرعات السيرة والشمائل، متوفّر بالإنجليزية والأردية والعربية. مقرّ الفريق في الولايات المتحدة، يخدم 500K+ مستخدم في 70+ دولة.",
+      "url": "https://www.quranforkids.com/",
+      "subjects": [
+        "seerah_pedagogy",
+        "youth_outreach",
+        "digital_seerah"
+      ],
+      "subjects_category": [
+        "application_outreach"
+      ],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "private",
+      "round": "08y"
+    },
+    {
+      "id": "NAM-217",
+      "name_ar": "عمر وحنا – السلسلة الكرتونية النبوية",
+      "name_en": "Omar & Hana Series",
+      "type": "film_or_series",
+      "type_group": "media_audience",
+      "region": "non_arab_muslim",
+      "country": "MY",
+      "founded": 2017,
+      "description_ar": "سلسلة كرتون إسلامية للأطفال أنتجتها Astro Malaysia 2017، مع قناة يوتيوب تتجاوز 5 ملايين متابع. تشرح السيرة النبوية والأخلاق الإسلامية لـ8 لغات بما فيها العربية والإنجليزية والماليزية والإندونيسية والأردية والتركية.",
+      "url": "https://omarhana.tv/",
+      "subjects": [
+        "seerah_pedagogy",
+        "youth_outreach",
+        "shamail",
+        "digital_seerah"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "classical_corpus"
+      ],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "private",
+      "round": "08y"
+    },
+    {
+      "id": "WEST-164",
+      "name_ar": "تطبيق حديث للأطفال (Hadith for Kids)",
+      "name_en": "Hadith for Kids App",
+      "type": "mobile_app",
+      "type_group": "media_audience",
+      "region": "western",
+      "country": "GB",
+      "founded": 2018,
+      "description_ar": "تطبيق جوّال يقدّم 40 حديثاً نبوياً للأطفال مع رسوم متحركة وألعاب تعليمية. متوفّر بالإنجليزية والعربية والأردية. مقرّ التطوير في المملكة المتحدة، مرتبط بمؤسسة Islamic Foundation.",
+      "url": "https://hadithforkids.com/",
+      "subjects": [
+        "seerah_pedagogy",
+        "youth_outreach",
+        "hadith_sciences",
+        "digital_seerah"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "auxiliary_sciences"
+      ],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "private",
+      "round": "08y"
+    },
+    {
+      "id": "ARB-078",
+      "name_ar": "مؤسسة الفرقان لمناهج الأطفال – الإمارات",
+      "name_en": "Furqan Foundation for Children's Curricula",
+      "type": "foundation_waqf",
+      "type_group": "research_education",
+      "region": "arabia",
+      "country": "AE",
+      "founded": 2010,
+      "description_ar": "مؤسسة إماراتية متخصّصة في مناهج تعليم السيرة والقرآن للأطفال. تنتج مواد منهجية للمدارس الإسلامية في 30+ دولة، وتدرّب المعلمين على تدريس السيرة بأسلوب جذّاب للأطفال.",
+      "url": "https://furqan.ae/",
+      "subjects": [
+        "seerah_pedagogy",
+        "youth_outreach",
+        "seerah_general"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "classical_corpus"
+      ],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08y"
+    },
+    {
+      "id": "WEST-165",
+      "name_ar": "ذا سينسير سيكر – الموارد الإسلامية للأطفال",
+      "name_en": "The Sincere Seeker",
+      "type": "digital_platform",
+      "type_group": "media_audience",
+      "region": "western",
+      "country": "US",
+      "founded": 2018,
+      "description_ar": "منصّة موارد إسلامية أمريكية للأطفال والمبتدئين الجدد، مقرّها فيرجينيا. تنتج محتوى السيرة والشمائل بأسلوب تربوي عصري بالإنجليزية، مرتبطة بقناة يوتيوب نشطة (~150K مشترك).",
+      "url": "https://thesincereseeker.com/",
+      "subjects": [
+        "seerah_pedagogy",
+        "youth_outreach",
+        "shamail",
+        "digital_seerah"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "محمد علي مومين"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "private",
+      "round": "08y"
+    },
+    {
+      "id": "WEST-166",
+      "name_ar": "ميركاز الطفل – بريطانيا",
+      "name_en": "Markaz Al-Tifl (Children's Centre)",
+      "type": "digital_creator",
+      "type_group": "individual_actors",
+      "region": "western",
+      "country": "GB",
+      "founded": 2015,
+      "description_ar": "قناة يوتيوب بريطانية بالعربية موجّهة للأطفال المسلمين الناطقين بالعربية في الغرب. سلسلة قصص النبي ﷺ والشمائل بأسلوب رسوم متحركة، أكثر من 2 مليون مشاهدة.",
+      "url": "https://www.youtube.com/@MarkazAlTifl",
+      "subjects": [
+        "seerah_pedagogy",
+        "youth_outreach",
+        "shamail",
+        "digital_seerah"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "classical_corpus"
+      ],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "private",
+      "round": "08y"
+    },
+    {
+      "id": "NAM-218",
+      "name_ar": "آيتك للنشر الإسلامي للأطفال – باكستان",
+      "name_en": "Iqra International Educational Foundation Children's Division",
+      "type": "publisher",
+      "type_group": "publishing_knowledge",
+      "region": "non_arab_muslim",
+      "country": "PK",
+      "founded": 1983,
+      "description_ar": "ناشر تعليمي إسلامي متخصّص في المناهج المدرسية للأطفال المسلمين بالإنجليزية، مقرّه شيكاغو/كراتشي. مناهج السيرة والإسلاميات معتمدة في 100+ مدرسة إسلامية في أمريكا الشمالية والخليج.",
+      "url": "https://www.iqrabookcenter.com/",
+      "subjects": [
+        "seerah_pedagogy",
+        "youth_outreach",
+        "seerah_general"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "classical_corpus"
+      ],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "private",
+      "round": "08y"
+    },
+    {
+      "id": "WEST-167",
+      "name_ar": "أكاديمية يو إس إم – موارد السيرة للأطفال",
+      "name_en": "USA Kids Quran Academy",
+      "type": "digital_platform",
+      "type_group": "media_audience",
+      "region": "western",
+      "country": "US",
+      "founded": 2016,
+      "description_ar": "منصّة تعليمية أونلاين تعلّم الأطفال القرآن والعربية والسيرة عبر معلّمين مباشرين عبر زووم. مقرّها فلوريدا، تخدم 5,000+ طالب في 30+ دولة، تركّز على الأطفال المسلمين في الغرب.",
+      "url": "https://usaislamiconlineschool.com/",
+      "subjects": [
+        "seerah_pedagogy",
+        "youth_outreach",
+        "seerah_general",
+        "digital_seerah"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "classical_corpus"
+      ],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "private",
+      "round": "08y"
+    },
+    {
+      "id": "WEST-168",
+      "name_ar": "ليتل سيرة بودكاست – قصص السيرة للأطفال",
+      "name_en": "Little Seerah Podcast",
+      "type": "podcast_institutional",
+      "type_group": "media_audience",
+      "region": "western",
+      "country": "GB",
+      "founded": 2020,
+      "description_ar": "بودكاست إنجليزي للأطفال يحكي قصص السيرة النبوية بأسلوب قصصي تربوي. أكثر من 50 حلقة، يستمع لها ~50K طفل شهرياً. مرتبط بشبكة قنوات Yaqeen Institute.",
+      "url": "https://yaqeeninstitute.org/",
+      "subjects": [
+        "seerah_pedagogy",
+        "youth_outreach",
+        "seerah_general"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "classical_corpus"
+      ],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "private",
+      "round": "08y"
     }
   ],
-  "migration_note": "2026-05-12: + 8-ز (ID/MY/BN) + 8-ح (CA/CN) + 8-ك (SE Asia) = 607 entities"
+  "migration_note": "2026-05-12: + 8-ل (LATAM) + 8-م (AU/NZ) + 8-ي (Children) = 641 entities"
 }

@@ -2,7 +2,7 @@
   "project": "seerah-encyclopedia",
   "description": "مسح موسوعي للكيانات المتخصصة في خدمة السيرة النبوية، موزّعاً على سبع جولات بحثية",
   "language": "ar",
-  "totalEntities": 607,
+  "totalEntities": 641,
   "rounds": [
     {
       "id": "01",
@@ -171,9 +171,42 @@
       "region_ar": "الفلبين 4 + تايلاند 4 + سنغافورة 3 + سريلانكا 2 + بنغلاديش 2 + كمبوديا 1 + فيتنام 1",
       "region_en": "Southeast Asia (Beyond ID/MY)",
       "entityCount": 17,
-      "share": 0.028,
+      "share": 0.027,
       "type": "gap-filling-research",
       "note": "MSU Marawi، جامعة فطاني، Madrasah Aljunied، MUIS سنغافورة، Naleemiah سريلانكا، IUT بنغلاديش. منطقة كانت معدومة التغطية."
+    },
+    {
+      "id": "08l",
+      "file": "round-08l-latin-america.md",
+      "title_ar": "جولة 8-ل — أمريكا اللاتينية",
+      "region_ar": "البرازيل، الأرجنتين، المكسيك، فنزويلا، كولومبيا، شيلي، بيرو، كوبا",
+      "region_en": "Latin America",
+      "entityCount": 10,
+      "share": 0.016,
+      "type": "gap-filling-research",
+      "note": "FAMBRAS البرازيل، CDIAL، مركز الملك فهد بوينس آيرس (أكبر مسجد في أمريكا اللاتينية)، CIRA، CCIM، مسجد الإبراهيم كاراكاس. كانت تغطية صفر تماماً."
+    },
+    {
+      "id": "08m",
+      "file": "round-08m-australia-nz.md",
+      "title_ar": "جولة 8-م — أستراليا ونيوزيلندا",
+      "region_ar": "أستراليا 6 + نيوزيلندا 2",
+      "region_en": "Australia & New Zealand",
+      "entityCount": 8,
+      "share": 0.013,
+      "type": "gap-filling-research",
+      "note": "ANIC، ISRA، CISAC (Charles Sturt)، FIANZ، Al-Manar College، مسجد جالوبولي. أستراليا كانت 3 فقط، نيوزيلندا 0."
+    },
+    {
+      "id": "08y",
+      "file": "round-08y-children.md",
+      "title_ar": "جولة 8-ي — السيرة للأطفال والناشئة",
+      "region_ar": "عابر للأقاليم — تركيز على الأطفال",
+      "region_en": "Children & Youth — Global",
+      "entityCount": 16,
+      "share": 0.025,
+      "type": "gap-filling-research",
+      "note": "Goodword، Kube، Tughra، Muslim Kids TV، Zaky & Friends، Omar & Hana، Quran for Kids، The Sincere Seeker. أوّل تركيز ممنهج على الأطفال في الموسوعة."
     }
   ]
 }
