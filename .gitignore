@@ -1,20 +1,18 @@
-# macOS
-.DS_Store
-**/.DS_Store
 
 # Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Logs
-*.log
-npm-debug.log*
-
-# Node (لو احتجنا أدوات بناء لاحقاً)
-node_modules/
-
 # Local env
+# Logs
+# Node (لو احتجنا أدوات بناء لاحقاً)
+# macOS
+**/.DS_Store
+*.log
+*.swo
+*.swp
+.DS_Store
 .env
 .env.local
+.idea/
+.vscode/
+data.json.backup.*
+node_modules/
+npm-debug.log*
