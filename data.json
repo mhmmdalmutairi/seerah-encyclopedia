@@ -160,7 +160,8 @@
       "subjects_category": [
         "classical_corpus",
         "geography_space"
-      ]
+      ],
+      "url": "https://www.taibahu.edu.sa/en/college-of-arts-and-humanities-in-al-madinah-al-munawwarah"
     },
     {
       "id": "ARB-004",
@@ -688,7 +689,9 @@
       "subjects_category": [
         "auxiliary_sciences",
         "classical_corpus"
-      ]
+      ],
+      "description_ar": "قسم أكاديمي ضمن كلية أصول الدين بجامعة الإمام محمد بن سعود الإسلامية في الرياض، يُعنى بتدريس السنة النبوية وعلومها وتخريج المتخصصين في الحديث والسيرة، ويصدر بحوثاً ورسائل علمية في مرويات السيرة وتحقيقها.",
+      "founded": 1974
     },
     {
       "id": "ARB-015",
@@ -813,7 +816,8 @@
       "subjects_category": [
         "classical_corpus",
         "methodology_critique"
-      ]
+      ],
+      "founded": 1998
     },
     {
       "id": "ARB-018",
@@ -1004,7 +1008,8 @@
       "subjects_category": [
         "auxiliary_sciences",
         "classical_corpus"
-      ]
+      ],
+      "founded": 1997
     },
     {
       "id": "ARB-023",
@@ -1169,7 +1174,10 @@
       "inclusion_tier": "below_threshold",
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "description_ar": "كلية شرعية أكاديمية تابعة لجامعة قطر في الدوحة، تُقدّم برامج البكالوريوس والدراسات العليا في الفقه والتفسير والحديث والسيرة النبوية، وتُسهم في إعداد الباحثين وإصدار الدراسات المحكّمة في علوم الشريعة.",
+      "url": "https://www.qu.edu.qa/sharia",
+      "founded": 1977
     },
     {
       "id": "ARB-027",
@@ -1244,7 +1252,9 @@
       "subjects_category": [
         "auxiliary_sciences",
         "classical_corpus"
-      ]
+      ],
+      "description_ar": "هيئة حكومية كويتية مختصة بطباعة المصحف الشريف وكتب السنة النبوية ونشرها وتوزيعها، وتُشرف على ضبط النصوص ومراجعتها، وتدعم المشاريع العلمية التي تخدم نشر القرآن والحديث وعلوم السيرة داخل الكويت وخارجها.",
+      "founded": 2011
     },
     {
       "id": "ARB-029",
@@ -1279,7 +1289,8 @@
       "inclusion_tier": "below_threshold",
       "subjects_category": [
         "auxiliary_sciences"
-      ]
+      ],
+      "description_ar": "مركز علمي كويتي متخصّص في خدمة السنة النبوية والسيرة، يُقدّم دورات تأهيلية وبحوثاً ومقررات في علوم الحديث وفقه السيرة، ويُسهم في إعداد المعلّمين والدعاة عبر برامج تدريبية ضمن مؤسسة الإنسان الخيرية."
     },
     {
       "id": "ARB-030",
@@ -1353,7 +1364,8 @@
       "inclusion_tier": "below_threshold",
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "description_ar": "مؤسسة وقفية خيرية كويتية تموّل المشاريع العلمية والدعوية، وتدعم برامج خدمة السيرة النبوية ونشر العلم الشرعي عبر طباعة الكتب وإقامة الملتقيات ورعاية الكراسي العلمية داخل الكويت ومحيطها الخليجي."
     },
     {
       "id": "ARB-032",
@@ -1471,7 +1483,8 @@
       "inclusion_tier": "below_threshold",
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "founded": 1997
     },
     {
       "id": "ARB-035",
@@ -1501,7 +1514,9 @@
       "inclusion_tier": "below_threshold",
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "description_ar": "كلية شرعية تابعة لجامعة السلطان قابوس في مسقط، تُدرّس الفقه وأصوله والحديث والسيرة النبوية، وتُصدر بحوثاً محكّمة، وتُعد المرجع الأكاديمي الأبرز في سلطنة عُمان للدراسات الإسلامية والسيرة النبوية.",
+      "url": "https://www.squ.edu.om/"
     },
     {
       "id": "ARB-036",
@@ -1539,7 +1554,8 @@
       "inclusion_tier": "below_threshold",
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "description_ar": "جامعة شرعية يمنية تقع في صنعاء، تُعنى بتدريس علوم الشريعة والقرآن والسنة النبوية والسيرة، وتُخرّج طلاب علم في مختلف التخصصات الإسلامية، وتُسهم في الحركة العلمية اليمنية المعاصرة."
     },
     {
       "id": "ARB-037",
@@ -1607,7 +1623,9 @@
       "inclusion_tier": "below_threshold",
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "description_ar": "جامعة أهلية يمنية مقرّها مدينة المكلا بحضرموت، تضم كلية الشريعة والقانون التي تُدرّس الفقه والحديث والسيرة النبوية، وتُعدّ من أبرز الجامعات الأهلية في جنوب الجزيرة العربية في الدراسات الإسلامية.",
+      "founded": 1994
     },
     {
       "id": "ARB-039",
@@ -1654,7 +1672,8 @@
         "application_outreach",
         "classical_corpus",
         "methodology_critique"
-      ]
+      ],
+      "founded": 2009
     },
     {
       "id": "ARB-040",
@@ -1765,7 +1784,8 @@
       "inclusion_tier": "core",
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "founded": 1984
     },
     {
       "id": "ARB-043",
@@ -1802,7 +1822,8 @@
       "subjects_category": [
         "auxiliary_sciences",
         "classical_corpus"
-      ]
+      ],
+      "founded": 1984
     },
     {
       "id": "ARB-044",
@@ -1836,7 +1857,9 @@
       "inclusion_tier": "below_threshold",
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "description_ar": "دار نشر سعودية متخصّصة في الكتاب الشرعي والعلمي، تُصدر مؤلفات في السيرة النبوية والحديث والفقه والتاريخ الإسلامي، وتُسهم في تيسير وصول الإنتاج العلمي السعودي والعربي إلى القارئ في المملكة والخليج.",
+      "founded": 1991
     },
     {
       "id": "ARB-045",
@@ -1871,7 +1894,9 @@
       "inclusion_tier": "below_threshold",
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "url": "https://obeikan.store/",
+      "founded": 1991
     },
     {
       "id": "ARB-046",
@@ -1912,7 +1937,8 @@
       "inclusion_tier": "core",
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "founded": 1991
     },
     {
       "id": "ARB-047",
@@ -1951,7 +1977,8 @@
       "subjects_category": [
         "classical_corpus",
         "geography_space"
-      ]
+      ],
+      "founded": 2011
     },
     {
       "id": "ARB-048",
@@ -2029,7 +2056,8 @@
       "inclusion_tier": "below_threshold",
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "description_ar": "مجلة علمية محكّمة تصدر عن كلية الشريعة والدراسات الإسلامية بجامعة قطر، تنشر بحوثاً في الفقه والحديث والسيرة النبوية والدراسات الإسلامية، وتُعدّ من المجلات المرجعية في الخليج لنشر البحث الشرعي الرصين."
     },
     {
       "id": "ARB-050",
@@ -2060,7 +2088,9 @@
       "inclusion_tier": "below_threshold",
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "description_ar": "مؤسسة وقفية سعودية كبرى أسّسها رجل الأعمال سليمان الراجحي، تدعم المشاريع التعليمية والدعوية والإغاثية، وتُسهم في تمويل الكراسي العلمية وبرامج خدمة السيرة النبوية ونشر العلم الشرعي داخل المملكة وخارجها.",
+      "founded": 1983
     },
     {
       "id": "ARB-051",
@@ -2132,7 +2162,10 @@
       "inclusion_tier": "below_threshold",
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "description_ar": "كرسي علمي بحثي تابع للجامعة الإسلامية بالمدينة المنورة، يحمل اسم الشيخ ابن باز، يُعنى بدراسة السيرة النبوية ومرويّاتها وتحقيق نصوصها، ويُصدر بحوثاً ودراسات متخصّصة في خدمة السيرة وعلومها.",
+      "url": "https://iu.edu.sa/en-us",
+      "founded": 2011
     },
     {
       "id": "LEV-001",
@@ -2174,7 +2207,8 @@
       "subjects_category": [
         "auxiliary_sciences",
         "classical_corpus"
-      ]
+      ],
+      "founded": 1961
     },
     {
       "id": "LEV-002",
@@ -2373,7 +2407,8 @@
       "inclusion_tier": "below_threshold",
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "description_ar": "مجلة علمية محكّمة تصدر عن كلية الدراسات الإسلامية والعربية للبنات بدمنهور التابعة للأزهر الشريف، تنشر بحوثاً في التفسير والحديث والسيرة النبوية واللغة العربية، وتُعدّ منبراً للباحثات في الدراسات الشرعية بمصر."
     },
     {
       "id": "LEV-007",
@@ -2408,7 +2443,8 @@
       "inclusion_tier": "core",
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "founded": 1835
     },
     {
       "id": "LEV-008",
@@ -2458,7 +2494,8 @@
         "application_outreach",
         "classical_corpus",
         "methodology_critique"
-      ]
+      ],
+      "founded": 2008
     },
     {
       "id": "LEV-009",
@@ -2535,7 +2572,8 @@
       "inclusion_tier": "below_threshold",
       "subjects_category": [
         "auxiliary_sciences"
-      ]
+      ],
+      "founded": 2002
     },
     {
       "id": "LEV-011",
@@ -2586,7 +2624,8 @@
         "auxiliary_sciences",
         "classical_corpus",
         "methodology_critique"
-      ]
+      ],
+      "founded": 1980
     },
     {
       "id": "LEV-012",
@@ -2639,7 +2678,8 @@
       "inclusion_tier": "below_threshold",
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "description_ar": "جامعة أردنية حكومية في عمّان متخصّصة في العلوم الإسلامية، تُقدّم برامج بكالوريوس وماجستير ودكتوراه في الفقه وأصول الدين والحديث والسيرة النبوية، وتستقبل طلاباً من مختلف الدول العربية والإسلامية."
     },
     {
       "id": "LEV-013",
@@ -2672,7 +2712,10 @@
       "inclusion_tier": "below_threshold",
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "description_ar": "قسم أكاديمي ضمن كلية الشريعة بالجامعة الأردنية في عمّان، يُعنى بدراسة العقيدة والتفسير والحديث والسيرة النبوية، ويُخرّج باحثين في علوم الشريعة، ويُصدر دراسات محكّمة تخدم البحث الشرعي في الأردن.",
+      "url": "https://sharia.ju.edu.jo/Home.aspx",
+      "founded": 1964
     },
     {
       "id": "LEV-014",
@@ -2711,7 +2754,9 @@
       "inclusion_tier": "below_threshold",
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "url": "https://aabu.edu.jo/EN/Pages/default.aspx",
+      "founded": 1992
     },
     {
       "id": "LEV-015",
@@ -2751,7 +2796,8 @@
       "inclusion_tier": "core",
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "founded": 1993
     },
     {
       "id": "LEV-016",
@@ -2888,7 +2934,8 @@
         "classical_corpus",
         "geography_space",
         "methodology_critique"
-      ]
+      ],
+      "founded": 2012
     },
     {
       "id": "LEV-019",
@@ -2922,7 +2969,8 @@
       "subjects_category": [
         "classical_corpus",
         "methodology_critique"
-      ]
+      ],
+      "url": "https://damascusuniversity.edu.sy/index.php?lang=2&set=4&type=1&id=7635"
     },
     {
       "id": "LEV-020",
@@ -2959,7 +3007,9 @@
       "subjects_category": [
         "classical_corpus",
         "methodology_critique"
-      ]
+      ],
+      "url": "https://darelfikr.net/pages/about-us",
+      "founded": 1957
     },
     {
       "id": "LEV-021",
@@ -3137,7 +3187,8 @@
       "inclusion_tier": "below_threshold",
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "description_ar": "كلية شرعية تابعة لجامعة الجنان في طرابلس اللبنانية، تُدرّس الفقه وأصوله والحديث والسيرة النبوية، وتُخرّج طلاب علم شرعي، وتُعدّ من أبرز الكليات الإسلامية الأهلية في شمال لبنان."
     },
     {
       "id": "LEV-025",
@@ -3171,7 +3222,8 @@
       "inclusion_tier": "below_threshold",
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "description_ar": "كلية شرعية تابعة لجامعة طرابلس اللبنانية، تطوّرت عن معهد الإصلاح الإسلامي العريق، وتُدرّس الفقه والحديث والسيرة النبوية، وتُعدّ من المؤسسات التعليمية الإسلامية البارزة في شمال لبنان."
     },
     {
       "id": "LEV-026",
@@ -3213,7 +3265,8 @@
       "inclusion_tier": "below_threshold",
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "founded": 1992
     },
     {
       "id": "LEV-027",
@@ -3250,7 +3303,8 @@
       "inclusion_tier": "below_threshold",
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "founded": 1978
     },
     {
       "id": "LEV-028",
@@ -3291,7 +3345,8 @@
       "subjects_category": [
         "classical_corpus",
         "methodology_critique"
-      ]
+      ],
+      "founded": 1977
     },
     {
       "id": "LEV-029",
@@ -3322,7 +3377,8 @@
       "inclusion_tier": "below_threshold",
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "description_ar": "منصّة رقمية للفتوى والاستشارات الشرعية تابعة لجامعة النجاح الوطنية في نابلس بفلسطين، تُقدّم إجابات مرجعية في الفقه والحديث والسيرة النبوية، وتخدم الجمهور الفلسطيني والعربي عبر الإنترنت."
     },
     {
       "id": "LEV-030",
@@ -3495,7 +3551,8 @@
       "inclusion_tier": "core",
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "description_ar": "مسابقة دولية عراقية تُكرّم أفضل مؤلَّف معاصر في السيرة النبوية، وتُشجّع البحث العلمي في سيرة النبي صلى الله عليه وسلم، وتمنح جوائز تقديرية للباحثين والمؤلفين من مختلف الدول العربية والإسلامية."
     },
     {
       "id": "LEV-033",
@@ -3615,7 +3672,8 @@
       "subjects_category": [
         "auxiliary_sciences",
         "classical_corpus"
-      ]
+      ],
+      "description_ar": "كلية شرعية تابعة للجامعة العراقية في بغداد، تُقدّم برامج البكالوريوس والدراسات العليا في التفسير والحديث والفقه والسيرة النبوية، وتُصدر مجلة علمية محكّمة، وتُعدّ من أبرز الكليات الإسلامية الأكاديمية في العراق."
     },
     {
       "id": "LEV-036",
@@ -3649,7 +3707,9 @@
       "inclusion_tier": "below_threshold",
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "url": "https://en.cois.uobaghdad.edu.iq/",
+      "founded": 1946
     },
     {
       "id": "LEV-037",
@@ -3687,7 +3747,8 @@
       "subjects_category": [
         "auxiliary_sciences",
         "classical_corpus"
-      ]
+      ],
+      "description_ar": "كلية شرعية تابعة لجامعة الفلوجة في محافظة الأنبار العراقية، تُدرّس علوم القرآن والحديث والفقه والسيرة النبوية، وتُسهم في إعداد الكوادر الشرعية وخدمة البحث العلمي في غرب العراق."
     },
     {
       "id": "LEV-038",
@@ -3723,7 +3784,9 @@
       "subjects_category": [
         "classical_corpus",
         "methodology_critique"
-      ]
+      ],
+      "url": "https://uokufa.edu.iq/?lang=en",
+      "founded": 1987
     },
     {
       "id": "LEV-039",
@@ -3756,7 +3819,10 @@
       "inclusion_tier": "below_threshold",
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "description_ar": "كلية شرعية تابعة لجامعة تكريت في محافظة صلاح الدين العراقية، تُدرّس التفسير والحديث والفقه والسيرة النبوية، وتُصدر مجلة علمية محكّمة تنشر بحوثاً في الدراسات الإسلامية والتاريخ النبوي.",
+      "url": "https://en.cis.tu.edu.iq/",
+      "founded": 1987
     },
     {
       "id": "LEV-040",
@@ -3790,7 +3856,9 @@
       "inclusion_tier": "below_threshold",
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "url": "https://uomosul.edu.iq/en/islamicscience/",
+      "founded": 1967
     },
     {
       "id": "LEV-041",
@@ -3875,7 +3943,8 @@
       "subjects_category": [
         "auxiliary_sciences",
         "classical_corpus"
-      ]
+      ],
+      "description_ar": "كلية شرعية تابعة لجامعة أم درمان الإسلامية في السودان، تُعنى بدراسة العقيدة والتفسير والحديث والسيرة النبوية، وتُعدّ من أعرق الكليات الشرعية في إفريقيا في تخريج العلماء والباحثين الشرعيين."
     },
     {
       "id": "LEV-043",
@@ -3953,7 +4022,8 @@
       "subjects_category": [
         "auxiliary_sciences",
         "classical_corpus"
-      ]
+      ],
+      "description_ar": "جامعة سودانية حكومية متخصّصة في علوم القرآن والشريعة، تُقدّم برامج البكالوريوس والدراسات العليا في التفسير والحديث والسيرة النبوية، وتُسهم في تخريج حفظة وباحثين متمكّنين في العلوم الشرعية."
     },
     {
       "id": "LEV-045",
@@ -4026,7 +4096,10 @@
       "inclusion_tier": "below_threshold",
       "subjects_category": [
         "auxiliary_sciences"
-      ]
+      ],
+      "description_ar": "كلية أكاديمية تابعة لجامعة الخرطوم في السودان، يضم قسم التاريخ والحضارة الإسلامية الذي يُدرّس السيرة النبوية والتاريخ الإسلامي، ويُصدر دراسات في تاريخ المسلمين والحضارة الإسلامية في إفريقيا والعالم.",
+      "url": "https://www.uofk.edu/",
+      "founded": 1956
     },
     {
       "id": "MAG-001",
@@ -4122,7 +4195,8 @@
       "subjects_category": [
         "auxiliary_sciences",
         "classical_corpus"
-      ]
+      ],
+      "founded": 2006
     },
     {
       "id": "MAG-003",
@@ -4301,7 +4375,9 @@
       "subjects_category": [
         "auxiliary_sciences",
         "classical_corpus"
-      ]
+      ],
+      "url": "https://en.wikipedia.org/wiki/University_of_al-Qarawiyyin",
+      "founded": 859
     },
     {
       "id": "MAG-007",
@@ -4424,7 +4500,8 @@
       "subjects_category": [
         "auxiliary_sciences",
         "classical_corpus"
-      ]
+      ],
+      "founded": 1981
     },
     {
       "id": "MAG-010",
@@ -4465,7 +4542,8 @@
         "application_outreach",
         "auxiliary_sciences",
         "classical_corpus"
-      ]
+      ],
+      "founded": 1955
     },
     {
       "id": "MAG-011",
@@ -4763,7 +4841,9 @@
       ],
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "description_ar": "مجلة علمية محكّمة تصدر عن الرابطة المحمدية للعلماء بالمغرب، تُعنى بنشر البحوث في الدراسات الإسلامية والسيرة النبوية والفكر الإسلامي المعاصر، وتُعدّ منبراً علمياً مرجعياً للباحثين في المغرب العربي.",
+      "founded": 1981
     },
     {
       "id": "MAG-018",
@@ -4983,7 +5063,8 @@
       ],
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "url": "https://en.wikipedia.org/wiki/Emir_Abdelkader_University"
     },
     {
       "id": "MAG-023",
@@ -5062,7 +5143,8 @@
       ],
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "founded": 1958
     },
     {
       "id": "MAG-025",
@@ -5093,7 +5175,9 @@
       ],
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "url": "https://en.wikipedia.org/wiki/Djamaa_el_Djaza%C3%AFr",
+      "founded": 2024
     },
     {
       "id": "MAG-026",
@@ -5125,7 +5209,9 @@
       "url": "https://fshsi.univ-oran1.dz",
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "description_ar": "كلية أكاديمية تابعة لجامعة وهران 1 (أحمد بن بلة) في الجزائر، تضم قسم العلوم الإسلامية الذي يُدرّس الفقه والحديث والسيرة النبوية، وتُصدر بحوثاً محكّمة، وتُعد من المؤسسات البارزة في غرب الجزائر.",
+      "founded": 1961
     },
     {
       "id": "MAG-027",
@@ -5157,7 +5243,9 @@
       "url": "https://fac-islamique.univ-alger.dz",
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "description_ar": "كلية شرعية تابعة لجامعة الجزائر 1 في العاصمة الجزائرية، تُقدّم برامج البكالوريوس والدراسات العليا في الفقه والحديث والتفسير والسيرة النبوية، وتُعدّ من أعرق المؤسسات الأكاديمية الإسلامية في الجزائر.",
+      "founded": 1998
     },
     {
       "id": "MAG-028",
@@ -5190,7 +5278,8 @@
       "subjects_category": [
         "application_outreach",
         "classical_corpus"
-      ]
+      ],
+      "founded": 1339
     },
     {
       "id": "MAG-029",
@@ -5220,7 +5309,9 @@
       ],
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "description_ar": "مسجد جامع كبير في مدينة قسنطينة الجزائرية، يحمل اسم الأمير عبد القادر الجزائري، يضم برامج تعليمية ودعوية في علوم الشريعة والسيرة النبوية، ويُعدّ منارة دينية وثقافية بارزة في شرق الجزائر.",
+      "founded": 1994
     },
     {
       "id": "MAG-030",
@@ -5258,7 +5349,8 @@
       "subjects_category": [
         "auxiliary_sciences",
         "classical_corpus"
-      ]
+      ],
+      "founded": 1956
     },
     {
       "id": "MAG-031",
@@ -5346,7 +5438,8 @@
       "subjects_category": [
         "auxiliary_sciences",
         "classical_corpus"
-      ]
+      ],
+      "description_ar": "معهد أكاديمي تونسي متخصّص في دراسة الحضارة الإسلامية وتاريخها، يُقدّم برامج عليا في السيرة النبوية والتاريخ الإسلامي والفكر، ويُسهم في تكوين الباحثين التونسيين في الدراسات الحضارية والإسلامية."
     },
     {
       "id": "MAG-033",
@@ -5445,7 +5538,8 @@
       "url": "https://issik.rnu.tn",
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "description_ar": "معهد عالٍ تونسي تابع لجامعة الزيتونة، يقع في مدينة القيروان التاريخية، يُقدّم برامج في الفقه والحديث والسيرة النبوية والعلوم الشرعية، ويُحيي التراث العلمي العريق للقيروان كعاصمة فقهية إسلامية."
     },
     {
       "id": "MAG-035",
@@ -5476,7 +5570,8 @@
       "url": "https://www.affaires-religieuses.tn",
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "description_ar": "وزارة حكومية تونسية تُشرف على المساجد والشؤون الدينية والتعليم الشرعي، وتدعم برامج خدمة السيرة النبوية والوعظ والإرشاد، وتُنظّم الملتقيات والاحتفالات الدينية في عموم الجمهورية التونسية."
     },
     {
       "id": "MAG-036",
@@ -5519,7 +5614,8 @@
       "subjects_category": [
         "auxiliary_sciences",
         "classical_corpus"
-      ]
+      ],
+      "description_ar": "مجلة علمية محكّمة تصدر في تونس، تُعنى بنشر البحوث في العلوم الإسلامية والإنسانية والسيرة النبوية والفكر، وتُتيح منبراً للباحثين المغاربة والعرب لنشر دراساتهم في حقول المعرفة الشرعية."
     },
     {
       "id": "MAG-037",
@@ -5631,7 +5727,8 @@
       ],
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "description_ar": "مؤسسة حكومية ليبية تُشرف على الأوقاف الإسلامية والمساجد والشؤون الدينية، وتدعم برامج خدمة السيرة النبوية ونشر العلم الشرعي، وترعى المشاريع الوقفية لخدمة التعليم الديني داخل ليبيا."
     },
     {
       "id": "MAG-040",
@@ -5662,7 +5759,9 @@
       ],
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "description_ar": "كلية شرعية تابعة لجامعة طرابلس الليبية، تُدرّس أصول الدين والفقه والحديث والسيرة النبوية والدعوة، وتُخرّج كوادر دعوية وشرعية، وتُعدّ من أبرز الكليات الإسلامية في غرب ليبيا.",
+      "url": "https://www.uot.edu.ly/index.php?lang=en"
     },
     {
       "id": "MAG-041",
@@ -5693,7 +5792,8 @@
       ],
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "description_ar": "كلية شرعية تابعة لجامعة بنغازي في شرق ليبيا، تُقدّم برامج البكالوريوس والدراسات العليا في الفقه والحديث والسيرة النبوية، وتُسهم في تخريج المتخصصين الشرعيين في المنطقة الشرقية الليبية."
     },
     {
       "id": "MAG-042",
@@ -5922,7 +6022,8 @@
       "url": "http://www.affairesislamiques.gov.mr",
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "description_ar": "وزارة حكومية موريتانية تُشرف على المساجد والمحاظر التقليدية والتعليم الديني الأصيل، وتدعم برامج خدمة السيرة النبوية وحفظ التراث العلمي الإسلامي العريق في موريتانيا المعروفة ببلاد شنقيط."
     },
     {
       "id": "MAG-048",
@@ -5990,7 +6091,8 @@
       ],
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "description_ar": "ملتقى علمي دوري يُقام في مدينة روصو الموريتانية، يجمع علماء وباحثين في السيرة النبوية، ويُنظّم محاضرات ودروساً في فقه السيرة، ويُعدّ من الفعاليات السنوية البارزة في جنوب موريتانيا."
     },
     {
       "id": "MAG-050",
@@ -6177,7 +6279,8 @@
       "subjects_category": [
         "classical_corpus",
         "methodology_critique"
-      ]
+      ],
+      "founded": 2010
     },
     {
       "id": "TUR-003",
@@ -6427,7 +6530,8 @@
         "auxiliary_sciences",
         "classical_corpus",
         "methodology_critique"
-      ]
+      ],
+      "founded": 1982
     },
     {
       "id": "TUR-007",
@@ -6472,7 +6576,8 @@
         "auxiliary_sciences",
         "classical_corpus",
         "methodology_critique"
-      ]
+      ],
+      "founded": 1453
     },
     {
       "id": "TUR-008",
@@ -6519,7 +6624,8 @@
       "subjects_category": [
         "classical_corpus",
         "methodology_critique"
-      ]
+      ],
+      "founded": 1946
     },
     {
       "id": "TUR-009",
@@ -6561,7 +6667,8 @@
       "subjects_category": [
         "classical_corpus",
         "methodology_critique"
-      ]
+      ],
+      "founded": 2010
     },
     {
       "id": "TUR-010",
@@ -6644,7 +6751,9 @@
         "classical_corpus",
         "methodology_critique",
         "prophetic_demography"
-      ]
+      ],
+      "url": "https://en.wikipedia.org/wiki/Sakarya_University",
+      "founded": 1992
     },
     {
       "id": "TUR-012",
@@ -6679,7 +6788,9 @@
       "url": "https://birimler.atauni.edu.tr/siyer-i-nebi-ve-islam-tarihi-anabilim-dali/",
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "description_ar": "قسم أكاديمي ضمن كلية الإلهيات بجامعة أتاتورك في مدينة أرضروم التركية، متخصّص في تدريس السيرة النبوية والتاريخ الإسلامي، ويُعدّ من الأقسام الراسخة في شرق تركيا لإعداد الباحثين في علوم السيرة.",
+      "founded": 1957
     },
     {
       "id": "TUR-013",
@@ -6714,7 +6825,9 @@
       "url": "https://iif.dpu.edu.tr/tr/index/sayfa/191/siyer-i-nebi-ve-islam-tarihi-anabilim-dali",
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "description_ar": "قسم أكاديمي ضمن كلية الإلهيات بجامعة دملوبينار التركية في كوتاهيا، يُدرّس السيرة النبوية والتاريخ الإسلامي، ويُصدر بحوثاً ورسائل علمية تُسهم في الحركة الأكاديمية التركية لخدمة السيرة.",
+      "founded": 1992
     },
     {
       "id": "TUR-014",
@@ -6749,7 +6862,9 @@
       "url": "https://aybu.edu.tr/islamiilimler/tr/sayfa/1042",
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "description_ar": "قسم أكاديمي ضمن كلية العلوم الإسلامية بجامعة يلديريم بايزيد في أنقرة، متخصّص في تدريس السيرة النبوية والتاريخ الإسلامي، ويُعدّ من المراكز البارزة في تركيا لإعداد الباحثين في تاريخ النبي صلى الله عليه وسلم.",
+      "founded": 2010
     },
     {
       "id": "TUR-015",
@@ -6781,7 +6896,9 @@
       "url": "https://ilahiyat.ogu.edu.tr/Sayfa/Index/40/islam-tarihi-ve-sanatlari",
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "description_ar": "قسم أكاديمي ضمن كلية الإلهيات بجامعة عثمان غازي في إسكي شهير التركية، يُدرّس السيرة النبوية والتاريخ والفنون الإسلامية، ويُسهم في إعداد الباحثين الأتراك في الدراسات السيرية والحضارية.",
+      "founded": 1993
     },
     {
       "id": "TUR-016",
@@ -6813,7 +6930,9 @@
       "url": "https://islamtarihivesanatlari.medeniyet.edu.tr/",
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "description_ar": "قسم أكاديمي ضمن كلية العلوم الإسلامية بجامعة إسطنبول المدنية، يُدرّس السيرة النبوية والتاريخ الإسلامي والفنون الإسلامية، ويُصدر بحوثاً علمية، ويُعد من الأقسام الناشطة في إسطنبول لخدمة الدراسات السيرية.",
+      "founded": 2010
     },
     {
       "id": "TUR-017",
@@ -6855,7 +6974,9 @@
         "auxiliary_sciences",
         "classical_corpus",
         "methodology_critique"
-      ]
+      ],
+      "url": "https://en.wikipedia.org/wiki/Harran_University",
+      "founded": 1992
     },
     {
       "id": "TUR-018",
@@ -7238,7 +7359,8 @@
       "subjects_category": [
         "application_outreach",
         "classical_corpus"
-      ]
+      ],
+      "founded": 1980
     },
     {
       "id": "TUR-026",
@@ -7321,7 +7443,9 @@
       "subjects_category": [
         "auxiliary_sciences",
         "classical_corpus"
-      ]
+      ],
+      "url": "https://www.diyanetvakfiyayin.com.tr/",
+      "founded": 1975
     },
     {
       "id": "TUR-028",
@@ -8158,7 +8282,8 @@
         "classical_corpus",
         "methodology_critique",
         "prophetic_demography"
-      ]
+      ],
+      "url": "https://avesis.istanbul.edu.tr/adnan.demircan"
     },
     {
       "id": "TUR-047",
@@ -8594,7 +8719,8 @@
       "url": "https://diniyayinlar.diyanet.gov.tr/",
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "founded": 1924
     },
     {
       "id": "TUR-058",
@@ -8691,7 +8817,8 @@
       "subjects_category": [
         "classical_corpus",
         "methodology_critique"
-      ]
+      ],
+      "founded": 2012
     },
     {
       "id": "TUR-060",
@@ -8732,7 +8859,8 @@
       ],
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "description_ar": "نادٍ طلابي بحثي تابع لكلية الإلهيات بجامعة إسطنبول، يُعنى بدراسات السيرة النبوية، ويُنظّم حلقات قراءة وندوات ومحاضرات للطلاب الجامعيين، ويُسهم في نشر ثقافة البحث في السيرة بين الشباب الأكاديمي التركي."
     },
     {
       "id": "TUR-061",
@@ -8774,7 +8902,8 @@
       "url": "https://esks.marmara.edu.tr/kulup/kulupler/mu-ogrenci-kulupleri-673/siyer-kulubu.html",
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "description_ar": "نادٍ طلابي بجامعة مرمرة في إسطنبول، يُعنى بدراسة السيرة النبوية ونشرها بين طلاب الجامعة، ويُنظّم برامج وندوات وحلقات قراءة، ويُعدّ من أنشط النوادي السيرية الجامعية في تركيا."
     },
     {
       "id": "TUR-062",
@@ -8895,7 +9024,8 @@
       "url": "http://www.fisuok.edu.pk",
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "founded": 1951
     },
     {
       "id": "NAM-003",
@@ -9021,7 +9151,8 @@
       "url": "https://www.lcwu.edu.pk",
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "founded": 1922
     },
     {
       "id": "NAM-006",
@@ -9062,7 +9193,8 @@
         "auxiliary_sciences",
         "classical_corpus",
         "methodology_critique"
-      ]
+      ],
+      "founded": 1960
     },
     {
       "id": "NAM-007",
@@ -9107,7 +9239,8 @@
         "auxiliary_sciences",
         "classical_corpus",
         "methodology_critique"
-      ]
+      ],
+      "url": "https://iri.iiu.edu.pk/"
     },
     {
       "id": "NAM-008",
@@ -9182,7 +9315,8 @@
       ],
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "description_ar": "دار نشر باكستانية متخصّصة في الكتاب الإسلامي باللغتين الأردية والإنجليزية، تُصدر مؤلفات في السيرة النبوية والحديث والفقه، وتُسهم في خدمة الجالية المسلمة في شبه القارة الهندية وغيرها."
     },
     {
       "id": "NAM-010",
@@ -9220,7 +9354,9 @@
       ],
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "url": "https://aljamiatussalafiah.org/",
+      "founded": 1963
     },
     {
       "id": "NAM-011",
@@ -9267,7 +9403,8 @@
       "subjects_category": [
         "application_outreach",
         "classical_corpus"
-      ]
+      ],
+      "url": "https://www.nadwa.in/en/"
     },
     {
       "id": "NAM-012",
@@ -9553,7 +9690,8 @@
         "auxiliary_sciences",
         "classical_corpus"
       ],
-      "name_ar_original": "UIN Sunan Kalijaga – يوغياكارتا"
+      "name_ar_original": "UIN Sunan Kalijaga – يوغياكارتا",
+      "founded": 1951
     },
     {
       "id": "NAM-019",
@@ -9687,7 +9825,8 @@
       "subjects_category": [
         "auxiliary_sciences",
         "classical_corpus"
-      ]
+      ],
+      "url": "https://fpqs.usim.edu.my/overview/"
     },
     {
       "id": "NAM-022",
@@ -9881,7 +10020,9 @@
       "subjects_category": [
         "classical_corpus"
       ],
-      "name_ar_original": "Universitas Muhammadiyah Yogyakarta – Faculty of Islamic Studies"
+      "name_ar_original": "Universitas Muhammadiyah Yogyakarta – Faculty of Islamic Studies",
+      "description_ar": "كلية أكاديمية تابعة لجامعة المحمدية في يوغياكارتا الإندونيسية، تُدرّس العقيدة والتفسير والحديث والسيرة النبوية والفقه، وتُسهم في تخريج الكوادر الإسلامية ضمن أكبر مؤسسة تعليمية إسلامية في إندونيسيا.",
+      "url": "https://www.umy.ac.id/en/fakultas-agama-islam/"
     },
     {
       "id": "NAM-027",
@@ -9917,7 +10058,9 @@
       "subjects_category": [
         "classical_corpus"
       ],
-      "name_ar_original": "Universitas Muhammadiyah Surakarta – Faculty of Islamic Studies"
+      "name_ar_original": "Universitas Muhammadiyah Surakarta – Faculty of Islamic Studies",
+      "description_ar": "كلية أكاديمية تابعة لجامعة المحمدية في سوراكارتا الإندونيسية، تُدرّس الدراسات الإسلامية والسيرة النبوية والفقه والحديث، وتُسهم في إعداد الكفاءات الإسلامية ضمن منظومة جامعات المحمدية الإندونيسية الواسعة.",
+      "founded": 1981
     },
     {
       "id": "NAM-028",
@@ -9991,7 +10134,8 @@
       "subjects_category": [
         "classical_corpus"
       ],
-      "name_ar_original": "Pesantren As'adiyah Sengkang"
+      "name_ar_original": "Pesantren As'adiyah Sengkang",
+      "founded": 1930
     },
     {
       "id": "NAM-030",
@@ -10194,7 +10338,8 @@
       "subjects_category": [
         "auxiliary_sciences",
         "classical_corpus"
-      ]
+      ],
+      "url": "https://en.wikipedia.org/wiki/Hazrati_Imam_Complex"
     },
     {
       "id": "NAM-035",
@@ -10349,7 +10494,9 @@
         "application_outreach",
         "auxiliary_sciences",
         "classical_corpus"
-      ]
+      ],
+      "url": "https://www.udusok.edu.ng/",
+      "founded": 1975
     },
     {
       "id": "NAM-039",
@@ -10506,7 +10653,8 @@
         "classical_corpus",
         "methodology_critique"
       ],
-      "name_ar_original": "مدرسة الإنعامية – Camperdown"
+      "name_ar_original": "مدرسة الإنعامية – Camperdown",
+      "founded": 1994
     },
     {
       "id": "NAM-043",
@@ -10544,7 +10692,8 @@
       "subjects_category": [
         "classical_corpus"
       ],
-      "name_ar_original": "DUAI – Strand, Cape Town"
+      "name_ar_original": "DUAI – Strand, Cape Town",
+      "founded": 1996
     },
     {
       "id": "NAM-044",
@@ -10587,7 +10736,8 @@
       "subjects_category": [
         "auxiliary_sciences",
         "classical_corpus"
-      ]
+      ],
+      "founded": 2014
     },
     {
       "id": "NAM-045",
@@ -10620,7 +10770,9 @@
       ],
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "url": "http://www.mum.ac.tz/",
+      "founded": 2004
     },
     {
       "id": "NAM-046",
@@ -10653,7 +10805,10 @@
       ],
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "description_ar": "جامعة حكومية في أرخبيل زنجبار التابع لتنزانيا، تُقدّم برامج في العلوم الإسلامية والآداب، وتُسهم في الحفاظ على التراث الإسلامي الزنجباري العريق وتعليم السيرة النبوية في شرق إفريقيا.",
+      "url": "https://suza.ac.tz/",
+      "founded": 1999
     },
     {
       "id": "NAM-047",
@@ -11380,7 +11535,8 @@
       "subjects_category": [
         "classical_corpus"
       ],
-      "name_ar_original": "Bayyinah – Nouman Ali Khan"
+      "name_ar_original": "Bayyinah – Nouman Ali Khan",
+      "founded": 2005
     },
     {
       "id": "WEST-001",
@@ -11460,7 +11616,9 @@
       ],
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "description_ar": "مركز بحثي عريق بجامعة هارفارد الأمريكية، يُعنى بدراسات الشرق الأوسط والإسلام، ويُصدر بحوثاً في التاريخ الإسلامي والسيرة النبوية والمجتمعات الإسلامية، ويُعدّ من أبرز المراكز الأكاديمية الغربية في الدراسات الإسلامية.",
+      "url": "https://cmes.fas.harvard.edu/"
     },
     {
       "id": "WEST-003",
@@ -11503,7 +11661,9 @@
         "auxiliary_sciences",
         "classical_corpus",
         "prophetic_demography"
-      ]
+      ],
+      "url": "https://www.ias.edu/hs",
+      "founded": 1949
     },
     {
       "id": "WEST-004",
@@ -11547,7 +11707,9 @@
         "auxiliary_sciences",
         "classical_corpus",
         "prophetic_demography"
-      ]
+      ],
+      "url": "https://nes.princeton.edu/",
+      "founded": 1927
     },
     {
       "id": "WEST-005",
@@ -11590,7 +11752,9 @@
         "auxiliary_sciences",
         "classical_corpus",
         "prophetic_demography"
-      ]
+      ],
+      "url": "https://mes.uchicago.edu/",
+      "founded": 1892
     },
     {
       "id": "WEST-006",
@@ -11631,7 +11795,9 @@
       "subjects_category": [
         "classical_corpus",
         "methodology_critique"
-      ]
+      ],
+      "description_ar": "مركز بحثي بجامعة جورجتاون الأمريكية يحمل اسم الأمير الوليد بن طلال، يُعنى بدراسة العلاقات الإسلامية المسيحية والتاريخ الإسلامي والسيرة النبوية، ويُصدر بحوثاً معمّقة في الحوار بين الأديان والدراسات الإسلامية الحديثة.",
+      "url": "https://acmcu.georgetown.edu/"
     },
     {
       "id": "WEST-007",
@@ -11667,7 +11833,10 @@
       ],
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "description_ar": "قسم أكاديمي بجامعة ييل الأمريكية، يُدرّس الأديان المقارنة والإسلام والسيرة النبوية والنصوص الدينية، ويُصدر بحوثاً معمّقة في تاريخ الأديان، ويُعدّ من الأقسام الرائدة في الدراسات الدينية الأكاديمية الأمريكية.",
+      "url": "https://religiousstudies.yale.edu/",
+      "founded": 1963
     },
     {
       "id": "WEST-008",
@@ -11710,7 +11879,9 @@
         "auxiliary_sciences",
         "classical_corpus",
         "prophetic_demography"
-      ]
+      ],
+      "url": "https://isaw.nyu.edu/",
+      "founded": 2006
     },
     {
       "id": "WEST-009",
@@ -11794,7 +11965,9 @@
         "auxiliary_sciences",
         "prophetic_demography"
       ],
-      "name_ar_original": "جامعة ستانفورد – Behnam Sadeghi"
+      "name_ar_original": "جامعة ستانفورد – Behnam Sadeghi",
+      "url": "https://en.wikipedia.org/wiki/Behnam_Sadeghi",
+      "founded": 1885
     },
     {
       "id": "WEST-011",
@@ -11832,7 +12005,8 @@
       ],
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "url": "https://www.mei.columbia.edu/"
     },
     {
       "id": "WEST-012",
@@ -11866,7 +12040,9 @@
       ],
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "description_ar": "قسم أكاديمي بجامعة ديوك الأمريكية، متخصّص في دراسات آسيا والشرق الأوسط بما فيها التاريخ الإسلامي والسيرة النبوية واللغة العربية، ويُصدر بحوثاً معمّقة في الحضارات الإسلامية والآسيوية.",
+      "url": "https://asianmideast.duke.edu/"
     },
     {
       "id": "WEST-013",
@@ -11900,7 +12076,9 @@
       ],
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "description_ar": "قسم أكاديمي بجامعة بنسلفانيا الأمريكية، متخصّص في دراسات الشرق الأدنى القديم والإسلامي، يُدرّس التاريخ الإسلامي والسيرة النبوية واللغات السامية، ويُعدّ من أعرق الأقسام الأمريكية في هذا الحقل.",
+      "url": "https://melc.sas.upenn.edu/"
     },
     {
       "id": "WEST-014",
@@ -11978,7 +12156,10 @@
       "subjects_category": [
         "auxiliary_sciences"
       ],
-      "name_ar_original": "SHARIAsource – كلية الحقوق بهارفارد"
+      "name_ar_original": "SHARIAsource – كلية الحقوق بهارفارد",
+      "description_ar": "منصّة رقمية أكاديمية بكلية الحقوق بجامعة هارفارد، تُتيح وصولاً مفتوحاً للنصوص والمصادر الشرعية الإسلامية، وتدعم البحث في الفقه والسيرة النبوية والقانون الإسلامي، وتُعدّ مرجعاً رقمياً معتمداً للباحثين.",
+      "url": "https://pil.law.harvard.edu/",
+      "founded": 2016
     },
     {
       "id": "WEST-016",
@@ -12018,7 +12199,8 @@
       ],
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "url": "https://www.mcgill.ca/islamicstudies/"
     },
     {
       "id": "WEST-017",
@@ -12058,7 +12240,8 @@
       "subjects_category": [
         "classical_corpus",
         "methodology_critique"
-      ]
+      ],
+      "url": "https://www.religion.utoronto.ca/"
     },
     {
       "id": "WEST-018",
@@ -12093,7 +12276,10 @@
       ],
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "description_ar": "قسم أكاديمي بجامعة كونكورديا الكندية في مونتريال، يُدرّس الأديان المقارنة والإسلام والسيرة النبوية والتاريخ الديني، ويُصدر بحوثاً علمية، ويُعدّ من المراكز البارزة للدراسات الدينية في كندا.",
+      "url": "https://www.concordia.ca/artsci/religions-cultures.html",
+      "founded": 1958
     },
     {
       "id": "WEST-019",
@@ -12125,7 +12311,8 @@
       ],
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "description_ar": "معهد بحثي بجامعة أوتاوا الكندية، متخصّص في الدراسات الإسلامية، يُعنى بدراسة التاريخ الإسلامي والسيرة النبوية والمجتمعات المسلمة، ويُصدر بحوثاً ويُنظّم ندوات تخدم الباحثين في الدراسات الإسلامية بكندا."
     },
     {
       "id": "WEST-020",
@@ -12168,7 +12355,8 @@
         "auxiliary_sciences",
         "classical_corpus",
         "prophetic_demography"
-      ]
+      ],
+      "url": "https://www.ames.ox.ac.uk/"
     },
     {
       "id": "WEST-021",
@@ -12264,7 +12452,8 @@
       ],
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "url": "https://www.oxcis.ac.uk/"
     },
     {
       "id": "WEST-023",
@@ -12300,7 +12489,10 @@
       ],
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "description_ar": "كلية أكاديمية عريقة بجامعة كامبريدج البريطانية، تُدرّس دراسات آسيا والشرق الأوسط بما فيها التاريخ الإسلامي والسيرة النبوية واللغة العربية، وتُعدّ من أعرق الكليات الغربية في الاستشراق والدراسات الإسلامية.",
+      "url": "https://www.ames.cam.ac.uk/",
+      "founded": 2007
     },
     {
       "id": "WEST-024",
@@ -12340,7 +12532,9 @@
       "subjects_category": [
         "classical_corpus",
         "methodology_critique"
-      ]
+      ],
+      "url": "https://www.soas.ac.uk/research/centres-and-institutes/centre-islamic-studies",
+      "founded": 1995
     },
     {
       "id": "WEST-025",
@@ -12382,7 +12576,9 @@
       "subjects_category": [
         "auxiliary_sciences",
         "classical_corpus"
-      ]
+      ],
+      "url": "https://llc.ed.ac.uk/islamic-middle-eastern",
+      "founded": 1980
     },
     {
       "id": "WEST-026",
@@ -12421,7 +12617,8 @@
         "auxiliary_sciences",
         "methodology_critique",
         "prophetic_demography"
-      ]
+      ],
+      "url": "https://www.birmingham.ac.uk/research/centres-institutes/research-in-philosophy-theology-and-religion/birmingham-islamic-studies"
     },
     {
       "id": "WEST-027",
@@ -12475,7 +12672,8 @@
       "subjects_category": [
         "auxiliary_sciences",
         "classical_corpus"
-      ]
+      ],
+      "url": "https://www.aku.edu/ismc/Pages/home.aspx"
     },
     {
       "id": "WEST-028",
@@ -12519,7 +12717,9 @@
         "application_outreach",
         "auxiliary_sciences"
       ],
-      "name_ar_original": "مشروع KITAB"
+      "name_ar_original": "مشروع KITAB",
+      "url": "https://kitab-project.org/about/",
+      "founded": 2017
     },
     {
       "id": "WEST-029",
@@ -12561,7 +12761,9 @@
         "classical_corpus",
         "geography_space",
         "prophetic_demography"
-      ]
+      ],
+      "url": "https://www.york.ac.uk/history/",
+      "founded": 1963
     },
     {
       "id": "WEST-030",
@@ -12592,7 +12794,9 @@
       ],
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "description_ar": "جامعة بريطانية كبرى تضم قسماً للدراسات الشرق أوسطية والإسلامية، تُدرّس التاريخ الإسلامي والسيرة النبوية واللغة العربية، وتُصدر بحوثاً علمية، وتُعدّ من المراكز البارزة في شمال إنجلترا لهذا الحقل.",
+      "founded": 1824
     },
     {
       "id": "WEST-031",
@@ -12626,7 +12830,10 @@
       ],
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "description_ar": "معهد بحثي بجامعة إكستر البريطانية متخصّص في الدراسات العربية والإسلامية، يُقدّم برامج عليا في التاريخ الإسلامي والسيرة النبوية والسياسات الإسلامية، ويُعدّ من أنشط المعاهد الغربية في هذا الحقل.",
+      "url": "https://arabislamicstudies.exeter.ac.uk/about/",
+      "founded": 2001
     },
     {
       "id": "WEST-032",
@@ -12657,7 +12864,9 @@
       ],
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "description_ar": "جامعة بريطانية عريقة تضم قسماً للدراسات الدينية والشرق أوسطية، تُدرّس التاريخ الإسلامي والسيرة النبوية واللاهوت المقارن، وتُصدر بحوثاً علمية في الإسلام والمسيحية والدراسات الدينية الأكاديمية.",
+      "founded": 1832
     },
     {
       "id": "WEST-033",
@@ -12689,7 +12898,8 @@
       ],
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "founded": 1904
     },
     {
       "id": "WEST-034",
@@ -12725,7 +12935,8 @@
       ],
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "url": "https://www.brais.ac.uk/"
     },
     {
       "id": "WEST-035",
@@ -12771,7 +12982,8 @@
       ],
       "subjects_category": [
         "auxiliary_sciences"
-      ]
+      ],
+      "url": "https://www.bbaw.de/en/research/corpus-coranicum"
     },
     {
       "id": "WEST-036",
@@ -12808,7 +13020,8 @@
       ],
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "url": "https://www.bgsmcs.fu-berlin.de/"
     },
     {
       "id": "WEST-037",
@@ -12847,7 +13060,8 @@
       "subjects_category": [
         "auxiliary_sciences",
         "classical_corpus"
-      ]
+      ],
+      "founded": 1948
     },
     {
       "id": "WEST-038",
@@ -12889,7 +13103,9 @@
         "auxiliary_sciences",
         "classical_corpus",
         "methodology_critique"
-      ]
+      ],
+      "url": "https://www.dirs.phil.fau.eu/",
+      "founded": 1743
     },
     {
       "id": "WEST-039",
@@ -12925,7 +13141,8 @@
       ],
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "founded": 1734
     },
     {
       "id": "WEST-040",
@@ -12959,7 +13176,9 @@
       ],
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "description_ar": "قسم أكاديمي بجامعة بون الألمانية متخصّص في الاستشراق والدراسات العربية والإسلامية، يُدرّس التاريخ الإسلامي والسيرة النبوية واللغات الشرقية، ويُعدّ من المراكز العريقة في الاستشراق الألماني.",
+      "founded": 1818
     },
     {
       "id": "WEST-041",
@@ -13009,7 +13228,8 @@
         "auxiliary_sciences",
         "classical_corpus",
         "methodology_critique"
-      ]
+      ],
+      "url": "https://uni-tuebingen.de/fakultaeten/zentrum-fuer-islamische-theologie/zentrum/"
     },
     {
       "id": "WEST-042",
@@ -13057,7 +13277,8 @@
       "subjects_category": [
         "classical_corpus",
         "methodology_critique"
-      ]
+      ],
+      "url": "https://www.uni-muenster.de/ZIT/en/index.shtml"
     },
     {
       "id": "WEST-043",
@@ -13091,7 +13312,9 @@
       ],
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "description_ar": "قسم أكاديمي بجامعة هايدلبرغ الألمانية متخصّص في لغات وثقافات الشرق الأدنى، يُدرّس الإسلام والسيرة النبوية واللغة العربية، ويُصدر بحوثاً في الدراسات الإسلامية، ويُعدّ من المراكز الاستشراقية الألمانية البارزة.",
+      "founded": 1386
     },
     {
       "id": "WEST-044",
@@ -13131,7 +13354,8 @@
       "subjects_category": [
         "auxiliary_sciences",
         "classical_corpus"
-      ]
+      ],
+      "founded": 1472
     },
     {
       "id": "WEST-045",
@@ -13172,7 +13396,9 @@
       "subjects_category": [
         "application_outreach",
         "auxiliary_sciences"
-      ]
+      ],
+      "url": "https://www.aai.uni-hamburg.de/voror/personen/romanov.html",
+      "founded": 1919
     },
     {
       "id": "WEST-046",
@@ -13220,7 +13446,8 @@
         "auxiliary_sciences",
         "methodology_critique",
         "prophetic_demography"
-      ]
+      ],
+      "url": "http://inarah.de/"
     },
     {
       "id": "WEST-047",
@@ -13263,7 +13490,8 @@
         "prophetic_demography"
       ],
       "name_ar_original": "سلسلة إنارا – Schiler & Mücke",
-      "key_figures": []
+      "key_figures": [],
+      "founded": 2007
     },
     {
       "id": "WEST-048",
@@ -13302,7 +13530,8 @@
       "subjects_category": [
         "auxiliary_sciences",
         "classical_corpus"
-      ]
+      ],
+      "url": "https://www.degruyterbrill.com/journal/key/islm/html"
     },
     {
       "id": "WEST-049",
@@ -13336,7 +13565,8 @@
       ],
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "description_ar": "منتدى بحثي في برلين يُعنى بدراسات ما وراء الإقليم، يضم برنامج EUME المتخصّص في دراسة الشرق الأوسط والإسلام، ويُموّل الباحثين في التاريخ الإسلامي والسيرة النبوية ضمن شبكة أكاديمية أوروبية."
     },
     {
       "id": "WEST-050",
@@ -13371,7 +13601,10 @@
       ],
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "description_ar": "معهد عريق بجامعة فيينا النمساوية متخصّص في الاستشراق والدراسات العربية والإسلامية، يُدرّس التاريخ الإسلامي والسيرة النبوية واللغات السامية، ويُعدّ من أعرق المعاهد الأوروبية في تاريخ الاستشراق الأكاديمي.",
+      "url": "https://orientalistik.univie.ac.at/",
+      "founded": 1365
     },
     {
       "id": "WEST-051",
@@ -13501,7 +13734,8 @@
         "auxiliary_sciences",
         "classical_corpus",
         "prophetic_demography"
-      ]
+      ],
+      "url": "https://www.universiteitleiden.nl/en/humanities/centre-for-the-study-of-islam-and-society"
     },
     {
       "id": "WEST-054",
@@ -13584,7 +13818,8 @@
         "methodology_critique",
         "prophetic_demography"
       ],
-      "name_ar_original": "كرسي الإسلاميات – ULB بروكسل – Guillaume Dye"
+      "name_ar_original": "كرسي الإسلاميات – ULB بروكسل – Guillaume Dye",
+      "url": "https://cierl.phisoc.ulb.be/guillaume-dye"
     },
     {
       "id": "WEST-056",
@@ -13712,7 +13947,8 @@
       ],
       "subjects_category": [
         "auxiliary_sciences"
-      ]
+      ],
+      "url": "https://www.college-de-france.fr/en/chair/francois-deroche-history-of-the-koran-text-and-transmission-statutory-chair"
     },
     {
       "id": "WEST-059",
@@ -13746,7 +13982,9 @@
       ],
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "description_ar": "معهد بحثي فرنسي مشترك بين EHESS وCNRS، متخصّص في دراسات الإسلام والمجتمعات المسلمة، يُصدر بحوثاً في التاريخ الإسلامي والسيرة النبوية، ويُعدّ من أنشط المراكز الأكاديمية الفرنسية في الدراسات الإسلامية.",
+      "url": "https://iismm.ehess.fr/"
     },
     {
       "id": "WEST-060",
@@ -13791,7 +14029,8 @@
         "auxiliary_sciences",
         "classical_corpus",
         "prophetic_demography"
-      ]
+      ],
+      "url": "https://iremam.mmsh.fr/en/about"
     },
     {
       "id": "WEST-061",
@@ -13841,7 +14080,8 @@
       "subjects_category": [
         "application_outreach",
         "auxiliary_sciences"
-      ]
+      ],
+      "url": "https://euqu.eu/"
     },
     {
       "id": "WEST-062",
@@ -13881,7 +14121,9 @@
       "subjects_category": [
         "geography_space",
         "prophetic_demography"
-      ]
+      ],
+      "url": "https://aibl.fr/",
+      "founded": 1663
     },
     {
       "id": "WEST-063",
@@ -13921,7 +14163,9 @@
       "subjects_category": [
         "auxiliary_sciences",
         "prophetic_demography"
-      ]
+      ],
+      "url": "https://www.ephe.psl.eu/",
+      "founded": 1868
     },
     {
       "id": "WEST-064",
@@ -13966,7 +14210,8 @@
       "subjects_category": [
         "auxiliary_sciences",
         "geography_space"
-      ]
+      ],
+      "url": "https://www.ifporient.org/"
     },
     {
       "id": "WEST-065",
@@ -14003,7 +14248,9 @@
       "subjects_category": [
         "geography_space",
         "prophetic_demography"
-      ]
+      ],
+      "url": "https://www.ifao.egnet.net/",
+      "founded": 1880
     },
     {
       "id": "WEST-066",
@@ -14082,7 +14329,8 @@
       "subjects_category": [
         "auxiliary_sciences",
         "methodology_critique"
-      ]
+      ],
+      "founded": 1460
     },
     {
       "id": "WEST-068",
@@ -14116,7 +14364,9 @@
       ],
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "description_ar": "معهد بحثي بجامعة زيورخ السويسرية متخصّص في دراسات آسيا والشرق الأوسط، يُدرّس التاريخ الإسلامي والسيرة النبوية واللغات الشرقية، ويُصدر بحوثاً علمية، ويُعدّ من المراكز الأكاديمية البارزة في سويسرا.",
+      "founded": 1833
     },
     {
       "id": "WEST-069",
@@ -14191,7 +14441,8 @@
       ],
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "founded": 1531
     },
     {
       "id": "WEST-071",
@@ -14283,7 +14534,8 @@
         "auxiliary_sciences",
         "classical_corpus"
       ],
-      "name_ar_original": "جامعة نابولي «L'Orientale»"
+      "name_ar_original": "جامعة نابولي «L'Orientale»",
+      "url": "https://en.wikipedia.org/wiki/University_of_Naples_L%27Orientale"
     },
     {
       "id": "WEST-073",
@@ -14317,7 +14569,10 @@
       ],
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "description_ar": "قسم أكاديمي بجامعة سابيينزا في روما، يُعنى بدراسات الشرق ISO، يُدرّس التاريخ الإسلامي والسيرة النبوية واللغة العربية، ويُصدر بحوثاً علمية، ويُعدّ من المراكز العريقة في الاستشراق الإيطالي.",
+      "url": "https://iso.web.uniroma1.it/",
+      "founded": 1303
     },
     {
       "id": "WEST-074",
@@ -14351,7 +14606,10 @@
       ],
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "description_ar": "جامعة إيطالية عريقة في البندقية تضم قسماً للدراسات الآسيوية والشرق أوسطية، تُدرّس التاريخ الإسلامي والسيرة النبوية واللغة العربية، وتُصدر بحوثاً علمية في الدراسات الإسلامية والشرقية.",
+      "url": "https://www.unive.it/pag/28322/",
+      "founded": 1868
     },
     {
       "id": "WEST-075",
@@ -14385,7 +14643,9 @@
       ],
       "subjects_category": [
         "auxiliary_sciences"
-      ]
+      ],
+      "description_ar": "قسم اللغات والثقافات الأجنبية الحديثة بجامعة بولونيا الإيطالية، يُدرّس اللغة العربية والدراسات الإسلامية والسيرة النبوية، ويُصدر بحوثاً علمية، ويُعدّ من المراكز الأكاديمية المهمّة في إيطاليا للدراسات الإسلامية.",
+      "founded": 1088
     },
     {
       "id": "WEST-076",
@@ -14416,7 +14676,9 @@
       ],
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "description_ar": "جامعة إيطالية عريقة تضم قسماً للدراسات الشرق أوسطية والعربية والإسلامية، تُدرّس التاريخ الإسلامي والسيرة النبوية واللغة العربية، وتُصدر بحوثاً أكاديمية تُسهم في الحركة الاستشراقية الإيطالية.",
+      "founded": 1343
     },
     {
       "id": "WEST-077",
@@ -14498,7 +14760,8 @@
       "subjects_category": [
         "auxiliary_sciences"
       ],
-      "name_ar_original": "جامعة كوبنهاغن – Jan Loop @ ToRS"
+      "name_ar_original": "جامعة كوبنهاغن – Jan Loop @ ToRS",
+      "founded": 1479
     },
     {
       "id": "WEST-079",
@@ -14534,7 +14797,8 @@
       ],
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "founded": 1666
     },
     {
       "id": "WEST-080",
@@ -14568,7 +14832,9 @@
       ],
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "description_ar": "جامعة سويدية عريقة تضم قسماً للدراسات الدينية والشرق أوسطية، تُدرّس الإسلام والسيرة النبوية واللغة العربية، وتُصدر بحوثاً علمية في الدراسات الإسلامية، وتُعدّ من المراكز الاسكندنافية البارزة في هذا الحقل.",
+      "founded": 1477
     },
     {
       "id": "WEST-081",
@@ -14599,7 +14865,9 @@
       ],
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "description_ar": "جامعة سويدية كبرى تضم قسماً للدراسات الشرق أوسطية والإسلامية، تُدرّس التاريخ الإسلامي والسيرة النبوية واللغة العربية، وتُصدر بحوثاً في الإسلام المعاصر والكلاسيكي، وتُعدّ من المراكز الأكاديمية السويدية البارزة.",
+      "founded": 1878
     },
     {
       "id": "WEST-082",
@@ -14630,7 +14898,9 @@
       ],
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "description_ar": "جامعة نرويجية كبرى تضم قسماً للدراسات الثقافية والشرق أوسطية، تُدرّس التاريخ الإسلامي والسيرة النبوية واللغة العربية، وتُصدر بحوثاً في الإسلام والمجتمعات المسلمة في أوروبا والعالم.",
+      "founded": 1811
     },
     {
       "id": "WEST-083",
@@ -14755,7 +15025,8 @@
       ],
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "description_ar": "جامعة بولندية عريقة في كراكوف تضم قسماً للدراسات الشرقية والعربية والإسلامية، تُدرّس التاريخ الإسلامي والسيرة النبوية واللغة العربية، وتُعدّ من أقدم الجامعات الأوروبية وأبرزها في الاستشراق."
     },
     {
       "id": "WEST-086",
@@ -14790,7 +15061,8 @@
       ],
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "founded": 1348
     },
     {
       "id": "WEST-087",
@@ -14832,7 +15104,9 @@
       ],
       "subjects_category": [
         "auxiliary_sciences"
-      ]
+      ],
+      "url": "https://www.orientalstudies.ru/eng/",
+      "founded": 1818
     },
     {
       "id": "WEST-088",
@@ -14866,7 +15140,9 @@
       "subjects_category": [
         "auxiliary_sciences",
         "classical_corpus"
-      ]
+      ],
+      "url": "https://www.ivran.ru/en",
+      "founded": 1818
     },
     {
       "id": "WEST-089",
@@ -14942,7 +15218,8 @@
       ],
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "url": "https://cais.cass.anu.edu.au/"
     },
     {
       "id": "WEST-091",
@@ -14975,7 +15252,8 @@
       ],
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "description_ar": "قسم أكاديمي بجامعة سيدني الأسترالية متخصّص في الدراسات العبرية والكتابية واليهودية، ويُقارن بالإسلام والسيرة النبوية، ويُصدر بحوثاً علمية في الأديان الإبراهيمية والحوار بين الأديان في أستراليا."
     },
     {
       "id": "WEST-092",
@@ -15006,7 +15284,9 @@
       ],
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "description_ar": "معهد بحثي بجامعة ملبورن الأسترالية متخصّص في دراسات آسيا والشرق الأوسط، يُدرّس التاريخ الإسلامي والسيرة النبوية واللغة العربية، ويُصدر بحوثاً ويُنظّم ندوات في الدراسات الإسلامية والآسيوية.",
+      "founded": 2006
     },
     {
       "id": "WEST-093",
@@ -15043,7 +15323,9 @@
       "subjects_category": [
         "classical_corpus"
       ],
-      "name_ar_original": "Toyo Bunko (الشرقية) طوكيو"
+      "name_ar_original": "Toyo Bunko (الشرقية) طوكيو",
+      "url": "https://toyo-bunko.or.jp/en/",
+      "founded": 1924
     },
     {
       "id": "WEST-094",
@@ -15074,7 +15356,9 @@
       ],
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "description_ar": "قسم أكاديمي بجامعة طوكيو اليابانية متخصّص في دراسات المنطقة الإسلامية، يُدرّس التاريخ الإسلامي والسيرة النبوية والمجتمعات المسلمة، ويُصدر بحوثاً علمية، ويُعدّ من المراكز اليابانية الرائدة في الدراسات الإسلامية.",
+      "founded": 1877
     },
     {
       "id": "WEST-095",
@@ -15106,7 +15390,8 @@
       ],
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "founded": 1897
     },
     {
       "id": "WEST-096",
@@ -15138,7 +15423,8 @@
       ],
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "description_ar": "معهد بحثي تابع لأكاديمية العلوم الاجتماعية الصينية في بكين، متخصّص في الدراسات الإسلامية والتاريخ الإسلامي والسيرة النبوية، ويُصدر بحوثاً علمية باللغة الصينية، ويُعدّ المرجع الأكاديمي الأبرز في الصين لهذا الحقل."
     },
     {
       "id": "WEST-097",
@@ -15214,7 +15500,9 @@
       ],
       "subjects_category": [
         "auxiliary_sciences"
-      ]
+      ],
+      "description_ar": "رابطة أكاديمية دولية مقرّها الولايات المتحدة، تُعنى بالدراسات القرآنية، وتُنظّم مؤتمرات سنوية، وتُصدر دراسات ومجلات محكّمة، وتربط الباحثين في القرآن والسيرة النبوية حول العالم في شبكة أكاديمية تعاونية.",
+      "url": "https://iqsaweb.org/"
     },
     {
       "id": "WEST-099",
@@ -15254,7 +15542,9 @@
       "subjects_category": [
         "auxiliary_sciences",
         "classical_corpus"
-      ]
+      ],
+      "url": "https://referenceworks.brill.com/display/db/eqo",
+      "founded": 2005
     },
     {
       "id": "WEST-100",
@@ -15296,7 +15586,10 @@
       "subjects_category": [
         "auxiliary_sciences",
         "classical_corpus"
-      ]
+      ],
+      "description_ar": "مشروع موسوعي ضخم تُصدره دار بريل الهولندية، يُمثّل الإصدار الثالث من موسوعة الإسلام، يُغطّي التاريخ الإسلامي والسيرة النبوية والفقه والحضارة، ويُعدّ المرجع الاستشراقي الأكاديمي الأكثر شمولاً وحداثة.",
+      "url": "https://brill.com/display/serial/EI3P",
+      "founded": 2007
     },
     {
       "id": "WEST-101",
@@ -15374,7 +15667,8 @@
         "classical_corpus",
         "prophetic_demography"
       ],
-      "key_figures": []
+      "key_figures": [],
+      "url": "https://www.cambridge.org/core/series/cambridge-studies-in-islamic-civilization/DE52086D778A3DB96A1D052026000F85"
     },
     {
       "id": "WEST-103",
@@ -15444,7 +15738,9 @@
       ],
       "subjects_category": [
         "auxiliary_sciences"
-      ]
+      ],
+      "description_ar": "سلسلة علمية تُصدرها دار بريل الهولندية، تُعنى بنشر دراسات معمّقة في النصوص القرآنية وعلومها، وتشمل أبحاثاً في صلة القرآن بالسيرة النبوية، وتُعدّ مرجعاً مهماً للباحثين الغربيين في الدراسات القرآنية.",
+      "url": "https://brill.com/display/serial/TSQ"
     },
     {
       "id": "WEST-105",
@@ -15478,7 +15774,8 @@
       "subjects_category": [
         "auxiliary_sciences",
         "prophetic_demography"
-      ]
+      ],
+      "description_ar": "سلسلة علمية تُصدرها دار بريل الهولندية، تُعنى بنشر بحوث في التاريخ الإسلامي والحضارة، تشمل دراسات معمّقة في السيرة النبوية والخلافة الإسلامية، وتُعدّ من السلاسل المرجعية في الاستشراق الأكاديمي."
     },
     {
       "id": "WEST-106",
@@ -15511,7 +15808,8 @@
       ],
       "subjects_category": [
         "auxiliary_sciences"
-      ]
+      ],
+      "description_ar": "سلسلة علمية تُصدرها دار De Gruyter الألمانية، تُعنى بنشر بحوث في تاريخ وثقافة الشرق الأوسط بما فيها السيرة النبوية والحضارة الإسلامية، وتُعدّ من السلاسل المرجعية في الدراسات الاستشراقية الألمانية."
     },
     {
       "id": "WEST-107",
@@ -15553,7 +15851,8 @@
       "subjects_category": [
         "auxiliary_sciences",
         "classical_corpus"
-      ]
+      ],
+      "description_ar": "سلسلة علمية تُصدرها دار بريل الهولندية، تُعنى بدراسات الإسلام والمجتمع، وتنشر بحوثاً في التاريخ الإسلامي والسيرة النبوية والفقه، وتُعدّ منبراً أكاديمياً مهماً لباحثي جامعة ليدن العريقة في الاستشراق."
     },
     {
       "id": "WEST-108",
@@ -15592,7 +15891,8 @@
       ],
       "subjects_category": [
         "auxiliary_sciences"
-      ]
+      ],
+      "description_ar": "سلسلة كتب تُصدرها دار De Gruyter الألمانية ضمن مشروع القرآن الأوروبي، تُعنى بدراسة تلقّي القرآن في أوروبا تاريخياً، وتشمل بحوثاً في السيرة النبوية، وتُعدّ من المشاريع الاستشراقية البارزة في القارة."
     },
     {
       "id": "WEST-109",
@@ -15629,7 +15929,9 @@
         "classical_corpus",
         "methodology_critique"
       ],
-      "name_ar_original": "Arabica – مجلة بريل"
+      "name_ar_original": "Arabica – مجلة بريل",
+      "url": "https://brill.com/view/journals/arab/arab-overview.xml",
+      "founded": 1954
     },
     {
       "id": "WEST-110",
@@ -15663,7 +15965,9 @@
       ],
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "description_ar": "مجلة علمية محكّمة تصدر عن كلية الدراسات الشرقية والإفريقية بجامعة لندن، تنشر بحوثاً في التاريخ الإسلامي والسيرة النبوية واللغات الشرقية، وتُعدّ من أعرق المجلات الاستشراقية البريطانية والعالمية.",
+      "founded": 1917
     },
     {
       "id": "WEST-111",
@@ -15698,7 +16002,9 @@
       "subjects_category": [
         "classical_corpus",
         "prophetic_demography"
-      ]
+      ],
+      "description_ar": "مجلة أكاديمية أمريكية تصدر عن جامعة شيكاغو، تُعنى بدراسات الشرق الأدنى القديم والإسلامي، وتنشر بحوثاً في التاريخ الإسلامي والسيرة النبوية واللغات السامية، وتُعدّ من المجلات المرجعية في الاستشراق الأمريكي.",
+      "founded": 1884
     },
     {
       "id": "WEST-112",
@@ -15731,7 +16037,9 @@
       ],
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "description_ar": "مجلة علمية محكّمة تصدر عن الجمعية الشرقية الأمريكية، تنشر بحوثاً في اللغات والحضارات الشرقية بما فيها التاريخ الإسلامي والسيرة النبوية، وتُعدّ من أعرق المجلات الأمريكية في الدراسات الاستشراقية.",
+      "founded": 1843
     },
     {
       "id": "WEST-113",
@@ -15770,7 +16078,9 @@
       ],
       "subjects_category": [
         "auxiliary_sciences"
-      ]
+      ],
+      "description_ar": "مجلة علمية محكّمة بريطانية متخصّصة في الدراسات القرآنية، تنشر بحوثاً في تفسير القرآن وعلومه وصلته بالسيرة النبوية، وتُعدّ من المجلات المرجعية الغربية في حقل الدراسات القرآنية الأكاديمية.",
+      "url": "https://www.euppublishing.com/loi/JQS"
     },
     {
       "id": "WEST-114",
@@ -15804,7 +16114,9 @@
       "subjects_category": [
         "classical_corpus"
       ],
-      "name_ar_original": "Studia Islamica"
+      "name_ar_original": "Studia Islamica",
+      "description_ar": "مجلة علمية محكّمة عريقة تصدر بهولندا، تُعنى بنشر بحوث في الإسلام الكلاسيكي والمعاصر بما فيها التاريخ الإسلامي والسيرة النبوية، وتُعدّ من أقدم المجلات الاستشراقية الأوروبية وأكثرها رسوخاً.",
+      "founded": 1953
     },
     {
       "id": "WEST-115",
@@ -15840,7 +16152,9 @@
       "subjects_category": [
         "auxiliary_sciences",
         "classical_corpus"
-      ]
+      ],
+      "description_ar": "مجلة علمية محكّمة تصدر عن الجامعة العبرية في القدس، تُعنى بدراسات اللغة العربية والإسلام، وتنشر بحوثاً في التاريخ الإسلامي والسيرة النبوية والحديث، وتُعدّ من المجلات الاستشراقية البارزة في الشرق الأوسط.",
+      "founded": 1979
     },
     {
       "id": "WEST-116",
@@ -15881,7 +16195,8 @@
       ],
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "description_ar": "مجلة علمية محكّمة تصدر عن مطبعة جامعة أكسفورد بالتعاون مع مركز أكسفورد للدراسات الإسلامية، تنشر بحوثاً في التاريخ الإسلامي والسيرة النبوية والفكر، وتُعدّ من المجلات المرجعية البريطانية الراقية."
     },
     {
       "id": "WEST-117",
@@ -15917,7 +16232,8 @@
       "subjects_category": [
         "auxiliary_sciences",
         "prophetic_demography"
-      ]
+      ],
+      "founded": 1998
     },
     {
       "id": "WEST-118",
@@ -15959,7 +16275,9 @@
       "subjects_category": [
         "application_outreach",
         "auxiliary_sciences"
-      ]
+      ],
+      "url": "https://openiti.org/",
+      "founded": 2016
     },
     {
       "id": "WEST-119",
@@ -16007,7 +16325,8 @@
       "subjects_category": [
         "auxiliary_sciences",
         "prophetic_demography"
-      ]
+      ],
+      "description_ar": "مشروع بحثي بجامعة ليدن الهولندية ممول من مجلس البحوث الأوروبي، يدرس آثار الفتوحات الإسلامية المبكرة والسيرة النبوية وتشكّل المجتمعات الإسلامية، ويُعدّ من المشاريع الأكاديمية الأوروبية المرموقة في هذا الحقل."
     },
     {
       "id": "WEST-120",
@@ -16040,7 +16359,8 @@
       ],
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "description_ar": "مؤتمر سنوي للأكاديمية الأمريكية للأديان يضم وحدة برامج الدراسات الإسلامية، يجمع الباحثين الغربيين في الإسلام والسيرة النبوية والقرآن، ويُعدّ من أكبر الفعاليات الأكاديمية لدراسات الأديان في أمريكا الشمالية."
     },
     {
       "id": "WEST-121",
@@ -16117,7 +16437,8 @@
       "subjects_category": [
         "auxiliary_sciences"
       ],
-      "name_ar_original": "Manuscripta Orientalia"
+      "name_ar_original": "Manuscripta Orientalia",
+      "description_ar": "مجلة علمية محكّمة تصدر عن معهد المخطوطات الشرقية بأكاديمية العلوم الروسية، تُعنى بدراسة المخطوطات الإسلامية والعربية بما فيها مصادر السيرة النبوية، وتُعدّ من المجلات الاستشراقية الروسية البارزة."
     },
     {
       "id": "WEST-123",
@@ -16153,7 +16474,9 @@
       ],
       "subjects_category": [
         "auxiliary_sciences"
-      ]
+      ],
+      "url": "https://www.bsb-muenchen.de/",
+      "founded": 1558
     },
     {
       "id": "WEST-124",
@@ -16228,7 +16551,9 @@
       ],
       "subjects_category": [
         "auxiliary_sciences"
-      ]
+      ],
+      "url": "https://www.bnf.fr/en",
+      "founded": 1368
     },
     {
       "id": "WEST-126",
@@ -16264,7 +16589,9 @@
       ],
       "subjects_category": [
         "auxiliary_sciences"
-      ]
+      ],
+      "url": "https://www.library.universiteitleiden.nl/",
+      "founded": 1575
     },
     {
       "id": "NAM-064",
@@ -16601,7 +16928,8 @@
           "round_file": "round-08a-south-asia.md",
           "anchor": "NAM-070 — SZIC Karachi"
         }
-      ]
+      ],
+      "founded": 1985
     },
     {
       "id": "NAM-071",
@@ -16646,7 +16974,8 @@
           "round_file": "round-08a-south-asia.md",
           "anchor": "NAM-071 — SZIC Punjab"
         }
-      ]
+      ],
+      "founded": 1985
     },
     {
       "id": "NAM-072",
@@ -16694,7 +17023,8 @@
           "round_file": "round-08a-south-asia.md",
           "anchor": "NAM-072 — Darul Uloom Karachi"
         }
-      ]
+      ],
+      "url": "https://darululoomkarachi.edu.pk/"
     },
     {
       "id": "NAM-073",
@@ -16789,7 +17119,8 @@
           "round_file": "round-08a-south-asia.md",
           "anchor": "NAM-074 — Jamia Naeemia"
         }
-      ]
+      ],
+      "founded": 1980
     },
     {
       "id": "NAM-075",
@@ -16961,7 +17292,9 @@
           "round_file": "round-08a-south-asia.md",
           "anchor": "NAM-078 — Idara Tahqiqat"
         }
-      ]
+      ],
+      "url": "https://iri.iiu.edu.pk/",
+      "founded": 1960
     },
     {
       "id": "NAM-079",
@@ -17589,7 +17922,8 @@
           "round_file": "round-08a-south-asia.md",
           "anchor": "NAM-091 — IFB"
         }
-      ]
+      ],
+      "url": "https://islamicfoundation.gov.bd/"
     },
     {
       "id": "NAM-092",
@@ -17731,7 +18065,8 @@
           "round_file": "round-08c-media-digital.md",
           "anchor": "ARB-053 — Omar Series"
         }
-      ]
+      ],
+      "url": "https://en.wikipedia.org/wiki/Omar_(TV_series)"
     },
     {
       "id": "ARB-054",
@@ -17829,7 +18164,8 @@
           "round_file": "round-08c-media-digital.md",
           "anchor": "ARB-055 — Bilal"
         }
-      ]
+      ],
+      "url": "https://en.wikipedia.org/wiki/Bilal:_A_New_Breed_of_Hero"
     },
     {
       "id": "NAM-094",
@@ -17876,7 +18212,8 @@
           "round_file": "round-08c-media-digital.md",
           "anchor": "NAM-094 — Majidi Film"
         }
-      ]
+      ],
+      "url": "https://en.wikipedia.org/wiki/Muhammad:_The_Messenger_of_God_(film)"
     },
     {
       "id": "TUR-063",
@@ -17923,7 +18260,8 @@
           "round_file": "round-08c-media-digital.md",
           "anchor": "TUR-063 — Ertuğrul"
         }
-      ]
+      ],
+      "url": "https://en.wikipedia.org/wiki/Dirili%C5%9F:_Ertu%C4%9Frul"
     },
     {
       "id": "GLB-001",
@@ -17970,7 +18308,8 @@
           "round_file": "round-08c-media-digital.md",
           "anchor": "GLB-001 — The Message"
         }
-      ]
+      ],
+      "url": "https://en.wikipedia.org/wiki/The_Message_(1976_film)"
     },
     {
       "id": "ARB-056",
@@ -18068,7 +18407,8 @@
           "anchor": "ARB-057 — Barajoun"
         }
       ],
-      "name_ar_original": "Barajoun Entertainment"
+      "name_ar_original": "Barajoun Entertainment",
+      "founded": 2011
     },
     {
       "id": "NAM-095",
@@ -18160,7 +18500,8 @@
           "round_file": "round-08c-media-digital.md",
           "anchor": "TUR-064 — Bozdağ"
         }
-      ]
+      ],
+      "url": "http://www.bozdagfilm.com.tr/en/about.aspx?P=9"
     },
     {
       "id": "GLB-002",
@@ -18346,7 +18687,8 @@
           "round_file": "round-08c-media-digital.md",
           "anchor": "TUR-065 — TRT Diyanet"
         }
-      ]
+      ],
+      "url": "https://www.diyanet.tv/"
     },
     {
       "id": "ARB-059",
@@ -18392,7 +18734,9 @@
           "round_file": "round-08c-media-digital.md",
           "anchor": "ARB-059 — Iqraa Int"
         }
-      ]
+      ],
+      "url": "https://iqraa.com/",
+      "founded": 1998
     },
     {
       "id": "NAM-097",
@@ -18436,7 +18780,8 @@
           "anchor": "NAM-097 — ARY QTV"
         }
       ],
-      "name_ar_original": "قناة ARY QTV"
+      "name_ar_original": "قناة ARY QTV",
+      "url": "https://aryqtv.tv/"
     },
     {
       "id": "WEST-127",
@@ -18536,7 +18881,8 @@
           "round_file": "round-08c-media-digital.md",
           "anchor": "WEST-128 — SeekersGuidance"
         }
-      ]
+      ],
+      "founded": 2008
     },
     {
       "id": "WEST-129",
@@ -18579,7 +18925,8 @@
           "anchor": "WEST-129 — Sunnah Foundation"
         }
       ],
-      "name_ar_original": "مؤسسة السنّة (Sunnah.com / Quran.com)"
+      "name_ar_original": "مؤسسة السنّة (Sunnah.com / Quran.com)",
+      "founded": 1995
     },
     {
       "id": "GLB-003",
@@ -18813,7 +19160,8 @@
           "round_file": "round-08c-media-digital.md",
           "anchor": "ARB-060 — Mishary Alafasy"
         }
-      ]
+      ],
+      "url": "https://www.alafasy.co/"
     },
     {
       "id": "GLB-007",
@@ -18863,7 +19211,8 @@
           "round_file": "round-08c-media-digital.md",
           "anchor": "GLB-007 — Yasir Qadhi"
         }
-      ]
+      ],
+      "url": "https://www.yasirqadhi.com/"
     },
     {
       "id": "ARB-061",
@@ -19267,7 +19616,8 @@
           "round_file": "round-08b-mosque-museum-african.md",
           "anchor": "LEV-047 — Cairo Islamic Art"
         }
-      ]
+      ],
+      "url": "https://www.miaegypt.org/en-us/museum/home/welcome/coin"
     },
     {
       "id": "WEST-130",
@@ -19404,7 +19754,8 @@
           "round_file": "round-08b-mosque-museum-african.md",
           "anchor": "WEST-132 — Grande Mosquée Paris"
         }
-      ]
+      ],
+      "url": "https://www.grandemosqueedeparis.fr/"
     },
     {
       "id": "WEST-133",
@@ -19536,7 +19887,8 @@
           "round_file": "round-08b-mosque-museum-african.md",
           "anchor": "WEST-135 — IC Washington"
         }
-      ]
+      ],
+      "url": "https://theislamiccenter.us/"
     },
     {
       "id": "WEST-136",
@@ -19688,7 +20040,8 @@
           "round_file": "round-08b-mosque-museum-african.md",
           "anchor": "NAM-098 — Ahmed Baba Institute"
         }
-      ]
+      ],
+      "url": "https://en.wikipedia.org/wiki/Ahmed_Baba_Institute"
     },
     {
       "id": "NAM-099",
@@ -19978,7 +20331,8 @@
           "round_file": "round-08b-mosque-museum-african.md",
           "anchor": "ARB-068 — IUM Hadith Faculty"
         }
-      ]
+      ],
+      "url": "https://iu.edu.sa/en-us/FacultyofShariah"
     },
     {
       "id": "ARB-069",
@@ -20076,7 +20430,8 @@
           "round_file": "round-08b-mosque-museum-african.md",
           "anchor": "ARB-070 — King Salman Chair Seerah"
         }
-      ]
+      ],
+      "url": "https://www.taibahu.edu.sa/en/college-of-arts-and-humanities-in-al-madinah-al-munawwarah"
     },
     {
       "id": "ARB-071",
@@ -20178,7 +20533,8 @@
           "round_file": "round-08d-shia-zaydi-ibadi.md",
           "anchor": "LEV-048 — Hawza Najaf"
         }
-      ]
+      ],
+      "founded": 1056
     },
     {
       "id": "LEV-049",
@@ -20273,7 +20629,8 @@
           "round_file": "round-08d-shia-zaydi-ibadi.md",
           "anchor": "LEV-050 — Imam Ali Shrine Library"
         }
-      ]
+      ],
+      "url": "https://www.haydarya.com/"
     },
     {
       "id": "LEV-051",
@@ -20722,7 +21079,8 @@
           "round_file": "round-08d-shia-zaydi-ibadi.md",
           "anchor": "NAM-111 — Astan Quds Museum"
         }
-      ]
+      ],
+      "url": "https://museum.razavi.ir/"
     },
     {
       "id": "NAM-112",
@@ -20768,7 +21126,8 @@
           "round_file": "round-08d-shia-zaydi-ibadi.md",
           "anchor": "NAM-112 — Imam Hussain Univ"
         }
-      ]
+      ],
+      "url": "https://en.ihu.ac.ir/"
     },
     {
       "id": "NAM-113",
@@ -20868,7 +21227,8 @@
           "round_file": "round-08d-shia-zaydi-ibadi.md",
           "anchor": "ARB-072 — Sana'a Great Mosque"
         }
-      ]
+      ],
+      "founded": 633
     },
     {
       "id": "ARB-073",
@@ -20908,7 +21268,8 @@
           "round_file": "round-08d-shia-zaydi-ibadi.md",
           "anchor": "ARB-073 — Sana'a Manuscripts"
         }
-      ]
+      ],
+      "founded": 1962
     },
     {
       "id": "ARB-074",
@@ -21152,7 +21513,8 @@
           "round_file": "round-08d-shia-zaydi-ibadi.md",
           "anchor": "WEST-140 — Al-Khoei NY"
         }
-      ]
+      ],
+      "founded": 1989
     },
     {
       "id": "GLB-008",
@@ -21202,7 +21564,8 @@
           "round_file": "round-08d-shia-zaydi-ibadi.md",
           "anchor": "GLB-008 — AKTC"
         }
-      ]
+      ],
+      "url": "https://the.akdn/en/how-we-work/our-agencies/aga-khan-trust-culture"
     },
     {
       "id": "MAG-051",
@@ -23034,7 +23397,7 @@
       "country": "MY",
       "founded": 1959,
       "description_ar": "الأكاديمية الأقدم في ماليزيا للدراسات الإسلامية، تأسّست ضمن أعرق جامعة في البلاد. تضمّ قسم القرآن والحديث وقسم العقيدة والفكر الإسلامي، وتُخرّج باحثين في السيرة النبوية والحديث، وتُصدر مجلة Jurnal Usuluddin المحكّمة، وتستضيف مؤتمرات دولية في الدراسات النبوية.",
-      "url": "",
+      "url": "https://apium.um.edu.my/",
       "subjects": [
         "seerah_general",
         "hadith_sciences",
