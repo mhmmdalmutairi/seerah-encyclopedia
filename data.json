@@ -20,7 +20,8 @@
     "08k",
     "08l",
     "08m",
-    "08y"
+    "08y",
+    "08t"
   ],
   "entities": [
     {
@@ -26498,7 +26499,1851 @@
       "output_types": [],
       "funding_type": "private",
       "round": "08y"
+    },
+    {
+      "id": "ARB-079",
+      "name_ar": "إذاعة القرآن الكريم - السعودية",
+      "name_en": "Saudi Quran Radio",
+      "type": "tv_channel",
+      "type_group": "media_audience",
+      "region": "arabia",
+      "country": "SA",
+      "founded": 1972,
+      "description_ar": "إذاعة سعودية متخصّصة في بثّ القرآن الكريم وعلومه، انطلقت من الرياض في غرة صفر 1393هـ، يشكّل بثّ التلاوات نحو 75% من برامجها، والباقي للتفسير والسيرة والفقه. تتبع هيئة الإذاعة والتلفزيون السعودية، وتُعدّ من أوسع الإذاعات القرآنية انتشاراً.",
+      "url": "https://aloula.sba.sa/ar/live/quranradio",
+      "subjects": [
+        "seerah_general",
+        "quran_recitation",
+        "tafsir",
+        "fiqh",
+        "hadith"
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "علي بن عبدالرحمن الحذيفي",
+        "محمد أيوب"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "private",
+      "round": "08t"
+    },
+    {
+      "id": "LEV-052",
+      "name_ar": "إذاعة القرآن الكريم - مصر",
+      "name_en": "Egypt Holy Quran Radio",
+      "type": "tv_channel",
+      "type_group": "media_audience",
+      "region": "levant_iraq_nile",
+      "country": "EG",
+      "founded": 1964,
+      "description_ar": "أقدم إذاعة قرآنية في العالم، أُنشئت بأمر من الرئيس جمال عبد الناصر في 25 مارس 1964، حماية للقرآن من التحريف. تبثّ من القاهرة على 98.2 FM تلاوات كبار القراء المصريين مثل عبد الباسط والحصري والمنشاوي، وتذاع برامج في السيرة والتفسير والفقه.",
+      "url": "https://radio.garden/listen/quran-fm-98-2-idhaet-alqran-alkrym/GQxvGBNK",
+      "subjects": [
+        "seerah_general",
+        "quran_recitation",
+        "tafsir",
+        "hadith"
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "عبد الباسط عبد الصمد",
+        "محمود خليل الحصري",
+        "محمد صديق المنشاوي"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "private",
+      "round": "08t"
+    },
+    {
+      "id": "MAG-054",
+      "name_ar": "إذاعة القرآن الكريم - تونس",
+      "name_en": "Radio Quran Tunisie",
+      "type": "tv_channel",
+      "type_group": "media_audience",
+      "region": "maghreb",
+      "country": "TN",
+      "founded": 1998,
+      "description_ar": "إذاعة دينية خاصة تبثّ من بن عروس على تردد 97.7 FM، تأسست عام 1998، تقدّم تلاوات القرآن والتفسير والفقه على المذاهب الأربعة، والعقيدة والأخلاق والسيرة النبوية والتاريخ الإسلامي. تبثّ مباشرة على مدار الساعة عبر موقعها وتطبيقها.",
+      "url": "https://www.radioquran.tn/",
+      "subjects": [
+        "seerah_general",
+        "quran_recitation",
+        "tafsir",
+        "fiqh",
+        "aqidah"
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "private",
+      "round": "08t"
+    },
+    {
+      "id": "WEST-169",
+      "name_ar": "إذاعة صوت الإسلام",
+      "name_en": "Voice of Islam Radio",
+      "type": "tv_channel",
+      "type_group": "media_audience",
+      "region": "western",
+      "country": "GB",
+      "founded": 2016,
+      "description_ar": "إذاعة رقمية تبثّ على DAB من جنوب لندن وغريتر مانشستر، انطلقت في 7 فبراير 2016 بتدشين من الخليفة مرزا مسرور أحمد رئيس الجماعة الأحمدية العالمية. تقدّم 24 ساعة من الأخبار والنقاشات وبرامج معرّفة بالإسلام، وتتبع شركة الشركة الإسلامية.",
+      "url": "https://voiceofislam.co.uk/",
+      "subjects": [
+        "seerah_general",
+        "islamic_thought",
+        "contemporary_issues"
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "مرزا مسرور أحمد"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "private",
+      "round": "08t"
+    },
+    {
+      "id": "TUR-066",
+      "name_ar": "إذاعة ديانت القرآن - تركيا",
+      "name_en": "Diyanet Kuran Radyo",
+      "type": "tv_channel",
+      "type_group": "media_audience",
+      "region": "turkey",
+      "country": "TR",
+      "founded": 2015,
+      "description_ar": "إذاعة قرآنية تركية رسمية تابعة لرئاسة الشؤون الدينية (ديانت)، انطلقت أول رمضان 2015 من أنقرة. تبثّ تلاوات القرآن وترجماتها التركية وبرامج تفسير وأسماء الله الحسنى وتفسير الموضوعات، وتُذاع أرضياً عبر تركيا وفضائياً في آسيا وأوروبا والشرق الأوسط.",
+      "url": "https://diyanetkuranradyo.com/",
+      "subjects": [
+        "seerah_general",
+        "quran_recitation",
+        "tafsir",
+        "aqidah"
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "private",
+      "round": "08t"
+    },
+    {
+      "id": "TUR-067",
+      "name_ar": "TRT ديانت",
+      "name_en": "TRT Diyanet",
+      "type": "tv_channel",
+      "type_group": "media_audience",
+      "region": "turkey",
+      "country": "TR",
+      "founded": 2011,
+      "description_ar": "قناة تلفزيونية دينية تركية تابعة لمؤسسة الإذاعة والتلفزيون التركية (TRT) بالتعاون مع رئاسة الشؤون الدينية، انطلقت 2011 وأُعيد إطلاقها 2014 بعد دمج قناة TRT أناضول. تبثّ برامج إسلامية في السيرة والقرآن والفقه والثقافة الإسلامية، وأطلقت قناة أطفال دينية عام 2023.",
+      "url": "https://www.trtdiyanet.com.tr/",
+      "subjects": [
+        "seerah_general",
+        "islamic_culture",
+        "quran_recitation",
+        "fiqh"
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "private",
+      "round": "08t"
+    },
+    {
+      "id": "MAG-055",
+      "name_ar": "إذاعة القرآن الكريم - الجزائر",
+      "name_en": "Algeria Quran Radio",
+      "type": "tv_channel",
+      "type_group": "media_audience",
+      "region": "maghreb",
+      "country": "DZ",
+      "founded": 1991,
+      "description_ar": "إذاعة جزائرية متخصّصة تابعة للإذاعة الوطنية الجزائرية، انطلقت في 12 يوليو 1991 على الموجة المتوسطة بستّ ساعات بثّ يومي ثم توسّع البثّ. تذيع تلاوات القرآن والسيرة والفقه على مذهب الإمام مالك المعتمد في الجزائر.",
+      "url": "https://www.radioalgerie.dz/coran/",
+      "subjects": [
+        "seerah_general",
+        "quran_recitation",
+        "fiqh",
+        "maliki_madhhab"
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "private",
+      "round": "08t"
+    },
+    {
+      "id": "NAM-219",
+      "name_ar": "صوت القرآن - فرع باكستان",
+      "name_en": "Saut-ul-Quran (Radio Pakistan)",
+      "type": "tv_channel",
+      "type_group": "media_audience",
+      "region": "non_arab_muslim",
+      "country": "PK",
+      "founded": null,
+      "description_ar": "قناة إذاعية حكومية تابعة لإذاعة باكستان (PBC) تبثّ من إسلام آباد على FM 93.4 يومياً من الفجر حتى الظهر. تذيع تلاوة القرآن مع الترجمة الأردية لمدة 19 ساعة يومياً عبر 19 محطة بثّ في أنحاء باكستان، وتُعدّ المنبر القرآني الرسمي.",
+      "url": "https://www.radio.gov.pk/saut-ul-quran",
+      "subjects": [
+        "seerah_general",
+        "quran_recitation",
+        "tafsir_urdu"
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "private",
+      "round": "08t"
+    },
+    {
+      "id": "ARB-080",
+      "name_ar": "إذاعة القرآن الكريم - الشارقة",
+      "name_en": "Sharjah Quran Radio",
+      "type": "tv_channel",
+      "type_group": "media_audience",
+      "region": "arabia",
+      "country": "AE",
+      "founded": 2012,
+      "description_ar": "إذاعة قرآنية إماراتية تبثّ من الشارقة على 102.7 FM، انطلقت في 15 فبراير 2012 ضمن مؤسسة الشارقة للقرآن الكريم والسنة النبوية برعاية الشيخ سلطان القاسمي. تبثّ تلاوات لكبار القراء وبرامج في السيرة والتفسير وعلوم القرآن.",
+      "url": "https://noblequran.shj.ae/",
+      "subjects": [
+        "seerah_general",
+        "quran_recitation",
+        "sunnah",
+        "tafsir"
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "سلطان بن محمد القاسمي"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "private",
+      "round": "08t"
+    },
+    {
+      "id": "LEV-053",
+      "name_ar": "إذاعة القرآن الكريم - الأردن",
+      "name_en": "Quran Radio Jordan",
+      "type": "tv_channel",
+      "type_group": "media_audience",
+      "region": "levant_iraq_nile",
+      "country": "JO",
+      "founded": null,
+      "description_ar": "إذاعة أردنية متخصّصة تبثّ من عمّان على 93.1 FM، تقدّم تلاوات القرآن وبرامج في السيرة النبوية والتفسير والفقه، ومن أبرز برامجها 'الحياة مع القرآن' و'دروس فقهية'. متاحة على تطبيقات الهواتف الذكية.",
+      "url": "https://www.quranradio.fm/",
+      "subjects": [
+        "seerah_general",
+        "quran_recitation",
+        "tafsir",
+        "fiqh"
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "private",
+      "round": "08t"
+    },
+    {
+      "id": "ARB-081",
+      "name_ar": "إذاعة القرآن الكريم - عُمان",
+      "name_en": "Oman Quran Radio",
+      "type": "tv_channel",
+      "type_group": "media_audience",
+      "region": "arabia",
+      "country": "OM",
+      "founded": null,
+      "description_ar": "إذاعة قرآنية رسمية عُمانية تتبع وزارة الإعلام، تبثّ من مسقط على 93.2 FM و87.6 FM. تذيع تلاوات القرآن والسيرة والفقه على المذهب الإباضي وفق التوجّه العُماني، إضافة إلى برامج تثقيف ديني عام.",
+      "url": "https://part.gov.om/",
+      "subjects": [
+        "seerah_general",
+        "quran_recitation",
+        "ibadi_fiqh"
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "private",
+      "round": "08t"
+    },
+    {
+      "id": "NAM-220",
+      "name_ar": "إذاعة القرآن الكريم - السودان",
+      "name_en": "Sudan Quran Radio",
+      "type": "tv_channel",
+      "type_group": "media_audience",
+      "region": "non_arab_muslim",
+      "country": "SD",
+      "founded": null,
+      "description_ar": "إذاعة قرآنية سودانية تبثّ من أم درمان ضمن هيئة الإذاعة السودانية، تذيع تلاوات لكبار القراء السودانيين كالشيخ الزين محمد أحمد ونور الدين البنا، وبرامج في السيرة النبوية والتفسير وفق منهج أهل السنة في السودان.",
+      "url": null,
+      "subjects": [
+        "seerah_general",
+        "quran_recitation",
+        "tafsir"
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "الزين محمد أحمد",
+        "نور الدين البنا"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "private",
+      "round": "08t"
+    },
+    {
+      "id": "NAM-221",
+      "name_ar": "إذاعة سُوارا القرآن",
+      "name_en": "Suara Quran FM",
+      "type": "tv_channel",
+      "type_group": "media_audience",
+      "region": "non_arab_muslim",
+      "country": "ID",
+      "founded": null,
+      "description_ar": "إذاعة إندونيسية إسلامية تبثّ تلاوات القرآن والبرامج التعليمية الإسلامية على مدار الساعة، تنتشر فروعها في سولو ولومبوك (100.0 FM في ماتارام) وغيرها. تقدّم محتوى دعوي إسلامي بالإندونيسية يشمل السيرة والتفسير.",
+      "url": "https://liveonlineradio.net/suara-quran-fm",
+      "subjects": [
+        "seerah_general",
+        "quran_recitation",
+        "dakwah_indonesian"
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "private",
+      "round": "08t"
+    },
+    {
+      "id": "NAM-222",
+      "name_ar": "راديو مسلم - يوغياكرتا",
+      "name_en": "Radio Muslim Yogyakarta",
+      "type": "tv_channel",
+      "type_group": "media_audience",
+      "region": "non_arab_muslim",
+      "country": "ID",
+      "founded": 2009,
+      "description_ar": "إذاعة إسلامية إندونيسية أطلقتها مؤسسة الأثري التعليمية الإسلامية في يوغياكرتا عام 2009، تقدّم دروساً إسلامية بمنهج أهل السنة السلفي وتلاوات قرآن وبرامج في السيرة والعقيدة والفقه، وتعدّ منبراً سلفياً بارزاً في جاوة.",
+      "url": "https://radiomuslim.com/",
+      "subjects": [
+        "seerah_general",
+        "salafi_dakwah",
+        "aqidah",
+        "fiqh"
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "private",
+      "round": "08t"
+    },
+    {
+      "id": "NAM-223",
+      "name_ar": "راديو فجري",
+      "name_en": "Radio Fajri",
+      "type": "tv_channel",
+      "type_group": "media_audience",
+      "region": "non_arab_muslim",
+      "country": "ID",
+      "founded": null,
+      "description_ar": "إذاعة إسلامية إندونيسية تبثّ على 99.3 FM وتصل إلى جمهور واسع، تقدّم برامج إسلامية تشمل تلاوة القرآن والأدعية والمحاضرات الدينية، وتغطّي السيرة النبوية ضمن محتواها الدعوي.",
+      "url": "https://radiofajri.com/",
+      "subjects": [
+        "seerah_general",
+        "quran_recitation",
+        "dakwah_indonesian"
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "private",
+      "round": "08t"
+    },
+    {
+      "id": "WEST-170",
+      "name_ar": "قناة بيّنة - بودكاست",
+      "name_en": "Bayyinah Podcast",
+      "type": "podcast_institutional",
+      "type_group": "media_audience",
+      "region": "western",
+      "country": "US",
+      "founded": 2005,
+      "description_ar": "بودكاست وأكاديمية لتعليم العربية والقرآن أسّسها الأستاذ نعمان علي خان عام 2005 ومقرّها دالاس، تكساس. تقدّم خطباً ومحاضرات في تفسير القرآن والسيرة النبوية باللغة الإنجليزية، ولها حضور واسع على Spotify وApple Podcasts وYouTube بملايين المتابعين.",
+      "url": "https://podcast.bayyinah.com/",
+      "subjects": [
+        "seerah_general",
+        "tafsir_english",
+        "arabic_quranic"
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "نعمان علي خان"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "private",
+      "round": "08t"
+    },
+    {
+      "id": "TUR-068",
+      "name_ar": "نحو الأبدية / سوزلر كوشكو",
+      "name_en": "Towards Eternity / Sözler Köşkü",
+      "type": "digital_platform",
+      "type_group": "media_audience",
+      "region": "turkey",
+      "country": "TR",
+      "founded": 2013,
+      "description_ar": "شبكة محتوى إسلامي عالمية تأسست في تركيا قبل 13 عاماً، تنتج 300 فيديو شهرياً بـ13 لغة. القناة العربية والتركية (سوزلر كوشكو) ومجموع متابعي الشبكة على يوتيوب يتجاوز 3.6 مليون. تقدّم محتوى في السيرة والقرآن ومقابلات علمية.",
+      "url": "https://towardseternity.com/",
+      "subjects": [
+        "seerah_general",
+        "dakwah_multilingual",
+        "quran"
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "private",
+      "round": "08t"
+    },
+    {
+      "id": "TUR-069",
+      "name_ar": "محمد يلدز - خيالخانم",
+      "name_en": "Mehmet Yıldız - Hayalhanem",
+      "type": "digital_creator",
+      "type_group": "individual_actors",
+      "region": "turkey",
+      "country": "TR",
+      "founded": 2014,
+      "description_ar": "كاتب ومحاضر تركي مولود في إزمير 1987، مؤسّس جمعية خيالخانم الثقافية. يقدّم على يوتيوب محتوى إسلامياً يشمل دروساً في السيرة النبوية وسيرة الصحابة والعقيدة، وألّف أكثر من عشرين كتاباً تلقى رواجاً بين الشباب الأتراك.",
+      "url": "https://hayalhanem.com/",
+      "subjects": [
+        "seerah_general",
+        "companions_of_prophet",
+        "spirituality_turkish"
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "محمد يلدز"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "private",
+      "round": "08t"
+    },
+    {
+      "id": "ARB-082",
+      "name_ar": "الشيخ عاصم الحكيم",
+      "name_en": "Sheikh Assim Al-Hakeem",
+      "type": "digital_creator",
+      "type_group": "individual_actors",
+      "region": "arabia",
+      "country": "SA",
+      "founded": null,
+      "description_ar": "داعية سعودي مقيم في جدة، يقدّم برامج فتاوى ومحاضرات بالإنجليزية على منصات التواصل، له قناة يوتيوب رسمية بأكثر من 450 ألف مشترك و351 مليون مشاهدة، وحضور واسع على فيسبوك (486 ألف) وانستغرام. يتناول السيرة النبوية ضمن إجاباته الدعوية.",
+      "url": "https://www.assimalhakeem.net/",
+      "subjects": [
+        "seerah_general",
+        "fiqh_english",
+        "fatwa",
+        "dakwah_english"
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "عاصم بن لقمان الحكيم"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "private",
+      "round": "08t"
+    },
+    {
+      "id": "WEST-171",
+      "name_ar": "نعمان علي خان",
+      "name_en": "Nouman Ali Khan",
+      "type": "digital_creator",
+      "type_group": "individual_actors",
+      "region": "western",
+      "country": "US",
+      "founded": null,
+      "description_ar": "مؤسّس مؤسسة بيّنة، أمريكي مسلم من نيويورك يقيم في دالاس، من أبرز دعاة اللغة العربية وتفسير القرآن بالإنجليزية. حضوره الرقمي ضخم: 838 ألف على انستغرام Bayyinah، 3 مليون على فيسبوك، 368 ألف على X، وقناة بيّنة على يوتيوب بملايين المشاهدات.",
+      "url": "https://bayyinah.com/",
+      "subjects": [
+        "seerah_general",
+        "tafsir_english",
+        "arabic_quranic"
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "نعمان علي خان"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "private",
+      "round": "08t"
+    },
+    {
+      "id": "WEST-172",
+      "name_ar": "هشام أبو يوسف",
+      "name_en": "Ustadh Hisham Abu Yusuf",
+      "type": "digital_creator",
+      "type_group": "individual_actors",
+      "region": "western",
+      "country": "GB",
+      "founded": null,
+      "description_ar": "أكاديمي بريطاني حاصل على بكالوريوس في الدراسات الإسلامية من الأزهر وبكالوريوس هندسة من بريطانيا، مدير التعليم في Roots Academy. له على انستغرام 732 ألف متابع، يقدّم محتوى في السيرة النبوية والقيادة منها ودروساً للطلاب الجامعيين في 65 حرماً جامعياً.",
+      "url": "https://hishamabuyusuf.com/",
+      "subjects": [
+        "seerah_general",
+        "islamic_leadership",
+        "campus_dakwah"
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "هشام أبو يوسف"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "private",
+      "round": "08t"
+    },
+    {
+      "id": "NAM-224",
+      "name_ar": "المفتي منك",
+      "name_en": "Mufti Menk",
+      "type": "digital_creator",
+      "type_group": "individual_actors",
+      "region": "non_arab_muslim",
+      "country": "ZW",
+      "founded": null,
+      "description_ar": "إسماعيل ابن موسى منك، عالم ومفتي زيمبابوي عالمي الشهرة. من أكبر صنّاع المحتوى الإسلامي على الإنترنت: 10.6 مليون على X، و2 مليون على تيك توك الرسمي، وملايين على انستغرام ويوتيوب. يقدّم خطباً ومحاضرات تشمل السيرة النبوية بالإنجليزية لجمهور عالمي.",
+      "url": "https://muftimenk.com/",
+      "subjects": [
+        "seerah_general",
+        "dakwah_english",
+        "spirituality"
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "إسماعيل ابن موسى منك"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "private",
+      "round": "08t"
+    },
+    {
+      "id": "ARB-083",
+      "name_ar": "كرسي المهندس عبد المحسن بن محمد الدريس للسيرة النبوية ودراساتها المعاصرة",
+      "name_en": "Eng. Abdulmohsen bin Mohammed Al-Drees Chair for the Prophetic Biography and Contemporary Studies",
+      "type": "academic_chair",
+      "type_group": "research_education",
+      "region": "arabia",
+      "country": "SA",
+      "founded": 1430,
+      "description_ar": "كرسي علمي بجامعة الملك سعود بالرياض، يُعنى بالدراسات المتخصصة والبحوث العلمية وصياغة الرؤى والخطط الاستراتيجية للتعريف الشامل بالسيرة النبوية وتيسير سبل الاقتداء بالنبي صلى الله عليه وسلم، ويقدّم برنامج (داعم) لطلبة الدراسات العليا والباحثين، ويُصدر (كشاف الرسائل العلمية في السيرة النبوية)، ويعمل على نشر السيرة باللغات العالمية ومواجهة الشبهات.",
+      "url": "https://seerh.ksu.edu.sa/",
+      "subjects": [
+        "السيرة النبوية",
+        "الدراسات المعاصرة",
+        "التعريف بالنبي"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "عبد المحسن بن محمد الدريس (واقف)"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08t"
+    },
+    {
+      "id": "ARB-084",
+      "name_ar": "كرسي الشيخ عبد الله بن صالح الراشد الحميد لخدمة السيرة النبوية",
+      "name_en": "Sheikh Abdullah bin Saleh Al-Rashid Al-Humaid Chair for Serving the Prophetic Biography",
+      "type": "academic_chair",
+      "type_group": "research_education",
+      "region": "arabia",
+      "country": "SA",
+      "founded": 1438,
+      "description_ar": "كرسي علمي بجامعة القصيم بالمملكة العربية السعودية، أُنشئ بدعم من رجل الأعمال الشيخ عبد الله بن صالح الراشد الحميد، ويهدف إلى إعداد ودعم البحوث النوعية في مجال السيرة النبوية وخدمة رسول الله صلى الله عليه وسلم، وقدّم عشرات المنح البحثية وترجمات لكتب السيرة إلى لغات عالمية متعددة، ويُعدّ من أبرز كراسي السيرة في الخليج.",
+      "url": "https://www.qu.edu.sa/en/research/chairs/sasc/",
+      "subjects": [
+        "السيرة النبوية",
+        "ترجمات السيرة",
+        "التكامل المعرفي"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "عبد الله بن صالح الراشد الحميد (واقف)"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08t"
+    },
+    {
+      "id": "ARB-085",
+      "name_ar": "كرسي السيرة النبوية بكلية الآداب والعلوم الإنسانية بجامعة طيبة",
+      "name_en": "Chair of the Prophetic Biography at the College of Arts and Humanities, Taibah University",
+      "type": "academic_chair",
+      "type_group": "research_education",
+      "region": "arabia",
+      "country": "SA",
+      "founded": 1431,
+      "description_ar": "كرسي علمي مستقل أقرّ مجلس جامعة طيبة إنشاءه بكلية الآداب والعلوم الإنسانية بالمدينة المنورة، يُعنى ببحوث السيرة النبوية في المكان الذي عاش فيه النبي صلى الله عليه وسلم، ويستثمر موقع الجامعة في المدينة لإجراء دراسات ميدانية وتاريخية وجغرافية للسيرة.",
+      "url": "https://www.al-madina.com/article/36455",
+      "subjects": [
+        "السيرة النبوية",
+        "تاريخ المدينة",
+        "الجغرافيا النبوية"
+      ],
+      "subjects_category": [],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08t"
+    },
+    {
+      "id": "ARB-086",
+      "name_ar": "كرسي الأمير سلطان بن عبد العزيز للدراسات الإسلامية المعاصرة",
+      "name_en": "Prince Sultan bin Abdulaziz Chair for Contemporary Islamic Studies",
+      "type": "academic_chair",
+      "type_group": "research_education",
+      "region": "arabia",
+      "country": "SA",
+      "founded": 1429,
+      "description_ar": "كرسي علمي بجامعة الملك سعود بقسم الثقافة الإسلامية بكلية التربية، يُموَّل من تبرّع الأمير سلطان بن عبد العزيز آل سعود، ويُعنى بالدراسات الإسلامية المعاصرة والتأكيد على وسطية الإسلام وسماحته، ويُشرف عليه مفتي عام المملكة، وأصدر عدداً من المؤلفات أبرزها (الحرية الدينية).",
+      "url": "https://chairs.ksu.edu.sa/ar/node/2967",
+      "subjects": [
+        "الدراسات الإسلامية المعاصرة",
+        "الوسطية",
+        "الثقافة الإسلامية"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "سلطان بن عبد العزيز آل سعود (واقف)",
+        "خالد بن عبد الله القاسم (مشرف)"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08t"
+    },
+    {
+      "id": "ARB-087",
+      "name_ar": "كرسي القرآن الكريم وعلومه بجامعة الملك سعود",
+      "name_en": "Chair of the Holy Qur'an and its Sciences at King Saud University",
+      "type": "academic_chair",
+      "type_group": "research_education",
+      "region": "arabia",
+      "country": "SA",
+      "founded": 1434,
+      "description_ar": "كرسي علمي بجامعة الملك سعود أُنشئ عام 1434هـ/2012م بهدف تطوير الدراسات العلمية في القرآن الكريم وعلومه، وإنشاء مرصد عالمي للدراسات القرآنية، ودعم مراكز البحوث القرآنية، وأصدر سلسلة إصدارات علمية مهمة في خدمة القرآن الكريم.",
+      "url": "https://chairs.ksu.edu.sa/en/node/2971",
+      "subjects": [
+        "علوم القرآن",
+        "الدراسات القرآنية",
+        "التفسير"
+      ],
+      "subjects_category": [],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08t"
+    },
+    {
+      "id": "ARB-088",
+      "name_ar": "كرسي اليونسكو للحوار بين أتباع الديانات والثقافات",
+      "name_en": "UNESCO Chair for Dialogue between Followers of Religions and Cultures",
+      "type": "academic_chair",
+      "type_group": "research_education",
+      "region": "arabia",
+      "country": "SA",
+      "founded": 1432,
+      "description_ar": "كرسي علمي تابع لمنظمة اليونسكو يعمل بجامعة الإمام محمد بن سعود الإسلامية بالرياض، وينطلق من رؤية المملكة الاستراتيجية للتعايش السلمي بين أتباع الديانات والثقافات، ويُعنى بالبحث العلمي في قضايا الحوار وتأهيل الكوادر العلمية المتخصصة، ويُعزّز مبادرة الملك عبد الله للحوار التي عقدت قمتها في الأمم المتحدة عام 2008م.",
+      "url": "https://units.imamu.edu.sa/rchairs/ucffacfd/profile/Pages/default.aspx",
+      "subjects": [
+        "الحوار بين الأديان",
+        "حوار الحضارات",
+        "التعايش السلمي"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "عبد الله الرفاعي (أستاذ الكرسي)"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08t"
+    },
+    {
+      "id": "ARB-089",
+      "name_ar": "كرسي الملك سلمان بن عبد العزيز لإعداد المحتسب",
+      "name_en": "King Salman bin Abdulaziz Chair for Training the Muhtasib",
+      "type": "academic_chair",
+      "type_group": "research_education",
+      "region": "arabia",
+      "country": "SA",
+      "founded": 1431,
+      "description_ar": "كرسي بحثي بجامعة الإمام محمد بن سعود الإسلامية بالرياض، دُشّن عام 1431هـ/2010م بهدف تشجيع البحث والدراسة في مجال الحسبة (الأمر بالمعروف والنهي عن المنكر)، وتطوير عمل المحتسب وفق المنهج النبوي الإسلامي، ويربط ممارسات الحسبة بسنة النبي صلى الله عليه وسلم.",
+      "url": "https://saudipedia.com/article/11224",
+      "subjects": [
+        "الحسبة",
+        "الأمر بالمعروف",
+        "السنة النبوية في الحسبة"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "الملك سلمان بن عبد العزيز (واقف)"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08t"
+    },
+    {
+      "id": "ARB-090",
+      "name_ar": "كرسي الملك سلمان بن عبد العزيز لدراسات تاريخ مكة المكرمة",
+      "name_en": "King Salman bin Abdulaziz Chair for Studies of the History of Makkah",
+      "type": "academic_chair",
+      "type_group": "research_education",
+      "region": "arabia",
+      "country": "SA",
+      "founded": 1432,
+      "description_ar": "كرسي علمي بجامعة أم القرى بمكة المكرمة، يُعنى بدراسات تاريخ مكة المكرمة بوصفها مهد الدعوة ومركز السيرة النبوية في عهديها المكي والحجي، ويُصدر سلسلة (بحوث الحجاز) في تاريخ المكان والمكونات الجغرافية والاجتماعية والاقتصادية والسياسية والثقافية لمكة عبر العصور.",
+      "url": "https://uqu.edu.sa/gs/153215",
+      "subjects": [
+        "تاريخ مكة",
+        "الجغرافيا التاريخية",
+        "السيرة المكية"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "الملك سلمان بن عبد العزيز (واقف)"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08t"
+    },
+    {
+      "id": "ARB-091",
+      "name_ar": "مركز بحوث السنة والسيرة النبوية بجامعة قطر",
+      "name_en": "Center for Sunnah and Sirah Research, Qatar University",
+      "type": "academic_chair",
+      "type_group": "research_education",
+      "region": "arabia",
+      "country": "QA",
+      "founded": 1980,
+      "description_ar": "مركز بحثي تابع لكلية الشريعة والدراسات الإسلامية بجامعة قطر بالدوحة، أسّسه الشيخ يوسف القرضاوي وتولّى إدارته المؤسِسة منذ تأسيس كلية الشريعة عام 1977م، يُعدّ من أوائل المراكز الأكاديمية المتخصصة في السنة والسيرة في الخليج، ويصدر مجلة محكّمة في بحوث السنة والسيرة، ويستضيف كبار المحدّثين كأ.د. موسى شاهين لاشين.",
+      "url": "http://www.qu.edu.qa/ar/students/success-and-development/academic-advising/academic-advising-offices/sharia",
+      "subjects": [
+        "السنة النبوية",
+        "السيرة النبوية",
+        "علوم الحديث"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "يوسف القرضاوي (مؤسس)",
+        "موسى شاهين لاشين"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08t"
+    },
+    {
+      "id": "NAM-225",
+      "name_ar": "قسم الدراسات الشرقية والإسلامية بجامعة قازان الفيدرالية",
+      "name_en": "Department of Area Studies and Islamic Studies, Kazan Federal University",
+      "type": "university_department",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "RU",
+      "founded": 2010,
+      "description_ar": "قسم أكاديمي في معهد العلاقات الدولية والتاريخ والدراسات الشرقية بجامعة قازان الفيدرالية في تتارستان بروسيا، تأسّس عام 2010م ثم اندمج عام 2014م مع قسم تاريخ وثقافة الشرق، ويُقدّم برامج البكالوريوس والماجستير في الدراسات الشرقية والإسلامية والاقتصاد الإسلامي، وتُعدّ قازان أبرز مراكز الإسلام الحنفي في روسيا.",
+      "url": "https://kpfu.ru/eng/academic-units/humanities/institute-of-oriental-studies-and-international/structure/departments/department-of-area-studies-and-islamic-studies",
+      "subjects": [
+        "الدراسات الإسلامية",
+        "الاقتصاد الإسلامي",
+        "الدراسات الشرقية"
+      ],
+      "subjects_category": [],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08t"
+    },
+    {
+      "id": "NAM-226",
+      "name_ar": "الجامعة الإسلامية الروسية في قازان",
+      "name_en": "Russian Islamic Institute (Russian Islamic University), Kazan",
+      "type": "university_center",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "RU",
+      "founded": 1998,
+      "description_ar": "أول جامعة إسلامية رسمية في روسيا، أُسّست عام 1998م في قازان عاصمة جمهورية تتارستان بالاشتراك بين الإدارة الروحية لمسلمي تتارستان ومجلس مفتي روسيا ومعهد التاريخ بأكاديمية علوم تتارستان، وتُقدّم برامج في العقيدة (وفق مذهب أبي حنيفة)، والعلوم الشرعية، واللغة العربية، والإعلام، والاقتصاد الإسلامي، ويدرس فيها طلاب من 45 منطقة في روسيا ودول رابطة الدول المستقلة.",
+      "url": "https://kazanriu.ru/",
+      "subjects": [
+        "العلوم الشرعية",
+        "الفقه الحنفي",
+        "اللغة العربية",
+        "السيرة النبوية"
+      ],
+      "subjects_category": [],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08t"
+    },
+    {
+      "id": "NAM-227",
+      "name_ar": "أكاديمية بلغار الإسلامية",
+      "name_en": "Bolgar Islamic Academy",
+      "type": "university_center",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "RU",
+      "founded": 2017,
+      "description_ar": "مركز علمي ولاهوتي وتعليمي على المستوى الفيدرالي، يقع في مدينة بلغار التاريخية بجمهورية تتارستان الروسية، أُسّس بمرسوم رئاسي عام 2015م وافتُتح في سبتمبر 2017م، ويُخرّج علماء الإسلام على مستوى الماجستير والدكتوراه لإحياء التراث اللاهوتي الإسلامي الروسي الوطني، ويُعدّ امتداداً لتقاليد الإسلام في إقليم الفولغا منذ تحوّل دولة بلغار الفولغا للإسلام عام 922م.",
+      "url": "https://bolgar.academy/en/info/",
+      "subjects": [
+        "العلوم الإسلامية",
+        "اللاهوت الإسلامي",
+        "تراث مسلمي الفولغا"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "فرحات خوسنوتدينوف (رئيس الأكاديمية)"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08t"
+    },
+    {
+      "id": "NAM-228",
+      "name_ar": "معهد الاستشراق التابع لأكاديمية العلوم الروسية",
+      "name_en": "Institute of Oriental Studies of the Russian Academy of Sciences (IOS RAS)",
+      "type": "research_center",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "RU",
+      "founded": 1818,
+      "description_ar": "أكبر وأبرز معهد علمي للدراسات الشرقية في روسيا، تأسّس عام 1818م ونُقل إلى موسكو عام 1950م، يضمّ 30 قسماً بحثياً تشمل دراسات شمال إفريقيا والشرق الأوسط وآسيا، ويحتوي على ذخيرة من المخطوطات الإسلامية والكتب القديمة تتجاوز المليون مجلد، ويُصدر سنوياً نحو 100 كتاب علمي و700 بحث في الدراسات الإسلامية والعربية والسيرة.",
+      "url": "https://www.ivran.ru/en",
+      "subjects": [
+        "الاستشراق",
+        "الدراسات الإسلامية",
+        "المخطوطات العربية"
+      ],
+      "subjects_category": [],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08t"
+    },
+    {
+      "id": "NAM-229",
+      "name_ar": "كلية الدراسات الآسيوية والإفريقية بجامعة سان بطرسبرغ الحكومية",
+      "name_en": "Faculty of Asian and African Studies (FAAS), Saint Petersburg State University",
+      "type": "university_department",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "RU",
+      "founded": 1855,
+      "description_ar": "كلية الدراسات الشرقية الشهيرة (فاكولتيت فوستوتشني) بجامعة سان بطرسبرغ الحكومية، أُسّست بمرسوم القيصر نيقولا الأول عام 1854م وافتُتحت في 1855م، تضمّ قسم اللغة العربية والدراسات الإسلامية ومختبر الدراسات الإسلامية، وتعود جذور تدريس العربية والفارسية فيها إلى 1818م، وتُقدّم برامج للبكالوريوس والماجستير والدكتوراه في فقه اللغة العربية وعلوم الشريعة وتاريخ الإسلام.",
+      "url": "https://orient.spbu.ru/en/",
+      "subjects": [
+        "فقه اللغة العربية",
+        "الدراسات الإسلامية",
+        "تاريخ الشرق"
+      ],
+      "subjects_category": [],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08t"
+    },
+    {
+      "id": "NAM-230",
+      "name_ar": "الإدارة الروحية لمسلمي جمهورية تتارستان",
+      "name_en": "Spiritual Administration of the Muslims of the Republic of Tatarstan (DUM RT)",
+      "type": "foundation_waqf",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "RU",
+      "founded": 1992,
+      "description_ar": "المفتية الرسمية لجمهورية تتارستان الروسية، أُعيد تأسيسها كهيئة مستقلة عام 1992م، ويرأسها المفتي كامل ساميغولين منذ عام 2013م، وتضمّ نحو 25% من المنظمات الإسلامية في روسيا، وتعتمد المذهب الحنفي والعقيدة الماتريدية، ومهمتها الرئيسة توحيد المنظمات الدينية الإسلامية على أساس القرآن وسنة النبي صلى الله عليه وسلم وفق منهج الإمام أبي حنيفة.",
+      "url": "https://dumrt.ru/",
+      "subjects": [
+        "الفقه الحنفي",
+        "السنة النبوية",
+        "الفتاوى",
+        "الإفتاء الإقليمي"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "كامل ساميغولين (مفتي تتارستان)"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08t"
+    },
+    {
+      "id": "NAM-231",
+      "name_ar": "الإدارة الروحية لمسلمي جمهورية الشيشان",
+      "name_en": "Spiritual Administration of the Muslims of the Chechen Republic",
+      "type": "foundation_waqf",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "RU",
+      "founded": 1991,
+      "description_ar": "المفتية الرسمية الوحيدة في جمهورية الشيشان بالاتحاد الروسي، تأسّست عام 1991م، وتولّى رئاستها الشيخ أحمد قاديروف بين 1995-2000م، ويرأسها حالياً المفتي صلاح ميجييف منذ عام 2014م، تتبنّى المذهب الشافعي والطرق الصوفية (القادرية والنقشبندية)، وتُمثَّل في مركز تنسيق مسلمي شمال القوقاز، وتشرف على التعليم الديني والمساجد في الشيشان.",
+      "url": "https://muslim.ru/",
+      "subjects": [
+        "الفقه الشافعي",
+        "التصوف القادري",
+        "الإفتاء"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "أحمد قاديروف (مفتي 1995-2000)",
+        "صلاح ميجييف (المفتي الحالي)"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08t"
+    },
+    {
+      "id": "TUR-070",
+      "name_ar": "مجلس الحضرة النبوية بجامع الخرقة الشريفة (هيركاي شريف)",
+      "name_en": "Hırka-i Şerif Mawlid Majlis (Holy Mantle Ceremony)",
+      "type": "mosque_program",
+      "type_group": "museums_culture",
+      "region": "turkey",
+      "country": "TR",
+      "founded": 1851,
+      "description_ar": "مجلس سنوي ضخم لزيارة الخرقة النبوية المحفوظة في جامع الخرقة الشريفة بحيّ الفاتح، يُفتتح في أول جمعة من شهر رمضان ويستمرّ حتى نهاية الشهر، ويستقبل أكثر من مليون زائر سنوياً يحضرون قراءات قرآنية وأدعية في باحة الجامع قبل الدخول للزيارة. الخرقة محفوظة في أسرة أسلاف العائلة الأويسية المنحدرة من أويس القرني.",
+      "url": "https://www.dailysabah.com/turkiye/istanbul/istanbuls-hirka-i-serif-mosque-preserves-sacred-relic-of-prophet",
+      "subjects": [
+        "mawlid",
+        "athar_nabawi",
+        "ziyarah_traditions",
+        "ottoman_legacy"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "عائلة الأويسي (سدنة الخرقة)",
+        "السلطان عبد المجيد الأول"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "religious_authority",
+      "round": "08t"
+    },
+    {
+      "id": "TUR-071",
+      "name_ar": "مراسم السنجق الشريف (الراية النبوية) – قصر طوب قابي",
+      "name_en": "Sancak-ı Şerif Sacred Banner Ceremonies",
+      "type": "mosque_program",
+      "type_group": "museums_culture",
+      "region": "turkey",
+      "country": "TR",
+      "founded": 1517,
+      "description_ar": "مجلس وزيارة احتفالية مرتبطة براية الرسول ﷺ المحفوظة بقصر طوب قابي ضمن الأمانات المقدّسة، حيث تُستحضر في المناسبات الكبرى ومناسبات شهر رمضان والمولد النبوي، وتُتلى الأذكار والصلوات حولها في حجرة الخرقة الشريفة. آخر استخدام عسكري لها كان سنة 1826م في عهد السلطان محمود الثاني.",
+      "url": "https://en.wikipedia.org/wiki/Sancak-%C4%B1_%C5%9Eerif",
+      "subjects": [
+        "mawlid",
+        "athar_nabawi",
+        "ottoman_legacy",
+        "ziyarah_traditions"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "السلطان سليم الأول (الناقل)",
+        "السلطان محمد الثالث (موقعة إغير 1596)"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "religious_authority",
+      "round": "08t"
+    },
+    {
+      "id": "NAM-232",
+      "name_ar": "احتفالات المولد النبوي بمقديشو – الطرق الصوفية الصومالية",
+      "name_en": "Mogadishu Mawlid Processions – Somali Sufi Communities",
+      "type": "conference_series",
+      "type_group": "institutional_infra",
+      "region": "non_arab_muslim",
+      "country": "SO",
+      "founded": 2011,
+      "description_ar": "مجالس مولد سنوية تنظمها الطرق الصوفية الصومالية (القادرية والأحمدية والصالحية) في مساجد مقديشو والمدن الكبرى، تتضمّن قراءة المولد البرزنجي والقصائد، ومواكب جوّابة في الشوارع، وموائد ضيافة جماعية. تجري تحت حماية أمنية مشدّدة بسبب تهديدات الشباب، وأعداد المشاركين تتصاعد سنوياً منذ 2011.",
+      "url": "https://religionnews.com/2025/09/05/somalis-defy-militants-with-processions-to-mark-prophet-muhammads-birthday/",
+      "subjects": [
+        "mawlid",
+        "sufi_orders",
+        "horn_of_africa_islam"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "مشايخ الطريقة القادرية الصومالية",
+        "أحفاد الشيخ أويس البراوي"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08t"
+    },
+    {
+      "id": "NAM-233",
+      "name_ar": "احتفال المولد النبوي بمسجد ميرا ماكام – كاندي (سريلانكا)",
+      "name_en": "Mawlid Celebrations at Meera Makam Mosque, Kandy",
+      "type": "mosque_program",
+      "type_group": "museums_culture",
+      "region": "non_arab_muslim",
+      "country": "LK",
+      "founded": 1864,
+      "description_ar": "احتفالات المولد النبوي (ميلاد-أن-نبي) عطلة رسمية في سريلانكا، وتنظَّم في كاندي ومسجد ميرا ماكام (المسمَّى تيمناً بالولي الصوفي الناجوري شاهول حميد ميران صاحب) قراءاتٌ ومواكب وتزيينات وموائد طعام جماعية تحضرها الطرق القادرية والشاذلية في وسط الجزيرة.",
+      "url": "https://en.wikipedia.org/wiki/Meera_Makam_Mosque",
+      "subjects": [
+        "mawlid",
+        "south_asian_islam",
+        "sufi_orders"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "ناجوري شاهول حميد ميران صاحب (الولي المنسوب)"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "religious_authority",
+      "round": "08t"
+    },
+    {
+      "id": "LEV-054",
+      "name_ar": "مولد الحسين الكبير – جامع الحسين بالقاهرة",
+      "name_en": "Mawlid al-Hussein – Al-Hussein Mosque Cairo",
+      "type": "conference_series",
+      "type_group": "institutional_infra",
+      "region": "levant_iraq_nile",
+      "country": "EG",
+      "founded": 1154,
+      "description_ar": "أحد أكبر مولدين سنويين في مصر (بعد المولد النبوي الرسمي)، تنظّمه المشيخة العامة للطرق الصوفية المصرية مرّتين سنوياً (3 شعبان لذكرى المولد، والأسبوع الأخير من ربيع الثاني للذكرى الكبرى). يتدفّق آلاف الصوفية لساحة الجامع لقراءة المولد والمدائح والذِّكر، وتمتدّ الفعاليات نحو سبعة أيام في حيّ الجمالية وخان الخليلي.",
+      "url": "https://aawsat.com/يوميات-الشرق/5200384",
+      "subjects": [
+        "mawlid",
+        "egyptian_sufism",
+        "popular_islam",
+        "ahl_al_bayt_veneration"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "شيخ مشيخة الطرق الصوفية المصرية",
+        "الطرق الرفاعية والشاذلية والبرهانية"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08t"
+    },
+    {
+      "id": "NAM-234",
+      "name_ar": "احتفالات ميلاد النبي بمدينة حيدر آباد ومواكب الهند الكبرى",
+      "name_en": "Milad un-Nabi Grand Processions in India (Hyderabad)",
+      "type": "conference_series",
+      "type_group": "institutional_infra",
+      "region": "non_arab_muslim",
+      "country": "IN",
+      "founded": 1900,
+      "description_ar": "أكبر احتفال جماهيري بالمولد في شبه القارة الهندية، عطلة رسمية، تنظّمه الطرق الصوفية والحركة البريلوية بمواكب ضخمة (جلوس) في حيدر آباد ومومباي ولكناو، مع مدائح وقصائد نعتية، خطب علمية حول السيرة، ولائم عامة، إنارة المساجد، وقراءة مواليد محلية بالأردو والعربية.",
+      "url": "https://en.wikipedia.org/wiki/Mawlid",
+      "subjects": [
+        "mawlid",
+        "south_asian_islam",
+        "barelvi_movement",
+        "sufi_orders"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "أحمد رضا خان البريلوي (المرجع الفكري)",
+        "مشايخ الطرق الجشتية والقادرية الهندية"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08t"
+    },
+    {
+      "id": "NAM-235",
+      "name_ar": "اتحاد محلَّات السنة بكيرلا (SMF) – مجالس المولد الكيرلية",
+      "name_en": "Sunni Mahallu Federation (SMF) Kerala – Mawlid Majālis",
+      "type": "conference_series",
+      "type_group": "institutional_infra",
+      "region": "non_arab_muslim",
+      "country": "IN",
+      "founded": 1976,
+      "description_ar": "شبكة مساجد ومجالس مولد تنشط في عموم كيرلا ضمن «جمعية علماء السنة بكيرلا» (Samastha)، تختصّ بأدب «المالا-المولد» الكيرلي (مزيج عربي-ملياليمي) وقراءاته الجماعية في المساجد، مع موائد طعام وأنشطة تعليمية في ذكرى المولد. تمتلك تراثاً نصياً خاصاً للمولد متجذراً منذ القرن السابع عشر.",
+      "url": "https://smfkerala.com/",
+      "subjects": [
+        "mawlid",
+        "south_asian_islam",
+        "arabi_malayalam_literature",
+        "sufi_orders"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "مشايخ سَمَستا كيرلا",
+        "عمر فيضي مكَّم"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08t"
+    },
+    {
+      "id": "WEST-173",
+      "name_ar": "دار السلام للسفر – «على خطى النبي ﷺ»",
+      "name_en": "Dar El Salam Travel – Sacred Journey / Hijrah Walk",
+      "type": "foundation_waqf",
+      "type_group": "research_education",
+      "region": "western",
+      "country": "US",
+      "founded": 1995,
+      "description_ar": "وكالة سفر متخصّصة في برامج السيرة والحج والعمرة، تقدّم رحلة «على خطى الهجرة» (Hijrah Walk) بإشراف د. مازن وفريق علمي خلال 3 أيام مشياً على الأقدام بين مكة والمدينة، إضافة إلى برامج «Sacred Journey» العلمية مع الشيخ حسيب نور تشرح أحداث السيرة في مواقعها.",
+      "url": "https://dstworldtravel.com/hijrawalk/",
+      "subjects": [
+        "seerah_field_trips",
+        "hajj_umrah",
+        "hijrah_route"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "د. مازن (مرشد السيرة)",
+        "الشيخ حسيب نور",
+        "د. عبد الله القاضي (أبحاث طريق الهجرة)"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08t"
+    },
+    {
+      "id": "WEST-174",
+      "name_ar": "Sunnah Tours UK – رحلات الحج والعمرة على السنة",
+      "name_en": "Sunnah Tours (Bradford, UK)",
+      "type": "foundation_waqf",
+      "type_group": "research_education",
+      "region": "western",
+      "country": "GB",
+      "founded": null,
+      "description_ar": "وكالة بريطانية متخصّصة في تأدية الحج والعمرة وفق السنة النبوية بإشراف علمي مباشر من علماء مكة والمدينة. تقدّم برنامجاً تعليمياً متكاملاً يدمج زيارة المواقع السيرية مع شرحها التاريخي والشرعي.",
+      "url": "https://www.sunnahtours.co.uk/",
+      "subjects": [
+        "hajj_umrah",
+        "seerah_field_trips",
+        "sunnah_practice"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "علماء برنامج برادفورد (مكة–المدينة)"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08t"
+    },
+    {
+      "id": "ARB-092",
+      "name_ar": "The Legacy Institute – جولات السيرة المشيّة في الحرمين",
+      "name_en": "The Legacy Institute – Prophetic Legacy Walking Tours",
+      "type": "foundation_waqf",
+      "type_group": "research_education",
+      "region": "arabia",
+      "country": "SA",
+      "founded": 2018,
+      "description_ar": "مؤسسة متخصّصة في جولات السيرة في المسجد الحرام والمسجد النبوي، تشرح خلالها مواقع نزول الوحي، بيوت الصحابة، وأحداث المرحلة المكية والمدنية ميدانياً. تقدّم جولاتها بالإنجليزية والعربية وتستهدف زوّار الحرمين من غير الناطقين بالعربية.",
+      "url": "https://legacy.institute/prophetic-legacy/",
+      "subjects": [
+        "seerah_field_trips",
+        "haramayn_topography",
+        "english_outreach"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "مرشدو معهد ليجاسي العلميون"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08t"
+    },
+    {
+      "id": "NAM-236",
+      "name_ar": "منظمة الحج والزيارة الإيرانية – Hajj and Pilgrimage Organization",
+      "name_en": "Hajj and Pilgrimage Organization (Iran)",
+      "type": "foundation_waqf",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "IR",
+      "founded": 1979,
+      "description_ar": "الهيئة الحكومية الإيرانية المكلّفة بتنظيم الحج والعمرة لمواطنيها وزيارات الأضرحة في العراق وسوريا. تنظّم سنوياً نحو 30 ألف حاج إيراني، وتوفّر مسكنهم في 16 فندقاً في المدينة و24 في مكة، وتنسّق برامج زيارة المسجد النبوي بترتيب ينظر إلى زيارة قبر النبي ﷺ كركن مكمّل للحج. مرتبطة بنقاش جدلي مع وزارة الحج السعودية حول الإذن بزيارة البقيع.",
+      "url": "https://www.haj.ir/en/About-Us",
+      "subjects": [
+        "hajj_umrah",
+        "ziyarah_traditions",
+        "iranian_islamic_governance"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "رئيس منظمة الحج والزيارة الإيرانية",
+        "وزير الثقافة والإرشاد الإيراني"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08t"
+    },
+    {
+      "id": "TUR-072",
+      "name_ar": "برامج التراث الإسلامي بوكالة تيكا التركية (TIKA Heritage)",
+      "name_en": "TIKA Islamic Heritage Restoration Programs",
+      "type": "foundation_waqf",
+      "type_group": "research_education",
+      "region": "turkey",
+      "country": "TR",
+      "founded": 1992,
+      "description_ar": "ذراع التعاون التركي الذي يموّل ترميم المساجد التاريخية والمواقع المرتبطة بالسيرة والتاريخ الإسلامي في البلقان وأفريقيا والشرق الأوسط (لا سيما سوريا والقدس والسودان والصومال)، ضمن سياسة الإحياء الثقافي العثماني. أعادت إطلاق مكتبها في دمشق وتقود مشاريع ترميم مواقع تاريخية وإسلامية متعدّدة.",
+      "url": "https://tika.gov.tr/en/",
+      "subjects": [
+        "islamic_heritage_restoration",
+        "ottoman_legacy",
+        "cultural_diplomacy"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "رئيس وكالة تيكا",
+        "هيئة الترميم العثماني"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08t"
+    },
+    {
+      "id": "ARB-093",
+      "name_ar": "موقع الإسلام سؤال وجواب – قسم السيرة النبوية",
+      "name_en": "IslamQA.info – Seerah Section",
+      "type": "digital_platform",
+      "type_group": "media_audience",
+      "region": "arabia",
+      "country": "SA",
+      "founded": 1997,
+      "description_ar": "أكبر بوّابة إفتاء سلفية على الإنترنت، تحتوي على آلاف الفتاوى والأجوبة باللغات العربية والإنجليزية والأردية وغيرها. قسم السيرة يضمّ مئات الأجوبة المفصّلة حول سيرة النبي ﷺ ومراحلها وأحداثها وأزواجه وغزواته، تستند إلى المصادر المعتمدة عند أهل السنة.",
+      "url": "https://islamqa.info/ar/categories/topics/166",
+      "subjects": [
+        "seerah_fatwa",
+        "salafi_methodology",
+        "digital_dawah"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "الشيخ محمد صالح المنجد"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "private",
+      "round": "08t"
+    },
+    {
+      "id": "LEV-055",
+      "name_ar": "بوّابة دار الإفتاء المصرية الإلكترونية",
+      "name_en": "Dar al-Ifta al-Misriyyah Online Portal",
+      "type": "digital_platform",
+      "type_group": "media_audience",
+      "region": "levant_iraq_nile",
+      "country": "EG",
+      "founded": 1895,
+      "description_ar": "البوّابة الإلكترونية الرسمية لدار الإفتاء المصرية، تقدّم خدمات الفتوى بالإنترنت والبريد والهاتف والمقابلات الشخصية، وتتضمّن «خلاصة الفتوى» (Fatwa Digest) ومحرّكاً للبحث في أرشيف الفتاوى. تحوي قسماً غزيراً لفتاوى السيرة النبوية (مولد، شمائل، أحداث، اجتهادات معاصرة)، وتعدّ المرجع الرسمي للفتوى الأشعرية-الصوفية المعتدلة في مصر.",
+      "url": "https://www.dar-alifta.org/ar",
+      "subjects": [
+        "seerah_fatwa",
+        "ash_ari_methodology",
+        "digital_dawah"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "مفتي الديار المصرية (شوقي علام – نظير عيّاد)"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "private",
+      "round": "08t"
+    },
+    {
+      "id": "NAM-237",
+      "name_ar": "موقع AskImam.org – دار الإفتاء المحمودية",
+      "name_en": "AskImam – Darul Iftaa Mahmudiyyah",
+      "type": "digital_platform",
+      "type_group": "media_audience",
+      "region": "non_arab_muslim",
+      "country": "ZA",
+      "founded": 1990,
+      "description_ar": "بوّابة فتاوى أنشأها المفتي إبراهيم ديساي (1963-2021) من جنوب أفريقيا، تتبع المنهج الحنفي الديوبندي، وتخدم متسائلين من أكثر من 123 دولة. تحتوي قاعدة بياناتها على فتاوى مفصّلة في السيرة النبوية والشمائل والآداب النبوية، يولّدها فريق علمي يشرف عليه المفتي.",
+      "url": "https://askimam.org/",
+      "subjects": [
+        "seerah_fatwa",
+        "deobandi_methodology",
+        "hanafi_fiqh",
+        "digital_dawah"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "المفتي إبراهيم ديساي (1963-2021)",
+        "علماء دار الإفتاء المحمودية"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "private",
+      "round": "08t"
+    },
+    {
+      "id": "ARB-094",
+      "name_ar": "إسلام ويب – قسم سيرة وشمائل النبي ﷺ",
+      "name_en": "Islamweb.net – Seerah / Biography of the Prophet Section",
+      "type": "digital_platform",
+      "type_group": "media_audience",
+      "region": "arabia",
+      "country": "QA",
+      "founded": 1998,
+      "description_ar": "بوّابة وزارة الأوقاف القطرية، من أكبر المواقع الإسلامية متعدّدة اللغات. قسم «سيرة وشمائل النبي» يضمّ أكثر من 248 فتوى تعالج أحداث السيرة من جوانب فقهية وعقدية وأخلاقية، إضافة إلى مكتبة مقالات وكتب وبرامج تعليمية حول السيرة بالعربية والإنجليزية والفرنسية والإسبانية.",
+      "url": "https://www.islamweb.net/ar/fatawa/7/سيرة-وشمائل-النبي",
+      "subjects": [
+        "seerah_fatwa",
+        "ash_ari_methodology",
+        "multilingual_dawah",
+        "digital_dawah"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "هيئة فتوى إسلام ويب",
+        "وزارة الأوقاف القطرية"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "private",
+      "round": "08t"
+    },
+    {
+      "id": "WEST-175",
+      "name_ar": "مؤسسة السنّة الأمريكية (ASFA) – بوّابة الفتوى الصوفية التقليدية",
+      "name_en": "As-Sunnah Foundation of America – Fatwa Portal",
+      "type": "digital_platform",
+      "type_group": "media_audience",
+      "region": "western",
+      "country": "US",
+      "founded": 1997,
+      "description_ar": "مؤسسة تعليمية تنطلق من المنهج التقليدي السني (أهل السنة والجماعة) بالمذاهب الأربعة، وتتبع الطريقة النقشبندية الحقانية، تقدّم بوّابة فتاوى ومقالات تخدم محبّي السيرة من منظور صوفي تقليدي، تشمل ردوداً على شبهات حول المولد والشمائل والتبرّك، ولها مكاتب في إندونيسيا وباكستان وإنجلترا وألمانيا وماليزيا.",
+      "url": "https://assunnahfoundation.org/",
+      "subjects": [
+        "seerah_fatwa",
+        "naqshbandi_sufism",
+        "traditional_sunni"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "الشيخ هشام قبّاني",
+        "د. جبريل فؤاد حدّاد"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "private",
+      "round": "08t"
+    },
+    {
+      "id": "ARB-095",
+      "name_ar": "مجلة البيان (الرياض) – ركن السيرة وفتاواها",
+      "name_en": "Al-Bayan Magazine (Riyadh) – Seerah Section",
+      "type": "digital_platform",
+      "type_group": "media_audience",
+      "region": "arabia",
+      "country": "SA",
+      "founded": 1986,
+      "description_ar": "مجلة فكرية إسلامية دولية شهرية، تصدر باللغة العربية وتطرح رؤية شرعية للقضايا الفكرية والمعاصرة. تتضمّن باباً متواصلاً للسيرة النبوية ودراسات تتناول أحداثها بقراءة معاصرة، إضافة إلى ركن للفتاوى المرتبطة بقضايا السيرة والشبهات حولها. تنتشر إصداراتها في 50 دولة عبر تطبيقات ومواقع.",
+      "url": "https://www.albayan.co.uk/",
+      "subjects": [
+        "seerah_fatwa",
+        "intellectual_journalism",
+        "salafi_methodology"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "هيئة تحرير البيان",
+        "أحمد بن عبد الرحمن الصويان (مؤسس)"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "private",
+      "round": "08t"
     }
   ],
-  "migration_note": "2026-05-12: + 8-ل (LATAM) + 8-م (AU/NZ) + 8-ي (Children) = 641 entities"
+  "migration_note": "2026-05-13: + 8-ط = 697 entities"
 }

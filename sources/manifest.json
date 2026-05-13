@@ -2,7 +2,7 @@
   "project": "seerah-encyclopedia",
   "description": "مسح موسوعي للكيانات المتخصصة في خدمة السيرة النبوية، موزّعاً على سبع جولات بحثية",
   "language": "ar",
-  "totalEntities": 641,
+  "totalEntities": 697,
   "rounds": [
     {
       "id": "01",
@@ -204,9 +204,20 @@
       "region_ar": "عابر للأقاليم — تركيز على الأطفال",
       "region_en": "Children & Youth — Global",
       "entityCount": 16,
-      "share": 0.025,
+      "share": 0.023,
       "type": "gap-filling-research",
       "note": "Goodword، Kube، Tughra، Muslim Kids TV، Zaky & Friends، Omar & Hana، Quran for Kids، The Sincere Seeker. أوّل تركيز ممنهج على الأطفال في الموسوعة."
+    },
+    {
+      "id": "08t",
+      "file": "round-08t-radio-chairs-mawlid.md",
+      "title_ar": "جولة 8-ط — الإذاعات، الكراسي العلمية، الموالد، الإفتاء، روسيا",
+      "region_ar": "عابر للأنماط",
+      "region_en": "Radio + Chairs + Mawlid + Fatwa + Russia",
+      "entityCount": 56,
+      "share": 0.080,
+      "type": "gap-filling-research",
+      "note": "إذاعات قرآنية 15، كراسي علمية بأسماء خليجية 9، روسيا والقوقاز 7، صنّاع محتوى 5، مجالس مولد 7، إفتاء إلكتروني 6، شركات سياحة سيراوية 5، فئات أخرى. أكبر موجة في عدد الفئات المنوّعة."
     }
   ]
 }
