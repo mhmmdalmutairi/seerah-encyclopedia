@@ -21,7 +21,8 @@
     "08l",
     "08m",
     "08y",
-    "08t"
+    "08t",
+    "09a"
   ],
   "entities": [
     {
@@ -182,9 +183,9 @@
         "ar"
       ],
       "subjects": [
-        "seerah_geography",
-        "hadith_sciences",
-        "seerah_general"
+        "madinah_studies",
+        "seerah_general",
+        "seerah_geography"
       ],
       "key_figures": [
         "سليمان بن عبدالله الرومي",
@@ -192,7 +193,7 @@
       ],
       "parent_organization_ar": "الجامعة الإسلامية بالمدينة المنورة",
       "funding_type": "private",
-      "description_ar": "كرسي علمي جامعي بتمويل الشيخ يوسف العطير. نظّم ندوة «أثر المسجد النبوي في نشر السنة والسيرة النبوية» (2020) بالشراكة مع الرئاسة العامة لشؤون الحرمين برعاية أمير المدينة.",
+      "description_ar": "كرسي علمي بالجامعة الإسلامية بالمدينة يُعنى بدراسات المسجد النبوي بوصفه قلب المدينة في العهد النبوي، ويربط بين السيرة وعمارة المسجد ومجتمع الصحابة. نظّم ندوة «أثر المسجد النبوي في نشر السنة والسيرة النبوية» (2020) بالشراكة مع رئاسة شؤون الحرمين برعاية أمير المدينة.",
       "verification": "desk_verified",
       "sources": [
         {
@@ -205,53 +206,6 @@
         "auxiliary_sciences",
         "classical_corpus",
         "geography_space"
-      ]
-    },
-    {
-      "id": "ARB-005",
-      "round": "01",
-      "name_ar": "مركز خدمة السنة والسيرة النبوية – الجامعة الإسلامية بالمدينة المنورة",
-      "type": "research_center",
-      "type_group": "research_education",
-      "country": "SA",
-      "city_ar": "المدينة المنورة",
-      "region": "arabia",
-      "founded": 1985,
-      "founded_decade": "1980s",
-      "status": "active",
-      "scale": "international",
-      "output_types": [
-        "books",
-        "encyclopedia",
-        "conference",
-        "translation"
-      ],
-      "languages": [
-        "ar"
-      ],
-      "subjects": [
-        "seerah_general",
-        "hadith_sciences",
-        "sources_critique",
-        "biography_methodology",
-        "orientalism_critique"
-      ],
-      "parent_organization_ar": "الجامعة الإسلامية بالمدينة المنورة",
-      "funding_type": "mixed",
-      "description_ar": "مركز بحثي مستقل تأسس 1406هـ بموافقة سامية. يتولى إعداد موسوعات في الحديث والسيرة، تحقيق الكتب، البحوث والترجمات، رد الشبهات، وتنظيم الندوات. الإشراف العلمي للجامعة الإسلامية وتمويل التشغيل من مجمع الملك فهد لطباعة المصحف.",
-      "verification": "desk_verified",
-      "sources": [
-        {
-          "round_file": "round-01-arabia.md",
-          "anchor": "5)"
-        }
-      ],
-      "url": "https://iu.edu.sa",
-      "inclusion_tier": "core",
-      "subjects_category": [
-        "auxiliary_sciences",
-        "classical_corpus",
-        "methodology_critique"
       ]
     },
     {
@@ -640,61 +594,6 @@
       ]
     },
     {
-      "id": "ARB-024",
-      "round": "01",
-      "name_ar": "مركز محمد بن حمد آل ثاني لإسهامات المسلمين في الحضارة",
-      "name_en": "Muhammad Bin Hamad Al Thani Center for Muslim Contribution to Civilization",
-      "aka": [
-        "CMCC"
-      ],
-      "type": "research_center",
-      "type_group": "research_education",
-      "country": "QA",
-      "city_ar": "الدوحة",
-      "region": "arabia",
-      "founded": 1983,
-      "founded_decade": "1980s",
-      "status": "active",
-      "scale": "international",
-      "output_types": [
-        "conference",
-        "books",
-        "translation"
-      ],
-      "languages": [
-        "ar",
-        "en"
-      ],
-      "subjects": [
-        "seerah_general",
-        "comparative_religion",
-        "tarjamah"
-      ],
-      "key_figures": [
-        "عائشة يوسف المناعي",
-        "رجب شانتورك",
-        "محمد المدسر علي",
-        "إبراهيم زين"
-      ],
-      "parent_organization_ar": "جامعة حمد بن خليفة (مؤسسة قطر)",
-      "funding_type": "state",
-      "description_ar": "انضم إلى كلية الدراسات الإسلامية بجامعة حمد بن خليفة 2010. ثلاثة مؤتمرات سنوية موثّقة: «السيرة النبوية والحضارة» (2023)، «أهمية دلائل النبوة في الأزمنة المعاصرة» (2024)، «الهدي النبوي في السلم والحرب» (2025). مسابقة «هدي الرسول في العلاقات بين الأمم» (2017) بجوائز تتجاوز 20 ألف دولار.",
-      "verification": "desk_verified",
-      "sources": [
-        {
-          "round_file": "round-01-arabia.md",
-          "anchor": "24)"
-        }
-      ],
-      "url": "https://www.hbku.edu.qa/ar/cis/center",
-      "inclusion_tier": "core",
-      "subjects_category": [
-        "application_outreach",
-        "classical_corpus",
-        "methodology_critique"
-      ]
-    },
-    {
       "id": "ARB-033",
       "round": "01",
       "name_ar": "مؤسسة متحف السيرة النبوية الوقفية – عُمان",
@@ -878,7 +777,7 @@
         "seerah_general"
       ],
       "funding_type": "private",
-      "description_ar": "أصدرت «اللؤلؤ المكنون في سيرة النبي المأمون» في 4 مجلدات لموسى بن راشد العازمي، «المختصر في السيرة النبوية» للعازمي 680 صفحة، «الرحيق المختوم» للمباركفوري، «في ظلال السيرة النبوية» لمشعل الفلاحي.",
+      "description_ar": "دار نشر سعودية تُعدّ من أكبر الناشرين المتخصصين بإصدار كتب السيرة النبوية المعاصرة بالعربية. أصدرت «اللؤلؤ المكنون في سيرة النبي المأمون» في 4 مجلدات لموسى العازمي، و«المختصر في السيرة النبوية» للعازمي (680 صفحة)، و«الرحيق المختوم» للمباركفوري، و«في ظلال السيرة النبوية» للفلاحي.",
       "verification": "desk_verified",
       "sources": [
         {
@@ -892,48 +791,6 @@
         "classical_corpus"
       ],
       "founded": 1984
-    },
-    {
-      "id": "ARB-046",
-      "round": "01",
-      "name_ar": "دار الصميعي للنشر والتوزيع",
-      "type": "publisher",
-      "type_group": "publishing_knowledge",
-      "country": "SA",
-      "city_ar": "الرياض",
-      "region": "arabia",
-      "status": "active",
-      "scale": "international",
-      "output_types": [
-        "books"
-      ],
-      "languages": [
-        "ar"
-      ],
-      "subjects": [
-        "seerah_general"
-      ],
-      "funding_type": "private",
-      "explicit_relations": [
-        {
-          "target": "ARB-042",
-          "type": "predecessor_of",
-          "note_ar": "نشرت «اللؤلؤ المكنون» في طبعته الأولى 1434هـ قبل انتقاله إلى ابن الجوزي"
-        }
-      ],
-      "description_ar": "أصدرت «اللؤلؤ المكنون» في طبعته الأولى 1434هـ/2013م في 4 مجلدات قبل انتقاله إلى دار ابن الجوزي.",
-      "verification": "desk_verified",
-      "sources": [
-        {
-          "round_file": "round-01-arabia.md",
-          "anchor": "46)"
-        }
-      ],
-      "inclusion_tier": "core",
-      "subjects_category": [
-        "classical_corpus"
-      ],
-      "founded": 1991
     },
     {
       "id": "ARB-047",
@@ -974,43 +831,6 @@
         "geography_space"
       ],
       "founded": 2011
-    },
-    {
-      "id": "ARB-048",
-      "round": "01",
-      "name_ar": "قناة المجد – برامج السيرة النبوية",
-      "type": "digital_platform",
-      "type_group": "media_audience",
-      "country": "SA",
-      "city_ar": "الرياض",
-      "region": "arabia",
-      "status": "active",
-      "scale": "international",
-      "output_types": [
-        "video"
-      ],
-      "languages": [
-        "ar"
-      ],
-      "subjects": [
-        "seerah_general",
-        "youth_outreach"
-      ],
-      "funding_type": "private",
-      "description_ar": "قناة فضائية ضمن إنتاجها برنامج «نبي الرحمة للأطفال» في 10 حلقات.",
-      "notes_ar": "تحت العتبة.",
-      "verification": "desk_verified",
-      "sources": [
-        {
-          "round_file": "round-01-arabia.md",
-          "anchor": "48)"
-        }
-      ],
-      "inclusion_tier": "below_threshold",
-      "subjects_category": [
-        "application_outreach",
-        "classical_corpus"
-      ]
     },
     {
       "id": "ARB-052",
@@ -1089,46 +909,6 @@
       ]
     },
     {
-      "id": "LEV-003",
-      "round": "02",
-      "name_ar": "مركز الأزهر العالمي للفتوى الإلكترونية – ملف السيرة",
-      "type": "digital_platform",
-      "type_group": "media_audience",
-      "country": "EG",
-      "city_ar": "القاهرة",
-      "region": "levant_iraq_nile",
-      "status": "active",
-      "scale": "international",
-      "output_types": [
-        "fatwa",
-        "lectures"
-      ],
-      "languages": [
-        "ar",
-        "en"
-      ],
-      "subjects": [
-        "seerah_general",
-        "sources_critique"
-      ],
-      "parent_organization_ar": "الأزهر الشريف",
-      "funding_type": "religious_authority",
-      "description_ar": "مركز فتوى رقمي عقد «الملتقى الفقهي الخامس» بعنوان «منهجية التعامل مع السيرة النبوية بين ضوابط التجديد وانحرافات التشكيك»، وأصدر «دليل الحج والعمرة».",
-      "notes_ar": "تحت العتبة.",
-      "verification": "desk_verified",
-      "sources": [
-        {
-          "round_file": "round-02-levant-iraq-nile.md",
-          "anchor": "(3)"
-        }
-      ],
-      "inclusion_tier": "below_threshold",
-      "subjects_category": [
-        "auxiliary_sciences",
-        "classical_corpus"
-      ]
-    },
-    {
       "id": "LEV-007",
       "round": "02",
       "name_ar": "وزارة الأوقاف المصرية – برنامج المنبر الثابت",
@@ -1198,7 +978,7 @@
         "راغب السرجاني"
       ],
       "funding_type": "private",
-      "description_ar": "موقع تعليمي/منصة بقيادة د. راغب السرجاني. أصدر «الرحمة في حياة الرسول» و«إحياء 354 سنة نبوية» و«فن التعامل النبوي مع غير المسلمين»، تُرجمت لعدة لغات. حائز جائزة نبي الرحمة العالمية.",
+      "description_ar": "منصة تعليمية رقمية متخصصة في التاريخ الإسلامي والسيرة النبوية بقيادة د. راغب السرجاني. أصدرت «الرحمة في حياة الرسول» و«إحياء 354 سنة نبوية» و«فن التعامل النبوي مع غير المسلمين»، وتُرجمت لعدة لغات. حائزة جائزة نبي الرحمة العالمية، ولها سلاسل مرئية متخصصة في أحداث السيرة وفقهها.",
       "verification": "desk_verified",
       "sources": [
         {
@@ -1250,7 +1030,7 @@
       ],
       "parent_organization_ar": "المؤسسة الملكية الأردنية",
       "funding_type": "state",
-      "description_ar": "مؤسسة بحثية مستقلة برئاسة الأمير غازي بن محمد. عقدت المؤتمر السابع عشر «نحو جدول تاريخي لأحداث السيرة النبوية» (2016) ومشروعاً رقمياً مستمراً. تضم نحو 130 عضواً من أكثر من 40 دولة (بترا)، وتُظهر صفحة الأعضاء الحاليين 15 عضواً نشطاً من 12 دولة (مايو 2026).",
+      "description_ar": "مؤسسة بحثية أردنية برئاسة الأمير غازي بن محمد، عقدت المؤتمر السابع عشر «نحو جدول تاريخي لأحداث السيرة النبوية» (2016) وأطلقت مشروعاً رقمياً مستمراً لتأريخ أحداث السيرة. تضم نحو 130 عضواً من أكثر من 40 دولة، وتنشط في مجال السيرة عبر مشاريع علمية كبرى.",
       "verification": "desk_verified",
       "sources": [
         {
@@ -1860,10 +1640,9 @@
         "ar"
       ],
       "subjects": [
-        "seerah_general",
         "manuscripts",
+        "seerah_general",
         "shamail",
-        "hadith_sciences",
         "sufism_seerah"
       ],
       "key_figures": [
@@ -1874,7 +1653,7 @@
       ],
       "parent_organization_ar": "الرابطة المحمدية للعلماء",
       "funding_type": "state",
-      "description_ar": "من أبرز المراكز المتخصصة بدقة في السيرة في المغرب العربي. يتميّز بتركيزه على الإرث المغربي الأندلسي. يُصدر مجلة «الشفا»، وكتاب «صور من غرائب حفظ المغاربة والأندلسيين لكتب الحديث والسيرة» (السرار، 2018)، وحقّق «الشروح المغربية على كتاب الشمائل النبوية لأبي عيسى الترمذي»، ونظّم ندوة دولية «السيرة النبوية وآفاق الاستمداد».",
+      "description_ar": "مركز بحثي مغربي متخصص بدقة في السيرة النبوية والإرث المغربي الأندلسي السيراوي. يُصدر مجلة «الشفا»، وكتاب «صور من غرائب حفظ المغاربة والأندلسيين لكتب الحديث والسيرة»، وحقّق «الشروح المغربية على كتاب الشمائل النبوية لأبي عيسى الترمذي»، ونظّم ندوة دولية «السيرة النبوية وآفاق الاستمداد».",
       "verification": "desk_verified",
       "inclusion_tier": "core",
       "sources": [
@@ -1934,155 +1713,6 @@
         "classical_corpus"
       ],
       "founded": 2006
-    },
-    {
-      "id": "MAG-003",
-      "round": "03",
-      "name_ar": "الرابطة المحمدية للعلماء",
-      "type": "research_center",
-      "type_group": "research_education",
-      "country": "MA",
-      "city_ar": "الرباط",
-      "region": "maghreb",
-      "founded": 2006,
-      "founded_decade": "2000s",
-      "status": "active",
-      "scale": "international",
-      "output_types": [
-        "journal",
-        "books",
-        "exhibition",
-        "conference"
-      ],
-      "languages": [
-        "ar"
-      ],
-      "subjects": [
-        "seerah_general",
-        "shamail",
-        "historiography"
-      ],
-      "parent_organization_ar": "الدولة المغربية (برعاية أمير المؤمنين)",
-      "funding_type": "state",
-      "explicit_relations": [
-        {
-          "target": "MAG-001",
-          "type": "parent_of"
-        },
-        {
-          "target": "MAG-002",
-          "type": "parent_of"
-        },
-        {
-          "target": "MAG-017",
-          "type": "publisher_of"
-        },
-        {
-          "target": "MAG-021",
-          "type": "partner"
-        }
-      ],
-      "description_ar": "مؤسسة علمية رسمية تأسست بظهير شريف 14 فبراير 2006، تشرف على 14 مركز دراسات و11 منبراً إعلامياً. أصدرت مجلة «الإحياء»، وكتاب «مظاهر عناية المغاربة بكتب السيرة وكتب الشمائل»، ونسّقت معرض «صلة المغاربة بالجناب النبوي الشريف، جمال المحبة والوفاء».",
-      "verification": "desk_verified",
-      "inclusion_tier": "core",
-      "sources": [
-        {
-          "round_file": "round-03-maghreb.md",
-          "anchor": "3-"
-        }
-      ],
-      "url": "https://www.arrabita.ma",
-      "subjects_category": [
-        "auxiliary_sciences",
-        "classical_corpus"
-      ]
-    },
-    {
-      "id": "MAG-009",
-      "round": "03",
-      "name_ar": "المجلس العلمي الأعلى",
-      "type": "research_center",
-      "type_group": "research_education",
-      "country": "MA",
-      "city_ar": "الرباط",
-      "region": "maghreb",
-      "status": "active",
-      "scale": "national",
-      "output_types": [
-        "journal",
-        "books",
-        "conference",
-        "lectures"
-      ],
-      "languages": [
-        "ar"
-      ],
-      "subjects": [
-        "seerah_general",
-        "manuscripts"
-      ],
-      "key_figures": [
-        "محمد يسف",
-        "اليزيد الراضي"
-      ],
-      "funding_type": "state",
-      "description_ar": "يُصدر مجلة «الجَذوة» المحكمة، أعلن برنامج إحياء ذكرى مرور 15 قرناً على مولد النبي ﷺ، ضمن خطته تحقيق «الشفا» للقاضي عياض، وندوات جهوية مكثفة في السيرة. ينتج برنامج «وذكر» بحلقات في السيرة.",
-      "verification": "desk_verified",
-      "inclusion_tier": "core",
-      "sources": [
-        {
-          "round_file": "round-03-maghreb.md",
-          "anchor": "9-"
-        }
-      ],
-      "url": "https://cso.ma",
-      "subjects_category": [
-        "auxiliary_sciences",
-        "classical_corpus"
-      ],
-      "founded": 1981
-    },
-    {
-      "id": "MAG-010",
-      "round": "03",
-      "name_ar": "وزارة الأوقاف والشؤون الإسلامية المغربية",
-      "type": "ministry_program",
-      "type_group": "institutional_infra",
-      "country": "MA",
-      "region": "maghreb",
-      "status": "active",
-      "scale": "national",
-      "output_types": [
-        "lectures",
-        "books",
-        "video",
-        "manuscripts"
-      ],
-      "languages": [
-        "ar"
-      ],
-      "subjects": [
-        "seerah_general",
-        "manuscripts",
-        "seerah_pedagogy"
-      ],
-      "funding_type": "state",
-      "description_ar": "تشرف على برنامج «الكراسي العلمية» المبثوث على القناة السادسة، تشمل «كرسي السيرة النبوية مع العلامة عبد الله بلمدني» (تجاوز 99 درساً)، وكتب التعليم العتيق في السيرة لمختلف المراحل، وإصدارات وزارية في تحقيق المخطوطات الحديثية.",
-      "verification": "desk_verified",
-      "inclusion_tier": "core",
-      "sources": [
-        {
-          "round_file": "round-03-maghreb.md",
-          "anchor": "10-"
-        }
-      ],
-      "url": "https://www.habous.gov.ma",
-      "subjects_category": [
-        "application_outreach",
-        "auxiliary_sciences",
-        "classical_corpus"
-      ],
-      "founded": 1955
     },
     {
       "id": "MAG-011",
@@ -2230,7 +1860,7 @@
       ],
       "subjects": [
         "seerah_general",
-        "hadith_sciences"
+        "sources_critique"
       ],
       "funding_type": "private",
       "explicit_relations": [
@@ -2240,7 +1870,7 @@
           "note_ar": "شريك في المؤتمر العالمي الثالث للباحثين في السيرة بفاس"
         }
       ],
-      "description_ar": "مؤسسة علمية ثقافية مستقلة تختص بالسنة والسيرة. تنتج سلسلة فيديو «كتب السيرة» (حلقات منها سيرة ابن هشام). صفحتها الرسمية على فيسبوك تضم 19,576 متابعاً.",
+      "description_ar": "مؤسسة علمية ثقافية مغربية مستقلة تختصّ بخدمة السيرة النبوية وعرض مصادرها. تنتج سلسلة فيديو «كتب السيرة» تتضمن حلقات في سيرة ابن هشام وغيرها من المصادر الكلاسيكية. صفحتها الرسمية على فيسبوك تضم نحو 19,576 متابعاً.",
       "verification": "needs_verification",
       "inclusion_tier": "core",
       "sources": [
@@ -2772,80 +2402,6 @@
       "founded": 2010
     },
     {
-      "id": "TUR-003",
-      "round": "04",
-      "name_ar": "مركز ميريديان للأبحاث الحديثية والسيرية",
-      "name_en": "Meridyen Hadith and Sira Studies Centre",
-      "type": "research_center",
-      "type_group": "research_education",
-      "country": "TR",
-      "city_ar": "إسطنبول",
-      "region": "turkey",
-      "founded": 2017,
-      "founded_decade": "2010s",
-      "status": "active",
-      "scale": "international",
-      "output_types": [
-        "journal",
-        "database",
-        "books",
-        "conference"
-      ],
-      "languages": [
-        "tr",
-        "ar",
-        "en",
-        "fr",
-        "de"
-      ],
-      "subjects": [
-        "hadith_sciences",
-        "seerah_general",
-        "orientalism_critique",
-        "sources_critique"
-      ],
-      "key_figures": [
-        "حيرتين كرامان",
-        "راشد كوجوك",
-        "عدنان دميرجان",
-        "تحسين غورغون",
-        "يافوز أونال",
-        "مليكه كوتش",
-        "فاطمة كيزيل"
-      ],
-      "parent_organization_ar": "جمعية ميريديان (Meridyen Destek Derneği)",
-      "funding_type": "private",
-      "explicit_relations": [
-        {
-          "target": "TUR-019",
-          "type": "publisher_of"
-        },
-        {
-          "target": "TUR-035",
-          "type": "parent_of"
-        },
-        {
-          "target": "TUR-040",
-          "type": "parent_of"
-        }
-      ],
-      "description_ar": "مركز أبحاث تأسس 2017 (النشاط بدأ منذ 2007 عبر بوابة سون بيغمبر دوت إنفو). يُصدر مجلة «دراسات الحديث والسيرة» المُفهرسة في إندكس إسلاميكوس منذ 2015. أطلق قاعدة بيانات الحديث في 25 مارس 2022 بـ283,000 رواية بقيادة يافوز أونال. ينظّم جوائز الحديث والسيرة منذ 2008 بـ11 دورة.",
-      "verification": "desk_verified",
-      "inclusion_tier": "core",
-      "sources": [
-        {
-          "round_file": "round-04-turkey.md",
-          "anchor": "3."
-        }
-      ],
-      "url": "https://www.meridyendernegi.org/hadis-ve-siyer-a-merkezi",
-      "subjects_category": [
-        "auxiliary_sciences",
-        "classical_corpus",
-        "methodology_critique"
-      ]
-    },
-    {
       "id": "TUR-004",
       "round": "04",
       "name_ar": "مركز أبحاث السيرة النبوية بجامعة سوتشو إمام",
@@ -2873,11 +2429,10 @@
         "en"
       ],
       "subjects": [
-        "seerah_general",
-        "sources_critique",
+        "biography_methodology",
         "comparative_religion",
-        "hadith_sciences",
-        "biography_methodology"
+        "seerah_general",
+        "sources_critique"
       ],
       "key_figures": [
         "شعبان أوز",
@@ -2904,7 +2459,7 @@
           "type": "parent_of"
         }
       ],
-      "description_ar": "وصفه مديره أ.د. شعبان أوز بأنه «المؤسسة الرسمية الأولى والوحيدة في تركيا التي تُجري أبحاثاً متخصصة في السيرة». يضم دار نشر إلكترونية مجانية تجاوزت 100 كتاب، ومجلة «السيرة الأكاديمية»، ومؤتمرات «ندوة الأكاديميين الشباب» بـ4 دورات.",
+      "description_ar": "مركز أبحاث جامعي تركي وصفه مديره أ.د. شعبان أوز بأنه «المؤسسة الرسمية الأولى والوحيدة في تركيا التي تُجري أبحاثاً متخصصة في السيرة». يضم دار نشر إلكترونية مجانية تجاوزت 100 كتاب في السيرة، ومجلة «السيرة الأكاديمية»، ومؤتمرات «ندوة الأكاديميين الشباب» بـ4 دورات.",
       "verification": "desk_verified",
       "inclusion_tier": "core",
       "sources": [
@@ -3219,15 +2774,14 @@
         "tr"
       ],
       "subjects": [
-        "seerah_general",
         "comparative_religion",
-        "early_islam"
+        "seerah_general"
       ],
       "key_figures": [
         "ليفنت أوزتورك"
       ],
       "funding_type": "state",
-      "description_ar": "أ.د. ليفنت أوزتورك متخصص بالسيرة وتاريخ الإسلام المبكر. دراسات سيرية ومقارنة (المسلمون-اليهود في صدر الإسلام).",
+      "description_ar": "قسم السيرة والتاريخ الإسلامي بجامعة سكاريا التركية. أ.د. ليفنت أوزتورك متخصص بالسيرة والإسلام المبكر، له دراسات في السيرة المقارنة لعلاقة المسلمين باليهود زمن النبوة وبيئة المدينة.",
       "verification": "desk_verified",
       "inclusion_tier": "core",
       "sources": [
@@ -3517,62 +3071,6 @@
       ]
     },
     {
-      "id": "TUR-019",
-      "round": "04",
-      "name_ar": "مجلة الدراسات الحديثية والسيرية",
-      "name_en": "Hadis ve Siyer Araştırmaları Dergisi",
-      "type": "journal",
-      "type_group": "publishing_knowledge",
-      "country": "TR",
-      "city_ar": "إسطنبول",
-      "region": "turkey",
-      "founded": 2015,
-      "founded_decade": "2010s",
-      "status": "active",
-      "scale": "international",
-      "output_types": [
-        "journal"
-      ],
-      "languages": [
-        "tr",
-        "ar",
-        "en",
-        "fr",
-        "de"
-      ],
-      "subjects": [
-        "hadith_sciences",
-        "seerah_general",
-        "orientalism_critique"
-      ],
-      "key_figures": [
-        "فاطمة كيزيل"
-      ],
-      "parent_organization_ar": "مركز ميريديان",
-      "funding_type": "private",
-      "explicit_relations": [
-        {
-          "target": "TUR-003",
-          "type": "child_of"
-        }
-      ],
-      "description_ar": "مفهرسة في Index Islamicus منذ 2015 — المجلة السيرية-الحديثية الوحيدة من تركيا في هذه الفهرسة. مجلدان سنويان، آخرها المجلد 11 (2025).",
-      "verification": "desk_verified",
-      "inclusion_tier": "core",
-      "sources": [
-        {
-          "round_file": "round-04-turkey.md",
-          "anchor": "19."
-        }
-      ],
-      "url": "https://www.hadisvesiyer.info/",
-      "subjects_category": [
-        "auxiliary_sciences",
-        "classical_corpus",
-        "methodology_critique"
-      ]
-    },
-    {
       "id": "TUR-020",
       "round": "04",
       "name_ar": "مجلة السيرة الأكاديمية",
@@ -3849,44 +3347,6 @@
       "subjects_category": [
         "classical_corpus",
         "methodology_critique"
-      ]
-    },
-    {
-      "id": "TUR-028",
-      "round": "04",
-      "name_ar": "دار رئاسة الديانة",
-      "name_en": "Diyanet İşleri Başkanlığı Yayınları",
-      "type": "publisher",
-      "type_group": "publishing_knowledge",
-      "country": "TR",
-      "region": "turkey",
-      "status": "active",
-      "scale": "international",
-      "output_types": [
-        "books"
-      ],
-      "languages": [
-        "tr",
-        "ar",
-        "en"
-      ],
-      "subjects": [
-        "seerah_general"
-      ],
-      "parent_organization_ar": "رئاسة الشؤون الدينية",
-      "funding_type": "state",
-      "description_ar": "قسم سيرة كامل في متجر الديانة. «حياة النبي ﷺ» لكسكي أوغلو، إصدارات بعدة لغات.",
-      "verification": "desk_verified",
-      "inclusion_tier": "borderline",
-      "sources": [
-        {
-          "round_file": "round-04-turkey.md",
-          "anchor": "28."
-        }
-      ],
-      "url": "https://yayinsatis.diyanet.gov.tr/siyer",
-      "subjects_category": [
-        "classical_corpus"
       ]
     },
     {
@@ -4290,52 +3750,6 @@
       ]
     },
     {
-      "id": "TUR-040",
-      "round": "04",
-      "name_ar": "جوائز الحديث والسيرة السنوية",
-      "name_en": "Hadis ve Siyer Araştırmaları Ödülleri",
-      "type": "award",
-      "type_group": "institutional_infra",
-      "country": "TR",
-      "city_ar": "إسطنبول",
-      "region": "turkey",
-      "founded": 2008,
-      "founded_decade": "2000s",
-      "status": "active",
-      "scale": "national",
-      "output_types": [
-        "conference"
-      ],
-      "languages": [
-        "tr"
-      ],
-      "subjects": [
-        "hadith_sciences",
-        "seerah_general"
-      ],
-      "parent_organization_ar": "مركز ميريديان",
-      "funding_type": "private",
-      "explicit_relations": [
-        {
-          "target": "TUR-003",
-          "type": "child_of"
-        }
-      ],
-      "description_ar": "11 دورة منذ 2008 (آخرها 2024-2025). فئات: ماجستير، دكتوراه، مقال؛ جائزة شرفية (Onur Ödülü). الفائزون بجائزة الشرف: قنديمير 2008، تشاكان 2009، جنان 2010، سراج 2011، فايدة 2013، كوجوك 2015، قوجييت 2017، سيرما 2019، صنديقجي 2021، بولات 2023، علماء غزة 2025.",
-      "verification": "desk_verified",
-      "inclusion_tier": "core",
-      "sources": [
-        {
-          "round_file": "round-04-turkey.md",
-          "anchor": "40."
-        }
-      ],
-      "subjects_category": [
-        "auxiliary_sciences",
-        "classical_corpus"
-      ]
-    },
-    {
       "id": "TUR-042",
       "round": "04",
       "name_ar": "الندوة الوطنية للأكاديميين الشباب",
@@ -4536,10 +3950,9 @@
         "tr"
       ],
       "subjects": [
-        "seerah_general",
-        "sources_critique",
         "biography_methodology",
-        "early_islam"
+        "seerah_general",
+        "sources_critique"
       ],
       "parent_organization_ar": "جامعة إسطنبول",
       "explicit_relations": [
@@ -4548,7 +3961,7 @@
           "type": "child_of"
         }
       ],
-      "description_ar": "في جامعة إسطنبول منذ 2012. تخصص: مصادر السيرة، التاريخ الإسلامي المبكر. كتب أبرز: «السيرة» (دار بيان)، «السيرة بوصفها علماً ومصادرها» (دار سِيَر). إشراف على سلسلة «نبي الإنسانية جمعاء» (دار بيان).",
+      "description_ar": "أستاذ السيرة بقسم التاريخ الإسلامي بجامعة إسطنبول منذ 2012. تخصصه: مصادر السيرة وتاريخها النصي. مؤلفاته الأبرز: «السيرة» (دار بيان)، «السيرة بوصفها علماً ومصادرها» (دار سِيَر)، ويُشرف على سلسلة «نبي الإنسانية جمعاء» (دار بيان).",
       "verification": "desk_verified",
       "inclusion_tier": "core",
       "sources": [
@@ -4915,49 +4328,6 @@
       ]
     },
     {
-      "id": "TUR-057",
-      "round": "04",
-      "name_ar": "رئاسة الشؤون الدينية التركية – مديرية المنشورات",
-      "name_en": "Diyanet İşleri Başkanlığı",
-      "type": "ministry_program",
-      "type_group": "institutional_infra",
-      "country": "TR",
-      "city_ar": "أنقرة",
-      "region": "turkey",
-      "status": "active",
-      "scale": "international",
-      "output_types": [
-        "books",
-        "journal",
-        "lectures"
-      ],
-      "languages": [
-        "tr",
-        "ar",
-        "en",
-        "de"
-      ],
-      "subjects": [
-        "seerah_general",
-        "shamail"
-      ],
-      "funding_type": "state",
-      "description_ar": "أسبوع المولد النبوي السنوي («أسبوع ليلة المولد»)؛ خطب المولد بلغات متعددة؛ كتاب «خاتم الأنبياء محمد ﷺ وحياته»؛ «في الذكرى الـ1500 لميلاده، رحمة للعالمين محمد ﷺ» (تيمة 2025-2026)؛ مجلتي «مجلة الديانة» و«الدين والحياة».",
-      "verification": "desk_verified",
-      "inclusion_tier": "core",
-      "sources": [
-        {
-          "round_file": "round-04-turkey.md",
-          "anchor": "57."
-        }
-      ],
-      "url": "https://diniyayinlar.diyanet.gov.tr/",
-      "subjects_category": [
-        "classical_corpus"
-      ],
-      "founded": 1924
-    },
-    {
       "id": "TUR-060",
       "round": "04",
       "name_ar": "نادي أبحاث السيرة بكلية الإلهيات بجامعة إسطنبول",
@@ -5252,139 +4622,6 @@
       "founded": 1922
     },
     {
-      "id": "NAM-010",
-      "round": "05",
-      "name_ar": "الجامعة السلفية – بنارس",
-      "type": "university_department",
-      "type_group": "research_education",
-      "country": "IN",
-      "city_ar": "بنارس",
-      "region": "non_arab_muslim",
-      "status": "active",
-      "scale": "national",
-      "output_types": [
-        "books"
-      ],
-      "languages": [
-        "ur",
-        "ar"
-      ],
-      "subjects": [
-        "seerah_general"
-      ],
-      "key_figures": [
-        "صفي الرحمن المباركفوري"
-      ],
-      "description_ar": "جذور تأسيسية للشيخ صفي الرحمن المباركفوري (مؤلف الرحيق المختوم) قبل انتقاله للجامعة الإسلامية بالمدينة. تأثر التراث المباركفوري الغني في السيرة الأردية والعربية.",
-      "notes_ar": "النشاط السيري المستقل المعاصر يحتاج تحقيقاً إضافياً.",
-      "verification": "needs_verification",
-      "inclusion_tier": "borderline",
-      "sources": [
-        {
-          "round_file": "round-05-non-arab-muslim.md",
-          "anchor": "10."
-        }
-      ],
-      "subjects_category": [
-        "classical_corpus"
-      ],
-      "url": "https://aljamiatussalafiah.org/",
-      "founded": 1963
-    },
-    {
-      "id": "NAM-011",
-      "round": "05",
-      "name_ar": "ندوة العلماء – لكناو",
-      "name_en": "Darul Uloom Nadwatul Ulama",
-      "type": "university_center",
-      "type_group": "research_education",
-      "country": "IN",
-      "city_ar": "لكناو",
-      "region": "non_arab_muslim",
-      "founded": 1898,
-      "founded_decade": "1890s",
-      "status": "active",
-      "scale": "international",
-      "output_types": [
-        "books",
-        "journal"
-      ],
-      "languages": [
-        "ar",
-        "ur",
-        "en",
-        "hi"
-      ],
-      "subjects": [
-        "seerah_general",
-        "tarjamah"
-      ],
-      "key_figures": [
-        "بلال عبد الحي الحسني الندوي",
-        "أبو الحسن علي الندوي"
-      ],
-      "funding_type": "private",
-      "description_ar": "أصدرت «أكاديمية البحوث والمنشورات الإسلامية»: «محمد رسول الله» لأبي الحسن علي الندوي و«قصص النبيين» (5 أجزاء). تُصدر مجلات «الرائد» و«البعث الإسلامي» (عربية)، «تعمير حياة» (أردية)، «العبير» (إنجليزية)، «سچا راهي» (هندية).",
-      "verification": "desk_verified",
-      "inclusion_tier": "core",
-      "sources": [
-        {
-          "round_file": "round-05-non-arab-muslim.md",
-          "anchor": "11."
-        }
-      ],
-      "subjects_category": [
-        "application_outreach",
-        "classical_corpus"
-      ],
-      "url": "https://www.nadwa.in/en/"
-    },
-    {
-      "id": "NAM-012",
-      "round": "05",
-      "name_ar": "قسم الدراسات الإسلامية – جامعة عليكره الإسلامية + لجنة السيرة",
-      "name_en": "AMU Department of Islamic Studies + Seerat Committee",
-      "type": "university_department",
-      "type_group": "research_education",
-      "country": "IN",
-      "city_ar": "عليكره",
-      "region": "non_arab_muslim",
-      "status": "active",
-      "scale": "national",
-      "output_types": [
-        "conference",
-        "lectures"
-      ],
-      "languages": [
-        "en",
-        "ur"
-      ],
-      "subjects": [
-        "seerah_general",
-        "comparative_religion",
-        "orientalism_critique"
-      ],
-      "key_figures": [
-        "عبيد الله فهد"
-      ],
-      "parent_organization_ar": "جامعة عليكره الإسلامية",
-      "funding_type": "state",
-      "description_ar": "النشاط 2019-2026: الندوة الوطنية «تصور غير المسلمين لنبي الإسلام» 27 يناير 2017، الندوة الوطنية للسيرة 2018 برئاسة عبيد الله فهد، دورة تنشيطية في الدراسات الاستشراقية (26 أكتوبر - 8 نوفمبر 2023).",
-      "verification": "desk_verified",
-      "inclusion_tier": "core",
-      "sources": [
-        {
-          "round_file": "round-05-non-arab-muslim.md",
-          "anchor": "12."
-        }
-      ],
-      "url": "https://www.amu.ac.in/department/islamic-studies",
-      "subjects_category": [
-        "classical_corpus",
-        "methodology_critique"
-      ]
-    },
-    {
       "id": "NAM-013",
       "round": "05",
       "name_ar": "أكاديمية الإمام أحمد رضا – بريلي",
@@ -5547,81 +4784,6 @@
       ]
     },
     {
-      "id": "NAM-028",
-      "round": "05",
-      "name_ar": "بسانترين الأمانة بحر العلوم + شبكة Pesantren التقليدية",
-      "type": "foundation_waqf",
-      "type_group": "research_education",
-      "country": "ID",
-      "region": "non_arab_muslim",
-      "status": "active",
-      "scale": "national",
-      "output_types": [
-        "lectures",
-        "books"
-      ],
-      "languages": [
-        "id"
-      ],
-      "subjects": [
-        "shamail",
-        "sufism_seerah"
-      ],
-      "funding_type": "private",
-      "description_ar": "شبكة مدارس تقليدية تقرأ كتب المولد (ديباعي، برزنجي، سمط الدرر، بردة). قراءة كتب المولد ممارسة سيرية شعبية واسعة.",
-      "notes_ar": "ممارسة سيرية شعبية، صعبة الحصر المؤسسي.",
-      "verification": "desk_verified",
-      "inclusion_tier": "borderline",
-      "sources": [
-        {
-          "round_file": "round-05-non-arab-muslim.md",
-          "anchor": "28."
-        }
-      ],
-      "subjects_category": [
-        "application_outreach",
-        "classical_corpus"
-      ]
-    },
-    {
-      "id": "NAM-029",
-      "round": "05",
-      "name_ar": "بيسانترين الأسعدية – سينجكانج",
-      "type": "university_center",
-      "type_group": "research_education",
-      "country": "ID",
-      "city_ar": "سنغكانغ",
-      "region": "non_arab_muslim",
-      "status": "active",
-      "scale": "national",
-      "output_types": [
-        "courses",
-        "lectures"
-      ],
-      "languages": [
-        "id"
-      ],
-      "subjects": [
-        "shamail",
-        "seerah_general"
-      ],
-      "funding_type": "private",
-      "description_ar": "بيت من بيوت تعليم السيرة والمولد البرزنجي في إندونيسيا.",
-      "verification": "desk_verified",
-      "inclusion_tier": "borderline",
-      "sources": [
-        {
-          "round_file": "round-05-non-arab-muslim.md",
-          "anchor": "29."
-        }
-      ],
-      "subjects_category": [
-        "classical_corpus"
-      ],
-      "name_ar_original": "Pesantren As'adiyah Sengkang",
-      "founded": 1930
-    },
-    {
       "id": "NAM-031",
       "round": "05",
       "name_ar": "مكتبة سانتري (تطبيقات السيرة الإندونيسية)",
@@ -5688,84 +4850,6 @@
       ]
     },
     {
-      "id": "NAM-039",
-      "round": "05",
-      "name_ar": "شبكة جامعات Mouride – توبا",
-      "type": "foundation_waqf",
-      "type_group": "research_education",
-      "country": "SN",
-      "city_ar": "توبا",
-      "region": "non_arab_muslim",
-      "founded": 1885,
-      "founded_decade": "1880s",
-      "status": "active",
-      "scale": "international",
-      "output_types": [
-        "lectures",
-        "books"
-      ],
-      "languages": [
-        "ar"
-      ],
-      "subjects": [
-        "shamail",
-        "sufism_seerah"
-      ],
-      "key_figures": [
-        "أحمد بمبا مباكي"
-      ],
-      "funding_type": "private",
-      "description_ar": "تراث الشيخ أحمد بمبا مباكي (1853-1927). شبكة دينية ضخمة تنشر تراثاً سيرياً بالعجمية الوولفية + العربية. شروح «مسالك الجنان» مع التركيز السيري؛ مؤسسة الدارة؛ مهرجان «الـمَغَال» السنوي بطوبا بحضور الملايين.",
-      "verification": "desk_verified",
-      "inclusion_tier": "borderline",
-      "sources": [
-        {
-          "round_file": "round-05-non-arab-muslim.md",
-          "anchor": "39."
-        }
-      ],
-      "subjects_category": [
-        "application_outreach",
-        "classical_corpus"
-      ]
-    },
-    {
-      "id": "NAM-040",
-      "round": "05",
-      "name_ar": "شبكة التيجانية في غرب أفريقيا",
-      "type": "foundation_waqf",
-      "type_group": "research_education",
-      "country": "SN",
-      "region": "non_arab_muslim",
-      "status": "active",
-      "scale": "international",
-      "output_types": [
-        "lectures"
-      ],
-      "languages": [
-        "ar",
-        "ha"
-      ],
-      "subjects": [
-        "shamail",
-        "sufism_seerah"
-      ],
-      "funding_type": "private",
-      "description_ar": "شبكة طرق صوفية متعددة المراكز في السنغال والنيجر ونيجيريا ومالي. تتلو موالد ومدائح نبوية بالولوف والهوسا.",
-      "verification": "desk_verified",
-      "inclusion_tier": "borderline",
-      "sources": [
-        {
-          "round_file": "round-05-non-arab-muslim.md",
-          "anchor": "40."
-        }
-      ],
-      "subjects_category": [
-        "application_outreach",
-        "classical_corpus"
-      ]
-    },
-    {
       "id": "NAM-047",
       "round": "05",
       "name_ar": "[توثيق فجوة] القرن الإفريقي وغرب أفريقيا غير الفرنكوفونية",
@@ -5796,56 +4880,6 @@
       ]
     },
     {
-      "id": "NAM-048",
-      "round": "05",
-      "name_ar": "مؤسسة دار الحديث العلمية الثقافية",
-      "name_en": "Dar al-Hadith Scientific-Cultural Institute",
-      "type": "research_center",
-      "type_group": "research_education",
-      "country": "IR",
-      "city_ar": "الري (طهران)",
-      "region": "non_arab_muslim",
-      "founded": 1995,
-      "founded_decade": "1990s",
-      "status": "active",
-      "scale": "international",
-      "output_types": [
-        "books",
-        "encyclopedia",
-        "journal",
-        "courses"
-      ],
-      "languages": [
-        "ar"
-      ],
-      "subjects": [
-        "ahlulbayt",
-        "hadith_sciences",
-        "seerah_general"
-      ],
-      "key_figures": [
-        "محمد محمدي ري‌شهري",
-        "محمد كاظم الطباطبائي"
-      ],
-      "parent_organization_ar": "بمرسوم من قائد الثورة",
-      "funding_type": "religious_authority",
-      "description_ar": "أسسها آية الله محمد محمدي ري‌شهري (ت. 21 مارس 2022). فروع: قم، مشهد، بيروت. تضم پژوهشگاه قرآن وحدیث + دانشگاه قرآن وحدیث. منشورات سيرية رئيسية: «سيرة بيغمبر خاتم(ص)» في 7 مجلدات (4665 حديث ونص تاريخي و51 تحليل)، «گزيده سيره پيامبر خاتم(ص)»، «حكمت‌نامه پيامبر اعظم(ص)»، «دانشنامه قرآن و حديث» (16 مجلداً).",
-      "verification": "desk_verified",
-      "inclusion_tier": "core",
-      "sources": [
-        {
-          "round_file": "round-05-non-arab-muslim.md",
-          "anchor": "48."
-        }
-      ],
-      "url": "https://www.reyshahri.ir",
-      "subjects_category": [
-        "auxiliary_sciences",
-        "classical_corpus",
-        "prophetic_demography"
-      ]
-    },
-    {
       "id": "NAM-050",
       "round": "05",
       "name_ar": "پژوهشكده تاريخ وسيره أهل البيت – ISCA",
@@ -5868,6 +4902,7 @@
       ],
       "subjects": [
         "ahlulbayt",
+        "biography_methodology",
         "historiography",
         "seerah_general"
       ],
@@ -5880,7 +4915,7 @@
       ],
       "parent_organization_ar": "دفتر تبليغات إسلامي – حوزه علميه قم",
       "funding_type": "religious_authority",
-      "description_ar": "تأسست 1985 كمركز ثم پژوهشكده ضمن پژوهشگاه (تأسس 2005). منشورات سيرية: «جعل حديث در فرهنگ إسلامي»، «رويدادهاي تاريخ إسلام» (ترجمة)، دوفصلنامه «الفكر السياسي الإسلامي» (العدد 7)، مجلة «آينه پژوهش». الإنتاج السنوي ~100 عنوان جديد.",
+      "description_ar": "پژوهشكده شيعي إيراني متخصص في تاريخ السيرة النبوية وأهل البيت ضمن أكاديمية ISCA. منشورات سيرية: «جعل حديث در فرهنگ إسلامي» في نقد روايات السيرة، «رويدادهاي تاريخ إسلام» (ترجمة)، دوفصلنامه «الفكر السياسي الإسلامي»، مجلة «آينه پژوهش». الإنتاج السنوي ~100 عنوان جديد.",
       "verification": "desk_verified",
       "inclusion_tier": "core",
       "sources": [
@@ -6031,45 +5066,6 @@
       "subjects_category": [
         "auxiliary_sciences",
         "classical_corpus"
-      ]
-    },
-    {
-      "id": "NAM-056",
-      "round": "05",
-      "name_ar": "منصة يوسف غلامي – دفتر نشر معارف",
-      "type": "individual_researcher",
-      "type_group": "individual_actors",
-      "country": "IR",
-      "region": "non_arab_muslim",
-      "status": "active",
-      "scale": "national",
-      "output_types": [
-        "books"
-      ],
-      "languages": [
-        "ar"
-      ],
-      "subjects": [
-        "seerah_general",
-        "ahlulbayt"
-      ],
-      "key_figures": [
-        "يوسف غلامي"
-      ],
-      "parent_organization_ar": "دفتر نشر معارف (تابع لنهاد نمايندگي مقام معظم رهبري في الجامعات)",
-      "funding_type": "religious_authority",
-      "description_ar": "يوسف غلامي (مولود 1960). إصدارات: «پس از غروب» (تحليل أحداث ما بعد رحيل النبي ﷺ)، «گزيده كتاب پس از غروب» (طبعات متجددة 2019-2024).",
-      "verification": "desk_verified",
-      "inclusion_tier": "core",
-      "sources": [
-        {
-          "round_file": "round-05-non-arab-muslim.md",
-          "anchor": "56."
-        }
-      ],
-      "subjects_category": [
-        "classical_corpus",
-        "prophetic_demography"
       ]
     },
     {
@@ -6352,15 +5348,14 @@
       ],
       "subjects": [
         "seerah_general",
-        "sources_critique",
-        "hadith_sciences"
+        "sources_critique"
       ],
       "key_figures": [
         "أندرياس غوركه",
         "كارول هيلينبراند"
       ],
       "funding_type": "state",
-      "description_ar": "أندرياس غوركه (أحد ثلاثي مدرسة «الإسناد مع المتن»). سلسلة «دراسات إدنبرة في التاريخ والثقافة الإسلامية الكلاسيكية» بتحرير هيلنبراند. الموقع: مدرسة إعادة التأهيل.",
+      "description_ar": "كلية إدنبرة للدراسات الإسلامية والشرق أوسطية، تركة أندرياس غوركه أحد ثلاثي مدرسة «الإسناد مع المتن» في دراسة مرويات السيرة. تُصدر سلسلة «دراسات إدنبرة في التاريخ والثقافة الإسلامية الكلاسيكية»، وتُعنى بنقد مصادر السيرة الأولى من منظور أكاديمي غربي.",
       "verification": "desk_verified",
       "inclusion_tier": "core",
       "sources": [
@@ -6487,9 +5482,9 @@
         "en"
       ],
       "subjects": [
+        "biography_methodology",
         "seerah_general",
-        "hadith_sciences",
-        "biography_methodology"
+        "sources_critique"
       ],
       "key_figures": [
         "روجيرو فيمركاتي سانسيفيرينو",
@@ -6499,7 +5494,7 @@
         "بسنيك سيناني"
       ],
       "funding_type": "state",
-      "description_ar": "فيمركاتي سانسيفيرينو كرسي «دراسات الحديث اللاهوتية» — يدرس السيرة كشهادة حية إسلامية، يدير ندوات السيرة مع عوف وسناني. عدد خاص من مجلة «أرابيكا» 2023 حول كتابة السيرة. كيان نموذجي يخدم السيرة في السياق الأكاديمي الألماني.",
+      "description_ar": "مركز اللاهوت الإسلامي بجامعة توبنغن. فيمركاتي سانسيفيرينو كرسي «دراسات الحديث اللاهوتية» يدرس السيرة كشهادة حية إسلامية، ويدير ندوات السيرة مع عوف وسناني. عدد خاص من مجلة «أرابيكا» (2023) حول كتابة السيرة. كيان نموذجي يخدم السيرة في السياق الأكاديمي الألماني.",
       "verification": "desk_verified",
       "inclusion_tier": "core",
       "sources": [
@@ -6514,46 +5509,6 @@
         "methodology_critique"
       ],
       "url": "https://uni-tuebingen.de/fakultaeten/zentrum-fuer-islamische-theologie/zentrum/"
-    },
-    {
-      "id": "WEST-067",
-      "round": "06",
-      "name_ar": "جامعة بازل – تركة غريغور شويلر",
-      "name_en": "Universität Basel — Gregor Schoeler legacy",
-      "type": "university_department",
-      "type_group": "research_education",
-      "country": "CH",
-      "city_ar": "بازل",
-      "region": "western",
-      "status": "active",
-      "scale": "international",
-      "languages": [
-        "de",
-        "en"
-      ],
-      "subjects": [
-        "sources_critique",
-        "hadith_sciences",
-        "biography_methodology"
-      ],
-      "key_figures": [
-        "غريغور شويلر"
-      ],
-      "funding_type": "state",
-      "description_ar": "متقاعد، أحد ثلاثي مدرسة Isnad-cum-Matn.",
-      "verification": "desk_verified",
-      "inclusion_tier": "core",
-      "sources": [
-        {
-          "round_file": "round-06-western.md",
-          "anchor": "67."
-        }
-      ],
-      "subjects_category": [
-        "auxiliary_sciences",
-        "methodology_critique"
-      ],
-      "founded": 1460
     },
     {
       "id": "WEST-083",
@@ -6927,58 +5882,6 @@
       ]
     },
     {
-      "id": "NAM-081",
-      "round": "08a",
-      "name_ar": "دار العلوم ندوة العلماء – لكهنو",
-      "name_en": "Darul Uloom Nadwatul Ulama, Lucknow",
-      "type": "research_center",
-      "type_group": "research_education",
-      "country": "IN",
-      "city_ar": "لكهنو",
-      "region": "non_arab_muslim",
-      "founded": 1898,
-      "founded_decade": "1890s",
-      "status": "active",
-      "scale": "international",
-      "url": "https://www.nadwa.in/en/",
-      "funding_type": "waqf",
-      "subjects": [
-        "seerah_general",
-        "maghazi",
-        "biography_methodology",
-        "historiography"
-      ],
-      "subjects_category": [
-        "classical_corpus",
-        "methodology_critique",
-        "auxiliary_sciences"
-      ],
-      "languages": [
-        "ar",
-        "ur",
-        "en"
-      ],
-      "output_types": [
-        "books",
-        "journal",
-        "courses"
-      ],
-      "description_ar": "أُسّست 1898 على يد محمد علي مونگيري، بمبادرة ندوة العلماء (مجلس 1893). جمعت بين منهج ديوبند التقليدي ومنهج عليكره الحديث. مدرسة سيرة عريقة عبر شبلي النعماني وسليمان الندوي ثم أبي الحسن علي الندوي.",
-      "key_figures": [
-        "محمد علي مونگيري (مؤسس)",
-        "أبو الحسن علي الندوي",
-        "محمد الرابع الحسني الندوي"
-      ],
-      "verification": "desk_verified",
-      "inclusion_tier": "core",
-      "sources": [
-        {
-          "round_file": "round-08a-south-asia.md",
-          "anchor": "NAM-081 — Nadwa"
-        }
-      ]
-    },
-    {
       "id": "NAM-084",
       "round": "08a",
       "name_ar": "دار المصنفين شبلي أكاديمي – أعظم گرة",
@@ -7277,11 +6180,10 @@
       "scale": "international",
       "funding_type": "private",
       "subjects": [
-        "seerah_general",
-        "maghazi",
         "biography_methodology",
-        "sources_critique",
-        "ahl_al_sunna"
+        "maghazi",
+        "seerah_general",
+        "sources_critique"
       ],
       "subjects_category": [
         "classical_corpus",
@@ -7299,7 +6201,7 @@
         "podcast_episode",
         "courses"
       ],
-      "description_ar": "عالم سلفي أمريكي معاصر، شارك في تأسيس معهد «المغرب». سلسلته «سيرة النبي» (~100 محاضرة) من أهم سلاسل السيرة باللغة الإنجليزية عالمياً. عميد «مركز إيست بلانو الإسلامي».",
+      "description_ar": "عالم سلفي أمريكي معاصر شارك في تأسيس معهد «المغرب». سلسلته «سيرة النبي» (~100 محاضرة) من أهم سلاسل السيرة باللغة الإنجليزية عالمياً، وله إنتاج علمي مكتوب في فقه السيرة ومنهجها ومصادرها. منصته الرقمية المرجع الأبرز للسيرة بالإنجليزية للمسلمين الناطقين بها.",
       "key_figures": [
         "د. ياسر قاضي"
       ],
@@ -7312,167 +6214,6 @@
         }
       ],
       "url": "https://www.yasirqadhi.com/"
-    },
-    {
-      "id": "ARB-062",
-      "round": "08b",
-      "name_ar": "مكتبة المسجد النبوي",
-      "name_en": "Library of the Prophet's Mosque",
-      "type": "library_archive",
-      "type_group": "publishing_knowledge",
-      "country": "SA",
-      "city_ar": "المدينة المنورة",
-      "region": "arabia",
-      "founded": 1933,
-      "founded_decade": "1930s",
-      "status": "active",
-      "scale": "international",
-      "url": "https://alharamain.gov.sa/public/?page=nabawi-library-ar",
-      "parent_organization_ar": "الرئاسة العامة لشؤون الحرمين الشريفين",
-      "funding_type": "state",
-      "subjects": [
-        "seerah_general",
-        "maghazi",
-        "shamail",
-        "hadith_sciences",
-        "manuscripts",
-        "sources_critique"
-      ],
-      "subjects_category": [
-        "classical_corpus",
-        "auxiliary_sciences"
-      ],
-      "languages": [
-        "ar",
-        "en",
-        "ur",
-        "fr",
-        "id"
-      ],
-      "output_types": [
-        "books",
-        "manuscripts",
-        "database"
-      ],
-      "description_ar": "تأسّست 1352هـ/1933م. تضمّ 182 ألف كتاب + 143,105 كتاب رقمي + أرشيف 43 مليون صفحة رقمية. تخصّصات: القرآن، الحديث، الفقه، السيرة، اللغة العربية، الفنون.",
-      "explicit_relations": [
-        {
-          "target": "ARB-061",
-          "type": "child_of"
-        }
-      ],
-      "verification": "desk_verified",
-      "inclusion_tier": "core",
-      "sources": [
-        {
-          "round_file": "round-08b-mosque-museum-african.md",
-          "anchor": "ARB-062 — Library Prophet's Mosque"
-        }
-      ]
-    },
-    {
-      "id": "ARB-063",
-      "round": "08b",
-      "name_ar": "معهد المسجد النبوي الشريف",
-      "name_en": "Institute of the Prophet's Mosque",
-      "type": "research_center",
-      "type_group": "research_education",
-      "country": "SA",
-      "city_ar": "المدينة المنورة",
-      "region": "arabia",
-      "founded_decade": "1990s",
-      "status": "active",
-      "scale": "international",
-      "url": "https://gph.edu.sa/public/?site=ins",
-      "parent_organization_ar": "الرئاسة العامة لشؤون الحرمين الشريفين",
-      "funding_type": "state",
-      "subjects": [
-        "seerah_general",
-        "hadith_sciences",
-        "biography_methodology",
-        "seerah_pedagogy"
-      ],
-      "subjects_category": [
-        "classical_corpus",
-        "auxiliary_sciences",
-        "application_outreach"
-      ],
-      "languages": [
-        "ar",
-        "en"
-      ],
-      "output_types": [
-        "courses",
-        "lectures",
-        "books"
-      ],
-      "description_ar": "معهد علمي تابع للرئاسة العامة، يقدّم دبلومات وشهادات في علوم السيرة والحديث والإفتاء. يستهدف أئمة وخطباء الحرمين.",
-      "explicit_relations": [
-        {
-          "target": "ARB-061",
-          "type": "child_of"
-        }
-      ],
-      "verification": "desk_verified",
-      "inclusion_tier": "core",
-      "sources": [
-        {
-          "round_file": "round-08b-mosque-museum-african.md",
-          "anchor": "ARB-063 — Institute Prophet's Mosque"
-        }
-      ]
-    },
-    {
-      "id": "NAM-098",
-      "round": "08b",
-      "name_ar": "معهد أحمد بابا للتعليم العالي والبحوث الإسلامية – تمبكتو",
-      "name_en": "Ahmed Baba Institute (IHERI-AB), Timbuktu",
-      "type": "library_archive",
-      "type_group": "publishing_knowledge",
-      "country": "ML",
-      "city_ar": "تمبكتو",
-      "region": "non_arab_muslim",
-      "founded": 1973,
-      "founded_decade": "1970s",
-      "status": "active",
-      "status_note_ar": "أُجلِيت مخطوطاته 2012-2025 إثر أزمة شمال مالي",
-      "scale": "international",
-      "funding_type": "state",
-      "subjects": [
-        "seerah_general",
-        "historiography",
-        "manuscripts",
-        "biography_methodology",
-        "sources_critique"
-      ],
-      "subjects_category": [
-        "classical_corpus",
-        "auxiliary_sciences",
-        "methodology_critique"
-      ],
-      "languages": [
-        "ar",
-        "fr"
-      ],
-      "output_types": [
-        "manuscripts",
-        "books",
-        "database"
-      ],
-      "description_ar": "أُسّس 1973 بتمويل كويتي، سُمّي تيمناً بالعالم أحمد بابا الصكلي (ق17). يحفظ 30-40 ألف مخطوط في الفنون، الطب، الفلسفة، السيرة بالعربية والعجمية (الفولانية، السنغهاي، التماشيك، البامبارا، السونينكي). أعيدت مخطوطاته لتمبكتو 2025 بعد 13 سنة إخلاء في باماكو.",
-      "key_figures": [
-        "د. محمود زبير (المدير الأول)",
-        "عبد القادر حيدرة"
-      ],
-      "verification": "desk_verified",
-      "inclusion_tier": "core",
-      "sources": [
-        {
-          "round_file": "round-08b-mosque-museum-african.md",
-          "anchor": "NAM-098 — Ahmed Baba Institute"
-        }
-      ],
-      "url": "https://en.wikipedia.org/wiki/Ahmed_Baba_Institute"
     },
     {
       "id": "ARB-069",
@@ -7755,42 +6496,6 @@
       "round": "08e"
     },
     {
-      "id": "NAM-120",
-      "name_ar": "حزب الترقية المريدية",
-      "name_en": "Hizbut Tarqiyyah",
-      "type": "foundation_waqf",
-      "type_group": "research_education",
-      "region": "non_arab_muslim",
-      "country": "SN",
-      "founded": 1976,
-      "description_ar": "منظمة مريدية تأسّست 1976 في جامعة داكار، أعاد سيرين سالي مباكي تسميتها 1992. تعمل على نشر مؤلفات أحمد بمبا وترجمتها، وتُدير مدارس قرآنية ومكتبات وخلايا في كل مناطق السنغال وتنشط في المغال.",
-      "url": "https://fr.wikipedia.org/wiki/Hizbut_Tarqiyyah",
-      "subjects": [
-        "sufism_seerah",
-        "tarjamah",
-        "seerah_pedagogy",
-        "shamail"
-      ],
-      "subjects_category": [
-        "application_outreach",
-        "classical_corpus"
-      ],
-      "key_figures": [
-        "سيرين سالي مباكي"
-      ],
-      "verification": "desk_verified",
-      "inclusion_tier": "core",
-      "status": "active",
-      "scale": "regional",
-      "languages": [
-        "ar",
-        "en"
-      ],
-      "output_types": [],
-      "funding_type": "academic_host",
-      "round": "08e"
-    },
-    {
       "id": "NAM-121",
       "name_ar": "المعهد الإسلامي الأمريكي-الإفريقي - كاولاخ",
       "name_en": "African American Islamic Institute (AAII)",
@@ -7937,44 +6642,6 @@
       "round": "08e"
     },
     {
-      "id": "NAM-130",
-      "name_ar": "أكاديمية إرث المعهد الإسلامي الأمريكي-الإفريقي (AAII) – مدينة باي",
-      "name_en": "AAII Legacy Academy, Medina Baye",
-      "type": "islamic_center",
-      "type_group": "museums_culture",
-      "region": "non_arab_muslim",
-      "country": "SN",
-      "founded": 2010,
-      "description_ar": "أكاديمية تابعة للمعهد الإسلامي الأمريكي-الإفريقي في مدينة باي كاولاخ، تُدرّس برنامج تحفيظ القرآن والشمائل والسيرة والعربية للطلاب الدوليين خاصةً الأمريكيين-الأفارقة، استمراراً لمشروع الشيخ حسن سيسي.",
-      "url": "https://www.aaiilegacyacademy.com/",
-      "subjects": [
-        "sufism_seerah",
-        "shamail",
-        "seerah_pedagogy",
-        "youth_outreach"
-      ],
-      "subjects_category": [
-        "application_outreach",
-        "classical_corpus"
-      ],
-      "key_figures": [
-        "حسن سيسي",
-        "تيجان علي سيسي"
-      ],
-      "verification": "desk_verified",
-      "inclusion_tier": "core",
-      "status": "active",
-      "scale": "regional",
-      "languages": [
-        "ar",
-        "en"
-      ],
-      "output_types": [],
-      "funding_type": "academic_host",
-      "round": "08e",
-      "name_ar_original": "أكاديمية AAII Legacy - مدينة باي"
-    },
-    {
       "id": "NAM-137",
       "name_ar": "مسجد النجاشي ومركزه التراثي",
       "name_en": "Al-Nejashi Mosque Heritage Centre",
@@ -7983,13 +6650,12 @@
       "region": "non_arab_muslim",
       "country": "ET",
       "founded": 615,
-      "description_ar": "أول مسجد في إفريقيا، يقع في قرية نجاش بإقليم تيغراي ويُنسب إلى الملك أصحمة النجاشي الذي آوى مهاجري الحبشة. يضم 15 قبراً منسوباً لأوائل مهاجري الإسلام، ويُعدّ مركزاً للزيارة والتدريس التراثي للسيرة النبوية وقصة الهجرة الأولى، ورُمّم بدعم تركي عبر TIKA واكتمل عام 2025.",
+      "description_ar": "أول مسجد في إفريقيا في قرية نجاش بإقليم تيغراي يُنسب إلى الملك أصحمة النجاشي الذي آوى مهاجري الحبشة في صدر السيرة. يضم 15 قبراً منسوباً لأوائل المهاجرين، ويُعدّ مركزاً للزيارة والتدريس التراثي لأحداث الهجرة الأولى من مكة وقصة العلاقات الأولى للنبي ﷺ مع النجاشي. رُمّم بدعم تركي عبر TIKA واكتمل عام 2025.",
       "url": "https://en.wikipedia.org/wiki/Al_Nejashi_Mosque",
       "subjects": [
-        "early_islam",
+        "hijra",
         "seerah_general",
-        "seerah_geography",
-        "tabaqat_companions"
+        "seerah_geography"
       ],
       "subjects_category": [
         "classical_corpus",
@@ -8010,425 +6676,6 @@
       "output_types": [],
       "funding_type": "religious_authority",
       "round": "08f"
-    },
-    {
-      "id": "NAM-145",
-      "name_ar": "نهضة العلماء",
-      "name_en": "Nahdlatul Ulama (NU)",
-      "type": "foundation_waqf",
-      "type_group": "research_education",
-      "region": "non_arab_muslim",
-      "country": "ID",
-      "founded": 1926,
-      "description_ar": "أكبر منظمة إسلامية في العالم بأكثر من تسعين مليون عضو، أسّسها الشيخ هاشم أشعري في سورابايا. تخدم السيرة النبوية عبر شبكة واسعة من البيسانترين التقليدية، وإحياء المولد النبوي، وتدريس كتب السيرة الكلاسيكية كالبرزنجي والديباع، ونشر كتب الشمائل المحمدية في الأرخبيل الإندونيسي بمنهج سني أشعري شافعي.",
-      "url": "https://www.nu.or.id",
-      "subjects": [
-        "seerah_general",
-        "shamail",
-        "seerah_pedagogy",
-        "sufism_seerah"
-      ],
-      "subjects_category": [
-        "application_outreach",
-        "classical_corpus"
-      ],
-      "key_figures": [
-        "هاشم أشعري",
-        "وحاب حسب الله",
-        "سعيد عقيل سراج"
-      ],
-      "verification": "desk_verified",
-      "inclusion_tier": "core",
-      "status": "active",
-      "scale": "national",
-      "languages": [
-        "ar",
-        "en"
-      ],
-      "output_types": [],
-      "funding_type": "academic_host",
-      "round": "08g"
-    },
-    {
-      "id": "NAM-147",
-      "name_ar": "بيسانترين دار السلام كونتور الحديث",
-      "name_en": "Pondok Modern Darussalam Gontor",
-      "type": "university_center",
-      "type_group": "research_education",
-      "region": "non_arab_muslim",
-      "country": "ID",
-      "founded": 1926,
-      "description_ar": "أشهر معاهد البيسانترين الحديثة في إندونيسيا، أسّسه الإخوة الثلاثة في بونوروغو بشرق جاوة. يعتمد على تدريس السيرة النبوية والحديث باللغتين العربية والإنجليزية، ويُخرّج آلاف الطلاب سنوياً يدرسون نور اليقين والرحيق المختوم وصحيح البخاري بمنهج يجمع بين التراث الأزهري والإصلاح الحديث.",
-      "url": "https://www.gontor.ac.id",
-      "subjects": [
-        "seerah_general",
-        "hadith_sciences",
-        "seerah_pedagogy",
-        "tarjamah"
-      ],
-      "subjects_category": [
-        "application_outreach",
-        "auxiliary_sciences",
-        "classical_corpus"
-      ],
-      "key_figures": [
-        "أحمد سهل",
-        "إمام زركشي",
-        "زين الدين فناني"
-      ],
-      "verification": "desk_verified",
-      "inclusion_tier": "core",
-      "status": "active",
-      "scale": "national",
-      "languages": [
-        "ar",
-        "en"
-      ],
-      "output_types": [],
-      "funding_type": "academic_host",
-      "round": "08g"
-    },
-    {
-      "id": "NAM-148",
-      "name_ar": "بيسانترين ليربويو كديري",
-      "name_en": "Pondok Pesantren Lirboyo",
-      "type": "university_center",
-      "type_group": "research_education",
-      "region": "non_arab_muslim",
-      "country": "ID",
-      "founded": 1910,
-      "description_ar": "من أعرق معاهد البيسانترين السلفية التقليدية في جاوة الشرقية، أسّسه الشيخ عبد الكريم. يدرّس كتب السيرة الكلاسيكية كالشفا للقاضي عياض ودلائل النبوة للبيهقي، والشمائل للترمذي، بمنهج النحو والصرف والفقه الشافعي. يحتضن آلاف الطلاب ويُعدّ من أبرز معاقل العلوم الشرعية التقليدية المرتبطة بنهضة العلماء.",
-      "url": "https://lirboyo.net",
-      "subjects": [
-        "seerah_general",
-        "shamail",
-        "dalail_nubuwwa",
-        "hadith_sciences"
-      ],
-      "subjects_category": [
-        "auxiliary_sciences",
-        "classical_corpus"
-      ],
-      "key_figures": [
-        "عبد الكريم الحاج",
-        "محرّر الحاج",
-        "إدريس مرزوقي"
-      ],
-      "verification": "desk_verified",
-      "inclusion_tier": "core",
-      "status": "active",
-      "scale": "national",
-      "languages": [
-        "ar",
-        "en"
-      ],
-      "output_types": [],
-      "funding_type": "academic_host",
-      "round": "08g"
-    },
-    {
-      "id": "NAM-149",
-      "name_ar": "بيسانترين سيدوغيري",
-      "name_en": "Pondok Pesantren Sidogiri",
-      "type": "university_center",
-      "type_group": "research_education",
-      "region": "non_arab_muslim",
-      "country": "ID",
-      "founded": 1745,
-      "description_ar": "أقدم بيسانترين في إندونيسيا في باسوروان بشرق جاوة، يعود تأسيسه إلى السيد سليمان من سلالة الأشراف الحضارمة. يتميّز بتدريس السيرة النبوية ضمن منهج الشفا والمواهب اللدنية، وله مؤسسة نشر تطبع كتب السيرة والشمائل بالعربية والإندونيسية، ويُخرّج علماء في الحديث والفقه الشافعي.",
-      "url": "https://sidogiri.net",
-      "subjects": [
-        "seerah_general",
-        "shamail",
-        "hadith_sciences",
-        "sufism_seerah"
-      ],
-      "subjects_category": [
-        "application_outreach",
-        "auxiliary_sciences",
-        "classical_corpus"
-      ],
-      "key_figures": [
-        "السيد سليمان",
-        "نواوي عبد الجليل",
-        "عبد العالم"
-      ],
-      "verification": "desk_verified",
-      "inclusion_tier": "core",
-      "status": "active",
-      "scale": "national",
-      "languages": [
-        "ar",
-        "en"
-      ],
-      "output_types": [],
-      "funding_type": "academic_host",
-      "round": "08g"
-    },
-    {
-      "id": "NAM-150",
-      "name_ar": "بيسانترين تبو إيرنغ جومبانغ",
-      "name_en": "Pondok Pesantren Tebuireng",
-      "type": "university_center",
-      "type_group": "research_education",
-      "region": "non_arab_muslim",
-      "country": "ID",
-      "founded": 1899,
-      "description_ar": "البيسانترين التاريخي الذي أسّسه الشيخ هاشم أشعري في جومبانغ بشرق جاوة، ومنه انطلقت نهضة العلماء عام 1926. يدرّس السيرة النبوية والحديث في كتب كصحيح البخاري ومختصر السيرة لابن هشام، ويُعدّ المرجع الأوّل للمنهج النهضي في إندونيسيا. يضمّ متحفاً للسيرة النبوية وضريح المؤسس الذي يزوره الملايين سنوياً.",
-      "url": "https://tebuireng.online",
-      "subjects": [
-        "seerah_general",
-        "hadith_sciences",
-        "biography_methodology",
-        "seerah_pedagogy"
-      ],
-      "subjects_category": [
-        "application_outreach",
-        "auxiliary_sciences",
-        "classical_corpus",
-        "methodology_critique"
-      ],
-      "key_figures": [
-        "هاشم أشعري",
-        "يوسف هاشم",
-        "صلاح الدين وحيد"
-      ],
-      "verification": "desk_verified",
-      "inclusion_tier": "core",
-      "status": "active",
-      "scale": "national",
-      "languages": [
-        "ar",
-        "en"
-      ],
-      "output_types": [],
-      "funding_type": "academic_host",
-      "round": "08g"
-    },
-    {
-      "id": "NAM-159",
-      "name_ar": "جامعة العلوم الإسلامية الماليزية",
-      "name_en": "Universiti Sains Islam Malaysia (USIM)",
-      "type": "university_center",
-      "type_group": "research_education",
-      "region": "non_arab_muslim",
-      "country": "MY",
-      "founded": 1998,
-      "description_ar": "جامعة حكومية ماليزية في نيلائي تتميّز بدمج العلوم الإسلامية مع العلوم التطبيقية. تضمّ كلية الدراسات القرآنية والسنة بقسم متخصّص في علوم الحديث والسيرة النبوية، وتُخرّج دكاترة في السيرة والشمائل، وتُصدر مجلة Al-Bayan المحكّمة، وتُنظّم مؤتمراً دولياً سنوياً في القرآن والسنة.",
-      "url": "https://www.usim.edu.my",
-      "subjects": [
-        "seerah_general",
-        "hadith_sciences",
-        "shamail",
-        "biography_methodology"
-      ],
-      "subjects_category": [
-        "auxiliary_sciences",
-        "classical_corpus",
-        "methodology_critique"
-      ],
-      "key_figures": [
-        "لقمان عبد المهيمن",
-        "موسى أحمد"
-      ],
-      "verification": "desk_verified",
-      "inclusion_tier": "core",
-      "status": "active",
-      "scale": "national",
-      "languages": [
-        "ar",
-        "en"
-      ],
-      "output_types": [],
-      "funding_type": "academic_host",
-      "round": "08g"
-    },
-    {
-      "id": "NAM-167",
-      "name_ar": "معهد إنسستس للفكر والحضارة الإسلامية",
-      "name_en": "INSISTS (Institute for the Study of Islamic Thought and Civilization)",
-      "type": "research_center",
-      "type_group": "research_education",
-      "region": "non_arab_muslim",
-      "country": "ID",
-      "founded": 2003,
-      "description_ar": "معهد بحثي أسّسه طلاب الفلسفة الإسلامية والفكر، متأثّرين بمنهج نقيب العطّاس (مؤسس ISTAC). يُعنى بنقد العلمنة في دراسات السيرة النبوية، ويُصدر مجلة Tsaqafah وسلسلة كتب في فكر السيرة، وله نشاط في تدريس السيرة كحضارة لا مجرّد سرد تاريخي، ويعقد ندوات نقدية للدراسات الاستشراقية.",
-      "url": "https://insists.id",
-      "subjects": [
-        "seerah_general",
-        "historiography",
-        "sources_critique",
-        "biography_methodology"
-      ],
-      "subjects_category": [
-        "auxiliary_sciences",
-        "classical_corpus",
-        "methodology_critique"
-      ],
-      "key_figures": [
-        "هاميد فهمي زركشي",
-        "أديان حصين"
-      ],
-      "verification": "desk_verified",
-      "inclusion_tier": "core",
-      "status": "active",
-      "scale": "national",
-      "languages": [
-        "ar",
-        "en"
-      ],
-      "output_types": [],
-      "funding_type": "academic_host",
-      "round": "08g"
-    },
-    {
-      "id": "NAM-171",
-      "name_ar": "دار النشر ميزان",
-      "name_en": "Mizan Publishing",
-      "type": "publisher",
-      "type_group": "publishing_knowledge",
-      "region": "non_arab_muslim",
-      "country": "ID",
-      "founded": 1983,
-      "description_ar": "أكبر دار نشر إسلامية ثقافية في إندونيسيا، أسّسها هيدار باغر في باندونغ. نشرت ترجمات إندونيسية للسيرة النبوية من العربية والإنجليزية، بما فيها أعمال مارتن لينغز ومحمد حسين هيكل وأبي الحسن الندوي. لها بصمة قوية في توطين أدبيات السيرة العالمية للقارئ الإندونيسي.",
-      "url": "https://mizanstore.com",
-      "subjects": [
-        "seerah_general",
-        "tarjamah",
-        "biography_methodology"
-      ],
-      "subjects_category": [
-        "application_outreach",
-        "classical_corpus",
-        "methodology_critique"
-      ],
-      "key_figures": [
-        "هيدار باغر",
-        "أحمد بقير"
-      ],
-      "verification": "desk_verified",
-      "inclusion_tier": "core",
-      "status": "active",
-      "scale": "national",
-      "languages": [
-        "ar",
-        "en"
-      ],
-      "output_types": [],
-      "funding_type": "academic_host",
-      "round": "08g"
-    },
-    {
-      "id": "NAM-172",
-      "name_ar": "دار غيما إنساني للنشر",
-      "name_en": "Gema Insani Press",
-      "type": "publisher",
-      "type_group": "publishing_knowledge",
-      "region": "non_arab_muslim",
-      "country": "ID",
-      "founded": 1986,
-      "description_ar": "دار نشر إسلامية كبرى في جاكرتا، متخصّصة في الكتب الإسلامية المترجمة والإندونيسية الأصلية. نشرت ترجمات لأكثر كتب السيرة شيوعاً عربياً كالرحيق المختوم للمباركفوري وفقه السيرة للغزالي وفي ظلال السيرة لسيد قطب، وتلعب دوراً أساسياً في تعريف القارئ الإندونيسي بأدبيات السيرة الحديثة.",
-      "url": "https://gemainsani.com",
-      "subjects": [
-        "seerah_general",
-        "tarjamah",
-        "biography_methodology"
-      ],
-      "subjects_category": [
-        "application_outreach",
-        "classical_corpus",
-        "methodology_critique"
-      ],
-      "key_figures": [
-        "عمر باسالم"
-      ],
-      "verification": "desk_verified",
-      "inclusion_tier": "core",
-      "status": "active",
-      "scale": "national",
-      "languages": [
-        "ar",
-        "en"
-      ],
-      "output_types": [],
-      "funding_type": "academic_host",
-      "round": "08g"
-    },
-    {
-      "id": "NAM-173",
-      "name_ar": "دار النشر بستاكا الكوثر",
-      "name_en": "Pustaka Al-Kautsar",
-      "type": "publisher",
-      "type_group": "publishing_knowledge",
-      "region": "non_arab_muslim",
-      "country": "ID",
-      "founded": 1990,
-      "description_ar": "دار نشر إسلامية في جاكرتا تركّز على ترجمة كتب التراث العربي إلى الإندونيسية. لديها كتالوج واسع من ترجمات السيرة النبوية الكلاسيكية والحديثة، بما فيها سيرة ابن هشام، وزاد المعاد لابن القيم، والبداية والنهاية لابن كثير، وتُعدّ من أهمّ ناقلي تراث السيرة من العربية للقارئ الإندونيسي.",
-      "url": "https://kautsar.co.id",
-      "subjects": [
-        "seerah_general",
-        "tarjamah",
-        "maghazi",
-        "biography_methodology"
-      ],
-      "subjects_category": [
-        "application_outreach",
-        "classical_corpus",
-        "methodology_critique"
-      ],
-      "key_figures": [
-        "لقمان حركيم"
-      ],
-      "verification": "desk_verified",
-      "inclusion_tier": "core",
-      "status": "active",
-      "scale": "national",
-      "languages": [
-        "ar",
-        "en"
-      ],
-      "output_types": [],
-      "funding_type": "academic_host",
-      "round": "08g"
-    },
-    {
-      "id": "NAM-175",
-      "name_ar": "بيسانترين الأمين برندوان",
-      "name_en": "Pondok Pesantren Al-Amien Prenduan",
-      "type": "university_center",
-      "type_group": "research_education",
-      "region": "non_arab_muslim",
-      "country": "ID",
-      "founded": 1952,
-      "description_ar": "بيسانترين حديث على غرار كونتور في جزيرة مادورا، يدمج النهج التقليدي السلفي مع التعليم العصري. يدرّس السيرة النبوية والحديث بالعربية والإنجليزية والإندونيسية، ويُخرّج حفّاظ القرآن والحديث، وله معهد متخصّص في الدراسات النبوية للنساء، ويتميّز بمنهج جامع بين النهضي والإصلاحي.",
-      "url": "https://al-amien.ac.id",
-      "subjects": [
-        "seerah_general",
-        "hadith_sciences",
-        "women_in_seerah",
-        "seerah_pedagogy"
-      ],
-      "subjects_category": [
-        "application_outreach",
-        "auxiliary_sciences",
-        "classical_corpus",
-        "prophetic_demography"
-      ],
-      "key_figures": [
-        "محمد إدريس جوهري",
-        "محمد طيب"
-      ],
-      "verification": "desk_verified",
-      "inclusion_tier": "core",
-      "status": "active",
-      "scale": "national",
-      "languages": [
-        "ar",
-        "en"
-      ],
-      "output_types": [],
-      "funding_type": "academic_host",
-      "round": "08g"
     },
     {
       "id": "NAM-216",
@@ -8778,39 +7025,6 @@
       "round": "08y"
     },
     {
-      "id": "NAM-218",
-      "name_ar": "آيتك للنشر الإسلامي للأطفال – باكستان",
-      "name_en": "Iqra International Educational Foundation Children's Division",
-      "type": "publisher",
-      "type_group": "publishing_knowledge",
-      "region": "non_arab_muslim",
-      "country": "PK",
-      "founded": 1983,
-      "description_ar": "ناشر تعليمي إسلامي متخصّص في المناهج المدرسية للأطفال المسلمين بالإنجليزية، مقرّه شيكاغو/كراتشي. مناهج السيرة والإسلاميات معتمدة في 100+ مدرسة إسلامية في أمريكا الشمالية والخليج.",
-      "url": "https://www.iqrabookcenter.com/",
-      "subjects": [
-        "seerah_pedagogy",
-        "youth_outreach",
-        "seerah_general"
-      ],
-      "subjects_category": [
-        "application_outreach",
-        "classical_corpus"
-      ],
-      "key_figures": [],
-      "verification": "desk_verified",
-      "inclusion_tier": "core",
-      "status": "active",
-      "scale": "national",
-      "languages": [
-        "ar",
-        "en"
-      ],
-      "output_types": [],
-      "funding_type": "private",
-      "round": "08y"
-    },
-    {
       "id": "WEST-168",
       "name_ar": "ليتل سيرة بودكاست – قصص السيرة للأطفال",
       "name_en": "Little Seerah Podcast",
@@ -8844,100 +7058,6 @@
       "round": "08y"
     },
     {
-      "id": "ARB-083",
-      "name_ar": "كرسي المهندس عبد المحسن بن محمد الدريس للسيرة النبوية ودراساتها المعاصرة",
-      "name_en": "Eng. Abdulmohsen bin Mohammed Al-Drees Chair for the Prophetic Biography and Contemporary Studies",
-      "type": "academic_chair",
-      "type_group": "research_education",
-      "region": "arabia",
-      "country": "SA",
-      "founded": 1430,
-      "description_ar": "كرسي علمي بجامعة الملك سعود بالرياض، يُعنى بالدراسات المتخصصة والبحوث العلمية وصياغة الرؤى والخطط الاستراتيجية للتعريف الشامل بالسيرة النبوية وتيسير سبل الاقتداء بالنبي صلى الله عليه وسلم، ويقدّم برنامج (داعم) لطلبة الدراسات العليا والباحثين، ويُصدر (كشاف الرسائل العلمية في السيرة النبوية)، ويعمل على نشر السيرة باللغات العالمية ومواجهة الشبهات.",
-      "url": "https://seerh.ksu.edu.sa/",
-      "subjects": [
-        "السيرة النبوية",
-        "الدراسات المعاصرة",
-        "التعريف بالنبي"
-      ],
-      "subjects_category": [],
-      "key_figures": [
-        "عبد المحسن بن محمد الدريس (واقف)"
-      ],
-      "verification": "desk_verified",
-      "inclusion_tier": "core",
-      "status": "active",
-      "scale": "national",
-      "languages": [
-        "ar",
-        "en"
-      ],
-      "output_types": [],
-      "funding_type": "academic_host",
-      "round": "08t"
-    },
-    {
-      "id": "ARB-084",
-      "name_ar": "كرسي الشيخ عبد الله بن صالح الراشد الحميد لخدمة السيرة النبوية",
-      "name_en": "Sheikh Abdullah bin Saleh Al-Rashid Al-Humaid Chair for Serving the Prophetic Biography",
-      "type": "academic_chair",
-      "type_group": "research_education",
-      "region": "arabia",
-      "country": "SA",
-      "founded": 1438,
-      "description_ar": "كرسي علمي بجامعة القصيم بالمملكة العربية السعودية، أُنشئ بدعم من رجل الأعمال الشيخ عبد الله بن صالح الراشد الحميد، ويهدف إلى إعداد ودعم البحوث النوعية في مجال السيرة النبوية وخدمة رسول الله صلى الله عليه وسلم، وقدّم عشرات المنح البحثية وترجمات لكتب السيرة إلى لغات عالمية متعددة، ويُعدّ من أبرز كراسي السيرة في الخليج.",
-      "url": "https://www.qu.edu.sa/en/research/chairs/sasc/",
-      "subjects": [
-        "السيرة النبوية",
-        "ترجمات السيرة",
-        "التكامل المعرفي"
-      ],
-      "subjects_category": [],
-      "key_figures": [
-        "عبد الله بن صالح الراشد الحميد (واقف)"
-      ],
-      "verification": "desk_verified",
-      "inclusion_tier": "core",
-      "status": "active",
-      "scale": "national",
-      "languages": [
-        "ar",
-        "en"
-      ],
-      "output_types": [],
-      "funding_type": "academic_host",
-      "round": "08t"
-    },
-    {
-      "id": "ARB-085",
-      "name_ar": "كرسي السيرة النبوية بكلية الآداب والعلوم الإنسانية بجامعة طيبة",
-      "name_en": "Chair of the Prophetic Biography at the College of Arts and Humanities, Taibah University",
-      "type": "academic_chair",
-      "type_group": "research_education",
-      "region": "arabia",
-      "country": "SA",
-      "founded": 1431,
-      "description_ar": "كرسي علمي مستقل أقرّ مجلس جامعة طيبة إنشاءه بكلية الآداب والعلوم الإنسانية بالمدينة المنورة، يُعنى ببحوث السيرة النبوية في المكان الذي عاش فيه النبي صلى الله عليه وسلم، ويستثمر موقع الجامعة في المدينة لإجراء دراسات ميدانية وتاريخية وجغرافية للسيرة.",
-      "url": "https://www.al-madina.com/article/36455",
-      "subjects": [
-        "السيرة النبوية",
-        "تاريخ المدينة",
-        "الجغرافيا النبوية"
-      ],
-      "subjects_category": [],
-      "key_figures": [],
-      "verification": "desk_verified",
-      "inclusion_tier": "core",
-      "status": "active",
-      "scale": "national",
-      "languages": [
-        "ar",
-        "en"
-      ],
-      "output_types": [],
-      "funding_type": "academic_host",
-      "round": "08t"
-    },
-    {
       "id": "ARB-090",
       "name_ar": "كرسي الملك سلمان بن عبد العزيز لدراسات تاريخ مكة المكرمة",
       "name_en": "King Salman bin Abdulaziz Chair for Studies of the History of Makkah",
@@ -8946,49 +7066,18 @@
       "region": "arabia",
       "country": "SA",
       "founded": 1432,
-      "description_ar": "كرسي علمي بجامعة أم القرى بمكة المكرمة، يُعنى بدراسات تاريخ مكة المكرمة بوصفها مهد الدعوة ومركز السيرة النبوية في عهديها المكي والحجي، ويُصدر سلسلة (بحوث الحجاز) في تاريخ المكان والمكونات الجغرافية والاجتماعية والاقتصادية والسياسية والثقافية لمكة عبر العصور.",
+      "description_ar": "كرسي علمي بجامعة أم القرى يُعنى بدراسات تاريخ مكة المكرمة بوصفها مهد الدعوة ومسرح المرحلة المكية من السيرة النبوية وموقع الهجرة وفتح مكة وحجة الوداع. يُصدر سلسلة (بحوث الحجاز) في تاريخ المكان والجغرافيا التاريخية المرتبطة بأحداث السيرة.",
       "url": "https://uqu.edu.sa/gs/153215",
       "subjects": [
-        "تاريخ مكة",
+        "seerah_general",
+        "seerah_geography",
         "الجغرافيا التاريخية",
-        "السيرة المكية"
+        "السيرة المكية",
+        "تاريخ مكة"
       ],
       "subjects_category": [],
       "key_figures": [
         "الملك سلمان بن عبد العزيز (واقف)"
-      ],
-      "verification": "desk_verified",
-      "inclusion_tier": "core",
-      "status": "active",
-      "scale": "national",
-      "languages": [
-        "ar",
-        "en"
-      ],
-      "output_types": [],
-      "funding_type": "academic_host",
-      "round": "08t"
-    },
-    {
-      "id": "ARB-091",
-      "name_ar": "مركز بحوث السنة والسيرة النبوية بجامعة قطر",
-      "name_en": "Center for Sunnah and Sirah Research, Qatar University",
-      "type": "academic_chair",
-      "type_group": "research_education",
-      "region": "arabia",
-      "country": "QA",
-      "founded": 1980,
-      "description_ar": "مركز بحثي تابع لكلية الشريعة والدراسات الإسلامية بجامعة قطر بالدوحة، أسّسه الشيخ يوسف القرضاوي وتولّى إدارته المؤسِسة منذ تأسيس كلية الشريعة عام 1977م، يُعدّ من أوائل المراكز الأكاديمية المتخصصة في السنة والسيرة في الخليج، ويصدر مجلة محكّمة في بحوث السنة والسيرة، ويستضيف كبار المحدّثين كأ.د. موسى شاهين لاشين.",
-      "url": "http://www.qu.edu.qa/ar/students/success-and-development/academic-advising/academic-advising-offices/sharia",
-      "subjects": [
-        "السنة النبوية",
-        "السيرة النبوية",
-        "علوم الحديث"
-      ],
-      "subjects_category": [],
-      "key_figures": [
-        "يوسف القرضاوي (مؤسس)",
-        "موسى شاهين لاشين"
       ],
       "verification": "desk_verified",
       "inclusion_tier": "core",
@@ -9237,23 +7326,1329 @@
     },
     {
       "id": "ARB-093",
-      "name_ar": "موقع الإسلام سؤال وجواب – قسم السيرة النبوية",
-      "name_en": "IslamQA.info – Seerah Section",
+      "name_ar": "كرسي السيرة النبوية – جامعة الملك سعود",
+      "name_en": "Chair of the Prophetic Biography, King Saud University",
+      "type": "academic_chair",
+      "type_group": "research_education",
+      "region": "arabia",
+      "country": "SA",
+      "founded": null,
+      "description_ar": "كرسي بحثي علمي مستقل بجامعة الملك سعود في الرياض يُعنى حصراً بالدراسات والبحوث المتخصصة في السيرة النبوية، وصياغة الرؤى والخطط الاستراتيجية للتعريف الشامل بحياة النبي ﷺ بلغات العالم، وتقديم الدعم المادي والعلمي للباحثين، وإقامة الدورات والمعارض التعريفية بالسيرة. يختلف عن كرسي الدريس المسجّل سابقاً.",
+      "url": "https://news.ksu.edu.sa/ar/node/105505",
+      "subjects": [
+        "seerah_general",
+        "geography_seerah"
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "09a"
+    },
+    {
+      "id": "MAG-052",
+      "name_ar": "جائزة الجزائر الدولية في السيرة النبوية الخالدة",
+      "name_en": "Algeria International Prize for the Eternal Prophetic Biography",
+      "type": "award",
+      "type_group": "institutional_infra",
+      "region": "maghreb",
+      "country": "DZ",
+      "founded": 2025,
+      "description_ar": "جائزة دولية أطلقها رئيس الجمهورية الجزائرية عبد المجيد تبون عام 2025 بقرار رسمي بمناسبة المولد النبوي، تُنظَّمها وزارة الشؤون الدينية والأوقاف، وتهدف إلى ترسيخ القيم النبوية ونشر سيرة الرسول ﷺ في أبعادها الروحية والحضارية والإنسانية، وتشكّل منبراً علمياً وثقافياً يبرز عظمة الرسالة المحمدية.",
+      "url": "https://algeriemaintenant.dz/2025/09/%D8%A7%D9%84%D8%B3%D9%8A%D8%B1%D8%A9/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "09a"
+    },
+    {
+      "id": "NAM-236",
+      "name_ar": "كرسي السيرة لدراسات النوع والمرأة – جامعة البنجاب لاهور",
+      "name_en": "Seerat Chair for Gender Studies & Women Rights, University of the Punjab",
+      "type": "academic_chair",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "PK",
+      "founded": 2014,
+      "description_ar": "كرسي سيرة نبوية متخصّص في معهد الدراسات الإسلامية بجامعة البنجاب في لاهور، أُنشئ ضمن مشروع لجنة التعليم العالي الباكستانية (HEC) لكراسي السيرة، يركّز على دراسات السيرة في ضوء قضايا المرأة وحقوقها، ويصدر مجلة محكّمة باسم «القواوير» (Al-Qawārīr) كل ربع سنة في موضوعات السيرة والنساء.",
+      "url": "https://journal.al-qawarir.com/index.php/alqawarir",
+      "subjects": [
+        "seerah_general",
+        "women_in_seerah"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "prophetic_demography"
+      ],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "09a"
+    },
+    {
+      "id": "NAM-237",
+      "name_ar": "كرسي السيرة لحقوق الإنسان والعدالة – جامعة التعليم بلاهور",
+      "name_en": "Seerat Chair for Human Rights & Justice, University of Education Lahore",
+      "type": "academic_chair",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "PK",
+      "founded": 2014,
+      "description_ar": "أحد كراسي السيرة النبوية التسعة المعتمدة من لجنة التعليم العالي الباكستانية (HEC) عام 2014 بميزانية 189 مليون روبية، أُسّس في جامعة التعليم بلاهور ويُعنى حصراً بالبحث في السيرة النبوية من خلال زاوية حقوق الإنسان والعدالة كما طبّقها النبي ﷺ، وتعزيز قيم الإنصاف النبوي.",
+      "url": "https://www.thenews.com.pk/print/397138-is-govt-s-seerat-chair-initiative-new",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "09a"
+    },
+    {
+      "id": "NAM-238",
+      "name_ar": "كرسي السيرة للسلام العالمي – الجامعة الإسلامية الدولية بإسلام آباد",
+      "name_en": "Seerat Chair for Global Peace, International Islamic University Islamabad",
+      "type": "academic_chair",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "PK",
+      "founded": 2014,
+      "description_ar": "كرسي سيرة نبوية بالجامعة الإسلامية الدولية بإسلام آباد ضمن مشروع HEC لتسعة كراسي سيرة، يتخصّص في البحث في السيرة النبوية من زاوية بناء السلام العالمي والوئام الإنساني انطلاقاً من نموذج النبي ﷺ، ويختلف عن قسم السيرة والتاريخ الإسلامي في الجامعة (المسجّل سابقاً) كونه كرسياً بحثياً مستقلاً.",
+      "url": "https://www.thenews.com.pk/print/397138-is-govt-s-seerat-chair-initiative-new",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "09a"
+    },
+    {
+      "id": "NAM-239",
+      "name_ar": "كرسي السيرة للوئام بين الأديان – جامعة بيشاور",
+      "name_en": "Seerat Chair for Interfaith and Communal Harmony, University of Peshawar",
+      "type": "academic_chair",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "PK",
+      "founded": 2016,
+      "description_ar": "أوّل كراسي السيرة المنفّذة ضمن مشروع HEC الباكستاني، أُسّس في جامعة بيشاور عام 2016 وتولّى رئاسته البروفيسور قبلة أياز. يركّز على البحث في السيرة النبوية بزاوية الوئام بين الأديان والانسجام المجتمعي مستلهماً من تعامل النبي ﷺ مع غير المسلمين.",
+      "url": "https://www.thenews.com.pk/print/397138-is-govt-s-seerat-chair-initiative-new",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "Qibla Ayaz"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "09a"
+    },
+    {
+      "id": "NAM-240",
+      "name_ar": "الهيئة الوطنية «رحمة للعالمين وخاتم النبيين»",
+      "name_en": "National Rahmatul-lil-Alameen Wa Khatamun Nabiyyin Authority (NRKNA)",
+      "type": "research_center",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "PK",
+      "founded": 2021,
+      "description_ar": "هيئة أيديولوجية فدرالية للحكومة الباكستانية تأسّست بمرسوم رئاسي في 13 أكتوبر 2021 ثم بقانون برلماني عام 2022 تحت وزارة التعليم الفدرالية. مهمّتها الحصرية تعزيز البحث في السيرة النبوية النظري والتطبيقي، وتطوير مناهج تربية الشخصية المستوحاة من سيرة النبي ﷺ، ودعم كراسي السيرة في التعليم العالي، وأطلقت أول منهج وطني لتربية الشخصية مستلهَم من السيرة.",
+      "url": "https://nrkna.gov.pk/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "09a"
+    },
+    {
+      "id": "NAM-241",
+      "name_ar": "المهرجان الدولي «رحمة للعالمين وخاتم النبيين»",
+      "name_en": "International Rahmatul Lil Aalameen Wa Khatamun Nabiyyin Festival",
+      "type": "conference_series",
+      "type_group": "institutional_infra",
+      "region": "non_arab_muslim",
+      "country": "PK",
+      "founded": 2024,
+      "description_ar": "مهرجان سنوي دولي تنظّمه الهيئة الوطنية الباكستانية NRKNA في إسلام آباد كل سبتمبر، ويتضمّن «المؤتمر الدولي للسيرة» (International Seerat Conference) بمشاركة أكثر من 60 ورقة بحثية من علماء داخل وخارج باكستان، ومعرض كتب السيرة «معرض كتاب السيرة»، تحت شعار «البحث عن السلام العالمي في ضوء تعاليم النبي ﷺ»، عُقدت دورته الثانية في سبتمبر 2025.",
+      "url": "https://dnd.com.pk/national/international-rahmatul-lil-aalameen-wa-khatamun-nabiyyin-festival-on-september-20-22/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "09a"
+    },
+    {
+      "id": "ARB-094",
+      "name_ar": "مؤتمر السيرة النبوية بجامعة حمد بن خليفة – السلسلة السنوية",
+      "name_en": "HBKU Sīrah of the Prophet (PBUH) Conference – Annual Series",
+      "type": "conference_series",
+      "type_group": "institutional_infra",
+      "region": "arabia",
+      "country": "QA",
+      "founded": null,
+      "description_ar": "سلسلة سنوية لمؤتمر دولي محكّم تنظّمه كلية الدراسات الإسلامية بجامعة حمد بن خليفة في الدوحة عبر مركز محمد بن حمد آل ثاني، يتناول حصراً جوانب من السيرة النبوية وأثرها في القضايا المعاصرة. شملت دوراته عناوين «دلائل النبوة في العصر الحديث» (2024) و«الهدي النبوي في السلم والحرب» (2025).",
+      "url": "https://www.hbku.edu.qa/en/CIS-SPC",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "Aisha Al-Manai"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "09a"
+    },
+    {
+      "id": "NAM-242",
+      "name_ar": "المؤتمر الأكاديمي الدولي «أسوة النبي»",
+      "name_en": "Uswathunnabi International Academic Conference",
+      "type": "conference_series",
+      "type_group": "institutional_infra",
+      "region": "non_arab_muslim",
+      "country": "IN",
+      "founded": 2022,
+      "description_ar": "مؤتمر أكاديمي دولي سنوي تنظّمه منظّمة طلاب السنة في الهند (SSF India) مع كلّيات هندية مرموقة (جامعة عليكره الإسلامية AMU 2022، جامعة مولانا آزاد الوطنية للأوردية MANUU 2024/2025). يخصّص حصراً للدراسة العلمية لحياة النبي ﷺ وتعاليمه وتراثه اللغوي والاحتفائي، ويعزّز البحث الأكاديمي البيني-التخصصي في السيرة.",
+      "url": "https://uswathunnabi.com/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "09a"
+    },
+    {
+      "id": "TUR-071",
+      "name_ar": "مسابقة المعرفة بسيرة النبي ﷺ — الهيئة التركية للشؤون الدينية",
+      "name_en": "Diyanet Sirah Knowledge Competition (Umre Ödüllü Bilgi Yarışması)",
+      "type": "award",
+      "type_group": "institutional_infra",
+      "region": "turkey",
+      "country": "TR",
+      "founded": null,
+      "description_ar": "مسابقة معرفية سنوية تنظّمها رئاسة الشؤون الدينية التركية (Diyanet) ضمن «أسبوع المولد النبوي»، تستهدف طلاب الثانوية ومادّتها الحصرية كتاب «خاتم الأنبياء سيدنا محمد ﷺ وحياته» الصادر عن الديانة في فئة الحديث والسيرة. تمنح 100 إلى 150 من الأوائل عمرةً مدفوعة. دورة 2026 بعنوان «رحمة للعالمين: محمد ﷺ في الذكرى الـ1500 لمولده».",
+      "url": "https://yarisma.diyanet.gov.tr/umrebasvuru",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "09a"
+    },
+    {
+      "id": "TUR-072",
+      "name_ar": "وقف سيرة النبي",
+      "name_en": "Siyer-i Nebi Vakfı",
+      "type": "research_center",
+      "type_group": "research_education",
+      "region": "turkey",
+      "country": "TR",
+      "founded": 2018,
+      "description_ar": "وقف تركي مستقل تأسّس عام 2018 يختلف تماماً عن «وقف السيرة» (Siyer Vakfı) المسجّل سابقاً. مهمّته الحصرية ترسيخ سيرة النبي ﷺ في وجدان الأمة المسلمة عبر برامج تعليمية ومسابقات وفعاليات تستهدف ربط الأمة بسيرة نبيّها. يُدير منصة siyerinebivakfi.com.",
+      "url": "https://siyerinebivakfi.com/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "09a"
+    },
+    {
+      "id": "TUR-073",
+      "name_ar": "جمعية سيرة النبي للتعليم والبحث",
+      "name_en": "Siyer-i Nebi Eğitim ve Araştırma Derneği",
+      "type": "research_center",
+      "type_group": "research_education",
+      "region": "turkey",
+      "country": "TR",
+      "founded": null,
+      "description_ar": "جمعية تركية تأسّست لغرس محبّة النبي ﷺ على نهج الصحابة، ولنقل المعلومات الصحيحة عن النبي للعالم وفق الأخلاق والمبادئ الإسلامية. تُدير موقع siyerinebi.com (المنصة الرئيسية للسيرة بالتركية) وتختلف عن وقف السيرة (Siyer Vakfı) ووقف سيرة النبي (Siyer-i Nebi Vakfı).",
+      "url": "https://siyerinebi.com/tr/siyer-i-nebi-dernegi",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "09a"
+    },
+    {
+      "id": "WEST-174",
+      "name_ar": "مؤسّسة السيرة النبوية – المملكة المتحدة",
+      "name_en": "Seerah Foundation",
+      "type": "research_center",
+      "type_group": "research_education",
+      "region": "western",
+      "country": "GB",
+      "founded": 1976,
+      "description_ar": "هيئة خيرية بريطانية مسجّلة تحت رقم 298918، أُسّستها العائلة الباكستانية-البريطانية لأفضل الرحمن عام 1976. مهمّتها الحصرية نشر وتأليف الكتب المتخصّصة في السيرة النبوية، وأصدرت «موسوعة محمد للسيرة» في 8 مجلّدات (1981-1992)، وتعمل اليوم على «موسوعة السيرة للأطفال» (4 مجلّدات) ومشروع التبرّع بكتب السيرة للمدارس.",
+      "url": "https://seerah.org/",
+      "subjects": [
+        "seerah_general",
+        "kids_seerah_resources"
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "Afzalur Rahman"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "09a"
+    },
+    {
+      "id": "WEST-175",
+      "name_ar": "مؤتمر السيرة السنوي بالجمعية الإسلامية لبالتيمور",
+      "name_en": "Baltimore Seerah Conference (ISB)",
+      "type": "conference_series",
+      "type_group": "institutional_infra",
+      "region": "western",
+      "country": "US",
+      "founded": null,
+      "description_ar": "مؤتمر سنوي عائلي تنظّمه الجمعية الإسلامية لبالتيمور (ISB) في ولاية مريلاند، يخصّص بالكامل لاستجلاء سيرة النبي ﷺ عبر محاضرات لعلماء بارزين ودروس وتأملات. دورة 2024 تناولت «العهد المدني»، ودورة 2025 ركّزت على «بناء المجتمع النبوي» من النصف الثاني من العهد المدني. يتضمّن برنامجاً موازياً للأطفال 6-9 سنوات.",
+      "url": "https://isb.org/seerah/",
+      "subjects": [
+        "seerah_general",
+        "kids_seerah_resources"
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "Yaseen Shaikh",
+        "Muhammad Ahmed"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "09a"
+    },
+    {
+      "id": "WEST-176",
+      "name_ar": "مؤتمر سيرة الشباب – أكاديمية فُصِّلت بكالغاري",
+      "name_en": "Youth Seerah Conference – Fussilat Academy",
+      "type": "conference_series",
+      "type_group": "institutional_infra",
+      "region": "western",
+      "country": "CA",
+      "founded": 2021,
+      "description_ar": "مؤتمر سنوي بكالغاري (كندا) أسّسته «أكاديمية فصّلت» لتشجيع طلاب الثانوية والجامعة على البحث والتقديم في موضوعات السيرة النبوية. يضمّ عروضاً تنافسية للطلاب ومحاضرات لعلماء مرموقين ومعرضاً للملصقات؛ دورته 2025 عُقدت في جامعة ماونت رويال. يخدم الجالية المسلمة في غرب كندا.",
+      "url": "https://www.youthseerahconference.com/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "09a"
+    },
+    {
+      "id": "NAM-243",
+      "name_ar": "معهد سيرة (Seerah Institute)",
+      "name_en": "Seerah Institute (semester-based online)",
+      "type": "research_center",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "PK",
+      "founded": null,
+      "description_ar": "معهد إلكتروني فصلي متخصّص حصراً في تدريس السيرة النبوية من خلال محاضرات حيّة ومسجّلة ومصادر تعليمية مفتوحة، أسّسه مفتي مصطفى عزيز ضمن «معهد ومركز أبحاث السيرة» (Seeraht Institute & Research Centre) في فيصل آباد بباكستان. مقرّه: 645-D، D Ground، People's Colony No 1، Faisalabad 38000.",
+      "url": "https://seerahinstitute.com/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "Mufti Mustafa Aziz"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "09a"
+    },
+    {
+      "id": "ARB-095",
+      "name_ar": "مشروع «على خُطى النبي» (درب الهجرة)",
+      "name_en": "In the Prophet's Steps / Darb Al-Hijrah Project",
+      "type": "museum",
+      "type_group": "museums_culture",
+      "region": "arabia",
+      "country": "SA",
+      "founded": 2025,
+      "description_ar": "مشروع وطني سعودي ضخم يستعيد طريق هجرة النبي ﷺ من مكة إلى المدينة (470 كم) بترميم 41 معلَماً تاريخياً و8 محطات استراحة و50 نقطة إثرائية و5 محطات سرد تفاعلي. افتُتح بإشراف الأمير سلمان بن سلطان أمير المدينة وانطلقت دورته الأولى في نوفمبر 2025 باستضافة 300 ألف زائر مختار من مليون متقدّم عالمياً.",
+      "url": "https://www.saudigazette.com.sa/article/648943/SAUDI-ARABIA/Saudi-Arabia-launches-In-the-Prophets-Steps-project-in-Madinah",
+      "subjects": [
+        "geography_seerah",
+        "hijrah"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "Prince Salman bin Sultan"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "09a"
+    },
+    {
+      "id": "ARB-096",
+      "name_ar": "مؤسسة وقف «السلام عليك أيها النبي»",
+      "name_en": "Al-Salam Alayka Ayyuha al-Nabi Endowment Project",
+      "type": "endowment_encyclopedia_project",
+      "type_group": "research_education",
+      "region": "arabia",
+      "country": "SA",
+      "founded": 2007,
+      "description_ar": "مشروع عالمي وقفي بمكة المكرمة أسّسه د. ناصر بن مسفر الزهراني (1428هـ) متخصّص في تجديد كتابة السيرة النبوية. يضم 25 موسوعة بنحو 500 مجلد ومعرضاً يحوي 1500 قطعة، ومتحفاً وبوابة إلكترونية ومكتبة. سُجِّل وقفاً خيرياً بمحكمة الأحوال الشخصية بالرياض وشُكِّل له مجلس نظارة. تُديره شركة تسبيل لتطوير الأوقاف.",
+      "url": "http://www.annabi.org/",
+      "subjects": [
+        "seerah_general",
+        "shamail",
+        "encyclopedia_project",
+        "seerah_pedagogy"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "د. ناصر بن مسفر القرشي الزهراني"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "09a"
+    },
+    {
+      "id": "ARB-097",
+      "name_ar": "متحف دار المدينة (قاعة السيرة النبوية والتراث المعماري)",
+      "name_en": "Dar Al-Madinah Museum",
+      "type": "museum",
+      "type_group": "museums_culture",
+      "region": "arabia",
+      "country": "SA",
+      "founded": 2011,
+      "description_ar": "متحف افتُتح بالمدينة المنورة عام 2011 يحتوي قاعة مخصّصة للسيرة النبوية وأخرى للتراث المعماري للمسجد النبوي. يحفظ شواهد أثرية من توسعات المسجد عبر العصور، وعملات نادرة من العصر النبوي، ومخطوطات إسلامية، يقدّم رواية بصرية لأحداث السيرة في المدينة.",
+      "url": "https://visitmadinahsa.com/sa-en/destinations/Dar-Al-Madinah-museum-",
+      "subjects": [
+        "seerah_geography",
+        "seerah_general",
+        "shamail"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "geography_space"
+      ],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "09a"
+    },
+    {
+      "id": "ARB-098",
+      "name_ar": "حدائق السيرة (الشريك التطويري QSAS – صندوق الاستثمارات العامة)",
+      "name_en": "Alsirah Gardens (QSAS – Public Investment Fund)",
+      "type": "cultural_destination",
+      "type_group": "research_education",
+      "region": "arabia",
+      "country": "SA",
+      "founded": 2025,
+      "description_ar": "وجهة ثقافية كبرى بالمدينة المنورة قرب مسجد قباء، أطلقها أمير المدينة فبراير 2025 باستثمار 500 مليون ريال. مشروع شركة QSAS التابعة لـ PIF يقدّم تجربة سردية شاملة للسيرة النبوية عبر تكامل الطبيعة والعمارة والمعرفة، باستيعاب 10 مليون زائر سنوياً، ضمن «برنامج خدمة ضيوف الرحمن».",
+      "url": "https://www.pif.gov.sa/en/news-and-insights/newswire/2025/qsas-launches-alsirah-gardens-project-in-saudi-arabia/",
+      "subjects": [
+        "seerah_general",
+        "seerah_geography",
+        "seerah_pedagogy"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "classical_corpus",
+        "geography_space"
+      ],
+      "key_figures": [
+        "الأمير سلمان بن سلطان بن عبدالعزيز"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "09a"
+    },
+    {
+      "id": "ARB-099",
+      "name_ar": "معرض «الهجرة في خطى النبي ﷺ» – مركز الملك عبدالعزيز الثقافي العالمي (إثراء)",
+      "name_en": "Hijrah: In the Footsteps of the Prophet – Ithra",
+      "type": "exhibition_program",
+      "type_group": "research_education",
+      "region": "arabia",
+      "country": "SA",
+      "founded": 2022,
+      "description_ar": "معرض تفاعلي ضخم تنتجه إثراء بأرامكو السعودية يعيد تتبّع مسار هجرة النبي ﷺ من مكة إلى المدينة (نحو 400 كم على 8 أيام)، أعدّه فريق على ثلاث سنوات بالتعاون مع المتحف الوطني وبيت الفن الإسلامي ومجمع الملك عبدالعزيز للمكتبات الوقفية وТуркواز ماونتن. يضم 53 عملاً فنياً وفيلماً وثائقياً عُرض في بينالي الفنون الإسلامية 2023. الجولة على خمس سنوات (الظهران، الرياض، جدة، خارج المملكة).",
+      "url": "https://www.ithra.com/en/special-programs/hijrah-exhibit",
+      "subjects": [
+        "seerah_general",
+        "seerah_geography",
+        "shamail"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "geography_space"
+      ],
+      "key_figures": [
+        "د. عبدالله القاضي"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "09a"
+    },
+    {
+      "id": "ARB-100",
+      "name_ar": "مركز بحوث ودراسات المدينة المنورة (مجلة بحوث المدينة)",
+      "name_en": "Al-Madinah Al-Munawwarah Research and Studies Center",
+      "type": "research_center",
+      "type_group": "research_education",
+      "region": "arabia",
+      "country": "SA",
+      "founded": 1997,
+      "description_ar": "وقف ثقافي خيري أسّسه الأمير عبدالمجيد بن عبدالعزيز عام 1997 متخصّص في تراث المدينة وسيرة الرسول ﷺ. يحوي 70 ألف وثيقة و149 ألف مخطوط و353 دراسة علمية. يُصدر «مجلة بحوث ودراسات المدينة المنورة» المحكَّمة، ومن مشاريعه: معرض عمارة المسجد النبوي، موسوعة عمارة المسجد النبوي، التوثيق الشفوي للمدينة، موسوعة معالم المدينة.",
+      "url": "https://mrsc.org.sa/",
+      "subjects": [
+        "seerah_geography",
+        "seerah_general",
+        "biography_methodology"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "geography_space",
+        "methodology_critique"
+      ],
+      "key_figures": [
+        "الأمير عبدالمجيد بن عبدالعزيز"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "09a"
+    },
+    {
+      "id": "NAM-244",
+      "name_ar": "مؤسسة بحوث السيرة – باكستان (Seerat Research Foundation)",
+      "name_en": "Seerat Research Foundation – Encyclopedia of Muhammad ﷺ Project",
+      "type": "research_center",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "PK",
+      "founded": 2015,
+      "description_ar": "مؤسسة غير ربحية بكراتشي تأسست 2015 تعمل على «موسوعة محمد ﷺ» الموسوعة البحثية متعددة المجلدات (100+ مجلد) ومتعددة اللغات. تتناول السيرة في جوانبها الفلسفية والاجتماعية والاقتصادية والقانونية. حازت الجائزة الأولى من وزارة الشؤون الدينية الباكستانية في المؤتمر الدولي للسيرة 2022 عن المجلد الثالث «ولادة الرسول ﷺ».",
+      "url": "https://muhammadencyclopedia.org/",
+      "subjects": [
+        "seerah_general",
+        "encyclopedia_project",
+        "shamail",
+        "sources_critique"
+      ],
+      "subjects_category": [
+        "auxiliary_sciences",
+        "classical_corpus"
+      ],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "09a"
+    },
+    {
+      "id": "NAM-245",
+      "name_ar": "المركز الدولي للتميّز في دراسات السيرة – الجامعة الإسلامية العالمية إسلام آباد",
+      "name_en": "International Centre of Excellence for Sirah Studies (IRI-IIUI)",
+      "type": "research_center",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "PK",
+      "founded": 2025,
+      "description_ar": "مركز افتتحه الوزير الفيدرالي للتخطيط أحسن إقبال في 24 أبريل 2025 في الجامعة الإسلامية العالمية بإسلام آباد، تابع لمعهد البحوث الإسلامية (IRI). متخصّص في دراسات السيرة (السلام الاجتماعي، إعادة البناء، المصالحة) ويستضيف «المؤتمر الدولي للسيرة» السنوي بالتعاون السعودي-الباكستاني.",
+      "url": "https://iri.iiu.edu.pk/",
+      "subjects": [
+        "seerah_general",
+        "biography_methodology",
+        "sources_critique"
+      ],
+      "subjects_category": [
+        "auxiliary_sciences",
+        "classical_corpus",
+        "methodology_critique"
+      ],
+      "key_figures": [
+        "البروفيسور أحسن إقبال (راعٍ حكومي)"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "09a"
+    },
+    {
+      "id": "NAM-246",
+      "name_ar": "معهد نِثار فاطمة للسيرة ودراسات المرأة (NFISWS)",
+      "name_en": "Nisar Fatima Institute of Sirah and Women Studies (NFISWS)",
+      "type": "research_institute",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "PK",
+      "founded": null,
+      "description_ar": "معهد بلاهور (جوهر تاون) متخصّص في السيرة النبوية من المنظور النسوي ودراسات المرأة المسلمة. يستضيف «المؤتمر الوطني للسيرة النسائي» الذي خاطبه الوزير الفيدرالي للتخطيط البروفيسور أحسن إقبال. سُمّي على نِثار فاطمة الزهراء (1935–1991) عالمة وسياسية باكستانية.",
+      "url": "",
+      "subjects": [
+        "seerah_general",
+        "seerah_pedagogy",
+        "biography_methodology"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "classical_corpus",
+        "methodology_critique"
+      ],
+      "key_figures": [
+        "نِثار فاطمة الزهراء (الاسم التذكاري)"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "09a"
+    },
+    {
+      "id": "ARB-101",
+      "name_ar": "مشروع الخريطة التفاعلية للسيرة في مكة (SirahMaps)",
+      "name_en": "SirahMaps – Interactive Sirah Maps",
+      "type": "digital_resource",
+      "type_group": "research_education",
+      "region": "arabia",
+      "country": "KW",
+      "founded": 2014,
+      "description_ar": "مشروع رقمي رائد للسيد عبدالعزيز بن عماد العتيقي (بنيمد) أنتج خرائط تفاعلية حصرية لمكة المكرمة وجغرافيا السيرة. يصف 37 ميزة جغرافية و117 معلَماً تضاريسياً (بيوت، أسواق، آبار) في زمن النبي ﷺ بسرد صوتي وعروض ثلاثية الأبعاد بالعربية والإنجليزية. النسخة الجديدة على محرك Unreal Engine. مرجع للجغرافيا السيرية.",
+      "url": "https://sirahmaps.com/",
+      "subjects": [
+        "seerah_geography",
+        "seerah_general"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "geography_space"
+      ],
+      "key_figures": [
+        "عبدالعزيز بن عماد العتيقي"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "09a"
+    },
+    {
+      "id": "LEV-035",
+      "name_ar": "بوابة السيرة النبوية – وكلاء مشروع الأمير غازي (تطوير ITG)",
+      "name_en": "Al Sirah Al Nabaweyya Portal – Prince Ghazi Trust / ITG",
+      "type": "digital_portal",
+      "type_group": "research_education",
+      "region": "levant_iraq_nile",
+      "country": "JO",
+      "founded": 2016,
+      "description_ar": "بوابة إلكترونية وتطبيق غير ربحي للسيرة النبوية مكتمل بعشر لغات يُكلَّف به فريق Integrated Technology Group (ITG) بعمان، تحت رعاية صندوق الأمير غازي للفكر القرآني (الذراع الرقمي لمؤسسة آل البيت الملكية). يقدّم سيرة النبي ﷺ يوماً بيوم، ويردّ شبهات، ويستخدم مصادر دينية معتمدة. الخطوة الموازية لـ altafsir.com.",
+      "url": "https://www.alsirah.com/",
+      "subjects": [
+        "seerah_general",
+        "biography_methodology",
+        "orientalism_critique"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "methodology_critique"
+      ],
+      "key_figures": [
+        "الأمير غازي بن محمد (الراعي)",
+        "مفتي علي جمعة (المرجعية العلمية)"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "09a"
+    },
+    {
+      "id": "NAM-247",
+      "name_ar": "مؤسسة السيرة – باكستان (Seerah Foundation)",
+      "name_en": "Seerah Foundation Pakistan",
+      "type": "research_center",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "PK",
+      "founded": 2010,
+      "description_ar": "مؤسسة بحثية باكستانية تأسست 2010 مهمّتها البحث والحفظ والنشر للسيرة النبوية الأصيلة. لها فريق من العلماء والباحثين، تصدر برامج تعليمية ومنشورات سيرية. موقعها theseerah.com.pk.",
+      "url": "https://theseerah.com.pk/about.php",
+      "subjects": [
+        "seerah_general",
+        "seerah_pedagogy",
+        "sources_critique"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "auxiliary_sciences",
+        "classical_corpus"
+      ],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "09a"
+    },
+    {
+      "id": "NAM-248",
+      "name_ar": "مركز كرسي السيرة النبوية ﷺ – جامعة العلامة إقبال المفتوحة (مركز التميز)",
+      "name_en": "Centre of Excellence & Chair for Seerat-un-Nabi ﷺ – AIOU",
+      "type": "academic_chair",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "PK",
+      "founded": null,
+      "description_ar": "مركز تميُّز وكرسي علمي تابع لمعهد الدراسات الإسلامية بجامعة العلامة إقبال المفتوحة، إلى جانب «كرسي إقبال للتصوف» وأرشيف المثقفين الباكستاني. مهمّته البحث في السيرة وكشف الأبعاد التطبيقية لها مع تخصّص في الفكر الإسلامي للنساء.",
+      "url": "https://aiou.edu.pk/seerat-un-nabi-chair",
+      "subjects": [
+        "seerah_general",
+        "biography_methodology",
+        "seerah_pedagogy"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "classical_corpus",
+        "methodology_critique"
+      ],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "09a"
+    },
+    {
+      "id": "ARB-102",
+      "name_ar": "ممشى قباء التاريخي – هيئة تطوير منطقة المدينة المنورة",
+      "name_en": "Quba Walking Trail – Madinah Region Development Authority",
+      "type": "heritage_path",
+      "type_group": "research_education",
+      "region": "arabia",
+      "country": "SA",
+      "founded": 2022,
+      "description_ar": "ممشى تطويري بطول 3 كم يمتد من مسجد قباء إلى محيط المسجد النبوي، أُطلق ضمن «برنامج إنسنة المدينة» تحت إشراف هيئة تطوير منطقة المدينة. قيمته الرمزية في أنّه طريق النبي ﷺ المعتاد لزيارة قباء كل سبت. يُكرّس الجغرافيا السيرية كتجربة مكانية حضرية.",
+      "url": "https://visitmadinahsa.com/sa-en/destinations/Quba-Walking-Trail-",
+      "subjects": [
+        "seerah_geography",
+        "seerah_general"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "geography_space"
+      ],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "09a"
+    },
+    {
+      "id": "WEST-177",
+      "name_ar": "بودكاست «السيرة النبوية» للشيخ ياسر القاضي",
+      "name_en": "Seerah of Prophet Muhammad (sws) - Yasir Qadhi",
+      "type": "podcast_institutional",
+      "type_group": "media_audience",
+      "region": "western",
+      "country": "US",
+      "founded": 2011,
+      "description_ar": "سلسلة سيرة نبوية حصرية تجاوزت 17 موسماً (نحو 100 حلقة)، أُطلقت من مركز ممفيس الإسلامي 2011 ثم انتقلت إلى تطبيق مستقل، يقدّمها د. ياسر القاضي اعتماداً على المصادر الأصلية. البودكاست منفصل تماماً عن قناة الشيخ العامة ومخصّص بالكامل للسيرة.",
+      "url": "https://podcasts.apple.com/us/podcast/seerah-of-prophet-muhammad-sws-yasir-qadhi/id1504509247",
+      "subjects": [
+        "seerah_general",
+        "seerah_pedagogy"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "د. ياسر القاضي"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "09a"
+    },
+    {
+      "id": "WEST-178",
+      "name_ar": "بودكاست «السيرة» – الشيخ عبدالناصر جانغدا (Qalam Seerah)",
+      "name_en": "Qalam Seerah: The Life of the Prophet (pbuh) - AbdulNasir Jangda",
+      "type": "podcast_institutional",
+      "type_group": "media_audience",
+      "region": "western",
+      "country": "US",
+      "founded": 2011,
+      "description_ar": "بودكاست مؤسسي تابع لمعهد قلم (Qalam Institute) في دالاس، تكوّن من 200 حلقة بقيادة الشيخ عبدالناصر جانغدا، اختُتم في يوليو 2019 ويُعدّ من أطول السلاسل الإنجليزية المتخصّصة في السيرة. مخصّص بالكامل لسيرة النبي ﷺ.",
+      "url": "https://open.spotify.com/show/4butKL0Su5MgVXyGEhzmgc",
+      "subjects": [
+        "seerah_general",
+        "seerah_pedagogy"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "الشيخ عبدالناصر جانغدا"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "09a"
+    },
+    {
+      "id": "WEST-179",
+      "name_ar": "بودكاست «السيرة الكاملة للنبي ﷺ» – أحسن سيد",
+      "name_en": "Life of the Prophet Muhammad - Ahson Syed",
+      "type": "podcast_institutional",
+      "type_group": "media_audience",
+      "region": "western",
+      "country": "US",
+      "founded": 2020,
+      "description_ar": "سلسلة 84 حلقة سردية متتابعة عن سيرة النبي ﷺ بصوت أحسن سيد، أُطلقت 8 فبراير 2020 ضمن مشروع Prophet Muhammad Podcast وبثّت يومياً تقريباً. متاحة على Apple Podcasts و Spotify و Audible. مخصّصة 100% للسيرة.",
+      "url": "https://podcasts.apple.com/us/podcast/life-of-the-prophet-muhammad/id1498396103",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "أحسن سيد"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "09a"
+    },
+    {
+      "id": "WEST-180",
+      "name_ar": "بودكاست «صوت السيرة» – إبراهيم سلمان",
+      "name_en": "The Sound of Seerah - Ibrahim Salman",
+      "type": "podcast_institutional",
+      "type_group": "media_audience",
+      "region": "western",
+      "country": "GB",
+      "founded": 2022,
+      "description_ar": "بودكاست أسبوعي إنجليزي يحوّل السيرة إلى دراما صوتية بمؤثرات وممثلين وأجواء، من إنتاج إبراهيم سلمان (المملكة المتحدة). انتقل إلى الكتاب الثاني «الاضطهاد» وله قائمة تشغيل يوتيوب رسمية. مخصّص حصرياً للسيرة في قالب درامي مسموع.",
+      "url": "https://podcasts.apple.com/us/podcast/the-sound-of-seerah/id1617868660",
+      "subjects": [
+        "seerah_general",
+        "seerah_pedagogy"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "إبراهيم سلمان"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "09a"
+    },
+    {
+      "id": "WEST-181",
+      "name_ar": "بودكاست «محمد رسول الله ﷺ – سيرة رسول الله» للإمام أنور العولقي",
+      "name_en": "Mohammed The Messenger of Allah ﷺ Seerah Rasulullah - Anwar Al-Awlaki",
+      "type": "podcast_institutional",
+      "type_group": "media_audience",
+      "region": "western",
+      "country": "US",
+      "founded": 2008,
+      "description_ar": "سلسلة محاضرات صوتية إنجليزية شاملة تستند إلى «البداية والنهاية» لابن كثير و«صحيح السيرة النبوية» لإبراهيم العلي، تغطّي العهدين المكي والمدني وحلقات منفصلة عن مكة. أعيد إطلاقها كبودكاست رسمي 2024 لأغراض تعليمية. تجاوزت 40 حلقة بمحتوى سيراوي خالص.",
+      "url": "https://podcasts.apple.com/us/podcast/mohammed-the-messenger-of-allah-%EF%B7%BA-seerah-rasulullah/id1884820957",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "الإمام أنور العولقي"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "09a"
+    },
+    {
+      "id": "WEST-182",
+      "name_ar": "بودكاست «سيرة النبي ﷺ» – الأستاذ عبدالرحمن حسن",
+      "name_en": "Seerah of Prophet Muhammad ﷺ - Ustadh Abdulrahman Hassan (AMAU)",
+      "type": "podcast_institutional",
+      "type_group": "media_audience",
+      "region": "western",
+      "country": "GB",
+      "founded": 2020,
+      "description_ar": "سلسلة سيرة تجاوزت 76 حلقة (مرجع: حلقة #76 «ساعات قبل بدر»)، يُقدّمها الأستاذ عبدالرحمن حسن ضمن أكاديمية المدرسة العُمَرية (Al Madrasatu Al Umariyyah) في بريطانيا. توزّع على Patreon و Telegram و YouTube و iTunes و Spotify. مخصّصة للسيرة بتفصيل عسكري وسياسي عميق.",
+      "url": "https://open.spotify.com/show/08NJC1pIA0maaF6aKqZL4N",
+      "subjects": [
+        "seerah_general",
+        "seerah_battles"
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "الأستاذ عبدالرحمن حسن"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "09a"
+    },
+    {
+      "id": "WEST-183",
+      "name_ar": "بودكاست «حكايات من السيرة» – د. بانو مرتجى",
+      "name_en": "Stories from the Seerah ﷺ - Dr Bano Murtuja",
+      "type": "podcast_institutional",
+      "type_group": "media_audience",
+      "region": "western",
+      "country": "CA",
+      "founded": 2021,
+      "description_ar": "بودكاست عائلي مكرّس لسيرة النبي ﷺ، تأليف وإنتاج وسرد د. بانو مرتجى (المملكة المتحدة/كندا)، يُصدر حلقتين شهرياً منذ 2021 ويُسمع في أكثر من 20 دولة. النشيد المصاحب للسلسلة بأداء نادر خان. اشتراك مدفوع (10$) لحلقات إضافية. مخصّص حصرياً للسيرة.",
+      "url": "https://storiesfromtheseerah.supercast.com/",
+      "subjects": [
+        "seerah_general",
+        "seerah_pedagogy"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "د. بانو مرتجى"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "09a"
+    },
+    {
+      "id": "ARB-103",
+      "name_ar": "بودكاست «السيرة النبوية» – عبدالرحمن السبهان",
+      "name_en": "Al-Seerah Al-Nabawiyyah - Abdulrahman Al-Sabhan",
+      "type": "digital_creator",
+      "type_group": "individual_actors",
+      "region": "arabia",
+      "country": "SA",
+      "founded": 2018,
+      "description_ar": "سلسلة سعودية متخصّصة بصوت عبدالرحمن بن محمد السبهان، كل حلقة لا تتجاوز 15 دقيقة بفواصل شعرية، جُمعت المادة من ستة كتب سيرة باعتماد رئيس على «الرحيق المختوم» للمباركفوري. تجاوزت 60 حلقة وتُذاع على Spotify و Internet Archive و SoundCloud و Podtail. مخصّصة للسيرة.",
+      "url": "https://open.spotify.com/show/699t0BRbESh4X7ezJyLQSf",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "عبدالرحمن بن محمد السبهان"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "09a"
+    },
+    {
+      "id": "NAM-249",
+      "name_ar": "بودكاست «سيرة النبي ﷺ بالأردية» – الشيخ محمد خير مكي الحجازي",
+      "name_en": "Seerat un Nabi [Urdu] - Shaikh Muhammad Khair Makki al-Hijazi",
+      "type": "podcast_institutional",
+      "type_group": "media_audience",
+      "region": "non_arab_muslim",
+      "country": "PK",
+      "founded": 2021,
+      "description_ar": "بودكاست أردي مكرّس للسيرة بصوت الشيخ محمد خير مكي الحجازي (حنفي باكستاني الأصل مقيم بمكة المكرمة)، 30 حلقة بالأردية على Apple Podcasts و Spotify و Podbean. مخصّص حصرياً للسيرة في عالم البودكاست الأردي.",
+      "url": "https://podcasts.apple.com/us/podcast/seerat-un-nabi-urdu-by-shaikh-muhammad-khair-makki-al-hijazi/id1574514145",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "الشيخ محمد خير مكي الحجازي"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "09a"
+    },
+    {
+      "id": "ARB-104",
+      "name_ar": "بودكاست «إنصات – أنوار السيرة»",
+      "name_en": "Ensat - Anwar Al-Seerah Podcast",
       "type": "digital_platform",
       "type_group": "media_audience",
       "region": "arabia",
       "country": "SA",
-      "founded": 1997,
-      "description_ar": "أكبر بوّابة إفتاء سلفية على الإنترنت، تحتوي على آلاف الفتاوى والأجوبة باللغات العربية والإنجليزية والأردية وغيرها. قسم السيرة يضمّ مئات الأجوبة المفصّلة حول سيرة النبي ﷺ ومراحلها وأحداثها وأزواجه وغزواته، تستند إلى المصادر المعتمدة عند أهل السنة.",
-      "url": "https://islamqa.info/ar/categories/topics/166",
+      "founded": 2022,
+      "description_ar": "بودكاست عربي حصري للسيرة العطرة من إنتاج شبكة «إنصات» للصوتيات الإسلامية، يقدّم «أقباساً من نور السيرة العطرة لتُنير القلوب والبصائر بهدي النبي ﷺ». موزّع على Spotify و Apple Podcasts و islamicaudio.net و guidetosunnah.com.",
+      "url": "https://open.spotify.com/show/5kn9vDZKVg37CtiAw6L6Db",
       "subjects": [
-        "seerah_fatwa",
-        "salafi_methodology",
-        "digital_dawah"
+        "seerah_general"
       ],
-      "subjects_category": [],
+      "subjects_category": [
+        "classical_corpus"
+      ],
       "key_figures": [
-        "الشيخ محمد صالح المنجد"
+        "شبكة إنصات الصوتية"
       ],
       "verification": "desk_verified",
       "inclusion_tier": "core",
@@ -9264,30 +8659,28 @@
         "en"
       ],
       "output_types": [],
-      "funding_type": "private",
-      "round": "08t"
+      "funding_type": "academic_host",
+      "round": "09a"
     },
     {
-      "id": "ARB-094",
-      "name_ar": "إسلام ويب – قسم سيرة وشمائل النبي ﷺ",
-      "name_en": "Islamweb.net – Seerah / Biography of the Prophet Section",
-      "type": "digital_platform",
-      "type_group": "media_audience",
-      "region": "arabia",
-      "country": "QA",
-      "founded": 1998,
-      "description_ar": "بوّابة وزارة الأوقاف القطرية، من أكبر المواقع الإسلامية متعدّدة اللغات. قسم «سيرة وشمائل النبي» يضمّ أكثر من 248 فتوى تعالج أحداث السيرة من جوانب فقهية وعقدية وأخلاقية، إضافة إلى مكتبة مقالات وكتب وبرامج تعليمية حول السيرة بالعربية والإنجليزية والفرنسية والإسبانية.",
-      "url": "https://www.islamweb.net/ar/fatawa/7/سيرة-وشمائل-النبي",
+      "id": "NAM-250",
+      "name_ar": "قناة «SirahNabawi / TubeProphet» – سيرة الرسول من ابن هشام والمباركفوري",
+      "name_en": "SirahNabawi / TubeProphet YouTube Channel",
+      "type": "digital_creator",
+      "type_group": "individual_actors",
+      "region": "non_arab_muslim",
+      "country": "UN",
+      "founded": 2020,
+      "description_ar": "قناة وموقع متخصّصان في تقديم سيرة النبي ﷺ مرئياً اعتماداً على «الرحيق المختوم» للمباركفوري (الفائز بالجائزة الأولى لرابطة العالم الإسلامي 1978). سلسلة Life of Prophet Muhammad ﷺ Series بقائمة تشغيل مستقلّة على يوتيوب. مخصّصة للسيرة فقط.",
+      "url": "https://tubeprophet.com/",
       "subjects": [
-        "seerah_fatwa",
-        "ash_ari_methodology",
-        "multilingual_dawah",
-        "digital_dawah"
+        "seerah_general"
       ],
-      "subjects_category": [],
+      "subjects_category": [
+        "classical_corpus"
+      ],
       "key_figures": [
-        "هيئة فتوى إسلام ويب",
-        "وزارة الأوقاف القطرية"
+        "فريق TubeProphet"
       ],
       "verification": "desk_verified",
       "inclusion_tier": "core",
@@ -9298,9 +8691,769 @@
         "en"
       ],
       "output_types": [],
-      "funding_type": "private",
-      "round": "08t"
+      "funding_type": "academic_host",
+      "round": "09a"
+    },
+    {
+      "id": "WEST-184",
+      "name_ar": "معهد السيرة - فرنسا",
+      "name_en": "Institut SIRA",
+      "type": "research_education_institute",
+      "type_group": "research_education",
+      "region": "western",
+      "country": "FR",
+      "founded": 2021,
+      "description_ar": "معهد فرنسي مستقل متخصص حصراً في تدريس وبحث السيرة النبوية، تأسس بشراكة مع المتحف الدولي للسيرة النبوية بالمدينة المنورة. ينظم ندوات وأكاديميات وعروضاً عبر فرنسا، ويعتمد على أبحاث الدكتور عمار منلا (مدير مركز أبحاث السيرة بالمدينة) وخبراء مدنيين. أطلق أكاديمية SIRA بشراكة مع معهد الشاطبي بليون منذ 2024/2025، ويدير منصة 'apprendrelasira.fr' كذراع تعليمي رقمي.",
+      "url": "https://www.institut-sira.fr/",
+      "subjects": [
+        "seerah_general",
+        "shamail",
+        "delail_nubuwwah",
+        "seerah_pedagogy",
+        "tarjamah"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "Dr. Ammar Munla (شريك علمي)"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "09a"
+    },
+    {
+      "id": "WEST-185",
+      "name_ar": "منصة سيرة يسيرة",
+      "name_en": "Sira Yassira",
+      "type": "digital_platform",
+      "type_group": "media_audience",
+      "region": "western",
+      "country": "FR",
+      "founded": 2023,
+      "description_ar": "منصة رقمية فرنكوفونية متخصصة في السيرة النبوية والشمائل وسير الأنبياء والصحابيات بمنهج تاريخي صارم وفق المصادر السنية المعتمدة. تطور محتواها نحو البودكاست والكتب الرقمية والفيديوهات التعليمية لتقريب السيرة من جمهور الفرنكوفون.",
+      "url": "https://www.sirayassira.com/",
+      "subjects": [
+        "seerah_general",
+        "shamail",
+        "biography_methodology"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "methodology_critique"
+      ],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "09a"
+    },
+    {
+      "id": "NAM-251",
+      "name_ar": "مجتمع السيرة بإندونيسيا",
+      "name_en": "Sirah Community Indonesia (SCI)",
+      "type": "research_community",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "ID",
+      "founded": 2015,
+      "description_ar": "مؤسسة تعليمية مستقلة أسسها الأستاذ آسف صبري (خريج الجامعة الإسلامية بالمدينة 1995-1999، المدير التنفيذي لمعهد INSISTS) في مارس 2015. تدير 'مدرسة السيرة النبوية' بمنهج تحليلي عميق (لا سردي)، وتنظم 'Studium Generale' سنوياً منذ 2015 بمقر معهد إنسيستس في جنوب جاكرتا. تنتج بودكاست متخصص ومناهج مكثفة في السيرة والخلافة الراشدة.",
+      "url": "https://sirahcommunity.com/",
+      "subjects": [
+        "seerah_general",
+        "seerah_pedagogy",
+        "sources_critique"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "auxiliary_sciences",
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "Asep Sobari"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "09a"
+    },
+    {
+      "id": "NAM-252",
+      "name_ar": "أكاديمية السيرة – الفاتح",
+      "name_en": "Akademi Siroh - Akademi Alfatih",
+      "type": "academy",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "ID",
+      "founded": 2014,
+      "description_ar": "أكاديمية متخصصة في السيرة النبوية ضمن مؤسسة الفاتح للدعوة الحضارية (Yayasan Al Fatih Pilar Peradaban) أسسها الأستاذ بودي أشعري. تجمع منهجها بين 'كرونولوجيا السيرة' و'فقه السيرة' (المعاني والحكم والدروس)، ويستمر برنامج المحاضرات من يناير إلى أكتوبر يليه كتابة الرسائل. يتيح للخريجين فصلاً متقدماً (الخلفاء الراشدين) ومنح إرشادية.",
+      "url": "https://akademialfatih.org/siroh",
+      "subjects": [
+        "seerah_general",
+        "fiqh_seerah",
+        "seerah_pedagogy"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "Budi Ashari"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "09a"
+    },
+    {
+      "id": "NAM-253",
+      "name_ar": "موسوعة السيرة النبوية – پژوهشگاه فرهنگ و اندیشه اسلامی",
+      "name_en": "Encyclopedia of Prophetic Biography (Daneshnameh Sireh Nabavi) - IICT",
+      "type": "encyclopedia_project",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "IR",
+      "founded": 2001,
+      "description_ar": "مشروع موسوعي إيراني ضخم بإشراف پژوهشگاه فرهنگ و اندیشه اسلامی (IICT) ومعهد الحوزة والجامعة، يضم نحو 850 مدخلاً يستخرج النظم السلوكية المثلى في الحقول العبادية والتربوية والقضائية والاجتماعية والسياسية والجهادية والاقتصادية والإدارية والبيئية والتعليمية والبحثية من السيرة والسنة النبوية. أُدرج في خطة عام 2001 وأنتج عدة مجلدات.",
+      "url": "https://iict.ac.ir/daneshsire/",
+      "subjects": [
+        "seerah_general",
+        "seerah_pedagogy",
+        "biography_methodology"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "classical_corpus",
+        "methodology_critique"
+      ],
+      "key_figures": [
+        "Ali Akbar Rashad (رئيس المؤسسة)"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "09a"
+    },
+    {
+      "id": "NAM-254",
+      "name_ar": "همايش بين‌المللي تجلي 15 قرن نور نبوي",
+      "name_en": "International Congress 'Manifestation of 15 Centuries of Prophetic Light in Science and Research'",
+      "type": "international_congress",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "IR",
+      "founded": 2026,
+      "description_ar": "مؤتمر إيراني دولي يُنظَّم في طهران (أرديبهشت 1405هـش / مايو 2026) لبحث الأبعاد العلمية والحضارية والثقافية والاجتماعية للسيرة النبوية بمشاركة دولية. ينعقد بإشراف رسمي ضمن سلسلة مؤتمرات نبوية متخصصة.",
+      "url": "https://defapress.ir/fa/news/801653/",
+      "subjects": [
+        "seerah_general",
+        "seerah_pedagogy",
+        "biography_methodology"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "classical_corpus",
+        "methodology_critique"
+      ],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "09a"
+    },
+    {
+      "id": "NAM-255",
+      "name_ar": "همايش بين‌المللي معارف نبوي و چالش‌های جهان امروز",
+      "name_en": "International Conference on Prophetic Teachings and Challenges of Today's World",
+      "type": "international_conference",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "IR",
+      "founded": 2024,
+      "description_ar": "مؤتمر دولي دوري ينظمه دانشكدة الإلهيات والمعارف الإسلامية بجامعة علامة طباطبائي بطهران، يبحث معارف السيرة والسنة النبوية في معالجة قضايا العالم المعاصرة. الدورة الأولى أُعلنت في خرداد 1403هـش (يونيو 2024).",
+      "url": "https://pkctw.atu.ac.ir/",
+      "subjects": [
+        "seerah_general",
+        "fiqh_seerah",
+        "orientalism_critique"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "methodology_critique"
+      ],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "09a"
+    },
+    {
+      "id": "WEST-186",
+      "name_ar": "معهد دين القيمة – ليون",
+      "name_en": "Institut Din-ul-Qayyima",
+      "type": "online_institute",
+      "type_group": "research_education",
+      "region": "western",
+      "country": "FR",
+      "founded": 2018,
+      "description_ar": "معهد فرنسي يقدم برنامجاً تدريجياً للسيرة في 4 مستويات بإجمالي 42 ساعة سنوياً (مباشر + إعادة بث). يعتمد المستوى الأول على منظومة 'قرة الأبصار في سيرة المصطفى المختار' للمكناسي (399 بيتاً)، والثاني على 'الشمائل المحمدية' للترمذي (417 حديثاً)، والرابع شامل لسيرة ابن هشام. كما ينظم سيمنارات سيرة موسمية.",
+      "url": "https://institut.dinulqayyima.fr/",
+      "subjects": [
+        "seerah_general",
+        "shamail",
+        "delail_nubuwwah"
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "09a"
+    },
+    {
+      "id": "ARB-105",
+      "name_ar": "مسابقة رابطة العالم الإسلامي العالمية للسيرة النبوية (1396هـ/1976م)",
+      "name_en": "Muslim World League International Seerah Competition (1976)",
+      "type": "competition",
+      "type_group": "research_education",
+      "region": "arabia",
+      "country": "SA",
+      "founded": 1976,
+      "description_ar": "مسابقة عالمية أطلقتها رابطة العالم الإسلامي بمكة المكرمة في موسم الحج 1396هـ لكتاب جامع في السيرة، تنافست فيها 171 رسالة من 84 دولة. فاز بها كتاب «الرحيق المختوم» للمباركفوري ضمن خمسة كتب فائزة. تُعد هذه المسابقة منعطفاً مؤسسياً في تكوين معيار السيرة المنشورة عالمياً.",
+      "url": "https://themwl.org/",
+      "subjects": [
+        "seerah_general",
+        "competition",
+        "tarjamah"
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "classical_corpus"
+      ],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "09a"
+    },
+    {
+      "id": "WEST-187",
+      "name_ar": "مشروع كوربس عروة بن الزبير – السيرة المبكرة",
+      "name_en": "ʿUrwa b. al-Zubayr Sira Corpus Project",
+      "type": "research_project",
+      "type_group": "research_education",
+      "region": "western",
+      "country": "CH",
+      "founded": 2003,
+      "description_ar": "مشروع بحثي مشترك بين جامعتي بازل وإدنبرة لإعادة تركيب أقدم نصوص السيرة من نقولات عروة بن الزبير المبثوثة في الطبري وعبد الرزاق وغيرهما. أنتج كتاب «أقدم الكتابات في سيرة محمد» (2023)، ويعد المختبر الأوربي الأبرز لتطبيق منهج الإسناد-والمتن على السيرة المبكرة.",
+      "url": "https://www.research.ed.ac.uk/en/persons/andreas-goerke/",
+      "subjects": [
+        "sources_critique",
+        "biography_methodology",
+        "early_islam",
+        "manuscript_studies"
+      ],
+      "subjects_category": [
+        "auxiliary_sciences",
+        "methodology_critique",
+        "prophetic_demography"
+      ],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "09a"
+    },
+    {
+      "id": "MAG-053",
+      "name_ar": "المؤتمر الدولي السنوي للسيرة النبوية - نواكشوط",
+      "name_en": "International Annual Conference on the Prophetic Biography - Nouakchott",
+      "type": "conference_series",
+      "type_group": "institutional_infra",
+      "region": "maghreb",
+      "country": "MR",
+      "founded": 1988,
+      "description_ar": "أكبر وأقدم مؤتمر سنوي عالمي مخصّص للسيرة النبوية، يُنظّمه التجمع الثقافي الإسلامي بموريتانيا برئاسة الشيخ محمد الحافظ النحوي. عُقدت الدورة الـ38 في سبتمبر 2025 بنواكشوط برعاية رئيس الجمهورية، بمشاركة علماء من عشرات الدول.",
+      "url": "https://www.ami.mr/archives/206308",
+      "subjects": [
+        "seerah_general",
+        "moderation",
+        "peace"
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "09a"
+    },
+    {
+      "id": "NAM-256",
+      "name_ar": "المؤتمر الدولي السنوي للسيرة النبوية - باكستان",
+      "name_en": "National/International Seerat-un-Nabi Conference - Pakistan",
+      "type": "conference_series",
+      "type_group": "institutional_infra",
+      "region": "non_arab_muslim",
+      "country": "PK",
+      "founded": 1976,
+      "description_ar": "مؤتمر سنوي تنظمه وزارة الشؤون الدينية والوئام بين الأديان الباكستانية في 12 ربيع الأول، يحضره رئيس الجمهورية ورئيس الوزراء، عُقدت الدورة الـ49 عام 2023. يُصاحبه توزيع جوائز السيرة والنعت للمؤلفين الكبار.",
+      "url": "https://www.mora.gov.pk/Detail/MDViYjAwMjYtYTA3MS00OWQ1LWE2ZDMtYmM2MGU1ZWEzOTll",
+      "subjects": [
+        "seerah_general",
+        "naat",
+        "harmony"
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "09a"
+    },
+    {
+      "id": "NAM-257",
+      "name_ar": "المسابقة الوطنية الباكستانية لكتب السيرة النبوية",
+      "name_en": "Pakistan National Seerat Book Competition",
+      "type": "award",
+      "type_group": "institutional_infra",
+      "region": "non_arab_muslim",
+      "country": "PK",
+      "founded": 1980,
+      "description_ar": "مسابقة سنوية تنظمها وزارة الشؤون الدينية الباكستانية لأفضل المؤلفات في السيرة والنعت بالأردية والإنجليزية والعربية واللغات الإقليمية، بفئات للنساء والأطفال. تُسلَّم الجوائز ضمن المؤتمر الوطني للسيرة.",
+      "url": "https://www.mora.gov.pk/",
+      "subjects": [
+        "seerah_general",
+        "books",
+        "writing"
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "09a"
+    },
+    {
+      "id": "TUR-074",
+      "name_ar": "الندوة الدولية للمولد النبوي - رئاسة الشؤون الدينية التركية",
+      "name_en": "International Mevlid-i Nebi Symposium - Diyanet",
+      "type": "conference_series",
+      "type_group": "institutional_infra",
+      "region": "turkey",
+      "country": "TR",
+      "founded": 1989,
+      "description_ar": "ندوة دولية سنوية تنظمها رئاسة الشؤون الدينية التركية (ديانة) ضمن أسبوع المولد النبوي، أُطلقت عام 1989. تتناول كل دورة محوراً من السيرة (النبي والأسرة، المسجد، الرحمة...). دورة 2026 بعنوان «النبي رحمة للعالمين - الذكرى الألف وخمسمئة».",
+      "url": "https://mevlidinebi.diyanet.gov.tr/",
+      "subjects": [
+        "seerah_general",
+        "mawlid",
+        "ethics"
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "09a"
+    },
+    {
+      "id": "ARB-106",
+      "name_ar": "مؤتمر السيرة النبوية الدولي - جامعة حمد بن خليفة",
+      "name_en": "Sirah of the Prophet Conference - Hamad Bin Khalifa University",
+      "type": "conference_series",
+      "type_group": "institutional_infra",
+      "region": "arabia",
+      "country": "QA",
+      "founded": 2017,
+      "description_ar": "مؤتمر سنوي ينظّمه مركز محمد بن حمد آل ثاني لإسهامات المسلمين في الحضارة بكلية الدراسات الإسلامية في جامعة حمد بن خليفة بقطر، يومان كل عام بمحور جديد (دلائل النبوة، الهدي النبوي في السلم والحرب). باللغتين العربية والإنجليزية مع ترجمة فورية.",
+      "url": "https://www.hbku.edu.qa/ar/SPC",
+      "subjects": [
+        "seerah_general",
+        "civilization",
+        "academic"
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "09a"
+    },
+    {
+      "id": "ARB-107",
+      "name_ar": "جائزة كتارا لشاعر الرسول ﷺ",
+      "name_en": "Katara Prize for the Poet of the Messenger",
+      "type": "award",
+      "type_group": "institutional_infra",
+      "region": "arabia",
+      "country": "QA",
+      "founded": 2015,
+      "description_ar": "جائزة قطرية سنوية أطلقتها المؤسسة العامة للحي الثقافي «كتارا» عام 2015، تكرّم أجود القصائد في مديح النبي ﷺ وسيرته بفئتي الفصيح والنبطي. الدورة السادسة بقيمة 3.8 مليون ريال قطري، أول جائزة عربية متخصّصة في الشعر النبوي.",
+      "url": "https://katarapoet.com/",
+      "subjects": [
+        "seerah_general",
+        "poetry",
+        "madih_nabawi"
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "09a"
+    },
+    {
+      "id": "MAG-054",
+      "name_ar": "المؤتمر العالمي للباحثين في السيرة النبوية - فاس",
+      "name_en": "World Conference of Researchers in the Prophetic Biography - Fez",
+      "type": "conference_series",
+      "type_group": "institutional_infra",
+      "region": "maghreb",
+      "country": "MA",
+      "founded": 2014,
+      "description_ar": "مؤتمر دوري تنظّمه مؤسسة البحوث والدراسات العلمية «مبدع» بفاس بشراكة مع وزارة الأوقاف والمجلس العلمي الأعلى وجامعة القرويين. عُقدت أربع دورات حتى 2019 بمحاور متسلسلة (جهود الأمة، آفاق الخدمة، السيرة الشاملة، المرحلة المكية).",
+      "url": "https://mobdii.com/sirra/v4/",
+      "subjects": [
+        "seerah_general",
+        "academic",
+        "research"
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "09a"
+    },
+    {
+      "id": "ARB-108",
+      "name_ar": "المسابقة السنوية في السيرة النبوية - مركز محمد بن راشد للثقافة الإسلامية",
+      "name_en": "Annual Seerah Competition - Mohammed Bin Rashid Center for Islamic Culture",
+      "type": "award",
+      "type_group": "institutional_infra",
+      "region": "arabia",
+      "country": "AE",
+      "founded": 2014,
+      "description_ar": "مسابقة سنوية إماراتية تنظّمها دائرة الشؤون الإسلامية بدبي عبر مركز محمد بن راشد للثقافة الإسلامية، باختبار إلكتروني على كتاب سيرة مختار، شاركت فيها أكثر من 200 متسابقة من جنسيات متعدّدة. تُقام في رمضان من كل عام.",
+      "url": "https://iacad.gov.ae/",
+      "subjects": [
+        "seerah_general",
+        "education",
+        "youth"
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "09a"
+    },
+    {
+      "id": "NAM-258",
+      "name_ar": "أولمبياد السيرة النبوية - بنغلاديش",
+      "name_en": "Bangladesh Sirat Olympiad",
+      "type": "award",
+      "type_group": "institutional_infra",
+      "region": "non_arab_muslim",
+      "country": "BD",
+      "founded": 2017,
+      "description_ar": "مسابقة وطنية سنوية في بنغلاديش لطلاب المدارس والجامعات والمدارس الدينية، تتألف من فئتين عمريّتين، تُختتم في تجمّع وطني كبير بميدان سهروردي أوديان بدكا، تُعدّ من أكبر مسابقات السيرة الطلابية في جنوب آسيا.",
+      "url": "https://siratolympiad.com/",
+      "subjects": [
+        "seerah_general",
+        "youth",
+        "competition"
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "09a"
+    },
+    {
+      "id": "TUR-075",
+      "name_ar": "مسابقة عشّاق النبي للسيرة - مؤسسة عشّاق النبي التركية",
+      "name_en": "Siyer Yarışması - Peygamber Sevdalıları Vakfı",
+      "type": "award",
+      "type_group": "institutional_infra",
+      "region": "turkey",
+      "country": "TR",
+      "founded": 2013,
+      "description_ar": "أكبر مسابقة طلابية للسيرة النبوية في تركيا، تنظّمها مؤسسة «عشّاق النبي» منذ 2013 تحت شعار «اقرأه واعشه». اختبار اختياري إلكتروني بأربع فئات (ابتدائي، إعدادي، ثانوي، غير ملتحقين). يشارك فيها مئات الآلاف من الطلاب سنوياً عبر تركيا.",
+      "url": "https://www.siyersinavi.com/",
+      "subjects": [
+        "seerah_general",
+        "youth",
+        "competition"
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "09a"
+    },
+    {
+      "id": "TUR-076",
+      "name_ar": "ندوة السيرة النبوية الدولية - رابطة عاشقي النبي ميريديان",
+      "name_en": "Uluslararası Siyer Sempozyumu - Meridyen Derneği",
+      "type": "conference_series",
+      "type_group": "institutional_infra",
+      "region": "turkey",
+      "country": "TR",
+      "founded": 2009,
+      "description_ar": "ندوة دورية أكاديمية تنظّمها رابطة ميريديان التركية ضمن مشروع «sonpeygamber.info» منذ 2009، تختتم سلسلة «ورشة السيرة» الخماسية بمحاور تشمل كتابة السيرة، الأدب، علم الاجتماع، التربية، والإعلام. دورة 2015 «دراسات السيرة في تركيا بكل أبعادها».",
+      "url": "https://www.meridyendernegi.org/",
+      "subjects": [
+        "seerah_general",
+        "academic",
+        "interdisciplinary"
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "09a"
+    },
+    {
+      "id": "NAM-259",
+      "name_ar": "المؤتمر الدولي للسيرة النبوية - جامعة مولانا مالك إبراهيم الإسلامية بمالانج",
+      "name_en": "International Conference on Sirah Nabawiyah - UIN Maliki Malang",
+      "type": "conference_series",
+      "type_group": "institutional_infra",
+      "region": "non_arab_muslim",
+      "country": "ID",
+      "founded": 2015,
+      "description_ar": "مؤتمر دولي تنظّمه جامعة مولانا مالك إبراهيم الإسلامية الحكومية في مالانج، إندونيسيا، انطلقت دورته الأولى 2015 بحضور سفير السعودية ومدير وقف السيرة. دورة 2017 «منهج دعوة الصحابة» بـ33 ورقة بحثية و40 باحثاً دولياً، يجمع المؤلفين من أنحاء العالم.",
+      "url": "https://icic.uin-malang.ac.id/",
+      "subjects": [
+        "seerah_general",
+        "academic",
+        "asia"
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "09a"
+    },
+    {
+      "id": "NAM-260",
+      "name_ar": "المؤتمر الدولي للسيرة النبوية - الجامعة الإسلامية المفتوحة (علامة إقبال) إسلام آباد",
+      "name_en": "International Seerat Conference - Allama Iqbal Open University",
+      "type": "conference_series",
+      "type_group": "institutional_infra",
+      "region": "non_arab_muslim",
+      "country": "PK",
+      "founded": 2015,
+      "description_ar": "مؤتمر دوري تنظّمه كلية العربية والدراسات الإسلامية بالجامعة الإسلامية المفتوحة في إسلام آباد، يستضيف باحثين دوليين بمحاور سنوية متجدّدة. دورة نوفمبر 2025 خُصّصت لـ«جهود متصوّفة الهند في خدمة السيرة».",
+      "url": "https://www.aiou.edu.pk/research-conferences",
+      "subjects": [
+        "seerah_general",
+        "academic",
+        "south_asia"
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "09a"
     }
   ],
-  "migration_note": "2026-05-13: SCOPE AUDIT COMPLETE — 697→217 (strict Seerah focus)"
+  "migration_note": "2026-05-13: STRICT AUDIT + ROUND 9-A — 235 entities (Seerah-only)"
 }

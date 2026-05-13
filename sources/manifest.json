@@ -2,7 +2,7 @@
   "project": "seerah-encyclopedia",
   "description": "مسح موسوعي للكيانات المتخصصة في خدمة السيرة النبوية، موزّعاً على سبع جولات بحثية",
   "language": "ar",
-  "totalEntities": 217,
+  "totalEntities": 235,
   "rounds": [
     {
       "id": "01",
