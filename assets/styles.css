@@ -4308,6 +4308,346 @@ mark.search-hit {
 }
 
 /* ============================================================
+   تبويب «الفرص والفجوات» — التحليل البصري
+   ============================================================ */
+
+.opportunities {
+  padding-block: 1rem 2rem;
+  display: grid;
+  gap: 2.5rem;
+}
+
+.opportunities__header h2 {
+  font-size: 1.8rem;
+  color: var(--color-primary, #0A4D68);
+  margin: 0 0 0.5rem;
+}
+
+.opportunities__hint {
+  color: var(--color-text-muted, #555);
+  line-height: 1.8;
+  max-width: 80ch;
+  font-size: 1rem;
+}
+
+.opp-section {
+  background-color: var(--color-surface, #fff);
+  border: 1px solid var(--color-border, #e2dccc);
+  border-radius: 10px;
+  padding: 1.5rem 1.75rem;
+}
+
+.opp-section h3 {
+  font-size: 1.3rem;
+  color: var(--color-primary, #0A4D68);
+  margin: 0 0 0.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--color-accent, #C39B5C);
+}
+
+.opp-section__desc {
+  color: var(--color-text-muted, #666);
+  font-size: 0.95rem;
+  line-height: 1.7;
+  margin: 0 0 1.25rem;
+}
+
+.opp-grade {
+  font-size: 1rem;
+  margin: 1.25rem 0 0.6rem;
+  font-weight: 700;
+}
+.opp-grade--critical { color: #C0392B; }
+.opp-grade--low { color: #D68910; }
+
+.opp-bars {
+  display: grid;
+  gap: 0.4rem;
+}
+
+.opp-bar {
+  display: grid;
+  grid-template-columns: 200px 1fr auto;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.45rem 0.75rem;
+  background: transparent;
+  border: 1px solid var(--color-border, #e2dccc);
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: inherit;
+  text-align: right;
+  transition: all 0.2s;
+  min-height: 40px;
+}
+
+.opp-bar:hover {
+  background-color: rgba(195, 155, 92, 0.08);
+  border-color: var(--color-accent, #C39B5C);
+}
+
+.opp-bar__label {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--color-text, #2a2a2a);
+}
+
+.opp-bar__fill {
+  display: block;
+  height: 22px;
+  border-radius: 4px;
+  position: relative;
+  min-width: 8px;
+}
+
+.opp-bar--critical .opp-bar__fill {
+  background: linear-gradient(90deg, #E74C3C, #C0392B);
+}
+.opp-bar--low .opp-bar__fill {
+  background: linear-gradient(90deg, #F39C12, #D68910);
+}
+
+.opp-bar__count {
+  font-weight: 700;
+  color: var(--color-primary, #0A4D68);
+  min-width: 30px;
+  text-align: center;
+  font-variant-numeric: tabular-nums;
+}
+
+/* ===== جدول اللغات ===== */
+.opp-lang-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+.opp-lang-table th,
+.opp-lang-table td {
+  padding: 0.65rem 0.9rem;
+  text-align: right;
+  border-bottom: 1px solid var(--color-border, #e2dccc);
+}
+
+.opp-lang-table th {
+  background-color: var(--color-primary, #0A4D68);
+  color: #fff;
+  font-weight: 700;
+}
+
+.opp-lang-row--critical { background: linear-gradient(90deg, rgba(231,76,60,0.12), transparent); }
+.opp-lang-row--high { background: linear-gradient(90deg, rgba(243,156,18,0.10), transparent); }
+.opp-lang-row--medium { background: linear-gradient(90deg, rgba(241,196,15,0.08), transparent); }
+
+/* ===== مصفوفة الفرص ===== */
+.opp-matrix {
+  position: relative;
+  background: linear-gradient(135deg, #F5F1E8 0%, #fff 100%);
+  border: 1px solid var(--color-border, #e2dccc);
+  border-radius: 12px;
+  height: 480px;
+  margin: 1rem 0;
+}
+
+.opp-matrix__axes {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.opp-matrix__label-y {
+  position: absolute;
+  inset-block-start: 12px;
+  inset-inline-end: 12px;
+  font-weight: 700;
+  color: var(--color-primary, #0A4D68);
+  font-size: 0.9rem;
+}
+
+.opp-matrix__label-x {
+  position: absolute;
+  inset-block-end: 12px;
+  inset-inline-start: 12px;
+  font-weight: 700;
+  color: var(--color-primary, #0A4D68);
+  font-size: 0.9rem;
+}
+
+.opp-matrix__plot {
+  position: absolute;
+  inset: 50px;
+  border-block-start: 1px dashed rgba(10, 77, 104, 0.2);
+  border-inline-end: 1px dashed rgba(10, 77, 104, 0.2);
+}
+
+.opp-bubble {
+  position: absolute;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6rem;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+  transform: translate(50%, 50%);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.opp-bubble:hover {
+  transform: translate(50%, 50%) scale(1.18);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+}
+
+.opp-bubble--hot { background-color: #E74C3C; }
+.opp-bubble--med { background-color: #F39C12; }
+.opp-bubble--long { background-color: #3498DB; }
+
+.opp-matrix__legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  font-size: 0.9rem;
+  margin-top: 0.75rem;
+}
+
+.opp-legend-item::before {
+  content: "● ";
+  font-size: 1.3em;
+}
+.opp-legend-item--hot::before { color: #E74C3C; }
+.opp-legend-item--med::before { color: #F39C12; }
+.opp-legend-item--long::before { color: #3498DB; }
+
+/* ===== بطاقات الفرص ===== */
+.opp-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1rem;
+}
+
+.opp-card {
+  background-color: var(--color-bg-soft, #fdfbf5);
+  border: 1px solid var(--color-border, #e2dccc);
+  border-inline-start: 5px solid var(--color-accent, #C39B5C);
+  border-radius: 8px;
+  padding: 1.25rem;
+  transition: all 0.2s;
+}
+
+.opp-card--hot { border-inline-start-color: #E74C3C; }
+.opp-card--med { border-inline-start-color: #F39C12; }
+.opp-card--long { border-inline-start-color: #3498DB; }
+
+.opp-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+.opp-card--flash {
+  animation: oppFlash 1.5s ease;
+}
+@keyframes oppFlash {
+  0%, 100% { background-color: var(--color-bg-soft, #fdfbf5); }
+  30% { background-color: rgba(195, 155, 92, 0.3); }
+}
+
+.opp-card__head {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-bottom: 0.6rem;
+}
+
+.opp-card__icon { font-size: 1.6rem; }
+
+.opp-card__title {
+  flex: 1;
+  margin: 0;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--color-primary, #0A4D68);
+}
+
+.opp-card__priority {
+  font-size: 0.85rem;
+  padding: 0.2rem 0.55rem;
+  border-radius: 4px;
+  background-color: rgba(195, 155, 92, 0.2);
+  color: var(--color-primary, #0A4D68);
+  font-weight: 600;
+}
+
+.opp-card__desc {
+  font-size: 0.92rem;
+  line-height: 1.7;
+  color: var(--color-text-muted, #555);
+  margin: 0 0 1rem;
+}
+
+.opp-card__stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem 1rem;
+  margin: 0;
+  font-size: 0.85rem;
+}
+
+.opp-card__stats div {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.opp-card__stats dt {
+  color: var(--color-text-muted, #888);
+  font-size: 0.8rem;
+}
+
+.opp-card__stats dd {
+  margin: 0;
+  font-weight: 600;
+  color: var(--color-text, #2a2a2a);
+}
+
+.opp-card__dim {
+  opacity: 0.25;
+}
+
+.opp-footer-note {
+  text-align: center;
+  font-size: 0.95rem;
+  color: var(--color-text-muted, #666);
+  padding: 1rem;
+  border-block-start: 1px solid var(--color-border, #e2dccc);
+}
+
+.opp-footer-note a {
+  color: var(--color-accent, #C39B5C);
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+/* استجابة الجوال */
+@media (max-width: 768px) {
+  .opp-bar { grid-template-columns: 140px 1fr auto; gap: 0.5rem; }
+  .opp-bar__label { font-size: 0.85rem; }
+  .opp-matrix { height: 380px; }
+  .opp-bubble { width: 44px; height: 44px; font-size: 1.2rem; }
+  .opp-lang-table { font-size: 0.85rem; }
+  .opp-lang-table th, .opp-lang-table td { padding: 0.4rem 0.5rem; }
+}
+
+@media (max-width: 480px) {
+  .opp-bar { grid-template-columns: 100px 1fr auto; }
+  .opp-section { padding: 1rem; }
+  .opp-cards { grid-template-columns: 1fr; }
+}
+
+/* ============================================================
    تبويب التصدير إلى Word
    ============================================================ */
 

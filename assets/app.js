@@ -461,6 +461,10 @@
       if (!state.loaded) loadEntities().then(() => renderGaps());
       else renderGaps();
     }
+    if (tabName === "opportunities") {
+      if (!state.loaded) loadEntities().then(() => renderOpportunities());
+      else renderOpportunities();
+    }
     if (tabName === "network") {
       if (!state.loaded) loadEntities().then(() => renderNetwork());
       else renderNetwork();
@@ -2171,6 +2175,253 @@
     try { localStorage.removeItem("seerah-gap-edits"); } catch (_) {}
     if (typeof toast === "function") toast("حُذفت التعديلات المحلية. أعد تحميل الصفحة لاسترداد القيم الأصلية.");
     updateEditsCounter();
+  }
+
+  // ============================================================
+  // تبويب «الفرص والفجوات» — تحليل بصري للقسم 18
+  // ============================================================
+
+  // الـ10 أفكار الإبداعية بقيم الجدوى والأثر والتكلفة
+  const OPPORTUNITIES = [
+    { id: "deaf", title: "السيرة بلغة الإشارة", icon: "🤟", feasibility: 5, impact: 4, cost: 200, priority: "🔥",
+      desc: "صفر كيان عالمياً. قناة تنتج السيرة بلغة الإشارة (الدولية + العربية + ASL + BSL). 70 مليون أصمّ مسلم لا يصل إليهم محتوى السيرة.",
+      audience: "70M أصمّ مسلم" },
+    { id: "sahabiyat", title: "مؤسسة سيدات الصحابة", icon: "👩", feasibility: 5, impact: 4, cost: 400, priority: "🔥",
+      desc: "3 كيانات فقط في «النساء في السيرة» رغم 700M مسلمة. مؤسسة متخصّصة (كرسي + مجلة + مؤتمرات + موسوعة).",
+      audience: "700M مسلمة" },
+    { id: "africa-net", title: "شبكة اللغات الإفريقية", icon: "🌍", feasibility: 4, impact: 5, cost: 500, priority: "🔥",
+      desc: "250M مسلم إفريقي يفتقدون السيرة بالسواحلية والهوسا واليوروبا. شبكة لامركزية من ناشرين/قنوات.",
+      audience: "250M مسلم إفريقي" },
+    { id: "observatory", title: "المرصد الدائم للموسوعة", icon: "🔭", feasibility: 4, impact: 5, cost: 250, priority: "🔥",
+      desc: "هذه الموسوعة تحتاج مؤسسة دائمة (3-5 موظفين) ترصد المؤسسات الجديدة سنوياً وتحدّث البيانات.",
+      audience: "الباحثون والمؤسسون" },
+    { id: "ai-chatbot", title: "شاتبوت السيرة الموثَّق", icon: "🤖", feasibility: 3, impact: 5, cost: 800, priority: "🔥",
+      desc: "محتوى السيرة بالـAI ينمو دون تحقّق سندي. نموذج لغوي مُدرَّب فقط على المصادر السنّية المحقّقة، يجيب بإسناد.",
+      audience: "1B+ مستخدم إنترنت مسلم" },
+    { id: "quran-sira", title: "مرصد القرآن للسيرة", icon: "📖", feasibility: 5, impact: 3, cost: 350, priority: "متوسطة",
+      desc: "تقاطع التفسير-السيرة مفقود (1 كيان فقط). مركز يحلّل الآيات السيراوية، يبني خرائط معرفية للترتيب الزماني.",
+      audience: "المفسّرون والباحثون" },
+    { id: "vr-museum", title: "متحف مكة/المدينة الافتراضي 3D", icon: "🕋", feasibility: 2, impact: 5, cost: 2000, priority: "طويل الأمد",
+      desc: "دراسات مكة والمدينة 9 كيانات فقط. منصّة 3D/VR تُعيد بناء جغرافيا مكة والمدينة سنة 622م بطبقات تفاعلية.",
+      audience: "الحجاج والباحثون" },
+    { id: "china", title: "السيرة بالصينية الماندرين", icon: "🇨🇳", feasibility: 2, impact: 4, cost: 300, priority: "متوسطة",
+      desc: "25M مسلم في الصين، صفر كيان متخصّص بالصينية. ناشر + قناة + موقع بالصينية المعاصرة (Pinyin + التراث الإسلامي الصيني).",
+      audience: "25M مسلم صيني" },
+    { id: "manuscripts", title: "مكتبة المخطوطات الموحّدة", icon: "📜", feasibility: 1, impact: 5, cost: 1500, priority: "طويل الأمد",
+      desc: "مخطوطات السيرة موزّعة على 50+ مكتبة. منصّة تجمع رقمياً المخطوطات من إسطنبول وباريس وكامبردج والقاهرة وغيرها.",
+      audience: "الباحثون عالمياً" },
+    { id: "non-muslim", title: "السيرة للأكاديميين غير المسلمين", icon: "🎓", feasibility: 3, impact: 4, cost: 500, priority: "متوسطة",
+      desc: "الجمهور الأكاديمي الغربي يستهلك الاستشراق التقليدي. منصّة تقدّم السيرة بمعايير صارمة، تستهدف الباحثين غير المسلمين.",
+      audience: "100K+ أكاديمي غربي" },
+  ];
+
+  // ترتيب الموضوعات حسب النسبة المنخفضة (الفجوات الكبرى أولاً)
+  function computeSubjectGaps() {
+    const counts = new Map();
+    state.entities.forEach((e) => {
+      (e.subjects || []).forEach((s) => counts.set(s, (counts.get(s) || 0) + 1));
+    });
+    const all = [...counts.entries()]
+      .map(([code, count]) => ({ code, label: label("subjects", code), count }))
+      .sort((a, b) => a.count - b.count);
+    return all;
+  }
+
+  // الفجوات اللغوية: المسلمون × الكيانات
+  const LANGUAGE_GAPS = [
+    { code: "id", label: "الإندونيسية", muslims: 240, ratio: 12.6 },
+    { code: "bn", label: "البنغالية", muslims: 150, ratio: 21.4 },
+    { code: "zh", label: "الصينية", muslims: 25, ratio: 999 },
+    { code: "sw", label: "السواحلية", muslims: 50, ratio: 8.3 },
+    { code: "ha", label: "الهوسا", muslims: 70, ratio: 14 },
+    { code: "ms", label: "الماليزية", muslims: 180, ratio: 45 },
+    { code: "es", label: "الإسبانية", muslims: 6, ratio: 0.85 },
+    { code: "fa", label: "الفارسية", muslims: 110, ratio: 4.8 },
+    { code: "ur", label: "الأردية", muslims: 200, ratio: 3.0 },
+    { code: "tr", label: "التركية", muslims: 80, ratio: 1.1 },
+  ];
+
+  function computeLanguageCoverage() {
+    const counts = new Map();
+    state.entities.forEach((e) => {
+      (e.languages || []).forEach((l) => counts.set(l, (counts.get(l) || 0) + 1));
+    });
+    return LANGUAGE_GAPS.map((g) => {
+      const entities = counts.get(g.code) || 0;
+      const actualRatio = g.muslims > 0 ? (g.muslims / Math.max(entities, 0.1)) : 0;
+      const severity = actualRatio > 10 ? "critical" : actualRatio > 4 ? "high" : actualRatio > 1.5 ? "medium" : "low";
+      return { ...g, entities, actualRatio: actualRatio.toFixed(1), severity };
+    }).sort((a, b) => b.actualRatio - a.actualRatio);
+  }
+
+  function renderOpportunities() {
+    const root = document.querySelector("#tab-opportunities .container");
+    if (!root) return;
+
+    const subjectGaps = computeSubjectGaps();
+    const langCoverage = computeLanguageCoverage();
+    const maxSubjectCount = Math.max(...subjectGaps.map((s) => s.count));
+
+    // الفجوات الموضوعية: أكثر الموضوعات قلّةً
+    const criticalSubjects = subjectGaps.filter((s) => s.count <= 10);
+    const lowSubjects = subjectGaps.filter((s) => s.count > 10 && s.count <= 30);
+
+    root.innerHTML = `
+      <div class="opportunities">
+        <header class="opportunities__header">
+          <h2 class="opportunities__title">🔍 الفرص والفجوات — تشخيص بصري</h2>
+          <p class="opportunities__hint">
+            هذه اللوحة تستثمر تحليل القسم 18 (التشخيص) في عرض بصري للفجوات الموضوعية واللغوية، مع <strong>10 أفكار مؤسسية</strong>
+            مرتّبة في مصفوفة الجدوى × الأثر.
+          </p>
+        </header>
+
+        <!-- 1. الفجوات الموضوعية -->
+        <section class="opp-section">
+          <h3>① الفجوات الموضوعية — أين النقص؟</h3>
+          <p class="opp-section__desc">من أصل 29 موضوعاً، هذه الموضوعات تعاني نقص تغطية. كل عمود يمثّل عدد الكيانات التي تخدم هذا الموضوع.</p>
+
+          <div class="opp-subjects-grid">
+            <h4 class="opp-grade opp-grade--critical">🔴 فجوات قاتلة (≤ 10 كياناً)</h4>
+            <div class="opp-bars">
+              ${criticalSubjects.map((s) => `
+                <button class="opp-bar opp-bar--critical" data-subject="${s.code}" title="انقر للفلتر">
+                  <span class="opp-bar__label">${escapeHtml(s.label)}</span>
+                  <span class="opp-bar__fill" style="width:${(s.count/maxSubjectCount*100)}%"></span>
+                  <span class="opp-bar__count">${s.count}</span>
+                </button>
+              `).join("")}
+            </div>
+
+            <h4 class="opp-grade opp-grade--low">🟠 فجوات متوسطة (11-30 كياناً)</h4>
+            <div class="opp-bars">
+              ${lowSubjects.slice(0, 10).map((s) => `
+                <button class="opp-bar opp-bar--low" data-subject="${s.code}" title="انقر للفلتر">
+                  <span class="opp-bar__label">${escapeHtml(s.label)}</span>
+                  <span class="opp-bar__fill" style="width:${(s.count/maxSubjectCount*100)}%"></span>
+                  <span class="opp-bar__count">${s.count}</span>
+                </button>
+              `).join("")}
+            </div>
+          </div>
+        </section>
+
+        <!-- 2. الفجوات اللغوية -->
+        <section class="opp-section">
+          <h3>② الفجوات اللغوية — هل نخدم كل المسلمين بلغاتهم؟</h3>
+          <p class="opp-section__desc">النسبة = ملايين المسلمين الناطقين باللغة ÷ عدد الكيانات بهذه اللغة. كلما ارتفعت النسبة، كانت الفجوة أكبر.</p>
+
+          <table class="opp-lang-table">
+            <thead>
+              <tr><th>اللغة</th><th>المسلمون (مليون)</th><th>عدد الكيانات</th><th>كيان واحد لكل</th><th>الحالة</th></tr>
+            </thead>
+            <tbody>
+              ${langCoverage.map((l) => `
+                <tr class="opp-lang-row opp-lang-row--${l.severity}">
+                  <td>${escapeHtml(l.label)}</td>
+                  <td>${l.muslims}M</td>
+                  <td><strong>${l.entities}</strong></td>
+                  <td>${l.entities === 0 ? "∞ (لا تغطية)" : l.actualRatio + "M"}</td>
+                  <td>${l.severity === "critical" ? "🔴 فجوة قاتلة" : l.severity === "high" ? "🟠 فجوة عالية" : l.severity === "medium" ? "🟡 متوسط" : "🟢 جيد"}</td>
+                </tr>
+              `).join("")}
+            </tbody>
+          </table>
+        </section>
+
+        <!-- 3. مصفوفة الفرص (Feasibility × Impact) -->
+        <section class="opp-section">
+          <h3>③ مصفوفة الفرص الإبداعية — الجدوى × الأثر</h3>
+          <p class="opp-section__desc">10 أفكار مؤسسية لا توجد ويجب أن توجد. حجم الدائرة = الجمهور المخدوم، اللون = الأولوية.</p>
+
+          <div class="opp-matrix">
+            <div class="opp-matrix__axes">
+              <span class="opp-matrix__label-y">الأثر العالي ↑</span>
+              <span class="opp-matrix__label-x">الجدوى السهلة ←</span>
+            </div>
+            <div class="opp-matrix__plot">
+              ${OPPORTUNITIES.map((o) => `
+                <button class="opp-bubble ${o.priority === "🔥" ? "opp-bubble--hot" : o.priority === "متوسطة" ? "opp-bubble--med" : "opp-bubble--long"}"
+                        style="inset-inline-end:${(o.feasibility-1)*22}%; inset-block-end:${(o.impact-1)*22}%;"
+                        data-opp="${o.id}">
+                  <span class="opp-bubble__icon">${o.icon}</span>
+                </button>
+              `).join("")}
+            </div>
+          </div>
+
+          <div class="opp-matrix__legend">
+            <span class="opp-legend-item opp-legend-item--hot">🔥 أولوية أولى (سهل × عالٍ)</span>
+            <span class="opp-legend-item opp-legend-item--med">متوسطة</span>
+            <span class="opp-legend-item opp-legend-item--long">طويل الأمد (صعب × عالٍ جداً)</span>
+          </div>
+        </section>
+
+        <!-- 4. بطاقات الفرص التفصيلية -->
+        <section class="opp-section">
+          <h3>④ بطاقات الفرص — التفاصيل لكل فكرة</h3>
+          <div class="opp-cards">
+            ${OPPORTUNITIES.map((o) => `
+              <article class="opp-card opp-card--${o.priority === "🔥" ? "hot" : o.priority === "متوسطة" ? "med" : "long"}">
+                <header class="opp-card__head">
+                  <span class="opp-card__icon">${o.icon}</span>
+                  <h4 class="opp-card__title">${escapeHtml(o.title)}</h4>
+                  <span class="opp-card__priority">${o.priority}</span>
+                </header>
+                <p class="opp-card__desc">${escapeHtml(o.desc)}</p>
+                <dl class="opp-card__stats">
+                  <div><dt>الجمهور</dt><dd>${escapeHtml(o.audience)}</dd></div>
+                  <div><dt>التكلفة السنوية</dt><dd>${o.cost}K$</dd></div>
+                  <div><dt>الجدوى</dt><dd>${"⬤".repeat(o.feasibility)}<span class="opp-card__dim">${"⬤".repeat(5-o.feasibility)}</span></dd></div>
+                  <div><dt>الأثر</dt><dd>${"⬤".repeat(o.impact)}<span class="opp-card__dim">${"⬤".repeat(5-o.impact)}</span></dd></div>
+                </dl>
+              </article>
+            `).join("")}
+          </div>
+        </section>
+
+        <p class="opp-footer-note">
+          🔗 للتفاصيل التحليلية الكاملة، راجع <a href="#" data-goto-tab="diagnostic">القسم 18 في التشخيص</a>.
+        </p>
+      </div>
+    `;
+
+    // تفاعل: النقر على شريط فجوة → فلتر الكيانات
+    root.querySelectorAll(".opp-bar[data-subject]").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const subject = btn.dataset.subject;
+        jumpToEntitiesFilter("subjects", subject);
+      });
+    });
+
+    // تفاعل: bubble → highlight card
+    root.querySelectorAll(".opp-bubble").forEach((b) => {
+      b.addEventListener("click", () => {
+        const opp = b.dataset.opp;
+        const card = root.querySelector(`.opp-card[data-id="${opp}"]`) ||
+                     Array.from(root.querySelectorAll(".opp-card")).find((c) => c.querySelector(".opp-card__title").textContent === OPPORTUNITIES.find(o=>o.id===opp).title);
+        if (card) {
+          card.scrollIntoView({ behavior: "smooth", block: "center" });
+          card.classList.add("opp-card--flash");
+          setTimeout(() => card.classList.remove("opp-card--flash"), 1500);
+        }
+      });
+    });
+
+    // النقر على رابط القسم 18
+    const tocLink = root.querySelector("[data-goto-tab='diagnostic']");
+    if (tocLink) {
+      tocLink.addEventListener("click", (e) => {
+        e.preventDefault();
+        const tabs = Array.from(document.querySelectorAll(".tab"));
+        const panels = Array.from(document.querySelectorAll(".panel"));
+        activateTab("diagnostic", tabs, panels);
+        setTimeout(() => {
+          const sec = document.querySelector("#sec-18");
+          if (sec) sec.scrollIntoView({ behavior: "smooth", block: "start" });
+        }, 200);
+      });
+    }
   }
 
   function initTooltip() {

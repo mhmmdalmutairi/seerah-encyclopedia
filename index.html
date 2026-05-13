@@ -88,8 +88,15 @@
               aria-selected="false"
               aria-controls="tab-gaps"
               tabindex="-1">
-        الفجوات
+        تحرير البيانات
         <span class="tab__count" data-count="gaps">—</span>
+      </button>
+      <button role="tab" class="tab"
+              data-tab="opportunities"
+              aria-selected="false"
+              aria-controls="tab-opportunities"
+              tabindex="-1">
+        الفرص والفجوات
       </button>
       <button role="tab" class="tab"
               data-tab="network"
@@ -209,7 +216,7 @@
       </div>
     </section>
 
-    <!-- التبويب 3: الفجوات -->
+    <!-- التبويب: تحرير البيانات (الفجوات الداخلية) -->
     <section id="tab-gaps" class="panel" role="tabpanel"
              aria-labelledby="tab-gaps-btn" aria-hidden="true">
       <div class="container">
@@ -217,6 +224,18 @@
           <div class="empty-state">
             <h3 class="empty-state__title">جاري إعداد فجوات البيانات…</h3>
             <p class="empty-state__hint">رصد الكيانات الناقصة في تاريخ التأسيس، التمويل، الرابط، الوصف…</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- التبويب: الفرص والفجوات (تحليل بصري) -->
+    <section id="tab-opportunities" class="panel" role="tabpanel"
+             aria-labelledby="tab-opportunities-btn" aria-hidden="true">
+      <div class="container">
+        <div class="opportunities">
+          <div class="empty-state">
+            <h3 class="empty-state__title">جاري تحليل الفرص والفجوات…</h3>
           </div>
         </div>
       </div>
