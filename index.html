@@ -70,9 +70,16 @@
   <nav class="tabs" role="tablist" aria-label="تبويبات الموسوعة">
     <div class="container tabs__inner">
       <button role="tab" class="tab is-active"
-              data-tab="diagnostic"
+              data-tab="project"
               aria-selected="true"
-              aria-controls="tab-diagnostic">
+              aria-controls="tab-project">
+        المشروع الجامع
+      </button>
+      <button role="tab" class="tab"
+              data-tab="diagnostic"
+              aria-selected="false"
+              aria-controls="tab-diagnostic"
+              tabindex="-1">
         التشخيص
       </button>
       <button role="tab" class="tab"
@@ -137,9 +144,20 @@
   </nav>
 
   <main class="site-main" id="main-content">
+    <!-- التبويب 0: المشروع الجامع -->
+    <section id="tab-project" class="panel is-active" role="tabpanel"
+             aria-labelledby="tab-project-btn">
+      <div class="container">
+        <div class="empty-state">
+          <h3 class="empty-state__title">جاري تحميل تحليل المشروع الجامع…</h3>
+          <p class="empty-state__hint">تحليل وثيقة الشيخ سعد البخيت ومقارنتها بالحقل العالمي.</p>
+        </div>
+      </div>
+    </section>
+
     <!-- التبويب 1: التشخيص -->
-    <section id="tab-diagnostic" class="panel is-active" role="tabpanel"
-             aria-labelledby="tab-diagnostic-btn">
+    <section id="tab-diagnostic" class="panel" role="tabpanel"
+             aria-labelledby="tab-diagnostic-btn" aria-hidden="true">
       <div class="container">
         <div class="empty-state">
           <h3 class="empty-state__title">جاري تحميل التشخيص…</h3>

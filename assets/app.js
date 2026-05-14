@@ -475,6 +475,9 @@
       if (!state.loaded) loadEntities().then(() => renderDiagnostic());
       else renderDiagnostic();
     }
+    if (tabName === "project") {
+      renderStaticPage("project", "assets/project.html");
+    }
     if (tabName === "methodology") {
       renderStaticPage("methodology", "assets/methodology.html");
     }

@@ -16,3 +16,7 @@
 data.json.backup.*
 node_modules/
 npm-debug.log*
+
+# وثائق العمل الداخلية (لا تُنشر على GitHub)
+*.pdf
+*.docx
