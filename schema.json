@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "Seerah Encyclopedia — Entity Card Schema (v2: Hierarchical)",
-  "description": "بطاقة كيان متخصص في خدمة السيرة النبوية. الإصدار 2 يدخل تصنيفاً هرمياً: type_group (6 مجموعات رئيسية) → type (28 نوعاً فرعياً)، subjects_category (7 مجموعات موضوعية) → subjects (26+ موضوعاً).",
+  "title": "Seerah Encyclopedia — Entity Card Schema (v3: Round 10 — Methodological Review)",
+  "description": "بطاقة كيان متخصص في خدمة السيرة النبوية. الإصدار 3 (الجولة 10) يُضيف: حقول مشروعية (project_alignment, methodology_school, trajectory, target_audience, output_volume_yearly)، أنواع كيانات جديدة (key_publication, unaffiliated_scholar, school_of_thought, audience_segment, documented_gap, manuscript_holding)، وعلاقات موسَّعة. التوصيفات الخاصة بمشروع الشيخ سعد البخيت في ملفّ منفصل: data/project_annotations.json.",
   "type": "object",
   "required": [
     "id", "round", "name_ar", "type", "type_group",
@@ -46,7 +46,9 @@
         "award", "grant", "conference_series",
         "ministry_program", "royal_initiative",
         "individual_researcher", "popular_writer",
-        "digital_creator", "reference_thinker"
+        "digital_creator", "reference_thinker",
+        "key_publication", "unaffiliated_scholar", "school_of_thought",
+        "audience_segment", "documented_gap", "manuscript_holding"
       ]
     },
 
@@ -111,7 +113,7 @@
       "items": {
         "type": "string",
         "enum": [
-          "seerah_general", "maghazi", "shamail",
+          "seerah_general", "maghazi", "shamail", "mawlid",
           "dalail_nubuwwa", "khasais_nabawiyyah",
           "seerah_geography", "makkah_studies", "madinah_studies",
           "early_islam", "rashidun",
@@ -122,7 +124,8 @@
           "sufism_seerah", "seerah_pedagogy", "youth_outreach",
           "digital_seerah", "tarjamah",
           "medicine_prophetic", "seerah_in_quran"
-        ]
+        ],
+        "description": "31 موضوعاً متاحاً. mawlid أُضيف في الإصدار 3 (الجولة 10) لتوافق البيانات الفعلية. أي موضوع غير في القائمة → يُضاف للـ schema قبل إدراجه."
       }
     },
 
@@ -145,11 +148,84 @@
           "target": { "type": "string" },
           "type": {
             "type": "string",
-            "enum": ["parent_of", "child_of", "partner", "successor_of", "predecessor_of", "member_of_network", "publisher_of", "cited_in", "translated_by"]
+            "enum": [
+              "parent_of", "child_of", "partner", "successor_of", "predecessor_of",
+              "member_of_network", "publisher_of", "cited_in", "translated_by",
+              "spawned_from", "influenced_by", "mentored_by", "cites", "cited_by",
+              "competes_with", "complements"
+            ]
           },
           "note_ar": { "type": "string" }
         }
-      }
+      },
+      "description": "العلاقات الصريحة بين الكيانات. أُضيفت في الإصدار 3 (الجولة 10): spawned_from, influenced_by, mentored_by, cites, cited_by, competes_with, complements."
+    },
+
+    "methodology_school": {
+      "type": "string",
+      "enum": [
+        "classical_sunni",
+        "albani_critical",
+        "salim_al_hilali",
+        "sallaby_modernist",
+        "turkish_modernist",
+        "muhammadia_andalusi",
+        "shia_imami",
+        "shia_zaydi",
+        "sufi_traditionalist",
+        "western_critical",
+        "western_rehabilitative",
+        "western_empirical_linguistic",
+        "mixed_eclectic",
+        "popular_unspecified",
+        "unknown"
+      ],
+      "description": "التيار المنهجي للكيان في تَناول السيرة. أُضيف في الإصدار 3 (الجولة 10) لخدمة التحليل المقارن."
+    },
+
+    "trajectory": {
+      "type": "string",
+      "enum": ["growing", "stable", "declining", "peaked_then_stable", "dormant_revivable", "ended"],
+      "description": "مسار الكيان: صاعد / مستقر / متراجع / بلغ ذروته ثم استقرّ / خامد قابل للإحياء / منتهٍ. أُضيف في الإصدار 3."
+    },
+
+    "target_audience": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": ["specialist", "intellectual", "general", "child", "youth", "woman", "convert", "non_muslim", "policy_maker", "educator"]
+      },
+      "description": "الجمهور المستهدَف. متعدّد القيم. أُضيف في الإصدار 3 لتحليل التموضع التنافسي."
+    },
+
+    "output_volume_yearly": {
+      "type": "string",
+      "enum": ["very_high", "high", "medium", "low", "very_low", "irregular", "unknown"],
+      "description": "حجم الإنتاج السنوي (مقدّر): very_high>20 منتجاً/سنة، high 10-20، medium 5-10، low 1-5، very_low <1. أُضيف في الإصدار 3."
+    },
+
+    "quality_signal": {
+      "type": "object",
+      "properties": {
+        "scholarly_rigor": { "type": "integer", "minimum": 1, "maximum": 5, "description": "1=شعبي، 5=أكاديمي صارم" },
+        "audience_reach": { "type": "string", "enum": ["small", "medium", "large", "massive"] },
+        "peer_recognition": { "type": "string", "enum": ["established", "emerging", "contested", "isolated", "unknown"] }
+      },
+      "description": "إشارات الجودة والأثر. أُضيفت في الإصدار 3."
+    },
+
+    "project_alignment": {
+      "type": "string",
+      "enum": [
+        "directly_aligned",
+        "partially_aligned",
+        "methodology_reference",
+        "audience_reference",
+        "potential_partner",
+        "competitor",
+        "excluded_permanent"
+      ],
+      "description": "علاقة الكيان بمشروع الشيخ سعد البخيت. مفصول عن الموسوعة العامة. التفاصيل في data/project_annotations.json. directly_aligned هو الافتراضي للـ233 الحاليين."
     },
 
     "description_ar": { "type": "string" },

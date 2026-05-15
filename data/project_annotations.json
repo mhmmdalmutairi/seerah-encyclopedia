@@ -1,0 +1,203 @@
+{
+  "$schema_version": "1.0",
+  "$description": "توصيفات خاصة بمشروع الشيخ سعد البخيت (المشروع الجامع). منفصلة عن data.json لتظلّ الموسوعة العامة محايدة وقابلة للنشر المستقل. كل مفتاح هو entity_id من data.json، والقيمة تَوصيف مشروعي.",
+  "$generated": "2026-05-15 (الجولة 10 — مراجعة منهجية)",
+  "$structure": {
+    "project_alignment": "directly_aligned | partially_aligned | methodology_reference | audience_reference | potential_partner | competitor | excluded_permanent",
+    "sheikh_project_mapping": [
+      {"project_id": "p1|p2|p2b|p3|p4|p5|p6|p7|p8|p9|p10|p11|p12", "relevance": "primary_model|partial_lesson|competitor|complement"}
+    ],
+    "methodology_school": "محدّد من schema.json",
+    "key_lessons_ar": "ما يَتعلّمه المشروع من هذا الكيان",
+    "where_project_outperforms_ar": "أين يَتفوّق المشروع",
+    "where_project_loses_ar": "أين قد يَخسر المشروع",
+    "partnership_type": "model_reference|content_exchange|distribution_network|methodology_consultation|joint_publication|none",
+    "partnership_priority": "urgent|high|medium|long_term|none",
+    "risk_factors_ar": ["قائمة بالمخاطر"],
+    "field_visit_recommended": "boolean",
+    "annotator_note_ar": "ملاحظة المحلّل (يُستخدم عند الحاجة لتوضيح اختيار التوصيف)"
+  },
+
+  "TUR-001": {
+    "project_alignment": "potential_partner",
+    "sheikh_project_mapping": [
+      {"project_id": "p1", "relevance": "primary_model"},
+      {"project_id": "p4", "relevance": "partial_lesson"}
+    ],
+    "methodology_school": "turkish_modernist",
+    "key_lessons_ar": "نموذج «المنظومة المتكاملة» (وقف + معهد + قناة + متحف + مؤتمر + جائزة) كصيغة عملياً ناجحة. الانطلاق المدني ثم الانتساب للدولة (لا التأسّس دولتياً مباشرة). الاستثمار في شخصية محورية تَبني المؤسسة حولها. «مدرسة السيرة» كبرنامج تدريبي طويل المدى (15 سنة دراسية).",
+    "where_project_outperforms_ar": "اللغة العربية كأساس + المنهج السنّي العربي الكلاسيكي + السيرة الموضوعية الأخلاقية كموسوعة + الجامع للنصوص من كامل السنّة بمنهج منظَّم.",
+    "where_project_loses_ar": "التماسك التشغيلي بعد 15 سنة من الخبرة، شبكة المتطوّعين، القناة التلفزية الموجودة، التراكم البحثي، شخصية يلديز المؤسِّسة.",
+    "partnership_type": "model_reference",
+    "partnership_priority": "urgent",
+    "risk_factors_ar": ["حاجز لغوي", "سياق ثقافي مختلف"],
+    "field_visit_recommended": true,
+    "annotator_note_ar": "النظير الأول قيمةً للمشروع. زيارة ميدانية لإيوب سلطان قبل الانطلاق تَختصر سنوات."
+  },
+
+  "LEV-011": {
+    "project_alignment": "potential_partner",
+    "sheikh_project_mapping": [
+      {"project_id": "p2b", "relevance": "primary_model"},
+      {"project_id": "p4", "relevance": "complement"}
+    ],
+    "methodology_school": "classical_sunni",
+    "key_lessons_ar": "نموذج «الشبكة العلمية الدولية» (130 عضواً عبر 40 دولة) — كيف يُبنى مجلس استشاري أمميّ. المشروع الموسوعي المنظَّم (الجدول التاريخي). الشرعية الملكية كمظلّة سياسية تَحمي الاستقلال البحثي.",
+    "where_project_outperforms_ar": "التخصص الحصري بالسيرة، الإنتاج الموسوعي المُكثَّف، المنصة الرقمية التفاعلية، تَنوّع الأبواب (أطلس + ردود + رواية + طفل).",
+    "where_project_loses_ar": "الشبكة الأكاديمية الدولية الواسعة، المكانة الملكية المستقرّة منذ 1980، علاقات راسخة مع الأزهر والقرويين.",
+    "partnership_type": "methodology_consultation",
+    "partnership_priority": "urgent",
+    "risk_factors_ar": ["تَنافس على نفس الفضاء السنّي الملكي"],
+    "field_visit_recommended": true,
+    "annotator_note_ar": "الأمير غازي مرجعية محتملة للهيئة الاستشارية. مشروع الجدول التاريخي يَتكامل مع المشروع 2-ب."
+  },
+
+  "LEV-030": {
+    "project_alignment": "methodology_reference",
+    "sheikh_project_mapping": [
+      {"project_id": "p4", "relevance": "partial_lesson"},
+      {"project_id": "p10", "relevance": "partial_lesson"}
+    ],
+    "methodology_school": "shia_imami",
+    "key_lessons_ar": "الانطلاق من مرجعية دينية كركيزة استقرار (العتبة العباسية). إنتاج كثيف ومتدرّج (مجلة + كتب + مسابقات + مؤتمرات + أقسام بحثية) في 9 سنوات فقط. العمل بـ3 لغات (عربية، إنجليزية، فرنسية). المسابقات الدورية كأداة تَحفيز للإنتاج الأكاديمي.",
+    "where_project_outperforms_ar": "المنهج السنّي، التنوّع الموضوعي الأوسع، الجمهور الأمميّ الأوسع، القسم الموضوعي الأخلاقي.",
+    "where_project_loses_ar": "المرجعية الدينية المستقرّة، التَمويل المضمون من الأوقاف الشيعية، التراكم البحثي السريع.",
+    "partnership_type": "none",
+    "partnership_priority": "medium",
+    "risk_factors_ar": ["فجوة مذهبية تَمنع شراكة عميقة"],
+    "field_visit_recommended": true,
+    "annotator_note_ar": "مرجع تَعلّمي فقط. نموذج المسابقات الدورية المتعدّدة تَوصية جوهرية للمشروع."
+  },
+
+  "MAG-002": {
+    "project_alignment": "potential_partner",
+    "sheikh_project_mapping": [
+      {"project_id": "p8", "relevance": "complement"},
+      {"project_id": "p9", "relevance": "complement"}
+    ],
+    "methodology_school": "muhammadia_andalusi",
+    "key_lessons_ar": "إحياء التراث الكلاسيكي ضمن إطار مؤسسي معاصر. السلاسل الموضوعية (دراسات وأبحاث + نوادر التراث) كآلية إنتاج منتظمة. الجمع بين منظومات السيرة المغربية الأندلسية وإصدارات أكاديمية حديثة.",
+    "where_project_outperforms_ar": "الأمميّة، تَعدد الوسائط، السيرة الموضوعية الأخلاقية، التَكامل مع وقف السيرة والآل البيت لإنشاء «حلف ثلاثي».",
+    "where_project_loses_ar": "التراث المغربي-الأندلسي العميق، الاستقرار المؤسسي، المنظومات الشعرية للسيرة (بُرْدَة، شمائل، مولديات).",
+    "partnership_type": "joint_publication",
+    "partnership_priority": "long_term",
+    "risk_factors_ar": ["محدودية الوصول للجمهور المشرقي"],
+    "field_visit_recommended": false,
+    "annotator_note_ar": "شراكة تَكاملية واضحة في الإرث الأندلسي والشمائل."
+  },
+
+  "ARB-012": {
+    "project_alignment": "potential_partner",
+    "sheikh_project_mapping": [
+      {"project_id": "p12", "relevance": "primary_model"},
+      {"project_id": "p1", "relevance": "complement"}
+    ],
+    "methodology_school": "classical_sunni",
+    "key_lessons_ar": "الأمميّة بلغات متعدّدة من اليوم الأول (8+ لغات). منظومة الفروع المنفصلة (نبي الرحمة + تطبيق + معرض + كتاب) كل واحد يَخدم جمهوراً مختلفاً. السلطة الناعمة كدافع للتمويل.",
+    "where_project_outperforms_ar": "التَكامل الأفقي بدلاً من الفروع المنفصلة. الموسوعية الموضوعية الأخلاقية. الجامع للنصوص من كامل السنّة. المنهج التحقيقي المنظَّم.",
+    "where_project_loses_ar": "الأمميّة المُجرَّبة بـ8 لغات، شبكة 40+ مكتب قُطري للرابطة، السلطة الرمزية للرابطة، القدرة على إرسال 20M+ SMS.",
+    "partnership_type": "distribution_network",
+    "partnership_priority": "urgent",
+    "risk_factors_ar": ["اعتماد على هيئة دينية رسمية كبيرة"],
+    "field_visit_recommended": false,
+    "annotator_note_ar": "شراكة على مستوى التوزيع لا الإنتاج. المركز يُنتج موسوعياً، الهيئة تُوزّع جماهيرياً."
+  },
+
+  "NAM-003": {
+    "project_alignment": "potential_partner",
+    "sheikh_project_mapping": [
+      {"project_id": "p9", "relevance": "partial_lesson"},
+      {"project_id": "p12", "relevance": "complement"}
+    ],
+    "methodology_school": "classical_sunni",
+    "key_lessons_ar": "التوزيع الجغرافي عبر الجامعات كنموذج تَكميمي للأمميّة. الميزانية المُعلنة المُفصَّلة. الشراكة المؤسسية مع لجنة التعليم العالي. التوسعة التدريجية (9 ثم 12 كرسياً).",
+    "where_project_outperforms_ar": "التماسك المركزي، الإنتاج الموسوعي المتراكم، الوسائط الحديثة، المعايير الجودة الموحَّدة.",
+    "where_project_loses_ar": "شبكة 9-12 جامعة باكستانية، التَمويل الدولتي المستقرّ، المؤتمر السنوي الحكومي (50 دورة)، الإنتاج بالأردية.",
+    "partnership_type": "distribution_network",
+    "partnership_priority": "medium",
+    "risk_factors_ar": ["تَفاوت كبير في نشاط الكراسي الـ9", "اعتماد على HEC"],
+    "field_visit_recommended": false,
+    "annotator_note_ar": "شراكة على التوزيع الجامعي + الترجمة للأردية."
+  },
+
+  "WEST-177": {
+    "project_alignment": "potential_partner",
+    "sheikh_project_mapping": [
+      {"project_id": "p12", "relevance": "primary_model"}
+    ],
+    "methodology_school": "classical_sunni",
+    "key_lessons_ar": "نموذج «100 حلقة» كمنتج صوتي مكتمل. الشخصية المؤسِّسة كرأسمال رمزي. الالتزام لسنوات (Qadhi منذ 2011). منهج الاعتماد على المصادر الأصلية.",
+    "where_project_outperforms_ar": "الموسوعية المكتوبة لا الصوتية فقط، التَنوّع الوسائطي (الأطلس + الرواية + الكتب)، المنهج التحقيقي المنظَّم، المحتوى بالعربية أساساً.",
+    "where_project_loses_ar": "القاعدة الجماهيرية المُتراكمة (ملايين المستمعين)، الشرعية الأكاديمية في الفضاء الغربي، سهولة الوصول للجمهور الأمريكي/البريطاني.",
+    "partnership_type": "joint_publication",
+    "partnership_priority": "long_term",
+    "risk_factors_ar": ["مواقف سياسية محتملة قد تُعقّد الشراكة الرسمية"],
+    "field_visit_recommended": false,
+    "annotator_note_ar": "استكتاب القاضي لمحتوى مكتوب أصيل بالإنجليزية فرصة قوية للقسم 12."
+  },
+
+  "WEST-178": {
+    "project_alignment": "potential_partner",
+    "sheikh_project_mapping": [
+      {"project_id": "p12", "relevance": "primary_model"}
+    ],
+    "methodology_school": "classical_sunni",
+    "key_lessons_ar": "200 حلقة من Qalam Seerah. منهج جانغدا الكلاسيكي مع لمسة معاصرة. الاستضافة الأكاديمية لمعهد قلم بدالاس.",
+    "where_project_outperforms_ar": "الموسوعية المكتوبة، التنوّع الوسائطي، المحتوى بالعربية.",
+    "where_project_loses_ar": "التراكم الصوتي الإنجليزي، شبكة قلم.",
+    "partnership_type": "joint_publication",
+    "partnership_priority": "long_term",
+    "risk_factors_ar": [],
+    "field_visit_recommended": false,
+    "annotator_note_ar": "نظير قوي للقسم الإنجليزي. شراكة استكتابية واعدة."
+  },
+
+  "NAM-216": {
+    "project_alignment": "potential_partner",
+    "sheikh_project_mapping": [
+      {"project_id": "p11", "relevance": "primary_model"}
+    ],
+    "methodology_school": "classical_sunni",
+    "key_lessons_ar": "الوصول الأمميّ عبر لغات متعدّدة من البدء (12 لغة). الاستمرارية الطويلة (30+ سنة). الانتقال من الكتاب إلى الكرتون كنموذج تَطوّر طبيعي.",
+    "where_project_outperforms_ar": "التَكامل مع الإنتاج الموسوعي للكبار، العمق العلمي السنّي العربي، التَكامل مع الأطلس 3D، المنهج الموحَّد بين الطفل والشاب والبالغ.",
+    "where_project_loses_ar": "الخبرة الإنتاجية الطويلة في محتوى الأطفال، شبكة التوزيع العالمية المُتراكمة.",
+    "partnership_type": "content_exchange",
+    "partnership_priority": "long_term",
+    "risk_factors_ar": ["تَوجّه عام لمولانا وحيد الدين خان قد لا يَتوافق مع كل المراجع"],
+    "field_visit_recommended": false,
+    "annotator_note_ar": "ترجمة منتجات جوود وورد للعربية بدلاً من بناء سلسلة موازية."
+  },
+
+  "NAM-217": {
+    "project_alignment": "potential_partner",
+    "sheikh_project_mapping": [
+      {"project_id": "p11", "relevance": "primary_model"}
+    ],
+    "methodology_school": "popular_unspecified",
+    "key_lessons_ar": "كرتون إسلامي بـ8 لغات. 5M+ متابع يوتيوب. السوق الجماهيري الواسع — الأطفال يَستهلكون يومياً.",
+    "where_project_outperforms_ar": "التَكامل مع الإنتاج الموسوعي للكبار، العمق العلمي.",
+    "where_project_loses_ar": "الانتشار اليوتيوبي الضخم، السوق المُشبَع.",
+    "partnership_type": "content_exchange",
+    "partnership_priority": "long_term",
+    "risk_factors_ar": [],
+    "field_visit_recommended": false,
+    "annotator_note_ar": "شراكة إنتاج موسم سيرة-تطبيقي مع Omar & Hana."
+  },
+
+  "ARB-007": {
+    "project_alignment": "potential_partner",
+    "sheikh_project_mapping": [
+      {"project_id": "p6", "relevance": "complement"},
+      {"project_id": "p1", "relevance": "complement"}
+    ],
+    "methodology_school": "classical_sunni",
+    "key_lessons_ar": "المعرض والمتحف الدولي ينتمي لرابطة العالم الإسلامي، 5 فروع دولية، 200 عرض تفاعلي. نموذج «المتحف الموسوعي العابر للحدود». 10 ملايين زائر للفرع المغربي حتى أبريل 2026.",
+    "where_project_outperforms_ar": "الأطلس 3D التفاعلي على الويب (المتحف فيزيائي)، الجامع للنصوص بمنهج منظَّم، الموسوعية الموضوعية الأخلاقية.",
+    "where_project_loses_ar": "الحضور الفيزيائي بـ5 فروع، التَمويل الرابطي الكبير، الإنتاج التفاعلي الفيزيائي.",
+    "partnership_type": "complement",
+    "partnership_priority": "high",
+    "risk_factors_ar": ["تَشابه التَموضع كـ«المرجع الجامع للسيرة»"],
+    "field_visit_recommended": true,
+    "annotator_note_ar": "زيارة الفرع الرئيس بالمدينة قبل تَصميم الأطلس 3D ضرورية. الفصل: المتحف للحضور الفيزيائي، المشروع للحضور الرقمي."
+  }
+}

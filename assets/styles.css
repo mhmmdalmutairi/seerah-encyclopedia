@@ -5164,3 +5164,185 @@ mark.search-hit {
   font-size: 0.95rem;
   opacity: 0.8;
 }
+
+/* ============================================================
+   وضع المشروع (Project Mode) — الجولة 10
+   ============================================================ */
+.toolbar-project-mode {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  white-space: nowrap;
+  transition: all 200ms ease;
+}
+.toolbar-project-mode.is-active {
+  background: linear-gradient(135deg, #2d6a4f, #40916c);
+  color: #fff;
+  border-color: #2d6a4f;
+  box-shadow: 0 2px 8px rgba(45, 106, 79, 0.3);
+}
+.toolbar-project-mode.is-active:hover {
+  background: linear-gradient(135deg, #40916c, #52b788);
+}
+
+/* بطاقة التَوصيف المشروعي داخل بطاقة الكيان */
+.project-annotation {
+  background: linear-gradient(135deg, #F5F1E8, #FFF7E6);
+  padding: 0.75rem 0.9rem;
+  margin: 0.5rem 0 0.7rem;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  line-height: 1.55;
+}
+.project-annotation__row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  margin-block-end: 0.4rem;
+  font-weight: 600;
+  font-size: 0.82rem;
+}
+.project-annotation__priority,
+.project-annotation__partner,
+.project-annotation__visit {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25em;
+}
+.project-annotation__mapping {
+  font-size: 0.78rem;
+  color: var(--color-text-muted, #555);
+  margin-block-end: 0.35rem;
+}
+.project-pill__map {
+  display: inline-block;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  padding: 0.05em 0.5em;
+  margin-inline-end: 0.25em;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #5C3D00;
+}
+.project-annotation__lesson {
+  margin: 0;
+  font-size: 0.83rem;
+  color: #333;
+}
+
+/* تَمييز بصري للوضع كاملاً */
+.entities.project-mode .results__header::before {
+  content: "🎯 وضع المشروع نشط — تَعرض الكيانات النظيرة لمشروع الشيخ سعد البخيت، مُرتَّبة بأولوية الشراكة";
+  display: block;
+  background: linear-gradient(135deg, #d8f3dc, #b7e4c7);
+  color: #1b4332;
+  padding: 0.6rem 1rem;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-block-end: 0.8rem;
+}
+
+/* البطاقات في وضع المشروع: حدّ خفيف بلون مميّز */
+.entities.project-mode .card {
+  border-color: #40916c;
+  box-shadow: 0 1px 4px rgba(45, 106, 79, 0.08);
+}
+
+@media (max-width: 768px) {
+  .toolbar-project-mode .lbl {
+    font-size: 0.85rem;
+  }
+  .project-annotation__row {
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+}
+
+/* بطاقات الميكرو في تَحليل المشروع — الجولة 10 */
+.microcard {
+  background: #fff;
+  border: 1px solid #e5e0d3;
+  border-radius: 6px;
+  padding: 0.7rem 0.9rem;
+  margin: 0.5rem 0;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  cursor: pointer;
+  transition: all 150ms ease;
+}
+.microcard:hover {
+  border-color: #C39B5C;
+  box-shadow: 0 1px 6px rgba(195, 155, 92, 0.15);
+  transform: translateY(-1px);
+}
+.microcard__head {
+  display: flex;
+  gap: 0.6rem;
+  align-items: baseline;
+  margin-block-end: 0.3rem;
+}
+.microcard__id {
+  font-family: monospace;
+  font-size: 0.75rem;
+  color: var(--color-text-muted, #888);
+  background: #F5F1E8;
+  padding: 0.05em 0.45em;
+  border-radius: 3px;
+}
+.microcard__title {
+  color: var(--color-primary, #0A4D68);
+  font-size: 0.95rem;
+}
+.microcard__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  color: var(--color-text-muted, #555);
+  font-size: 0.78rem;
+  margin-block-end: 0.25rem;
+}
+.microcard__subjects {
+  font-size: 0.8rem;
+  color: #5C3D00;
+  margin-block-end: 0.25rem;
+}
+.microcard__project {
+  font-size: 0.78rem;
+  color: #2d6a4f;
+  font-weight: 600;
+  background: #d8f3dc;
+  padding: 0.15em 0.5em;
+  border-radius: 4px;
+  display: inline-block;
+  margin-block-start: 0.25rem;
+}
+.microcard-missing {
+  font-size: 0.8rem;
+  color: #B33A3A;
+  font-style: italic;
+}
+
+/* زرّ الانتقال للفلاتر */
+.goto-entities-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3em;
+  background: linear-gradient(135deg, #2d6a4f, #40916c);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 0.35em 0.8em;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-block-start: 0.5rem;
+  font-family: inherit;
+  transition: all 150ms ease;
+}
+.goto-entities-btn:hover {
+  background: linear-gradient(135deg, #40916c, #52b788);
+  transform: translateY(-1px);
+  box-shadow: 0 2px 6px rgba(45, 106, 79, 0.2);
+}

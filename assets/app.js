@@ -246,6 +246,8 @@
     entities: [],
     loaded: false,
     query: "",
+    projectAnnotations: {},
+    projectMode: false,
     filters: {
       region: new Set(),
       country: new Set(),
@@ -521,6 +523,97 @@
         });
       });
 
+      // روابط عميقة data-goto-entities: تَنتقل لتبويب الكيانات بفلاتر مُحدَّدة
+      // الشكل: <button data-goto-entities='{"region":"turkey","pmode":1,"subjects":"shamail"}'>...</button>
+      container.querySelectorAll("[data-goto-entities]").forEach((el) => {
+        el.addEventListener("click", (e) => {
+          e.preventDefault();
+          let cfg;
+          try { cfg = JSON.parse(el.getAttribute("data-goto-entities")); }
+          catch (_e) { return; }
+          const tabsList = Array.from(document.querySelectorAll(".tab"));
+          const panelsList = Array.from(document.querySelectorAll(".panel"));
+          const switchAndApply = () => {
+            activateTab("entities", tabsList, panelsList);
+            safeSetItem(STORAGE_KEY, "entities");
+            clearAllFilters();
+            // وضع المشروع
+            if (cfg.pmode === 1 || cfg.pmode === "1" || cfg.pmode === true) {
+              state.projectMode = true;
+              const btn = document.querySelector(".toolbar-project-mode");
+              if (btn) {
+                btn.setAttribute("aria-pressed", "true");
+                btn.classList.add("is-active");
+                const lbl = btn.querySelector(".lbl");
+                const cnt = Object.keys(state.projectAnnotations || {}).length;
+                if (lbl) lbl.textContent = `🟢 وضع المشروع نشط (${cnt})`;
+              }
+              document.querySelector(".entities")?.classList.add("project-mode");
+            }
+            // الفلاتر
+            Object.entries(cfg).forEach(([key, val]) => {
+              if (key === "pmode") return;
+              if (key === "q") {
+                state.query = String(val);
+                const input = document.querySelector(".search-input");
+                if (input) input.value = state.query;
+                return;
+              }
+              if (state.filters[key] !== undefined) {
+                String(val).split(",").forEach((v) => addFilter(key, v.trim()));
+              }
+            });
+            syncHash();
+            render();
+            window.scrollTo({ top: 0, behavior: "smooth" });
+          };
+          if (!state.loaded) { loadEntities().then(switchAndApply); } else { switchAndApply(); }
+        });
+      });
+
+      // بطاقات الميكرو data-microcard: تَولّد بطاقة مَيكرو من بيانات الكيان
+      const renderMicroCardPlaceholders = () => {
+        if (!state.loaded) return;
+        container.querySelectorAll("[data-microcard]:not(.microcard-rendered)").forEach((el) => {
+          const id = el.getAttribute("data-microcard");
+          const ent = state.entities.find((x) => x.id === id);
+          if (!ent) {
+            el.innerHTML = `<span class="microcard-missing">⚠️ الكيان ${escapeHtml(id)} غير موجود</span>`;
+            el.classList.add("microcard-rendered");
+            return;
+          }
+          const ann = (state.projectAnnotations || {})[id];
+          const lang = (ent.languages || []).slice(0, 3).map((l) => label("languages", l) || l).join(" · ");
+          const subs = (ent.subjects || []).slice(0, 3).map((s) => label("subjects", s) || s).join(" · ");
+          el.innerHTML = `
+            <div class="microcard" role="button" tabindex="0" data-id="${escapeHtml(id)}">
+              <div class="microcard__head">
+                <span class="microcard__id">${escapeHtml(ent.id)}</span>
+                <strong class="microcard__title">${escapeHtml(ent.name_ar)}</strong>
+              </div>
+              <div class="microcard__meta">
+                <span>📍 ${escapeHtml(label("country", ent.country) || "—")}</span>
+                <span>🏛 ${escapeHtml(label("type", ent.type) || "—")}</span>
+                ${ent.founded ? `<span>📅 ${ent.founded}</span>` : ""}
+                ${lang ? `<span>🌐 ${escapeHtml(lang)}</span>` : ""}
+              </div>
+              ${subs ? `<div class="microcard__subjects">📚 ${escapeHtml(subs)}</div>` : ""}
+              ${ann ? `<div class="microcard__project">🎯 ${escapeHtml(ann.partnership_priority || "—")} · ${escapeHtml(ann.partnership_type || "—")}</div>` : ""}
+            </div>
+          `;
+          el.classList.add("microcard-rendered");
+          el.querySelector(".microcard").addEventListener("click", () => {
+            buildModal();
+            openModal(id);
+          });
+        });
+      };
+      if (state.loaded) {
+        renderMicroCardPlaceholders();
+      } else {
+        loadEntities().then(renderMicroCardPlaceholders);
+      }
+
       staticPagesLoaded.add(slug);
 
       // فعّل scroll-spy
@@ -594,6 +687,17 @@
       loadGapEdits();
       applyGapEdits();
       state.loaded = true;
+
+      // تَحميل توصيفات المشروع الجامع (مفصولة عن الموسوعة)
+      try {
+        const annResponse = await fetch("data/project_annotations.json");
+        if (annResponse.ok) {
+          const annData = await annResponse.json();
+          state.projectAnnotations = Object.fromEntries(
+            Object.entries(annData).filter(([k]) => !k.startsWith("$"))
+          );
+        }
+      } catch (_e) { /* الملفّ اختياري، تجاهل الخطأ */ }
 
       // تحديث العدادات في الهيدر والتبويب
       const totalCount = state.entities.length;
@@ -1021,6 +1125,22 @@
     const q = state.query.trim();
     let list = state.entities.filter((e) => matchesFilters(e) && matchesQuery(e, q));
 
+    // وضع المشروع: اِقتصار العرض على الكيانات النظيرة المُوَصَّفة في project_annotations.json
+    if (state.projectMode) {
+      const annotated = state.projectAnnotations || {};
+      list = list.filter((e) => annotated[e.id]);
+
+      // الترتيب حسب أولوية الشراكة
+      const priorityOrder = { urgent: 0, high: 1, medium: 2, long_term: 3, none: 4 };
+      list.sort((a, b) => {
+        const pa = priorityOrder[annotated[a.id]?.partnership_priority] ?? 5;
+        const pb = priorityOrder[annotated[b.id]?.partnership_priority] ?? 5;
+        if (pa !== pb) return pa - pb;
+        return (a.name_ar || "").localeCompare(b.name_ar || "", "ar");
+      });
+      return list;
+    }
+
     const sortField = state.sort;
     list.sort((a, b) => {
       if (sortField === "name_ar") {
@@ -1134,6 +1254,45 @@
     const subjects = (entity.subjects || []).slice(0, 3);
     const desc = describeEntity(entity);
 
+    // التَوصيف المشروعي (في وضع المشروع فقط)
+    let projectBlock = "";
+    if (state.projectMode) {
+      const ann = state.projectAnnotations[entity.id];
+      if (ann) {
+        const priorityLabels = {
+          urgent: { text: "أولوية عاجلة", color: "#B33A3A" },
+          high: { text: "أولوية عالية", color: "#C39B5C" },
+          medium: { text: "أولوية متوسطة", color: "#4A7C45" },
+          long_term: { text: "أولوية طويلة الأمد", color: "#5B7FA8" },
+          none: { text: "بلا أولوية", color: "#888" },
+        };
+        const pri = priorityLabels[ann.partnership_priority] || priorityLabels.none;
+        const partnerLabels = {
+          model_reference: "نموذج مرجعي",
+          content_exchange: "تَبادل محتوى",
+          distribution_network: "شبكة تَوزيع",
+          methodology_consultation: "استشارة منهجية",
+          joint_publication: "نشر مشترك",
+          complement: "تَكامل",
+          none: "بلا شراكة مباشرة",
+        };
+        const partnerType = partnerLabels[ann.partnership_type] || ann.partnership_type || "—";
+        const sheikhMapping = (ann.sheikh_project_mapping || [])
+          .map((m) => `<span class="project-pill__map">${escapeHtml(m.project_id)}</span>`).join("");
+        projectBlock = `
+          <div class="project-annotation" style="border-inline-start:4px solid ${pri.color};">
+            <div class="project-annotation__row">
+              <span class="project-annotation__priority" style="color:${pri.color};">🎯 ${pri.text}</span>
+              <span class="project-annotation__partner">🤝 ${escapeHtml(partnerType)}</span>
+              ${ann.field_visit_recommended ? `<span class="project-annotation__visit">🛫 زيارة موصى بها</span>` : ""}
+            </div>
+            ${sheikhMapping ? `<div class="project-annotation__mapping">يَخدم: ${sheikhMapping}</div>` : ""}
+            ${ann.key_lessons_ar ? `<p class="project-annotation__lesson"><strong>الدرس الرئيس:</strong> ${escapeHtml(ann.key_lessons_ar.slice(0, 180))}${ann.key_lessons_ar.length > 180 ? "…" : ""}</p>` : ""}
+          </div>
+        `;
+      }
+    }
+
     card.innerHTML = `
       <header class="card__header">
         <span class="card__type">${escapeHtml(label("type", entity.type))}</span>
@@ -1148,6 +1307,7 @@
         ${cityCountry ? `<span class="card__meta-item">📍 ${escapeHtml(cityCountry)}</span>` : ""}
         ${entity.founded ? `<span class="card__meta-item">📅 ${entity.founded}</span>` : ""}
       </p>
+      ${projectBlock}
       <p class="card__desc${desc.synthesized ? " card__desc--synthesized" : ""}">${escapeHtml(desc.text)}</p>
       <footer class="card__footer">
         ${subjects.map((s) => `<span class="card__tag" data-facet="subjects" data-value="${s}">${escapeHtml(label("subjects", s))}</span>`).join("")}
@@ -1592,6 +1752,31 @@
     if (exportJsonBtn) {
       exportJsonBtn.addEventListener("click", () => exportData("json"));
     }
+
+    // زرّ «وضع المشروع» — يَفصل العرض إلى الكيانات النظيرة فقط
+    const projectModeBtn = document.querySelector(".toolbar-project-mode");
+    if (projectModeBtn) {
+      const annotatedCount = Object.keys(state.projectAnnotations || {}).length;
+      const lblEl = projectModeBtn.querySelector(".lbl");
+      const refreshLabel = () => {
+        if (!lblEl) return;
+        if (state.projectMode) {
+          lblEl.textContent = `🟢 وضع المشروع نشط (${annotatedCount})`;
+        } else {
+          lblEl.textContent = `عرض المشروع (${annotatedCount})`;
+        }
+      };
+      refreshLabel();
+      projectModeBtn.addEventListener("click", () => {
+        state.projectMode = !state.projectMode;
+        projectModeBtn.setAttribute("aria-pressed", String(state.projectMode));
+        projectModeBtn.classList.toggle("is-active", state.projectMode);
+        document.querySelector(".entities")?.classList.toggle("project-mode", state.projectMode);
+        refreshLabel();
+        syncHash();
+        render();
+      });
+    }
   }
 
   function addFilter(facet, value) {
@@ -1673,6 +1858,7 @@
     const params = new URLSearchParams();
     if (state.query) params.set("q", state.query);
     if (state.sort !== "name_ar") params.set("sort", state.sort);
+    if (state.projectMode) params.set("pmode", "1");
     FACET_ORDER.forEach((facet) => {
       if (state.filters[facet].size > 0) {
         params.set(facet, Array.from(state.filters[facet]).join(","));
@@ -1697,6 +1883,20 @@
       state.sort = sort;
       const sel = document.querySelector(".sort-select");
       if (sel) sel.value = sort;
+    }
+    // وضع المشروع من الـ hash
+    const pmode = params.get("pmode");
+    if (pmode === "1") {
+      state.projectMode = true;
+      const btn = document.querySelector(".toolbar-project-mode");
+      if (btn) {
+        btn.setAttribute("aria-pressed", "true");
+        btn.classList.add("is-active");
+        const lbl = btn.querySelector(".lbl");
+        const cnt = Object.keys(state.projectAnnotations || {}).length;
+        if (lbl) lbl.textContent = `🟢 وضع المشروع نشط (${cnt})`;
+      }
+      document.querySelector(".entities")?.classList.add("project-mode");
     }
     FACET_ORDER.forEach((facet) => {
       const val = params.get(facet);
