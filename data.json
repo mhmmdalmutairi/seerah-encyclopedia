@@ -86,6 +86,17 @@
         "auxiliary_sciences",
         "classical_corpus",
         "methodology_critique"
+      ],
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable",
+      "output_volume_yearly": "medium",
+      "quality_signal": {
+        "scholarly_rigor": 5,
+        "audience_reach": "medium",
+        "peer_recognition": "established"
+      },
+      "target_audience": [
+        "specialist"
       ]
     },
     {
@@ -126,6 +137,17 @@
       "inclusion_tier": "core",
       "subjects_category": [
         "classical_corpus"
+      ],
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable",
+      "output_volume_yearly": "medium",
+      "quality_signal": {
+        "scholarly_rigor": 5,
+        "audience_reach": "medium",
+        "peer_recognition": "established"
+      },
+      "target_audience": [
+        "specialist"
       ]
     },
     {
@@ -271,6 +293,20 @@
         "application_outreach",
         "classical_corpus",
         "geography_space"
+      ],
+      "methodology_school": "classical_sunni",
+      "trajectory": "growing",
+      "output_volume_yearly": "very_high",
+      "quality_signal": {
+        "scholarly_rigor": 3,
+        "audience_reach": "massive",
+        "peer_recognition": "established"
+      },
+      "target_audience": [
+        "general",
+        "youth",
+        "child",
+        "non_muslim"
       ]
     },
     {
@@ -329,6 +365,18 @@
         "auxiliary_sciences",
         "classical_corpus",
         "geography_space"
+      ],
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable",
+      "output_volume_yearly": "medium",
+      "quality_signal": {
+        "scholarly_rigor": 5,
+        "audience_reach": "medium",
+        "peer_recognition": "established"
+      },
+      "target_audience": [
+        "specialist",
+        "intellectual"
       ]
     },
     {
@@ -415,6 +463,17 @@
       "subjects_category": [
         "auxiliary_sciences",
         "geography_space"
+      ],
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable",
+      "output_volume_yearly": "medium",
+      "quality_signal": {
+        "scholarly_rigor": 5,
+        "audience_reach": "medium",
+        "peer_recognition": "established"
+      },
+      "target_audience": [
+        "specialist"
       ]
     },
     {
@@ -478,6 +537,19 @@
         "application_outreach",
         "classical_corpus",
         "methodology_critique"
+      ],
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable",
+      "output_volume_yearly": "very_high",
+      "quality_signal": {
+        "scholarly_rigor": 3,
+        "audience_reach": "massive",
+        "peer_recognition": "established"
+      },
+      "target_audience": [
+        "general",
+        "non_muslim",
+        "convert"
       ]
     },
     {
@@ -678,7 +750,19 @@
         "classical_corpus",
         "methodology_critique"
       ],
-      "founded": 2009
+      "founded": 2009,
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable",
+      "output_volume_yearly": "high",
+      "quality_signal": {
+        "scholarly_rigor": 3,
+        "audience_reach": "large",
+        "peer_recognition": "established"
+      },
+      "target_audience": [
+        "general",
+        "non_muslim"
+      ]
     },
     {
       "id": "ARB-040",
@@ -714,6 +798,18 @@
       "subjects_category": [
         "application_outreach",
         "classical_corpus"
+      ],
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable",
+      "output_volume_yearly": "high",
+      "quality_signal": {
+        "scholarly_rigor": 4,
+        "audience_reach": "large",
+        "peer_recognition": "established"
+      },
+      "target_audience": [
+        "general",
+        "intellectual"
       ]
     },
     {
@@ -754,6 +850,17 @@
         "application_outreach",
         "classical_corpus",
         "methodology_critique"
+      ],
+      "methodology_school": "classical_sunni",
+      "trajectory": "growing",
+      "output_volume_yearly": "medium",
+      "quality_signal": {
+        "scholarly_rigor": 3,
+        "audience_reach": "large",
+        "peer_recognition": "emerging"
+      },
+      "target_audience": [
+        "general"
       ]
     },
     {
@@ -864,7 +971,18 @@
       ],
       "description_ar": "كرسي علمي بحثي تابع للجامعة الإسلامية بالمدينة المنورة، يحمل اسم الشيخ ابن باز، يُعنى بدراسة السيرة النبوية ومرويّاتها وتحقيق نصوصها، ويُصدر بحوثاً ودراسات متخصّصة في خدمة السيرة وعلومها.",
       "url": "https://iu.edu.sa/en-us",
-      "founded": 2011
+      "founded": 2011,
+      "methodology_school": "albani_critical",
+      "trajectory": "stable",
+      "output_volume_yearly": "medium",
+      "quality_signal": {
+        "scholarly_rigor": 5,
+        "audience_reach": "medium",
+        "peer_recognition": "established"
+      },
+      "target_audience": [
+        "specialist"
+      ]
     },
     {
       "id": "LEV-002",
@@ -1045,7 +1163,19 @@
         "classical_corpus",
         "methodology_critique"
       ],
-      "founded": 1980
+      "founded": 1980,
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable",
+      "output_volume_yearly": "medium",
+      "quality_signal": {
+        "scholarly_rigor": 5,
+        "audience_reach": "medium",
+        "peer_recognition": "established"
+      },
+      "target_audience": [
+        "specialist",
+        "policy_maker"
+      ]
     },
     {
       "id": "LEV-016",
@@ -1093,6 +1223,17 @@
         "auxiliary_sciences",
         "classical_corpus",
         "geography_space"
+      ],
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable",
+      "output_volume_yearly": "low",
+      "quality_signal": {
+        "scholarly_rigor": 5,
+        "audience_reach": "small",
+        "peer_recognition": "emerging"
+      },
+      "target_audience": [
+        "specialist"
       ]
     },
     {
@@ -1440,6 +1581,19 @@
         "classical_corpus",
         "methodology_critique",
         "prophetic_demography"
+      ],
+      "methodology_school": "shia_imami",
+      "trajectory": "growing",
+      "output_volume_yearly": "very_high",
+      "quality_signal": {
+        "scholarly_rigor": 5,
+        "audience_reach": "large",
+        "peer_recognition": "established"
+      },
+      "target_audience": [
+        "specialist",
+        "intellectual",
+        "general"
       ]
     },
     {
@@ -1494,6 +1648,17 @@
         "classical_corpus",
         "methodology_critique",
         "prophetic_demography"
+      ],
+      "methodology_school": "shia_imami",
+      "trajectory": "stable",
+      "output_volume_yearly": "medium",
+      "quality_signal": {
+        "scholarly_rigor": 5,
+        "audience_reach": "medium",
+        "peer_recognition": "established"
+      },
+      "target_audience": [
+        "specialist"
       ]
     },
     {
@@ -1535,7 +1700,18 @@
       "subjects_category": [
         "classical_corpus"
       ],
-      "description_ar": "مسابقة دولية عراقية تُكرّم أفضل مؤلَّف معاصر في السيرة النبوية، وتُشجّع البحث العلمي في سيرة النبي صلى الله عليه وسلم، وتمنح جوائز تقديرية للباحثين والمؤلفين من مختلف الدول العربية والإسلامية."
+      "description_ar": "مسابقة دولية عراقية تُكرّم أفضل مؤلَّف معاصر في السيرة النبوية، وتُشجّع البحث العلمي في سيرة النبي صلى الله عليه وسلم، وتمنح جوائز تقديرية للباحثين والمؤلفين من مختلف الدول العربية والإسلامية.",
+      "methodology_school": "shia_imami",
+      "trajectory": "stable",
+      "output_volume_yearly": "low",
+      "quality_signal": {
+        "scholarly_rigor": 5,
+        "audience_reach": "medium",
+        "peer_recognition": "established"
+      },
+      "target_audience": [
+        "specialist"
+      ]
     },
     {
       "id": "LEV-033",
@@ -1712,7 +1888,19 @@
         "auxiliary_sciences",
         "classical_corpus"
       ],
-      "founded": 2006
+      "founded": 2006,
+      "methodology_school": "muhammadia_andalusi",
+      "trajectory": "stable",
+      "output_volume_yearly": "high",
+      "quality_signal": {
+        "scholarly_rigor": 5,
+        "audience_reach": "medium",
+        "peer_recognition": "established"
+      },
+      "target_audience": [
+        "specialist",
+        "intellectual"
+      ]
     },
     {
       "id": "MAG-011",
@@ -1763,6 +1951,18 @@
       "subjects_category": [
         "classical_corpus",
         "methodology_critique"
+      ],
+      "methodology_school": "muhammadia_andalusi",
+      "trajectory": "stable",
+      "output_volume_yearly": "high",
+      "quality_signal": {
+        "scholarly_rigor": 4,
+        "audience_reach": "large",
+        "peer_recognition": "established"
+      },
+      "target_audience": [
+        "general",
+        "intellectual"
       ]
     },
     {
@@ -2181,6 +2381,18 @@
       ],
       "subjects_category": [
         "classical_corpus"
+      ],
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable",
+      "output_volume_yearly": "medium",
+      "quality_signal": {
+        "scholarly_rigor": 5,
+        "audience_reach": "medium",
+        "peer_recognition": "established"
+      },
+      "target_audience": [
+        "specialist",
+        "general"
       ]
     },
     {
@@ -2346,6 +2558,21 @@
         "application_outreach",
         "classical_corpus",
         "methodology_critique"
+      ],
+      "methodology_school": "turkish_modernist",
+      "trajectory": "growing",
+      "output_volume_yearly": "very_high",
+      "quality_signal": {
+        "scholarly_rigor": 4,
+        "audience_reach": "massive",
+        "peer_recognition": "established"
+      },
+      "target_audience": [
+        "specialist",
+        "intellectual",
+        "general",
+        "youth",
+        "educator"
       ]
     },
     {
@@ -2399,7 +2626,19 @@
         "classical_corpus",
         "methodology_critique"
       ],
-      "founded": 2010
+      "founded": 2010,
+      "methodology_school": "turkish_modernist",
+      "trajectory": "stable",
+      "output_volume_yearly": "high",
+      "quality_signal": {
+        "scholarly_rigor": 5,
+        "audience_reach": "large",
+        "peer_recognition": "established"
+      },
+      "target_audience": [
+        "specialist",
+        "intellectual"
+      ]
     },
     {
       "id": "TUR-004",
@@ -3474,6 +3713,19 @@
       "subjects_category": [
         "classical_corpus",
         "geography_space"
+      ],
+      "methodology_school": "turkish_modernist",
+      "trajectory": "growing",
+      "output_volume_yearly": "high",
+      "quality_signal": {
+        "scholarly_rigor": 3,
+        "audience_reach": "massive",
+        "peer_recognition": "emerging"
+      },
+      "target_audience": [
+        "general",
+        "youth",
+        "child"
       ]
     },
     {
@@ -3608,7 +3860,20 @@
         "application_outreach",
         "classical_corpus"
       ],
-      "name_ar_original": "قناة Siyer TV"
+      "name_ar_original": "قناة Siyer TV",
+      "methodology_school": "turkish_modernist",
+      "trajectory": "stable",
+      "output_volume_yearly": "very_high",
+      "quality_signal": {
+        "scholarly_rigor": 3,
+        "audience_reach": "massive",
+        "peer_recognition": "established"
+      },
+      "target_audience": [
+        "general",
+        "intellectual",
+        "youth"
+      ]
     },
     {
       "id": "TUR-035",
@@ -3660,6 +3925,18 @@
       "subjects_category": [
         "application_outreach",
         "classical_corpus"
+      ],
+      "methodology_school": "turkish_modernist",
+      "trajectory": "stable",
+      "output_volume_yearly": "high",
+      "quality_signal": {
+        "scholarly_rigor": 4,
+        "audience_reach": "large",
+        "peer_recognition": "established"
+      },
+      "target_audience": [
+        "general",
+        "intellectual"
       ]
     },
     {
@@ -3747,6 +4024,17 @@
       ],
       "subjects_category": [
         "classical_corpus"
+      ],
+      "methodology_school": "turkish_modernist",
+      "trajectory": "stable",
+      "output_volume_yearly": "medium",
+      "quality_signal": {
+        "scholarly_rigor": 5,
+        "audience_reach": "large",
+        "peer_recognition": "established"
+      },
+      "target_audience": [
+        "specialist"
       ]
     },
     {
@@ -3928,6 +4216,19 @@
         "application_outreach",
         "classical_corpus",
         "methodology_critique"
+      ],
+      "methodology_school": "turkish_modernist",
+      "trajectory": "stable",
+      "output_volume_yearly": "high",
+      "quality_signal": {
+        "scholarly_rigor": 4,
+        "audience_reach": "large",
+        "peer_recognition": "established"
+      },
+      "target_audience": [
+        "general",
+        "intellectual",
+        "specialist"
       ]
     },
     {
@@ -4138,6 +4439,17 @@
         "auxiliary_sciences",
         "classical_corpus",
         "methodology_critique"
+      ],
+      "methodology_school": "turkish_modernist",
+      "trajectory": "ended",
+      "output_volume_yearly": "low",
+      "quality_signal": {
+        "scholarly_rigor": 5,
+        "audience_reach": "medium",
+        "peer_recognition": "established"
+      },
+      "target_audience": [
+        "specialist"
       ]
     },
     {
@@ -4452,6 +4764,19 @@
       "url": "https://www.mora.gov.pk",
       "subjects_category": [
         "classical_corpus"
+      ],
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable",
+      "output_volume_yearly": "high",
+      "quality_signal": {
+        "scholarly_rigor": 4,
+        "audience_reach": "large",
+        "peer_recognition": "established"
+      },
+      "target_audience": [
+        "specialist",
+        "intellectual",
+        "policy_maker"
       ]
     },
     {
@@ -4537,6 +4862,18 @@
       "subjects_category": [
         "classical_corpus",
         "methodology_critique"
+      ],
+      "methodology_school": "classical_sunni",
+      "trajectory": "growing",
+      "output_volume_yearly": "medium",
+      "quality_signal": {
+        "scholarly_rigor": 4,
+        "audience_reach": "medium",
+        "peer_recognition": "emerging"
+      },
+      "target_audience": [
+        "specialist",
+        "intellectual"
       ]
     },
     {
@@ -4703,6 +5040,18 @@
       "subjects_category": [
         "auxiliary_sciences",
         "classical_corpus"
+      ],
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable",
+      "output_volume_yearly": "high",
+      "quality_signal": {
+        "scholarly_rigor": 5,
+        "audience_reach": "large",
+        "peer_recognition": "established"
+      },
+      "target_audience": [
+        "specialist",
+        "general"
       ]
     },
     {
@@ -4781,6 +5130,18 @@
       "url": "https://sirahcommunity.com",
       "subjects_category": [
         "classical_corpus"
+      ],
+      "methodology_school": "classical_sunni",
+      "trajectory": "growing",
+      "output_volume_yearly": "medium",
+      "quality_signal": {
+        "scholarly_rigor": 4,
+        "audience_reach": "large",
+        "peer_recognition": "emerging"
+      },
+      "target_audience": [
+        "general",
+        "youth"
       ]
     },
     {
@@ -4817,7 +5178,18 @@
         "application_outreach",
         "classical_corpus"
       ],
-      "name_ar_original": "Maktabah Santri (تطبيقات السيرة الإندونيسية)"
+      "name_ar_original": "Maktabah Santri (تطبيقات السيرة الإندونيسية)",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable",
+      "output_volume_yearly": "high",
+      "quality_signal": {
+        "scholarly_rigor": 3,
+        "audience_reach": "large",
+        "peer_recognition": "established"
+      },
+      "target_audience": [
+        "general"
+      ]
     },
     {
       "id": "NAM-036",
@@ -4929,6 +5301,17 @@
         "auxiliary_sciences",
         "classical_corpus",
         "prophetic_demography"
+      ],
+      "methodology_school": "shia_imami",
+      "trajectory": "stable",
+      "output_volume_yearly": "high",
+      "quality_signal": {
+        "scholarly_rigor": 5,
+        "audience_reach": "medium",
+        "peer_recognition": "established"
+      },
+      "target_audience": [
+        "specialist"
       ]
     },
     {
@@ -4978,6 +5361,17 @@
         "classical_corpus",
         "methodology_critique",
         "prophetic_demography"
+      ],
+      "methodology_school": "shia_imami",
+      "trajectory": "stable",
+      "output_volume_yearly": "high",
+      "quality_signal": {
+        "scholarly_rigor": 5,
+        "audience_reach": "medium",
+        "peer_recognition": "established"
+      },
+      "target_audience": [
+        "specialist"
       ]
     },
     {
@@ -5021,6 +5415,18 @@
       "subjects_category": [
         "classical_corpus",
         "prophetic_demography"
+      ],
+      "methodology_school": "shia_imami",
+      "trajectory": "stable",
+      "output_volume_yearly": "very_high",
+      "quality_signal": {
+        "scholarly_rigor": 5,
+        "audience_reach": "large",
+        "peer_recognition": "established"
+      },
+      "target_audience": [
+        "specialist",
+        "intellectual"
       ]
     },
     {
@@ -5508,7 +5914,18 @@
         "classical_corpus",
         "methodology_critique"
       ],
-      "url": "https://uni-tuebingen.de/fakultaeten/zentrum-fuer-islamische-theologie/zentrum/"
+      "url": "https://uni-tuebingen.de/fakultaeten/zentrum-fuer-islamische-theologie/zentrum/",
+      "methodology_school": "western_rehabilitative",
+      "trajectory": "stable",
+      "output_volume_yearly": "high",
+      "quality_signal": {
+        "scholarly_rigor": 5,
+        "audience_reach": "medium",
+        "peer_recognition": "established"
+      },
+      "target_audience": [
+        "specialist"
+      ]
     },
     {
       "id": "WEST-083",
@@ -5553,7 +5970,18 @@
         "classical_corpus",
         "prophetic_demography"
       ],
-      "name_ar_original": "جامعة هلسنكي – كلية اللاهوت – Ilkka Lindstedt"
+      "name_ar_original": "جامعة هلسنكي – كلية اللاهوت – Ilkka Lindstedt",
+      "methodology_school": "western_critical",
+      "trajectory": "growing",
+      "output_volume_yearly": "medium",
+      "quality_signal": {
+        "scholarly_rigor": 5,
+        "audience_reach": "medium",
+        "peer_recognition": "established"
+      },
+      "target_audience": [
+        "specialist"
+      ]
     },
     {
       "id": "WEST-109",
@@ -5979,7 +6407,18 @@
           "anchor": "NAM-094 — Majidi Film"
         }
       ],
-      "url": "https://en.wikipedia.org/wiki/Muhammad:_The_Messenger_of_God_(film)"
+      "url": "https://en.wikipedia.org/wiki/Muhammad:_The_Messenger_of_God_(film)",
+      "methodology_school": "shia_imami",
+      "trajectory": "peaked_then_stable",
+      "output_volume_yearly": "low",
+      "quality_signal": {
+        "scholarly_rigor": 3,
+        "audience_reach": "massive",
+        "peer_recognition": "established"
+      },
+      "target_audience": [
+        "general"
+      ]
     },
     {
       "id": "GLB-001",
@@ -6027,7 +6466,19 @@
           "anchor": "GLB-001 — The Message"
         }
       ],
-      "url": "https://en.wikipedia.org/wiki/The_Message_(1976_film)"
+      "url": "https://en.wikipedia.org/wiki/The_Message_(1976_film)",
+      "methodology_school": "classical_sunni",
+      "trajectory": "peaked_then_stable",
+      "output_volume_yearly": "low",
+      "quality_signal": {
+        "scholarly_rigor": 3,
+        "audience_reach": "massive",
+        "peer_recognition": "established"
+      },
+      "target_audience": [
+        "general",
+        "non_muslim"
+      ]
     },
     {
       "id": "NAM-095",
@@ -6312,7 +6763,18 @@
           "anchor": "ARB-070 — King Salman Chair Seerah"
         }
       ],
-      "url": "https://www.taibahu.edu.sa/en/college-of-arts-and-humanities-in-al-madinah-al-munawwarah"
+      "url": "https://www.taibahu.edu.sa/en/college-of-arts-and-humanities-in-al-madinah-al-munawwarah",
+      "methodology_school": "classical_sunni",
+      "trajectory": "growing",
+      "output_volume_yearly": "medium",
+      "quality_signal": {
+        "scholarly_rigor": 5,
+        "audience_reach": "medium",
+        "peer_recognition": "emerging"
+      },
+      "target_audience": [
+        "specialist"
+      ]
     },
     {
       "id": "MAG-051",
@@ -6469,7 +6931,7 @@
       "country": "SN",
       "founded": 1977,
       "description_ar": "المكتبة المركزية للطريقة المريدية شرق المسجد الجامع بطوبى، تضمّ أكثر من 30 ألف نسخة من القرآن ومخطوطات الشيخ أحمد بمبا وقصائد المديح النبوي. وتُجهَّز حالياً بقسم وسائط متعدّدة.",
-      "url": "https://aps.sn/touba-la-bibliotheque-cheikhoul-khadim-bientot-dotee-dune-salle-mediatheque-conservateur/",
+      "url": "https://aps.sn",
       "subjects": [
         "manuscripts",
         "sufism_seerah",
@@ -6483,7 +6945,7 @@
       "key_figures": [
         "أحمد بمبا"
       ],
-      "verification": "desk_verified",
+      "verification": "needs_verification",
       "inclusion_tier": "core",
       "status": "active",
       "scale": "regional",
@@ -6493,7 +6955,8 @@
       ],
       "output_types": [],
       "funding_type": "academic_host",
-      "round": "08e"
+      "round": "08e",
+      "notes_ar": "[2026-05-15 تَدقيق الجولة 10] الرابط الأصلي (مقال) أصبح 404؛ استُبدل بالموقع الأم لوكالة الأنباء السنغالية"
     },
     {
       "id": "NAM-121",
@@ -6712,7 +7175,19 @@
       ],
       "output_types": [],
       "funding_type": "private",
-      "round": "08y"
+      "round": "08y",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable",
+      "output_volume_yearly": "very_high",
+      "quality_signal": {
+        "scholarly_rigor": 3,
+        "audience_reach": "massive",
+        "peer_recognition": "established"
+      },
+      "target_audience": [
+        "child",
+        "youth"
+      ]
     },
     {
       "id": "WEST-159",
@@ -6955,7 +7430,18 @@
       ],
       "output_types": [],
       "funding_type": "private",
-      "round": "08y"
+      "round": "08y",
+      "methodology_school": "popular_unspecified",
+      "trajectory": "stable",
+      "output_volume_yearly": "high",
+      "quality_signal": {
+        "scholarly_rigor": 2,
+        "audience_reach": "massive",
+        "peer_recognition": "established"
+      },
+      "target_audience": [
+        "child"
+      ]
     },
     {
       "id": "ARB-078",
@@ -7000,7 +7486,6 @@
       "country": "GB",
       "founded": 2015,
       "description_ar": "قناة يوتيوب بريطانية بالعربية موجّهة للأطفال المسلمين الناطقين بالعربية في الغرب. سلسلة قصص النبي ﷺ والشمائل بأسلوب رسوم متحركة، أكثر من 2 مليون مشاهدة.",
-      "url": "https://www.youtube.com/@MarkazAlTifl",
       "subjects": [
         "seerah_pedagogy",
         "youth_outreach",
@@ -7012,7 +7497,7 @@
         "classical_corpus"
       ],
       "key_figures": [],
-      "verification": "desk_verified",
+      "verification": "needs_verification",
       "inclusion_tier": "core",
       "status": "active",
       "scale": "national",
@@ -7022,7 +7507,8 @@
       ],
       "output_types": [],
       "funding_type": "private",
-      "round": "08y"
+      "round": "08y",
+      "notes_ar": "[2026-05-15 تَدقيق الجولة 10] قناة اليوتيوب أصبحت 404 — يَحتاج تَحقّقاً جديداً"
     },
     {
       "id": "WEST-168",
@@ -7089,7 +7575,18 @@
       ],
       "output_types": [],
       "funding_type": "academic_host",
-      "round": "08t"
+      "round": "08t",
+      "methodology_school": "classical_sunni",
+      "trajectory": "growing",
+      "output_volume_yearly": "medium",
+      "quality_signal": {
+        "scholarly_rigor": 5,
+        "audience_reach": "medium",
+        "peer_recognition": "emerging"
+      },
+      "target_audience": [
+        "specialist"
+      ]
     },
     {
       "id": "TUR-070",
@@ -7234,7 +7731,7 @@
       "country": "IN",
       "founded": 1976,
       "description_ar": "شبكة مساجد ومجالس مولد تنشط في عموم كيرلا ضمن «جمعية علماء السنة بكيرلا» (Samastha)، تختصّ بأدب «المالا-المولد» الكيرلي (مزيج عربي-ملياليمي) وقراءاته الجماعية في المساجد، مع موائد طعام وأنشطة تعليمية في ذكرى المولد. تمتلك تراثاً نصياً خاصاً للمولد متجذراً منذ القرن السابع عشر.",
-      "url": "https://smfkerala.com/",
+      "url": "https://www.facebook.com/smfkerala",
       "subjects": [
         "mawlid",
         "south_asian_islam",
@@ -7246,7 +7743,7 @@
         "مشايخ سَمَستا كيرلا",
         "عمر فيضي مكَّم"
       ],
-      "verification": "desk_verified",
+      "verification": "needs_verification",
       "inclusion_tier": "core",
       "status": "active",
       "scale": "national",
@@ -7256,7 +7753,8 @@
       ],
       "output_types": [],
       "funding_type": "academic_host",
-      "round": "08t"
+      "round": "08t",
+      "notes_ar": "[2026-05-15 تَدقيق الجولة 10] الموقع الرسمي (smfkerala.com) متعطّل؛ استُخدمت صفحة Facebook كبديل"
     },
     {
       "id": "WEST-173",
@@ -7383,7 +7881,18 @@
       ],
       "output_types": [],
       "funding_type": "academic_host",
-      "round": "09a"
+      "round": "09a",
+      "methodology_school": "classical_sunni",
+      "trajectory": "growing",
+      "output_volume_yearly": "low",
+      "quality_signal": {
+        "scholarly_rigor": 4,
+        "audience_reach": "medium",
+        "peer_recognition": "emerging"
+      },
+      "target_audience": [
+        "specialist"
+      ]
     },
     {
       "id": "NAM-236",
@@ -7415,7 +7924,19 @@
       ],
       "output_types": [],
       "funding_type": "academic_host",
-      "round": "09a"
+      "round": "09a",
+      "methodology_school": "classical_sunni",
+      "trajectory": "growing",
+      "output_volume_yearly": "medium",
+      "quality_signal": {
+        "scholarly_rigor": 4,
+        "audience_reach": "medium",
+        "peer_recognition": "emerging"
+      },
+      "target_audience": [
+        "woman",
+        "specialist"
+      ]
     },
     {
       "id": "NAM-237",
@@ -7445,7 +7966,19 @@
       ],
       "output_types": [],
       "funding_type": "academic_host",
-      "round": "09a"
+      "round": "09a",
+      "methodology_school": "classical_sunni",
+      "trajectory": "growing",
+      "output_volume_yearly": "low",
+      "quality_signal": {
+        "scholarly_rigor": 4,
+        "audience_reach": "small",
+        "peer_recognition": "emerging"
+      },
+      "target_audience": [
+        "specialist",
+        "policy_maker"
+      ]
     },
     {
       "id": "NAM-238",
@@ -7475,7 +8008,18 @@
       ],
       "output_types": [],
       "funding_type": "academic_host",
-      "round": "09a"
+      "round": "09a",
+      "methodology_school": "classical_sunni",
+      "trajectory": "growing",
+      "output_volume_yearly": "low",
+      "quality_signal": {
+        "scholarly_rigor": 4,
+        "audience_reach": "small",
+        "peer_recognition": "emerging"
+      },
+      "target_audience": [
+        "specialist"
+      ]
     },
     {
       "id": "NAM-239",
@@ -7689,7 +8233,19 @@
       ],
       "output_types": [],
       "funding_type": "academic_host",
-      "round": "09a"
+      "round": "09a",
+      "methodology_school": "turkish_modernist",
+      "trajectory": "growing",
+      "output_volume_yearly": "medium",
+      "quality_signal": {
+        "scholarly_rigor": 4,
+        "audience_reach": "medium",
+        "peer_recognition": "emerging"
+      },
+      "target_audience": [
+        "intellectual",
+        "specialist"
+      ]
     },
     {
       "id": "TUR-073",
@@ -7927,7 +8483,7 @@
       "country": "SA",
       "founded": 2011,
       "description_ar": "متحف افتُتح بالمدينة المنورة عام 2011 يحتوي قاعة مخصّصة للسيرة النبوية وأخرى للتراث المعماري للمسجد النبوي. يحفظ شواهد أثرية من توسعات المسجد عبر العصور، وعملات نادرة من العصر النبوي، ومخطوطات إسلامية، يقدّم رواية بصرية لأحداث السيرة في المدينة.",
-      "url": "https://visitmadinahsa.com/sa-en/destinations/Dar-Al-Madinah-museum-",
+      "url": "https://visitmadinahsa.com/sa-en",
       "subjects": [
         "seerah_geography",
         "seerah_general",
@@ -7938,7 +8494,7 @@
         "geography_space"
       ],
       "key_figures": [],
-      "verification": "desk_verified",
+      "verification": "needs_verification",
       "inclusion_tier": "core",
       "status": "active",
       "scale": "national",
@@ -7948,7 +8504,8 @@
       ],
       "output_types": [],
       "funding_type": "academic_host",
-      "round": "09a"
+      "round": "09a",
+      "notes_ar": "[2026-05-15 تَدقيق الجولة 10] الرابط الأصلي مكسور (شَرطة فارغة)؛ استُخدمت الصفحة الأم"
     },
     {
       "id": "ARB-098",
@@ -8195,7 +8752,20 @@
       ],
       "output_types": [],
       "funding_type": "academic_host",
-      "round": "09a"
+      "round": "09a",
+      "methodology_school": "classical_sunni",
+      "trajectory": "growing",
+      "output_volume_yearly": "medium",
+      "quality_signal": {
+        "scholarly_rigor": 4,
+        "audience_reach": "medium",
+        "peer_recognition": "emerging"
+      },
+      "target_audience": [
+        "general",
+        "specialist",
+        "educator"
+      ]
     },
     {
       "id": "LEV-035",
@@ -8243,7 +8813,7 @@
       "country": "PK",
       "founded": 2010,
       "description_ar": "مؤسسة بحثية باكستانية تأسست 2010 مهمّتها البحث والحفظ والنشر للسيرة النبوية الأصيلة. لها فريق من العلماء والباحثين، تصدر برامج تعليمية ومنشورات سيرية. موقعها theseerah.com.pk.",
-      "url": "https://theseerah.com.pk/about.php",
+      "url": "https://theseerah.com.pk/",
       "subjects": [
         "seerah_general",
         "seerah_pedagogy",
@@ -8255,7 +8825,7 @@
         "classical_corpus"
       ],
       "key_figures": [],
-      "verification": "desk_verified",
+      "verification": "needs_verification",
       "inclusion_tier": "core",
       "status": "active",
       "scale": "national",
@@ -8265,7 +8835,8 @@
       ],
       "output_types": [],
       "funding_type": "academic_host",
-      "round": "09a"
+      "round": "09a",
+      "notes_ar": "[2026-05-15 تَدقيق الجولة 10] صفحة /about.php غير موجودة؛ استُخدم جذر الموقع"
     },
     {
       "id": "NAM-248",
@@ -8311,7 +8882,7 @@
       "country": "SA",
       "founded": 2022,
       "description_ar": "ممشى تطويري بطول 3 كم يمتد من مسجد قباء إلى محيط المسجد النبوي، أُطلق ضمن «برنامج إنسنة المدينة» تحت إشراف هيئة تطوير منطقة المدينة. قيمته الرمزية في أنّه طريق النبي ﷺ المعتاد لزيارة قباء كل سبت. يُكرّس الجغرافيا السيرية كتجربة مكانية حضرية.",
-      "url": "https://visitmadinahsa.com/sa-en/destinations/Quba-Walking-Trail-",
+      "url": "https://visitmadinahsa.com/sa-en",
       "subjects": [
         "seerah_geography",
         "seerah_general"
@@ -8321,7 +8892,7 @@
         "geography_space"
       ],
       "key_figures": [],
-      "verification": "desk_verified",
+      "verification": "needs_verification",
       "inclusion_tier": "core",
       "status": "active",
       "scale": "national",
@@ -8331,7 +8902,8 @@
       ],
       "output_types": [],
       "funding_type": "academic_host",
-      "round": "09a"
+      "round": "09a",
+      "notes_ar": "[2026-05-15 تَدقيق الجولة 10] الرابط الأصلي مكسور (شَرطة فارغة)؛ استُخدمت الصفحة الأم"
     },
     {
       "id": "WEST-177",
@@ -8365,7 +8937,19 @@
       ],
       "output_types": [],
       "funding_type": "academic_host",
-      "round": "09a"
+      "round": "09a",
+      "methodology_school": "classical_sunni",
+      "trajectory": "peaked_then_stable",
+      "output_volume_yearly": "medium",
+      "quality_signal": {
+        "scholarly_rigor": 4,
+        "audience_reach": "massive",
+        "peer_recognition": "established"
+      },
+      "target_audience": [
+        "general",
+        "intellectual"
+      ]
     },
     {
       "id": "WEST-178",
@@ -8399,7 +8983,19 @@
       ],
       "output_types": [],
       "funding_type": "academic_host",
-      "round": "09a"
+      "round": "09a",
+      "methodology_school": "classical_sunni",
+      "trajectory": "peaked_then_stable",
+      "output_volume_yearly": "low",
+      "quality_signal": {
+        "scholarly_rigor": 4,
+        "audience_reach": "massive",
+        "peer_recognition": "established"
+      },
+      "target_audience": [
+        "general",
+        "intellectual"
+      ]
     },
     {
       "id": "WEST-179",
@@ -8497,7 +9093,18 @@
       ],
       "output_types": [],
       "funding_type": "academic_host",
-      "round": "09a"
+      "round": "09a",
+      "methodology_school": "classical_sunni",
+      "trajectory": "peaked_then_stable",
+      "output_volume_yearly": "low",
+      "quality_signal": {
+        "scholarly_rigor": 3,
+        "audience_reach": "massive",
+        "peer_recognition": "contested"
+      },
+      "target_audience": [
+        "general"
+      ]
     },
     {
       "id": "WEST-182",
@@ -8729,7 +9336,19 @@
       ],
       "output_types": [],
       "funding_type": "academic_host",
-      "round": "09a"
+      "round": "09a",
+      "methodology_school": "classical_sunni",
+      "trajectory": "growing",
+      "output_volume_yearly": "medium",
+      "quality_signal": {
+        "scholarly_rigor": 4,
+        "audience_reach": "small",
+        "peer_recognition": "emerging"
+      },
+      "target_audience": [
+        "intellectual",
+        "specialist"
+      ]
     },
     {
       "id": "WEST-185",
@@ -9455,5 +10074,6 @@
       "round": "09a"
     }
   ],
-  "migration_note": "2026-05-13: STRICT AUDIT + ROUND 9-A — 235 entities (Seerah-only)"
+  "migration_note": "2026-05-13: STRICT AUDIT + ROUND 9-A — 235 entities (Seerah-only)",
+  "url_audit_note": "2026-05-15: تَدقيق روابط الكيانات (الجولة 10) — 6 روابط ميّتة أُصلحت أو أُزيلت"
 }
