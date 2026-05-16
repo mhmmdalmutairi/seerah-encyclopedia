@@ -5,7 +5,10 @@
   "$structure": {
     "project_alignment": "directly_aligned | partially_aligned | methodology_reference | audience_reference | potential_partner | competitor | excluded_permanent",
     "sheikh_project_mapping": [
-      {"project_id": "p1|p2|p2b|p3|p4|p5|p6|p7|p8|p9|p10|p11|p12", "relevance": "primary_model|partial_lesson|competitor|complement"}
+      {
+        "project_id": "p1|p2|p2b|p3|p4|p5|p6|p7|p8|p9|p10|p11|p12",
+        "relevance": "primary_model|partial_lesson|competitor|complement"
+      }
     ],
     "methodology_school": "محدّد من schema.json",
     "key_lessons_ar": "ما يَتعلّمه المشروع من هذا الكيان",
@@ -13,16 +16,23 @@
     "where_project_loses_ar": "أين قد يَخسر المشروع",
     "partnership_type": "model_reference|content_exchange|distribution_network|methodology_consultation|joint_publication|none",
     "partnership_priority": "urgent|high|medium|long_term|none",
-    "risk_factors_ar": ["قائمة بالمخاطر"],
+    "risk_factors_ar": [
+      "قائمة بالمخاطر"
+    ],
     "field_visit_recommended": "boolean",
     "annotator_note_ar": "ملاحظة المحلّل (يُستخدم عند الحاجة لتوضيح اختيار التوصيف)"
   },
-
   "TUR-001": {
     "project_alignment": "potential_partner",
     "sheikh_project_mapping": [
-      {"project_id": "p1", "relevance": "primary_model"},
-      {"project_id": "p4", "relevance": "partial_lesson"}
+      {
+        "project_id": "p1",
+        "relevance": "primary_model"
+      },
+      {
+        "project_id": "p4",
+        "relevance": "partial_lesson"
+      }
     ],
     "methodology_school": "turkish_modernist",
     "key_lessons_ar": "نموذج «المنظومة المتكاملة» (وقف + معهد + قناة + متحف + مؤتمر + جائزة) كصيغة عملياً ناجحة. الانطلاق المدني ثم الانتساب للدولة (لا التأسّس دولتياً مباشرة). الاستثمار في شخصية محورية تَبني المؤسسة حولها. «مدرسة السيرة» كبرنامج تدريبي طويل المدى (15 سنة دراسية).",
@@ -30,16 +40,24 @@
     "where_project_loses_ar": "التماسك التشغيلي بعد 15 سنة من الخبرة، شبكة المتطوّعين، القناة التلفزية الموجودة، التراكم البحثي، شخصية يلديز المؤسِّسة.",
     "partnership_type": "model_reference",
     "partnership_priority": "urgent",
-    "risk_factors_ar": ["حاجز لغوي", "سياق ثقافي مختلف"],
+    "risk_factors_ar": [
+      "حاجز لغوي",
+      "سياق ثقافي مختلف"
+    ],
     "field_visit_recommended": true,
     "annotator_note_ar": "النظير الأول قيمةً للمشروع. زيارة ميدانية لإيوب سلطان قبل الانطلاق تَختصر سنوات."
   },
-
   "LEV-011": {
     "project_alignment": "potential_partner",
     "sheikh_project_mapping": [
-      {"project_id": "p2b", "relevance": "primary_model"},
-      {"project_id": "p4", "relevance": "complement"}
+      {
+        "project_id": "p2b",
+        "relevance": "primary_model"
+      },
+      {
+        "project_id": "p4",
+        "relevance": "complement"
+      }
     ],
     "methodology_school": "classical_sunni",
     "key_lessons_ar": "نموذج «الشبكة العلمية الدولية» (130 عضواً عبر 40 دولة) — كيف يُبنى مجلس استشاري أمميّ. المشروع الموسوعي المنظَّم (الجدول التاريخي). الشرعية الملكية كمظلّة سياسية تَحمي الاستقلال البحثي.",
@@ -47,16 +65,23 @@
     "where_project_loses_ar": "الشبكة الأكاديمية الدولية الواسعة، المكانة الملكية المستقرّة منذ 1980، علاقات راسخة مع الأزهر والقرويين.",
     "partnership_type": "methodology_consultation",
     "partnership_priority": "urgent",
-    "risk_factors_ar": ["تَنافس على نفس الفضاء السنّي الملكي"],
+    "risk_factors_ar": [
+      "تَنافس على نفس الفضاء السنّي الملكي"
+    ],
     "field_visit_recommended": true,
     "annotator_note_ar": "الأمير غازي مرجعية محتملة للهيئة الاستشارية. مشروع الجدول التاريخي يَتكامل مع المشروع 2-ب."
   },
-
   "LEV-030": {
     "project_alignment": "methodology_reference",
     "sheikh_project_mapping": [
-      {"project_id": "p4", "relevance": "partial_lesson"},
-      {"project_id": "p10", "relevance": "partial_lesson"}
+      {
+        "project_id": "p4",
+        "relevance": "partial_lesson"
+      },
+      {
+        "project_id": "p10",
+        "relevance": "partial_lesson"
+      }
     ],
     "methodology_school": "shia_imami",
     "key_lessons_ar": "الانطلاق من مرجعية دينية كركيزة استقرار (العتبة العباسية). إنتاج كثيف ومتدرّج (مجلة + كتب + مسابقات + مؤتمرات + أقسام بحثية) في 9 سنوات فقط. العمل بـ3 لغات (عربية، إنجليزية، فرنسية). المسابقات الدورية كأداة تَحفيز للإنتاج الأكاديمي.",
@@ -64,16 +89,23 @@
     "where_project_loses_ar": "المرجعية الدينية المستقرّة، التَمويل المضمون من الأوقاف الشيعية، التراكم البحثي السريع.",
     "partnership_type": "none",
     "partnership_priority": "medium",
-    "risk_factors_ar": ["فجوة مذهبية تَمنع شراكة عميقة"],
+    "risk_factors_ar": [
+      "فجوة مذهبية تَمنع شراكة عميقة"
+    ],
     "field_visit_recommended": true,
     "annotator_note_ar": "مرجع تَعلّمي فقط. نموذج المسابقات الدورية المتعدّدة تَوصية جوهرية للمشروع."
   },
-
   "MAG-002": {
     "project_alignment": "potential_partner",
     "sheikh_project_mapping": [
-      {"project_id": "p8", "relevance": "complement"},
-      {"project_id": "p9", "relevance": "complement"}
+      {
+        "project_id": "p8",
+        "relevance": "complement"
+      },
+      {
+        "project_id": "p9",
+        "relevance": "complement"
+      }
     ],
     "methodology_school": "muhammadia_andalusi",
     "key_lessons_ar": "إحياء التراث الكلاسيكي ضمن إطار مؤسسي معاصر. السلاسل الموضوعية (دراسات وأبحاث + نوادر التراث) كآلية إنتاج منتظمة. الجمع بين منظومات السيرة المغربية الأندلسية وإصدارات أكاديمية حديثة.",
@@ -81,16 +113,23 @@
     "where_project_loses_ar": "التراث المغربي-الأندلسي العميق، الاستقرار المؤسسي، المنظومات الشعرية للسيرة (بُرْدَة، شمائل، مولديات).",
     "partnership_type": "joint_publication",
     "partnership_priority": "long_term",
-    "risk_factors_ar": ["محدودية الوصول للجمهور المشرقي"],
+    "risk_factors_ar": [
+      "محدودية الوصول للجمهور المشرقي"
+    ],
     "field_visit_recommended": false,
     "annotator_note_ar": "شراكة تَكاملية واضحة في الإرث الأندلسي والشمائل."
   },
-
   "ARB-012": {
     "project_alignment": "potential_partner",
     "sheikh_project_mapping": [
-      {"project_id": "p12", "relevance": "primary_model"},
-      {"project_id": "p1", "relevance": "complement"}
+      {
+        "project_id": "p12",
+        "relevance": "primary_model"
+      },
+      {
+        "project_id": "p1",
+        "relevance": "complement"
+      }
     ],
     "methodology_school": "classical_sunni",
     "key_lessons_ar": "الأمميّة بلغات متعدّدة من اليوم الأول (8+ لغات). منظومة الفروع المنفصلة (نبي الرحمة + تطبيق + معرض + كتاب) كل واحد يَخدم جمهوراً مختلفاً. السلطة الناعمة كدافع للتمويل.",
@@ -98,16 +137,23 @@
     "where_project_loses_ar": "الأمميّة المُجرَّبة بـ8 لغات، شبكة 40+ مكتب قُطري للرابطة، السلطة الرمزية للرابطة، القدرة على إرسال 20M+ SMS.",
     "partnership_type": "distribution_network",
     "partnership_priority": "urgent",
-    "risk_factors_ar": ["اعتماد على هيئة دينية رسمية كبيرة"],
+    "risk_factors_ar": [
+      "اعتماد على هيئة دينية رسمية كبيرة"
+    ],
     "field_visit_recommended": false,
     "annotator_note_ar": "شراكة على مستوى التوزيع لا الإنتاج. المركز يُنتج موسوعياً، الهيئة تُوزّع جماهيرياً."
   },
-
   "NAM-003": {
     "project_alignment": "potential_partner",
     "sheikh_project_mapping": [
-      {"project_id": "p9", "relevance": "partial_lesson"},
-      {"project_id": "p12", "relevance": "complement"}
+      {
+        "project_id": "p9",
+        "relevance": "partial_lesson"
+      },
+      {
+        "project_id": "p12",
+        "relevance": "complement"
+      }
     ],
     "methodology_school": "classical_sunni",
     "key_lessons_ar": "التوزيع الجغرافي عبر الجامعات كنموذج تَكميمي للأمميّة. الميزانية المُعلنة المُفصَّلة. الشراكة المؤسسية مع لجنة التعليم العالي. التوسعة التدريجية (9 ثم 12 كرسياً).",
@@ -115,15 +161,20 @@
     "where_project_loses_ar": "شبكة 9-12 جامعة باكستانية، التَمويل الدولتي المستقرّ، المؤتمر السنوي الحكومي (50 دورة)، الإنتاج بالأردية.",
     "partnership_type": "distribution_network",
     "partnership_priority": "medium",
-    "risk_factors_ar": ["تَفاوت كبير في نشاط الكراسي الـ9", "اعتماد على HEC"],
+    "risk_factors_ar": [
+      "تَفاوت كبير في نشاط الكراسي الـ9",
+      "اعتماد على HEC"
+    ],
     "field_visit_recommended": false,
     "annotator_note_ar": "شراكة على التوزيع الجامعي + الترجمة للأردية."
   },
-
   "WEST-177": {
     "project_alignment": "potential_partner",
     "sheikh_project_mapping": [
-      {"project_id": "p12", "relevance": "primary_model"}
+      {
+        "project_id": "p12",
+        "relevance": "primary_model"
+      }
     ],
     "methodology_school": "classical_sunni",
     "key_lessons_ar": "نموذج «100 حلقة» كمنتج صوتي مكتمل. الشخصية المؤسِّسة كرأسمال رمزي. الالتزام لسنوات (Qadhi منذ 2011). منهج الاعتماد على المصادر الأصلية.",
@@ -131,15 +182,19 @@
     "where_project_loses_ar": "القاعدة الجماهيرية المُتراكمة (ملايين المستمعين)، الشرعية الأكاديمية في الفضاء الغربي، سهولة الوصول للجمهور الأمريكي/البريطاني.",
     "partnership_type": "joint_publication",
     "partnership_priority": "long_term",
-    "risk_factors_ar": ["مواقف سياسية محتملة قد تُعقّد الشراكة الرسمية"],
+    "risk_factors_ar": [
+      "مواقف سياسية محتملة قد تُعقّد الشراكة الرسمية"
+    ],
     "field_visit_recommended": false,
     "annotator_note_ar": "استكتاب القاضي لمحتوى مكتوب أصيل بالإنجليزية فرصة قوية للقسم 12."
   },
-
   "WEST-178": {
     "project_alignment": "potential_partner",
     "sheikh_project_mapping": [
-      {"project_id": "p12", "relevance": "primary_model"}
+      {
+        "project_id": "p12",
+        "relevance": "primary_model"
+      }
     ],
     "methodology_school": "classical_sunni",
     "key_lessons_ar": "200 حلقة من Qalam Seerah. منهج جانغدا الكلاسيكي مع لمسة معاصرة. الاستضافة الأكاديمية لمعهد قلم بدالاس.",
@@ -151,11 +206,13 @@
     "field_visit_recommended": false,
     "annotator_note_ar": "نظير قوي للقسم الإنجليزي. شراكة استكتابية واعدة."
   },
-
   "NAM-216": {
     "project_alignment": "potential_partner",
     "sheikh_project_mapping": [
-      {"project_id": "p11", "relevance": "primary_model"}
+      {
+        "project_id": "p11",
+        "relevance": "primary_model"
+      }
     ],
     "methodology_school": "classical_sunni",
     "key_lessons_ar": "الوصول الأمميّ عبر لغات متعدّدة من البدء (12 لغة). الاستمرارية الطويلة (30+ سنة). الانتقال من الكتاب إلى الكرتون كنموذج تَطوّر طبيعي.",
@@ -163,15 +220,19 @@
     "where_project_loses_ar": "الخبرة الإنتاجية الطويلة في محتوى الأطفال، شبكة التوزيع العالمية المُتراكمة.",
     "partnership_type": "content_exchange",
     "partnership_priority": "long_term",
-    "risk_factors_ar": ["تَوجّه عام لمولانا وحيد الدين خان قد لا يَتوافق مع كل المراجع"],
+    "risk_factors_ar": [
+      "تَوجّه عام لمولانا وحيد الدين خان قد لا يَتوافق مع كل المراجع"
+    ],
     "field_visit_recommended": false,
     "annotator_note_ar": "ترجمة منتجات جوود وورد للعربية بدلاً من بناء سلسلة موازية."
   },
-
   "NAM-217": {
     "project_alignment": "potential_partner",
     "sheikh_project_mapping": [
-      {"project_id": "p11", "relevance": "primary_model"}
+      {
+        "project_id": "p11",
+        "relevance": "primary_model"
+      }
     ],
     "methodology_school": "popular_unspecified",
     "key_lessons_ar": "كرتون إسلامي بـ8 لغات. 5M+ متابع يوتيوب. السوق الجماهيري الواسع — الأطفال يَستهلكون يومياً.",
@@ -183,12 +244,17 @@
     "field_visit_recommended": false,
     "annotator_note_ar": "شراكة إنتاج موسم سيرة-تطبيقي مع Omar & Hana."
   },
-
   "ARB-007": {
     "project_alignment": "potential_partner",
     "sheikh_project_mapping": [
-      {"project_id": "p6", "relevance": "complement"},
-      {"project_id": "p1", "relevance": "complement"}
+      {
+        "project_id": "p6",
+        "relevance": "complement"
+      },
+      {
+        "project_id": "p1",
+        "relevance": "complement"
+      }
     ],
     "methodology_school": "classical_sunni",
     "key_lessons_ar": "المعرض والمتحف الدولي ينتمي لرابطة العالم الإسلامي، 5 فروع دولية، 200 عرض تفاعلي. نموذج «المتحف الموسوعي العابر للحدود». 10 ملايين زائر للفرع المغربي حتى أبريل 2026.",
@@ -196,8 +262,554 @@
     "where_project_loses_ar": "الحضور الفيزيائي بـ5 فروع، التَمويل الرابطي الكبير، الإنتاج التفاعلي الفيزيائي.",
     "partnership_type": "complement",
     "partnership_priority": "high",
-    "risk_factors_ar": ["تَشابه التَموضع كـ«المرجع الجامع للسيرة»"],
+    "risk_factors_ar": [
+      "تَشابه التَموضع كـ«المرجع الجامع للسيرة»"
+    ],
     "field_visit_recommended": true,
     "annotator_note_ar": "زيارة الفرع الرئيس بالمدينة قبل تَصميم الأطلس 3D ضرورية. الفصل: المتحف للحضور الفيزيائي، المشروع للحضور الرقمي."
+  },
+  "ARB-011": {
+    "project_alignment": "partial",
+    "sheikh_project_mapping": [
+      {
+        "project_id": "p2",
+        "relevance": "complement"
+      }
+    ],
+    "methodology_school": "unknown",
+    "key_lessons_ar": "يَخدم الحديث المتعلّق بالسيرة بأكثر طاقة سعودية ممكنة (السنة شاملة السيرة)",
+    "partnership_type": "methodology_consultation",
+    "partnership_priority": "high",
+    "risk_factors_ar": [],
+    "field_visit_recommended": false,
+    "annotator_note_ar": "مُسترجَع من السجلّ الثانوي في الجولة 10 — التَوصيف الكامل يَنتظر تَحقيقاً ميدانياً"
+  },
+  "ARB-024": {
+    "project_alignment": "partial",
+    "sheikh_project_mapping": [
+      {
+        "project_id": "p1",
+        "relevance": "complement"
+      }
+    ],
+    "methodology_school": "unknown",
+    "key_lessons_ar": "مركز قطري بإنتاج حضاري واسع يَشمل السيرة",
+    "partnership_type": "complement",
+    "partnership_priority": "medium",
+    "risk_factors_ar": [],
+    "field_visit_recommended": false,
+    "annotator_note_ar": "مُسترجَع من السجلّ الثانوي في الجولة 10 — التَوصيف الكامل يَنتظر تَحقيقاً ميدانياً"
+  },
+  "ARB-029": {
+    "project_alignment": "partial",
+    "sheikh_project_mapping": [
+      {
+        "project_id": "p2",
+        "relevance": "complement"
+      }
+    ],
+    "methodology_school": "unknown",
+    "key_lessons_ar": "مركز كويتي صغير بإنتاج سيري ضمن السنة",
+    "partnership_type": "none",
+    "partnership_priority": "long_term",
+    "risk_factors_ar": [],
+    "field_visit_recommended": false,
+    "annotator_note_ar": "مُسترجَع من السجلّ الثانوي في الجولة 10 — التَوصيف الكامل يَنتظر تَحقيقاً ميدانياً"
+  },
+  "ARB-075": {
+    "project_alignment": "partial",
+    "sheikh_project_mapping": [
+      {
+        "project_id": "p6",
+        "relevance": "complement"
+      }
+    ],
+    "methodology_school": "unknown",
+    "key_lessons_ar": "إرث عُماني يَستحقّ الشراكة، خاصة مع المتحف الجديد",
+    "partnership_type": "complement",
+    "partnership_priority": "medium",
+    "risk_factors_ar": [],
+    "field_visit_recommended": false,
+    "annotator_note_ar": "مُسترجَع من السجلّ الثانوي في الجولة 10 — التَوصيف الكامل يَنتظر تَحقيقاً ميدانياً"
+  },
+  "ARB-071": {
+    "project_alignment": "partial",
+    "sheikh_project_mapping": [
+      {
+        "project_id": "p1",
+        "relevance": "complement"
+      }
+    ],
+    "methodology_school": "unknown",
+    "key_lessons_ar": "يُدرّب أئمة وخطباء الحرمين على السيرة كمحتوى منبري",
+    "partnership_type": "content_exchange",
+    "partnership_priority": "high",
+    "risk_factors_ar": [],
+    "field_visit_recommended": false,
+    "annotator_note_ar": "مُسترجَع من السجلّ الثانوي في الجولة 10 — التَوصيف الكامل يَنتظر تَحقيقاً ميدانياً"
+  },
+  "ARB-016": {
+    "project_alignment": "partial",
+    "sheikh_project_mapping": [
+      {
+        "project_id": "p1",
+        "relevance": "complement"
+      }
+    ],
+    "methodology_school": "unknown",
+    "key_lessons_ar": "قناة تلفزية رسمية بمحتوى سيري كبير",
+    "partnership_type": "distribution_network",
+    "partnership_priority": "high",
+    "risk_factors_ar": [],
+    "field_visit_recommended": false,
+    "annotator_note_ar": "مُسترجَع من السجلّ الثانوي في الجولة 10 — التَوصيف الكامل يَنتظر تَحقيقاً ميدانياً"
+  },
+  "LEV-049": {
+    "project_alignment": "methodology_reference",
+    "sheikh_project_mapping": [
+      {
+        "project_id": "p9",
+        "relevance": "partial_lesson"
+      }
+    ],
+    "methodology_school": "unknown",
+    "key_lessons_ar": "مرجع شيعي كبير — الفجوة المذهبية تَمنع شراكة، لكن منهجه يَستحقّ الدراسة",
+    "partnership_type": "none",
+    "partnership_priority": "none",
+    "risk_factors_ar": [],
+    "field_visit_recommended": false,
+    "annotator_note_ar": "مُسترجَع من السجلّ الثانوي في الجولة 10 — التَوصيف الكامل يَنتظر تَحقيقاً ميدانياً"
+  },
+  "NAM-061": {
+    "project_alignment": "partial",
+    "sheikh_project_mapping": [
+      {
+        "project_id": "p12",
+        "relevance": "complement"
+      }
+    ],
+    "methodology_school": "unknown",
+    "key_lessons_ar": "أكبر منتج محتوى إسلامي بالإنجليزية، السيرة محور رئيس من محاوره",
+    "partnership_type": "content_exchange",
+    "partnership_priority": "high",
+    "risk_factors_ar": [],
+    "field_visit_recommended": false,
+    "annotator_note_ar": "مُسترجَع من السجلّ الثانوي في الجولة 10 — التَوصيف الكامل يَنتظر تَحقيقاً ميدانياً"
+  },
+  "WEST-016": {
+    "project_alignment": "methodology_reference",
+    "sheikh_project_mapping": [
+      {
+        "project_id": "p12",
+        "relevance": "partial_lesson"
+      }
+    ],
+    "methodology_school": "unknown",
+    "key_lessons_ar": "أعرق معاهد الدراسات الإسلامية في كندا، صلة بالقسم الإنجليزي",
+    "partnership_type": "methodology_consultation",
+    "partnership_priority": "long_term",
+    "risk_factors_ar": [],
+    "field_visit_recommended": false,
+    "annotator_note_ar": "مُسترجَع من السجلّ الثانوي في الجولة 10 — التَوصيف الكامل يَنتظر تَحقيقاً ميدانياً"
+  },
+  "WEST-022": {
+    "project_alignment": "partial",
+    "sheikh_project_mapping": [
+      {
+        "project_id": "p12",
+        "relevance": "complement"
+      }
+    ],
+    "methodology_school": "unknown",
+    "key_lessons_ar": "بوابة أكاديمية إنجليزية مهمّة، قسم سيرة ضمن البرنامج",
+    "partnership_type": "joint_publication",
+    "partnership_priority": "medium",
+    "risk_factors_ar": [],
+    "field_visit_recommended": false,
+    "annotator_note_ar": "مُسترجَع من السجلّ الثانوي في الجولة 10 — التَوصيف الكامل يَنتظر تَحقيقاً ميدانياً"
+  },
+  "WEST-026": {
+    "project_alignment": "partial",
+    "sheikh_project_mapping": [
+      {
+        "project_id": "p7",
+        "relevance": "complement"
+      }
+    ],
+    "methodology_school": "unknown",
+    "key_lessons_ar": "يَخدم الحوار بين الأديان، وثيق الصلة بالمشروع 7 (ماذا ينقمون)",
+    "partnership_type": "methodology_consultation",
+    "partnership_priority": "medium",
+    "risk_factors_ar": [],
+    "field_visit_recommended": false,
+    "annotator_note_ar": "مُسترجَع من السجلّ الثانوي في الجولة 10 — التَوصيف الكامل يَنتظر تَحقيقاً ميدانياً"
+  },
+  "WEST-064": {
+    "project_alignment": "methodology_reference",
+    "sheikh_project_mapping": [
+      {
+        "project_id": "p8",
+        "relevance": "partial_lesson"
+      }
+    ],
+    "methodology_school": "unknown",
+    "key_lessons_ar": "إرث استشراقي فرنسي عميق، أرشيف ثري للمشروع 8 (المكتبة)",
+    "partnership_type": "none",
+    "partnership_priority": "long_term",
+    "risk_factors_ar": [],
+    "field_visit_recommended": false,
+    "annotator_note_ar": "مُسترجَع من السجلّ الثانوي في الجولة 10 — التَوصيف الكامل يَنتظر تَحقيقاً ميدانياً"
+  },
+  "WEST-065": {
+    "project_alignment": "methodology_reference",
+    "sheikh_project_mapping": [
+      {
+        "project_id": "p6",
+        "relevance": "partial_lesson"
+      }
+    ],
+    "methodology_school": "unknown",
+    "key_lessons_ar": "أبحاث آثار مكة والمدينة المبكرة، مادة للأطلس 3D",
+    "partnership_type": "methodology_consultation",
+    "partnership_priority": "long_term",
+    "risk_factors_ar": [],
+    "field_visit_recommended": false,
+    "annotator_note_ar": "مُسترجَع من السجلّ الثانوي في الجولة 10 — التَوصيف الكامل يَنتظر تَحقيقاً ميدانياً"
+  },
+  "WEST-045": {
+    "project_alignment": "methodology_reference",
+    "sheikh_project_mapping": [
+      {
+        "project_id": "p2",
+        "relevance": "partial_lesson"
+      }
+    ],
+    "methodology_school": "unknown",
+    "key_lessons_ar": "مشروع KITAB لتحليل النصوص الإسلامية حاسوبياً — جوهري للمشروع 2",
+    "partnership_type": "methodology_consultation",
+    "partnership_priority": "high",
+    "risk_factors_ar": [],
+    "field_visit_recommended": false,
+    "annotator_note_ar": "مُسترجَع من السجلّ الثانوي في الجولة 10 — التَوصيف الكامل يَنتظر تَحقيقاً ميدانياً"
+  },
+  "WEST-003": {
+    "project_alignment": "methodology_reference",
+    "sheikh_project_mapping": [
+      {
+        "project_id": "p9",
+        "relevance": "partial_lesson"
+      }
+    ],
+    "methodology_school": "unknown",
+    "key_lessons_ar": "بيت بحث الإسلام المبكر بأرفع مستوى أكاديمي",
+    "partnership_type": "none",
+    "partnership_priority": "long_term",
+    "risk_factors_ar": [],
+    "field_visit_recommended": false,
+    "annotator_note_ar": "مُسترجَع من السجلّ الثانوي في الجولة 10 — التَوصيف الكامل يَنتظر تَحقيقاً ميدانياً"
+  },
+  "WEST-088": {
+    "project_alignment": "methodology_reference",
+    "sheikh_project_mapping": [
+      {
+        "project_id": "p9",
+        "relevance": "partial_lesson"
+      }
+    ],
+    "methodology_school": "unknown",
+    "key_lessons_ar": "أعرق منهج استشراقي روسي، تقاليد القاسموف",
+    "partnership_type": "none",
+    "partnership_priority": "long_term",
+    "risk_factors_ar": [],
+    "field_visit_recommended": false,
+    "annotator_note_ar": "مُسترجَع من السجلّ الثانوي في الجولة 10 — التَوصيف الكامل يَنتظر تَحقيقاً ميدانياً"
+  },
+  "WEST-058": {
+    "project_alignment": "methodology_reference",
+    "sheikh_project_mapping": [
+      {
+        "project_id": "p2",
+        "relevance": "partial_lesson"
+      }
+    ],
+    "methodology_school": "unknown",
+    "key_lessons_ar": "أعرق كرسي لتاريخ المخطوطات القرآنية، صلة بالسيرة المبكرة",
+    "partnership_type": "methodology_consultation",
+    "partnership_priority": "long_term",
+    "risk_factors_ar": [],
+    "field_visit_recommended": false,
+    "annotator_note_ar": "مُسترجَع من السجلّ الثانوي في الجولة 10 — التَوصيف الكامل يَنتظر تَحقيقاً ميدانياً"
+  },
+  "NAM-167": {
+    "project_alignment": "partial",
+    "sheikh_project_mapping": [
+      {
+        "project_id": "p1",
+        "relevance": "complement"
+      }
+    ],
+    "methodology_school": "unknown",
+    "key_lessons_ar": "الراعي الفكري لمجتمع السيرة الإندونيسي (NAM-022)",
+    "partnership_type": "content_exchange",
+    "partnership_priority": "high",
+    "risk_factors_ar": [],
+    "field_visit_recommended": false,
+    "annotator_note_ar": "مُسترجَع من السجلّ الثانوي في الجولة 10 — التَوصيف الكامل يَنتظر تَحقيقاً ميدانياً"
+  },
+  "NAM-108": {
+    "project_alignment": "methodology_reference",
+    "sheikh_project_mapping": [
+      {
+        "project_id": "p12",
+        "relevance": "partial_lesson"
+      }
+    ],
+    "methodology_school": "unknown",
+    "key_lessons_ar": "أكبر مؤسسة شيعية أمميّة، يَنشر بعشرات اللغات (مرجع للقسم 12)",
+    "partnership_type": "none",
+    "partnership_priority": "long_term",
+    "risk_factors_ar": [],
+    "field_visit_recommended": false,
+    "annotator_note_ar": "مُسترجَع من السجلّ الثانوي في الجولة 10 — التَوصيف الكامل يَنتظر تَحقيقاً ميدانياً"
+  },
+  "NAM-071": {
+    "project_alignment": "partial",
+    "sheikh_project_mapping": [
+      {
+        "project_id": "p9",
+        "relevance": "complement"
+      }
+    ],
+    "methodology_school": "unknown",
+    "key_lessons_ar": "مركز بنجابي بإنتاج سيري ضمن الدراسات الإسلامية",
+    "partnership_type": "none",
+    "partnership_priority": "long_term",
+    "risk_factors_ar": [],
+    "field_visit_recommended": false,
+    "annotator_note_ar": "مُسترجَع من السجلّ الثانوي في الجولة 10 — التَوصيف الكامل يَنتظر تَحقيقاً ميدانياً"
+  },
+  "NAM-018": {
+    "project_alignment": "audience_reference",
+    "sheikh_project_mapping": [
+      {
+        "project_id": "audience",
+        "relevance": "partial_lesson"
+      }
+    ],
+    "methodology_school": "unknown",
+    "key_lessons_ar": "أكبر جامعة إسلامية إندونيسية بقسم سيرة",
+    "partnership_type": "none",
+    "partnership_priority": "long_term",
+    "risk_factors_ar": [],
+    "field_visit_recommended": false,
+    "annotator_note_ar": "مُسترجَع من السجلّ الثانوي في الجولة 10 — التَوصيف الكامل يَنتظر تَحقيقاً ميدانياً"
+  },
+  "NAM-017": {
+    "project_alignment": "audience_reference",
+    "sheikh_project_mapping": [
+      {
+        "project_id": "audience",
+        "relevance": "partial_lesson"
+      }
+    ],
+    "methodology_school": "unknown",
+    "key_lessons_ar": "الجامعة الإسلامية الأم بإندونيسيا",
+    "partnership_type": "none",
+    "partnership_priority": "long_term",
+    "risk_factors_ar": [],
+    "field_visit_recommended": false,
+    "annotator_note_ar": "مُسترجَع من السجلّ الثانوي في الجولة 10 — التَوصيف الكامل يَنتظر تَحقيقاً ميدانياً"
+  },
+  "NAM-019": {
+    "project_alignment": "partial",
+    "sheikh_project_mapping": [
+      {
+        "project_id": "p12",
+        "relevance": "complement"
+      }
+    ],
+    "methodology_school": "unknown",
+    "key_lessons_ar": "بوابة جنوب شرق آسيا الإسلامية الإنجليزية",
+    "partnership_type": "joint_publication",
+    "partnership_priority": "medium",
+    "risk_factors_ar": [],
+    "field_visit_recommended": false,
+    "annotator_note_ar": "مُسترجَع من السجلّ الثانوي في الجولة 10 — التَوصيف الكامل يَنتظر تَحقيقاً ميدانياً"
+  },
+  "NAM-020": {
+    "project_alignment": "methodology_reference",
+    "sheikh_project_mapping": [
+      {
+        "project_id": "p9",
+        "relevance": "partial_lesson"
+      }
+    ],
+    "methodology_school": "unknown",
+    "key_lessons_ar": "بيت الفكر الإسلامي الماليزي (ISTAC)",
+    "partnership_type": "methodology_consultation",
+    "partnership_priority": "medium",
+    "risk_factors_ar": [],
+    "field_visit_recommended": false,
+    "annotator_note_ar": "مُسترجَع من السجلّ الثانوي في الجولة 10 — التَوصيف الكامل يَنتظر تَحقيقاً ميدانياً"
+  },
+  "NAM-011": {
+    "project_alignment": "partial",
+    "sheikh_project_mapping": [
+      {
+        "project_id": "p2",
+        "relevance": "complement"
+      }
+    ],
+    "methodology_school": "unknown",
+    "key_lessons_ar": "أعرق مؤسسة ديوبندية هندية (1898م)",
+    "partnership_type": "joint_publication",
+    "partnership_priority": "medium",
+    "risk_factors_ar": [],
+    "field_visit_recommended": false,
+    "annotator_note_ar": "مُسترجَع من السجلّ الثانوي في الجولة 10 — التَوصيف الكامل يَنتظر تَحقيقاً ميدانياً"
+  },
+  "NAM-039": {
+    "project_alignment": "audience_reference",
+    "sheikh_project_mapping": [
+      {
+        "project_id": "p11",
+        "relevance": "partial_lesson"
+      }
+    ],
+    "methodology_school": "unknown",
+    "key_lessons_ar": "منظومة سيرة-تربية غرب إفريقية ضخمة بـ«العجمية الوولفية»",
+    "partnership_type": "methodology_consultation",
+    "partnership_priority": "medium",
+    "risk_factors_ar": [],
+    "field_visit_recommended": false,
+    "annotator_note_ar": "مُسترجَع من السجلّ الثانوي في الجولة 10 — التَوصيف الكامل يَنتظر تَحقيقاً ميدانياً"
+  },
+  "NAM-033": {
+    "project_alignment": "partial",
+    "sheikh_project_mapping": [
+      {
+        "project_id": "p1",
+        "relevance": "complement"
+      }
+    ],
+    "methodology_school": "unknown",
+    "key_lessons_ar": "مشروع أوزبكي بميزانية 200M$، إعادة توطين الإسلام الحنفي بعد السوفيتي",
+    "partnership_type": "complement",
+    "partnership_priority": "medium",
+    "risk_factors_ar": [],
+    "field_visit_recommended": false,
+    "annotator_note_ar": "مُسترجَع من السجلّ الثانوي في الجولة 10 — التَوصيف الكامل يَنتظر تَحقيقاً ميدانياً"
+  },
+  "NAM-048": {
+    "project_alignment": "methodology_reference",
+    "sheikh_project_mapping": [
+      {
+        "project_id": "p9",
+        "relevance": "partial_lesson"
+      }
+    ],
+    "methodology_school": "unknown",
+    "key_lessons_ar": "أم المنظومة الإيرانية للحديث والسيرة",
+    "partnership_type": "none",
+    "partnership_priority": "long_term",
+    "risk_factors_ar": [],
+    "field_visit_recommended": false,
+    "annotator_note_ar": "مُسترجَع من السجلّ الثانوي في الجولة 10 — التَوصيف الكامل يَنتظر تَحقيقاً ميدانياً"
+  },
+  "NAM-049": {
+    "project_alignment": "methodology_reference",
+    "sheikh_project_mapping": [
+      {
+        "project_id": "p9",
+        "relevance": "partial_lesson"
+      }
+    ],
+    "methodology_school": "unknown",
+    "key_lessons_ar": "الذراع البحثي للمؤسسة الدينية الإيرانية",
+    "partnership_type": "none",
+    "partnership_priority": "long_term",
+    "risk_factors_ar": [],
+    "field_visit_recommended": false,
+    "annotator_note_ar": "مُسترجَع من السجلّ الثانوي في الجولة 10 — التَوصيف الكامل يَنتظر تَحقيقاً ميدانياً"
+  },
+  "NAM-053": {
+    "project_alignment": "methodology_reference",
+    "sheikh_project_mapping": [
+      {
+        "project_id": "p12",
+        "relevance": "partial_lesson"
+      }
+    ],
+    "methodology_school": "unknown",
+    "key_lessons_ar": "170 مركزاً في 60 دولة، 40,000 طالب من 122 جنسية — نموذج أمميّة شيعي",
+    "partnership_type": "none",
+    "partnership_priority": "long_term",
+    "risk_factors_ar": [],
+    "field_visit_recommended": false,
+    "annotator_note_ar": "مُسترجَع من السجلّ الثانوي في الجولة 10 — التَوصيف الكامل يَنتظر تَحقيقاً ميدانياً"
+  },
+  "TUR-036": {
+    "project_alignment": "partial",
+    "sheikh_project_mapping": [
+      {
+        "project_id": "p4",
+        "relevance": "complement"
+      }
+    ],
+    "methodology_school": "unknown",
+    "key_lessons_ar": "392 مدخل بيوغرافي عن الأنبياء والصحابة — مرجع مكمّل للمشروع 4",
+    "partnership_type": "methodology_consultation",
+    "partnership_priority": "medium",
+    "risk_factors_ar": [],
+    "field_visit_recommended": false,
+    "annotator_note_ar": "مُسترجَع من السجلّ الثانوي في الجولة 10 — التَوصيف الكامل يَنتظر تَحقيقاً ميدانياً"
+  },
+  "MAG-003": {
+    "project_alignment": "partial",
+    "sheikh_project_mapping": [
+      {
+        "project_id": "p1",
+        "relevance": "complement"
+      }
+    ],
+    "methodology_school": "unknown",
+    "key_lessons_ar": "المظلّة الأم لمركز MAG-002، خادمة الإرث المغربي",
+    "partnership_type": "joint_publication",
+    "partnership_priority": "high",
+    "risk_factors_ar": [],
+    "field_visit_recommended": false,
+    "annotator_note_ar": "مُسترجَع من السجلّ الثانوي في الجولة 10 — التَوصيف الكامل يَنتظر تَحقيقاً ميدانياً"
+  },
+  "MAG-031": {
+    "project_alignment": "partial",
+    "sheikh_project_mapping": [
+      {
+        "project_id": "p7",
+        "relevance": "complement"
+      }
+    ],
+    "methodology_school": "unknown",
+    "key_lessons_ar": "أعرق مؤسسة تونسية للسيرة المقارنة (تَملأ فجوة في القاعدة)",
+    "partnership_type": "methodology_consultation",
+    "partnership_priority": "medium",
+    "risk_factors_ar": [],
+    "field_visit_recommended": false,
+    "annotator_note_ar": "مُسترجَع من السجلّ الثانوي في الجولة 10 — التَوصيف الكامل يَنتظر تَحقيقاً ميدانياً"
+  },
+  "MAG-050": {
+    "project_alignment": "audience_reference",
+    "sheikh_project_mapping": [
+      {
+        "project_id": "p1",
+        "relevance": "partial_lesson"
+      }
+    ],
+    "methodology_school": "unknown",
+    "key_lessons_ar": "موسوعة موريتانية على نموذج ويكيبيديا",
+    "partnership_type": "methodology_consultation",
+    "partnership_priority": "long_term",
+    "risk_factors_ar": [],
+    "field_visit_recommended": false,
+    "annotator_note_ar": "مُسترجَع من السجلّ الثانوي في الجولة 10 — التَوصيف الكامل يَنتظر تَحقيقاً ميدانياً"
   }
 }

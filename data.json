@@ -69,6 +69,16 @@
           "target": "ARB-012",
           "type": "partner",
           "note_ar": "تعاون في الموسوعة الميسرة للتعريف بنبي الرحمة"
+        },
+        {
+          "target": "ARB-002",
+          "type": "influenced_by",
+          "note_ar": "كرسي الراشد يَستلهم نموذج الدريس"
+        },
+        {
+          "target": "NAM-003",
+          "type": "influenced_by",
+          "note_ar": "كراسي HEC الباكستانية تَستلهم النموذج السعودي"
         }
       ],
       "description_ar": "كرسي علمي بجامعة الملك سعود، أصدر «الموسوعة الميسرة في التعريف بنبي الرحمة» وأطلق برنامج «داعم» لتمويل أبحاث الدراسات العليا، وأعدّ فهرساً للبحوث المتعلقة بالسيرة.",
@@ -97,7 +107,8 @@
       },
       "target_audience": [
         "specialist"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "ARB-002",
@@ -148,7 +159,8 @@
       },
       "target_audience": [
         "specialist"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "ARB-003",
@@ -185,7 +197,8 @@
         "classical_corpus",
         "geography_space"
       ],
-      "url": "https://www.taibahu.edu.sa/en/college-of-arts-and-humanities-in-al-madinah-al-munawwarah"
+      "url": "https://www.taibahu.edu.sa/en/college-of-arts-and-humanities-in-al-madinah-al-munawwarah",
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "ARB-004",
@@ -228,7 +241,8 @@
         "auxiliary_sciences",
         "classical_corpus",
         "geography_space"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "ARB-007",
@@ -277,6 +291,11 @@
           "target": "ARB-012",
           "type": "partner",
           "note_ar": "كلاهما من أنشطة رابطة العالم الإسلامي"
+        },
+        {
+          "target": "MAG-018",
+          "type": "parent_of",
+          "note_ar": "فرع المعرض في الرباط"
         }
       ],
       "description_ar": "متحف ومعرض دائم تفاعلي بإشراف رابطة العالم الإسلامي وتشغيل شركة معارض السلام الدولية. المقر الرئيس بجوار المسجد النبوي (تدشين 2021)، وفرع مكة بأبراج الساعة (2024)، وفروع في الرباط ودكار ونواكشوط. أكثر من 30 جناحاً معرفياً و200 عرض تفاعلي. بلغ فرع الرباط 10 ملايين زائر بحلول أبريل 2026.",
@@ -307,7 +326,8 @@
         "youth",
         "child",
         "non_muslim"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "ARB-008",
@@ -377,7 +397,8 @@
       "target_audience": [
         "specialist",
         "intellectual"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "ARB-009",
@@ -420,7 +441,8 @@
       "subjects_category": [
         "auxiliary_sciences",
         "geography_space"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "ARB-010",
@@ -449,6 +471,21 @@
           "target": "ARB-008",
           "type": "partner",
           "note_ar": "سلسلة إصدارات مشتركة (المجلد الثالث صدر 1435هـ)"
+        },
+        {
+          "target": "ARB-090",
+          "type": "partner",
+          "note_ar": "تَكامل مع كرسي تاريخ مكة (شريك جغرافي)"
+        },
+        {
+          "target": "ARB-009",
+          "type": "partner",
+          "note_ar": "مركز بحوث المدينة منصة دعم"
+        },
+        {
+          "target": "ARB-100",
+          "type": "partner",
+          "note_ar": "مجلة بحوث المدينة منصة نشر مشتركة"
         }
       ],
       "description_ar": "كرسي علمي جامعي بالشراكة مع دارة الملك عبدالعزيز.",
@@ -474,7 +511,8 @@
       },
       "target_audience": [
         "specialist"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "ARB-012",
@@ -521,6 +559,16 @@
         {
           "target": "ARB-039",
           "type": "parent_of"
+        },
+        {
+          "target": "ARB-040",
+          "type": "parent_of",
+          "note_ar": "بوابة السيرة من إنتاج الهيئة"
+        },
+        {
+          "target": "ARB-041",
+          "type": "parent_of",
+          "note_ar": "تطبيق Al Sirah من إنتاج الهيئة"
         }
       ],
       "description_ar": "هيئة منبثقة عن رابطة العالم الإسلامي، تعمل بلغات متعددة. أصدرت «الرسول الأعظم في مرآة الغرب»، وأنتجت مقاطع سينمائية قصيرة، وأرسلت أكثر من 20 مليون رسالة SMS بالشمائل.",
@@ -550,7 +598,8 @@
         "general",
         "non_muslim",
         "convert"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "ARB-018",
@@ -590,7 +639,8 @@
       "subjects_category": [
         "application_outreach",
         "classical_corpus"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "ARB-019",
@@ -628,7 +678,8 @@
       "inclusion_tier": "borderline",
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "ARB-021",
@@ -663,7 +714,8 @@
       "inclusion_tier": "below_threshold",
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "ARB-033",
@@ -702,7 +754,8 @@
       "inclusion_tier": "core",
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "ARB-039",
@@ -762,7 +815,8 @@
       "target_audience": [
         "general",
         "non_muslim"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "ARB-040",
@@ -810,7 +864,8 @@
       "target_audience": [
         "general",
         "intellectual"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "ARB-041",
@@ -861,7 +916,8 @@
       },
       "target_audience": [
         "general"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "ARB-042",
@@ -897,7 +953,8 @@
       "subjects_category": [
         "classical_corpus"
       ],
-      "founded": 1984
+      "founded": 1984,
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "ARB-047",
@@ -937,7 +994,8 @@
         "classical_corpus",
         "geography_space"
       ],
-      "founded": 2011
+      "founded": 2011,
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "ARB-052",
@@ -982,7 +1040,8 @@
       },
       "target_audience": [
         "specialist"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "LEV-002",
@@ -1024,7 +1083,8 @@
       "inclusion_tier": "core",
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "LEV-007",
@@ -1060,7 +1120,8 @@
       "subjects_category": [
         "classical_corpus"
       ],
-      "founded": 1835
+      "founded": 1835,
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "LEV-008",
@@ -1111,7 +1172,8 @@
         "classical_corpus",
         "methodology_critique"
       ],
-      "founded": 2008
+      "founded": 2008,
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "LEV-011",
@@ -1175,6 +1237,19 @@
       "target_audience": [
         "specialist",
         "policy_maker"
+      ],
+      "project_alignment": "directly_aligned",
+      "explicit_relations": [
+        {
+          "target": "LEV-016",
+          "type": "parent_of",
+          "note_ar": "مشروع الجدول التاريخي للسيرة"
+        },
+        {
+          "target": "LEV-035",
+          "type": "parent_of",
+          "note_ar": "بوابة السيرة النبوية - الأمير غازي"
+        }
       ]
     },
     {
@@ -1234,7 +1309,8 @@
       },
       "target_audience": [
         "specialist"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "LEV-017",
@@ -1280,7 +1356,8 @@
         "auxiliary_sciences",
         "classical_corpus",
         "methodology_critique"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "LEV-018",
@@ -1324,7 +1401,8 @@
         "geography_space",
         "methodology_critique"
       ],
-      "founded": 2012
+      "founded": 2012,
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "LEV-020",
@@ -1363,7 +1441,8 @@
         "methodology_critique"
       ],
       "url": "https://darelfikr.net/pages/about-us",
-      "founded": 1957
+      "founded": 1957,
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "LEV-021",
@@ -1407,7 +1486,8 @@
       "subjects_category": [
         "classical_corpus",
         "methodology_critique"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "LEV-022",
@@ -1457,7 +1537,8 @@
         "auxiliary_sciences",
         "classical_corpus",
         "methodology_critique"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "LEV-023",
@@ -1502,7 +1583,8 @@
       "subjects_category": [
         "auxiliary_sciences",
         "classical_corpus"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "LEV-030",
@@ -1563,6 +1645,26 @@
         {
           "target": "LEV-034",
           "type": "publisher_of"
+        },
+        {
+          "target": "LEV-031",
+          "type": "parent_of",
+          "note_ar": "مجلة نبينا"
+        },
+        {
+          "target": "LEV-032",
+          "type": "parent_of",
+          "note_ar": "مسابقة المَكِين"
+        },
+        {
+          "target": "LEV-033",
+          "type": "parent_of",
+          "note_ar": "مسابقة البُرْدَة"
+        },
+        {
+          "target": "LEV-034",
+          "type": "parent_of",
+          "note_ar": "مسابقة أفضل عشر رسائل جامعية"
         }
       ],
       "description_ar": "أهم كيان مستقل متخصص في السيرة بالإقليم بعد 2016. 4 مؤتمرات دولية موثقة (الأول 2018، الثالث 2023 «السيرة النبوية في كتب التفسير» بـ59 بحثاً من 10 دول، الرابع 2025 «السيرة النبوية المباركة بين الثوابت القرآنية ومتغيرات المناهج العلمية»). سلسلة كتب «السيرة» بـ15 إصداراً، 4 مسابقات دورية، 5 أقسام بـ14 منتسباً.",
@@ -1594,7 +1696,8 @@
         "specialist",
         "intellectual",
         "general"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "LEV-031",
@@ -1659,7 +1762,8 @@
       },
       "target_audience": [
         "specialist"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "LEV-032",
@@ -1711,7 +1815,8 @@
       },
       "target_audience": [
         "specialist"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "LEV-033",
@@ -1752,7 +1857,8 @@
       "inclusion_tier": "core",
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "LEV-034",
@@ -1792,7 +1898,8 @@
       "subjects_category": [
         "classical_corpus",
         "methodology_critique"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "MAG-001",
@@ -1843,7 +1950,8 @@
         "application_outreach",
         "auxiliary_sciences",
         "classical_corpus"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "MAG-002",
@@ -1900,6 +2008,24 @@
       "target_audience": [
         "specialist",
         "intellectual"
+      ],
+      "project_alignment": "directly_aligned",
+      "explicit_relations": [
+        {
+          "target": "MAG-003",
+          "type": "child_of",
+          "note_ar": "تابع للرابطة المحمدية للعلماء"
+        },
+        {
+          "target": "MAG-001",
+          "type": "partner",
+          "note_ar": "مركز ابن القطان تَكامل تَراثي"
+        },
+        {
+          "target": "MAG-015",
+          "type": "partner",
+          "note_ar": "مركز تَحقيق المخطوط المغربي شريك تَراثي"
+        }
       ]
     },
     {
@@ -1963,7 +2089,8 @@
       "target_audience": [
         "general",
         "intellectual"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "MAG-012",
@@ -2001,7 +2128,8 @@
       "url": "https://www.mobdii.com",
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "MAG-013",
@@ -2038,7 +2166,8 @@
       ],
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "MAG-014",
@@ -2082,7 +2211,8 @@
       "subjects_category": [
         "auxiliary_sciences",
         "classical_corpus"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "MAG-015",
@@ -2125,7 +2255,8 @@
       "subjects_category": [
         "auxiliary_sciences",
         "classical_corpus"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "MAG-016",
@@ -2170,7 +2301,8 @@
       "subjects_category": [
         "classical_corpus",
         "methodology_critique"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "MAG-018",
@@ -2219,7 +2351,8 @@
       "subjects_category": [
         "classical_corpus",
         "geography_space"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "MAG-019",
@@ -2258,7 +2391,8 @@
       "subjects_category": [
         "application_outreach",
         "classical_corpus"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "MAG-042",
@@ -2302,7 +2436,8 @@
       ],
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "MAG-043",
@@ -2346,7 +2481,8 @@
       ],
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "MAG-046",
@@ -2393,7 +2529,8 @@
       "target_audience": [
         "specialist",
         "general"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "MAG-048",
@@ -2431,7 +2568,8 @@
       "subjects_category": [
         "application_outreach",
         "classical_corpus"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "MAG-049",
@@ -2462,7 +2600,8 @@
       "subjects_category": [
         "classical_corpus"
       ],
-      "description_ar": "ملتقى علمي دوري يُقام في مدينة روصو الموريتانية، يجمع علماء وباحثين في السيرة النبوية، ويُنظّم محاضرات ودروساً في فقه السيرة، ويُعدّ من الفعاليات السنوية البارزة في جنوب موريتانيا."
+      "description_ar": "ملتقى علمي دوري يُقام في مدينة روصو الموريتانية، يجمع علماء وباحثين في السيرة النبوية، ويُنظّم محاضرات ودروساً في فقه السيرة، ويُعدّ من الفعاليات السنوية البارزة في جنوب موريتانيا.",
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "TUR-001",
@@ -2542,6 +2681,36 @@
         {
           "target": "TUR-044",
           "type": "parent_of"
+        },
+        {
+          "target": "TUR-045",
+          "type": "partner",
+          "note_ar": "محمد أمين يلديز المؤسّس والمدير العام"
+        },
+        {
+          "target": "TUR-048",
+          "type": "partner",
+          "note_ar": "محمد أبايدن من رموز المعهد"
+        },
+        {
+          "target": "TUR-051",
+          "type": "cited_by",
+          "note_ar": "كاسم شولول كان مرجعاً منهجياً قبل وفاته 2023"
+        },
+        {
+          "target": "TUR-072",
+          "type": "influenced_by",
+          "note_ar": "وقف سيرة النبي نموذج مُحاكاتي صغير"
+        },
+        {
+          "target": "TUR-073",
+          "type": "influenced_by",
+          "note_ar": "جمعية سيرة النبي كيان مُلهَم تركي"
+        },
+        {
+          "target": "TUR-076",
+          "type": "partner",
+          "note_ar": "الندوة الدولية للسيرة - رابطة عاشقي النبي تَعاون مستمرّ"
         }
       ],
       "description_ar": "محور المنظومة السيرية في تركيا والعالم الإسلامي اليوم. تأسس أكتوبر 2010 بقيادة محمد أمين يلدريم في إيوب سلطان بإسطنبول. يضم تحت مظلته معهداً دولياً، قناة سِيَر تي في، دار سِيَر للنشر، مجلتين، جائزة، مؤتمر دولي، متحف ديوراما (افتُتح 17 أبريل 2026). من إنتاجه: «أجواء الصحابة: 82 محافظة، 82 صحابياً» في 4 مجلدات، «السيرة للجميع»، مشروع «مدرسة السيرة» المستمر منذ 2014 (15 سنة دراسية)، «سيرة الأنبياء» (100 درس عن الأنبياء، 2021-2025).",
@@ -2573,7 +2742,8 @@
         "general",
         "youth",
         "educator"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "TUR-002",
@@ -2610,6 +2780,11 @@
         {
           "target": "TUR-039",
           "type": "publisher_of"
+        },
+        {
+          "target": "TUR-020",
+          "type": "publisher_of",
+          "note_ar": "مجلة السيرة الأكاديمية تَصدر عن المعهد"
         }
       ],
       "description_ar": "معهد بحثي مظلّة لـ10 مجموعات عمل في علم السيرة. ينسّق الأبحاث السيرية بمنظور دولي وينظّم ندوة السيرة الدولية.",
@@ -2638,7 +2813,8 @@
       "target_audience": [
         "specialist",
         "intellectual"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "TUR-004",
@@ -2712,7 +2888,8 @@
         "auxiliary_sciences",
         "classical_corpus",
         "methodology_critique"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "TUR-005",
@@ -2761,7 +2938,8 @@
       "subjects_category": [
         "application_outreach",
         "classical_corpus"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "TUR-006",
@@ -2814,7 +2992,8 @@
         "classical_corpus",
         "methodology_critique"
       ],
-      "founded": 1982
+      "founded": 1982,
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "TUR-007",
@@ -2860,7 +3039,8 @@
         "classical_corpus",
         "methodology_critique"
       ],
-      "founded": 1453
+      "founded": 1453,
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "TUR-008",
@@ -2908,7 +3088,8 @@
         "classical_corpus",
         "methodology_critique"
       ],
-      "founded": 1946
+      "founded": 1946,
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "TUR-009",
@@ -2951,7 +3132,8 @@
         "classical_corpus",
         "methodology_critique"
       ],
-      "founded": 2010
+      "founded": 2010,
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "TUR-010",
@@ -2992,7 +3174,8 @@
       "url": "https://dergipark.org.tr/tr/pub/istem",
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "TUR-011",
@@ -3035,7 +3218,8 @@
         "prophetic_demography"
       ],
       "url": "https://en.wikipedia.org/wiki/Sakarya_University",
-      "founded": 1992
+      "founded": 1992,
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "TUR-012",
@@ -3072,7 +3256,8 @@
         "classical_corpus"
       ],
       "description_ar": "قسم أكاديمي ضمن كلية الإلهيات بجامعة أتاتورك في مدينة أرضروم التركية، متخصّص في تدريس السيرة النبوية والتاريخ الإسلامي، ويُعدّ من الأقسام الراسخة في شرق تركيا لإعداد الباحثين في علوم السيرة.",
-      "founded": 1957
+      "founded": 1957,
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "TUR-013",
@@ -3109,7 +3294,8 @@
         "classical_corpus"
       ],
       "description_ar": "قسم أكاديمي ضمن كلية الإلهيات بجامعة دملوبينار التركية في كوتاهيا، يُدرّس السيرة النبوية والتاريخ الإسلامي، ويُصدر بحوثاً ورسائل علمية تُسهم في الحركة الأكاديمية التركية لخدمة السيرة.",
-      "founded": 1992
+      "founded": 1992,
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "TUR-014",
@@ -3146,7 +3332,8 @@
         "classical_corpus"
       ],
       "description_ar": "قسم أكاديمي ضمن كلية العلوم الإسلامية بجامعة يلديريم بايزيد في أنقرة، متخصّص في تدريس السيرة النبوية والتاريخ الإسلامي، ويُعدّ من المراكز البارزة في تركيا لإعداد الباحثين في تاريخ النبي صلى الله عليه وسلم.",
-      "founded": 2010
+      "founded": 2010,
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "TUR-015",
@@ -3180,7 +3367,8 @@
         "classical_corpus"
       ],
       "description_ar": "قسم أكاديمي ضمن كلية الإلهيات بجامعة عثمان غازي في إسكي شهير التركية، يُدرّس السيرة النبوية والتاريخ والفنون الإسلامية، ويُسهم في إعداد الباحثين الأتراك في الدراسات السيرية والحضارية.",
-      "founded": 1993
+      "founded": 1993,
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "TUR-016",
@@ -3214,7 +3402,8 @@
         "classical_corpus"
       ],
       "description_ar": "قسم أكاديمي ضمن كلية العلوم الإسلامية بجامعة إسطنبول المدنية، يُدرّس السيرة النبوية والتاريخ الإسلامي والفنون الإسلامية، ويُصدر بحوثاً علمية، ويُعد من الأقسام الناشطة في إسطنبول لخدمة الدراسات السيرية.",
-      "founded": 2010
+      "founded": 2010,
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "TUR-017",
@@ -3258,7 +3447,8 @@
         "methodology_critique"
       ],
       "url": "https://en.wikipedia.org/wiki/Harran_University",
-      "founded": 1992
+      "founded": 1992,
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "TUR-018",
@@ -3307,7 +3497,8 @@
       "subjects_category": [
         "classical_corpus",
         "methodology_critique"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "TUR-020",
@@ -3358,7 +3549,8 @@
         "auxiliary_sciences",
         "classical_corpus",
         "methodology_critique"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "TUR-021",
@@ -3405,7 +3597,8 @@
       "url": "https://www.siyerdergisi.com/",
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "TUR-023",
@@ -3454,7 +3647,8 @@
         "application_outreach",
         "classical_corpus",
         "methodology_critique"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "TUR-024",
@@ -3501,7 +3695,8 @@
         "auxiliary_sciences",
         "classical_corpus",
         "methodology_critique"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "TUR-025",
@@ -3543,7 +3738,8 @@
         "application_outreach",
         "classical_corpus"
       ],
-      "founded": 1980
+      "founded": 1980,
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "TUR-026",
@@ -3586,7 +3782,8 @@
       "subjects_category": [
         "classical_corpus",
         "methodology_critique"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "TUR-029",
@@ -3622,7 +3819,8 @@
         "classical_corpus",
         "methodology_critique"
       ],
-      "name_ar_original": "دار Endülüs Yayınları"
+      "name_ar_original": "دار Endülüs Yayınları",
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "TUR-030",
@@ -3658,7 +3856,8 @@
         "classical_corpus",
         "methodology_critique"
       ],
-      "name_ar_original": "دار Ensar Neşriyat"
+      "name_ar_original": "دار Ensar Neşriyat",
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "TUR-031",
@@ -3726,7 +3925,8 @@
         "general",
         "youth",
         "child"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "TUR-032",
@@ -3770,7 +3970,8 @@
       "subjects_category": [
         "classical_corpus",
         "prophetic_demography"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "TUR-033",
@@ -3812,7 +4013,8 @@
       ],
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "TUR-034",
@@ -3873,7 +4075,8 @@
         "general",
         "intellectual",
         "youth"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "TUR-035",
@@ -3937,7 +4140,8 @@
       "target_audience": [
         "general",
         "intellectual"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "TUR-038",
@@ -3975,7 +4179,8 @@
       "subjects_category": [
         "classical_corpus"
       ],
-      "name_ar_original": "منصة siyerinebi.com"
+      "name_ar_original": "منصة siyerinebi.com",
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "TUR-039",
@@ -4035,7 +4240,8 @@
       },
       "target_audience": [
         "specialist"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "TUR-042",
@@ -4080,7 +4286,8 @@
       ],
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "TUR-043",
@@ -4123,7 +4330,8 @@
       "subjects_category": [
         "application_outreach",
         "classical_corpus"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "TUR-044",
@@ -4168,7 +4376,8 @@
       ],
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "TUR-045",
@@ -4229,7 +4438,8 @@
         "general",
         "intellectual",
         "specialist"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "TUR-046",
@@ -4277,7 +4487,8 @@
         "methodology_critique",
         "prophetic_demography"
       ],
-      "url": "https://avesis.istanbul.edu.tr/adnan.demircan"
+      "url": "https://avesis.istanbul.edu.tr/adnan.demircan",
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "TUR-047",
@@ -4316,7 +4527,8 @@
       "subjects_category": [
         "auxiliary_sciences",
         "classical_corpus"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "TUR-048",
@@ -4355,7 +4567,8 @@
         "auxiliary_sciences",
         "classical_corpus",
         "methodology_critique"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "TUR-050",
@@ -4399,7 +4612,8 @@
       "subjects_category": [
         "classical_corpus",
         "methodology_critique"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "TUR-051",
@@ -4450,7 +4664,8 @@
       },
       "target_audience": [
         "specialist"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "TUR-052",
@@ -4487,7 +4702,8 @@
       "subjects_category": [
         "classical_corpus",
         "methodology_critique"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "TUR-053",
@@ -4524,7 +4740,8 @@
       "subjects_category": [
         "classical_corpus",
         "methodology_critique"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "TUR-054",
@@ -4561,7 +4778,8 @@
       "subjects_category": [
         "classical_corpus",
         "methodology_critique"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "TUR-055",
@@ -4596,7 +4814,8 @@
       ],
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "TUR-056",
@@ -4637,7 +4856,8 @@
       ],
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "TUR-060",
@@ -4679,7 +4899,8 @@
       "subjects_category": [
         "classical_corpus"
       ],
-      "description_ar": "نادٍ طلابي بحثي تابع لكلية الإلهيات بجامعة إسطنبول، يُعنى بدراسات السيرة النبوية، ويُنظّم حلقات قراءة وندوات ومحاضرات للطلاب الجامعيين، ويُسهم في نشر ثقافة البحث في السيرة بين الشباب الأكاديمي التركي."
+      "description_ar": "نادٍ طلابي بحثي تابع لكلية الإلهيات بجامعة إسطنبول، يُعنى بدراسات السيرة النبوية، ويُنظّم حلقات قراءة وندوات ومحاضرات للطلاب الجامعيين، ويُسهم في نشر ثقافة البحث في السيرة بين الشباب الأكاديمي التركي.",
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "TUR-061",
@@ -4722,7 +4943,8 @@
       "subjects_category": [
         "classical_corpus"
       ],
-      "description_ar": "نادٍ طلابي بجامعة مرمرة في إسطنبول، يُعنى بدراسة السيرة النبوية ونشرها بين طلاب الجامعة، ويُنظّم برامج وندوات وحلقات قراءة، ويُعدّ من أنشط النوادي السيرية الجامعية في تركيا."
+      "description_ar": "نادٍ طلابي بجامعة مرمرة في إسطنبول، يُعنى بدراسة السيرة النبوية ونشرها بين طلاب الجامعة، ويُنظّم برامج وندوات وحلقات قراءة، ويُعدّ من أنشط النوادي السيرية الجامعية في تركيا.",
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "NAM-001",
@@ -4777,6 +4999,14 @@
         "specialist",
         "intellectual",
         "policy_maker"
+      ],
+      "project_alignment": "directly_aligned",
+      "explicit_relations": [
+        {
+          "target": "NAM-003",
+          "type": "partner",
+          "note_ar": "تَكامل مع شبكة كراسي HEC"
+        }
       ]
     },
     {
@@ -4817,7 +5047,8 @@
       "subjects_category": [
         "classical_corpus"
       ],
-      "founded": 1951
+      "founded": 1951,
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "NAM-003",
@@ -4874,6 +5105,29 @@
       "target_audience": [
         "specialist",
         "intellectual"
+      ],
+      "project_alignment": "directly_aligned",
+      "explicit_relations": [
+        {
+          "target": "NAM-001",
+          "type": "partner",
+          "note_ar": "المؤتمر السنوي منصّة مكمّلة"
+        },
+        {
+          "target": "NAM-236",
+          "type": "parent_of",
+          "note_ar": "كرسي البنجاب للنساء جزء من الشبكة"
+        },
+        {
+          "target": "NAM-237",
+          "type": "parent_of",
+          "note_ar": "كرسي حقوق الإنسان جزء من الشبكة"
+        },
+        {
+          "target": "NAM-238",
+          "type": "parent_of",
+          "note_ar": "كرسي السلام جزء من الشبكة"
+        }
       ]
     },
     {
@@ -4916,7 +5170,8 @@
       "subjects_category": [
         "application_outreach",
         "classical_corpus"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "NAM-005",
@@ -4956,7 +5211,8 @@
       "subjects_category": [
         "classical_corpus"
       ],
-      "founded": 1922
+      "founded": 1922,
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "NAM-013",
@@ -4997,7 +5253,8 @@
       "subjects_category": [
         "application_outreach",
         "classical_corpus"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "NAM-014",
@@ -5052,7 +5309,8 @@
       "target_audience": [
         "specialist",
         "general"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "NAM-016",
@@ -5087,7 +5345,8 @@
       "subjects_category": [
         "classical_corpus"
       ],
-      "name_ar_original": "Maktaba tul Madinah – باكستان"
+      "name_ar_original": "Maktaba tul Madinah – باكستان",
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "NAM-022",
@@ -5142,6 +5401,14 @@
       "target_audience": [
         "general",
         "youth"
+      ],
+      "project_alignment": "directly_aligned",
+      "explicit_relations": [
+        {
+          "target": "NAM-167",
+          "type": "child_of",
+          "note_ar": "تابع لمعهد INSISTS (مُسترجَع)"
+        }
       ]
     },
     {
@@ -5189,7 +5456,8 @@
       },
       "target_audience": [
         "general"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "NAM-036",
@@ -5312,7 +5580,8 @@
       },
       "target_audience": [
         "specialist"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "NAM-051",
@@ -5372,7 +5641,8 @@
       },
       "target_audience": [
         "specialist"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "NAM-054",
@@ -5427,6 +5697,14 @@
       "target_audience": [
         "specialist",
         "intellectual"
+      ],
+      "project_alignment": "directly_aligned",
+      "explicit_relations": [
+        {
+          "target": "NAM-094",
+          "type": "partner",
+          "note_ar": "دعم فيلم مجيدي «محمد رسول الله»"
+        }
       ]
     },
     {
@@ -5472,7 +5750,8 @@
       "subjects_category": [
         "auxiliary_sciences",
         "classical_corpus"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "NAM-058",
@@ -5514,7 +5793,8 @@
       "subjects_category": [
         "classical_corpus",
         "methodology_critique"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "NAM-059",
@@ -5548,7 +5828,8 @@
       ],
       "subjects_category": [
         "classical_corpus"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "WEST-001",
@@ -5591,7 +5872,8 @@
         "auxiliary_sciences",
         "classical_corpus",
         "prophetic_demography"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "WEST-005",
@@ -5636,7 +5918,8 @@
         "prophetic_demography"
       ],
       "url": "https://mes.uchicago.edu/",
-      "founded": 1892
+      "founded": 1892,
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "WEST-009",
@@ -5678,7 +5961,8 @@
         "auxiliary_sciences",
         "classical_corpus",
         "prophetic_demography"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "WEST-021",
@@ -5732,7 +6016,8 @@
         "classical_corpus",
         "methodology_critique"
       ],
-      "name_ar_original": "مشروع QuCIP — ERC Consolidator Grant"
+      "name_ar_original": "مشروع QuCIP — ERC Consolidator Grant",
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "WEST-025",
@@ -5775,7 +6060,8 @@
         "classical_corpus"
       ],
       "url": "https://llc.ed.ac.uk/islamic-middle-eastern",
-      "founded": 1980
+      "founded": 1980,
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "WEST-029",
@@ -5819,7 +6105,8 @@
         "prophetic_demography"
       ],
       "url": "https://www.york.ac.uk/history/",
-      "founded": 1963
+      "founded": 1963,
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "WEST-038",
@@ -5863,7 +6150,8 @@
         "methodology_critique"
       ],
       "url": "https://www.dirs.phil.fau.eu/",
-      "founded": 1743
+      "founded": 1743,
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "WEST-041",
@@ -5925,6 +6213,14 @@
       },
       "target_audience": [
         "specialist"
+      ],
+      "project_alignment": "directly_aligned",
+      "explicit_relations": [
+        {
+          "target": "WEST-083",
+          "type": "cites",
+          "note_ar": "يَستشهد بأعمال Lindstedt في الإسلام المبكر"
+        }
       ]
     },
     {
@@ -5981,7 +6277,8 @@
       },
       "target_audience": [
         "specialist"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "WEST-109",
@@ -6020,7 +6317,8 @@
       ],
       "name_ar_original": "Arabica – مجلة بريل",
       "url": "https://brill.com/view/journals/arab/arab-overview.xml",
-      "founded": 1954
+      "founded": 1954,
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "NAM-064",
@@ -6068,7 +6366,8 @@
           "round_file": "round-08a-south-asia.md",
           "anchor": "NAM-064 — IIUI Department of Seerah"
         }
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "NAM-066",
@@ -6118,7 +6417,8 @@
           "round_file": "round-08a-south-asia.md",
           "anchor": "NAM-066 — IUB Seerat Chair"
         }
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "NAM-067",
@@ -6173,7 +6473,8 @@
           "round_file": "round-08a-south-asia.md",
           "anchor": "NAM-067 — Anwar al-Sirah"
         }
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "NAM-068",
@@ -6218,7 +6519,8 @@
           "round_file": "round-08a-south-asia.md",
           "anchor": "NAM-068 — Sargodha PhD Seerat"
         }
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "NAM-069",
@@ -6263,7 +6565,8 @@
           "round_file": "round-08a-south-asia.md",
           "anchor": "NAM-069 — AIOU Seerat Studies"
         }
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "NAM-076",
@@ -6307,7 +6610,8 @@
           "round_file": "round-08a-south-asia.md",
           "anchor": "NAM-076 — Seerat Conference MORA"
         }
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "NAM-084",
@@ -6359,7 +6663,8 @@
           "round_file": "round-08a-south-asia.md",
           "anchor": "NAM-084 — Shibli Academy"
         }
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "NAM-094",
@@ -6418,6 +6723,19 @@
       },
       "target_audience": [
         "general"
+      ],
+      "project_alignment": "directly_aligned",
+      "explicit_relations": [
+        {
+          "target": "NAM-095",
+          "type": "parent_of",
+          "note_ar": "شركة نور طبأن المُنتجة"
+        },
+        {
+          "target": "GLB-001",
+          "type": "successor_of",
+          "note_ar": "يَتبع تَقليد فيلم الرسالة"
+        }
       ]
     },
     {
@@ -6478,6 +6796,19 @@
       "target_audience": [
         "general",
         "non_muslim"
+      ],
+      "project_alignment": "directly_aligned",
+      "explicit_relations": [
+        {
+          "target": "GLB-002",
+          "type": "parent_of",
+          "note_ar": "العقاد الدولية للإنتاج (الشركة المُنتجة)"
+        },
+        {
+          "target": "NAM-094",
+          "type": "predecessor_of",
+          "note_ar": "سبَق فيلم مجيدي بـ40 سنة"
+        }
       ]
     },
     {
@@ -6522,7 +6853,8 @@
           "round_file": "round-08c-media-digital.md",
           "anchor": "NAM-095 — Noor Taban"
         }
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "GLB-002",
@@ -6571,7 +6903,8 @@
           "round_file": "round-08c-media-digital.md",
           "anchor": "GLB-002 — Akkad"
         }
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "GLB-004",
@@ -6614,7 +6947,8 @@
           "round_file": "round-08c-media-digital.md",
           "anchor": "GLB-004 — Sealed Nectar App"
         }
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "GLB-007",
@@ -6664,7 +6998,8 @@
           "anchor": "GLB-007 — Yasir Qadhi"
         }
       ],
-      "url": "https://www.yasirqadhi.com/"
+      "url": "https://www.yasirqadhi.com/",
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "ARB-069",
@@ -6710,7 +7045,8 @@
           "round_file": "round-08b-mosque-museum-african.md",
           "anchor": "ARB-069 — Taibah Seerah"
         }
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "ARB-070",
@@ -6774,7 +7110,8 @@
       },
       "target_audience": [
         "specialist"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "MAG-051",
@@ -6810,7 +7147,8 @@
       ],
       "output_types": [],
       "funding_type": "religious_authority",
-      "round": "08e"
+      "round": "08e",
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "NAM-114",
@@ -6847,7 +7185,8 @@
       ],
       "output_types": [],
       "funding_type": "religious_authority",
-      "round": "08e"
+      "round": "08e",
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "NAM-115",
@@ -6883,7 +7222,8 @@
       ],
       "output_types": [],
       "funding_type": "religious_authority",
-      "round": "08e"
+      "round": "08e",
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "NAM-116",
@@ -6919,7 +7259,8 @@
       ],
       "output_types": [],
       "funding_type": "academic_host",
-      "round": "08e"
+      "round": "08e",
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "NAM-117",
@@ -6956,7 +7297,8 @@
       "output_types": [],
       "funding_type": "academic_host",
       "round": "08e",
-      "notes_ar": "[2026-05-15 تَدقيق الجولة 10] الرابط الأصلي (مقال) أصبح 404؛ استُبدل بالموقع الأم لوكالة الأنباء السنغالية"
+      "notes_ar": "[2026-05-15 تَدقيق الجولة 10] الرابط الأصلي (مقال) أصبح 404؛ استُبدل بالموقع الأم لوكالة الأنباء السنغالية",
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "NAM-121",
@@ -6993,7 +7335,8 @@
       ],
       "output_types": [],
       "funding_type": "academic_host",
-      "round": "08e"
+      "round": "08e",
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "NAM-123",
@@ -7029,7 +7372,8 @@
       ],
       "output_types": [],
       "funding_type": "religious_authority",
-      "round": "08e"
+      "round": "08e",
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "NAM-125",
@@ -7066,7 +7410,8 @@
       ],
       "output_types": [],
       "funding_type": "religious_authority",
-      "round": "08e"
+      "round": "08e",
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "NAM-129",
@@ -7102,7 +7447,8 @@
       ],
       "output_types": [],
       "funding_type": "religious_authority",
-      "round": "08e"
+      "round": "08e",
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "NAM-137",
@@ -7138,7 +7484,8 @@
       ],
       "output_types": [],
       "funding_type": "religious_authority",
-      "round": "08f"
+      "round": "08f",
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "NAM-216",
@@ -7187,6 +7534,19 @@
       "target_audience": [
         "child",
         "youth"
+      ],
+      "project_alignment": "directly_aligned",
+      "explicit_relations": [
+        {
+          "target": "NAM-217",
+          "type": "competes_with",
+          "note_ar": "سوق محتوى الأطفال الإسلامي"
+        },
+        {
+          "target": "WEST-160",
+          "type": "competes_with",
+          "note_ar": "دار طغرى للأطفال منافسة في السوق الغربية"
+        }
       ]
     },
     {
@@ -7223,7 +7583,8 @@
       ],
       "output_types": [],
       "funding_type": "private",
-      "round": "08y"
+      "round": "08y",
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "WEST-160",
@@ -7256,7 +7617,8 @@
       ],
       "output_types": [],
       "funding_type": "private",
-      "round": "08y"
+      "round": "08y",
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "ARB-076",
@@ -7292,7 +7654,8 @@
       ],
       "output_types": [],
       "funding_type": "private",
-      "round": "08y"
+      "round": "08y",
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "ARB-077",
@@ -7325,7 +7688,8 @@
       ],
       "output_types": [],
       "funding_type": "private",
-      "round": "08y"
+      "round": "08y",
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "WEST-161",
@@ -7361,7 +7725,8 @@
       ],
       "output_types": [],
       "funding_type": "private",
-      "round": "08y"
+      "round": "08y",
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "WEST-162",
@@ -7396,7 +7761,8 @@
       ],
       "output_types": [],
       "funding_type": "private",
-      "round": "08y"
+      "round": "08y",
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "NAM-217",
@@ -7441,6 +7807,19 @@
       },
       "target_audience": [
         "child"
+      ],
+      "project_alignment": "directly_aligned",
+      "explicit_relations": [
+        {
+          "target": "NAM-216",
+          "type": "competes_with",
+          "note_ar": "سوق الأطفال الإسلامي"
+        },
+        {
+          "target": "WEST-161",
+          "type": "partner",
+          "note_ar": "بثّ على Muslim Kids TV"
+        }
       ]
     },
     {
@@ -7474,7 +7853,8 @@
       ],
       "output_types": [],
       "funding_type": "academic_host",
-      "round": "08y"
+      "round": "08y",
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "WEST-166",
@@ -7508,7 +7888,8 @@
       "output_types": [],
       "funding_type": "private",
       "round": "08y",
-      "notes_ar": "[2026-05-15 تَدقيق الجولة 10] قناة اليوتيوب أصبحت 404 — يَحتاج تَحقّقاً جديداً"
+      "notes_ar": "[2026-05-15 تَدقيق الجولة 10] قناة اليوتيوب أصبحت 404 — يَحتاج تَحقّقاً جديداً",
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "WEST-168",
@@ -7541,7 +7922,8 @@
       ],
       "output_types": [],
       "funding_type": "private",
-      "round": "08y"
+      "round": "08y",
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "ARB-090",
@@ -7586,7 +7968,8 @@
       },
       "target_audience": [
         "specialist"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "TUR-070",
@@ -7620,7 +8003,8 @@
       ],
       "output_types": [],
       "funding_type": "religious_authority",
-      "round": "08t"
+      "round": "08t",
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "NAM-232",
@@ -7653,7 +8037,8 @@
       ],
       "output_types": [],
       "funding_type": "academic_host",
-      "round": "08t"
+      "round": "08t",
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "NAM-233",
@@ -7685,7 +8070,8 @@
       ],
       "output_types": [],
       "funding_type": "religious_authority",
-      "round": "08t"
+      "round": "08t",
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "NAM-234",
@@ -7719,7 +8105,8 @@
       ],
       "output_types": [],
       "funding_type": "academic_host",
-      "round": "08t"
+      "round": "08t",
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "NAM-235",
@@ -7754,7 +8141,8 @@
       "output_types": [],
       "funding_type": "academic_host",
       "round": "08t",
-      "notes_ar": "[2026-05-15 تَدقيق الجولة 10] الموقع الرسمي (smfkerala.com) متعطّل؛ استُخدمت صفحة Facebook كبديل"
+      "notes_ar": "[2026-05-15 تَدقيق الجولة 10] الموقع الرسمي (smfkerala.com) متعطّل؛ استُخدمت صفحة Facebook كبديل",
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "WEST-173",
@@ -7788,7 +8176,8 @@
       ],
       "output_types": [],
       "funding_type": "academic_host",
-      "round": "08t"
+      "round": "08t",
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "ARB-092",
@@ -7820,7 +8209,8 @@
       ],
       "output_types": [],
       "funding_type": "academic_host",
-      "round": "08t"
+      "round": "08t",
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "ARB-093",
@@ -7851,7 +8241,8 @@
       ],
       "output_types": [],
       "funding_type": "academic_host",
-      "round": "09a"
+      "round": "09a",
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "MAG-052",
@@ -7892,7 +8283,8 @@
       },
       "target_audience": [
         "specialist"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "NAM-236",
@@ -7936,7 +8328,8 @@
       "target_audience": [
         "woman",
         "specialist"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "NAM-237",
@@ -7978,7 +8371,8 @@
       "target_audience": [
         "specialist",
         "policy_maker"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "NAM-238",
@@ -8019,7 +8413,8 @@
       },
       "target_audience": [
         "specialist"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "NAM-239",
@@ -8051,7 +8446,8 @@
       ],
       "output_types": [],
       "funding_type": "academic_host",
-      "round": "09a"
+      "round": "09a",
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "NAM-240",
@@ -8081,7 +8477,8 @@
       ],
       "output_types": [],
       "funding_type": "academic_host",
-      "round": "09a"
+      "round": "09a",
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "NAM-241",
@@ -8111,7 +8508,8 @@
       ],
       "output_types": [],
       "funding_type": "academic_host",
-      "round": "09a"
+      "round": "09a",
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "ARB-094",
@@ -8143,7 +8541,8 @@
       ],
       "output_types": [],
       "funding_type": "academic_host",
-      "round": "09a"
+      "round": "09a",
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "NAM-242",
@@ -8173,7 +8572,8 @@
       ],
       "output_types": [],
       "funding_type": "academic_host",
-      "round": "09a"
+      "round": "09a",
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "TUR-071",
@@ -8203,7 +8603,8 @@
       ],
       "output_types": [],
       "funding_type": "academic_host",
-      "round": "09a"
+      "round": "09a",
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "TUR-072",
@@ -8245,7 +8646,8 @@
       "target_audience": [
         "intellectual",
         "specialist"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "TUR-073",
@@ -8275,7 +8677,8 @@
       ],
       "output_types": [],
       "funding_type": "academic_host",
-      "round": "09a"
+      "round": "09a",
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "WEST-174",
@@ -8308,7 +8711,8 @@
       ],
       "output_types": [],
       "funding_type": "academic_host",
-      "round": "09a"
+      "round": "09a",
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "WEST-175",
@@ -8342,7 +8746,8 @@
       ],
       "output_types": [],
       "funding_type": "academic_host",
-      "round": "09a"
+      "round": "09a",
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "WEST-176",
@@ -8372,7 +8777,8 @@
       ],
       "output_types": [],
       "funding_type": "academic_host",
-      "round": "09a"
+      "round": "09a",
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "NAM-243",
@@ -8404,7 +8810,8 @@
       ],
       "output_types": [],
       "funding_type": "academic_host",
-      "round": "09a"
+      "round": "09a",
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "ARB-095",
@@ -8435,7 +8842,8 @@
       ],
       "output_types": [],
       "funding_type": "academic_host",
-      "round": "09a"
+      "round": "09a",
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "ARB-096",
@@ -8471,7 +8879,8 @@
       ],
       "output_types": [],
       "funding_type": "academic_host",
-      "round": "09a"
+      "round": "09a",
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "ARB-097",
@@ -8505,7 +8914,8 @@
       "output_types": [],
       "funding_type": "academic_host",
       "round": "09a",
-      "notes_ar": "[2026-05-15 تَدقيق الجولة 10] الرابط الأصلي مكسور (شَرطة فارغة)؛ استُخدمت الصفحة الأم"
+      "notes_ar": "[2026-05-15 تَدقيق الجولة 10] الرابط الأصلي مكسور (شَرطة فارغة)؛ استُخدمت الصفحة الأم",
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "ARB-098",
@@ -8541,7 +8951,8 @@
       ],
       "output_types": [],
       "funding_type": "academic_host",
-      "round": "09a"
+      "round": "09a",
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "ARB-099",
@@ -8576,7 +8987,8 @@
       ],
       "output_types": [],
       "funding_type": "academic_host",
-      "round": "09a"
+      "round": "09a",
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "ARB-100",
@@ -8612,7 +9024,8 @@
       ],
       "output_types": [],
       "funding_type": "academic_host",
-      "round": "09a"
+      "round": "09a",
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "NAM-244",
@@ -8646,7 +9059,8 @@
       ],
       "output_types": [],
       "funding_type": "academic_host",
-      "round": "09a"
+      "round": "09a",
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "NAM-245",
@@ -8682,7 +9096,8 @@
       ],
       "output_types": [],
       "funding_type": "academic_host",
-      "round": "09a"
+      "round": "09a",
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "NAM-246",
@@ -8718,7 +9133,8 @@
       ],
       "output_types": [],
       "funding_type": "academic_host",
-      "round": "09a"
+      "round": "09a",
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "ARB-101",
@@ -8765,7 +9181,8 @@
         "general",
         "specialist",
         "educator"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "LEV-035",
@@ -8801,7 +9218,8 @@
       ],
       "output_types": [],
       "funding_type": "academic_host",
-      "round": "09a"
+      "round": "09a",
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "NAM-247",
@@ -8836,7 +9254,8 @@
       "output_types": [],
       "funding_type": "academic_host",
       "round": "09a",
-      "notes_ar": "[2026-05-15 تَدقيق الجولة 10] صفحة /about.php غير موجودة؛ استُخدم جذر الموقع"
+      "notes_ar": "[2026-05-15 تَدقيق الجولة 10] صفحة /about.php غير موجودة؛ استُخدم جذر الموقع",
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "NAM-248",
@@ -8870,7 +9289,8 @@
       ],
       "output_types": [],
       "funding_type": "academic_host",
-      "round": "09a"
+      "round": "09a",
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "ARB-102",
@@ -8903,7 +9323,8 @@
       "output_types": [],
       "funding_type": "academic_host",
       "round": "09a",
-      "notes_ar": "[2026-05-15 تَدقيق الجولة 10] الرابط الأصلي مكسور (شَرطة فارغة)؛ استُخدمت الصفحة الأم"
+      "notes_ar": "[2026-05-15 تَدقيق الجولة 10] الرابط الأصلي مكسور (شَرطة فارغة)؛ استُخدمت الصفحة الأم",
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "WEST-177",
@@ -8949,7 +9370,8 @@
       "target_audience": [
         "general",
         "intellectual"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "WEST-178",
@@ -8995,7 +9417,8 @@
       "target_audience": [
         "general",
         "intellectual"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "WEST-179",
@@ -9027,7 +9450,8 @@
       ],
       "output_types": [],
       "funding_type": "academic_host",
-      "round": "09a"
+      "round": "09a",
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "WEST-180",
@@ -9061,7 +9485,8 @@
       ],
       "output_types": [],
       "funding_type": "academic_host",
-      "round": "09a"
+      "round": "09a",
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "WEST-181",
@@ -9104,7 +9529,8 @@
       },
       "target_audience": [
         "general"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "WEST-182",
@@ -9137,7 +9563,8 @@
       ],
       "output_types": [],
       "funding_type": "academic_host",
-      "round": "09a"
+      "round": "09a",
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "WEST-183",
@@ -9171,7 +9598,8 @@
       ],
       "output_types": [],
       "funding_type": "academic_host",
-      "round": "09a"
+      "round": "09a",
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "ARB-103",
@@ -9203,7 +9631,8 @@
       ],
       "output_types": [],
       "funding_type": "academic_host",
-      "round": "09a"
+      "round": "09a",
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "NAM-249",
@@ -9235,7 +9664,8 @@
       ],
       "output_types": [],
       "funding_type": "academic_host",
-      "round": "09a"
+      "round": "09a",
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "ARB-104",
@@ -9267,7 +9697,8 @@
       ],
       "output_types": [],
       "funding_type": "academic_host",
-      "round": "09a"
+      "round": "09a",
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "NAM-250",
@@ -9299,7 +9730,8 @@
       ],
       "output_types": [],
       "funding_type": "academic_host",
-      "round": "09a"
+      "round": "09a",
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "WEST-184",
@@ -9348,7 +9780,8 @@
       "target_audience": [
         "intellectual",
         "specialist"
-      ]
+      ],
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "WEST-185",
@@ -9381,7 +9814,8 @@
       ],
       "output_types": [],
       "funding_type": "academic_host",
-      "round": "09a"
+      "round": "09a",
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "NAM-251",
@@ -9417,7 +9851,8 @@
       ],
       "output_types": [],
       "funding_type": "academic_host",
-      "round": "09a"
+      "round": "09a",
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "NAM-252",
@@ -9452,7 +9887,8 @@
       ],
       "output_types": [],
       "funding_type": "academic_host",
-      "round": "09a"
+      "round": "09a",
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "NAM-253",
@@ -9488,7 +9924,8 @@
       ],
       "output_types": [],
       "funding_type": "academic_host",
-      "round": "09a"
+      "round": "09a",
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "NAM-254",
@@ -9522,7 +9959,8 @@
       ],
       "output_types": [],
       "funding_type": "academic_host",
-      "round": "09a"
+      "round": "09a",
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "NAM-255",
@@ -9555,7 +9993,8 @@
       ],
       "output_types": [],
       "funding_type": "academic_host",
-      "round": "09a"
+      "round": "09a",
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "WEST-186",
@@ -9587,7 +10026,8 @@
       ],
       "output_types": [],
       "funding_type": "academic_host",
-      "round": "09a"
+      "round": "09a",
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "ARB-105",
@@ -9620,7 +10060,8 @@
       ],
       "output_types": [],
       "funding_type": "academic_host",
-      "round": "09a"
+      "round": "09a",
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "WEST-187",
@@ -9655,7 +10096,8 @@
       ],
       "output_types": [],
       "funding_type": "academic_host",
-      "round": "09a"
+      "round": "09a",
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "MAG-053",
@@ -9687,7 +10129,8 @@
       ],
       "output_types": [],
       "funding_type": "academic_host",
-      "round": "09a"
+      "round": "09a",
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "NAM-256",
@@ -9719,7 +10162,8 @@
       ],
       "output_types": [],
       "funding_type": "academic_host",
-      "round": "09a"
+      "round": "09a",
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "NAM-257",
@@ -9751,7 +10195,8 @@
       ],
       "output_types": [],
       "funding_type": "academic_host",
-      "round": "09a"
+      "round": "09a",
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "TUR-074",
@@ -9783,7 +10228,8 @@
       ],
       "output_types": [],
       "funding_type": "academic_host",
-      "round": "09a"
+      "round": "09a",
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "ARB-106",
@@ -9815,7 +10261,8 @@
       ],
       "output_types": [],
       "funding_type": "academic_host",
-      "round": "09a"
+      "round": "09a",
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "ARB-107",
@@ -9847,7 +10294,8 @@
       ],
       "output_types": [],
       "funding_type": "academic_host",
-      "round": "09a"
+      "round": "09a",
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "MAG-054",
@@ -9879,7 +10327,8 @@
       ],
       "output_types": [],
       "funding_type": "academic_host",
-      "round": "09a"
+      "round": "09a",
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "ARB-108",
@@ -9911,7 +10360,8 @@
       ],
       "output_types": [],
       "funding_type": "academic_host",
-      "round": "09a"
+      "round": "09a",
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "NAM-258",
@@ -9943,7 +10393,8 @@
       ],
       "output_types": [],
       "funding_type": "academic_host",
-      "round": "09a"
+      "round": "09a",
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "TUR-075",
@@ -9975,7 +10426,8 @@
       ],
       "output_types": [],
       "funding_type": "academic_host",
-      "round": "09a"
+      "round": "09a",
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "TUR-076",
@@ -10007,7 +10459,8 @@
       ],
       "output_types": [],
       "funding_type": "academic_host",
-      "round": "09a"
+      "round": "09a",
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "NAM-259",
@@ -10039,7 +10492,8 @@
       ],
       "output_types": [],
       "funding_type": "academic_host",
-      "round": "09a"
+      "round": "09a",
+      "project_alignment": "directly_aligned"
     },
     {
       "id": "NAM-260",
@@ -10071,9 +10525,1607 @@
       ],
       "output_types": [],
       "funding_type": "academic_host",
-      "round": "09a"
+      "round": "09a",
+      "project_alignment": "directly_aligned"
+    },
+    {
+      "id": "ARB-011",
+      "round": "01",
+      "name_ar": "مجمع خادم الحرمين الشريفين الملك سلمان بن عبدالعزيز للحديث النبوي الشريف",
+      "type": "research_center",
+      "type_group": "research_education",
+      "country": "SA",
+      "city_ar": "المدينة المنورة",
+      "region": "arabia",
+      "founded": 2017,
+      "founded_decade": "2010s",
+      "status": "active",
+      "scale": "international",
+      "output_types": [
+        "encyclopedia",
+        "books"
+      ],
+      "languages": [
+        "ar"
+      ],
+      "subjects": [
+        "hadith_sciences",
+        "seerah_general"
+      ],
+      "key_figures": [
+        "محمد بن حسن آل الشيخ",
+        "رباح بن رضيمان العنزي"
+      ],
+      "parent_organization_ar": "الديوان الملكي",
+      "funding_type": "state",
+      "description_ar": "مجمع علمي حكومي تأسس بأمر ملكي 27/1/1439هـ. الاجتماع الأول لمجلس الأمناء في 9 أكتوبر 2023. التخصص الأصلي: الحديث وعلومه؛ السيرة بشكل ضمني لتداخلها مع الحديث.",
+      "notes_ar": "حدّي للسيرة — التخصص الأصلي الحديث، لكن السيرة جزء من الإنتاج المتوقع.\n[2026-05-16 الجولة 10 - استرجاع شريك محتمل] يَخدم الحديث المتعلّق بالسيرة بأكثر طاقة سعودية ممكنة (السنة شاملة السيرة)",
+      "verification": "needs_verification",
+      "sources": [
+        {
+          "round_file": "round-01-arabia.md",
+          "anchor": "11)"
+        }
+      ],
+      "url": "https://my.gov.sa/ar/agencies/17789",
+      "inclusion_tier": "borderline",
+      "subjects_category": [
+        "auxiliary_sciences",
+        "classical_corpus"
+      ],
+      "project_alignment": "partial"
+    },
+    {
+      "id": "ARB-024",
+      "round": "01",
+      "name_ar": "مركز محمد بن حمد آل ثاني لإسهامات المسلمين في الحضارة",
+      "name_en": "Muhammad Bin Hamad Al Thani Center for Muslim Contribution to Civilization",
+      "aka": [
+        "CMCC"
+      ],
+      "type": "research_center",
+      "type_group": "research_education",
+      "country": "QA",
+      "city_ar": "الدوحة",
+      "region": "arabia",
+      "founded": 1983,
+      "founded_decade": "1980s",
+      "status": "active",
+      "scale": "international",
+      "output_types": [
+        "conference",
+        "books",
+        "translation"
+      ],
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "subjects": [
+        "seerah_general",
+        "comparative_religion",
+        "tarjamah"
+      ],
+      "key_figures": [
+        "عائشة يوسف المناعي",
+        "رجب شانتورك",
+        "محمد المدسر علي",
+        "إبراهيم زين"
+      ],
+      "parent_organization_ar": "جامعة حمد بن خليفة (مؤسسة قطر)",
+      "funding_type": "state",
+      "description_ar": "انضم إلى كلية الدراسات الإسلامية بجامعة حمد بن خليفة 2010. ثلاثة مؤتمرات سنوية موثّقة: «السيرة النبوية والحضارة» (2023)، «أهمية دلائل النبوة في الأزمنة المعاصرة» (2024)، «الهدي النبوي في السلم والحرب» (2025). مسابقة «هدي الرسول في العلاقات بين الأمم» (2017) بجوائز تتجاوز 20 ألف دولار.",
+      "verification": "needs_verification",
+      "sources": [
+        {
+          "round_file": "round-01-arabia.md",
+          "anchor": "24)"
+        }
+      ],
+      "url": "https://www.hbku.edu.qa/ar/cis/center",
+      "inclusion_tier": "core",
+      "subjects_category": [
+        "application_outreach",
+        "classical_corpus",
+        "methodology_critique"
+      ],
+      "project_alignment": "partial",
+      "notes_ar": "[2026-05-16 الجولة 10 - استرجاع شريك محتمل] مركز قطري بإنتاج حضاري واسع يَشمل السيرة"
+    },
+    {
+      "id": "ARB-029",
+      "round": "01",
+      "name_ar": "مركز نبراس للسنة النبوية",
+      "type": "research_center",
+      "type_group": "research_education",
+      "country": "KW",
+      "region": "arabia",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar"
+      ],
+      "subjects": [
+        "hadith_sciences"
+      ],
+      "key_figures": [
+        "محمد حمد العتيبي"
+      ],
+      "parent_organization_ar": "جمعية إنسان الخيرية",
+      "funding_type": "private",
+      "notes_ar": "تحت العتبة — التخصص الأصلي السنة لا السيرة.\n[2026-05-16 الجولة 10 - استرجاع شريك محتمل] مركز كويتي صغير بإنتاج سيري ضمن السنة",
+      "verification": "needs_verification",
+      "sources": [
+        {
+          "round_file": "round-01-arabia.md",
+          "anchor": "29)"
+        }
+      ],
+      "url": "https://insan.org.kw",
+      "inclusion_tier": "below_threshold",
+      "subjects_category": [
+        "auxiliary_sciences"
+      ],
+      "description_ar": "مركز علمي كويتي متخصّص في خدمة السنة النبوية والسيرة، يُقدّم دورات تأهيلية وبحوثاً ومقررات في علوم الحديث وفقه السيرة، ويُسهم في إعداد المعلّمين والدعاة عبر برامج تدريبية ضمن مؤسسة الإنسان الخيرية.",
+      "project_alignment": "partial"
+    },
+    {
+      "id": "ARB-075",
+      "round": "08d",
+      "name_ar": "معهد العلوم الشرعية بمسقط",
+      "name_en": "Institute of Shari'a Sciences, Muscat",
+      "type": "research_center",
+      "type_group": "research_education",
+      "country": "OM",
+      "city_ar": "مسقط",
+      "region": "arabia",
+      "founded": 1985,
+      "founded_decade": "1980s",
+      "status": "active",
+      "scale": "national",
+      "parent_organization_ar": "وزارة الأوقاف والشؤون الدينية – عُمان",
+      "funding_type": "state",
+      "subjects": [
+        "seerah_general",
+        "biography_methodology",
+        "hadith_sciences"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "methodology_critique",
+        "auxiliary_sciences"
+      ],
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [
+        "courses",
+        "books"
+      ],
+      "description_ar": "معهد عُماني متخصّص يدرّس الفقه الإباضي والسيرة والحديث. تُعتبر مرجعية تعليمية للتيار الإباضي الحديث.",
+      "verification": "needs_verification",
+      "inclusion_tier": "borderline",
+      "sources": [
+        {
+          "round_file": "round-08d-shia-zaydi-ibadi.md",
+          "anchor": "ARB-075 — Oman Shari'a Institute"
+        }
+      ],
+      "project_alignment": "partial",
+      "notes_ar": "[2026-05-16 الجولة 10 - استرجاع شريك محتمل] إرث عُماني يَستحقّ الشراكة، خاصة مع المتحف الجديد"
+    },
+    {
+      "id": "ARB-071",
+      "round": "08b",
+      "name_ar": "المعهد العالي لأئمة وخطباء المسجد الحرام والمسجد النبوي",
+      "name_en": "Higher Institute for Imams and Preachers of the Two Holy Mosques",
+      "type": "research_center",
+      "type_group": "research_education",
+      "country": "SA",
+      "city_ar": "مكة المكرمة",
+      "region": "arabia",
+      "founded_decade": "2010s",
+      "status": "active",
+      "scale": "national",
+      "parent_organization_ar": "الرئاسة العامة لشؤون الحرمين الشريفين",
+      "funding_type": "state",
+      "subjects": [
+        "seerah_general",
+        "shamail",
+        "seerah_pedagogy"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "application_outreach"
+      ],
+      "languages": [
+        "ar"
+      ],
+      "output_types": [
+        "courses",
+        "khutbah_archive"
+      ],
+      "description_ar": "يقدّم تدريباً متخصصاً لأئمة الحرمين في علوم الخطبة والتلاوة والسيرة. مرتبط بالرئاسة العامة لشؤون الحرمين.",
+      "explicit_relations": [
+        {
+          "target": "ARB-061",
+          "type": "child_of"
+        }
+      ],
+      "verification": "needs_verification",
+      "inclusion_tier": "core",
+      "sources": [
+        {
+          "round_file": "round-08b-mosque-museum-african.md",
+          "anchor": "ARB-071 — Higher Institute Imams"
+        }
+      ],
+      "project_alignment": "partial",
+      "notes_ar": "[2026-05-16 الجولة 10 - استرجاع شريك محتمل] يُدرّب أئمة وخطباء الحرمين على السيرة كمحتوى منبري"
+    },
+    {
+      "id": "ARB-016",
+      "round": "01",
+      "name_ar": "قناة السنة النبوية السعودية",
+      "type": "digital_platform",
+      "type_group": "media_audience",
+      "country": "SA",
+      "city_ar": "المدينة المنورة",
+      "region": "arabia",
+      "founded": 2009,
+      "founded_decade": "2000s",
+      "status": "active",
+      "scale": "international",
+      "output_types": [
+        "video"
+      ],
+      "languages": [
+        "ar"
+      ],
+      "subjects": [
+        "seerah_general",
+        "hadith_sciences"
+      ],
+      "parent_organization_ar": "مركز تلفزيون المدينة المنورة",
+      "funding_type": "state",
+      "description_ar": "قناة تلفزيونية حكومية تبث 24 ساعة من المسجد النبوي مع حلقات للأحاديث والسيرة.",
+      "notes_ar": "حدّي — ليست أكاديمية بحتة، لكنها كيان مؤسسي محوري في نشر السيرة جماهيرياً.\n[2026-05-16 الجولة 10 - استرجاع شريك محتمل] قناة تلفزية رسمية بمحتوى سيري كبير",
+      "verification": "needs_verification",
+      "sources": [
+        {
+          "round_file": "round-01-arabia.md",
+          "anchor": "16)"
+        }
+      ],
+      "url": "https://x.com/sunnatvsa",
+      "inclusion_tier": "borderline",
+      "subjects_category": [
+        "auxiliary_sciences",
+        "classical_corpus"
+      ],
+      "project_alignment": "partial"
+    },
+    {
+      "id": "LEV-049",
+      "round": "08d",
+      "name_ar": "مكتب السيد علي الحسيني السيستاني",
+      "name_en": "Office of Grand Ayatollah Sistani",
+      "type": "research_center",
+      "type_group": "research_education",
+      "country": "IQ",
+      "city_ar": "النجف",
+      "region": "levant_iraq_nile",
+      "founded_decade": "1990s",
+      "status": "active",
+      "scale": "international",
+      "url": "https://www.sistani.org/",
+      "funding_type": "religious_authority",
+      "subjects": [
+        "seerah_general",
+        "ahlulbayt",
+        "biography_methodology"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "prophetic_demography",
+        "methodology_critique"
+      ],
+      "languages": [
+        "ar",
+        "fa",
+        "ur",
+        "en"
+      ],
+      "output_types": [
+        "fatwa",
+        "books",
+        "database"
+      ],
+      "description_ar": "مكتب المرجع الأعلى للشيعة عالمياً، السيد علي الحسيني السيستاني (مرجع التقليد المهيمن حالياً). يدير شبكة من المؤسسات التعليمية والخيرية والإفتائية. لقاء السيد مع البابا فرنسيس 2021 كان حدثاً تاريخياً للحوار بين النجف والفاتيكان.",
+      "key_figures": [
+        "السيد علي الحسيني السيستاني"
+      ],
+      "verification": "needs_verification",
+      "inclusion_tier": "core",
+      "sources": [
+        {
+          "round_file": "round-08d-shia-zaydi-ibadi.md",
+          "anchor": "LEV-049 — Sistani Office"
+        }
+      ],
+      "project_alignment": "methodology_reference",
+      "notes_ar": "[2026-05-16 الجولة 10 - استرجاع شريك محتمل] مرجع شيعي كبير — الفجوة المذهبية تَمنع شراكة، لكن منهجه يَستحقّ الدراسة"
+    },
+    {
+      "id": "NAM-061",
+      "round": "05",
+      "name_ar": "معهد يقين للأبحاث الإسلامية",
+      "name_en": "Yaqeen Institute for Islamic Research",
+      "type": "research_center",
+      "type_group": "research_education",
+      "country": "US",
+      "city_ar": "إيرفينغ، تكساس",
+      "region": "non_arab_muslim",
+      "founded": 2016,
+      "founded_decade": "2010s",
+      "status": "active",
+      "scale": "international",
+      "output_types": [
+        "books",
+        "video"
+      ],
+      "languages": [
+        "en",
+        "ar"
+      ],
+      "subjects": [
+        "seerah_general",
+        "tarjamah",
+        "orientalism_critique"
+      ],
+      "key_figures": [
+        "عمر سليمان",
+        "أوفمير أنجم",
+        "محمد الشناوي",
+        "روحي طاهر",
+        "إسماعيل كامدار"
+      ],
+      "funding_type": "private",
+      "description_ar": "مركز فكر مستقل تأسس 2016. عشرات الإصدارات في السيرة، تصاميم، فيديوهات، مقالات. مقره أمريكي لكن جمهوره عالمي (شبه القارة، إندونيسيا، ماليزيا، أفريقيا) فيجعله صلة وصل.",
+      "verification": "needs_verification",
+      "inclusion_tier": "core",
+      "sources": [
+        {
+          "round_file": "round-05-non-arab-muslim.md",
+          "anchor": "61."
+        }
+      ],
+      "url": "https://yaqeeninstitute.org/topic/life-of-the-prophet-seerah",
+      "subjects_category": [
+        "application_outreach",
+        "classical_corpus",
+        "methodology_critique"
+      ],
+      "project_alignment": "partial",
+      "notes_ar": "[2026-05-16 الجولة 10 - استرجاع شريك محتمل] أكبر منتج محتوى إسلامي بالإنجليزية، السيرة محور رئيس من محاوره"
+    },
+    {
+      "id": "WEST-016",
+      "round": "06",
+      "name_ar": "معهد الدراسات الإسلامية – جامعة ماكغيل",
+      "name_en": "Institute of Islamic Studies, McGill University",
+      "type": "research_center",
+      "type_group": "research_education",
+      "country": "CA",
+      "city_ar": "مونتريال",
+      "region": "western",
+      "founded": 1952,
+      "founded_decade": "1950s",
+      "status": "active",
+      "scale": "international",
+      "languages": [
+        "en",
+        "fr"
+      ],
+      "subjects": [
+        "seerah_general"
+      ],
+      "key_figures": [
+        "ويلفرد كانتويل سميث",
+        "وائل حلاق",
+        "روبرت ويزنوفسكي"
+      ],
+      "funding_type": "private",
+      "description_ar": "أسسه ويلفرد كانتويل سميث. تركة وائل حلاق (انتقل لكولومبيا 2009). الكوادر الحالية: روبرت ويسنوفسكي.",
+      "verification": "needs_verification",
+      "inclusion_tier": "borderline",
+      "sources": [
+        {
+          "round_file": "round-06-western.md",
+          "anchor": "16."
+        }
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "url": "https://www.mcgill.ca/islamicstudies/",
+      "project_alignment": "methodology_reference",
+      "notes_ar": "[2026-05-16 الجولة 10 - استرجاع شريك محتمل] أعرق معاهد الدراسات الإسلامية في كندا، صلة بالقسم الإنجليزي"
+    },
+    {
+      "id": "WEST-022",
+      "round": "06",
+      "name_ar": "مركز أكسفورد للدراسات الإسلامية",
+      "name_en": "Oxford Centre for Islamic Studies (OXCIS)",
+      "type": "research_center",
+      "type_group": "research_education",
+      "country": "GB",
+      "city_ar": "أكسفورد",
+      "region": "western",
+      "founded": 1985,
+      "founded_decade": "1980s",
+      "status": "active",
+      "scale": "international",
+      "output_types": [
+        "journal"
+      ],
+      "languages": [
+        "en"
+      ],
+      "subjects": [
+        "seerah_general"
+      ],
+      "key_figures": [
+        "فرحان نظامي",
+        "تركي الفيصل"
+      ],
+      "funding_type": "private",
+      "description_ar": "ميثاق ملكي 2012. الراعي: الملك تشارلز الثالث. يصدر «مجلة الدراسات الإسلامية» (مطبعة جامعة أكسفورد منذ 1990).",
+      "notes_ar": "[تحت العتبة].\n[2026-05-16 الجولة 10 - استرجاع شريك محتمل] بوابة أكاديمية إنجليزية مهمّة، قسم سيرة ضمن البرنامج",
+      "verification": "needs_verification",
+      "inclusion_tier": "below_threshold",
+      "sources": [
+        {
+          "round_file": "round-06-western.md",
+          "anchor": "22."
+        }
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "url": "https://www.oxcis.ac.uk/",
+      "project_alignment": "partial"
+    },
+    {
+      "id": "WEST-026",
+      "round": "06",
+      "name_ar": "مركز دراسة الإسلام والعلاقات الإسلامية المسيحية – جامعة برمنغهام",
+      "name_en": "Centre for the Study of Islam and Christian-Muslim Relations, University of Birmingham",
+      "type": "research_center",
+      "type_group": "research_education",
+      "country": "GB",
+      "city_ar": "برمنغهام",
+      "region": "western",
+      "status": "active",
+      "scale": "international",
+      "output_types": [
+        "manuscripts"
+      ],
+      "languages": [
+        "en"
+      ],
+      "subjects": [
+        "manuscripts",
+        "comparative_religion",
+        "early_islam"
+      ],
+      "funding_type": "state",
+      "description_ar": "مكتبة كادبري تضم مخطوط برمنغهام للقرآن. وفق إعلان الجامعة 2015: التحليل بالكربون المشع أرّخ الرَّق إلى 568-645م بدقة 95.4% (مختبر «وحدة مسرّع الكربون المشع» بأكسفورد).",
+      "verification": "needs_verification",
+      "inclusion_tier": "core",
+      "sources": [
+        {
+          "round_file": "round-06-western.md",
+          "anchor": "26."
+        }
+      ],
+      "subjects_category": [
+        "auxiliary_sciences",
+        "methodology_critique",
+        "prophetic_demography"
+      ],
+      "url": "https://www.birmingham.ac.uk/research/centres-institutes/research-in-philosophy-theology-and-religion/birmingham-islamic-studies",
+      "project_alignment": "partial",
+      "notes_ar": "[2026-05-16 الجولة 10 - استرجاع شريك محتمل] يَخدم الحوار بين الأديان، وثيق الصلة بالمشروع 7 (ماذا ينقمون)"
+    },
+    {
+      "id": "WEST-064",
+      "round": "06",
+      "name_ar": "المعهد الفرنسي للشرق الأدنى – IFPO",
+      "name_en": "IFPO — Institut français du Proche-Orient",
+      "type": "research_center",
+      "type_group": "research_education",
+      "country": "FR",
+      "city_ar": "بيروت/عمان",
+      "region": "western",
+      "founded": 2002,
+      "founded_decade": "2000s",
+      "status": "active",
+      "scale": "international",
+      "output_types": [
+        "journal",
+        "books"
+      ],
+      "languages": [
+        "fr",
+        "ar"
+      ],
+      "subjects": [
+        "seerah_geography",
+        "historiography"
+      ],
+      "key_figures": [
+        "كارول روش-هاولي",
+        "إياس حسن"
+      ],
+      "funding_type": "state",
+      "description_ar": "تأسس 2002 من دمج المعهد الفرنسي للدراسات العربية بدمشق (1922) + المعهد الفرنسي للآثار في الشرق الأدنى (1946) + مركز البحث والدراسات حول الشرق الأوسط المعاصر. ثلاثة أقسام: الأركيولوجيا، الدراسات العربية الكلاسيكية. يصدر مجلة «سوريا».",
+      "verification": "needs_verification",
+      "inclusion_tier": "core",
+      "sources": [
+        {
+          "round_file": "round-06-western.md",
+          "anchor": "64."
+        }
+      ],
+      "subjects_category": [
+        "auxiliary_sciences",
+        "geography_space"
+      ],
+      "url": "https://www.ifporient.org/",
+      "project_alignment": "methodology_reference",
+      "notes_ar": "[2026-05-16 الجولة 10 - استرجاع شريك محتمل] إرث استشراقي فرنسي عميق، أرشيف ثري للمشروع 8 (المكتبة)"
+    },
+    {
+      "id": "WEST-065",
+      "round": "06",
+      "name_ar": "المعهد الفرنسي للآثار الشرقية – IFAO – القاهرة",
+      "name_en": "IFAO — Institut Français d'Archéologie Orientale",
+      "type": "research_center",
+      "type_group": "research_education",
+      "country": "FR",
+      "city_ar": "القاهرة",
+      "region": "western",
+      "status": "active",
+      "scale": "international",
+      "languages": [
+        "fr"
+      ],
+      "subjects": [
+        "seerah_geography",
+        "early_islam"
+      ],
+      "key_figures": [
+        "رولان-بيير غيرو"
+      ],
+      "funding_type": "state",
+      "description_ar": "حفريات الفسطاط/إسطبل عنتر.",
+      "verification": "needs_verification",
+      "inclusion_tier": "borderline",
+      "sources": [
+        {
+          "round_file": "round-06-western.md",
+          "anchor": "65."
+        }
+      ],
+      "subjects_category": [
+        "geography_space",
+        "prophetic_demography"
+      ],
+      "url": "https://www.ifao.egnet.net/",
+      "founded": 1880,
+      "project_alignment": "methodology_reference",
+      "notes_ar": "[2026-05-16 الجولة 10 - استرجاع شريك محتمل] أبحاث آثار مكة والمدينة المبكرة، مادة للأطلس 3D"
+    },
+    {
+      "id": "WEST-045",
+      "round": "06",
+      "name_ar": "جامعة هامبورغ – مكسيم رومانوف",
+      "name_en": "Universität Hamburg + Maxim Romanov",
+      "type": "research_center",
+      "type_group": "research_education",
+      "country": "DE",
+      "city_ar": "هامبورغ",
+      "region": "western",
+      "status": "active",
+      "scale": "international",
+      "output_types": [
+        "database"
+      ],
+      "languages": [
+        "en",
+        "de"
+      ],
+      "subjects": [
+        "historiography",
+        "digital_seerah"
+      ],
+      "key_figures": [
+        "مكسيم رومانوف"
+      ],
+      "funding_type": "state",
+      "description_ar": "برنامج «إيمي نويثر» التابع لمؤسسة الأبحاث الألمانية، مشروع «تطور المجتمعات الإسلامية ما بين 600-1600م: التحليل الخوارزمي في التاريخ الاجتماعي». الموقع: العلوم الإنسانية الرقمية.",
+      "verification": "needs_verification",
+      "inclusion_tier": "core",
+      "sources": [
+        {
+          "round_file": "round-06-western.md",
+          "anchor": "45."
+        }
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "auxiliary_sciences"
+      ],
+      "url": "https://www.aai.uni-hamburg.de/voror/personen/romanov.html",
+      "founded": 1919,
+      "project_alignment": "methodology_reference",
+      "notes_ar": "[2026-05-16 الجولة 10 - استرجاع شريك محتمل] مشروع KITAB لتحليل النصوص الإسلامية حاسوبياً — جوهري للمشروع 2"
+    },
+    {
+      "id": "WEST-003",
+      "round": "06",
+      "name_ar": "معهد الدراسات المتقدمة – مدرسة الدراسات التاريخية – برنستون",
+      "name_en": "Institute for Advanced Study, Princeton — School of Historical Studies",
+      "type": "research_center",
+      "type_group": "research_education",
+      "country": "US",
+      "city_ar": "برنستون",
+      "region": "western",
+      "status": "active",
+      "scale": "international",
+      "output_types": [
+        "books"
+      ],
+      "languages": [
+        "en"
+      ],
+      "subjects": [
+        "seerah_general",
+        "sources_critique",
+        "early_islam"
+      ],
+      "key_figures": [
+        "باتريشيا كرون",
+        "كريستيان روبان"
+      ],
+      "funding_type": "private",
+      "description_ar": "تركة باتريشيا كرون (ت. 2015) المؤسِّسة للمدرسة التنقيحية. حالياً كريستيان روبن زائر دائم.",
+      "verification": "needs_verification",
+      "inclusion_tier": "core",
+      "sources": [
+        {
+          "round_file": "round-06-western.md",
+          "anchor": "3."
+        }
+      ],
+      "subjects_category": [
+        "auxiliary_sciences",
+        "classical_corpus",
+        "prophetic_demography"
+      ],
+      "url": "https://www.ias.edu/hs",
+      "founded": 1949,
+      "project_alignment": "methodology_reference",
+      "notes_ar": "[2026-05-16 الجولة 10 - استرجاع شريك محتمل] بيت بحث الإسلام المبكر بأرفع مستوى أكاديمي"
+    },
+    {
+      "id": "WEST-088",
+      "round": "06",
+      "name_ar": "معهد الدراسات الشرقية – أكاديمية العلوم الروسية موسكو",
+      "name_en": "Institute of Oriental Studies, RAS Moscow",
+      "type": "research_center",
+      "type_group": "research_education",
+      "country": "RU",
+      "city_ar": "موسكو",
+      "region": "western",
+      "status": "active",
+      "scale": "international",
+      "languages": [
+        "ru"
+      ],
+      "subjects": [
+        "seerah_general",
+        "historiography"
+      ],
+      "funding_type": "state",
+      "description_ar": "قسم البلدان العربية والإسلام.",
+      "verification": "needs_verification",
+      "inclusion_tier": "borderline",
+      "sources": [
+        {
+          "round_file": "round-06-western.md",
+          "anchor": "88."
+        }
+      ],
+      "subjects_category": [
+        "auxiliary_sciences",
+        "classical_corpus"
+      ],
+      "url": "https://www.ivran.ru/en",
+      "founded": 1818,
+      "project_alignment": "methodology_reference",
+      "notes_ar": "[2026-05-16 الجولة 10 - استرجاع شريك محتمل] أعرق منهج استشراقي روسي، تقاليد القاسموف"
+    },
+    {
+      "id": "WEST-058",
+      "round": "06",
+      "name_ar": "كرسي «تاريخ القرآن: النص والإرسال» – كوليج دو فرانس",
+      "name_en": "Collège de France — Chair Histoire du Coran. Texte et transmission",
+      "type": "academic_chair",
+      "type_group": "research_education",
+      "country": "FR",
+      "city_ar": "باريس",
+      "region": "western",
+      "founded": 2014,
+      "founded_decade": "2010s",
+      "status": "active",
+      "scale": "international",
+      "output_types": [
+        "books",
+        "lectures"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "subjects": [
+        "manuscripts",
+        "sources_critique"
+      ],
+      "key_figures": [
+        "فرانسوا ديروش"
+      ],
+      "funding_type": "state",
+      "description_ar": "أُسس 2014 لفرانسوا ديروش. الإنتاج 2023-2024: ندوة «تاريخ/تواريخ والقرآن» (مايو 2024)، تحرير «القرآن وانتقاله المخطوط» (بريل 2024). الموقع: علم المخطوطات + العصور المتأخرة.",
+      "verification": "needs_verification",
+      "inclusion_tier": "core",
+      "sources": [
+        {
+          "round_file": "round-06-western.md",
+          "anchor": "58."
+        }
+      ],
+      "subjects_category": [
+        "auxiliary_sciences"
+      ],
+      "url": "https://www.college-de-france.fr/en/chair/francois-deroche-history-of-the-koran-text-and-transmission-statutory-chair",
+      "project_alignment": "methodology_reference",
+      "notes_ar": "[2026-05-16 الجولة 10 - استرجاع شريك محتمل] أعرق كرسي لتاريخ المخطوطات القرآنية، صلة بالسيرة المبكرة"
+    },
+    {
+      "id": "NAM-167",
+      "name_ar": "معهد إنسستس للفكر والحضارة الإسلامية",
+      "name_en": "INSISTS (Institute for the Study of Islamic Thought and Civilization)",
+      "type": "research_center",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "ID",
+      "founded": 2003,
+      "description_ar": "معهد بحثي أسّسه طلاب الفلسفة الإسلامية والفكر، متأثّرين بمنهج نقيب العطّاس (مؤسس ISTAC). يُعنى بنقد العلمنة في دراسات السيرة النبوية، ويُصدر مجلة Tsaqafah وسلسلة كتب في فكر السيرة، وله نشاط في تدريس السيرة كحضارة لا مجرّد سرد تاريخي، ويعقد ندوات نقدية للدراسات الاستشراقية.",
+      "url": "https://insists.id",
+      "subjects": [
+        "seerah_general",
+        "historiography",
+        "sources_critique",
+        "biography_methodology"
+      ],
+      "subjects_category": [
+        "auxiliary_sciences",
+        "classical_corpus",
+        "methodology_critique"
+      ],
+      "key_figures": [
+        "هاميد فهمي زركشي",
+        "أديان حصين"
+      ],
+      "verification": "needs_verification",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "academic_host",
+      "round": "08g",
+      "project_alignment": "partial",
+      "notes_ar": "[2026-05-16 الجولة 10 - استرجاع شريك محتمل] الراعي الفكري لمجتمع السيرة الإندونيسي (NAM-022)"
+    },
+    {
+      "id": "NAM-108",
+      "round": "08d",
+      "name_ar": "المجمع العالمي لأهل البيت (مجمع جهاني أهل البيت)",
+      "name_en": "Ahl al-Bayt World Assembly (ABWA)",
+      "type": "research_center",
+      "type_group": "research_education",
+      "country": "IR",
+      "city_ar": "طهران",
+      "region": "non_arab_muslim",
+      "founded": 1990,
+      "founded_decade": "1990s",
+      "status": "active",
+      "scale": "international",
+      "url": "https://www.ahl-ul-bayt.org/en/",
+      "funding_type": "state",
+      "subjects": [
+        "seerah_general",
+        "ahlulbayt",
+        "tarjamah",
+        "historiography",
+        "sources_critique"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "prophetic_demography",
+        "auxiliary_sciences",
+        "application_outreach"
+      ],
+      "languages": [
+        "ar",
+        "fa",
+        "en",
+        "ur",
+        "tr",
+        "fr",
+        "de",
+        "es",
+        "sw",
+        "ms",
+        "id",
+        "ru"
+      ],
+      "output_types": [
+        "books",
+        "journal",
+        "database",
+        "courses"
+      ],
+      "description_ar": "أُسّس مايو 1990 بإشراف آية الله خامنئي بعد مؤتمر دولي شارك فيه +300 مفكر إسلامي. مقرّه طهران، نشاطه عالمي. +1800 كتاب بـ55 لغة. مكتبته بقم تضمّ +30,000 كتاب ومجلة. أُسّست تحته جامعة أهل البيت الدولية 2000.",
+      "verification": "needs_verification",
+      "inclusion_tier": "core",
+      "sources": [
+        {
+          "round_file": "round-08d-shia-zaydi-ibadi.md",
+          "anchor": "NAM-108 — Ahl al-Bayt Assembly"
+        }
+      ],
+      "project_alignment": "methodology_reference",
+      "notes_ar": "[2026-05-16 الجولة 10 - استرجاع شريك محتمل] أكبر مؤسسة شيعية أمميّة، يَنشر بعشرات اللغات (مرجع للقسم 12)"
+    },
+    {
+      "id": "NAM-071",
+      "round": "08a",
+      "name_ar": "مركز الشيخ زايد الإسلامي – جامعة بنجاب لاهور",
+      "name_en": "Sheikh Zayed Islamic Centre, University of the Punjab",
+      "type": "research_center",
+      "type_group": "research_education",
+      "country": "PK",
+      "city_ar": "لاهور",
+      "region": "non_arab_muslim",
+      "founded_decade": "2000s",
+      "status": "active",
+      "scale": "national",
+      "url": "https://pu.edu.pk/home/department/33/sheikh-zayed-islamic-centre",
+      "parent_organization_ar": "جامعة بنجاب",
+      "funding_type": "state",
+      "subjects": [
+        "seerah_general",
+        "biography_methodology",
+        "hadith_sciences"
+      ],
+      "subjects_category": [
+        "classical_corpus",
+        "methodology_critique",
+        "auxiliary_sciences"
+      ],
+      "languages": [
+        "ar",
+        "en",
+        "ur"
+      ],
+      "output_types": [
+        "books",
+        "courses"
+      ],
+      "description_ar": "النظير اللاهوري لمركز كراتشي، يقدّم BS/M.Phil/PhD في الدراسات الإسلامية.",
+      "verification": "needs_verification",
+      "inclusion_tier": "borderline",
+      "sources": [
+        {
+          "round_file": "round-08a-south-asia.md",
+          "anchor": "NAM-071 — SZIC Punjab"
+        }
+      ],
+      "founded": 1985,
+      "project_alignment": "partial",
+      "notes_ar": "[2026-05-16 الجولة 10 - استرجاع شريك محتمل] مركز بنجابي بإنتاج سيري ضمن الدراسات الإسلامية"
+    },
+    {
+      "id": "NAM-018",
+      "round": "05",
+      "name_ar": "جامعة سونان كاليجاغا الإسلامية الحكومية – يوغياكارتا",
+      "type": "university_center",
+      "type_group": "research_education",
+      "country": "ID",
+      "city_ar": "يوغياكارتا",
+      "region": "non_arab_muslim",
+      "status": "active",
+      "scale": "international",
+      "output_types": [
+        "journal",
+        "books"
+      ],
+      "languages": [
+        "id",
+        "en"
+      ],
+      "subjects": [
+        "seerah_general",
+        "historiography"
+      ],
+      "funding_type": "state",
+      "description_ar": "تُصدر مجلات منها «سونان كاليجاغا: المجلة الدولية للحضارة الإسلامية»، «الشريعة» (تأسست 1966 — أعرق مجلة شرعية إندونيسية)، «الأدبيات»، «الثقافيات».",
+      "verification": "needs_verification",
+      "inclusion_tier": "borderline",
+      "sources": [
+        {
+          "round_file": "round-05-non-arab-muslim.md",
+          "anchor": "18."
+        }
+      ],
+      "url": "https://ejournal.uin-suka.ac.id",
+      "subjects_category": [
+        "auxiliary_sciences",
+        "classical_corpus"
+      ],
+      "name_ar_original": "UIN Sunan Kalijaga – يوغياكارتا",
+      "founded": 1951,
+      "project_alignment": "audience_reference",
+      "notes_ar": "[2026-05-16 الجولة 10 - استرجاع شريك محتمل] أكبر جامعة إسلامية إندونيسية بقسم سيرة"
+    },
+    {
+      "id": "NAM-017",
+      "round": "05",
+      "name_ar": "جامعة شريف هداية الله الإسلامية الحكومية – جاكرتا",
+      "name_en": "UIN Jakarta",
+      "type": "university_center",
+      "type_group": "research_education",
+      "country": "ID",
+      "city_ar": "تنغرانغ",
+      "region": "non_arab_muslim",
+      "founded": 1957,
+      "founded_decade": "1950s",
+      "status": "active",
+      "scale": "international",
+      "output_types": [
+        "books",
+        "journal"
+      ],
+      "languages": [
+        "id"
+      ],
+      "subjects": [
+        "seerah_general"
+      ],
+      "parent_organization_ar": "وزارة الشؤون الدينية الإندونيسية",
+      "funding_type": "state",
+      "description_ar": "أعرق وأكبر جامعة إسلامية حكومية إندونيسية (تأسست 1957 كأكاديمية، 2002 كجامعة). الإنتاج السيري عبر LP2M ومعاهد الدراسات الإسلامية.",
+      "notes_ar": "جامعة إسلامية شاملة، السيرة قسم من برامجها.\n[2026-05-16 الجولة 10 - استرجاع شريك محتمل] الجامعة الإسلامية الأم بإندونيسيا",
+      "verification": "needs_verification",
+      "inclusion_tier": "borderline",
+      "sources": [
+        {
+          "round_file": "round-05-non-arab-muslim.md",
+          "anchor": "17."
+        }
+      ],
+      "url": "https://uinjkt.ac.id",
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "name_ar_original": "UIN Syarif Hidayatullah – جاكرتا",
+      "project_alignment": "audience_reference"
+    },
+    {
+      "id": "NAM-019",
+      "round": "05",
+      "name_ar": "قسم الدراسات القرآنية والسنية – IIUM",
+      "name_en": "IIUM Department of Qur'an and Sunnah Studies",
+      "type": "university_department",
+      "type_group": "research_education",
+      "country": "MY",
+      "city_ar": "كوالالمبور",
+      "region": "non_arab_muslim",
+      "founded": 1983,
+      "founded_decade": "1980s",
+      "status": "active",
+      "scale": "international",
+      "output_types": [
+        "journal",
+        "courses"
+      ],
+      "languages": [
+        "en",
+        "ar"
+      ],
+      "subjects": [
+        "seerah_general",
+        "hadith_sciences"
+      ],
+      "parent_organization_ar": "AbdulHamid AbuSulayman Kulliyyah (KIRKHS) – IIUM",
+      "funding_type": "state",
+      "description_ar": "يقدّم بكالوريوس وماجستير ودكتوراه في الدراسات القرآنية والسنية (تشمل السيرة). مجلات أكاديمية متعددة بما فيها «Al-Shajarah» مجلة ISTAC.",
+      "verification": "needs_verification",
+      "inclusion_tier": "core",
+      "sources": [
+        {
+          "round_file": "round-05-non-arab-muslim.md",
+          "anchor": "19."
+        }
+      ],
+      "url": "https://www.iium.edu.my/kulliyyah/kirkhs/quran-and-sunnah-studies",
+      "subjects_category": [
+        "auxiliary_sciences",
+        "classical_corpus"
+      ],
+      "project_alignment": "partial",
+      "notes_ar": "[2026-05-16 الجولة 10 - استرجاع شريك محتمل] بوابة جنوب شرق آسيا الإسلامية الإنجليزية"
+    },
+    {
+      "id": "NAM-020",
+      "round": "05",
+      "name_ar": "المعهد الدولي للفكر والحضارة الإسلامية – الجامعة الإسلامية العالمية بماليزيا",
+      "name_en": "International Institute of Islamic Thought and Civilization",
+      "type": "research_center",
+      "type_group": "research_education",
+      "country": "MY",
+      "city_ar": "كوالالمبور",
+      "region": "non_arab_muslim",
+      "founded": 1991,
+      "founded_decade": "1990s",
+      "status": "active",
+      "scale": "international",
+      "output_types": [
+        "journal",
+        "books"
+      ],
+      "languages": [
+        "en",
+        "ar"
+      ],
+      "subjects": [
+        "seerah_general",
+        "historiography",
+        "biography_methodology"
+      ],
+      "key_figures": [
+        "سيد محمد نقيب العطاس"
+      ],
+      "parent_organization_ar": "IIUM",
+      "funding_type": "state",
+      "description_ar": "معهد متقدم للأبحاث في الفكر الإسلامي والحضارة، مع 10 مجالات منها «الفكر الإسلامي» و«الحضارة الملايوية-الإسلامية». مجلة «الشجرة» (الرقم المعياري الدولي 1394-6870).",
+      "notes_ar": "تخصص واسع في الحضارة الإسلامية، السيرة جزء.\n[2026-05-16 الجولة 10 - استرجاع شريك محتمل] بيت الفكر الإسلامي الماليزي (ISTAC)",
+      "verification": "needs_verification",
+      "inclusion_tier": "borderline",
+      "sources": [
+        {
+          "round_file": "round-05-non-arab-muslim.md",
+          "anchor": "20."
+        }
+      ],
+      "url": "https://kulliyyah.iium.edu.my/ahaskirkhs",
+      "subjects_category": [
+        "auxiliary_sciences",
+        "classical_corpus",
+        "methodology_critique"
+      ],
+      "name_ar_original": "ISTAC – IIUM",
+      "project_alignment": "methodology_reference"
+    },
+    {
+      "id": "NAM-011",
+      "round": "05",
+      "name_ar": "ندوة العلماء – لكناو",
+      "name_en": "Darul Uloom Nadwatul Ulama",
+      "type": "university_center",
+      "type_group": "research_education",
+      "country": "IN",
+      "city_ar": "لكناو",
+      "region": "non_arab_muslim",
+      "founded": 1898,
+      "founded_decade": "1890s",
+      "status": "active",
+      "scale": "international",
+      "output_types": [
+        "books",
+        "journal"
+      ],
+      "languages": [
+        "ar",
+        "ur",
+        "en",
+        "hi"
+      ],
+      "subjects": [
+        "seerah_general",
+        "tarjamah"
+      ],
+      "key_figures": [
+        "بلال عبد الحي الحسني الندوي",
+        "أبو الحسن علي الندوي"
+      ],
+      "funding_type": "private",
+      "description_ar": "أصدرت «أكاديمية البحوث والمنشورات الإسلامية»: «محمد رسول الله» لأبي الحسن علي الندوي و«قصص النبيين» (5 أجزاء). تُصدر مجلات «الرائد» و«البعث الإسلامي» (عربية)، «تعمير حياة» (أردية)، «العبير» (إنجليزية)، «سچا راهي» (هندية).",
+      "verification": "needs_verification",
+      "inclusion_tier": "core",
+      "sources": [
+        {
+          "round_file": "round-05-non-arab-muslim.md",
+          "anchor": "11."
+        }
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "classical_corpus"
+      ],
+      "url": "https://www.nadwa.in/en/",
+      "project_alignment": "partial",
+      "notes_ar": "[2026-05-16 الجولة 10 - استرجاع شريك محتمل] أعرق مؤسسة ديوبندية هندية (1898م)"
+    },
+    {
+      "id": "NAM-039",
+      "round": "05",
+      "name_ar": "شبكة جامعات Mouride – توبا",
+      "type": "foundation_waqf",
+      "type_group": "research_education",
+      "country": "SN",
+      "city_ar": "توبا",
+      "region": "non_arab_muslim",
+      "founded": 1885,
+      "founded_decade": "1880s",
+      "status": "active",
+      "scale": "international",
+      "output_types": [
+        "lectures",
+        "books"
+      ],
+      "languages": [
+        "ar"
+      ],
+      "subjects": [
+        "shamail",
+        "sufism_seerah"
+      ],
+      "key_figures": [
+        "أحمد بمبا مباكي"
+      ],
+      "funding_type": "private",
+      "description_ar": "تراث الشيخ أحمد بمبا مباكي (1853-1927). شبكة دينية ضخمة تنشر تراثاً سيرياً بالعجمية الوولفية + العربية. شروح «مسالك الجنان» مع التركيز السيري؛ مؤسسة الدارة؛ مهرجان «الـمَغَال» السنوي بطوبا بحضور الملايين.",
+      "verification": "needs_verification",
+      "inclusion_tier": "borderline",
+      "sources": [
+        {
+          "round_file": "round-05-non-arab-muslim.md",
+          "anchor": "39."
+        }
+      ],
+      "subjects_category": [
+        "application_outreach",
+        "classical_corpus"
+      ],
+      "project_alignment": "audience_reference",
+      "notes_ar": "[2026-05-16 الجولة 10 - استرجاع شريك محتمل] منظومة سيرة-تربية غرب إفريقية ضخمة بـ«العجمية الوولفية»"
+    },
+    {
+      "id": "NAM-033",
+      "round": "05",
+      "name_ar": "مركز الحضارة الإسلامية في طشقند",
+      "name_en": "Center of Islamic Civilization Tashkent",
+      "type": "museum",
+      "type_group": "museums_culture",
+      "country": "UZ",
+      "city_ar": "طشقند",
+      "region": "non_arab_muslim",
+      "founded": 2026,
+      "founded_decade": "2020s",
+      "status": "active",
+      "scale": "international",
+      "output_types": [
+        "exhibition",
+        "manuscripts"
+      ],
+      "languages": [
+        "uz",
+        "ar",
+        "en"
+      ],
+      "subjects": [
+        "seerah_general",
+        "historiography",
+        "manuscripts",
+        "hadith_sciences"
+      ],
+      "key_figures": [
+        "فردوس أبدخلقوف",
+        "شوكت ميرضيايف"
+      ],
+      "funding_type": "state",
+      "description_ar": "افتتاح رسمي مارس 2026 بميزانية موثقة 161.8 مليون دولار (تقديرات إعلامية لاحقة 200 مليون). 19,307 م². متحف + مكتبة بـ100,000 مخطوطة + مختبر ترميم. تركيز على البخاري والترمذي والماتريدي. عرض رسائل النبي ﷺ إلى ملوك العالم (أغسطس 2025).",
+      "notes_ar": "السيرة قسم منه ضمن سياق أوسع للحضارة الإسلامية للتركستان.\n[2026-05-16 الجولة 10 - استرجاع شريك محتمل] مشروع أوزبكي بميزانية 200M$، إعادة توطين الإسلام الحنفي بعد السوفيتي",
+      "verification": "needs_verification",
+      "inclusion_tier": "borderline",
+      "sources": [
+        {
+          "round_file": "round-05-non-arab-muslim.md",
+          "anchor": "33."
+        }
+      ],
+      "url": "https://uzbekistan.travel/en/o/center-islamic-civilization-tashkent",
+      "subjects_category": [
+        "auxiliary_sciences",
+        "classical_corpus"
+      ],
+      "project_alignment": "partial"
+    },
+    {
+      "id": "NAM-048",
+      "round": "05",
+      "name_ar": "مؤسسة دار الحديث العلمية الثقافية",
+      "name_en": "Dar al-Hadith Scientific-Cultural Institute",
+      "type": "research_center",
+      "type_group": "research_education",
+      "country": "IR",
+      "city_ar": "الري (طهران)",
+      "region": "non_arab_muslim",
+      "founded": 1995,
+      "founded_decade": "1990s",
+      "status": "active",
+      "scale": "international",
+      "output_types": [
+        "books",
+        "encyclopedia",
+        "journal",
+        "courses"
+      ],
+      "languages": [
+        "ar"
+      ],
+      "subjects": [
+        "ahlulbayt",
+        "hadith_sciences",
+        "seerah_general"
+      ],
+      "key_figures": [
+        "محمد محمدي ري‌شهري",
+        "محمد كاظم الطباطبائي"
+      ],
+      "parent_organization_ar": "بمرسوم من قائد الثورة",
+      "funding_type": "religious_authority",
+      "description_ar": "أسسها آية الله محمد محمدي ري‌شهري (ت. 21 مارس 2022). فروع: قم، مشهد، بيروت. تضم پژوهشگاه قرآن وحدیث + دانشگاه قرآن وحدیث. منشورات سيرية رئيسية: «سيرة بيغمبر خاتم(ص)» في 7 مجلدات (4665 حديث ونص تاريخي و51 تحليل)، «گزيده سيره پيامبر خاتم(ص)»، «حكمت‌نامه پيامبر اعظم(ص)»، «دانشنامه قرآن و حديث» (16 مجلداً).",
+      "verification": "needs_verification",
+      "inclusion_tier": "core",
+      "sources": [
+        {
+          "round_file": "round-05-non-arab-muslim.md",
+          "anchor": "48."
+        }
+      ],
+      "url": "https://www.reyshahri.ir",
+      "subjects_category": [
+        "auxiliary_sciences",
+        "classical_corpus",
+        "prophetic_demography"
+      ],
+      "project_alignment": "methodology_reference",
+      "notes_ar": "[2026-05-16 الجولة 10 - استرجاع شريك محتمل] أم المنظومة الإيرانية للحديث والسيرة"
+    },
+    {
+      "id": "NAM-049",
+      "round": "05",
+      "name_ar": "مؤسسة الإمام الخميني للأبحاث",
+      "name_en": "Imam Khomeini Education and Research Institute (IKI)",
+      "type": "research_center",
+      "type_group": "research_education",
+      "country": "IR",
+      "city_ar": "قم",
+      "region": "non_arab_muslim",
+      "founded": 1995,
+      "founded_decade": "1990s",
+      "status": "active",
+      "scale": "international",
+      "output_types": [
+        "journal",
+        "books",
+        "courses"
+      ],
+      "languages": [
+        "ar"
+      ],
+      "subjects": [
+        "ahlulbayt",
+        "seerah_general",
+        "historiography"
+      ],
+      "key_figures": [
+        "محمود رجبي",
+        "مهدي پيشوايي",
+        "محمدرضا جباري",
+        "حامد منتظري مقدم"
+      ],
+      "funding_type": "religious_authority",
+      "description_ar": "بعد رحيل آية الله مصباح يزدي 2020 رئاسة محمود رجبي. تُصدر «تاريخ إسلام در آينه پژوهش» فصلية علمية-بحثية (تأسست 2002، أحدث الأعداد 55-59). كتب: «سيره پيشوايان» لمهدي پيشوايي (ت. 2021)، «بررسي تاريخي صلح‌هاي پيامبر(ص)» لحامد منتظري.",
+      "verification": "needs_verification",
+      "inclusion_tier": "core",
+      "sources": [
+        {
+          "round_file": "round-05-non-arab-muslim.md",
+          "anchor": "49."
+        }
+      ],
+      "url": "https://iki.ac.ir",
+      "subjects_category": [
+        "auxiliary_sciences",
+        "classical_corpus",
+        "prophetic_demography"
+      ],
+      "project_alignment": "methodology_reference",
+      "notes_ar": "[2026-05-16 الجولة 10 - استرجاع شريك محتمل] الذراع البحثي للمؤسسة الدينية الإيرانية"
+    },
+    {
+      "id": "NAM-053",
+      "round": "05",
+      "name_ar": "الجامعة الإسلامية الدولية المصطفى",
+      "name_en": "Al-Mustafa International University",
+      "type": "university_center",
+      "type_group": "research_education",
+      "country": "IR",
+      "city_ar": "قم",
+      "region": "non_arab_muslim",
+      "founded": 2008,
+      "founded_decade": "2000s",
+      "status": "active",
+      "scale": "international",
+      "output_types": [
+        "courses",
+        "books"
+      ],
+      "languages": [
+        "ar"
+      ],
+      "subjects": [
+        "ahlulbayt",
+        "seerah_general"
+      ],
+      "key_figures": [
+        "علي خامنئي",
+        "علي عباسي"
+      ],
+      "funding_type": "religious_authority",
+      "description_ar": "تأسست 1979 كأكاديمية، 2008 دمج وإعادة تشكيل. فروع: مشهد، طهران، أصفهان، گرگان، قشم. مؤسسة شيعية-أكاديمية-حوزوية للطلاب غير الإيرانيين. 40,000 طالب أجنبي و40,000 خريج من 122 جنسية، وحدات في 60 دولة، 170 مركزاً مرتبطاً.",
+      "notes_ar": "تنشر السيرة الشيعية مع التركيز على الإمامة وأهل البيت.\n[2026-05-16 الجولة 10 - استرجاع شريك محتمل] 170 مركزاً في 60 دولة، 40,000 طالب من 122 جنسية — نموذج أمميّة شيعي",
+      "verification": "needs_verification",
+      "inclusion_tier": "borderline",
+      "sources": [
+        {
+          "round_file": "round-05-non-arab-muslim.md",
+          "anchor": "53."
+        }
+      ],
+      "url": "https://miu.ac.ir",
+      "subjects_category": [
+        "classical_corpus",
+        "prophetic_demography"
+      ],
+      "project_alignment": "methodology_reference"
+    },
+    {
+      "id": "TUR-036",
+      "round": "04",
+      "name_ar": "الموسوعة الإسلامية التركية الإلكترونية",
+      "name_en": "TDV İslam Ansiklopedisi (DİA)",
+      "type": "encyclopedia_project",
+      "type_group": "research_education",
+      "country": "TR",
+      "city_ar": "إسطنبول",
+      "region": "turkey",
+      "founded": 1988,
+      "founded_decade": "1980s",
+      "status": "active",
+      "scale": "international",
+      "output_types": [
+        "encyclopedia",
+        "database"
+      ],
+      "languages": [
+        "tr"
+      ],
+      "subjects": [
+        "seerah_general",
+        "historiography"
+      ],
+      "parent_organization_ar": "İSAM (TDV)",
+      "funding_type": "religious_authority",
+      "description_ar": "النسخة الإلكترونية منذ 2018. 392 مدخل بيوغرافي عن الأنبياء والصحابة، آلاف المداخل ذات الصلة بالسيرة.",
+      "notes_ar": "موسوعة عامة، السيرة قسم منها.\n[2026-05-16 الجولة 10 - استرجاع شريك محتمل] 392 مدخل بيوغرافي عن الأنبياء والصحابة — مرجع مكمّل للمشروع 4",
+      "verification": "needs_verification",
+      "inclusion_tier": "borderline",
+      "sources": [
+        {
+          "round_file": "round-04-turkey.md",
+          "anchor": "36."
+        }
+      ],
+      "url": "https://islamansiklopedisi.org.tr/",
+      "subjects_category": [
+        "auxiliary_sciences",
+        "classical_corpus"
+      ],
+      "project_alignment": "partial"
+    },
+    {
+      "id": "MAG-003",
+      "round": "03",
+      "name_ar": "الرابطة المحمدية للعلماء",
+      "type": "research_center",
+      "type_group": "research_education",
+      "country": "MA",
+      "city_ar": "الرباط",
+      "region": "maghreb",
+      "founded": 2006,
+      "founded_decade": "2000s",
+      "status": "active",
+      "scale": "international",
+      "output_types": [
+        "journal",
+        "books",
+        "exhibition",
+        "conference"
+      ],
+      "languages": [
+        "ar"
+      ],
+      "subjects": [
+        "seerah_general",
+        "shamail",
+        "historiography"
+      ],
+      "parent_organization_ar": "الدولة المغربية (برعاية أمير المؤمنين)",
+      "funding_type": "state",
+      "explicit_relations": [
+        {
+          "target": "MAG-001",
+          "type": "parent_of"
+        },
+        {
+          "target": "MAG-002",
+          "type": "parent_of"
+        },
+        {
+          "target": "MAG-017",
+          "type": "publisher_of"
+        },
+        {
+          "target": "MAG-021",
+          "type": "partner"
+        }
+      ],
+      "description_ar": "مؤسسة علمية رسمية تأسست بظهير شريف 14 فبراير 2006، تشرف على 14 مركز دراسات و11 منبراً إعلامياً. أصدرت مجلة «الإحياء»، وكتاب «مظاهر عناية المغاربة بكتب السيرة وكتب الشمائل»، ونسّقت معرض «صلة المغاربة بالجناب النبوي الشريف، جمال المحبة والوفاء».",
+      "verification": "needs_verification",
+      "inclusion_tier": "core",
+      "sources": [
+        {
+          "round_file": "round-03-maghreb.md",
+          "anchor": "3-"
+        }
+      ],
+      "url": "https://www.arrabita.ma",
+      "subjects_category": [
+        "auxiliary_sciences",
+        "classical_corpus"
+      ],
+      "project_alignment": "partial",
+      "notes_ar": "[2026-05-16 الجولة 10 - استرجاع شريك محتمل] المظلّة الأم لمركز MAG-002، خادمة الإرث المغربي"
+    },
+    {
+      "id": "MAG-031",
+      "round": "03",
+      "name_ar": "المعهد العالي لأصول الدين بتونس",
+      "name_en": "Institut Supérieur de Théologie de Tunis",
+      "type": "university_department",
+      "type_group": "research_education",
+      "country": "TN",
+      "city_ar": "تونس",
+      "region": "maghreb",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar"
+      ],
+      "subjects": [
+        "seerah_general",
+        "hadith_sciences",
+        "comparative_religion"
+      ],
+      "parent_organization_ar": "جامعة الزيتونة",
+      "funding_type": "state",
+      "explicit_relations": [
+        {
+          "target": "MAG-030",
+          "type": "child_of"
+        }
+      ],
+      "description_ar": "يقدّم إجازات في علوم القرآن والحديث والسيرة، العقيدة ومقارنة الأديان.",
+      "notes_ar": "السيرة ضمن مقررات لا قسم مستقل.\n[2026-05-16 الجولة 10 - استرجاع شريك محتمل] أعرق مؤسسة تونسية للسيرة المقارنة (تَملأ فجوة في القاعدة)",
+      "verification": "needs_verification",
+      "inclusion_tier": "borderline",
+      "sources": [
+        {
+          "round_file": "round-03-maghreb.md",
+          "anchor": "31-"
+        }
+      ],
+      "url": "https://isth.rnu.tn",
+      "subjects_category": [
+        "auxiliary_sciences",
+        "classical_corpus",
+        "methodology_critique"
+      ],
+      "project_alignment": "partial"
+    },
+    {
+      "id": "MAG-050",
+      "round": "03",
+      "name_ar": "موسوعة «شنقيطيبيديا»",
+      "type": "encyclopedia_project",
+      "type_group": "research_education",
+      "country": "MR",
+      "region": "maghreb",
+      "status": "active",
+      "scale": "national",
+      "output_types": [
+        "encyclopedia",
+        "database"
+      ],
+      "languages": [
+        "ar"
+      ],
+      "subjects": [
+        "seerah_general",
+        "historiography",
+        "shamail"
+      ],
+      "funding_type": "private",
+      "description_ar": "موسوعة رقمية موريتانية للتراث الموريتاني، وفيها قسم متخصص في منظومات السيرة الشنقيطية.",
+      "notes_ar": "ليست متخصصة في السيرة، السيرة قسم منها.\n[2026-05-16 الجولة 10 - استرجاع شريك محتمل] موسوعة موريتانية على نموذج ويكيبيديا",
+      "verification": "needs_verification",
+      "inclusion_tier": "borderline",
+      "sources": [
+        {
+          "round_file": "round-03-maghreb.md",
+          "anchor": "50-"
+        }
+      ],
+      "url": "https://chinguitipedia.net",
+      "subjects_category": [
+        "auxiliary_sciences",
+        "classical_corpus"
+      ],
+      "project_alignment": "audience_reference"
     }
   ],
   "migration_note": "2026-05-13: STRICT AUDIT + ROUND 9-A — 235 entities (Seerah-only)",
-  "url_audit_note": "2026-05-15: تَدقيق روابط الكيانات (الجولة 10) — 6 روابط ميّتة أُصلحت أو أُزيلت"
+  "url_audit_note": "2026-05-15: تَدقيق روابط الكيانات (الجولة 10) — 6 روابط ميّتة أُصلحت أو أُزيلت",
+  "restoration_note": "2026-05-16: استرجاع 34 كياناً شريكاً محتملاً من الـ514 المُستبعَدة في المراجعة الصارمة. مُوسومون بـ project_alignment."
 }

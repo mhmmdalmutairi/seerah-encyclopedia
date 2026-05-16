@@ -264,6 +264,7 @@
       status: new Set(),
       scale: new Set(),
       round: new Set(),
+      project_alignment: new Set(),
     },
     sort: "name_ar",
     selectedId: null,
@@ -700,7 +701,9 @@
       } catch (_e) { /* الملفّ اختياري، تجاهل الخطأ */ }
 
       // تحديث العدادات في الهيدر والتبويب
-      const totalCount = state.entities.length;
+      // ملاحظة: العدّاد يَعكس «الموسوعة الأساسية» (directly_aligned فقط) لا السجلّ الثانوي.
+      const coreEntities = state.entities.filter((e) => !e.project_alignment || e.project_alignment === 'directly_aligned');
+      const totalCount = coreEntities.length;
       const countEls = document.querySelectorAll('[data-count="entities"], [data-count="entities-header"]');
       countEls.forEach((el) => { el.textContent = String(totalCount); });
       const roundsEl = document.querySelector('[data-count="rounds"]');
@@ -709,7 +712,7 @@
       }
       const countriesEl = document.querySelector('[data-count="countries-header"]');
       if (countriesEl) {
-        const uniqueCountries = new Set(state.entities.map((e) => e.country).filter(Boolean));
+        const uniqueCountries = new Set(coreEntities.map((e) => e.country).filter(Boolean));
         countriesEl.textContent = String(uniqueCountries.size);
       }
 
@@ -1139,6 +1142,12 @@
         return (a.name_ar || "").localeCompare(b.name_ar || "", "ar");
       });
       return list;
+    }
+
+    // الموسوعة الافتراضية: تَستبعد السجلّ الثانوي (partial/methodology_reference/audience_reference)
+    // هذه الكيانات تَظهر فقط في وضع المشروع أو عند تَفعيل فلتر مخصّص.
+    if (!state.filters.project_alignment || state.filters.project_alignment.size === 0) {
+      list = list.filter((e) => !e.project_alignment || e.project_alignment === 'directly_aligned');
     }
 
     const sortField = state.sort;
