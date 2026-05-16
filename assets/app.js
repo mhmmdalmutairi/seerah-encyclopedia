@@ -491,6 +491,9 @@
       if (!state.loaded) loadEntities().then(() => renderExport());
       else renderExport();
     }
+    if (tabName === "health") {
+      renderHealth();
+    }
   }
 
   const staticPagesLoaded = new Set();
@@ -6355,6 +6358,167 @@
       out.push(P(docxLib, `${e.name_ar || ""} — [${e.id}] (${label("country", e.country)})`, { size: 20 }));
     });
     return out;
+  }
+
+  // ============================================================
+  // تبويب صحّة البيانات — تقرير الجودة الآلي
+  // ============================================================
+
+  let healthRendered = false;
+
+  async function renderHealth() {
+    if (healthRendered) return;
+    const container = document.querySelector("#tab-health .health-report");
+    if (!container) return;
+
+    container.innerHTML = '<div class="empty-state"><h3 class="empty-state__title">جاري تحميل تقرير الصحّة…</h3></div>';
+
+    try {
+      const resp = await fetch("data/quality_report.json");
+      if (!resp.ok) throw new Error("missing report");
+      const r = await resp.json();
+      container.innerHTML = "";
+      container.appendChild(buildHealthSummary(r));
+      container.appendChild(buildHealthCompleteness(r));
+      container.appendChild(buildHealthUrls(r));
+      container.appendChild(buildHealthGaps(r));
+      container.appendChild(buildHealthScores(r));
+      healthRendered = true;
+    } catch (e) {
+      container.innerHTML = `
+        <div class="empty-state">
+          <h3 class="empty-state__title">تقرير الصحّة غير متاح بعد</h3>
+          <p class="empty-state__hint">شغّل <code>python3 tools/quality_scan.py</code> لتوليد <code>data/quality_report.json</code>.</p>
+        </div>`;
+    }
+  }
+
+  function buildHealthSummary(r) {
+    const wrap = document.createElement("section");
+    wrap.className = "health-block";
+    const generated = (r.generated_at || "").slice(0, 10);
+    const t = r.totals || {};
+    const sc = r.scores || {};
+    wrap.innerHTML = `
+      <header class="health-block__head">
+        <h2>ملخّص</h2>
+        <span class="health-block__meta">آخر مسح: ${generated}</span>
+      </header>
+      <div class="health-stats">
+        <div class="health-stat"><div class="health-stat__num">${t.all_entities || 0}</div><div class="health-stat__lbl">إجمالي الكيانات</div></div>
+        <div class="health-stat"><div class="health-stat__num">${t.real || 0}</div><div class="health-stat__lbl">كيانات حقيقية</div></div>
+        <div class="health-stat"><div class="health-stat__num">${t.core || 0}</div><div class="health-stat__lbl">السجل الجوهري</div></div>
+        <div class="health-stat"><div class="health-stat__num">${t.secondary_register || 0}</div><div class="health-stat__lbl">السجل الثانوي</div></div>
+        <div class="health-stat"><div class="health-stat__num">${sc.avg || 0}<span class="health-stat__suf">/100</span></div><div class="health-stat__lbl">متوسط الجودة</div></div>
+        <div class="health-stat"><div class="health-stat__num">${sc.low_quality_count || 0}</div><div class="health-stat__lbl">كيانات تحت 60</div></div>
+      </div>`;
+    return wrap;
+  }
+
+  function buildHealthCompleteness(r) {
+    const wrap = document.createElement("section");
+    wrap.className = "health-block";
+    const c = r.completeness || {};
+    const rows = Object.entries(c)
+      .sort((a, b) => b[1].pct - a[1].pct)
+      .map(([f, d]) => {
+        const cls = d.pct >= 90 ? "ok" : d.pct >= 60 ? "warn" : "low";
+        return `
+          <div class="hbar">
+            <div class="hbar__lbl">${f}</div>
+            <div class="hbar__track"><div class="hbar__fill is-${cls}" style="width:${d.pct}%"></div></div>
+            <div class="hbar__pct">${d.pct}%<span class="hbar__count"> (${d.filled}/${d.total})</span></div>
+          </div>`;
+      })
+      .join("");
+    wrap.innerHTML = `
+      <header class="health-block__head"><h2>اكتمال الحقول</h2></header>
+      <div class="health-bars">${rows}</div>`;
+    return wrap;
+  }
+
+  function buildHealthUrls(r) {
+    const wrap = document.createElement("section");
+    wrap.className = "health-block";
+    const u = r.url_health || {};
+    if (u.skipped) {
+      wrap.innerHTML = `<header class="health-block__head"><h2>صحّة الروابط</h2></header><p class="health-note">تمّ تخطّي فحص الروابط في هذا المسح.</p>`;
+      return wrap;
+    }
+    const brokenList = (u.broken_list || [])
+      .map(([id, url]) => `<li><code>${id}</code> — <a href="${url}" rel="noopener noreferrer" target="_blank">${url}</a></li>`)
+      .join("");
+    wrap.innerHTML = `
+      <header class="health-block__head"><h2>صحّة الروابط</h2><span class="health-block__meta">${u.ok}/${u.total} روابط حيّة (${u.ok_pct}%)</span></header>
+      <div class="health-stats">
+        <div class="health-stat"><div class="health-stat__num">${u.total || 0}</div><div class="health-stat__lbl">إجمالي</div></div>
+        <div class="health-stat"><div class="health-stat__num is-ok">${u.ok || 0}</div><div class="health-stat__lbl">حيّ</div></div>
+        <div class="health-stat"><div class="health-stat__num is-low">${u.broken_404 || 0}</div><div class="health-stat__lbl">معطّل (404)</div></div>
+        <div class="health-stat"><div class="health-stat__num is-warn">${u.other_errors || 0}</div><div class="health-stat__lbl">أخطاء أخرى</div></div>
+      </div>
+      ${brokenList ? `<details class="health-details"><summary>الروابط المعطّلة (${u.broken_404 || 0})</summary><ul class="health-list">${brokenList}</ul></details>` : ""}`;
+    return wrap;
+  }
+
+  function buildHealthGaps(r) {
+    const wrap = document.createElement("section");
+    wrap.className = "health-block";
+    const g = r.gaps || {};
+    const renderLang = (g.languages || []).slice(0, 8).map(x =>
+      `<tr><td>${x.lang}</td><td>${x.demand_m}M</td><td>${x.supply}</td><td class="health-num">${x.m_per_entity}</td></tr>`
+    ).join("");
+    const renderCountry = (g.countries || []).slice(0, 8).map(x =>
+      `<tr><td>${x.country}</td><td>${x.demand_m}M</td><td>${x.supply}</td><td class="health-num">${x.m_per_entity}</td></tr>`
+    ).join("");
+    const renderSubj = (g.subjects || []).slice(0, 8).map(x =>
+      `<tr><td>${x.subject}</td><td class="health-num">${x.count}</td></tr>`
+    ).join("");
+    wrap.innerHTML = `
+      <header class="health-block__head"><h2>تحليل الفجوات</h2></header>
+      <div class="health-grid-3">
+        <div>
+          <h3>أعلى عبء لغوي (مليون/كيان)</h3>
+          <table class="health-table">
+            <thead><tr><th>اللغة</th><th>الطلب</th><th>العرض</th><th>العبء</th></tr></thead>
+            <tbody>${renderLang}</tbody>
+          </table>
+        </div>
+        <div>
+          <h3>أعلى عبء قُطْري (مليون/كيان)</h3>
+          <table class="health-table">
+            <thead><tr><th>الدولة</th><th>الطلب</th><th>العرض</th><th>العبء</th></tr></thead>
+            <tbody>${renderCountry}</tbody>
+          </table>
+        </div>
+        <div>
+          <h3>موضوعات بأقلّ تغطية</h3>
+          <table class="health-table">
+            <thead><tr><th>الموضوع</th><th>عدد الكيانات</th></tr></thead>
+            <tbody>${renderSubj}</tbody>
+          </table>
+        </div>
+      </div>`;
+    return wrap;
+  }
+
+  function buildHealthScores(r) {
+    const wrap = document.createElement("section");
+    wrap.className = "health-block";
+    const s = r.scores || {};
+    const low = s.low_quality || [];
+    const rows = low.map(x =>
+      `<tr><td><code>${x.id}</code></td><td>${x.name_ar}</td><td class="health-num">${x.score}</td></tr>`
+    ).join("");
+    wrap.innerHTML = `
+      <header class="health-block__head">
+        <h2>كيانات تحتاج إثراء</h2>
+        <span class="health-block__meta">جودة &lt; 60 — أوّل 20</span>
+      </header>
+      <table class="health-table">
+        <thead><tr><th>المعرّف</th><th>الاسم</th><th>الجودة</th></tr></thead>
+        <tbody>${rows || '<tr><td colspan="3" class="health-empty">لا يوجد كيانات تحت 60 — ممتاز.</td></tr>'}</tbody>
+      </table>`;
+    return wrap;
   }
 
   // === التشغيل الفعلي ===

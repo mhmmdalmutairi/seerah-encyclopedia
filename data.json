@@ -7462,7 +7462,7 @@
       "description_ar": "أول مسجد في إفريقيا في قرية نجاش بإقليم تيغراي يُنسب إلى الملك أصحمة النجاشي الذي آوى مهاجري الحبشة في صدر السيرة. يضم 15 قبراً منسوباً لأوائل المهاجرين، ويُعدّ مركزاً للزيارة والتدريس التراثي لأحداث الهجرة الأولى من مكة وقصة العلاقات الأولى للنبي ﷺ مع النجاشي. رُمّم بدعم تركي عبر TIKA واكتمل عام 2025.",
       "url": "https://en.wikipedia.org/wiki/Al_Nejashi_Mosque",
       "subjects": [
-        "hijra",
+        "early_islam",
         "seerah_general",
         "seerah_geography"
       ],
@@ -7939,9 +7939,7 @@
       "subjects": [
         "seerah_general",
         "seerah_geography",
-        "الجغرافيا التاريخية",
-        "السيرة المكية",
-        "تاريخ مكة"
+        "makkah_studies"
       ],
       "subjects_category": [],
       "key_figures": [
@@ -7984,9 +7982,9 @@
       "url": "https://www.dailysabah.com/turkiye/istanbul/istanbuls-hirka-i-serif-mosque-preserves-sacred-relic-of-prophet",
       "subjects": [
         "mawlid",
-        "athar_nabawi",
-        "ziyarah_traditions",
-        "ottoman_legacy"
+        "shamail",
+        "sufism_seerah",
+        "historiography"
       ],
       "subjects_category": [],
       "key_figures": [
@@ -8019,8 +8017,7 @@
       "url": "https://religionnews.com/2025/09/05/somalis-defy-militants-with-processions-to-mark-prophet-muhammads-birthday/",
       "subjects": [
         "mawlid",
-        "sufi_orders",
-        "horn_of_africa_islam"
+        "sufism_seerah"
       ],
       "subjects_category": [],
       "key_figures": [
@@ -8053,8 +8050,7 @@
       "url": "https://en.wikipedia.org/wiki/Meera_Makam_Mosque",
       "subjects": [
         "mawlid",
-        "south_asian_islam",
-        "sufi_orders"
+        "sufism_seerah"
       ],
       "subjects_category": [],
       "key_figures": [
@@ -8086,9 +8082,7 @@
       "url": "https://en.wikipedia.org/wiki/Mawlid",
       "subjects": [
         "mawlid",
-        "south_asian_islam",
-        "barelvi_movement",
-        "sufi_orders"
+        "sufism_seerah"
       ],
       "subjects_category": [],
       "key_figures": [
@@ -8121,9 +8115,8 @@
       "url": "https://www.facebook.com/smfkerala",
       "subjects": [
         "mawlid",
-        "south_asian_islam",
-        "arabi_malayalam_literature",
-        "sufi_orders"
+        "tarjamah",
+        "sufism_seerah"
       ],
       "subjects_category": [],
       "key_figures": [
@@ -8156,9 +8149,8 @@
       "description_ar": "وكالة سفر متخصّصة في برامج السيرة والحج والعمرة، تقدّم رحلة «على خطى الهجرة» (Hijrah Walk) بإشراف د. مازن وفريق علمي خلال 3 أيام مشياً على الأقدام بين مكة والمدينة، إضافة إلى برامج «Sacred Journey» العلمية مع الشيخ حسيب نور تشرح أحداث السيرة في مواقعها.",
       "url": "https://dstworldtravel.com/hijrawalk/",
       "subjects": [
-        "seerah_field_trips",
-        "hajj_umrah",
-        "hijrah_route"
+        "seerah_geography",
+        "makkah_studies"
       ],
       "subjects_category": [],
       "key_figures": [
@@ -8191,9 +8183,9 @@
       "description_ar": "مؤسسة متخصّصة في جولات السيرة في المسجد الحرام والمسجد النبوي، تشرح خلالها مواقع نزول الوحي، بيوت الصحابة، وأحداث المرحلة المكية والمدنية ميدانياً. تقدّم جولاتها بالإنجليزية والعربية وتستهدف زوّار الحرمين من غير الناطقين بالعربية.",
       "url": "https://legacy.institute/prophetic-legacy/",
       "subjects": [
-        "seerah_field_trips",
-        "haramayn_topography",
-        "english_outreach"
+        "seerah_geography",
+        "madinah_studies",
+        "tarjamah"
       ],
       "subjects_category": [],
       "key_figures": [
@@ -8225,7 +8217,7 @@
       "url": "https://news.ksu.edu.sa/ar/node/105505",
       "subjects": [
         "seerah_general",
-        "geography_seerah"
+        "seerah_geography"
       ],
       "subjects_category": [
         "classical_corpus"
@@ -8693,7 +8685,7 @@
       "url": "https://seerah.org/",
       "subjects": [
         "seerah_general",
-        "kids_seerah_resources"
+        "youth_outreach"
       ],
       "subjects_category": [
         "classical_corpus"
@@ -8727,7 +8719,7 @@
       "url": "https://isb.org/seerah/",
       "subjects": [
         "seerah_general",
-        "kids_seerah_resources"
+        "youth_outreach"
       ],
       "subjects_category": [
         "classical_corpus"
@@ -8825,8 +8817,8 @@
       "description_ar": "مشروع وطني سعودي ضخم يستعيد طريق هجرة النبي ﷺ من مكة إلى المدينة (470 كم) بترميم 41 معلَماً تاريخياً و8 محطات استراحة و50 نقطة إثرائية و5 محطات سرد تفاعلي. افتُتح بإشراف الأمير سلمان بن سلطان أمير المدينة وانطلقت دورته الأولى في نوفمبر 2025 باستضافة 300 ألف زائر مختار من مليون متقدّم عالمياً.",
       "url": "https://www.saudigazette.com.sa/article/648943/SAUDI-ARABIA/Saudi-Arabia-launches-In-the-Prophets-Steps-project-in-Madinah",
       "subjects": [
-        "geography_seerah",
-        "hijrah"
+        "seerah_geography",
+        "early_islam"
       ],
       "subjects_category": [],
       "key_figures": [
@@ -8849,7 +8841,7 @@
       "id": "ARB-096",
       "name_ar": "مؤسسة وقف «السلام عليك أيها النبي»",
       "name_en": "Al-Salam Alayka Ayyuha al-Nabi Endowment Project",
-      "type": "endowment_encyclopedia_project",
+      "type": "encyclopedia_project",
       "type_group": "research_education",
       "region": "arabia",
       "country": "SA",
@@ -8859,7 +8851,7 @@
       "subjects": [
         "seerah_general",
         "shamail",
-        "encyclopedia_project",
+        "biography_methodology",
         "seerah_pedagogy"
       ],
       "subjects_category": [
@@ -8921,7 +8913,7 @@
       "id": "ARB-098",
       "name_ar": "حدائق السيرة (الشريك التطويري QSAS – صندوق الاستثمارات العامة)",
       "name_en": "Alsirah Gardens (QSAS – Public Investment Fund)",
-      "type": "cultural_destination",
+      "type": "museum",
       "type_group": "research_education",
       "region": "arabia",
       "country": "SA",
@@ -8958,7 +8950,7 @@
       "id": "ARB-099",
       "name_ar": "معرض «الهجرة في خطى النبي ﷺ» – مركز الملك عبدالعزيز الثقافي العالمي (إثراء)",
       "name_en": "Hijrah: In the Footsteps of the Prophet – Ithra",
-      "type": "exhibition_program",
+      "type": "museum",
       "type_group": "research_education",
       "region": "arabia",
       "country": "SA",
@@ -9040,7 +9032,7 @@
       "url": "https://muhammadencyclopedia.org/",
       "subjects": [
         "seerah_general",
-        "encyclopedia_project",
+        "biography_methodology",
         "shamail",
         "sources_critique"
       ],
@@ -9103,7 +9095,7 @@
       "id": "NAM-246",
       "name_ar": "معهد نِثار فاطمة للسيرة ودراسات المرأة (NFISWS)",
       "name_en": "Nisar Fatima Institute of Sirah and Women Studies (NFISWS)",
-      "type": "research_institute",
+      "type": "research_center",
       "type_group": "research_education",
       "region": "non_arab_muslim",
       "country": "PK",
@@ -9140,7 +9132,7 @@
       "id": "ARB-101",
       "name_ar": "مشروع الخريطة التفاعلية للسيرة في مكة (SirahMaps)",
       "name_en": "SirahMaps – Interactive Sirah Maps",
-      "type": "digital_resource",
+      "type": "digital_platform",
       "type_group": "research_education",
       "region": "arabia",
       "country": "KW",
@@ -9188,7 +9180,7 @@
       "id": "LEV-035",
       "name_ar": "بوابة السيرة النبوية – وكلاء مشروع الأمير غازي (تطوير ITG)",
       "name_en": "Al Sirah Al Nabaweyya Portal – Prince Ghazi Trust / ITG",
-      "type": "digital_portal",
+      "type": "digital_platform",
       "type_group": "research_education",
       "region": "levant_iraq_nile",
       "country": "JO",
@@ -9296,7 +9288,7 @@
       "id": "ARB-102",
       "name_ar": "ممشى قباء التاريخي – هيئة تطوير منطقة المدينة المنورة",
       "name_en": "Quba Walking Trail – Madinah Region Development Authority",
-      "type": "heritage_path",
+      "type": "mosque_program",
       "type_group": "research_education",
       "region": "arabia",
       "country": "SA",
@@ -9545,7 +9537,7 @@
       "url": "https://open.spotify.com/show/08NJC1pIA0maaF6aKqZL4N",
       "subjects": [
         "seerah_general",
-        "seerah_battles"
+        "maghazi"
       ],
       "subjects_category": [
         "classical_corpus"
@@ -9737,7 +9729,7 @@
       "id": "WEST-184",
       "name_ar": "معهد السيرة - فرنسا",
       "name_en": "Institut SIRA",
-      "type": "research_education_institute",
+      "type": "university_center",
       "type_group": "research_education",
       "region": "western",
       "country": "FR",
@@ -9747,7 +9739,7 @@
       "subjects": [
         "seerah_general",
         "shamail",
-        "delail_nubuwwah",
+        "dalail_nubuwwa",
         "seerah_pedagogy",
         "tarjamah"
       ],
@@ -9821,7 +9813,7 @@
       "id": "NAM-251",
       "name_ar": "مجتمع السيرة بإندونيسيا",
       "name_en": "Sirah Community Indonesia (SCI)",
-      "type": "research_community",
+      "type": "research_center",
       "type_group": "research_education",
       "region": "non_arab_muslim",
       "country": "ID",
@@ -9858,7 +9850,7 @@
       "id": "NAM-252",
       "name_ar": "أكاديمية السيرة – الفاتح",
       "name_en": "Akademi Siroh - Akademi Alfatih",
-      "type": "academy",
+      "type": "university_center",
       "type_group": "research_education",
       "region": "non_arab_muslim",
       "country": "ID",
@@ -9867,7 +9859,7 @@
       "url": "https://akademialfatih.org/siroh",
       "subjects": [
         "seerah_general",
-        "fiqh_seerah",
+        "biography_methodology",
         "seerah_pedagogy"
       ],
       "subjects_category": [
@@ -9931,7 +9923,7 @@
       "id": "NAM-254",
       "name_ar": "همايش بين‌المللي تجلي 15 قرن نور نبوي",
       "name_en": "International Congress 'Manifestation of 15 Centuries of Prophetic Light in Science and Research'",
-      "type": "international_congress",
+      "type": "conference_series",
       "type_group": "research_education",
       "region": "non_arab_muslim",
       "country": "IR",
@@ -9966,7 +9958,7 @@
       "id": "NAM-255",
       "name_ar": "همايش بين‌المللي معارف نبوي و چالش‌های جهان امروز",
       "name_en": "International Conference on Prophetic Teachings and Challenges of Today's World",
-      "type": "international_conference",
+      "type": "conference_series",
       "type_group": "research_education",
       "region": "non_arab_muslim",
       "country": "IR",
@@ -9975,7 +9967,7 @@
       "url": "https://pkctw.atu.ac.ir/",
       "subjects": [
         "seerah_general",
-        "fiqh_seerah",
+        "biography_methodology",
         "orientalism_critique"
       ],
       "subjects_category": [
@@ -10000,7 +9992,7 @@
       "id": "WEST-186",
       "name_ar": "معهد دين القيمة – ليون",
       "name_en": "Institut Din-ul-Qayyima",
-      "type": "online_institute",
+      "type": "digital_platform",
       "type_group": "research_education",
       "region": "western",
       "country": "FR",
@@ -10010,7 +10002,7 @@
       "subjects": [
         "seerah_general",
         "shamail",
-        "delail_nubuwwah"
+        "dalail_nubuwwa"
       ],
       "subjects_category": [
         "classical_corpus"
@@ -10033,7 +10025,7 @@
       "id": "ARB-105",
       "name_ar": "مسابقة رابطة العالم الإسلامي العالمية للسيرة النبوية (1396هـ/1976م)",
       "name_en": "Muslim World League International Seerah Competition (1976)",
-      "type": "competition",
+      "type": "award",
       "type_group": "research_education",
       "region": "arabia",
       "country": "SA",
@@ -10042,7 +10034,6 @@
       "url": "https://themwl.org/",
       "subjects": [
         "seerah_general",
-        "competition",
         "tarjamah"
       ],
       "subjects_category": [
@@ -10067,7 +10058,7 @@
       "id": "WEST-187",
       "name_ar": "مشروع كوربس عروة بن الزبير – السيرة المبكرة",
       "name_en": "ʿUrwa b. al-Zubayr Sira Corpus Project",
-      "type": "research_project",
+      "type": "research_center",
       "type_group": "research_education",
       "region": "western",
       "country": "CH",
@@ -10078,7 +10069,7 @@
         "sources_critique",
         "biography_methodology",
         "early_islam",
-        "manuscript_studies"
+        "manuscripts"
       ],
       "subjects_category": [
         "auxiliary_sciences",
@@ -10111,9 +10102,7 @@
       "description_ar": "أكبر وأقدم مؤتمر سنوي عالمي مخصّص للسيرة النبوية، يُنظّمه التجمع الثقافي الإسلامي بموريتانيا برئاسة الشيخ محمد الحافظ النحوي. عُقدت الدورة الـ38 في سبتمبر 2025 بنواكشوط برعاية رئيس الجمهورية، بمشاركة علماء من عشرات الدول.",
       "url": "https://www.ami.mr/archives/206308",
       "subjects": [
-        "seerah_general",
-        "moderation",
-        "peace"
+        "seerah_general"
       ],
       "subjects_category": [
         "classical_corpus"
@@ -10145,8 +10134,7 @@
       "url": "https://www.mora.gov.pk/Detail/MDViYjAwMjYtYTA3MS00OWQ1LWE2ZDMtYmM2MGU1ZWEzOTll",
       "subjects": [
         "seerah_general",
-        "naat",
-        "harmony"
+        "mawlid"
       ],
       "subjects_category": [
         "classical_corpus"
@@ -10177,9 +10165,7 @@
       "description_ar": "مسابقة سنوية تنظمها وزارة الشؤون الدينية الباكستانية لأفضل المؤلفات في السيرة والنعت بالأردية والإنجليزية والعربية واللغات الإقليمية، بفئات للنساء والأطفال. تُسلَّم الجوائز ضمن المؤتمر الوطني للسيرة.",
       "url": "https://www.mora.gov.pk/",
       "subjects": [
-        "seerah_general",
-        "books",
-        "writing"
+        "seerah_general"
       ],
       "subjects_category": [
         "classical_corpus"
@@ -10212,7 +10198,7 @@
       "subjects": [
         "seerah_general",
         "mawlid",
-        "ethics"
+        "shamail"
       ],
       "subjects_category": [
         "classical_corpus"
@@ -10244,8 +10230,7 @@
       "url": "https://www.hbku.edu.qa/ar/SPC",
       "subjects": [
         "seerah_general",
-        "civilization",
-        "academic"
+        "biography_methodology"
       ],
       "subjects_category": [
         "classical_corpus"
@@ -10277,8 +10262,7 @@
       "url": "https://katarapoet.com/",
       "subjects": [
         "seerah_general",
-        "poetry",
-        "madih_nabawi"
+        "mawlid"
       ],
       "subjects_category": [
         "classical_corpus"
@@ -10310,8 +10294,7 @@
       "url": "https://mobdii.com/sirra/v4/",
       "subjects": [
         "seerah_general",
-        "academic",
-        "research"
+        "biography_methodology"
       ],
       "subjects_category": [
         "classical_corpus"
@@ -10343,8 +10326,8 @@
       "url": "https://iacad.gov.ae/",
       "subjects": [
         "seerah_general",
-        "education",
-        "youth"
+        "seerah_pedagogy",
+        "youth_outreach"
       ],
       "subjects_category": [
         "classical_corpus"
@@ -10376,8 +10359,7 @@
       "url": "https://siratolympiad.com/",
       "subjects": [
         "seerah_general",
-        "youth",
-        "competition"
+        "youth_outreach"
       ],
       "subjects_category": [
         "classical_corpus"
@@ -10409,8 +10391,7 @@
       "url": "https://www.siyersinavi.com/",
       "subjects": [
         "seerah_general",
-        "youth",
-        "competition"
+        "youth_outreach"
       ],
       "subjects_category": [
         "classical_corpus"
@@ -10442,8 +10423,7 @@
       "url": "https://www.meridyendernegi.org/",
       "subjects": [
         "seerah_general",
-        "academic",
-        "interdisciplinary"
+        "biography_methodology"
       ],
       "subjects_category": [
         "classical_corpus"
@@ -10475,8 +10455,7 @@
       "url": "https://icic.uin-malang.ac.id/",
       "subjects": [
         "seerah_general",
-        "academic",
-        "asia"
+        "biography_methodology"
       ],
       "subjects_category": [
         "classical_corpus"
@@ -10508,8 +10487,7 @@
       "url": "https://www.aiou.edu.pk/research-conferences",
       "subjects": [
         "seerah_general",
-        "academic",
-        "south_asia"
+        "biography_methodology"
       ],
       "subjects_category": [
         "classical_corpus"
@@ -10573,7 +10551,7 @@
         "auxiliary_sciences",
         "classical_corpus"
       ],
-      "project_alignment": "partial"
+      "project_alignment": "partially_aligned"
     },
     {
       "id": "ARB-024",
@@ -10629,7 +10607,7 @@
         "classical_corpus",
         "methodology_critique"
       ],
-      "project_alignment": "partial",
+      "project_alignment": "partially_aligned",
       "notes_ar": "[2026-05-16 الجولة 10 - استرجاع شريك محتمل] مركز قطري بإنتاج حضاري واسع يَشمل السيرة"
     },
     {
@@ -10667,7 +10645,7 @@
         "auxiliary_sciences"
       ],
       "description_ar": "مركز علمي كويتي متخصّص في خدمة السنة النبوية والسيرة، يُقدّم دورات تأهيلية وبحوثاً ومقررات في علوم الحديث وفقه السيرة، ويُسهم في إعداد المعلّمين والدعاة عبر برامج تدريبية ضمن مؤسسة الإنسان الخيرية.",
-      "project_alignment": "partial"
+      "project_alignment": "partially_aligned"
     },
     {
       "id": "ARB-075",
@@ -10712,7 +10690,7 @@
           "anchor": "ARB-075 — Oman Shari'a Institute"
         }
       ],
-      "project_alignment": "partial",
+      "project_alignment": "partially_aligned",
       "notes_ar": "[2026-05-16 الجولة 10 - استرجاع شريك محتمل] إرث عُماني يَستحقّ الشراكة، خاصة مع المتحف الجديد"
     },
     {
@@ -10761,7 +10739,7 @@
           "anchor": "ARB-071 — Higher Institute Imams"
         }
       ],
-      "project_alignment": "partial",
+      "project_alignment": "partially_aligned",
       "notes_ar": "[2026-05-16 الجولة 10 - استرجاع شريك محتمل] يُدرّب أئمة وخطباء الحرمين على السيرة كمحتوى منبري"
     },
     {
@@ -10804,7 +10782,7 @@
         "auxiliary_sciences",
         "classical_corpus"
       ],
-      "project_alignment": "partial"
+      "project_alignment": "partially_aligned"
     },
     {
       "id": "LEV-049",
@@ -10907,7 +10885,7 @@
         "classical_corpus",
         "methodology_critique"
       ],
-      "project_alignment": "partial",
+      "project_alignment": "partially_aligned",
       "notes_ar": "[2026-05-16 الجولة 10 - استرجاع شريك محتمل] أكبر منتج محتوى إسلامي بالإنجليزية، السيرة محور رئيس من محاوره"
     },
     {
@@ -10995,7 +10973,7 @@
         "classical_corpus"
       ],
       "url": "https://www.oxcis.ac.uk/",
-      "project_alignment": "partial"
+      "project_alignment": "partially_aligned"
     },
     {
       "id": "WEST-026",
@@ -11036,7 +11014,7 @@
         "prophetic_demography"
       ],
       "url": "https://www.birmingham.ac.uk/research/centres-institutes/research-in-philosophy-theology-and-religion/birmingham-islamic-studies",
-      "project_alignment": "partial",
+      "project_alignment": "partially_aligned",
       "notes_ar": "[2026-05-16 الجولة 10 - استرجاع شريك محتمل] يَخدم الحوار بين الأديان، وثيق الصلة بالمشروع 7 (ماذا ينقمون)"
     },
     {
@@ -11340,7 +11318,7 @@
       "output_types": [],
       "funding_type": "academic_host",
       "round": "08g",
-      "project_alignment": "partial",
+      "project_alignment": "partially_aligned",
       "notes_ar": "[2026-05-16 الجولة 10 - استرجاع شريك محتمل] الراعي الفكري لمجتمع السيرة الإندونيسي (NAM-022)"
     },
     {
@@ -11449,7 +11427,7 @@
         }
       ],
       "founded": 1985,
-      "project_alignment": "partial",
+      "project_alignment": "partially_aligned",
       "notes_ar": "[2026-05-16 الجولة 10 - استرجاع شريك محتمل] مركز بنجابي بإنتاج سيري ضمن الدراسات الإسلامية"
     },
     {
@@ -11580,7 +11558,7 @@
         "auxiliary_sciences",
         "classical_corpus"
       ],
-      "project_alignment": "partial",
+      "project_alignment": "partially_aligned",
       "notes_ar": "[2026-05-16 الجولة 10 - استرجاع شريك محتمل] بوابة جنوب شرق آسيا الإسلامية الإنجليزية"
     },
     {
@@ -11681,7 +11659,7 @@
         "classical_corpus"
       ],
       "url": "https://www.nadwa.in/en/",
-      "project_alignment": "partial",
+      "project_alignment": "partially_aligned",
       "notes_ar": "[2026-05-16 الجولة 10 - استرجاع شريك محتمل] أعرق مؤسسة ديوبندية هندية (1898م)"
     },
     {
@@ -11777,7 +11755,7 @@
         "auxiliary_sciences",
         "classical_corpus"
       ],
-      "project_alignment": "partial"
+      "project_alignment": "partially_aligned"
     },
     {
       "id": "NAM-048",
@@ -11972,7 +11950,7 @@
         "auxiliary_sciences",
         "classical_corpus"
       ],
-      "project_alignment": "partial"
+      "project_alignment": "partially_aligned"
     },
     {
       "id": "MAG-003",
@@ -12035,7 +12013,7 @@
         "auxiliary_sciences",
         "classical_corpus"
       ],
-      "project_alignment": "partial",
+      "project_alignment": "partially_aligned",
       "notes_ar": "[2026-05-16 الجولة 10 - استرجاع شريك محتمل] المظلّة الأم لمركز MAG-002، خادمة الإرث المغربي"
     },
     {
@@ -12082,7 +12060,7 @@
         "classical_corpus",
         "methodology_critique"
       ],
-      "project_alignment": "partial"
+      "project_alignment": "partially_aligned"
     },
     {
       "id": "MAG-050",

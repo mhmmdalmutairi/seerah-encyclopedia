@@ -140,6 +140,13 @@
               tabindex="-1">
         التصدير
       </button>
+      <button role="tab" class="tab"
+              data-tab="health"
+              aria-selected="false"
+              aria-controls="tab-health"
+              tabindex="-1">
+        صحّة البيانات
+      </button>
     </div>
   </nav>
 
@@ -317,6 +324,18 @@
         <div class="export">
           <div class="empty-state">
             <h3 class="empty-state__title">جاري تجهيز لوحة التصدير…</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- التبويب 8: صحّة البيانات -->
+    <section id="tab-health" class="panel" role="tabpanel"
+             aria-labelledby="tab-health-btn" aria-hidden="true">
+      <div class="container">
+        <div class="health-report">
+          <div class="empty-state">
+            <h3 class="empty-state__title">جاري تحميل تقرير الصحّة…</h3>
           </div>
         </div>
       </div>
