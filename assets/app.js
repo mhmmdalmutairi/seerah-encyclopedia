@@ -30,12 +30,12 @@
     });
   }
 
-  // Discreet footer toggle: flips localStorage and reloads
+  // Header toggle: flips localStorage and reloads
   function initSheikhToggle() {
     const btn = document.getElementById("sheikh-toggle");
     if (!btn) return;
     const lbl = btn.querySelector(".sheikh-toggle__lbl");
-    if (lbl) lbl.textContent = SHEIKH_MODE ? "طبقة المشروع نشطة" : "المشروع";
+    if (lbl) lbl.textContent = SHEIKH_MODE ? "إخفاء طبقة المشروع" : "طبقة المشروع";
     btn.addEventListener("click", function () {
       try {
         const cur = window.localStorage.getItem("sheikh_mode") === "1"

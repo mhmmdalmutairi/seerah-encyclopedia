@@ -5584,57 +5584,59 @@ mark.search-hit {
 }
 
 /* ============================================================
-   SHEIKH_MODE: hide project-analysis UI in public encyclopedia mode.
-   To enable: window.SHEIKH_MODE = true (in index.html), ?sheikh=1
-   (URL), or localStorage.setItem('sheikh_mode','1').
+   SHEIKH_MODE: hide project-analysis UI in public mode.
+   The class `sheikh-mode-on` is set on <html> by an inline script in
+   index.html (before this stylesheet loads), so visibility is correct
+   on the very first paint.
    ============================================================ */
 .sheikh-only { display: none !important; }
 
-/* Explicit display values per element type (since `revert` is unreliable
-   with !important on inactive panels) */
-html.sheikh-mode-on .tab.sheikh-only,
-body.sheikh-mode-on .tab.sheikh-only {
-  display: inline-flex !important;
-}
-html.sheikh-mode-on .panel.sheikh-only.is-active,
-body.sheikh-mode-on .panel.sheikh-only.is-active {
-  display: block !important;
-}
-html.sheikh-mode-on .panel.sheikh-only:not(.is-active),
-body.sheikh-mode-on .panel.sheikh-only:not(.is-active) {
-  display: none !important;
-}
-html.sheikh-mode-on button.sheikh-only,
-body.sheikh-mode-on button.sheikh-only {
-  display: inline-flex !important;
-}
+html.sheikh-mode-on .tab.sheikh-only { display: inline-flex !important; }
+html.sheikh-mode-on .panel.sheikh-only.is-active { display: block !important; }
+html.sheikh-mode-on .panel.sheikh-only:not(.is-active) { display: none !important; }
+html.sheikh-mode-on button.sheikh-only { display: inline-flex !important; }
 
-/* Discreet footer toggle for Sheikh layer (always visible) */
+/* Header toggle row + the discreet 🎯 button itself */
+.site-header__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.site-header__top .site-title { margin: 0; }
+
 .sheikh-toggle {
   background: transparent;
-  border: 1px solid rgba(255,255,255,0.15);
-  color: var(--color-text-muted, #888);
-  padding: 0.3rem 0.7rem;
+  border: 1px solid rgba(255,255,255,0.25);
+  color: rgba(255,255,255,0.65);
+  padding: 0.4rem 0.85rem;
   border-radius: 999px;
-  font-size: 0.75rem;
+  font-size: 0.8rem;
   cursor: pointer;
   font-family: inherit;
   transition: all 0.2s;
   display: inline-flex;
   align-items: center;
-  gap: 0.35rem;
-  margin-inline-start: 0.5rem;
-  opacity: 0.55;
+  gap: 0.4rem;
+  white-space: nowrap;
 }
 .sheikh-toggle:hover {
-  opacity: 1;
-  border-color: rgba(195,155,92,0.5);
-  color: var(--color-accent, #C39B5C);
-}
-body.sheikh-mode-on .sheikh-toggle {
-  background: rgba(195,155,92,0.15);
   border-color: var(--color-accent, #C39B5C);
-  color: var(--color-accent, #C39B5C);
-  opacity: 1;
+  color: #fff;
+  background: rgba(195,155,92,0.15);
 }
-.sheikh-toggle__icon { font-size: 0.85rem; }
+html.sheikh-mode-on .sheikh-toggle {
+  background: var(--color-accent, #C39B5C);
+  border-color: var(--color-accent, #C39B5C);
+  color: #fff;
+}
+html.sheikh-mode-on .sheikh-toggle:hover {
+  filter: brightness(1.1);
+}
+.sheikh-toggle__icon { font-size: 0.9rem; line-height: 1; }
+.sheikh-toggle__lbl { line-height: 1; }
+
+@media (max-width: 480px) {
+  .sheikh-toggle__lbl { display: none; } /* icon-only on tiny screens */
+}

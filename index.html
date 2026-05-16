@@ -48,20 +48,40 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="assets/styles.css">
-
   <!-- SHEIKH_MODE flag: set to true to expose the Sheikh Sa'ad al-Bakhit
-       project-analysis layer (tab «المشروع الجامع», projectMode toolbar
-       toggle, partnership annotations). Default false = public encyclopedia.
-       Override via URL: ?sheikh=1, or via localStorage: setItem('sheikh_mode','1'). -->
-  <script>window.SHEIKH_MODE = false;</script>
+       project-analysis layer. Default false = public encyclopedia.
+       Override via URL: ?sheikh=1, localStorage 'sheikh_mode', or the
+       header 🎯 toggle. -->
+  <script>
+    window.SHEIKH_MODE = false;
+    // Resolve early and apply class to <html> BEFORE styles.css loads,
+    // so .sheikh-only elements render correctly on the first frame.
+    (function () {
+      try {
+        var on = window.SHEIKH_MODE === true
+          || new URLSearchParams(window.location.search).get("sheikh") === "1"
+          || (window.localStorage && window.localStorage.getItem("sheikh_mode") === "1");
+        if (on) document.documentElement.classList.add("sheikh-mode-on");
+      } catch (e) {}
+    })();
+  </script>
+
+  <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
   <a href="#main-content" class="sr-only">تجاوز إلى المحتوى</a>
 
   <header class="site-header" role="banner">
     <div class="container site-header__inner">
-      <h1 class="site-title">موسوعة السيرة النبوية المؤسسية</h1>
+      <div class="site-header__top">
+        <h1 class="site-title">موسوعة السيرة النبوية المؤسسية</h1>
+        <button type="button" class="sheikh-toggle" id="sheikh-toggle"
+                aria-label="تبديل طبقة المشروع"
+                title="تفعيل/إخفاء طبقة «المشروع الجامع»">
+          <span class="sheikh-toggle__icon" aria-hidden="true">🎯</span>
+          <span class="sheikh-toggle__lbl">طبقة المشروع</span>
+        </button>
+      </div>
       <p class="site-tagline">
         رصد وتشخيص الكيانات المتخصصة في خدمة السيرة النبوية على مستوى العالم
       </p>
@@ -359,11 +379,6 @@
         <a href="suggest.html">📨 اقترح كياناً</a>
         <a href="feed.json">📡 RSS</a>
         <a href="https://github.com/mhmmdalmutairi/seerah-encyclopedia" target="_blank" rel="noopener">🐙 GitHub</a>
-        <button type="button" class="sheikh-toggle" id="sheikh-toggle"
-                aria-label="تبديل طبقة المشروع" title="تبديل عرض طبقة «المشروع الجامع»">
-          <span class="sheikh-toggle__icon" aria-hidden="true">🎯</span>
-          <span class="sheikh-toggle__lbl">المشروع</span>
-        </button>
       </nav>
     </div>
   </footer>
