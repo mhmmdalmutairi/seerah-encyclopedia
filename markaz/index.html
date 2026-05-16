@@ -1,0 +1,1077 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="color-scheme" content="light">
+<title>مركز السيرة النبوية الجامع — تشخيص استراتيجي</title>
+<meta name="description" content="عرض تقديمي لمشروع مركز السيرة النبوية الجامع، مَبني على مسح 472 كياناً في 52 دولة.">
+<meta property="og:title" content="مشروع مركز السيرة النبوية الجامع">
+<meta property="og:description" content="تشخيص استراتيجي على أوسع مسح عالمي لحقل السيرة">
+<meta property="og:type" content="website">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&family=Amiri:wght@400;700&display=swap" rel="stylesheet">
+
+<style>
+  :root {
+    --primary: #0A4D68;
+    --primary-dark: #073B52;
+    --accent: #C39B5C;
+    --accent-soft: #E0C896;
+    --ivory: #F5F1E8;
+    --ivory-warm: #EFE9D9;
+    --text: #1F2937;
+    --text-muted: #6B7280;
+    --white: #ffffff;
+    --shadow: 0 10px 40px rgba(10, 77, 104, 0.08);
+    --shadow-lg: 0 20px 60px rgba(10, 77, 104, 0.15);
+    --transition: 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body {
+    height: 100%;
+    overflow: hidden;
+    background: var(--ivory);
+    font-family: 'IBM Plex Sans Arabic', system-ui, -apple-system, sans-serif;
+    color: var(--text);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* Deck */
+  .deck { position: relative; width: 100vw; height: 100vh; overflow: hidden; }
+
+  .slide {
+    position: absolute;
+    inset: 0;
+    padding: clamp(2rem, 5vh, 4rem) clamp(2rem, 6vw, 6rem) clamp(5rem, 10vh, 7rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(50px);
+    transition: opacity var(--transition), transform var(--transition), visibility 0s linear 0.6s;
+    overflow: hidden;
+  }
+  .slide.is-active {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0);
+    transition: opacity var(--transition), transform var(--transition), visibility 0s linear 0s;
+  }
+  .slide.is-active .anim {
+    animation: fadeUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) both;
+  }
+  .slide.is-active .anim-1 { animation-delay: 0.1s; }
+  .slide.is-active .anim-2 { animation-delay: 0.25s; }
+  .slide.is-active .anim-3 { animation-delay: 0.4s; }
+  .slide.is-active .anim-4 { animation-delay: 0.55s; }
+  .slide.is-active .anim-5 { animation-delay: 0.7s; }
+  .slide.is-active .anim-6 { animation-delay: 0.85s; }
+
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(30px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+  @keyframes zoomIn {
+    from { opacity: 0; transform: scale(0.95); }
+    to   { opacity: 1; transform: scale(1); }
+  }
+  @keyframes drawLine {
+    from { width: 0; }
+    to   { width: 80px; }
+  }
+
+  /* Slide variants */
+  .slide--dark { background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%); color: #fff; }
+  .slide--accent { background: linear-gradient(135deg, var(--accent) 0%, #A8854D 100%); color: #fff; }
+  .slide--light { background: linear-gradient(135deg, var(--ivory) 0%, var(--ivory-warm) 100%); }
+
+  /* Decorative geometric overlay */
+  .slide::before {
+    content: '';
+    position: absolute;
+    top: -20%; left: -10%;
+    width: 60%; height: 60%;
+    background: radial-gradient(circle, currentColor 0.5px, transparent 1px);
+    background-size: 30px 30px;
+    opacity: 0.04;
+    pointer-events: none;
+  }
+  .slide--dark::after, .slide--accent::after {
+    content: '';
+    position: absolute;
+    bottom: 5%; right: 5%;
+    width: 240px; height: 240px;
+    border: 2px solid currentColor;
+    border-radius: 50%;
+    opacity: 0.08;
+    pointer-events: none;
+  }
+  .slide--dark::after { transform: scale(1.5); }
+
+  /* Typography */
+  .eyebrow {
+    font-size: clamp(0.85rem, 1.2vw, 1rem);
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: var(--accent);
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  .eyebrow::after {
+    content: '';
+    width: 80px;
+    height: 2px;
+    background: var(--accent);
+    border-radius: 1px;
+    animation: drawLine 1s cubic-bezier(0.16, 1, 0.3, 1) 0.4s both;
+  }
+  .slide--dark .eyebrow, .slide--accent .eyebrow {
+    color: var(--accent-soft);
+  }
+  .slide--dark .eyebrow::after, .slide--accent .eyebrow::after {
+    background: var(--accent-soft);
+  }
+
+  h1.title-xl {
+    font-family: 'Amiri', 'IBM Plex Sans Arabic', serif;
+    font-size: clamp(2.2rem, 5.5vw, 4.5rem);
+    line-height: 1.2;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 1rem;
+    letter-spacing: -0.01em;
+  }
+  .slide--dark h1.title-xl, .slide--accent h1.title-xl { color: #fff; }
+
+  h2.title-lg {
+    font-size: clamp(1.8rem, 4vw, 3rem);
+    line-height: 1.25;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 1rem;
+  }
+  .slide--dark h2.title-lg, .slide--accent h2.title-lg { color: #fff; }
+
+  .subtitle {
+    font-size: clamp(1.05rem, 1.6vw, 1.4rem);
+    color: var(--text-muted);
+    line-height: 1.6;
+    max-width: 60ch;
+  }
+  .slide--dark .subtitle, .slide--accent .subtitle {
+    color: rgba(255,255,255,0.85);
+  }
+
+  .body-text {
+    font-size: clamp(1rem, 1.4vw, 1.2rem);
+    line-height: 1.75;
+    color: var(--text);
+    max-width: 70ch;
+  }
+  .slide--dark .body-text, .slide--accent .body-text { color: rgba(255,255,255,0.92); }
+
+  strong { font-weight: 700; }
+
+  /* Stats grid */
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: clamp(1rem, 2vw, 2rem);
+    margin-top: 2rem;
+  }
+  .stat-card {
+    background: var(--white);
+    border-radius: 18px;
+    padding: clamp(1.2rem, 2vw, 1.8rem);
+    text-align: center;
+    box-shadow: var(--shadow);
+    border: 1px solid rgba(195, 155, 92, 0.15);
+  }
+  .stat-card__num {
+    font-family: 'Amiri', serif;
+    font-size: clamp(2rem, 4vw, 3.5rem);
+    font-weight: 700;
+    color: var(--primary);
+    line-height: 1;
+    display: block;
+  }
+  .stat-card__lbl {
+    margin-top: 0.6rem;
+    font-size: clamp(0.85rem, 1.1vw, 1rem);
+    color: var(--text-muted);
+    font-weight: 500;
+  }
+  .stat-card__suf { font-size: 0.5em; color: var(--accent); font-weight: 600; }
+
+  /* Comparison table */
+  .compare-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.85rem;
+    margin-top: 1.5rem;
+  }
+  .compare-item {
+    background: var(--white);
+    border-radius: 14px;
+    padding: 1.1rem 1.4rem;
+    box-shadow: var(--shadow);
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 1.5rem;
+    align-items: center;
+    border-inline-start: 4px solid var(--accent);
+  }
+  .compare-item__name { font-weight: 600; color: var(--primary); font-size: clamp(0.95rem, 1.2vw, 1.1rem); }
+  .compare-item__gap { font-size: clamp(0.85rem, 1vw, 1rem); color: var(--text); line-height: 1.55; }
+
+  /* Gap cards (5 gaps) */
+  .gaps-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.2rem;
+    margin-top: 2rem;
+  }
+  .gap-card {
+    background: var(--white);
+    border-radius: 16px;
+    padding: 1.5rem;
+    box-shadow: var(--shadow);
+    position: relative;
+    overflow: hidden;
+  }
+  .gap-card__num {
+    position: absolute;
+    top: -8px; left: -5px;
+    font-family: 'Amiri', serif;
+    font-size: 4.5rem;
+    color: var(--accent);
+    opacity: 0.18;
+    font-weight: 700;
+    line-height: 1;
+  }
+  .gap-card__title {
+    color: var(--primary);
+    font-weight: 700;
+    font-size: 1.1rem;
+    margin-bottom: 0.6rem;
+    position: relative;
+  }
+  .gap-card__desc {
+    font-size: 0.92rem;
+    color: var(--text);
+    line-height: 1.6;
+  }
+
+  /* Hero gap (single big card) */
+  .hero-gap {
+    background: var(--white);
+    border-radius: 24px;
+    padding: clamp(2rem, 4vw, 3rem);
+    box-shadow: var(--shadow-lg);
+    margin-top: 1.5rem;
+    position: relative;
+    overflow: hidden;
+    border-inline-start: 6px solid var(--accent);
+  }
+  .hero-gap__big {
+    font-family: 'Amiri', serif;
+    font-size: clamp(1.4rem, 2.5vw, 2rem);
+    color: var(--primary);
+    font-weight: 700;
+    line-height: 1.4;
+    margin-bottom: 1rem;
+  }
+  .hero-gap__bullets {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    margin-top: 1.2rem;
+  }
+  .pill {
+    background: var(--ivory);
+    color: var(--primary);
+    padding: 0.45rem 1rem;
+    border-radius: 999px;
+    font-size: 0.92rem;
+    font-weight: 500;
+    border: 1px solid rgba(195, 155, 92, 0.3);
+  }
+  .pill--accent {
+    background: var(--accent);
+    color: #fff;
+    border-color: var(--accent);
+  }
+
+  /* Partner table */
+  .partners-table {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.65rem;
+    max-height: 65vh;
+    overflow-y: auto;
+    padding-inline-end: 0.3rem;
+  }
+  .partner-row {
+    display: grid;
+    grid-template-columns: 1.4fr 0.7fr 2fr;
+    gap: 1rem;
+    background: var(--white);
+    padding: 0.95rem 1.2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(10, 77, 104, 0.05);
+    border-inline-start: 3px solid var(--accent);
+    align-items: center;
+  }
+  .partner-row__name { font-weight: 600; color: var(--primary); font-size: 0.98rem; }
+  .partner-row__country { font-size: 0.85rem; color: var(--text-muted); }
+  .partner-row__role { font-size: 0.92rem; color: var(--text); line-height: 1.5; }
+
+  /* Two-column for gaps 4+5 */
+  .two-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+  }
+  .col-card {
+    background: var(--white);
+    border-radius: 18px;
+    padding: 1.8rem;
+    box-shadow: var(--shadow);
+    border-top: 4px solid var(--accent);
+  }
+  .col-card__title {
+    color: var(--primary);
+    font-weight: 700;
+    font-size: clamp(1.2rem, 1.8vw, 1.5rem);
+    margin-bottom: 0.8rem;
+  }
+  .col-card__body {
+    color: var(--text);
+    line-height: 1.7;
+    font-size: 0.98rem;
+  }
+
+  /* Three rules */
+  .rules-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+  .rule-card {
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.2);
+    border-radius: 18px;
+    padding: 2rem;
+    text-align: center;
+    color: #fff;
+  }
+  .rule-card__num {
+    font-family: 'Amiri', serif;
+    font-size: 3.5rem;
+    color: var(--accent-soft);
+    line-height: 1;
+    margin-bottom: 0.8rem;
+    font-weight: 700;
+  }
+  .rule-card__title {
+    font-weight: 700;
+    font-size: 1.25rem;
+    margin-bottom: 0.6rem;
+  }
+  .rule-card__desc {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    opacity: 0.9;
+  }
+
+  /* Nav bar */
+  .deck-nav {
+    position: fixed;
+    bottom: 0; left: 0; right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 1rem 2rem;
+    z-index: 50;
+    background: linear-gradient(to top, rgba(255,255,255,0.92), transparent);
+    backdrop-filter: blur(8px);
+  }
+  .deck-nav__btn {
+    background: var(--white);
+    border: 1px solid rgba(195, 155, 92, 0.3);
+    color: var(--primary);
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+    font-size: 1.2rem;
+    box-shadow: var(--shadow);
+    transition: all 0.2s;
+  }
+  .deck-nav__btn:hover { background: var(--primary); color: #fff; transform: scale(1.05); }
+  .deck-nav__btn:disabled { opacity: 0.3; cursor: not-allowed; }
+  .deck-nav__btn:disabled:hover { background: var(--white); color: var(--primary); transform: none; }
+
+  .deck-dots {
+    display: flex;
+    gap: 0.5rem;
+    list-style: none;
+    align-items: center;
+  }
+  .deck-dot {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: rgba(10, 77, 104, 0.25);
+    cursor: pointer;
+    transition: all 0.3s;
+    border: none;
+    padding: 0;
+  }
+  .deck-dot.is-active {
+    background: var(--accent);
+    width: 32px;
+    border-radius: 5px;
+  }
+  .deck-dot:hover { background: rgba(195, 155, 92, 0.7); }
+
+  .deck-counter {
+    position: fixed;
+    top: 1.5rem;
+    inset-inline-start: 2rem;
+    background: rgba(255,255,255,0.85);
+    backdrop-filter: blur(8px);
+    padding: 0.4rem 0.9rem;
+    border-radius: 999px;
+    font-size: 0.85rem;
+    color: var(--primary);
+    font-weight: 600;
+    z-index: 50;
+    border: 1px solid rgba(195, 155, 92, 0.2);
+  }
+
+  .deck-brand {
+    position: fixed;
+    top: 1.5rem;
+    inset-inline-end: 2rem;
+    font-size: 0.82rem;
+    color: var(--text-muted);
+    z-index: 50;
+    background: rgba(255,255,255,0.85);
+    backdrop-filter: blur(8px);
+    padding: 0.4rem 0.9rem;
+    border-radius: 999px;
+    border: 1px solid rgba(195, 155, 92, 0.2);
+  }
+  .deck-brand a { color: var(--primary); text-decoration: none; font-weight: 600; }
+  .deck-brand a:hover { color: var(--accent); }
+
+  /* Cover slide */
+  .cover {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  .cover-ornament {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 2rem;
+    color: var(--accent);
+  }
+  .cover h1 {
+    font-family: 'Amiri', serif;
+    font-size: clamp(2.5rem, 7vw, 5.5rem);
+    color: var(--primary);
+    line-height: 1.2;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    max-width: 18ch;
+  }
+  .cover .subtitle {
+    font-size: clamp(1.1rem, 2vw, 1.5rem);
+    margin-top: 0.5rem;
+    max-width: 50ch;
+  }
+  .cover-meta {
+    margin-top: 3rem;
+    display: flex;
+    gap: 2.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .cover-meta__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .cover-meta__num {
+    font-family: 'Amiri', serif;
+    font-size: clamp(2rem, 4vw, 3rem);
+    color: var(--accent);
+    font-weight: 700;
+    line-height: 1;
+  }
+  .cover-meta__lbl {
+    font-size: 0.92rem;
+    color: var(--text-muted);
+    margin-top: 0.35rem;
+  }
+
+  /* The big statement slide */
+  .big-statement {
+    text-align: center;
+    max-width: 22ch;
+    margin: 0 auto;
+  }
+
+  /* Mobile */
+  @media (max-width: 768px) {
+    .slide { padding: 4rem 1.5rem 5.5rem; }
+    .stats-grid { grid-template-columns: repeat(2, 1fr); }
+    .compare-item { grid-template-columns: 1fr; gap: 0.5rem; }
+    .two-col { grid-template-columns: 1fr; }
+    .rules-grid { grid-template-columns: 1fr; }
+    .partner-row { grid-template-columns: 1fr; gap: 0.4rem; }
+    .partners-table { max-height: 60vh; }
+    .deck-counter { top: 0.8rem; inset-inline-start: 1rem; font-size: 0.78rem; }
+    .deck-brand { top: 0.8rem; inset-inline-end: 1rem; font-size: 0.78rem; }
+    .deck-nav { padding: 0.7rem; gap: 0.8rem; }
+    .deck-nav__btn { width: 38px; height: 38px; }
+    .gap-card__num { font-size: 3rem; }
+  }
+  @media (max-width: 480px) {
+    .stats-grid { grid-template-columns: 1fr 1fr; }
+    .gaps-grid { grid-template-columns: 1fr; }
+  }
+
+  /* Print fallback */
+  @media print {
+    .slide { position: relative !important; opacity: 1 !important; visibility: visible !important; transform: none !important; page-break-after: always; min-height: 100vh; }
+    .deck-nav, .deck-counter, .deck-brand { display: none !important; }
+  }
+</style>
+</head>
+<body>
+
+<div class="deck-counter">
+  <span id="cur">1</span> / <span id="total">15</span>
+</div>
+<div class="deck-brand">
+  مَركز السيرة الجامع · <a href="../" target="_blank">الموسوعة</a>
+</div>
+
+<main class="deck" id="deck">
+
+  <!-- Slide 1: Cover -->
+  <section class="slide slide--light is-active" data-slide="1">
+    <div class="cover">
+      <svg class="cover-ornament anim anim-1" viewBox="0 0 60 60" fill="none" stroke="currentColor" stroke-width="1.5">
+        <polygon points="30,3 36,18 52,18 39,29 44,46 30,36 16,46 21,29 8,18 24,18" fill="currentColor" fill-opacity="0.1"/>
+        <circle cx="30" cy="30" r="26" stroke-dasharray="3,3"/>
+      </svg>
+      <h1 class="anim anim-2">مَركز السيرة النبوية الجامع</h1>
+      <p class="subtitle anim anim-3">تشخيص استراتيجي على أوسع مسح عالمي لحقل السيرة المؤسسي</p>
+      <div class="cover-meta anim anim-4">
+        <div class="cover-meta__item">
+          <span class="cover-meta__num">472</span>
+          <span class="cover-meta__lbl">كياناً مرصوداً</span>
+        </div>
+        <div class="cover-meta__item">
+          <span class="cover-meta__num">52</span>
+          <span class="cover-meta__lbl">دولة</span>
+        </div>
+        <div class="cover-meta__item">
+          <span class="cover-meta__num">20</span>
+          <span class="cover-meta__lbl">جولة بحثية</span>
+        </div>
+        <div class="cover-meta__item">
+          <span class="cover-meta__num">٢٠٢٦</span>
+          <span class="cover-meta__lbl">مايو</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Slide 2: The Thesis -->
+  <section class="slide slide--dark" data-slide="2">
+    <div class="eyebrow anim anim-1">الرسالة الرئيسة</div>
+    <h1 class="title-xl big-statement anim anim-2">لا يوجد كيان مماثل في العالم</h1>
+    <p class="body-text anim anim-3" style="max-width: 75ch; margin-top: 1.5rem;">
+      بعد مَسح <strong>٤٧٢ كياناً</strong> في ٥٢ دولة عبر ٢٠ جولة بحثية موثَّقة، <strong>لا يوجد كيان واحد يَجمع الشمول والتكامل</strong> الذي تَقترحه وثيقة مشروع المركز:
+    </p>
+    <div class="anim anim-4" style="margin-top: 2rem; display: flex; flex-wrap: wrap; gap: 0.65rem; max-width: 80ch;">
+      <span class="pill pill--accent">المنصة الجامعة</span>
+      <span class="pill pill--accent">الموسوعة الموضوعية الأخلاقية</span>
+      <span class="pill pill--accent">الجامع للنصوص</span>
+      <span class="pill pill--accent">الأطلس التفاعلي</span>
+      <span class="pill pill--accent">قسم الطفل</span>
+      <span class="pill pill--accent">القسم الإنجليزي</span>
+      <span class="pill pill--accent">القسم البحثي</span>
+      <span class="pill pill--accent">شبهات وردود</span>
+    </div>
+    <p class="anim anim-5" style="margin-top: 2rem; font-style: italic; color: var(--accent-soft); font-size: 1.1rem;">
+      كلّها في كيان واحد لنفس الجمهور.
+    </p>
+  </section>
+
+  <!-- Slide 3: Scan Reliability -->
+  <section class="slide slide--light" data-slide="3">
+    <div class="eyebrow anim anim-1">أدلة الموثوقية</div>
+    <h2 class="title-lg anim anim-2">سعة المسح ودقّته</h2>
+    <p class="subtitle anim anim-3">قاعدة بيانات قابلة للتحقّق من أي طرف ثالث، مفتوحة المصدر تحت رخصة CC BY 4.0.</p>
+    <div class="stats-grid anim anim-4">
+      <div class="stat-card">
+        <span class="stat-card__num" data-count="472">472</span>
+        <span class="stat-card__lbl">كيان مَرصود</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-card__num" data-count="52">52</span>
+        <span class="stat-card__lbl">دولة</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-card__num" data-count="20">20</span>
+        <span class="stat-card__lbl">جولة بحث</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-card__num">86.6<span class="stat-card__suf">/100</span></span>
+        <span class="stat-card__lbl">متوسّط الجودة</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-card__num">92.2<span class="stat-card__suf">%</span></span>
+        <span class="stat-card__lbl">تحقُّق مكتبي</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-card__num" data-count="35">35</span>
+        <span class="stat-card__lbl">حقل بطاقة</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-card__num" data-count="14">14</span>
+        <span class="stat-card__lbl">حقل مكتمل ١٠٠٪</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-card__num">0</span>
+        <span class="stat-card__lbl">كيان تحت ٦٠</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Slide 4: Closest Peers -->
+  <section class="slide slide--light" data-slide="4">
+    <div class="eyebrow anim anim-1">أقرب النظراء — ولا يَكتمل أيّهم</div>
+    <h2 class="title-lg anim anim-2">خمسة أعمدة في الحقل، لكن لا يَجمع أيّهم كلّ المحاور</h2>
+    <div class="compare-list anim anim-3">
+      <div class="compare-item">
+        <div class="compare-item__name">وقف السيرة التركي (Siyer Vakfı)</div>
+        <div class="compare-item__gap">منصة قوية بالتركية — بلا قسم موضوعي أخلاقي تطبيقي</div>
+      </div>
+      <div class="compare-item">
+        <div class="compare-item__name">دار الرسول الأعظم العراقية</div>
+        <div class="compare-item__gap">قوي شيعي إمامي — يَفتقد البُعد الأمميّ السنّي</div>
+      </div>
+      <div class="compare-item">
+        <div class="compare-item__name">الهيئة العالمية للتعريف بالرسول ﷺ — رابطة العالم الإسلامي</div>
+        <div class="compare-item__gap">تَعريف بـ ٨ لغات — بلا موسوعية موضوعية تطبيقية</div>
+      </div>
+      <div class="compare-item">
+        <div class="compare-item__name">لجنة الموسوعة المصرية للسنة (المجلس الأعلى للشؤون الإسلامية)</div>
+        <div class="compare-item__gap">ناشئة (٢٠٢٤) — تَركز على السنة لا السيرة الموضوعية</div>
+      </div>
+      <div class="compare-item">
+        <div class="compare-item__name">موسوعة العاملي «الصحيح من سيرة النبي الأعظم» (35 مجلد)</div>
+        <div class="compare-item__gap">شيعي تأريخي روائي — لا موضوعي أخلاقي تطبيقي</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Slide 5: 5 Gaps Overview -->
+  <section class="slide slide--accent" data-slide="5">
+    <div class="eyebrow anim anim-1">القسم الثاني</div>
+    <h1 class="title-xl anim anim-2">خمس فجوات بنيوية</h1>
+    <p class="subtitle anim anim-3" style="color: rgba(255,255,255,0.92); margin-top: 0.5rem;">
+      لا يَخدمها أحد — أكبر فُرَص المشروع الأمميّ
+    </p>
+    <div class="gaps-grid anim anim-4">
+      <div class="gap-card">
+        <span class="gap-card__num">١</span>
+        <h3 class="gap-card__title">الموسوعة الموضوعية الأخلاقية</h3>
+        <p class="gap-card__desc">إدارة، تربية، أزمات، تواصل — منهجياً من السيرة. أكبر فجوة في الحقل.</p>
+      </div>
+      <div class="gap-card">
+        <span class="gap-card__num">٢</span>
+        <h3 class="gap-card__title">السيرة من كامل السنّة</h3>
+        <p class="gap-card__desc">جمع نصوص السيرة من جميع كتب السنّة وتَصنيفها زمنياً ومَوضوعياً.</p>
+      </div>
+      <div class="gap-card">
+        <span class="gap-card__num">٣</span>
+        <h3 class="gap-card__title">الأطلس التفاعلي ثلاثي الأبعاد</h3>
+        <p class="gap-card__desc">تَفاعلية رقمية ثلاثية الأبعاد للأحداث والأماكن — لا نظير لها.</p>
+      </div>
+      <div class="gap-card">
+        <span class="gap-card__num">٤</span>
+        <h3 class="gap-card__title">قناة سيرة تلفزيونية مَكرَّسة</h3>
+        <p class="gap-card__desc">صفر قناة عالمياً. فجوة سوقية مُؤكَّدة، خاصة في صيغة OTT.</p>
+      </div>
+      <div class="gap-card">
+        <span class="gap-card__num">٥</span>
+        <h3 class="gap-card__title">منظومة عربية-إنجليزية مُتكاملة</h3>
+        <p class="gap-card__desc">منهج موحَّد ثنائي اللسان من البداية — لا مجرَّد ترجمة.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Slide 6: Gap 1 — Topical Ethical -->
+  <section class="slide slide--light" data-slide="6">
+    <div class="eyebrow anim anim-1">الفجوة ١ — أكبر فجوة في الحقل</div>
+    <h2 class="title-lg anim anim-2">الموسوعة الموضوعية الأخلاقية التطبيقية</h2>
+    <div class="hero-gap anim anim-3">
+      <p class="hero-gap__big">لا يوجد كيان واحد يُقدّم موسوعة موضوعية للسيرة في الأخلاق التطبيقية. أقرب الموجود — سلسلة بنت الشاطئ عن سيدات بيت النبوة — جزئيّة.</p>
+      <p style="color: var(--text); line-height: 1.7;">المحاور الموضوعية الأخلاقية التي لا تَخدمها مؤسسة معاصرة بشمول:</p>
+      <div class="hero-gap__bullets">
+        <span class="pill">الإدارة النبوية للزواج</span>
+        <span class="pill">قيادة فرق العمل</span>
+        <span class="pill">التربية النبوية</span>
+        <span class="pill">إدارة الأزمات</span>
+        <span class="pill">التواصل الاجتماعي</span>
+        <span class="pill">الأخلاق الاقتصادية</span>
+        <span class="pill">الدبلوماسية والوفود</span>
+        <span class="pill">القيادة في الحرب</span>
+      </div>
+      <p style="margin-top: 1.5rem; padding: 1rem 1.2rem; background: var(--ivory); border-radius: 12px; color: var(--primary); font-weight: 600;">
+        بشهادة بيانات الـ ٤٧٢ كياناً: هذه — حالياً — أكبر إضافة مَمكنة في الحقل عالمياً.
+      </p>
+    </div>
+  </section>
+
+  <!-- Slide 7: Gap 2 — Sira from full Sunnah -->
+  <section class="slide slide--light" data-slide="7">
+    <div class="eyebrow anim anim-1">الفجوة ٢ — منهج لا نظير له</div>
+    <h2 class="title-lg anim anim-2">السيرة من كامل السنّة</h2>
+    <div class="hero-gap anim anim-3">
+      <p class="hero-gap__big">جمع نصوص السيرة من جميع كتب السنّة — الجوامع والصحاح والسنن والمسانيد والأجزاء — ثم تَصنيفها زمنياً ومَوضوعياً.</p>
+      <p style="color: var(--text); line-height: 1.7;">منهج لم يُنفَّذ بهذا الشمول في الـ ٤٧٢ كياناً المرصودة. أقرب نظير — موسوعة العاملي الشيعية — يَتبع منهجاً روائياً مختلفاً.</p>
+      <p style="margin-top: 1.5rem; padding: 1rem 1.2rem; background: var(--ivory); border-radius: 12px; color: var(--primary); font-weight: 600;">
+        هذا الجمع المنهجي = الإضافة الأكاديمية الكبرى التي تَجعل المشروع <strong>مرجعاً سنيّاً للسيرة</strong>.
+      </p>
+      <div class="hero-gap__bullets" style="margin-top: 1.2rem;">
+        <span class="pill">١١ مشروع تحقيق كلاسيكي مَفهرَس (ابن هشام، الواقدي، ابن سعد، البيهقي، السهيلي، الطبري، الصالحي الشامي…)</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Slide 8: Gap 3 — 3D Interactive Atlas -->
+  <section class="slide slide--light" data-slide="8">
+    <div class="eyebrow anim anim-1">الفجوة ٣ — التَفاعلية الرقمية</div>
+    <h2 class="title-lg anim anim-2">الأطلس التفاعلي ثلاثي الأبعاد</h2>
+    <div class="two-col anim anim-3">
+      <div class="col-card">
+        <h3 class="col-card__title">الموجود</h3>
+        <ul class="col-card__body" style="list-style: none; padding: 0;">
+          <li style="padding: 0.65rem 0; border-bottom: 1px solid var(--ivory-warm);"><strong>الأطلس الدارة السعودي</strong> — ساكن (PDF).</li>
+          <li style="padding: 0.65rem 0; border-bottom: 1px solid var(--ivory-warm);"><strong>SirahMaps</strong> — محدود بمكة فقط.</li>
+          <li style="padding: 0.65rem 0;"><strong>ديوراما إسطنبول</strong> — فيزيائي لا رقمي.</li>
+        </ul>
+      </div>
+      <div class="col-card" style="border-color: var(--accent); background: linear-gradient(135deg, var(--accent), #A8854D); color: #fff;">
+        <h3 class="col-card__title" style="color: #fff;">المَفقود</h3>
+        <p class="col-card__body" style="color: rgba(255,255,255,0.95); line-height: 1.7;">
+          التفاعلية الرقمية ثلاثية الأبعاد — يَتنقَّل المستخدم بين <strong>بيت خديجة</strong> ← <strong>غار حراء</strong> ← <strong>داخل الغار</strong> ← <strong>لحظة نزول الوحي</strong> — لا نظير لها في الـ ٤٧٢ كياناً.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Slide 9: Gaps 4+5 -->
+  <section class="slide slide--light" data-slide="9">
+    <div class="eyebrow anim anim-1">الفجوتان ٤ و ٥</div>
+    <h2 class="title-lg anim anim-2">التلفزيون والمنظومة ثنائية اللسان</h2>
+    <div class="two-col anim anim-3">
+      <div class="col-card">
+        <h3 class="col-card__title">٤. قناة سيرة تلفزيونية</h3>
+        <p class="col-card__body">
+          بعد فحص ٤٧٢ كياناً: <strong>صفر قناة تلفزيونية مَكرَّسة كلّياً للسيرة</strong>.
+          الأقرب: قناة السنة السعودية (سيرة جزئية). فجوة سوقية مُؤكَّدة عالمياً — خاصة في صيغة OTT (الإنترنت) بدل البثّ التقليدي.
+        </p>
+      </div>
+      <div class="col-card">
+        <h3 class="col-card__title">٥. منظومة ثنائية اللسان</h3>
+        <p class="col-card__body">
+          الفضاء الإنجليزي قوي (Yaqeen, AlMaghrib, Cambridge Muslim College) لكنّه <strong>مُستقل تماماً عن الفضاء العربي</strong>. الترجمة لا تَكفي — يَلزم منهج مُصاغ من البداية ثنائي اللسان.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Slide 10: 15 Partnerships Overview -->
+  <section class="slide slide--dark" data-slide="10">
+    <div class="eyebrow anim anim-1">القسم الثالث</div>
+    <h1 class="title-xl anim anim-2">١٥ شراكة استراتيجية</h1>
+    <p class="subtitle anim anim-3" style="color: rgba(255,255,255,0.92); margin-top: 0.5rem;">
+      مُصنَّفة في ثلاث فئات بحسب طبيعة التعاون
+    </p>
+    <div class="rules-grid anim anim-4" style="margin-top: 2.5rem;">
+      <div class="rule-card">
+        <div class="rule-card__num">أ</div>
+        <h3 class="rule-card__title">تَكاملية</h3>
+        <p class="rule-card__desc">مشاركة في البنية الأكاديمية — اعتماد، إشراف، تَوزيع أدوار</p>
+      </div>
+      <div class="rule-card">
+        <div class="rule-card__num">ب</div>
+        <h3 class="rule-card__title">إنتاج مشترك</h3>
+        <p class="rule-card__desc">محتوى متَّحد — دورات، شهادات، إنتاج تلفزيوني، ترجمة أمميّة</p>
+      </div>
+      <div class="rule-card">
+        <div class="rule-card__num">ج</div>
+        <h3 class="rule-card__title">مرجعية</h3>
+        <p class="rule-card__desc">الاستئناس بالتجربة — نماذج تحقيق، متاحف، مهرجانات، أرشيف</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Slide 11: Cat A — Integrative -->
+  <section class="slide slide--light" data-slide="11">
+    <div class="eyebrow anim anim-1">فئة أ — شراكات تَكاملية</div>
+    <h2 class="title-lg anim anim-2">مشاركة في البنية الأكاديمية</h2>
+    <div class="partners-table anim anim-3">
+      <div class="partner-row">
+        <div class="partner-row__name">وقف السيرة التركي (Siyer Vakfı)</div>
+        <div class="partner-row__country">تركيا</div>
+        <div class="partner-row__role">تَبادل المنهجية، نموذج الحوكمة، ترجمة الإنتاج</div>
+      </div>
+      <div class="partner-row">
+        <div class="partner-row__name">كرسي ابن باز للسيرة (الجامعة الإسلامية بالمدينة)</div>
+        <div class="partner-row__country">السعودية</div>
+        <div class="partner-row__role">اعتماد أكاديمي + إشراف بحثي على الإصدارات</div>
+      </div>
+      <div class="partner-row">
+        <div class="partner-row__name">لجنة الموسوعة المصرية للسنة (المجلس الأعلى للشؤون الإسلامية)</div>
+        <div class="partner-row__country">مصر</div>
+        <div class="partner-row__role">تَوزيع أدوار: هم السنة، نحن السيرة الموضوعية — لتجنُّب التَكرار</div>
+      </div>
+      <div class="partner-row">
+        <div class="partner-row__name">مجمع الملك سلمان للحديث النبوي</div>
+        <div class="partner-row__country">السعودية — المدينة</div>
+        <div class="partner-row__role">تَحقيق نصوص السيرة من كامل السنة</div>
+      </div>
+      <div class="partner-row">
+        <div class="partner-row__name">دار المصطفى تريم — الحبيب عمر بن حفيظ</div>
+        <div class="partner-row__country">اليمن — حضرموت</div>
+        <div class="partner-row__role">قسم الحديث الصوفي + نموذج التأثير المعنوي</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Slide 12: Cat B — Production -->
+  <section class="slide slide--light" data-slide="12">
+    <div class="eyebrow anim anim-1">فئة ب — شراكات إنتاج</div>
+    <h2 class="title-lg anim anim-2">محتوى مُشترَك ومُوحَّد</h2>
+    <div class="partners-table anim anim-3">
+      <div class="partner-row">
+        <div class="partner-row__name">Yaqeen Institute</div>
+        <div class="partner-row__country">الولايات المتحدة</div>
+        <div class="partner-row__role">محتوى إنجليزي مشترك + شهادات قَصيرة للموسوعة الموضوعية</div>
+      </div>
+      <div class="partner-row">
+        <div class="partner-row__name">AlMaghrib Institute</div>
+        <div class="partner-row__country">كندا / المملكة المتحدة</div>
+        <div class="partner-row__role">دورات إنجليزية معتمدة بالمنهجية + برامج موَّحَدة</div>
+      </div>
+      <div class="partner-row">
+        <div class="partner-row__name">لجنة السيرة الوطنية البنغلاديشية (Jatiya Seerat Committee)</div>
+        <div class="partner-row__country">بنغلاديش</div>
+        <div class="partner-row__role">الترجمة البنغالية + شراكة أمميّة (١٥٣ مليون مسلم)</div>
+      </div>
+      <div class="partner-row">
+        <div class="partner-row__name">Diyanet TV</div>
+        <div class="partner-row__country">تركيا</div>
+        <div class="partner-row__role">إنتاج تلفزيوني بالعربية والتركية — برامج «السيرة في أسبوعها»</div>
+      </div>
+      <div class="partner-row">
+        <div class="partner-row__name">كراسي الطب النبوي السعودية (KAU جميل + PSAU بن غنيم)</div>
+        <div class="partner-row__country">السعودية</div>
+        <div class="partner-row__role">إنتاج مُشترك في تَخصُّص «الطب النبوي التطبيقي»</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Slide 13: Cat C — Reference -->
+  <section class="slide slide--light" data-slide="13">
+    <div class="eyebrow anim anim-1">فئة ج — شراكات مرجعية</div>
+    <h2 class="title-lg anim anim-2">الاستئناس بالتجربة الميدانية</h2>
+    <div class="partners-table anim anim-3">
+      <div class="partner-row">
+        <div class="partner-row__name">مركز ابن القطان لتحقيق التراث</div>
+        <div class="partner-row__country">المغرب</div>
+        <div class="partner-row__role">نموذج التحقيق الكلاسيكي للنصوص</div>
+      </div>
+      <div class="partner-row">
+        <div class="partner-row__name">المعرض والمتحف الدولي للسيرة النبوية (الرابطة)</div>
+        <div class="partner-row__country">السعودية — المدينة</div>
+        <div class="partner-row__role">نموذج المتحف التفاعلي الجامع</div>
+      </div>
+      <div class="partner-row">
+        <div class="partner-row__name">مهرجان مولد لامو السنوي</div>
+        <div class="partner-row__country">كينيا</div>
+        <div class="partner-row__role">نموذج التفاعل الجماهيري الإفريقي</div>
+      </div>
+      <div class="partner-row">
+        <div class="partner-row__name">مجلة Int'l Journal of Islamic and Complementary Medicine (IJICM)</div>
+        <div class="partner-row__country">إندونيسيا</div>
+        <div class="partner-row__role">نموذج المجلة المحكَّمة في تَخصُّص فرعي</div>
+      </div>
+      <div class="partner-row">
+        <div class="partner-row__name">IslamHouse و Dorar.net (قسم السيرة)</div>
+        <div class="partner-row__country">السعودية</div>
+        <div class="partner-row__role">نموذج الأرشيف الرقمي متعدد اللغات</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Slide 14: Timing -->
+  <section class="slide slide--accent" data-slide="14">
+    <div class="eyebrow anim anim-1">⏱ التوقيت حرج</div>
+    <h1 class="title-xl anim anim-2">٢٠٢٦–٢٠٢٧ هي النافذة الذهبية</h1>
+    <div class="anim anim-3" style="margin-top: 2rem; display: flex; flex-direction: column; gap: 1rem; max-width: 70ch;">
+      <div style="background: rgba(255,255,255,0.15); backdrop-filter: blur(8px); padding: 1.2rem 1.5rem; border-radius: 14px; color: #fff; font-size: 1.05rem; line-height: 1.6;">
+        ⚡ <strong>اللجنة المصرية</strong> ستُكمل موسوعتها للسنة في <strong>٣–٥ سنوات</strong>
+      </div>
+      <div style="background: rgba(255,255,255,0.15); backdrop-filter: blur(8px); padding: 1.2rem 1.5rem; border-radius: 14px; color: #fff; font-size: 1.05rem; line-height: 1.6;">
+        ⚡ <strong>وقف السيرة التركي</strong> يَتوسَّع باستمرار
+      </div>
+      <div style="background: rgba(255,255,255,0.15); backdrop-filter: blur(8px); padding: 1.2rem 1.5rem; border-radius: 14px; color: #fff; font-size: 1.05rem; line-height: 1.6;">
+        ⚡ <strong>الفضاء الإنجليزي</strong> يَنضج بسرعة (Yaqeen, AlMaghrib, Cambridge)
+      </div>
+    </div>
+    <p class="anim anim-4" style="margin-top: 2rem; font-size: 1.3rem; color: #fff; font-weight: 600; max-width: 60ch;">
+      إذا لم يَنطلق المشروع في النافذة، يَفقد فُرصة التَموضع الأمميّ المستقل.
+    </p>
+  </section>
+
+  <!-- Slide 15: Final Recommendation -->
+  <section class="slide slide--dark" data-slide="15">
+    <div class="eyebrow anim anim-1">التوصية الختامية</div>
+    <h1 class="title-xl anim anim-2">ثلاث قواعد للنجاح</h1>
+    <div class="rules-grid anim anim-3">
+      <div class="rule-card">
+        <div class="rule-card__num">١</div>
+        <h3 class="rule-card__title">التَخصُّص قبل الانتشار</h3>
+        <p class="rule-card__desc">ابدأ بـ«الموضوعية الأخلاقية التطبيقية» — لا بمنصة جامعة عامة. الفجوة الأقوى نقطة الانطلاق الأولى.</p>
+      </div>
+      <div class="rule-card">
+        <div class="rule-card__num">٢</div>
+        <h3 class="rule-card__title">الشراكة قبل المنافسة</h3>
+        <p class="rule-card__desc">تواصل مبكر مع اللجنة المصرية، وقف السيرة التركي، Yaqeen. زيارات ميدانية قبل الإطلاق.</p>
+      </div>
+      <div class="rule-card">
+        <div class="rule-card__num">٣</div>
+        <h3 class="rule-card__title">الإطلاق قبل الكَمال</h3>
+        <p class="rule-card__desc">نموذج أوّليّ في ١٢ شهراً، ثم البناء التدريجي. الزمن أهمّ من الكَمال الأوليّ.</p>
+      </div>
+    </div>
+    <p class="anim anim-4" style="text-align: center; margin-top: 2.5rem; font-size: 1.15rem; color: var(--accent-soft); font-family: 'Amiri', serif; font-weight: 700;">
+      الموسوعة جاهزة كقاعدة معرفية. الكلمة للشيخ والفريق القيادي.
+    </p>
+  </section>
+
+</main>
+
+<nav class="deck-nav" aria-label="تنقّل بين الشرائح">
+  <button class="deck-nav__btn" id="next" aria-label="التالي">←</button>
+  <ul class="deck-dots" id="dots" role="tablist"></ul>
+  <button class="deck-nav__btn" id="prev" aria-label="السابق">→</button>
+</nav>
+
+<script>
+(function() {
+  const slides = Array.from(document.querySelectorAll('.slide'));
+  const total = slides.length;
+  document.getElementById('total').textContent = total;
+  let current = 0;
+
+  // Build dots
+  const dotsContainer = document.getElementById('dots');
+  slides.forEach((_, i) => {
+    const li = document.createElement('li');
+    const btn = document.createElement('button');
+    btn.className = 'deck-dot' + (i === 0 ? ' is-active' : '');
+    btn.setAttribute('aria-label', `الشريحة ${i + 1}`);
+    btn.addEventListener('click', () => goTo(i));
+    li.appendChild(btn);
+    dotsContainer.appendChild(li);
+  });
+  const dots = Array.from(dotsContainer.querySelectorAll('.deck-dot'));
+
+  function goTo(idx) {
+    if (idx < 0 || idx >= total || idx === current) return;
+    slides[current].classList.remove('is-active');
+    dots[current].classList.remove('is-active');
+    current = idx;
+    slides[current].classList.add('is-active');
+    dots[current].classList.add('is-active');
+    document.getElementById('cur').textContent = current + 1;
+    updateNavState();
+    window.location.hash = `slide-${current + 1}`;
+  }
+
+  function updateNavState() {
+    document.getElementById('next').disabled = current === total - 1;
+    document.getElementById('prev').disabled = current === 0;
+  }
+
+  // RTL: "next" arrow (←) moves forward, "prev" arrow (→) moves backward
+  document.getElementById('next').addEventListener('click', () => goTo(current + 1));
+  document.getElementById('prev').addEventListener('click', () => goTo(current - 1));
+
+  // Keyboard
+  document.addEventListener('keydown', (e) => {
+    if (['ArrowLeft', 'PageDown', ' '].includes(e.key)) { e.preventDefault(); goTo(current + 1); }
+    if (['ArrowRight', 'PageUp'].includes(e.key)) { e.preventDefault(); goTo(current - 1); }
+    if (e.key === 'Home') { e.preventDefault(); goTo(0); }
+    if (e.key === 'End') { e.preventDefault(); goTo(total - 1); }
+  });
+
+  // Touch swipe (mobile)
+  let touchStartX = 0;
+  document.addEventListener('touchstart', (e) => { touchStartX = e.changedTouches[0].screenX; }, { passive: true });
+  document.addEventListener('touchend', (e) => {
+    const dx = e.changedTouches[0].screenX - touchStartX;
+    if (Math.abs(dx) < 60) return;
+    if (dx < 0) goTo(current + 1);  // swipe left (in RTL = next)
+    else goTo(current - 1);
+  }, { passive: true });
+
+  // URL hash on load
+  const hash = window.location.hash.match(/slide-(\d+)/);
+  if (hash) {
+    const i = parseInt(hash[1], 10) - 1;
+    if (i > 0 && i < total) goTo(i);
+  }
+
+  // Click anywhere on slide (except dots, buttons, links) → next
+  document.querySelector('.deck').addEventListener('click', (e) => {
+    if (e.target.closest('button, a, .deck-nav, .deck-dots, .partners-table')) return;
+    goTo(current + 1);
+  });
+
+  updateNavState();
+})();
+</script>
+</body>
+</html>
