@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-16T08:51:44.674561Z",
+  "generated_at": "2026-05-16T09:03:29.510729Z",
   "totals": {
     "all_entities": 322,
     "real": 320,
@@ -239,14 +239,6 @@
         "count": 0
       },
       {
-        "subject": "tabaqat_companions",
-        "count": 0
-      },
-      {
-        "subject": "rashidun",
-        "count": 0
-      },
-      {
         "subject": "hadith_sciences",
         "count": 0
       },
@@ -255,7 +247,15 @@
         "count": 1
       },
       {
+        "subject": "tabaqat_companions",
+        "count": 1
+      },
+      {
         "subject": "women_in_seerah",
+        "count": 1
+      },
+      {
+        "subject": "rashidun",
         "count": 1
       },
       {
@@ -283,16 +283,16 @@
         "count": 4
       },
       {
-        "subject": "ahlulbayt",
-        "count": 5
-      },
-      {
         "subject": "comparative_religion",
         "count": 5
       },
       {
+        "subject": "ahlulbayt",
+        "count": 5
+      },
+      {
         "subject": "dalail_nubuwwa",
-        "count": 6
+        "count": 8
       }
     ],
     "countries": [

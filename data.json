@@ -130,7 +130,8 @@
         "ar"
       ],
       "subjects": [
-        "seerah_general"
+        "seerah_general",
+        "biography_methodology"
       ],
       "key_figures": [
         "عبدالرحمن الرميح"
@@ -661,7 +662,8 @@
         "ar"
       ],
       "subjects": [
-        "seerah_general"
+        "seerah_general",
+        "mawlid"
       ],
       "key_figures": [
         "حمد الشيباني"
@@ -1013,7 +1015,8 @@
         "ar"
       ],
       "subjects": [
-        "seerah_general"
+        "seerah_general",
+        "biography_methodology"
       ],
       "parent_organization_ar": "الجامعة الإسلامية بالمدينة المنورة",
       "notes_ar": "لم يُعثر على وثيقة تأسيس صريحة بهذا المسمى رغم ورود الإشارة في القائمة الاسترشادية. الموثَّق هو «مؤسسة الشيخ عبدالعزيز بن باز الخيرية» التي ليست متخصصة حصراً في السيرة.",
@@ -3112,7 +3115,9 @@
       ],
       "subjects": [
         "seerah_general",
-        "biography_methodology"
+        "biography_methodology",
+        "historiography",
+        "seerah_pedagogy"
       ],
       "key_figures": [
         "محمد أبايدن"
@@ -3238,7 +3243,9 @@
         "tr"
       ],
       "subjects": [
-        "seerah_general"
+        "seerah_general",
+        "historiography",
+        "seerah_pedagogy"
       ],
       "key_figures": [
         "حنفي بالابيق"
@@ -3276,7 +3283,9 @@
         "tr"
       ],
       "subjects": [
-        "seerah_general"
+        "seerah_general",
+        "historiography",
+        "seerah_pedagogy"
       ],
       "key_figures": [
         "عبد الله أردم طاش"
@@ -3314,7 +3323,9 @@
         "tr"
       ],
       "subjects": [
-        "seerah_general"
+        "seerah_general",
+        "historiography",
+        "seerah_pedagogy"
       ],
       "key_figures": [
         "ياسين يلماز"
@@ -3352,7 +3363,9 @@
         "tr"
       ],
       "subjects": [
-        "seerah_general"
+        "seerah_general",
+        "historiography",
+        "seerah_pedagogy"
       ],
       "funding_type": "state",
       "verification": "desk_verified",
@@ -3387,7 +3400,9 @@
         "tr"
       ],
       "subjects": [
-        "seerah_general"
+        "seerah_general",
+        "historiography",
+        "seerah_pedagogy"
       ],
       "funding_type": "state",
       "verification": "desk_verified",
@@ -4266,7 +4281,9 @@
         "tr"
       ],
       "subjects": [
-        "seerah_general"
+        "seerah_general",
+        "mawlid",
+        "youth_outreach"
       ],
       "parent_organization_ar": "SAMER",
       "funding_type": "state",
@@ -4876,7 +4893,9 @@
         "tr"
       ],
       "subjects": [
-        "seerah_general"
+        "seerah_general",
+        "biography_methodology",
+        "youth_outreach"
       ],
       "key_figures": [
         "عدنان دميرجان"
@@ -4919,7 +4938,8 @@
         "tr"
       ],
       "subjects": [
-        "seerah_general"
+        "seerah_general",
+        "biography_methodology"
       ],
       "key_figures": [
         "عمر إلبيلي",
@@ -4971,7 +4991,8 @@
         "ar"
       ],
       "subjects": [
-        "seerah_general"
+        "seerah_general",
+        "mawlid"
       ],
       "parent_organization_ar": "Ministry of Religious Affairs and Interfaith Harmony, Pakistan",
       "funding_type": "state",
@@ -5031,7 +5052,8 @@
         "en"
       ],
       "subjects": [
-        "seerah_general"
+        "seerah_general",
+        "biography_methodology"
       ],
       "parent_organization_ar": "جامعة كراتشي",
       "funding_type": "state",
@@ -5195,7 +5217,8 @@
         "ar"
       ],
       "subjects": [
-        "seerah_general"
+        "seerah_general",
+        "biography_methodology"
       ],
       "parent_organization_ar": "كلية لاهور للنساء (LCWU)",
       "funding_type": "state",
@@ -8249,7 +8272,8 @@
       "description_ar": "جائزة دولية أطلقها رئيس الجمهورية الجزائرية عبد المجيد تبون عام 2025 بقرار رسمي بمناسبة المولد النبوي، تُنظَّمها وزارة الشؤون الدينية والأوقاف، وتهدف إلى ترسيخ القيم النبوية ونشر سيرة الرسول ﷺ في أبعادها الروحية والحضارية والإنسانية، وتشكّل منبراً علمياً وثقافياً يبرز عظمة الرسالة المحمدية.",
       "url": "https://algeriemaintenant.dz/2025/09/%D8%A7%D9%84%D8%B3%D9%8A%D8%B1%D8%A9/",
       "subjects": [
-        "seerah_general"
+        "seerah_general",
+        "mawlid"
       ],
       "subjects_category": [
         "classical_corpus"
@@ -8336,7 +8360,8 @@
       "description_ar": "أحد كراسي السيرة النبوية التسعة المعتمدة من لجنة التعليم العالي الباكستانية (HEC) عام 2014 بميزانية 189 مليون روبية، أُسّس في جامعة التعليم بلاهور ويُعنى حصراً بالبحث في السيرة النبوية من خلال زاوية حقوق الإنسان والعدالة كما طبّقها النبي ﷺ، وتعزيز قيم الإنصاف النبوي.",
       "url": "https://www.thenews.com.pk/print/397138-is-govt-s-seerat-chair-initiative-new",
       "subjects": [
-        "seerah_general"
+        "seerah_general",
+        "biography_methodology"
       ],
       "subjects_category": [
         "classical_corpus"
@@ -8379,7 +8404,10 @@
       "description_ar": "كرسي سيرة نبوية بالجامعة الإسلامية الدولية بإسلام آباد ضمن مشروع HEC لتسعة كراسي سيرة، يتخصّص في البحث في السيرة النبوية من زاوية بناء السلام العالمي والوئام الإنساني انطلاقاً من نموذج النبي ﷺ، ويختلف عن قسم السيرة والتاريخ الإسلامي في الجامعة (المسجّل سابقاً) كونه كرسياً بحثياً مستقلاً.",
       "url": "https://www.thenews.com.pk/print/397138-is-govt-s-seerat-chair-initiative-new",
       "subjects": [
-        "seerah_general"
+        "seerah_general",
+        "historiography",
+        "biography_methodology",
+        "seerah_pedagogy"
       ],
       "subjects_category": [
         "classical_corpus"
@@ -8421,7 +8449,8 @@
       "description_ar": "أوّل كراسي السيرة المنفّذة ضمن مشروع HEC الباكستاني، أُسّس في جامعة بيشاور عام 2016 وتولّى رئاسته البروفيسور قبلة أياز. يركّز على البحث في السيرة النبوية بزاوية الوئام بين الأديان والانسجام المجتمعي مستلهماً من تعامل النبي ﷺ مع غير المسلمين.",
       "url": "https://www.thenews.com.pk/print/397138-is-govt-s-seerat-chair-initiative-new",
       "subjects": [
-        "seerah_general"
+        "seerah_general",
+        "biography_methodology"
       ],
       "subjects_category": [
         "classical_corpus"
@@ -8454,7 +8483,9 @@
       "description_ar": "هيئة أيديولوجية فدرالية للحكومة الباكستانية تأسّست بمرسوم رئاسي في 13 أكتوبر 2021 ثم بقانون برلماني عام 2022 تحت وزارة التعليم الفدرالية. مهمّتها الحصرية تعزيز البحث في السيرة النبوية النظري والتطبيقي، وتطوير مناهج تربية الشخصية المستوحاة من سيرة النبي ﷺ، ودعم كراسي السيرة في التعليم العالي، وأطلقت أول منهج وطني لتربية الشخصية مستلهَم من السيرة.",
       "url": "https://nrkna.gov.pk/",
       "subjects": [
-        "seerah_general"
+        "seerah_general",
+        "biography_methodology",
+        "digital_seerah"
       ],
       "subjects_category": [
         "classical_corpus"
@@ -8516,7 +8547,10 @@
       "description_ar": "سلسلة سنوية لمؤتمر دولي محكّم تنظّمه كلية الدراسات الإسلامية بجامعة حمد بن خليفة في الدوحة عبر مركز محمد بن حمد آل ثاني، يتناول حصراً جوانب من السيرة النبوية وأثرها في القضايا المعاصرة. شملت دوراته عناوين «دلائل النبوة في العصر الحديث» (2024) و«الهدي النبوي في السلم والحرب» (2025).",
       "url": "https://www.hbku.edu.qa/en/CIS-SPC",
       "subjects": [
-        "seerah_general"
+        "seerah_general",
+        "shamail",
+        "dalail_nubuwwa",
+        "seerah_pedagogy"
       ],
       "subjects_category": [
         "classical_corpus"
@@ -8580,7 +8614,8 @@
       "description_ar": "مسابقة معرفية سنوية تنظّمها رئاسة الشؤون الدينية التركية (Diyanet) ضمن «أسبوع المولد النبوي»، تستهدف طلاب الثانوية ومادّتها الحصرية كتاب «خاتم الأنبياء سيدنا محمد ﷺ وحياته» الصادر عن الديانة في فئة الحديث والسيرة. تمنح 100 إلى 150 من الأوائل عمرةً مدفوعة. دورة 2026 بعنوان «رحمة للعالمين: محمد ﷺ في الذكرى الـ1500 لمولده».",
       "url": "https://yarisma.diyanet.gov.tr/umrebasvuru",
       "subjects": [
-        "seerah_general"
+        "seerah_general",
+        "mawlid"
       ],
       "subjects_category": [
         "classical_corpus"
@@ -8754,7 +8789,8 @@
       "description_ar": "مؤتمر سنوي بكالغاري (كندا) أسّسته «أكاديمية فصّلت» لتشجيع طلاب الثانوية والجامعة على البحث والتقديم في موضوعات السيرة النبوية. يضمّ عروضاً تنافسية للطلاب ومحاضرات لعلماء مرموقين ومعرضاً للملصقات؛ دورته 2025 عُقدت في جامعة ماونت رويال. يخدم الجالية المسلمة في غرب كندا.",
       "url": "https://www.youthseerahconference.com/",
       "subjects": [
-        "seerah_general"
+        "seerah_general",
+        "youth_outreach"
       ],
       "subjects_category": [
         "classical_corpus"
@@ -8785,7 +8821,8 @@
       "description_ar": "معهد إلكتروني فصلي متخصّص حصراً في تدريس السيرة النبوية من خلال محاضرات حيّة ومسجّلة ومصادر تعليمية مفتوحة، أسّسه مفتي مصطفى عزيز ضمن «معهد ومركز أبحاث السيرة» (Seeraht Institute & Research Centre) في فيصل آباد بباكستان. مقرّه: 645-D، D Ground، People's Colony No 1، Faisalabad 38000.",
       "url": "https://seerahinstitute.com/",
       "subjects": [
-        "seerah_general"
+        "seerah_general",
+        "seerah_pedagogy"
       ],
       "subjects_category": [
         "classical_corpus"
@@ -9425,7 +9462,8 @@
       "description_ar": "سلسلة 84 حلقة سردية متتابعة عن سيرة النبي ﷺ بصوت أحسن سيد، أُطلقت 8 فبراير 2020 ضمن مشروع Prophet Muhammad Podcast وبثّت يومياً تقريباً. متاحة على Apple Podcasts و Spotify و Audible. مخصّصة 100% للسيرة.",
       "url": "https://podcasts.apple.com/us/podcast/life-of-the-prophet-muhammad/id1498396103",
       "subjects": [
-        "seerah_general"
+        "seerah_general",
+        "digital_seerah"
       ],
       "subjects_category": [
         "classical_corpus"
@@ -9493,7 +9531,8 @@
       "description_ar": "سلسلة محاضرات صوتية إنجليزية شاملة تستند إلى «البداية والنهاية» لابن كثير و«صحيح السيرة النبوية» لإبراهيم العلي، تغطّي العهدين المكي والمدني وحلقات منفصلة عن مكة. أعيد إطلاقها كبودكاست رسمي 2024 لأغراض تعليمية. تجاوزت 40 حلقة بمحتوى سيراوي خالص.",
       "url": "https://podcasts.apple.com/us/podcast/mohammed-the-messenger-of-allah-%EF%B7%BA-seerah-rasulullah/id1884820957",
       "subjects": [
-        "seerah_general"
+        "seerah_general",
+        "digital_seerah"
       ],
       "subjects_category": [
         "classical_corpus"
@@ -9606,7 +9645,8 @@
       "description_ar": "سلسلة سعودية متخصّصة بصوت عبدالرحمن بن محمد السبهان، كل حلقة لا تتجاوز 15 دقيقة بفواصل شعرية، جُمعت المادة من ستة كتب سيرة باعتماد رئيس على «الرحيق المختوم» للمباركفوري. تجاوزت 60 حلقة وتُذاع على Spotify و Internet Archive و SoundCloud و Podtail. مخصّصة للسيرة.",
       "url": "https://open.spotify.com/show/699t0BRbESh4X7ezJyLQSf",
       "subjects": [
-        "seerah_general"
+        "seerah_general",
+        "digital_seerah"
       ],
       "subjects_category": [
         "classical_corpus"
@@ -9639,7 +9679,8 @@
       "description_ar": "بودكاست أردي مكرّس للسيرة بصوت الشيخ محمد خير مكي الحجازي (حنفي باكستاني الأصل مقيم بمكة المكرمة)، 30 حلقة بالأردية على Apple Podcasts و Spotify و Podbean. مخصّص حصرياً للسيرة في عالم البودكاست الأردي.",
       "url": "https://podcasts.apple.com/us/podcast/seerat-un-nabi-urdu-by-shaikh-muhammad-khair-makki-al-hijazi/id1574514145",
       "subjects": [
-        "seerah_general"
+        "seerah_general",
+        "digital_seerah"
       ],
       "subjects_category": [
         "classical_corpus"
@@ -9672,7 +9713,8 @@
       "description_ar": "بودكاست عربي حصري للسيرة العطرة من إنتاج شبكة «إنصات» للصوتيات الإسلامية، يقدّم «أقباساً من نور السيرة العطرة لتُنير القلوب والبصائر بهدي النبي ﷺ». موزّع على Spotify و Apple Podcasts و islamicaudio.net و guidetosunnah.com.",
       "url": "https://open.spotify.com/show/5kn9vDZKVg37CtiAw6L6Db",
       "subjects": [
-        "seerah_general"
+        "seerah_general",
+        "digital_seerah"
       ],
       "subjects_category": [
         "classical_corpus"
@@ -9705,7 +9747,8 @@
       "description_ar": "قناة وموقع متخصّصان في تقديم سيرة النبي ﷺ مرئياً اعتماداً على «الرحيق المختوم» للمباركفوري (الفائز بالجائزة الأولى لرابطة العالم الإسلامي 1978). سلسلة Life of Prophet Muhammad ﷺ Series بقائمة تشغيل مستقلّة على يوتيوب. مخصّصة للسيرة فقط.",
       "url": "https://tubeprophet.com/",
       "subjects": [
-        "seerah_general"
+        "seerah_general",
+        "digital_seerah"
       ],
       "subjects_category": [
         "classical_corpus"
@@ -10166,7 +10209,9 @@
       "description_ar": "مسابقة سنوية تنظمها وزارة الشؤون الدينية الباكستانية لأفضل المؤلفات في السيرة والنعت بالأردية والإنجليزية والعربية واللغات الإقليمية، بفئات للنساء والأطفال. تُسلَّم الجوائز ضمن المؤتمر الوطني للسيرة.",
       "url": "https://www.mora.gov.pk/",
       "subjects": [
-        "seerah_general"
+        "seerah_general",
+        "biography_methodology",
+        "youth_outreach"
       ],
       "subjects_category": [
         "classical_corpus"
@@ -10231,7 +10276,11 @@
       "url": "https://www.hbku.edu.qa/ar/SPC",
       "subjects": [
         "seerah_general",
-        "biography_methodology"
+        "biography_methodology",
+        "shamail",
+        "dalail_nubuwwa",
+        "seerah_pedagogy",
+        "tarjamah"
       ],
       "subjects_category": [
         "classical_corpus"
@@ -10488,7 +10537,8 @@
       "url": "https://www.aiou.edu.pk/research-conferences",
       "subjects": [
         "seerah_general",
-        "biography_methodology"
+        "biography_methodology",
+        "seerah_pedagogy"
       ],
       "subjects_category": [
         "classical_corpus"
@@ -12116,7 +12166,8 @@
       "description_ar": "أقدم مؤسسة تعليمية إسلامية ساحلية في شرق إفريقيا، يقيم منذ عام 1866م مهرجان المولد السنوي بقراءة سيرة النبي ﷺ بالسواحلية والعربية، ويحتفظ بمكتبة مخطوطات في السيرة.",
       "url": "https://lamu.go.ke/maulid-festival/",
       "subjects": [
-        "seerah_general"
+        "seerah_general",
+        "manuscripts"
       ],
       "subjects_category": [],
       "key_figures": [
@@ -12152,7 +12203,8 @@
       "description_ar": "منظومة لامية في 354 بيتًا للشيخ إبراهيم نياس مؤسس الفيضة التجانية في كولاخ السنغالية، تستوعب سيرة النبي ﷺ من المولد إلى الوفاة، وعليها شرح في 400 صفحة للأستاذ إبراهيم أحمد نيانغ (2015).",
       "url": "https://en.wikipedia.org/wiki/Ibrahim_Niass",
       "subjects": [
-        "seerah_general"
+        "seerah_general",
+        "sufism_seerah"
       ],
       "subjects_category": [],
       "key_figures": [
@@ -12188,7 +12240,8 @@
       "description_ar": "تحفة الحاج مالك سي مؤسس زاوية تيواوان التجانية في السنغال، منظومة في 1001 بيت تلخص سيرة النبي ﷺ، تعدّ المرجع الأبرز لطلبة الطريقة التجانية في غرب إفريقيا.",
       "url": "https://www.sudquotidien.sn/vie-du-fondateur-du-foyer-de-tivaouane-el-hadji-maodo-malick-sy-modele-acheve-et-vivificateur-de-la-sunna-du-prophete/",
       "subjects": [
-        "seerah_general"
+        "seerah_general",
+        "sufism_seerah"
       ],
       "subjects_category": [],
       "key_figures": [
@@ -12224,7 +12277,8 @@
       "description_ar": "مركز في غانغل سولي بإقليم ماتام السنغالي، شريك معهد إفريقيا الأساسي (IFAN) في صون مخطوطات الشيخ موسى كامارا (1864-1945) الذي صنف رسائل في سير الأنبياء، ضمن تراث المخطوطات العربية الإسلامية لغرب إفريقيا.",
       "url": "https://ifan.ucad.sn/en/lifan-et-le-centre-cheikh-moussa-kamara-collaborent-pour-la-sauvegarde-et-la-valorisation-de-manuscrits-arabo-islamiques-du-senegal-et-de-la-sous-region/",
       "subjects": [
-        "seerah_general"
+        "seerah_general",
+        "manuscripts"
       ],
       "subjects_category": [],
       "key_figures": [
@@ -12259,7 +12313,8 @@
       "description_ar": "منظمة غير حكومية في تمبكتو ثم باماكو بمالي، أنقذت قرابة 350 ألف مخطوط، ومسحها الأكاديمي يبيّن أن السيرة النبوية ومدائح النبي ﷺ تأتي ضمن أكبر موضوعات المجموعة، ورقمنت 150 ألف مخطوط بشراكة مع مكتبة هيل.",
       "url": "https://whc.unesco.org/en/documents/139082",
       "subjects": [
-        "seerah_general"
+        "seerah_general",
+        "manuscripts"
       ],
       "subjects_category": [],
       "key_figures": [
@@ -12294,7 +12349,8 @@
       "description_ar": "المركز الروحي العالمي لجماعة الفيضة التجانية بكولاخ السنغالية، أسسه الشيخ إبراهيم نياس عام 1930، ويقيم مولدًا سنويًا (Gàmmu) محوره سيرة النبي ﷺ تُلقى فيه دروس السيرة المنظومة للشيخ نياس.",
       "url": "https://tijani.org/ibrahim-niasse",
       "subjects": [
-        "seerah_general"
+        "seerah_general",
+        "sufism_seerah"
       ],
       "subjects_category": [],
       "key_figures": [
@@ -12330,7 +12386,8 @@
       "description_ar": "عالم وقاضٍ ساحلي تنزاني من تنغا (1889-1957)، له منظومة سواحيلية «أوتنزي وا كوتاوافو نبي» في وفاة النبي ﷺ نُشرت 1956، وكان من أبرز من رسّخ تدريس السيرة بالسواحيلية في الساحل الشرقي.",
       "url": "https://en.wikipedia.org/wiki/Sheikh_Aliy_Hemed_Abdallah_al-Buhriy",
       "subjects": [
-        "seerah_general"
+        "seerah_general",
+        "seerah_pedagogy"
       ],
       "subjects_category": [],
       "key_figures": [
@@ -12400,7 +12457,9 @@
       "description_ar": "أكبر كلية للدراسات العربية والإسلامية في شمال نيجيريا، تضم قسم الدراسات الإسلامية والشريعة الذي يدرّس السيرة النبوية ضمن مقررات التاريخ الإسلامي، وتشرف على رسائل ماجستير ودكتوراه في السيرة.",
       "url": "https://ais.buk.edu.ng/",
       "subjects": [
-        "seerah_general"
+        "seerah_general",
+        "historiography",
+        "seerah_pedagogy"
       ],
       "subjects_category": [],
       "key_figures": [
@@ -12506,7 +12565,8 @@
       "description_ar": "كلية تابعة للجامعة الإسلامية بأوغندا (تأسست 1988 بمبادرة من منظمة التعاون الإسلامي)، يقع المقر الرئيس في مبالي، وتدرّس مقررات السيرة النبوية ضمن برامج البكالوريوس والدراسات العليا للناطقين بالإنجليزية في شرق وجنوب إفريقيا.",
       "url": "https://www.iuiu.ac.ug/",
       "subjects": [
-        "seerah_general"
+        "seerah_general",
+        "seerah_pedagogy"
       ],
       "subjects_category": [],
       "key_figures": [],
@@ -12539,7 +12599,8 @@
       "description_ar": "المستودع الأساسي لمخطوطات الشيخ أحمد بمبا مباكي (1853-1927) مؤسس الطريقة المريدية في طوبى السنغالية، وتضم آلاف القصائد في مدح النبي ﷺ وذكر شمائله، وتشكّل مرجعًا أصيلًا للدراسات السيرية في غرب إفريقيا.",
       "url": "https://encyclopaediaafricana.com/cheikh-ahmadou-bamba-mbacke/",
       "subjects": [
-        "seerah_general"
+        "seerah_general",
+        "manuscripts"
       ],
       "subjects_category": [],
       "key_figures": [
@@ -12574,7 +12635,8 @@
       "description_ar": "أكاديميَّة متخصِّصة في تدريس السيرة النبويَّة ضمن منظومة تعليميَّة قرآنيَّة (كُتَّاب الفاتح) مُنتشِرة في أكثر من 25 فرعًا في 22 مدينة إندونيسيَّة، أسَّسها الأستاذ بودي أشاري خرّيج الجامعة الإسلامية بالمدينة.",
       "url": "https://kuttabalfatih.com/project/akademi-siroh/",
       "subjects": [
-        "seerah_general"
+        "seerah_general",
+        "seerah_pedagogy"
       ],
       "subjects_category": [],
       "key_figures": [
@@ -12779,7 +12841,8 @@
       "description_ar": "أستاذ بكليَّة الآداب والعلوم الإنسانيَّة في جامعة سونان غونونغ جاتي الحكوميَّة بباندونغ، له كتاب «السيرة النبويَّة: محمَّد ﷺ في الدراسات الاجتماعيَّة الإنسانيَّة» (Marja, 2014، 313ص) ودراسات مُحكَّمة في تاريخ السيرة.",
       "url": "https://digilib.uinsgd.ac.id/77782/",
       "subjects": [
-        "seerah_general"
+        "seerah_general",
+        "historiography"
       ],
       "subjects_category": [],
       "key_figures": [],
@@ -12911,7 +12974,9 @@
       "description_ar": "دار نشر إندونيسيَّة كبرى متخصِّصة في الكتب الإسلاميَّة، تُصدر سلاسل سيرة نبويَّة (منها ترجمة «الرحيق المختوم») وتراجم الصحابة، وقدَّمت أكثر من 500 عنوانًا، وتُعدُّ المرجع الأبرز لكتب السيرة المُترجَمة في إندونيسيا.",
       "url": "https://www.kautsar.co.id/",
       "subjects": [
-        "seerah_general"
+        "seerah_general",
+        "tabaqat_companions",
+        "tarjamah"
       ],
       "subjects_category": [],
       "key_figures": [],
@@ -12944,7 +13009,8 @@
       "description_ar": "دار نشر إسلاميَّة في باندونغ تأسَّست 2004م، اشتهرت بترجمة كتب التراث الكبرى ومنها «الرحيق المختوم» في السيرة النبويَّة، وأصبحت من أهمِّ نواشِر السيرة في إندونيسيا.",
       "url": "https://penerbitjabal.com/",
       "subjects": [
-        "seerah_general"
+        "seerah_general",
+        "tarjamah"
       ],
       "subjects_category": [],
       "key_figures": [],
@@ -13010,7 +13076,9 @@
       "description_ar": "قناة رقميَّة تابعة لمجتمع السيرة بإندونيسيا تَبثُّ سلاسل علميَّة كاملة في السيرة النبويَّة والخلافة الراشدة والحضارة الإسلاميَّة، بمحتوى مرئيٍّ مُنتِظم بإشراف الأستاذ آسف صباري.",
       "url": "https://www.youtube.com/@sirah_tv",
       "subjects": [
-        "seerah_general"
+        "seerah_general",
+        "rashidun",
+        "digital_seerah"
       ],
       "subjects_category": [],
       "key_figures": [
@@ -13119,7 +13187,8 @@
       "description_ar": "معهد علمي شمالي اليمن أسسه الحبيب محمد بن عبدالله الحدّار، يُعنى بتدريس السيرة والمنهج النبوي ضمن منهج الباعلوية، وتخرّج فيه كبار علماء حضرموت المعاصرين.",
       "url": "https://muwasala.org/2012/06/05/habib-umar-bin-hafiz/",
       "subjects": [
-        "seerah_general"
+        "seerah_general",
+        "seerah_pedagogy"
       ],
       "subjects_category": [],
       "key_figures": [
@@ -13156,7 +13225,8 @@
       "description_ar": "منصة رقمية ناطقة باسم تيار الحبيب عمر بن حفيظ، تنشر مواد السيرة النبوية ودروسها وعظات الحضارمة المعاصرين بعدة لغات، ولها قسم مخصص للسيرة.",
       "url": "https://muwasala.org/",
       "subjects": [
-        "seerah_general"
+        "seerah_general",
+        "digital_seerah"
       ],
       "subjects_category": [],
       "key_figures": [
@@ -13262,7 +13332,8 @@
       "description_ar": "مركز بحثي رسمي في ترمذ (سرخندريا) أُسس بمرسوم رئاسي 2017، يدرس تراث الترمذي ومن ضمنه «الشمائل المحمدية» وهو من المصادر الكبرى لشمائل النبي ﷺ.",
       "url": "https://termizi.uz/en/",
       "subjects": [
-        "seerah_general"
+        "seerah_general",
+        "shamail"
       ],
       "subjects_category": [],
       "key_figures": [
@@ -13367,7 +13438,8 @@
       "description_ar": "مؤسسة جامعية في طشقند تضم كرسي إيسيسكو للدراسات الإسلامية وكرسي إرسيكا لتاريخ الإسلام، وتدرّس مساقات الحديث وتاريخ الإسلام والسيرة ضمن كلية الدراسات الإسلامية.",
       "url": "https://iiau.uz/en",
       "subjects": [
-        "seerah_general"
+        "seerah_general",
+        "seerah_pedagogy"
       ],
       "subjects_category": [],
       "key_figures": [
@@ -13403,7 +13475,8 @@
       "description_ar": "أعلى مؤسسة لاهوتية إسلامية في روسيا (تتارستان)، تخرّج ماجستير ودكتوراه في العلوم الإسلامية، ومن تخصصاتها علم الحديث الذي يشمل دراسات السيرة، ولها قسم بحث علمي.",
       "url": "https://bolgar.academy/en/info/",
       "subjects": [
-        "seerah_general"
+        "seerah_general",
+        "biography_methodology"
       ],
       "subjects_category": [],
       "key_figures": [
@@ -13544,7 +13617,8 @@
       "description_ar": "جامعة خاصة في كابول، تضم كلية الشريعة والقانون بخمسة أقسام منها قسم الدراسات الإسلامية وقسم التاريخ الإسلامي اللذين يُدرّسان السيرة النبوية ضمن مقرراتهما الرئيسية.",
       "url": "https://salam.edu.af/faculties/sharia-and-law",
       "subjects": [
-        "seerah_general"
+        "seerah_general",
+        "historiography"
       ],
       "subjects_category": [],
       "key_figures": [
