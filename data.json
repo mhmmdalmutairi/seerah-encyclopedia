@@ -24,7 +24,8 @@
     "08t",
     "09a",
     "10a",
-    "10b"
+    "10b",
+    "10c"
   ],
   "entities": [
     {
@@ -22987,9 +22988,1279 @@
       "output_volume_yearly": "very_low",
       "methodology_school": "sufi_traditionalist",
       "trajectory": "stable"
+    },
+    {
+      "id": "TUR-079",
+      "round": "10c",
+      "name_ar": "أ.د. محمد عاصم كوكسال",
+      "name_en": "M. Asım Köksal",
+      "type": "individual_researcher",
+      "type_group": "individual_actors",
+      "region": "turkey",
+      "country": "TR",
+      "founded": 1913,
+      "description_ar": "باحث تركي (1913-1998) عمل ٣١ عامًا في رئاسة الشؤون الدينية، ألّف موسوعة «تاريخ الإسلام» في ٨ مجلدات (نحو ٣٩٧٠ صفحة) خصّ نحو ثلثيها لسيرة النبي ﷺ، ونال بها جائزة المسابقة الدولية لكتب السيرة بإسلام آباد ١٩٨٤.",
+      "url": "https://islamansiklopedisi.org.tr/koksal-mustafa-asim",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "Mustafa Asım Köksal"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "tr",
+        "ar"
+      ],
+      "output_types": [
+        "books",
+        "journal"
+      ],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://islamansiklopedisi.org.tr/koksal-mustafa-asim"
+      ],
+      "evidence_quote": "1984'te Pakistan'da düzenlenen Siret Kitapları Milletlerarası Yarışması'nda birincilik ödülüne layık görülmüş",
+      "city_ar": "أنقرة",
+      "founded_decade": "1910s",
+      "aka": [],
+      "target_audience": [
+        "specialist",
+        "intellectual"
+      ],
+      "output_volume_yearly": "low",
+      "methodology_school": "turkish_modernist",
+      "trajectory": "stable"
+    },
+    {
+      "id": "TUR-080",
+      "round": "10c",
+      "name_ar": "د. رشيد هايلامز",
+      "name_en": "Reşit Haylamaz",
+      "type": "individual_researcher",
+      "type_group": "individual_actors",
+      "region": "turkey",
+      "country": "TR",
+      "founded": 1965,
+      "description_ar": "باحث تركي ومدير عام لمجموعة «كاينك» للنشر، ركّز جلّ إنتاجه في السيرة، وله سلسلة «أفنديميز» (سيدنا) في مجلّدَين عند دار إيشيك، ومؤلفات في سيرة الصحابة بلغت أكثر من عشرة كتب متخصصة في السيرة وحياة الصحابة.",
+      "url": "https://peygamberyolu.com/author/resit-haylamaz/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "Reşit Haylamaz"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "tr",
+        "en"
+      ],
+      "output_types": [
+        "books",
+        "journal"
+      ],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://www.kitapyurdu.com/yazar/resit-haylamaz/9334.html"
+      ],
+      "evidence_quote": "concentrated much of his work on Islamic History and wrote the majority of his works with sira (biography of Prophet Muhammad) content",
+      "city_ar": "إسطنبول",
+      "founded_decade": "1960s",
+      "aka": [],
+      "target_audience": [
+        "specialist",
+        "intellectual"
+      ],
+      "output_volume_yearly": "low",
+      "methodology_school": "turkish_modernist",
+      "trajectory": "stable"
+    },
+    {
+      "id": "TUR-081",
+      "round": "10c",
+      "name_ar": "صالح سوروج",
+      "name_en": "Salih Suruç",
+      "type": "individual_researcher",
+      "type_group": "individual_actors",
+      "region": "turkey",
+      "country": "TR",
+      "founded": 1953,
+      "description_ar": "كاتب تركي مواليد ١٩٥٣ من شانلي أورفة، اشتُهر بكتابه «كائناتن إفنديسي - بيغمبريميزن حياتي» (سيد الكائنات: حياة نبينا) في مجلّدَين عند نَسِل، وفاز بالمركز الأول في المسابقة الدولية لكتب السيرة في باكستان ١٩٨٨.",
+      "url": "https://www.kitapyurdu.com/yazar/salih-suruc/3616.html",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "Salih Suruç"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "tr"
+      ],
+      "output_types": [
+        "books",
+        "journal"
+      ],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://1000kitap.com/yazar/salih-suruc"
+      ],
+      "evidence_quote": "With his work on the life of the Prophet, he won the world first prize in Siyer in Pakistan in 1988",
+      "city_ar": "إسطنبول",
+      "founded_decade": "1950s",
+      "aka": [],
+      "target_audience": [
+        "specialist",
+        "intellectual"
+      ],
+      "output_volume_yearly": "low",
+      "methodology_school": "turkish_modernist",
+      "trajectory": "stable"
+    },
+    {
+      "id": "TUR-082",
+      "round": "10c",
+      "name_ar": "أ.د. عثمان نوري طوبباش",
+      "name_en": "Osman Nuri Topbaş",
+      "type": "individual_researcher",
+      "type_group": "individual_actors",
+      "region": "turkey",
+      "country": "TR",
+      "founded": 1942,
+      "description_ar": "عالم وكاتب تركي مولود ١٩٤٢ بإسطنبول، مؤسس دار إركام للنشر وله سلسلة «حضرت محمد مصطفى» في مجلّدَين على ضوء القرآن (مكة والمدينة)، وكتاب مدرسي بـ٦٢٤ صفحة في السيرة، وسلسلة «الأنبياء» متعددة الأجزاء.",
+      "url": "https://www.erkamyayinlari.com/kategori/osman-nuri-topbas",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "Osman Nuri Topbaş"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "tr",
+        "ar",
+        "en"
+      ],
+      "output_types": [
+        "books",
+        "journal"
+      ],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://www.kitapyurdu.com/yazar/osman-nuri-topbas/9387.html"
+      ],
+      "evidence_quote": "Hz. Muhammed Mustafa Kuranı Kerim Işığında, Osman Nuri Topbaş, Mekke Medine Devri, 2 Cilt Toplam 1184 Sayfa",
+      "city_ar": "إسطنبول",
+      "founded_decade": "1940s",
+      "aka": [],
+      "target_audience": [
+        "specialist",
+        "intellectual"
+      ],
+      "output_volume_yearly": "low",
+      "methodology_school": "turkish_modernist",
+      "trajectory": "stable"
+    },
+    {
+      "id": "TUR-083",
+      "round": "10c",
+      "name_ar": "علي همّت بركي",
+      "name_en": "Ali Himmet Berki",
+      "type": "individual_researcher",
+      "type_group": "individual_actors",
+      "region": "turkey",
+      "country": "TR",
+      "founded": 1882,
+      "description_ar": "قاضٍ تركي (١٨٨٢-١٩٧٦) ومرجع في الفقه والحديث، صاحب كتاب «خاتم الأنبياء حضرت محمد وحياته» (Hatemü'l-Enbiya) بالاشتراك مع عثمان كسكين أوغلو، يُعدّ من أوائل سير السيرة الرسمية التي تنشرها رئاسة الشؤون الدينية التركية ولا تزال تُطبع حتى اليوم.",
+      "url": "https://yayinsatis.diyanet.gov.tr/hatemu-l-enbiya",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "Ali Himmet Berki",
+        "Osman Keskioğlu"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "tr"
+      ],
+      "output_types": [
+        "books",
+        "journal"
+      ],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://yayinsatis.diyanet.gov.tr/hatemu-l-enbiya"
+      ],
+      "evidence_quote": "Hatemü'l-Enbiya Hz. Muhammed Ve Hayatı Ali Himmet Berki Osman Keskioğlu Diyanet İşleri Başkanlığı",
+      "city_ar": "أنقرة",
+      "founded_decade": "1880s",
+      "aka": [],
+      "target_audience": [
+        "specialist",
+        "intellectual"
+      ],
+      "output_volume_yearly": "low",
+      "methodology_school": "turkish_modernist",
+      "trajectory": "stable"
+    },
+    {
+      "id": "TUR-084",
+      "round": "10c",
+      "name_ar": "قناة الديانة التركية - برامج السيرة النبوية",
+      "name_en": "Diyanet TV Sira Programming",
+      "type": "tv_channel",
+      "type_group": "media_audience",
+      "region": "turkey",
+      "country": "TR",
+      "founded": 2012,
+      "description_ar": "قناة دينية وطنية أسستها TRT ورئاسة الشؤون الدينية ٢٠١٢، تبثّ سلسلة برامج مخصّصة للسيرة النبوية أبرزها «بَيغمبريميزن إزينده» (في خُطى نبينا) مع أ.د. مصطفى آيرمان، و«سيرة بيليور موسون؟» مسابقة سيرة أسبوعية، و«حديثلرله أُونو أنلامك».",
+      "url": "https://www.diyanet.tv/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "Mustafa Ağırman",
+        "Enbiya Yıldırım"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "tr"
+      ],
+      "output_types": [
+        "tv_series"
+      ],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://diyanet.tv/peygamberimizin-izinde"
+      ],
+      "evidence_quote": "Peygamberimizin İzinde, Hz. Muhammed'in doğumundan vefatına kadar tüm hayatını ele alan bir programdır",
+      "city_ar": "أنقرة",
+      "founded_decade": "2010s",
+      "aka": [],
+      "target_audience": [
+        "general"
+      ],
+      "output_volume_yearly": "very_high",
+      "methodology_school": "turkish_modernist",
+      "trajectory": "stable"
+    },
+    {
+      "id": "TUR-085",
+      "round": "10c",
+      "name_ar": "وقف العزيز محمود الهدائي",
+      "name_en": "Aziz Mahmud Hüdayi Vakfı",
+      "type": "foundation_waqf",
+      "type_group": "research_education",
+      "region": "turkey",
+      "country": "TR",
+      "founded": 1985,
+      "description_ar": "وقف صوفي إسطنبولي (تأسس ١٩٨٥ في أُسكُدار) قريب من السلسلة الجلوتية ومرتبط بدار النشر إركام؛ يُصدر أعمالًا في الشمائل والسيرة، ويُحيي البرامج النبوية الموسمية ويرعى ندوات سنوية حول السيرة في إطار أسبوع المولد النبوي.",
+      "url": "https://www.hudayivakfi.org/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "H. Kâmil Yılmaz",
+        "Musa Topbaş"
+      ],
+      "verification": "needs_verification",
+      "inclusion_tier": "borderline",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "tr"
+      ],
+      "output_types": [],
+      "funding_type": "waqf",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://www.hudayivakfi.org/"
+      ],
+      "evidence_quote": "Hüdayi wrote a work called Şemâ'ilü'n-Nübüvveti'l-Ahmediyyeti'l-Muhammediyye in both Arabic and Turkish... about the characteristics and virtues of the Prophet",
+      "city_ar": "إسطنبول",
+      "founded_decade": "1980s",
+      "aka": [],
+      "target_audience": [
+        "general",
+        "intellectual"
+      ],
+      "output_volume_yearly": "low",
+      "methodology_school": "sufi_traditionalist",
+      "trajectory": "stable"
+    },
+    {
+      "id": "TUR-086",
+      "round": "10c",
+      "name_ar": "د. مهمت أبايدن - مشروع كرونولوجيا السيرة",
+      "name_en": "Mehmet Apaydın – Siyer Kronolojisi Project (KURAMER)",
+      "type": "key_publication",
+      "type_group": "publishing_knowledge",
+      "region": "turkey",
+      "country": "TR",
+      "founded": 2018,
+      "description_ar": "مشروع علمي ضخم لـ«كرونولوجيا السيرة النبوية» (٢٠١٨) صدر عن مركز كورمر ببجامعة إسطنبول ٢٩ مايو، يؤسّس لعلم تاريخ نبوي قائم على ضبط التواريخ بدمج الروايات بالمعطيات الفلكية والجغرافية والبيولوجية؛ يُعدّ مرجعًا منهجيًّا فاصلًا.",
+      "url": "https://kuramer.org/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "Mehmet Apaydın"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "tr"
+      ],
+      "output_types": [
+        "books"
+      ],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://www.kitapyurdu.com/kitap/siyer-kronolojisi-ciltli/485318.html"
+      ],
+      "evidence_quote": "Siyer Kronolojisi... aims to pioneer a new Islamic biographical science with a solid chronological foundation",
+      "city_ar": "إسطنبول",
+      "founded_decade": "2010s",
+      "aka": [],
+      "target_audience": [
+        "intellectual",
+        "general"
+      ],
+      "output_volume_yearly": "very_low",
+      "methodology_school": "turkish_modernist",
+      "trajectory": "stable"
+    },
+    {
+      "id": "ARB-134",
+      "round": "10c",
+      "name_ar": "حيّ حراء الثقافي - معرض الوحي ومتحف القرآن",
+      "name_en": "Hira Cultural District – Revelation Exhibition & Quran Museum",
+      "type": "museum",
+      "type_group": "museums_culture",
+      "region": "arabia",
+      "country": "SA",
+      "founded": 2023,
+      "description_ar": "وجهة ثقافية بمكة بجوار جبل النور على ٦٧ ألف م²؛ يضمّ معرض الوحي بست قاعات تفاعلية، أبرزها قاعتا «خاتم الأنبياء» و«غار حراء» اللتان تستعرضان قصة الوحي والسيرة المكية بالتفصيل، إضافة إلى متحف القرآن ومكتبة ثقافية متخصصة في السيرة والشمائل.",
+      "url": "https://hiradistrict.com/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [
+        "exhibition"
+      ],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://www.visitsaudi.com/ar/makkah/attractions/hira-cultural-district-tour"
+      ],
+      "evidence_quote": "قاعة خاتم الأنبياء تستعرض بالتفصيل قصة نزول الوحي على سيدنا محمد صلى الله عليه وسلم وجانب من سيرته والبعثة النبوية الشريفة",
+      "city_ar": "مكة المكرمة",
+      "founded_decade": "2020s",
+      "aka": [],
+      "target_audience": [
+        "general"
+      ],
+      "output_volume_yearly": "low",
+      "methodology_school": "classical_sunni",
+      "trajectory": "growing"
+    },
+    {
+      "id": "ARB-135",
+      "round": "10c",
+      "name_ar": "مركز محمد بن حمد آل ثاني - مؤتمر السيرة (سلسلة دلائل النبوة)",
+      "name_en": "Muhammad Bin Hamad Al Thani Center – Sīrah Conference (Dalā'il al-Nubuwwah)",
+      "type": "conference_series",
+      "type_group": "institutional_infra",
+      "region": "arabia",
+      "country": "QA",
+      "founded": 2019,
+      "description_ar": "سلسلة المؤتمر الدولي للسيرة النبوية بمركز محمد بن حمد آل ثاني في كلية الدراسات الإسلامية بجامعة حمد بن خليفة - الدوحة؛ تركّز كل دورة على محور سيرَوي مختلف (مثل «دلائل النبوة» ومنهج السهيلي)، وتُصدر دراسات وتسجيلات أكاديمية.",
+      "url": "https://www.hbku.edu.qa/en/SPC",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [
+        "conference"
+      ],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://www.hbku.edu.qa/en/academic-events/CIS-SP-ASMAW"
+      ],
+      "evidence_quote": "The Muhammad Bin Hamad Al Thani Center for Muslim Contribution to Civilization has announced Dalā'il al-Nubuwwah as the focus of a recent Sīrah conference",
+      "city_ar": "الدوحة",
+      "founded_decade": "2010s",
+      "aka": [],
+      "target_audience": [
+        "specialist",
+        "intellectual"
+      ],
+      "output_volume_yearly": "low",
+      "methodology_school": "classical_sunni",
+      "trajectory": "growing"
+    },
+    {
+      "id": "WEST-197",
+      "round": "10c",
+      "name_ar": "سيكرز جايدنس - الحياة النبوية في بؤرة الاهتمام",
+      "name_en": "SeekersGuidance - The Prophetic Life in Focus (and other Sira series)",
+      "type": "podcast_institutional",
+      "type_group": "media_audience",
+      "region": "western",
+      "country": "CA",
+      "founded": 2011,
+      "description_ar": "أكاديمية سيكرز جايدنس (كندا) تقدّم سلاسل سيرة متخصّصة منها (الحياة النبوية في بؤرة الاهتمام) و(رحلة إلى قلب النبي ﷺ) و(الشفا للقاضي عياض)، بإشراف الشيخ فرز رباني، مع دروس مكية ومدنية مستقلة.",
+      "url": "https://academy.seekersguidance.org/enrol/index.php?id=677",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "Faraz Rabbani"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "en",
+        "ar"
+      ],
+      "output_types": [
+        "podcast_episode"
+      ],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://seekersguidance.org/articles/general-artices/life-of-the-prophet/"
+      ],
+      "evidence_quote": "Study the life of the Prophet — free online courses... covering his life in Mecca in one course and his life in Medina in another course.",
+      "founded_decade": "2010s",
+      "aka": [],
+      "target_audience": [
+        "general",
+        "intellectual"
+      ],
+      "output_volume_yearly": "medium",
+      "methodology_school": "western_rehabilitative",
+      "trajectory": "stable"
+    },
+    {
+      "id": "WEST-198",
+      "round": "10c",
+      "name_ar": "المغرب أونلاين - مسار السيرة (وردة الصحراء + العودة إلى الديار)",
+      "name_en": "AlMaghrib Institute - Seerah track (Desert Rose / Homecoming)",
+      "type": "podcast_institutional",
+      "type_group": "media_audience",
+      "region": "western",
+      "country": "US",
+      "founded": 2002,
+      "description_ar": "مسار سيرة متخصص داخل معهد المغرب يضم (Desert Rose) للسيرة المكية مع الشيخ كمال المكي و(Homecoming) للسيرة المدنية مع الشيخ عبد الباري يحيى، ضمن منهج سنوي معتمد بشهادات.",
+      "url": "https://www.almaghrib.org/virtual/homecoming/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "Kamal El Mekki",
+        "Abdulbary Yahya"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "en"
+      ],
+      "output_types": [
+        "podcast_episode"
+      ],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://www.almaghrib.org/winter/"
+      ],
+      "evidence_quote": "Desert Rose: The Makkan Seerah ... Homecoming: The Madinan Seerah — Sh Abdulbary Yahya explores the human and social angles of the Prophet's life.",
+      "founded_decade": "2000s",
+      "aka": [],
+      "target_audience": [
+        "general",
+        "intellectual"
+      ],
+      "output_volume_yearly": "medium",
+      "methodology_school": "western_rehabilitative",
+      "trajectory": "stable"
+    },
+    {
+      "id": "WEST-199",
+      "round": "10c",
+      "name_ar": "معهد مفتاح - مكثف السيرة السنوي",
+      "name_en": "Miftaah Institute - Seerah Intensive",
+      "type": "podcast_institutional",
+      "type_group": "media_audience",
+      "region": "western",
+      "country": "US",
+      "founded": 2018,
+      "description_ar": "برنامج مكثف سنوي مدته سبعة أيام يغطي كامل سيرة النبي ﷺ، يقوده الشيخ عبد الله وحيد (ميشيغان) مع أربعة معلمين، بحضور حضوري وعن بُعد وتسجيلات وأوراق عمل.",
+      "url": "https://www.miftaahseerah.org/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "Abdullah Waheed"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "en"
+      ],
+      "output_types": [
+        "podcast_episode"
+      ],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://www.miftaahstudents.org/program-terms/seerah-intensive-2025"
+      ],
+      "evidence_quote": "An immersive 7-day program covering the entire life of Prophet Muhammad... led by Shaykh Abdullah Waheed.",
+      "founded_decade": "2010s",
+      "aka": [],
+      "target_audience": [
+        "general",
+        "intellectual"
+      ],
+      "output_volume_yearly": "medium",
+      "methodology_school": "western_rehabilitative",
+      "trajectory": "growing"
+    },
+    {
+      "id": "WEST-200",
+      "round": "10c",
+      "name_ar": "معهد قلم - مكثف السيرة",
+      "name_en": "Qalam Institute - Seerah Intensive",
+      "type": "podcast_institutional",
+      "type_group": "media_audience",
+      "region": "western",
+      "country": "US",
+      "founded": 2011,
+      "description_ar": "مكثف سنوي للسيرة في تكساس بقيادة الشيخ عبد الناصر جانكدا، مع نسخة موازية للأطفال (Seerah Camp)، ينتظم في خمسة أيام تغطي السيرة كرونولوجيا من ما قبل الإسلام إلى حجة الوداع.",
+      "url": "https://www.qalam.institute/seerah-intensive",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "AbdulNasir Jangda"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "en"
+      ],
+      "output_types": [
+        "podcast_episode"
+      ],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://www.qalam.institute/seerah-intensive-curriculum"
+      ],
+      "evidence_quote": "The Seerah Intensive is taught annually by Shaykh AbdulNasir Jangda, the Founder and President of Qalam.",
+      "founded_decade": "2010s",
+      "aka": [],
+      "target_audience": [
+        "general",
+        "intellectual"
+      ],
+      "output_volume_yearly": "medium",
+      "methodology_school": "western_rehabilitative",
+      "trajectory": "stable"
+    },
+    {
+      "id": "WEST-201",
+      "round": "10c",
+      "name_ar": "كلية كامبردج للمسلمين - السيرة: رحلة تحوّل",
+      "name_en": "Cambridge Muslim College - Sira: A Journey of Transformation",
+      "type": "podcast_institutional",
+      "type_group": "media_audience",
+      "region": "western",
+      "country": "GB",
+      "founded": 2009,
+      "description_ar": "سلسلة سيرة من اثنتي عشرة محاضرة بإشراف الشيخ عبد الحكيم مراد (د. تيموثي ونتر) أستاذ الدراسات الإسلامية بكامبردج، تتناول حياة النبي ﷺ من سياق جزيرة العرب إلى وفاته.",
+      "url": "https://cambridgemuslimcollege.teachable.com/p/sira",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "Abdal Hakim Murad",
+        "Timothy Winter"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "en"
+      ],
+      "output_types": [
+        "podcast_episode"
+      ],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://www.cambridgemuslimcollege.ac.uk/onlinelearning/"
+      ],
+      "evidence_quote": "Sira: A Journey of Transformation with Shaykh Abdal Hakim Murad details the extraordinary epic of the life of the Prophet Muhammad over nine lectures plus three reflection lectures.",
+      "founded_decade": "2000s",
+      "aka": [],
+      "target_audience": [
+        "general",
+        "intellectual"
+      ],
+      "output_volume_yearly": "medium",
+      "city_ar": "كامبردج",
+      "methodology_school": "western_rehabilitative",
+      "trajectory": "stable"
+    },
+    {
+      "id": "WEST-202",
+      "round": "10c",
+      "name_ar": "بيان أون-ديماند - السيرة النبوية مع د. جوناثان براون",
+      "name_en": "Bayan On-Demand - Prophetic Biography (Jonathan Brown)",
+      "type": "podcast_institutional",
+      "type_group": "media_audience",
+      "region": "western",
+      "country": "US",
+      "founded": 2017,
+      "description_ar": "منصة محاضرات من مدرسة بيان كليرمونت للدراسات العليا الإسلامية، تضم مساق سيرة نبوية معاصرة بقيادة د. جوناثان براون ضمن مكتبة تتجاوز 350 ساعة محتوى.",
+      "url": "https://direct.bayanclaremont.org/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "Jonathan A.C. Brown",
+        "Jihad Turk"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "en"
+      ],
+      "output_types": [
+        "podcast_episode"
+      ],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://www.youtube.com/watch?v=i88WTzbqu0M"
+      ],
+      "evidence_quote": "The 'usual' topics like Prophetic Biography (Seerah) are tackled from a modern perspective ... a Seerah course by Dr. Jonathan Brown.",
+      "founded_decade": "2010s",
+      "aka": [],
+      "target_audience": [
+        "general",
+        "intellectual"
+      ],
+      "output_volume_yearly": "medium",
+      "methodology_school": "western_rehabilitative",
+      "trajectory": "growing"
+    },
+    {
+      "id": "NAM-343",
+      "round": "10c",
+      "name_ar": "أكاديمية سمبلي إسلام - خلوة السيرة",
+      "name_en": "SimplyIslam Academy - Seerah Retreat",
+      "type": "podcast_institutional",
+      "type_group": "media_audience",
+      "region": "non_arab_muslim",
+      "country": "SG",
+      "founded": 2021,
+      "description_ar": "أكاديمية سنغافورية تابعة لـSimplyIslam.sg تضمّ قسماً مخصصاً للسيرة بعنوان (Seerah Retreat) مع دروس مباشرة ومسجلة، وتخدم مجتمعاً يضم أكثر من 22 ألف متعلم.",
+      "url": "https://simplyislam.academy/sirah",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "Mizi Wahid"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "en"
+      ],
+      "output_types": [
+        "podcast_episode"
+      ],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://simplyislam.academy/course/seerah-retreat"
+      ],
+      "evidence_quote": "SimplyIslam Academy ... offers a 'Seerah Retreat' course for those who want to learn about the Seerah of the Prophet from reliable sources.",
+      "founded_decade": "2020s",
+      "aka": [],
+      "target_audience": [
+        "general",
+        "intellectual"
+      ],
+      "output_volume_yearly": "medium",
+      "methodology_school": "classical_sunni",
+      "trajectory": "growing"
+    },
+    {
+      "id": "ARB-136",
+      "round": "10c",
+      "name_ar": "إذاعة القرآن الكريم السعودية - برنامج (في ظلال السيرة)",
+      "name_en": "Saudi Quran Radio - 'Fi Zilal al-Sira' program",
+      "type": "podcast_institutional",
+      "type_group": "media_audience",
+      "region": "arabia",
+      "country": "SA",
+      "founded": 2013,
+      "description_ar": "سلسلة إذاعية متخصصة بالسيرة من إعداد محمد الصوياني وتقديم المذيع حمد الدريهم على إذاعة القرآن الكريم السعودية، بلغت 408 حلقات بأسلوب وعظي تربوي ضمن برنامج (اللهم بك أصبحنا).",
+      "url": "https://radioplus.sba.sa/ar/live/4",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "محمد الصوياني",
+        "حمد الدريهم"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar"
+      ],
+      "output_types": [
+        "podcast_episode"
+      ],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://archive.org/details/seerahFull"
+      ],
+      "evidence_quote": "برنامج (في ظلال السيرة) ... 408 حلقات ... من إذاعة القرآن الكريم بالمملكة العربية السعودية ... خلال 1434-1436هـ.",
+      "founded_decade": "2010s",
+      "aka": [],
+      "target_audience": [
+        "general",
+        "intellectual"
+      ],
+      "output_volume_yearly": "medium",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
+    },
+    {
+      "id": "NAM-344",
+      "round": "10c",
+      "name_ar": "أن يو أونلاين - قسم السيرة النبوية",
+      "name_en": "NU Online - Sirah Nabawiyah section",
+      "type": "digital_platform",
+      "type_group": "media_audience",
+      "region": "non_arab_muslim",
+      "country": "ID",
+      "founded": 2003,
+      "description_ar": "البوابة الرقمية الرسمية لمنظمة نهضة العلماء الإندونيسية تتضمن قسماً مستقلاً ومتكاملاً عن السيرة النبوية وسيرة الصحابة والأئمة، مع تحديث يومي وأرشيف مقالات واسع.",
+      "url": "https://islam.nu.or.id/sirah-nabawiyah",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "PBNU - Pengurus Besar Nahdlatul Ulama"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "id"
+      ],
+      "output_types": [
+        "video",
+        "courses"
+      ],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://www.nu.or.id/"
+      ],
+      "evidence_quote": "Informasi Berita Sirah Nabawiyah Terbaru Hari Ini - NU Online ... khutbah syariah, Sirah Nabawiyah, tafsir, hikmah.",
+      "founded_decade": "2000s",
+      "aka": [],
+      "target_audience": [
+        "general",
+        "intellectual"
+      ],
+      "output_volume_yearly": "high",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
+    },
+    {
+      "id": "NAM-345",
+      "round": "10c",
+      "name_ar": "ويكي شيعة - قسم السيرة النبوية",
+      "name_en": "WikiShia - Sira al-Nabawiyya category",
+      "type": "encyclopedia_project",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "IR",
+      "founded": 2014,
+      "description_ar": "موسوعة إلكترونية شيعية تابعة للمجمع العالمي لأهل البيت في إيران بـ22 لغة، تضم قسماً مفصلاً عن السيرة النبوية من منظور أهل البيت يشمل المغازي والهجرة وزيارات النبي ﷺ.",
+      "url": "https://ar.wikishia.net/view/%D8%A7%D9%84%D8%B3%D9%8A%D8%B1%D8%A9_%D8%A7%D9%84%D9%86%D8%A8%D9%88%D9%8A%D8%A9",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "المجمع العالمي لأهل البيت"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "fa",
+        "en",
+        "ur",
+        "tr"
+      ],
+      "output_types": [
+        "encyclopedia"
+      ],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://en.wikishia.net/view/WikiShia"
+      ],
+      "evidence_quote": "WikiShia ... officially launched on June 22, 2014, in the International Congress of Sibt al-Nabi (a) in Tehran ... covers beliefs, notable figures, books, events ... the Prophet's biography.",
+      "founded_decade": "2010s",
+      "aka": [],
+      "target_audience": [
+        "specialist",
+        "intellectual",
+        "general"
+      ],
+      "output_volume_yearly": "low",
+      "methodology_school": "shia_imami",
+      "trajectory": "stable"
+    },
+    {
+      "id": "NAM-346",
+      "round": "10c",
+      "name_ar": "تطبيق السيرة - مؤسسة جرين تك للتطبيقات",
+      "name_en": "Greentech Apps Foundation - Seerah of Prophet Muhammad ﷺ app",
+      "type": "mobile_app",
+      "type_group": "media_audience",
+      "region": "non_arab_muslim",
+      "country": "BD",
+      "founded": 2020,
+      "description_ar": "تطبيق مخصص بالكامل لسيرة النبي ﷺ يضم كتاب (الرحيق المختوم) بالإنجليزية والبنغالية و(Prophetic Timeline) من MRDF، مع تقسيم ثلاثي (ما قبل البعثة - المكي - المدني) وقسم ملخصات للغزوات والزوجات والمعجزات.",
+      "url": "https://gtaf.org/apps/seerah/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "Greentech Apps Foundation"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "en",
+        "bn"
+      ],
+      "output_types": [
+        "mobile_app_output"
+      ],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://apps.apple.com/us/app/seerah-of-prophet-muhammad-saw/id1523463430"
+      ],
+      "evidence_quote": "The Seerah app contains prominent books to know about the life of Prophet Muhammad ... Each book has three eras (Pre-Prophethood, Makki, and Madani era).",
+      "founded_decade": "2020s",
+      "aka": [],
+      "target_audience": [
+        "general",
+        "youth"
+      ],
+      "output_volume_yearly": "medium",
+      "methodology_school": "popular_unspecified",
+      "trajectory": "growing"
+    },
+    {
+      "id": "GLB-010",
+      "round": "10c",
+      "name_ar": "تطبيق (السيرة) للأطفال - أويكنينج وورلدوايد",
+      "name_en": "The Sira (Awakening Worldwide / AlphaApps) - Children's Seerah App",
+      "type": "mobile_app",
+      "type_group": "media_audience",
+      "region": "western",
+      "country": "GB",
+      "founded": 2015,
+      "description_ar": "تطبيق تفاعلي مخصص بالكامل لقصة النبي ﷺ للأطفال، أنتجته شركة (أويكنينج) العالمية بالشراكة مع AlphaApps، متوفر للآيباد والآيفون والأندرويد، يعرض السيرة كقصة مصوّرة متحرّكة.",
+      "url": "https://sira.co/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "Awakening Worldwide",
+        "AlphaApps"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "en",
+        "ar"
+      ],
+      "output_types": [
+        "mobile_app_output"
+      ],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://apps.apple.com/us/app/the-seerah-of-prophet-muhammad/id998179353"
+      ],
+      "evidence_quote": "An interactive story book app for kids on iPad, iPhone and Android about the life of prophet Mohammed ... developed by AlphaApps in partnership with Awakening Worldwide.",
+      "founded_decade": "2010s",
+      "aka": [],
+      "target_audience": [
+        "general",
+        "youth"
+      ],
+      "output_volume_yearly": "medium",
+      "methodology_school": "popular_unspecified",
+      "trajectory": "growing"
+    },
+    {
+      "id": "LEV-089",
+      "round": "10c",
+      "name_ar": "المكتبة الوقفية - قسم السيرة النبوية",
+      "name_en": "al-Maktaba al-Waqfiya - Sira al-Nabawiyya section",
+      "type": "library_archive",
+      "type_group": "publishing_knowledge",
+      "region": "levant_iraq_nile",
+      "country": "EG",
+      "founded": 2008,
+      "description_ar": "أحد أكبر الأرشيفات الرقمية للكتب الشرعية المصوّرة بصيغة PDF، يحتوي على قسم مستقل للسيرة النبوية بأكثر من 219 كتاباً يضم أمهات المصادر والمصنفات الحديثة.",
+      "url": "https://waqfeya.com/category.php?cid=24",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "المكتبة الوقفية"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar"
+      ],
+      "output_types": [
+        "manuscripts",
+        "database"
+      ],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://waqfeya.net/tags/6797f3437e8dee793da2780b"
+      ],
+      "evidence_quote": "219 كتب السيرة النبوية - المكتبة الوقفية للكتب المصورة PDF ... قرابة 10 مليون صفحة بدقة وجودة عالية.",
+      "founded_decade": "2000s",
+      "aka": [],
+      "target_audience": [
+        "specialist",
+        "intellectual"
+      ],
+      "output_volume_yearly": "low",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
+    },
+    {
+      "id": "ARB-137",
+      "round": "10c",
+      "name_ar": "الدرر السنية - قسم السيرة النبوية",
+      "name_en": "Dorar.net - Sira al-Nabawiyya section",
+      "type": "digital_platform",
+      "type_group": "media_audience",
+      "region": "arabia",
+      "country": "SA",
+      "founded": 2000,
+      "description_ar": "ضمن مؤسسة الدرر السنية بإشراف الشيخ علوي بن عبد القادر السقاف؛ خزانة كتب السيرة تجمع بين دفتيها كتب السيرة والمغازي والشمائل المحمدية، مع تصنيف موضوعي وتقييم علمي.",
+      "url": "https://dorar.net/article/1715",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "علوي بن عبد القادر السقاف"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar"
+      ],
+      "output_types": [
+        "video",
+        "courses"
+      ],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://dorar.net/files/khazana_sera.pdf"
+      ],
+      "evidence_quote": "كتب السيرة النبوية - خزانة الكتب ... أعدّه القسم العلمي بمؤسسة الدرر السنية بإشراف الشيخ علوي بن عبد القادر السقاف.",
+      "founded_decade": "2000s",
+      "aka": [],
+      "target_audience": [
+        "general",
+        "intellectual"
+      ],
+      "output_volume_yearly": "high",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
+    },
+    {
+      "id": "ARB-138",
+      "round": "10c",
+      "name_ar": "بيت الإسلام - قسم السيرة متعدد اللغات",
+      "name_en": "IslamHouse.com - Seerah multilingual section",
+      "type": "digital_platform",
+      "type_group": "media_audience",
+      "region": "arabia",
+      "country": "SA",
+      "founded": 2007,
+      "description_ar": "أكبر بوابة دعوية متعددة اللغات بأكثر من 100 لغة، تضم قسماً مستقلاً للسيرة النبوية بصيغ متعددة (كتب وصوتيات وفيديو وملصقات وتطبيقات)، تابع للمكتب التعاوني للدعوة في الرياض.",
+      "url": "https://islamhouse.com/en/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "وزارة الشؤون الإسلامية السعودية"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en",
+        "fr",
+        "es",
+        "pt",
+        "it",
+        "ur",
+        "bn",
+        "id"
+      ],
+      "output_types": [
+        "video",
+        "courses"
+      ],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://github.com/IslamHouse-API/english-french-spanish-portuguese-italian-islam-quran-hadith-data-json-api"
+      ],
+      "evidence_quote": "IslamHouse is the biggest website for Islamic dawah in world languages, containing free items in more than 100 languages ... Seerah category with various books.",
+      "founded_decade": "2000s",
+      "aka": [],
+      "target_audience": [
+        "general",
+        "intellectual"
+      ],
+      "output_volume_yearly": "high",
+      "city_ar": "الرياض",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
+    },
+    {
+      "id": "WEST-203",
+      "round": "10c",
+      "name_ar": "موسوعة بريل الإسلامية الثالثة - مدخل (السيرة)",
+      "name_en": "Brill Encyclopaedia of Islam THREE (EI3) - 'Sīra' entries",
+      "type": "encyclopedia_project",
+      "type_group": "research_education",
+      "region": "western",
+      "country": "NL",
+      "founded": 2007,
+      "description_ar": "موسوعة بريل الإسلامية الثالثة بالاستشراق الأكاديمي تصدر سنوياً منذ 2007، تضم مدخلاً موسعاً عن (Sīra) ومداخل فرعية تتناول السيرة كنوع أدبي وتاريخي ومعرفي ومصادرها وتاريخ كتابتها.",
+      "url": "https://referenceworks.brill.com/display/db/ei3o",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [
+        "classical_corpus"
+      ],
+      "key_figures": [
+        "Marc Gaborieau",
+        "Gudrun Krämer",
+        "Denis Matringe",
+        "John Nawas",
+        "Everett Rowson"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "en"
+      ],
+      "output_types": [
+        "encyclopedia"
+      ],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://referenceworks.brill.com/display/entries/EIEO/COM-1089.xml?language=en"
+      ],
+      "evidence_quote": "Encyclopaedia of Islam, THREE ... rigorously maintains the comprehensiveness ... with new articles ... Sīra entries are included in Brill's Encyclopaedia of Islam reference works.",
+      "founded_decade": "2000s",
+      "aka": [],
+      "target_audience": [
+        "specialist",
+        "intellectual",
+        "general"
+      ],
+      "output_volume_yearly": "low",
+      "methodology_school": "western_critical",
+      "trajectory": "stable"
     }
   ],
-  "migration_note": "2026-05-16: ROUND 10-B — comprehensive expansion (6 streams): +124 → 446 entities",
+  "migration_note": "2026-05-16: ROUND 10-C — mop-up wave (Turkey/Gulf + online academies): +26 → 472 entities",
   "url_audit_note": "2026-05-15: تَدقيق روابط الكيانات (الجولة 10) — 6 روابط ميّتة أُصلحت أو أُزيلت",
   "restoration_note": "2026-05-16: استرجاع 34 كياناً شريكاً محتملاً من الـ514 المُستبعَدة في المراجعة الصارمة. مُوسومون بـ project_alignment."
 }
