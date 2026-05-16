@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <meta name="color-scheme" content="light">
-  <meta name="description" content="موسوعة مؤسسية لرصد وتشخيص 233 كياناً متخصصاً في خدمة السيرة النبوية على مستوى العالم، عبر 6 جولات بحثية شملت 36 دولة.">
+  <meta name="description" content="موسوعة مؤسسية لرصد وتشخيص 410 كيانات متخصصاً في خدمة السيرة النبوية على مستوى العالم، عبر 20 جولة بحثية شملت 52 دولة.">
   <meta name="keywords" content="السيرة النبوية، موسوعة، كيانات بحثية، مراكز دراسات، جامعات إسلامية، تشخيص مؤسسي، Prophetic biography, Seerah, Islamic studies institutions">
   <meta name="author" content="موسوعة السيرة النبوية المؤسسية">
   <meta name="robots" content="index, follow">
@@ -14,14 +14,14 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://mhmmdalmutairi.github.io/seerah-encyclopedia/">
   <meta property="og:title" content="موسوعة السيرة النبوية المؤسسية">
-  <meta property="og:description" content="رصد وتشخيص 233 كياناً مؤسسياً متخصصاً في خدمة السيرة النبوية، عبر 6 جولات بحثية شملت 36 دولة.">
+  <meta property="og:description" content="رصد وتشخيص 410 كيانات مؤسسياً متخصصاً في خدمة السيرة النبوية، عبر 20 جولة بحثية شملت 52 دولة.">
   <meta property="og:locale" content="ar_SA">
   <meta property="og:site_name" content="موسوعة السيرة النبوية المؤسسية">
 
   <!-- Twitter / X -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="موسوعة السيرة النبوية المؤسسية">
-  <meta name="twitter:description" content="رصد وتشخيص 233 كياناً مؤسسياً متخصصاً في خدمة السيرة النبوية، عبر 6 جولات بحثية شملت 36 دولة.">
+  <meta name="twitter:description" content="رصد وتشخيص 410 كيانات مؤسسياً متخصصاً في خدمة السيرة النبوية، عبر 20 جولة بحثية شملت 52 دولة.">
 
   <!-- JSON-LD structured data -->
   <script type="application/ld+json">
@@ -29,12 +29,12 @@
     "@context": "https://schema.org",
     "@type": "Dataset",
     "name": "موسوعة السيرة النبوية المؤسسية",
-    "description": "قاعدة بيانات لـ 233 كياناً مؤسسياً متخصصاً في خدمة السيرة النبوية على مستوى العالم.",
+    "description": "قاعدة بيانات لـ 410 كيانات مؤسسياً متخصصاً في خدمة السيرة النبوية على مستوى العالم.",
     "url": "https://mhmmdalmutairi.github.io/seerah-encyclopedia/",
     "inLanguage": "ar",
     "creator": { "@type": "Person", "name": "Mohammed Almutairi" },
     "license": "https://creativecommons.org/licenses/by/4.0/",
-    "spatialCoverage": "Global (36 countries)",
+    "spatialCoverage": "Global (52 countries)",
     "variableMeasured": [
       "نوع الكيان", "البلد", "الإقليم", "سنة التأسيس", "درجة التحقّق",
       "مستوى الإدراج", "الموضوعات", "العلاقات الصريحة"
@@ -49,6 +49,12 @@
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="assets/styles.css">
+
+  <!-- SHEIKH_MODE flag: set to true to expose the Sheikh Sa'ad al-Bakhit
+       project-analysis layer (tab «المشروع الجامع», projectMode toolbar
+       toggle, partnership annotations). Default false = public encyclopedia.
+       Override via URL: ?sheikh=1, or via localStorage: setItem('sheikh_mode','1'). -->
+  <script>window.SHEIKH_MODE = false;</script>
 </head>
 <body>
   <a href="#main-content" class="sr-only">تجاوز إلى المحتوى</a>
@@ -69,8 +75,10 @@
 
   <nav class="tabs" role="tablist" aria-label="تبويبات الموسوعة">
     <div class="container tabs__inner">
-      <button role="tab" class="tab is-active"
+      <!-- SHEIKH_MODE:tab-project (hidden when window.SHEIKH_MODE is false) -->
+      <button role="tab" class="tab is-active sheikh-only"
               data-tab="project"
+              data-sheikh-tab="1"
               aria-selected="true"
               aria-controls="tab-project">
         المشروع الجامع
@@ -151,8 +159,9 @@
   </nav>
 
   <main class="site-main" id="main-content">
-    <!-- التبويب 0: المشروع الجامع -->
-    <section id="tab-project" class="panel is-active" role="tabpanel"
+    <!-- SHEIKH_MODE:tab-project — التبويب 0: المشروع الجامع (hidden when SHEIKH_MODE=false) -->
+    <section id="tab-project" class="panel is-active sheikh-only" role="tabpanel"
+             data-sheikh-panel="1"
              aria-labelledby="tab-project-btn">
       <div class="container">
         <div class="empty-state">
@@ -190,8 +199,8 @@
               <span aria-hidden="true">⚙</span> الفلاتر
             </button>
 
-            <button class="btn btn--ghost toolbar-project-mode" type="button"
-                    aria-pressed="false" title="عرض الكيانات النظيرة لمشروع الشيخ سعد البخيت">
+            <button class="btn btn--ghost toolbar-project-mode sheikh-only" type="button"
+                    aria-pressed="false" title="عرض الكيانات النظيرة للمشروع">
               <span aria-hidden="true">🎯</span> <span class="lbl">عرض المشروع</span>
             </button>
 

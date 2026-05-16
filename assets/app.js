@@ -5,6 +5,32 @@
   "use strict";
 
   // ============================================================
+  // 0. SHEIKH_MODE flag — gates the project-analysis layer
+  // ============================================================
+  // Resolution order: window.SHEIKH_MODE (from index.html script tag),
+  // then ?sheikh=1 URL param, then localStorage 'sheikh_mode'.
+  // When off (default): tab «المشروع الجامع», projectMode toolbar toggle,
+  // and partnership annotations are all hidden. The encyclopedia stands alone.
+  const SHEIKH_MODE = (function () {
+    try {
+      if (typeof window !== "undefined") {
+        if (window.SHEIKH_MODE === true) return true;
+        const url = new URLSearchParams(window.location.search);
+        if (url.get("sheikh") === "1") return true;
+        if (window.localStorage && window.localStorage.getItem("sheikh_mode") === "1") return true;
+      }
+    } catch (e) {}
+    return false;
+  })();
+  if (SHEIKH_MODE && typeof document !== "undefined") {
+    document.documentElement.classList.add("sheikh-mode-on");
+    document.body && document.body.classList.add("sheikh-mode-on");
+    document.addEventListener("DOMContentLoaded", function () {
+      document.body && document.body.classList.add("sheikh-mode-on");
+    });
+  }
+
+  // ============================================================
   // 1. الترجمات: من رموز الـ schema إلى تسميات عربية
   // ============================================================
 
@@ -412,14 +438,20 @@
   const STORAGE_KEY = "seerah-active-tab";
 
   function initTabs() {
-    const tabs = Array.from(document.querySelectorAll(".tab"));
+    let tabs = Array.from(document.querySelectorAll(".tab"));
     const panels = Array.from(document.querySelectorAll(".panel"));
     if (!tabs.length) return;
 
+    // If SHEIKH_MODE is off, exclude sheikh-only tabs from initialization
+    if (!SHEIKH_MODE) {
+      tabs = tabs.filter((t) => !t.classList.contains("sheikh-only"));
+    }
+
     const savedTab = safeGetItem(STORAGE_KEY);
-    const initialTab = savedTab && document.querySelector(`[data-tab="${savedTab}"]`)
-      ? savedTab
-      : tabs[0].dataset.tab;
+    const savedTabIsValid = savedTab
+      && document.querySelector(`[data-tab="${savedTab}"]`)
+      && (SHEIKH_MODE || savedTab !== "project");
+    const initialTab = savedTabIsValid ? savedTab : tabs[0].dataset.tab;
 
     activateTab(initialTab, tabs, panels);
 
@@ -541,8 +573,8 @@
             activateTab("entities", tabsList, panelsList);
             safeSetItem(STORAGE_KEY, "entities");
             clearAllFilters();
-            // وضع المشروع
-            if (cfg.pmode === 1 || cfg.pmode === "1" || cfg.pmode === true) {
+            // وضع المشروع — فقط في SHEIKH_MODE
+            if (SHEIKH_MODE && (cfg.pmode === 1 || cfg.pmode === "1" || cfg.pmode === true)) {
               state.projectMode = true;
               const btn = document.querySelector(".toolbar-project-mode");
               if (btn) {
@@ -692,16 +724,18 @@
       applyGapEdits();
       state.loaded = true;
 
-      // تَحميل توصيفات المشروع الجامع (مفصولة عن الموسوعة)
-      try {
-        const annResponse = await fetch("data/project_annotations.json");
-        if (annResponse.ok) {
-          const annData = await annResponse.json();
-          state.projectAnnotations = Object.fromEntries(
-            Object.entries(annData).filter(([k]) => !k.startsWith("$"))
-          );
-        }
-      } catch (_e) { /* الملفّ اختياري، تجاهل الخطأ */ }
+      // تَحميل توصيفات المشروع الجامع (مفصولة عن الموسوعة) — فقط في SHEIKH_MODE
+      if (SHEIKH_MODE) {
+        try {
+          const annResponse = await fetch("data/project_annotations.json");
+          if (annResponse.ok) {
+            const annData = await annResponse.json();
+            state.projectAnnotations = Object.fromEntries(
+              Object.entries(annData).filter(([k]) => !k.startsWith("$"))
+            );
+          }
+        } catch (_e) { /* الملفّ اختياري، تجاهل الخطأ */ }
+      }
 
       // تحديث العدادات في الهيدر والتبويب
       // ملاحظة: العدّاد يَعكس «الموسوعة الأساسية» (directly_aligned فقط) لا السجلّ الثانوي.
@@ -1896,9 +1930,9 @@
       const sel = document.querySelector(".sort-select");
       if (sel) sel.value = sort;
     }
-    // وضع المشروع من الـ hash
+    // وضع المشروع من الـ hash — متاح فقط في SHEIKH_MODE
     const pmode = params.get("pmode");
-    if (pmode === "1") {
+    if (pmode === "1" && SHEIKH_MODE) {
       state.projectMode = true;
       const btn = document.querySelector(".toolbar-project-mode");
       if (btn) {

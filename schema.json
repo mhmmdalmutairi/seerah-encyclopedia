@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "Seerah Encyclopedia — Entity Card Schema (v3: Round 10 — Methodological Review)",
-  "description": "بطاقة كيان متخصص في خدمة السيرة النبوية. الإصدار 3 (الجولة 10) يُضيف: حقول مشروعية (project_alignment, methodology_school, trajectory, target_audience, output_volume_yearly)، أنواع كيانات جديدة (key_publication, unaffiliated_scholar, school_of_thought, audience_segment, documented_gap, manuscript_holding)، وعلاقات موسَّعة. التوصيفات الخاصة بمشروع الشيخ سعد البخيت في ملفّ منفصل: data/project_annotations.json.",
+  "description": "بطاقة كيان متخصص في خدمة السيرة النبوية. الإصدار 3 (الجولة 10) يُضيف: حقول إضافية (project_alignment, methodology_school, trajectory, target_audience, output_volume_yearly)، أنواع كيانات جديدة (key_publication, unaffiliated_scholar, school_of_thought, audience_segment, documented_gap, manuscript_holding)، وعلاقات موسَّعة. توصيفات الشراكة الخاصة بمشروع معيَّن (طبقة قابلة للتفعيل) في ملف منفصل: data/project_annotations.json.",
   "type": "object",
   "required": [
     "id", "round", "name_ar", "type", "type_group",
@@ -225,7 +225,7 @@
         "competitor",
         "excluded_permanent"
       ],
-      "description": "علاقة الكيان بمشروع الشيخ سعد البخيت. مفصول عن الموسوعة العامة. التفاصيل في data/project_annotations.json. directly_aligned هو الافتراضي للـ233 الحاليين."
+      "description": "حقل محايد لتصنيف علاقة الكيان بأيّ مشروع تطبيقي يَستخدم الموسوعة. directly_aligned هو الافتراضي للكيانات التي تستوفي معايير الإدراج. التوصيفات الخاصة بمشروع معيَّن (إن وُجد) في data/project_annotations.json — طبقة قابلة للتفعيل."
     },
 
     "description_ar": { "type": "string" },
