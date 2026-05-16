@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-16T10:02:48.475671Z",
+  "generated_at": "2026-05-16T10:04:52.309659Z",
   "totals": {
     "all_entities": 446,
     "real": 444,
@@ -43,9 +43,9 @@
       "pct": 100.0
     },
     "city_ar": {
-      "filled": 122,
+      "filled": 231,
       "total": 410,
-      "pct": 29.8
+      "pct": 56.3
     },
     "founded": {
       "filled": 338,
@@ -98,14 +98,14 @@
       "pct": 100.0
     },
     "methodology_school": {
-      "filled": 52,
+      "filled": 410,
       "total": 410,
-      "pct": 12.7
+      "pct": 100.0
     },
     "trajectory": {
-      "filled": 52,
+      "filled": 410,
       "total": 410,
-      "pct": 12.7
+      "pct": 100.0
     },
     "output_volume_yearly": {
       "filled": 388,
@@ -239,15 +239,15 @@
     ],
     "subjects": [
       {
-        "subject": "hadith_sciences",
-        "count": 0
-      },
-      {
         "subject": "ahl_al_sunna",
         "count": 0
       },
       {
-        "subject": "rashidun",
+        "subject": "hadith_sciences",
+        "count": 0
+      },
+      {
+        "subject": "khasais_nabawiyyah",
         "count": 1
       },
       {
@@ -255,23 +255,23 @@
         "count": 1
       },
       {
+        "subject": "rashidun",
+        "count": 1
+      },
+      {
         "subject": "tabaqat_companions",
         "count": 1
-      },
-      {
-        "subject": "khasais_nabawiyyah",
-        "count": 1
-      },
-      {
-        "subject": "makkah_studies",
-        "count": 2
       },
       {
         "subject": "family_household",
         "count": 2
       },
       {
-        "subject": "medicine_prophetic",
+        "subject": "makkah_studies",
+        "count": 2
+      },
+      {
+        "subject": "wufud_diplomacy",
         "count": 3
       },
       {
@@ -279,7 +279,7 @@
         "count": 3
       },
       {
-        "subject": "wufud_diplomacy",
+        "subject": "medicine_prophetic",
         "count": 3
       },
       {
@@ -287,11 +287,11 @@
         "count": 4
       },
       {
-        "subject": "ahlulbayt",
+        "subject": "comparative_religion",
         "count": 5
       },
       {
-        "subject": "comparative_religion",
+        "subject": "ahlulbayt",
         "count": 5
       },
       {
@@ -393,50 +393,9 @@
     ]
   },
   "scores": {
-    "avg": 77.7,
-    "median": 80.0,
-    "low_quality": [
-      {
-        "id": "TUR-029",
-        "name_ar": "دار إندولوس للنشر",
-        "score": 52.0
-      },
-      {
-        "id": "TUR-030",
-        "name_ar": "دار إنصار للنشر",
-        "score": 52.0
-      },
-      {
-        "id": "TUR-047",
-        "name_ar": "أ.د. مصطفى فايدة",
-        "score": 52.0
-      },
-      {
-        "id": "TUR-052",
-        "name_ar": "أ.د. ليفنت أوزتورك",
-        "score": 52.0
-      },
-      {
-        "id": "TUR-054",
-        "name_ar": "أ.د. أحمد أونكال",
-        "score": 52.0
-      },
-      {
-        "id": "TUR-055",
-        "name_ar": "أ.د. آدم آباك",
-        "score": 52.0
-      },
-      {
-        "id": "TUR-056",
-        "name_ar": "أ.د. كاسم أفجي",
-        "score": 57.0
-      },
-      {
-        "id": "ARB-021",
-        "name_ar": "منحة البدر لدعم مشاريع الكتابة عن سيرة النبي ﷺ",
-        "score": 58.0
-      }
-    ],
-    "low_quality_count": 8
+    "avg": 86.4,
+    "median": 90.0,
+    "low_quality": [],
+    "low_quality_count": 0
   }
 }

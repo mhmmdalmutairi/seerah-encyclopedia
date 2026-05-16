@@ -214,7 +214,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "ARB-004",
@@ -264,7 +266,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "ARB-007",
@@ -475,7 +479,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "ARB-010",
@@ -681,7 +687,9 @@
       "target_audience": [
         "specialist"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "ARB-019",
@@ -726,7 +734,9 @@
       "target_audience": [
         "general"
       ],
-      "output_volume_yearly": "high"
+      "output_volume_yearly": "high",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "ARB-021",
@@ -767,7 +777,9 @@
       "target_audience": [
         "specialist"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "ARB-033",
@@ -815,7 +827,9 @@
       "target_audience": [
         "general"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "classical_sunni",
+      "trajectory": "dormant_revivable"
     },
     {
       "id": "ARB-039",
@@ -1029,7 +1043,9 @@
         "general",
         "intellectual"
       ],
-      "output_volume_yearly": "high"
+      "output_volume_yearly": "high",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "ARB-047",
@@ -1076,7 +1092,9 @@
       "target_audience": [
         "general"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "ARB-052",
@@ -1180,7 +1198,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "LEV-007",
@@ -1223,7 +1243,9 @@
       "target_audience": [
         "general"
       ],
-      "output_volume_yearly": "high"
+      "output_volume_yearly": "high",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "LEV-008",
@@ -1282,7 +1304,9 @@
         "general",
         "intellectual"
       ],
-      "output_volume_yearly": "high"
+      "output_volume_yearly": "high",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "LEV-011",
@@ -1474,7 +1498,9 @@
         "general",
         "intellectual"
       ],
-      "output_volume_yearly": "high"
+      "output_volume_yearly": "high",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "LEV-018",
@@ -1526,7 +1552,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "LEV-020",
@@ -1573,7 +1601,9 @@
         "general",
         "intellectual"
       ],
-      "output_volume_yearly": "high"
+      "output_volume_yearly": "high",
+      "methodology_school": "classical_sunni",
+      "trajectory": "peaked_then_stable"
     },
     {
       "id": "LEV-021",
@@ -1624,7 +1654,9 @@
         "general",
         "intellectual"
       ],
-      "output_volume_yearly": "high"
+      "output_volume_yearly": "high",
+      "methodology_school": "classical_sunni",
+      "trajectory": "peaked_then_stable"
     },
     {
       "id": "LEV-022",
@@ -1681,7 +1713,9 @@
         "general",
         "intellectual"
       ],
-      "output_volume_yearly": "high"
+      "output_volume_yearly": "high",
+      "methodology_school": "classical_sunni",
+      "trajectory": "peaked_then_stable"
     },
     {
       "id": "LEV-023",
@@ -1733,7 +1767,9 @@
         "general",
         "intellectual"
       ],
-      "output_volume_yearly": "high"
+      "output_volume_yearly": "high",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "LEV-030",
@@ -2015,7 +2051,9 @@
       "target_audience": [
         "specialist"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "classical_sunni",
+      "trajectory": "growing"
     },
     {
       "id": "LEV-034",
@@ -2061,7 +2099,9 @@
       "target_audience": [
         "specialist"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "MAG-001",
@@ -2119,7 +2159,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "MAG-002",
@@ -2306,7 +2348,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "MAG-013",
@@ -2351,7 +2395,9 @@
         "general",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "MAG-014",
@@ -2402,7 +2448,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "MAG-015",
@@ -2452,7 +2500,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "MAG-016",
@@ -2504,7 +2554,9 @@
         "general",
         "intellectual"
       ],
-      "output_volume_yearly": "high"
+      "output_volume_yearly": "high",
+      "methodology_school": "classical_sunni",
+      "trajectory": "growing"
     },
     {
       "id": "MAG-018",
@@ -2559,7 +2611,9 @@
       "target_audience": [
         "general"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "MAG-019",
@@ -2605,7 +2659,9 @@
         "general",
         "intellectual"
       ],
-      "output_volume_yearly": "high"
+      "output_volume_yearly": "high",
+      "methodology_school": "sufi_traditionalist",
+      "trajectory": "stable"
     },
     {
       "id": "MAG-042",
@@ -2656,7 +2712,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "MAG-043",
@@ -2707,7 +2765,9 @@
         "general",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "MAG-046",
@@ -2801,7 +2861,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "MAG-049",
@@ -2842,7 +2904,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "TUR-001",
@@ -3137,7 +3201,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "methodology_school": "turkish_modernist",
+      "trajectory": "growing"
     },
     {
       "id": "TUR-005",
@@ -3193,7 +3259,9 @@
         "general",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "turkish_modernist",
+      "trajectory": "stable"
     },
     {
       "id": "TUR-006",
@@ -3254,7 +3322,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "methodology_school": "turkish_modernist",
+      "trajectory": "stable"
     },
     {
       "id": "TUR-007",
@@ -3308,7 +3378,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "methodology_school": "turkish_modernist",
+      "trajectory": "stable"
     },
     {
       "id": "TUR-008",
@@ -3364,7 +3436,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "methodology_school": "turkish_modernist",
+      "trajectory": "stable"
     },
     {
       "id": "TUR-009",
@@ -3419,7 +3493,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "methodology_school": "turkish_modernist",
+      "trajectory": "stable"
     },
     {
       "id": "TUR-010",
@@ -3467,7 +3543,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "methodology_school": "turkish_modernist",
+      "trajectory": "stable"
     },
     {
       "id": "TUR-011",
@@ -3518,7 +3596,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "methodology_school": "turkish_modernist",
+      "trajectory": "stable"
     },
     {
       "id": "TUR-012",
@@ -3572,7 +3652,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "methodology_school": "turkish_modernist",
+      "trajectory": "stable"
     },
     {
       "id": "TUR-013",
@@ -3626,7 +3708,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "methodology_school": "turkish_modernist",
+      "trajectory": "stable"
     },
     {
       "id": "TUR-014",
@@ -3680,7 +3764,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "methodology_school": "turkish_modernist",
+      "trajectory": "stable"
     },
     {
       "id": "TUR-015",
@@ -3731,7 +3817,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "methodology_school": "turkish_modernist",
+      "trajectory": "stable"
     },
     {
       "id": "TUR-016",
@@ -3782,7 +3870,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "methodology_school": "turkish_modernist",
+      "trajectory": "stable"
     },
     {
       "id": "TUR-017",
@@ -3834,7 +3924,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "methodology_school": "turkish_modernist",
+      "trajectory": "stable"
     },
     {
       "id": "TUR-018",
@@ -3890,7 +3982,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "methodology_school": "turkish_modernist",
+      "trajectory": "growing"
     },
     {
       "id": "TUR-020",
@@ -3948,7 +4042,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "methodology_school": "turkish_modernist",
+      "trajectory": "growing"
     },
     {
       "id": "TUR-021",
@@ -4002,7 +4098,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "methodology_school": "turkish_modernist",
+      "trajectory": "growing"
     },
     {
       "id": "TUR-023",
@@ -4058,7 +4156,9 @@
         "general",
         "intellectual"
       ],
-      "output_volume_yearly": "high"
+      "output_volume_yearly": "high",
+      "methodology_school": "turkish_modernist",
+      "trajectory": "stable"
     },
     {
       "id": "TUR-024",
@@ -4112,7 +4212,9 @@
         "general",
         "intellectual"
       ],
-      "output_volume_yearly": "high"
+      "output_volume_yearly": "high",
+      "methodology_school": "turkish_modernist",
+      "trajectory": "stable"
     },
     {
       "id": "TUR-025",
@@ -4162,7 +4264,9 @@
         "general",
         "intellectual"
       ],
-      "output_volume_yearly": "high"
+      "output_volume_yearly": "high",
+      "methodology_school": "turkish_modernist",
+      "trajectory": "stable"
     },
     {
       "id": "TUR-026",
@@ -4212,7 +4316,9 @@
         "general",
         "intellectual"
       ],
-      "output_volume_yearly": "high"
+      "output_volume_yearly": "high",
+      "methodology_school": "turkish_modernist",
+      "trajectory": "stable"
     },
     {
       "id": "TUR-029",
@@ -4255,7 +4361,9 @@
         "general",
         "intellectual"
       ],
-      "output_volume_yearly": "high"
+      "output_volume_yearly": "high",
+      "methodology_school": "turkish_modernist",
+      "trajectory": "stable"
     },
     {
       "id": "TUR-030",
@@ -4298,7 +4406,9 @@
         "general",
         "intellectual"
       ],
-      "output_volume_yearly": "high"
+      "output_volume_yearly": "high",
+      "methodology_school": "turkish_modernist",
+      "trajectory": "stable"
     },
     {
       "id": "TUR-031",
@@ -4418,7 +4528,9 @@
       "target_audience": [
         "general"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "turkish_modernist",
+      "trajectory": "stable"
     },
     {
       "id": "TUR-033",
@@ -4466,7 +4578,9 @@
       "target_audience": [
         "general"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "turkish_modernist",
+      "trajectory": "stable"
     },
     {
       "id": "TUR-034",
@@ -4640,7 +4754,9 @@
         "general",
         "intellectual"
       ],
-      "output_volume_yearly": "high"
+      "output_volume_yearly": "high",
+      "methodology_school": "turkish_modernist",
+      "trajectory": "stable"
     },
     {
       "id": "TUR-039",
@@ -4757,7 +4873,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "turkish_modernist",
+      "trajectory": "growing"
     },
     {
       "id": "TUR-043",
@@ -4806,7 +4924,9 @@
       "target_audience": [
         "specialist"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "turkish_modernist",
+      "trajectory": "stable"
     },
     {
       "id": "TUR-044",
@@ -4857,7 +4977,9 @@
       "target_audience": [
         "specialist"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "turkish_modernist",
+      "trajectory": "stable"
     },
     {
       "id": "TUR-045",
@@ -4975,7 +5097,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "turkish_modernist",
+      "trajectory": "stable"
     },
     {
       "id": "TUR-047",
@@ -5021,7 +5145,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "turkish_modernist",
+      "trajectory": "stable"
     },
     {
       "id": "TUR-048",
@@ -5067,7 +5193,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "turkish_modernist",
+      "trajectory": "stable"
     },
     {
       "id": "TUR-050",
@@ -5118,7 +5246,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "turkish_modernist",
+      "trajectory": "stable"
     },
     {
       "id": "TUR-051",
@@ -5215,7 +5345,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "turkish_modernist",
+      "trajectory": "stable"
     },
     {
       "id": "TUR-053",
@@ -5259,7 +5391,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "turkish_modernist",
+      "trajectory": "stable"
     },
     {
       "id": "TUR-054",
@@ -5303,7 +5437,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "turkish_modernist",
+      "trajectory": "stable"
     },
     {
       "id": "TUR-055",
@@ -5345,7 +5481,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "turkish_modernist",
+      "trajectory": "stable"
     },
     {
       "id": "TUR-056",
@@ -5393,7 +5531,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "turkish_modernist",
+      "trajectory": "stable"
     },
     {
       "id": "TUR-060",
@@ -5447,7 +5587,9 @@
         "general",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "turkish_modernist",
+      "trajectory": "stable"
     },
     {
       "id": "TUR-061",
@@ -5500,7 +5642,9 @@
         "general",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "turkish_modernist",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-001",
@@ -5615,7 +5759,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "classical_sunni",
+      "trajectory": "peaked_then_stable"
     },
     {
       "id": "NAM-003",
@@ -5745,7 +5891,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "sufi_traditionalist",
+      "trajectory": "growing"
     },
     {
       "id": "NAM-005",
@@ -5795,7 +5943,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "classical_sunni",
+      "trajectory": "peaked_then_stable"
     },
     {
       "id": "NAM-013",
@@ -5843,7 +5993,9 @@
         "general",
         "intellectual"
       ],
-      "output_volume_yearly": "high"
+      "output_volume_yearly": "high",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-014",
@@ -5942,7 +6094,9 @@
         "general",
         "intellectual"
       ],
-      "output_volume_yearly": "high"
+      "output_volume_yearly": "high",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-022",
@@ -6092,7 +6246,9 @@
         "general",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-047",
@@ -6129,7 +6285,9 @@
         "general",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-050",
@@ -6373,7 +6531,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "shia_imami",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-058",
@@ -6422,7 +6582,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "classical_sunni",
+      "trajectory": "growing"
     },
     {
       "id": "NAM-059",
@@ -6463,7 +6625,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "WEST-001",
@@ -6513,7 +6677,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "WEST-005",
@@ -6566,7 +6732,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "WEST-009",
@@ -6615,7 +6783,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "WEST-021",
@@ -6676,7 +6846,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "methodology_school": "classical_sunni",
+      "trajectory": "ended"
     },
     {
       "id": "WEST-025",
@@ -6727,7 +6899,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "WEST-029",
@@ -6779,7 +6953,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "WEST-038",
@@ -6831,7 +7007,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "WEST-041",
@@ -7007,7 +7185,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-064",
@@ -7062,7 +7242,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-066",
@@ -7119,7 +7301,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-067",
@@ -7182,7 +7366,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "methodology_school": "classical_sunni",
+      "trajectory": "growing"
     },
     {
       "id": "NAM-068",
@@ -7234,7 +7420,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "methodology_school": "classical_sunni",
+      "trajectory": "growing"
     },
     {
       "id": "NAM-069",
@@ -7287,7 +7475,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-076",
@@ -7338,7 +7528,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-084",
@@ -7397,7 +7589,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "methodology_school": "classical_sunni",
+      "trajectory": "peaked_then_stable"
     },
     {
       "id": "NAM-094",
@@ -7593,7 +7787,9 @@
       "aka": [],
       "target_audience": [
         "general"
-      ]
+      ],
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "GLB-002",
@@ -7647,7 +7843,9 @@
       "aka": [],
       "target_audience": [
         "general"
-      ]
+      ],
+      "methodology_school": "classical_sunni",
+      "trajectory": "dormant_revivable"
     },
     {
       "id": "GLB-004",
@@ -7697,7 +7895,9 @@
         "general",
         "youth"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "methodology_school": "popular_unspecified",
+      "trajectory": "stable"
     },
     {
       "id": "GLB-007",
@@ -7753,7 +7953,9 @@
       "target_audience": [
         "general",
         "youth"
-      ]
+      ],
+      "methodology_school": "popular_unspecified",
+      "trajectory": "stable"
     },
     {
       "id": "ARB-069",
@@ -7806,7 +8008,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "ARB-070",
@@ -7918,7 +8122,10 @@
       "target_audience": [
         "general"
       ],
-      "output_volume_yearly": "high"
+      "output_volume_yearly": "high",
+      "city_ar": "فاس",
+      "methodology_school": "sufi_traditionalist",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-114",
@@ -7965,7 +8172,9 @@
       "target_audience": [
         "general"
       ],
-      "output_volume_yearly": "high"
+      "output_volume_yearly": "high",
+      "methodology_school": "sufi_traditionalist",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-115",
@@ -8011,7 +8220,10 @@
       "target_audience": [
         "general"
       ],
-      "output_volume_yearly": "high"
+      "output_volume_yearly": "high",
+      "city_ar": "تيواوان",
+      "methodology_school": "sufi_traditionalist",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-116",
@@ -8057,7 +8269,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "sufi_traditionalist",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-117",
@@ -8105,7 +8319,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "sufi_traditionalist",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-121",
@@ -8149,7 +8365,9 @@
       "target_audience": [
         "general"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-123",
@@ -8195,7 +8413,9 @@
       "target_audience": [
         "general"
       ],
-      "output_volume_yearly": "high"
+      "output_volume_yearly": "high",
+      "methodology_school": "sufi_traditionalist",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-125",
@@ -8242,7 +8462,10 @@
       "target_audience": [
         "general"
       ],
-      "output_volume_yearly": "high"
+      "output_volume_yearly": "high",
+      "city_ar": "الخرطوم",
+      "methodology_school": "sufi_traditionalist",
+      "trajectory": "ended"
     },
     {
       "id": "NAM-129",
@@ -8288,7 +8511,9 @@
       "target_audience": [
         "general"
       ],
-      "output_volume_yearly": "high"
+      "output_volume_yearly": "high",
+      "methodology_school": "sufi_traditionalist",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-137",
@@ -8334,7 +8559,9 @@
       "target_audience": [
         "general"
       ],
-      "output_volume_yearly": "high"
+      "output_volume_yearly": "high",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-216",
@@ -8446,7 +8673,9 @@
         "general",
         "intellectual"
       ],
-      "output_volume_yearly": "high"
+      "output_volume_yearly": "high",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "WEST-160",
@@ -8489,7 +8718,9 @@
         "general",
         "intellectual"
       ],
-      "output_volume_yearly": "high"
+      "output_volume_yearly": "high",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "ARB-076",
@@ -8535,7 +8766,10 @@
         "general",
         "intellectual"
       ],
-      "output_volume_yearly": "high"
+      "output_volume_yearly": "high",
+      "city_ar": "الرياض",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "ARB-077",
@@ -8578,7 +8812,10 @@
         "general",
         "intellectual"
       ],
-      "output_volume_yearly": "high"
+      "output_volume_yearly": "high",
+      "city_ar": "الرياض",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "WEST-161",
@@ -8625,7 +8862,10 @@
         "general",
         "intellectual"
       ],
-      "output_volume_yearly": "high"
+      "output_volume_yearly": "high",
+      "city_ar": "لندن",
+      "methodology_school": "classical_sunni",
+      "trajectory": "growing"
     },
     {
       "id": "WEST-162",
@@ -8668,7 +8908,9 @@
       "aka": [],
       "target_audience": [
         "general"
-      ]
+      ],
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-217",
@@ -8771,7 +9013,9 @@
         "general",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "WEST-166",
@@ -8812,7 +9056,9 @@
       "target_audience": [
         "general",
         "youth"
-      ]
+      ],
+      "methodology_school": "western_rehabilitative",
+      "trajectory": "growing"
     },
     {
       "id": "WEST-168",
@@ -8855,7 +9101,9 @@
         "general",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "methodology_school": "western_rehabilitative",
+      "trajectory": "growing"
     },
     {
       "id": "ARB-090",
@@ -8907,7 +9155,8 @@
       ],
       "project_alignment": "directly_aligned",
       "founded_decade": "1430s",
-      "aka": []
+      "aka": [],
+      "city_ar": "مكة"
     },
     {
       "id": "TUR-070",
@@ -8955,7 +9204,9 @@
       "target_audience": [
         "general"
       ],
-      "output_volume_yearly": "high"
+      "output_volume_yearly": "high",
+      "methodology_school": "turkish_modernist",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-232",
@@ -9000,7 +9251,10 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "city_ar": "مقديشو",
+      "methodology_school": "sufi_traditionalist",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-233",
@@ -9044,7 +9298,9 @@
       "target_audience": [
         "general"
       ],
-      "output_volume_yearly": "high"
+      "output_volume_yearly": "high",
+      "methodology_school": "sufi_traditionalist",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-234",
@@ -9089,7 +9345,10 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "city_ar": "لكناو",
+      "methodology_school": "sufi_traditionalist",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-235",
@@ -9136,7 +9395,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "WEST-173",
@@ -9179,7 +9440,9 @@
         "general",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "ARB-092",
@@ -9222,7 +9485,9 @@
         "general",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "classical_sunni",
+      "trajectory": "growing"
     },
     {
       "id": "ARB-093",
@@ -9264,7 +9529,10 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "city_ar": "الرياض",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "MAG-052",
@@ -9309,7 +9577,8 @@
       ],
       "project_alignment": "directly_aligned",
       "founded_decade": "2020s",
-      "aka": []
+      "aka": [],
+      "city_ar": "الجزائر"
     },
     {
       "id": "NAM-236",
@@ -9359,7 +9628,8 @@
       ],
       "project_alignment": "directly_aligned",
       "founded_decade": "2010s",
-      "aka": []
+      "aka": [],
+      "city_ar": "لاهور"
     },
     {
       "id": "NAM-237",
@@ -9409,7 +9679,8 @@
       ],
       "project_alignment": "directly_aligned",
       "founded_decade": "2010s",
-      "aka": []
+      "aka": [],
+      "city_ar": "لاهور"
     },
     {
       "id": "NAM-238",
@@ -9462,7 +9733,8 @@
       ],
       "project_alignment": "directly_aligned",
       "founded_decade": "2010s",
-      "aka": []
+      "aka": [],
+      "city_ar": "إسلام آباد"
     },
     {
       "id": "NAM-239",
@@ -9507,7 +9779,10 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "city_ar": "بيشاور",
+      "methodology_school": "sufi_traditionalist",
+      "trajectory": "growing"
     },
     {
       "id": "NAM-240",
@@ -9552,7 +9827,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "methodology_school": "classical_sunni",
+      "trajectory": "growing"
     },
     {
       "id": "NAM-241",
@@ -9592,7 +9869,10 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "city_ar": "إسلام آباد",
+      "methodology_school": "classical_sunni",
+      "trajectory": "growing"
     },
     {
       "id": "ARB-094",
@@ -9637,7 +9917,10 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "city_ar": "الدوحة",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-242",
@@ -9677,7 +9960,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "classical_sunni",
+      "trajectory": "growing"
     },
     {
       "id": "TUR-071",
@@ -9714,7 +9999,9 @@
       "target_audience": [
         "specialist"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "turkish_modernist",
+      "trajectory": "stable"
     },
     {
       "id": "TUR-072",
@@ -9802,7 +10089,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "methodology_school": "turkish_modernist",
+      "trajectory": "stable"
     },
     {
       "id": "WEST-174",
@@ -9847,7 +10136,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "methodology_school": "classical_sunni",
+      "trajectory": "peaked_then_stable"
     },
     {
       "id": "WEST-175",
@@ -9891,7 +10182,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "WEST-176",
@@ -9933,7 +10226,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "classical_sunni",
+      "trajectory": "growing"
     },
     {
       "id": "NAM-243",
@@ -9977,7 +10272,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "ARB-095",
@@ -10020,7 +10317,10 @@
       "target_audience": [
         "general"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "city_ar": "مكة",
+      "methodology_school": "classical_sunni",
+      "trajectory": "growing"
     },
     {
       "id": "ARB-096",
@@ -10068,7 +10368,10 @@
         "intellectual",
         "general"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "city_ar": "الرياض",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "ARB-097",
@@ -10111,7 +10414,10 @@
       "target_audience": [
         "general"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "city_ar": "المدينة",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "ARB-098",
@@ -10156,7 +10462,10 @@
       "target_audience": [
         "general"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "city_ar": "المدينة",
+      "methodology_school": "classical_sunni",
+      "trajectory": "growing"
     },
     {
       "id": "ARB-099",
@@ -10200,7 +10509,10 @@
       "target_audience": [
         "general"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "city_ar": "الرياض",
+      "methodology_school": "classical_sunni",
+      "trajectory": "growing"
     },
     {
       "id": "ARB-100",
@@ -10247,7 +10559,10 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "city_ar": "المدينة",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-244",
@@ -10293,7 +10608,10 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "city_ar": "كراتشي",
+      "methodology_school": "classical_sunni",
+      "trajectory": "growing"
     },
     {
       "id": "NAM-245",
@@ -10340,7 +10658,10 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "city_ar": "إسلام آباد",
+      "methodology_school": "classical_sunni",
+      "trajectory": "growing"
     },
     {
       "id": "NAM-246",
@@ -10386,7 +10707,10 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "city_ar": "لاهور",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "ARB-101",
@@ -10486,7 +10810,9 @@
         "general",
         "intellectual"
       ],
-      "output_volume_yearly": "high"
+      "output_volume_yearly": "high",
+      "methodology_school": "classical_sunni",
+      "trajectory": "growing"
     },
     {
       "id": "NAM-247",
@@ -10532,7 +10858,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-248",
@@ -10576,7 +10904,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "ARB-102",
@@ -10619,7 +10949,10 @@
       "target_audience": [
         "general"
       ],
-      "output_volume_yearly": "high"
+      "output_volume_yearly": "high",
+      "city_ar": "المدينة",
+      "methodology_school": "classical_sunni",
+      "trajectory": "growing"
     },
     {
       "id": "WEST-177",
@@ -10765,7 +11098,9 @@
         "general",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "methodology_school": "western_rehabilitative",
+      "trajectory": "growing"
     },
     {
       "id": "WEST-180",
@@ -10809,7 +11144,9 @@
         "general",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "methodology_school": "western_rehabilitative",
+      "trajectory": "growing"
     },
     {
       "id": "WEST-181",
@@ -10902,7 +11239,9 @@
         "general",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "methodology_school": "western_rehabilitative",
+      "trajectory": "growing"
     },
     {
       "id": "WEST-183",
@@ -10946,7 +11285,9 @@
         "general",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "methodology_school": "western_rehabilitative",
+      "trajectory": "growing"
     },
     {
       "id": "ARB-103",
@@ -10987,7 +11328,9 @@
       "target_audience": [
         "general",
         "youth"
-      ]
+      ],
+      "methodology_school": "popular_unspecified",
+      "trajectory": "growing"
     },
     {
       "id": "NAM-249",
@@ -11031,7 +11374,9 @@
         "general",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "methodology_school": "classical_sunni",
+      "trajectory": "growing"
     },
     {
       "id": "ARB-104",
@@ -11076,7 +11421,9 @@
         "general",
         "intellectual"
       ],
-      "output_volume_yearly": "high"
+      "output_volume_yearly": "high",
+      "methodology_school": "classical_sunni",
+      "trajectory": "growing"
     },
     {
       "id": "NAM-250",
@@ -11117,7 +11464,9 @@
       "target_audience": [
         "general",
         "youth"
-      ]
+      ],
+      "methodology_school": "popular_unspecified",
+      "trajectory": "growing"
     },
     {
       "id": "WEST-184",
@@ -11173,7 +11522,8 @@
       ],
       "project_alignment": "directly_aligned",
       "founded_decade": "2020s",
-      "aka": []
+      "aka": [],
+      "city_ar": "ليون"
     },
     {
       "id": "WEST-185",
@@ -11217,7 +11567,9 @@
         "general",
         "intellectual"
       ],
-      "output_volume_yearly": "high"
+      "output_volume_yearly": "high",
+      "methodology_school": "classical_sunni",
+      "trajectory": "growing"
     },
     {
       "id": "NAM-251",
@@ -11264,7 +11616,10 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "city_ar": "جاكرتا",
+      "methodology_school": "classical_sunni",
+      "trajectory": "growing"
     },
     {
       "id": "NAM-252",
@@ -11311,7 +11666,9 @@
       "target_audience": [
         "specialist",
         "intellectual"
-      ]
+      ],
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-253",
@@ -11358,7 +11715,9 @@
         "intellectual",
         "general"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "shia_imami",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-254",
@@ -11402,7 +11761,10 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "city_ar": "طهران",
+      "methodology_school": "classical_sunni",
+      "trajectory": "growing"
     },
     {
       "id": "NAM-255",
@@ -11445,7 +11807,10 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "city_ar": "طهران",
+      "methodology_school": "classical_sunni",
+      "trajectory": "growing"
     },
     {
       "id": "WEST-186",
@@ -11488,7 +11853,10 @@
         "general",
         "intellectual"
       ],
-      "output_volume_yearly": "high"
+      "output_volume_yearly": "high",
+      "city_ar": "ليون",
+      "methodology_school": "classical_sunni",
+      "trajectory": "growing"
     },
     {
       "id": "ARB-105",
@@ -11527,7 +11895,10 @@
       "target_audience": [
         "specialist"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "city_ar": "مكة",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "WEST-187",
@@ -11573,7 +11944,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "MAG-053",
@@ -11613,7 +11986,10 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "city_ar": "نواكشوط",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-256",
@@ -11654,7 +12030,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-257",
@@ -11695,7 +12073,9 @@
       "target_audience": [
         "specialist"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "TUR-074",
@@ -11737,7 +12117,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "turkish_modernist",
+      "trajectory": "stable"
     },
     {
       "id": "ARB-106",
@@ -11784,7 +12166,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "classical_sunni",
+      "trajectory": "growing"
     },
     {
       "id": "ARB-107",
@@ -11822,7 +12206,9 @@
       "target_audience": [
         "specialist"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "classical_sunni",
+      "trajectory": "growing"
     },
     {
       "id": "MAG-054",
@@ -11864,7 +12250,10 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "city_ar": "فاس",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "ARB-108",
@@ -11904,7 +12293,10 @@
       "target_audience": [
         "specialist"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "city_ar": "دبي",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-258",
@@ -11943,7 +12335,10 @@
       "target_audience": [
         "specialist"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "city_ar": "دكا",
+      "methodology_school": "classical_sunni",
+      "trajectory": "growing"
     },
     {
       "id": "TUR-075",
@@ -11982,7 +12377,9 @@
       "target_audience": [
         "specialist"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "turkish_modernist",
+      "trajectory": "stable"
     },
     {
       "id": "TUR-076",
@@ -12024,7 +12421,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "turkish_modernist",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-259",
@@ -12066,7 +12465,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "classical_sunni",
+      "trajectory": "growing"
     },
     {
       "id": "NAM-260",
@@ -12110,7 +12511,10 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "city_ar": "إسلام آباد",
+      "methodology_school": "classical_sunni",
+      "trajectory": "growing"
     },
     {
       "id": "ARB-011",
@@ -12163,7 +12567,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "methodology_school": "classical_sunni",
+      "trajectory": "growing"
     },
     {
       "id": "ARB-024",
@@ -12225,7 +12631,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "ARB-029",
@@ -12272,7 +12680,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "ARB-075",
@@ -12324,7 +12734,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "ARB-071",
@@ -12379,7 +12791,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "ARB-016",
@@ -12427,7 +12841,9 @@
         "general",
         "intellectual"
       ],
-      "output_volume_yearly": "high"
+      "output_volume_yearly": "high",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "LEV-049",
@@ -12484,7 +12900,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-061",
@@ -12543,7 +12961,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "methodology_school": "classical_sunni",
+      "trajectory": "growing"
     },
     {
       "id": "WEST-016",
@@ -12596,7 +13016,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "methodology_school": "classical_sunni",
+      "trajectory": "peaked_then_stable"
     },
     {
       "id": "WEST-022",
@@ -12646,7 +13068,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "WEST-026",
@@ -12694,7 +13118,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "WEST-064",
@@ -12748,7 +13174,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "WEST-065",
@@ -12800,7 +13228,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "methodology_school": "classical_sunni",
+      "trajectory": "peaked_then_stable"
     },
     {
       "id": "WEST-045",
@@ -12852,7 +13282,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "methodology_school": "classical_sunni",
+      "trajectory": "peaked_then_stable"
     },
     {
       "id": "WEST-003",
@@ -12906,7 +13338,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "methodology_school": "classical_sunni",
+      "trajectory": "peaked_then_stable"
     },
     {
       "id": "WEST-088",
@@ -12955,7 +13389,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "methodology_school": "classical_sunni",
+      "trajectory": "peaked_then_stable"
     },
     {
       "id": "WEST-058",
@@ -13006,7 +13442,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-167",
@@ -13056,7 +13494,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-108",
@@ -13123,7 +13563,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "methodology_school": "shia_imami",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-071",
@@ -13177,7 +13619,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-018",
@@ -13226,7 +13670,9 @@
       "target_audience": [
         "specialist",
         "intellectual"
-      ]
+      ],
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-017",
@@ -13274,7 +13720,9 @@
       "target_audience": [
         "specialist",
         "intellectual"
-      ]
+      ],
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-019",
@@ -13325,7 +13773,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-020",
@@ -13382,7 +13832,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-011",
@@ -13437,7 +13889,9 @@
       "target_audience": [
         "specialist",
         "intellectual"
-      ]
+      ],
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-039",
@@ -13487,7 +13941,9 @@
         "general",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-033",
@@ -13543,7 +13999,9 @@
       "target_audience": [
         "general"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "classical_sunni",
+      "trajectory": "growing"
     },
     {
       "id": "NAM-048",
@@ -13601,7 +14059,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "methodology_school": "shia_imami",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-049",
@@ -13659,7 +14119,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "methodology_school": "shia_imami",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-053",
@@ -13711,7 +14173,9 @@
       "target_audience": [
         "specialist",
         "intellectual"
-      ]
+      ],
+      "methodology_school": "shia_imami",
+      "trajectory": "stable"
     },
     {
       "id": "TUR-036",
@@ -13762,7 +14226,9 @@
         "intellectual",
         "general"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "turkish_modernist",
+      "trajectory": "stable"
     },
     {
       "id": "MAG-003",
@@ -13832,7 +14298,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "MAG-031",
@@ -13889,7 +14357,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "MAG-050",
@@ -13936,7 +14406,9 @@
         "intellectual",
         "general"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-261",
@@ -13985,7 +14457,9 @@
       "target_audience": [
         "general"
       ],
-      "output_volume_yearly": "high"
+      "output_volume_yearly": "high",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-262",
@@ -14034,7 +14508,9 @@
         "intellectual",
         "general"
       ],
-      "output_volume_yearly": "very_low"
+      "output_volume_yearly": "very_low",
+      "methodology_school": "sufi_traditionalist",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-263",
@@ -14083,7 +14559,10 @@
         "intellectual",
         "general"
       ],
-      "output_volume_yearly": "very_low"
+      "output_volume_yearly": "very_low",
+      "city_ar": "تيواوان",
+      "methodology_school": "sufi_traditionalist",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-264",
@@ -14129,7 +14608,9 @@
       "target_audience": [
         "specialist"
       ],
-      "output_volume_yearly": "very_low"
+      "output_volume_yearly": "very_low",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-265",
@@ -14176,7 +14657,10 @@
       "target_audience": [
         "specialist"
       ],
-      "output_volume_yearly": "very_low"
+      "output_volume_yearly": "very_low",
+      "city_ar": "تمبكتو",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-266",
@@ -14222,7 +14706,9 @@
       "target_audience": [
         "general"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "methodology_school": "sufi_traditionalist",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-267",
@@ -14271,7 +14757,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-268",
@@ -14318,7 +14806,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-269",
@@ -14370,7 +14860,10 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "city_ar": "كانو",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-270",
@@ -14418,7 +14911,9 @@
       "target_audience": [
         "specialist",
         "intellectual"
-      ]
+      ],
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-271",
@@ -14465,7 +14960,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-272",
@@ -14513,7 +15010,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-273",
@@ -14562,7 +15061,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "sufi_traditionalist",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-274",
@@ -14611,7 +15112,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-275",
@@ -14658,7 +15161,10 @@
       "target_audience": [
         "general"
       ],
-      "output_volume_yearly": "high"
+      "output_volume_yearly": "high",
+      "city_ar": "جاكرتا",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-276",
@@ -14702,7 +15208,9 @@
         "general",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-277",
@@ -14745,7 +15253,9 @@
       "target_audience": [
         "general"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "classical_sunni",
+      "trajectory": "growing"
     },
     {
       "id": "NAM-278",
@@ -14788,7 +15298,9 @@
       "target_audience": [
         "general"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "classical_sunni",
+      "trajectory": "growing"
     },
     {
       "id": "NAM-279",
@@ -14833,7 +15345,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-280",
@@ -14880,7 +15394,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-281",
@@ -14925,7 +15441,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-282",
@@ -14971,7 +15489,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-283",
@@ -15015,7 +15535,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "methodology_school": "classical_sunni",
+      "trajectory": "growing"
     },
     {
       "id": "NAM-284",
@@ -15063,7 +15585,9 @@
         "general",
         "intellectual"
       ],
-      "output_volume_yearly": "high"
+      "output_volume_yearly": "high",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-285",
@@ -15109,7 +15633,9 @@
         "general",
         "intellectual"
       ],
-      "output_volume_yearly": "high"
+      "output_volume_yearly": "high",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-286",
@@ -15153,7 +15679,9 @@
       "target_audience": [
         "general"
       ],
-      "output_volume_yearly": "high"
+      "output_volume_yearly": "high",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-287",
@@ -15204,7 +15732,9 @@
         "general",
         "intellectual"
       ],
-      "output_volume_yearly": "high"
+      "output_volume_yearly": "high",
+      "methodology_school": "classical_sunni",
+      "trajectory": "growing"
     },
     {
       "id": "ARB-109",
@@ -15249,7 +15779,10 @@
       "target_audience": [
         "general"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "city_ar": "تريم",
+      "methodology_school": "sufi_traditionalist",
+      "trajectory": "stable"
     },
     {
       "id": "ARB-110",
@@ -15294,7 +15827,10 @@
       "target_audience": [
         "general"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "city_ar": "تريم",
+      "methodology_school": "sufi_traditionalist",
+      "trajectory": "stable"
     },
     {
       "id": "ARB-111",
@@ -15341,7 +15877,10 @@
       "target_audience": [
         "general"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "city_ar": "البيضاء",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "ARB-112",
@@ -15391,7 +15930,9 @@
         "general",
         "intellectual"
       ],
-      "output_volume_yearly": "high"
+      "output_volume_yearly": "high",
+      "methodology_school": "sufi_traditionalist",
+      "trajectory": "stable"
     },
     {
       "id": "ARB-113",
@@ -15438,7 +15979,10 @@
       "target_audience": [
         "specialist",
         "intellectual"
-      ]
+      ],
+      "city_ar": "تريم",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-288",
@@ -15485,7 +16029,10 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "city_ar": "سمرقند",
+      "methodology_school": "classical_sunni",
+      "trajectory": "growing"
     },
     {
       "id": "NAM-289",
@@ -15533,7 +16080,10 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "city_ar": "ترمذ",
+      "methodology_school": "classical_sunni",
+      "trajectory": "growing"
     },
     {
       "id": "NAM-290",
@@ -15579,7 +16129,10 @@
         "general",
         "intellectual"
       ],
-      "output_volume_yearly": "high"
+      "output_volume_yearly": "high",
+      "city_ar": "طشقند",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-291",
@@ -15626,7 +16179,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-292",
@@ -15676,7 +16231,10 @@
       "target_audience": [
         "specialist",
         "intellectual"
-      ]
+      ],
+      "city_ar": "طشقند",
+      "methodology_school": "classical_sunni",
+      "trajectory": "growing"
     },
     {
       "id": "NAM-293",
@@ -15726,7 +16284,9 @@
       "target_audience": [
         "specialist",
         "intellectual"
-      ]
+      ],
+      "methodology_school": "classical_sunni",
+      "trajectory": "growing"
     },
     {
       "id": "NAM-294",
@@ -15773,7 +16333,10 @@
       "target_audience": [
         "specialist",
         "intellectual"
-      ]
+      ],
+      "city_ar": "غروزني",
+      "methodology_school": "sufi_traditionalist",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-295",
@@ -15820,7 +16383,10 @@
       "target_audience": [
         "specialist",
         "intellectual"
-      ]
+      ],
+      "city_ar": "محج قلعة",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "ARB-114",
@@ -15867,7 +16433,10 @@
       "target_audience": [
         "specialist",
         "intellectual"
-      ]
+      ],
+      "city_ar": "صنعاء",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-296",
@@ -15916,7 +16485,10 @@
       "target_audience": [
         "specialist",
         "intellectual"
-      ]
+      ],
+      "city_ar": "كابول",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "ARB-115",
@@ -15965,7 +16537,10 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "city_ar": "جدة",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "ARB-116",
@@ -16015,7 +16590,10 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "city_ar": "الخرج",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-297",
@@ -16061,7 +16639,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "methodology_school": "classical_sunni",
+      "trajectory": "growing"
     },
     {
       "id": "GLB-008",
@@ -16101,7 +16681,9 @@
       ],
       "evidence_quote": "No verifiable academic chair, peer-reviewed journal, or research center with >=60% output on Khasa'is al-Nabawiyyah was located; the topic is treated within general Seerah curricula and through editions of al-Suyuti's Khasa'is al-Kubra.",
       "aka": [],
-      "output_volume_yearly": "unknown"
+      "output_volume_yearly": "unknown",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "LEV-050",
@@ -16149,7 +16731,9 @@
         "intellectual",
         "general"
       ],
-      "output_volume_yearly": "very_low"
+      "output_volume_yearly": "very_low",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "ARB-117",
@@ -16197,7 +16781,10 @@
       "target_audience": [
         "general"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "city_ar": "المدينة",
+      "methodology_school": "classical_sunni",
+      "trajectory": "growing"
     },
     {
       "id": "LEV-051",
@@ -16245,7 +16832,9 @@
         "intellectual",
         "general"
       ],
-      "output_volume_yearly": "very_low"
+      "output_volume_yearly": "very_low",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "LEV-052",
@@ -16293,7 +16882,9 @@
         "intellectual",
         "general"
       ],
-      "output_volume_yearly": "very_low"
+      "output_volume_yearly": "very_low",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "LEV-053",
@@ -16341,7 +16932,9 @@
         "intellectual",
         "general"
       ],
-      "output_volume_yearly": "very_low"
+      "output_volume_yearly": "very_low",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-298",
@@ -16389,7 +16982,10 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "very_low"
+      "output_volume_yearly": "very_low",
+      "city_ar": "حيدر آباد",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "GLB-009",
@@ -16426,7 +17022,9 @@
       ],
       "evidence_quote": "No standalone center, peer-reviewed journal, or conference series with primary focus on Wufud/Prophetic Diplomacy verified beyond Hamidullah's foundational work and the household-museum exhibits.",
       "aka": [],
-      "output_volume_yearly": "unknown"
+      "output_volume_yearly": "unknown",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-299",
@@ -16472,7 +17070,9 @@
         "general",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "popular_unspecified",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-300",
@@ -16518,7 +17118,9 @@
         "intellectual",
         "general"
       ],
-      "output_volume_yearly": "very_low"
+      "output_volume_yearly": "very_low",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-301",
@@ -16564,7 +17166,9 @@
         "intellectual",
         "general"
       ],
-      "output_volume_yearly": "very_low"
+      "output_volume_yearly": "very_low",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-302",
@@ -16611,7 +17215,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-303",
@@ -16655,7 +17261,9 @@
         "general",
         "intellectual"
       ],
-      "output_volume_yearly": "high"
+      "output_volume_yearly": "high",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-304",
@@ -16698,7 +17306,10 @@
         "general",
         "intellectual"
       ],
-      "output_volume_yearly": "high"
+      "output_volume_yearly": "high",
+      "city_ar": "دكا",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-305",
@@ -16743,7 +17354,10 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "city_ar": "دكا",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-306",
@@ -16786,7 +17400,9 @@
       "target_audience": [
         "general",
         "youth"
-      ]
+      ],
+      "methodology_school": "popular_unspecified",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-307",
@@ -16833,7 +17449,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-308",
@@ -16880,7 +17498,10 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "city_ar": "حيدر آباد",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-309",
@@ -16927,7 +17548,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-310",
@@ -16974,7 +17597,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-311",
@@ -17020,7 +17645,10 @@
         "general",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "city_ar": "دلهي",
+      "methodology_school": "popular_unspecified",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-312",
@@ -17063,7 +17691,9 @@
       "target_audience": [
         "general",
         "youth"
-      ]
+      ],
+      "methodology_school": "popular_unspecified",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-313",
@@ -17109,7 +17739,10 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "city_ar": "كراتشي",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-314",
@@ -17156,7 +17789,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-315",
@@ -17203,7 +17838,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-316",
@@ -17249,7 +17886,10 @@
         "intellectual",
         "general"
       ],
-      "output_volume_yearly": "very_low"
+      "output_volume_yearly": "very_low",
+      "city_ar": "كراتشي",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-317",
@@ -17296,7 +17936,10 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "city_ar": "ملتان",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-318",
@@ -17339,7 +17982,9 @@
       "target_audience": [
         "general",
         "youth"
-      ]
+      ],
+      "methodology_school": "popular_unspecified",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-319",
@@ -17382,7 +18027,9 @@
         "general",
         "youth"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "methodology_school": "popular_unspecified",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-320",
@@ -17428,7 +18075,10 @@
         "general",
         "intellectual"
       ],
-      "output_volume_yearly": "high"
+      "output_volume_yearly": "high",
+      "city_ar": "حيدر آباد",
+      "methodology_school": "classical_sunni",
+      "trajectory": "peaked_then_stable"
     },
     {
       "id": "NAM-321",
@@ -17473,7 +18123,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "methodology_school": "albani_critical",
+      "trajectory": "peaked_then_stable"
     },
     {
       "id": "MAG-055",
@@ -17520,7 +18172,10 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "city_ar": "بنغازي",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "MAG-056",
@@ -17562,7 +18217,9 @@
         "general",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "MAG-057",
@@ -17607,7 +18264,9 @@
       "target_audience": [
         "specialist",
         "intellectual"
-      ]
+      ],
+      "methodology_school": "sufi_traditionalist",
+      "trajectory": "stable"
     },
     {
       "id": "MAG-058",
@@ -17652,7 +18311,10 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "city_ar": "قسنطينة",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "MAG-059",
@@ -17696,7 +18358,10 @@
       "target_audience": [
         "general"
       ],
-      "output_volume_yearly": "high"
+      "output_volume_yearly": "high",
+      "city_ar": "الجزائر",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "MAG-060",
@@ -17742,7 +18407,9 @@
       "target_audience": [
         "general"
       ],
-      "output_volume_yearly": "high"
+      "output_volume_yearly": "high",
+      "methodology_school": "sufi_traditionalist",
+      "trajectory": "stable"
     },
     {
       "id": "MAG-061",
@@ -17789,7 +18456,9 @@
       "target_audience": [
         "general"
       ],
-      "output_volume_yearly": "high"
+      "output_volume_yearly": "high",
+      "methodology_school": "sufi_traditionalist",
+      "trajectory": "stable"
     },
     {
       "id": "MAG-062",
@@ -17836,7 +18505,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "MAG-063",
@@ -17877,7 +18548,10 @@
       "target_audience": [
         "general"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "city_ar": "الجزائر",
+      "methodology_school": "classical_sunni",
+      "trajectory": "growing"
     },
     {
       "id": "MAG-064",
@@ -17921,7 +18595,10 @@
         "general",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "city_ar": "الجزائر",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "MAG-065",
@@ -17967,7 +18644,10 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "city_ar": "تونس",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "MAG-066",
@@ -18011,7 +18691,10 @@
       "target_audience": [
         "general"
       ],
-      "output_volume_yearly": "high"
+      "output_volume_yearly": "high",
+      "city_ar": "تونس",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "MAG-067",
@@ -18055,7 +18738,10 @@
         "general",
         "intellectual"
       ],
-      "output_volume_yearly": "high"
+      "output_volume_yearly": "high",
+      "city_ar": "تونس",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "MAG-068",
@@ -18102,7 +18788,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "MAG-069",
@@ -18146,7 +18834,9 @@
       "target_audience": [
         "general"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "MAG-070",
@@ -18190,7 +18880,9 @@
       "target_audience": [
         "general"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "methodology_school": "sufi_traditionalist",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-322",
@@ -18234,7 +18926,9 @@
         "general",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-323",
@@ -18278,7 +18972,9 @@
         "general",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-324",
@@ -18323,7 +19019,9 @@
       "target_audience": [
         "specialist",
         "intellectual"
-      ]
+      ],
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-325",
@@ -18370,7 +19068,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "LEV-054",
@@ -18417,7 +19117,9 @@
       "target_audience": [
         "general"
       ],
-      "output_volume_yearly": "high"
+      "output_volume_yearly": "high",
+      "methodology_school": "classical_sunni",
+      "trajectory": "growing"
     },
     {
       "id": "LEV-055",
@@ -18463,7 +19165,9 @@
       "target_audience": [
         "general"
       ],
-      "output_volume_yearly": "high"
+      "output_volume_yearly": "high",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "LEV-056",
@@ -18510,7 +19214,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "methodology_school": "classical_sunni",
+      "trajectory": "peaked_then_stable"
     },
     {
       "id": "LEV-057",
@@ -18554,7 +19260,9 @@
         "general",
         "intellectual"
       ],
-      "output_volume_yearly": "high"
+      "output_volume_yearly": "high",
+      "methodology_school": "classical_sunni",
+      "trajectory": "peaked_then_stable"
     },
     {
       "id": "LEV-058",
@@ -18600,7 +19308,10 @@
         "general",
         "intellectual"
       ],
-      "output_volume_yearly": "high"
+      "output_volume_yearly": "high",
+      "city_ar": "الإسكندرية",
+      "methodology_school": "classical_sunni",
+      "trajectory": "peaked_then_stable"
     },
     {
       "id": "LEV-059",
@@ -18645,7 +19356,10 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "city_ar": "الإسكندرية",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "LEV-060",
@@ -18690,7 +19404,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "LEV-061",
@@ -18734,7 +19450,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "very_low"
+      "output_volume_yearly": "very_low",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "LEV-062",
@@ -18779,7 +19497,10 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "city_ar": "القاهرة",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "LEV-063",
@@ -18824,7 +19545,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "LEV-064",
@@ -18869,7 +19592,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "LEV-065",
@@ -18913,7 +19638,10 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "very_low"
+      "output_volume_yearly": "very_low",
+      "city_ar": "دمشق",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "LEV-066",
@@ -18957,7 +19685,10 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "very_low"
+      "output_volume_yearly": "very_low",
+      "city_ar": "دمشق",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "LEV-067",
@@ -19001,7 +19732,10 @@
       "target_audience": [
         "general"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "city_ar": "دمشق",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "LEV-068",
@@ -19046,7 +19780,10 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "city_ar": "حلب",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "LEV-069",
@@ -19094,7 +19831,10 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "city_ar": "الموصل",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "LEV-070",
@@ -19139,7 +19879,10 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "city_ar": "الموصل",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "LEV-071",
@@ -19185,7 +19928,10 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "city_ar": "بغداد",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "LEV-072",
@@ -19230,7 +19976,10 @@
       "target_audience": [
         "specialist",
         "intellectual"
-      ]
+      ],
+      "city_ar": "بغداد",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "LEV-073",
@@ -19274,7 +20023,10 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "city_ar": "بغداد",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-326",
@@ -19320,7 +20072,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-327",
@@ -19365,7 +20119,10 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "city_ar": "أم درمان",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-328",
@@ -19409,7 +20166,10 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "city_ar": "أم درمان",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "LEV-074",
@@ -19455,7 +20215,9 @@
         "intellectual",
         "general"
       ],
-      "output_volume_yearly": "very_low"
+      "output_volume_yearly": "very_low",
+      "methodology_school": "shia_imami",
+      "trajectory": "stable"
     },
     {
       "id": "LEV-075",
@@ -19502,7 +20264,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "shia_imami",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-329",
@@ -19549,7 +20313,10 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "city_ar": "قم",
+      "methodology_school": "shia_imami",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-330",
@@ -19595,7 +20362,9 @@
         "intellectual",
         "general"
       ],
-      "output_volume_yearly": "very_low"
+      "output_volume_yearly": "very_low",
+      "methodology_school": "shia_imami",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-331",
@@ -19642,7 +20411,10 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "city_ar": "قم",
+      "methodology_school": "shia_imami",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-332",
@@ -19688,7 +20460,9 @@
         "intellectual",
         "general"
       ],
-      "output_volume_yearly": "very_low"
+      "output_volume_yearly": "very_low",
+      "methodology_school": "shia_imami",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-333",
@@ -19734,7 +20508,9 @@
         "intellectual",
         "general"
       ],
-      "output_volume_yearly": "very_low"
+      "output_volume_yearly": "very_low",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-334",
@@ -19781,7 +20557,10 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "city_ar": "طهران",
+      "methodology_school": "shia_imami",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-335",
@@ -19827,7 +20606,10 @@
         "intellectual",
         "general"
       ],
-      "output_volume_yearly": "very_low"
+      "output_volume_yearly": "very_low",
+      "city_ar": "طهران",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-336",
@@ -19873,7 +20655,10 @@
         "intellectual",
         "general"
       ],
-      "output_volume_yearly": "very_low"
+      "output_volume_yearly": "very_low",
+      "city_ar": "قم",
+      "methodology_school": "shia_imami",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-337",
@@ -19919,7 +20704,9 @@
         "intellectual",
         "general"
       ],
-      "output_volume_yearly": "very_low"
+      "output_volume_yearly": "very_low",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-338",
@@ -19963,7 +20750,10 @@
         "general",
         "intellectual"
       ],
-      "output_volume_yearly": "high"
+      "output_volume_yearly": "high",
+      "city_ar": "قم",
+      "methodology_school": "shia_imami",
+      "trajectory": "stable"
     },
     {
       "id": "LEV-076",
@@ -20010,7 +20800,10 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "city_ar": "بيروت",
+      "methodology_school": "shia_imami",
+      "trajectory": "stable"
     },
     {
       "id": "ARB-118",
@@ -20057,7 +20850,9 @@
       "target_audience": [
         "general"
       ],
-      "output_volume_yearly": "very_low"
+      "output_volume_yearly": "very_low",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "ARB-119",
@@ -20104,7 +20899,9 @@
       "target_audience": [
         "general"
       ],
-      "output_volume_yearly": "very_low"
+      "output_volume_yearly": "very_low",
+      "methodology_school": "classical_sunni",
+      "trajectory": "growing"
     },
     {
       "id": "NAM-339",
@@ -20151,7 +20948,9 @@
       "target_audience": [
         "general"
       ],
-      "output_volume_yearly": "very_low"
+      "output_volume_yearly": "very_low",
+      "methodology_school": "classical_sunni",
+      "trajectory": "growing"
     },
     {
       "id": "WEST-188",
@@ -20198,7 +20997,9 @@
       "target_audience": [
         "general"
       ],
-      "output_volume_yearly": "very_low"
+      "output_volume_yearly": "very_low",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "ARB-120",
@@ -20244,7 +21045,10 @@
       "target_audience": [
         "general"
       ],
-      "output_volume_yearly": "very_high"
+      "output_volume_yearly": "very_high",
+      "city_ar": "المدينة",
+      "methodology_school": "popular_unspecified",
+      "trajectory": "stable"
     },
     {
       "id": "ARB-121",
@@ -20290,7 +21094,9 @@
       "target_audience": [
         "general"
       ],
-      "output_volume_yearly": "very_high"
+      "output_volume_yearly": "very_high",
+      "methodology_school": "popular_unspecified",
+      "trajectory": "stable"
     },
     {
       "id": "ARB-122",
@@ -20336,7 +21142,9 @@
       "target_audience": [
         "general"
       ],
-      "output_volume_yearly": "very_high"
+      "output_volume_yearly": "very_high",
+      "methodology_school": "popular_unspecified",
+      "trajectory": "stable"
     },
     {
       "id": "WEST-189",
@@ -20383,7 +21191,9 @@
         "general",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "methodology_school": "western_rehabilitative",
+      "trajectory": "growing"
     },
     {
       "id": "WEST-190",
@@ -20430,7 +21240,9 @@
         "general",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "methodology_school": "western_rehabilitative",
+      "trajectory": "stable"
     },
     {
       "id": "ARB-123",
@@ -20476,7 +21288,10 @@
         "general",
         "intellectual"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "city_ar": "الكويت",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-340",
@@ -20523,7 +21338,9 @@
         "general",
         "youth"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "methodology_school": "popular_unspecified",
+      "trajectory": "growing"
     },
     {
       "id": "MAG-071",
@@ -20569,7 +21386,9 @@
         "general",
         "youth"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "methodology_school": "popular_unspecified",
+      "trajectory": "growing"
     },
     {
       "id": "ARB-124",
@@ -20615,7 +21434,9 @@
         "general",
         "youth"
       ],
-      "output_volume_yearly": "medium"
+      "output_volume_yearly": "medium",
+      "methodology_school": "popular_unspecified",
+      "trajectory": "growing"
     },
     {
       "id": "LEV-077",
@@ -20661,7 +21482,9 @@
         "general",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "popular_unspecified",
+      "trajectory": "stable"
     },
     {
       "id": "LEV-078",
@@ -20707,7 +21530,9 @@
         "general",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "popular_unspecified",
+      "trajectory": "stable"
     },
     {
       "id": "WEST-191",
@@ -20753,7 +21578,9 @@
         "general",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "western_rehabilitative",
+      "trajectory": "stable"
     },
     {
       "id": "WEST-192",
@@ -20800,7 +21627,9 @@
         "general",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "western_rehabilitative",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-341",
@@ -20846,7 +21675,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "very_low"
+      "output_volume_yearly": "very_low",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "ARB-125",
@@ -20890,7 +21721,10 @@
       "target_audience": [
         "specialist"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "city_ar": "المدينة",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "ARB-126",
@@ -20935,7 +21769,10 @@
         "general",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "city_ar": "المدينة",
+      "methodology_school": "classical_sunni",
+      "trajectory": "growing"
     },
     {
       "id": "ARB-127",
@@ -20980,7 +21817,9 @@
         "general",
         "intellectual"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "classical_sunni",
+      "trajectory": "growing"
     },
     {
       "id": "LEV-079",
@@ -21025,7 +21864,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "irregular"
+      "output_volume_yearly": "irregular",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "ARB-128",
@@ -21070,7 +21911,9 @@
         "specialist",
         "intellectual"
       ],
-      "output_volume_yearly": "irregular"
+      "output_volume_yearly": "irregular",
+      "methodology_school": "albani_critical",
+      "trajectory": "stable"
     },
     {
       "id": "LEV-080",
@@ -21119,7 +21962,9 @@
         "intellectual",
         "general"
       ],
-      "output_volume_yearly": "very_low"
+      "output_volume_yearly": "very_low",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "MAG-072",
@@ -21166,7 +22011,10 @@
         "intellectual",
         "general"
       ],
-      "output_volume_yearly": "very_low"
+      "output_volume_yearly": "very_low",
+      "city_ar": "الرباط",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "WEST-193",
@@ -21213,7 +22061,10 @@
         "intellectual",
         "general"
       ],
-      "output_volume_yearly": "very_low"
+      "output_volume_yearly": "very_low",
+      "city_ar": "أكسفورد",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "LEV-081",
@@ -21260,7 +22111,9 @@
         "intellectual",
         "general"
       ],
-      "output_volume_yearly": "very_low"
+      "output_volume_yearly": "very_low",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "LEV-082",
@@ -21307,7 +22160,9 @@
         "intellectual",
         "general"
       ],
-      "output_volume_yearly": "very_low"
+      "output_volume_yearly": "very_low",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "LEV-083",
@@ -21354,7 +22209,10 @@
         "intellectual",
         "general"
       ],
-      "output_volume_yearly": "very_low"
+      "output_volume_yearly": "very_low",
+      "city_ar": "القاهرة",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "LEV-084",
@@ -21401,7 +22259,10 @@
         "intellectual",
         "general"
       ],
-      "output_volume_yearly": "very_low"
+      "output_volume_yearly": "very_low",
+      "city_ar": "بيروت",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "LEV-085",
@@ -21448,7 +22309,10 @@
         "intellectual",
         "general"
       ],
-      "output_volume_yearly": "very_low"
+      "output_volume_yearly": "very_low",
+      "city_ar": "القاهرة",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "LEV-086",
@@ -21495,7 +22359,10 @@
         "intellectual",
         "general"
       ],
-      "output_volume_yearly": "very_low"
+      "output_volume_yearly": "very_low",
+      "city_ar": "القاهرة",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "LEV-087",
@@ -21542,7 +22409,10 @@
         "intellectual",
         "general"
       ],
-      "output_volume_yearly": "very_low"
+      "output_volume_yearly": "very_low",
+      "city_ar": "بيروت",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "ARB-129",
@@ -21587,7 +22457,10 @@
       "target_audience": [
         "specialist"
       ],
-      "output_volume_yearly": "very_low"
+      "output_volume_yearly": "very_low",
+      "city_ar": "المدينة",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "ARB-130",
@@ -21632,7 +22505,10 @@
       "target_audience": [
         "specialist"
       ],
-      "output_volume_yearly": "very_low"
+      "output_volume_yearly": "very_low",
+      "city_ar": "المدينة",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "ARB-131",
@@ -21677,7 +22553,9 @@
       "target_audience": [
         "specialist"
       ],
-      "output_volume_yearly": "very_low"
+      "output_volume_yearly": "very_low",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "TUR-077",
@@ -21722,7 +22600,9 @@
       "target_audience": [
         "specialist"
       ],
-      "output_volume_yearly": "very_low"
+      "output_volume_yearly": "very_low",
+      "methodology_school": "turkish_modernist",
+      "trajectory": "stable"
     },
     {
       "id": "TUR-078",
@@ -21768,7 +22648,9 @@
       "target_audience": [
         "specialist"
       ],
-      "output_volume_yearly": "very_low"
+      "output_volume_yearly": "very_low",
+      "methodology_school": "turkish_modernist",
+      "trajectory": "stable"
     },
     {
       "id": "ARB-132",
@@ -21814,7 +22696,9 @@
       "target_audience": [
         "specialist"
       ],
-      "output_volume_yearly": "very_low"
+      "output_volume_yearly": "very_low",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "LEV-088",
@@ -21859,7 +22743,9 @@
       "target_audience": [
         "specialist"
       ],
-      "output_volume_yearly": "very_low"
+      "output_volume_yearly": "very_low",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "WEST-194",
@@ -21905,7 +22791,9 @@
       "target_audience": [
         "specialist"
       ],
-      "output_volume_yearly": "very_low"
+      "output_volume_yearly": "very_low",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "WEST-195",
@@ -21951,7 +22839,9 @@
       "target_audience": [
         "specialist"
       ],
-      "output_volume_yearly": "very_low"
+      "output_volume_yearly": "very_low",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "NAM-342",
@@ -21997,7 +22887,10 @@
       "target_audience": [
         "specialist"
       ],
-      "output_volume_yearly": "very_low"
+      "output_volume_yearly": "very_low",
+      "city_ar": "مشهد",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "ARB-133",
@@ -22041,7 +22934,9 @@
       "target_audience": [
         "specialist"
       ],
-      "output_volume_yearly": "low"
+      "output_volume_yearly": "low",
+      "methodology_school": "classical_sunni",
+      "trajectory": "stable"
     },
     {
       "id": "WEST-196",
@@ -22089,7 +22984,9 @@
         "intellectual",
         "general"
       ],
-      "output_volume_yearly": "very_low"
+      "output_volume_yearly": "very_low",
+      "methodology_school": "sufi_traditionalist",
+      "trajectory": "stable"
     }
   ],
   "migration_note": "2026-05-16: ROUND 10-B — comprehensive expansion (6 streams): +124 → 446 entities",
