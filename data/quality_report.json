@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-16T09:53:12.776719Z",
+  "generated_at": "2026-05-16T10:02:48.475671Z",
   "totals": {
     "all_entities": 446,
     "real": 444,
@@ -73,9 +73,9 @@
       "pct": 100.0
     },
     "subjects_category": {
-      "filled": 224,
+      "filled": 410,
       "total": 410,
-      "pct": 54.6
+      "pct": 100.0
     },
     "key_figures": {
       "filled": 253,
@@ -83,9 +83,9 @@
       "pct": 61.7
     },
     "funding_type": {
-      "filled": 387,
+      "filled": 393,
       "total": 410,
-      "pct": 94.4
+      "pct": 95.9
     },
     "verification": {
       "filled": 410,
@@ -108,14 +108,14 @@
       "pct": 12.7
     },
     "output_volume_yearly": {
-      "filled": 52,
+      "filled": 388,
       "total": 410,
-      "pct": 12.7
+      "pct": 94.6
     },
     "target_audience": {
-      "filled": 52,
+      "filled": 408,
       "total": 410,
-      "pct": 12.7
+      "pct": 99.5
     },
     "quality_signal": {
       "filled": 52,
@@ -239,19 +239,15 @@
     ],
     "subjects": [
       {
-        "subject": "ahl_al_sunna",
-        "count": 0
-      },
-      {
         "subject": "hadith_sciences",
         "count": 0
       },
       {
-        "subject": "tabaqat_companions",
-        "count": 1
+        "subject": "ahl_al_sunna",
+        "count": 0
       },
       {
-        "subject": "khasais_nabawiyyah",
+        "subject": "rashidun",
         "count": 1
       },
       {
@@ -259,7 +255,11 @@
         "count": 1
       },
       {
-        "subject": "rashidun",
+        "subject": "tabaqat_companions",
+        "count": 1
+      },
+      {
+        "subject": "khasais_nabawiyyah",
         "count": 1
       },
       {
@@ -271,6 +271,10 @@
         "count": 2
       },
       {
+        "subject": "medicine_prophetic",
+        "count": 3
+      },
+      {
         "subject": "seerah_in_quran",
         "count": 3
       },
@@ -279,19 +283,15 @@
         "count": 3
       },
       {
-        "subject": "medicine_prophetic",
-        "count": 3
-      },
-      {
         "subject": "madinah_studies",
         "count": 4
       },
       {
-        "subject": "comparative_religion",
+        "subject": "ahlulbayt",
         "count": 5
       },
       {
-        "subject": "ahlulbayt",
+        "subject": "comparative_religion",
         "count": 5
       },
       {
