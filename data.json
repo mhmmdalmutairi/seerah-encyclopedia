@@ -22,7 +22,8 @@
     "08m",
     "08y",
     "08t",
-    "09a"
+    "09a",
+    "10a"
   ],
   "entities": [
     {
@@ -12101,9 +12102,1865 @@
         "classical_corpus"
       ],
       "project_alignment": "audience_reference"
+    },
+    {
+      "id": "NAM-261",
+      "round": "10a",
+      "name_ar": "مسجد ومركز الرياضة في لامو",
+      "name_en": "Riyadha Mosque and Islamic Centre, Lamu",
+      "type": "mosque_program",
+      "type_group": "museums_culture",
+      "region": "non_arab_muslim",
+      "country": "KE",
+      "founded": 1900,
+      "description_ar": "أقدم مؤسسة تعليمية إسلامية ساحلية في شرق إفريقيا، يقيم منذ عام 1866م مهرجان المولد السنوي بقراءة سيرة النبي ﷺ بالسواحلية والعربية، ويحتفظ بمكتبة مخطوطات في السيرة.",
+      "url": "https://lamu.go.ke/maulid-festival/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "الحبيب صالح بن علوي جمل الليل",
+        "السيد بدوي الحسيني"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://lamu.go.ke/maulid-festival/"
+      ],
+      "evidence_quote": "Per the Lamu County government: 'The festival is celebrated in the month of June at the Riyadha mosque where Habib Swaleh originally founded it in 1866 ... a prayer vigil is held throughout the night around the mosque, alternated with chanting and narrating the life of Prophet Mohammed.'"
+    },
+    {
+      "id": "NAM-262",
+      "round": "10a",
+      "name_ar": "نور البصر في سيرة سيد البشر",
+      "name_en": "Nur al-Basar fi Sirat Sayyid al-Bashar (Sirah poem)",
+      "type": "key_publication",
+      "type_group": "publishing_knowledge",
+      "region": "non_arab_muslim",
+      "country": "SN",
+      "founded": 1950,
+      "description_ar": "منظومة لامية في 354 بيتًا للشيخ إبراهيم نياس مؤسس الفيضة التجانية في كولاخ السنغالية، تستوعب سيرة النبي ﷺ من المولد إلى الوفاة، وعليها شرح في 400 صفحة للأستاذ إبراهيم أحمد نيانغ (2015).",
+      "url": "https://en.wikipedia.org/wiki/Ibrahim_Niass",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "الشيخ إبراهيم نياس (1900-1975)",
+        "الأستاذ إبراهيم أحمد نيانغ"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://www.smilebakglobal.com/2017/05/shaykh-ibrahim-niasse-biography.html"
+      ],
+      "evidence_quote": "'The Light of the Eye in the Biography of the Best of Mankind' (Nūr al-Baṣar fī Sīrat Sayyid al-Bashar), a 354 couplet Lamiyyah poem covering the entire Sirah of the Prophet from his blessed birth to his departure."
+    },
+    {
+      "id": "NAM-263",
+      "round": "10a",
+      "name_ar": "خلاص الذهب في سيرة سيد العرب",
+      "name_en": "Khilas al-Dhahab fi Sirat Sayyid al-'Arab",
+      "type": "key_publication",
+      "type_group": "publishing_knowledge",
+      "region": "non_arab_muslim",
+      "country": "SN",
+      "founded": 1922,
+      "description_ar": "تحفة الحاج مالك سي مؤسس زاوية تيواوان التجانية في السنغال، منظومة في 1001 بيت تلخص سيرة النبي ﷺ، تعدّ المرجع الأبرز لطلبة الطريقة التجانية في غرب إفريقيا.",
+      "url": "https://www.sudquotidien.sn/vie-du-fondateur-du-foyer-de-tivaouane-el-hadji-maodo-malick-sy-modele-acheve-et-vivificateur-de-la-sunna-du-prophete/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "الحاج مالك سي (1855-1922)",
+        "الحاج عبد العزيز سي"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://www.sudquotidien.sn/vie-du-fondateur-du-foyer-de-tivaouane-el-hadji-maodo-malick-sy-modele-acheve-et-vivificateur-de-la-sunna-du-prophete/"
+      ],
+      "evidence_quote": "Sud Quotidien: 'Khilazu-zahab (l'or décanté), constitué de 1001 vers et qui est un condensé de la vie du Prophète (PSL) est sans doute le chef d'œuvre.'"
+    },
+    {
+      "id": "NAM-264",
+      "round": "10a",
+      "name_ar": "مركز الشيخ موسى كامارا للبحث والثقافة والتنمية",
+      "name_en": "Centre Cheikh Moussa Kamara pour la Recherche, la Culture et le Développement",
+      "type": "manuscript_holding",
+      "type_group": "museums_culture",
+      "region": "non_arab_muslim",
+      "country": "SN",
+      "founded": 0,
+      "description_ar": "مركز في غانغل سولي بإقليم ماتام السنغالي، شريك معهد إفريقيا الأساسي (IFAN) في صون مخطوطات الشيخ موسى كامارا (1864-1945) الذي صنف رسائل في سير الأنبياء، ضمن تراث المخطوطات العربية الإسلامية لغرب إفريقيا.",
+      "url": "https://ifan.ucad.sn/en/lifan-et-le-centre-cheikh-moussa-kamara-collaborent-pour-la-sauvegarde-et-la-valorisation-de-manuscrits-arabo-islamiques-du-senegal-et-de-la-sous-region/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "الشيخ موسى كامارا (1864-1945)"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://ifan.ucad.sn/en/lifan-et-le-centre-cheikh-moussa-kamara-collaborent-pour-la-sauvegarde-et-la-valorisation-de-manuscrits-arabo-islamiques-du-senegal-et-de-la-sous-region/"
+      ],
+      "evidence_quote": "IFAN page: 'Installé à Ganguél Soulé dans la région de Matam ... la collecte, la conservation et la valorisation des manuscrits de Cheikh Moussa Camara ainsi que d'autres érudits musulmans.' Africabib confirms his manuscripts 'treated the life of the Prophets, Islamic law and prayers.'"
+    },
+    {
+      "id": "NAM-265",
+      "round": "10a",
+      "name_ar": "جمعية صون وتثمين المخطوطات والدفاع عن الثقافة الإسلامية (سافاما)",
+      "name_en": "SAVAMA-DCI (Association for the Safeguarding and Valorization of Manuscripts)",
+      "type": "manuscript_holding",
+      "type_group": "museums_culture",
+      "region": "non_arab_muslim",
+      "country": "ML",
+      "founded": 1996,
+      "description_ar": "منظمة غير حكومية في تمبكتو ثم باماكو بمالي، أنقذت قرابة 350 ألف مخطوط، ومسحها الأكاديمي يبيّن أن السيرة النبوية ومدائح النبي ﷺ تأتي ضمن أكبر موضوعات المجموعة، ورقمنت 150 ألف مخطوط بشراكة مع مكتبة هيل.",
+      "url": "https://whc.unesco.org/en/documents/139082",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "عبد القادر حيدرة"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://www.cambridge.org/core/journals/history-in-africa/article/whats-in-the-manuscripts-of-timbuktu-a-survey-of-the-contents-of-31-private-libraries/89202946609FB726FE85A2D7EABC75DB"
+      ],
+      "evidence_quote": "Cambridge survey: 'The next most important subject in the manuscripts deals with the Prophet Muhammad, mainly biographical and devotional writing.' UNESCO documents SAVAMA-DCI's conservation work."
+    },
+    {
+      "id": "NAM-266",
+      "round": "10a",
+      "name_ar": "زاوية مدينة باي بكولاخ — الطريقة التجانية الإبراهيمية",
+      "name_en": "Medina Baye Zawiya, Kaolack — Tijaniyya Ibrahimiyya",
+      "type": "islamic_center",
+      "type_group": "museums_culture",
+      "region": "non_arab_muslim",
+      "country": "SN",
+      "founded": 1930,
+      "description_ar": "المركز الروحي العالمي لجماعة الفيضة التجانية بكولاخ السنغالية، أسسه الشيخ إبراهيم نياس عام 1930، ويقيم مولدًا سنويًا (Gàmmu) محوره سيرة النبي ﷺ تُلقى فيه دروس السيرة المنظومة للشيخ نياس.",
+      "url": "https://tijani.org/ibrahim-niasse",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "الشيخ إبراهيم نياس",
+        "الشيخ أحمد التجاني علي سيسي"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://tijani.org/ibrahim-niasse"
+      ],
+      "evidence_quote": "Tijani.org confirms Niasse's Mawlid programs and Sirah recitations; Wikipedia: 'The branch founded by Ibrahim Niass in the Kaolack suburb of Medina Baye in 1930 ... has become the largest and most visible Tijānī branch.'"
+    },
+    {
+      "id": "NAM-267",
+      "round": "10a",
+      "name_ar": "علي حمد عبد الله البحري",
+      "name_en": "Sheikh Aliy Hemed Abdallah al-Buhriy",
+      "type": "individual_researcher",
+      "type_group": "individual_actors",
+      "region": "non_arab_muslim",
+      "country": "TZ",
+      "founded": 1889,
+      "description_ar": "عالم وقاضٍ ساحلي تنزاني من تنغا (1889-1957)، له منظومة سواحيلية «أوتنزي وا كوتاوافو نبي» في وفاة النبي ﷺ نُشرت 1956، وكان من أبرز من رسّخ تدريس السيرة بالسواحيلية في الساحل الشرقي.",
+      "url": "https://en.wikipedia.org/wiki/Sheikh_Aliy_Hemed_Abdallah_al-Buhriy",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "علي حمد البحري"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Sheikh_Aliy_Hemed_Abdallah_al-Buhriy"
+      ],
+      "evidence_quote": "Wikipedia lists his works including 'Utenzi wa kutawafu Nabii [The release of the Prophet] (1956)', along with his manuscript Swahili tafsir; he served as last qadi under British rule 1921-1935."
+    },
+    {
+      "id": "NAM-268",
+      "round": "10a",
+      "name_ar": "عبد الله صالح الفارسي",
+      "name_en": "Sheikh Abdallah Saleh al-Farsy",
+      "type": "individual_researcher",
+      "type_group": "individual_actors",
+      "region": "non_arab_muslim",
+      "country": "KE",
+      "founded": 1912,
+      "description_ar": "قاضي قضاة زنجبار ثم مومباسا (1912-1982)، أصدر أول كتاب سواحيلي في سيرة النبي ﷺ بعنوان «Maisha ya Mtume Muhammad»، وترجم مولد البرزنجي إلى السواحيلية ليُتاح للعوام فهمه، وألّف ما يزيد على مئة كتاب.",
+      "url": "https://en.wikipedia.org/wiki/Abdullah_Saleh_Farsy",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "عبد الله صالح الفارسي"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://sw.wikipedia.org/wiki/Shaykh_%27Abdullaah_Swaalih_Al-Farsy"
+      ],
+      "evidence_quote": "Swahili Wikipedia and Imam Husein source: 'Maisha ya Mtume Muhammad ... was his first published book' and 'Farsy published a Swahili translation of the popular maulidi Barzanji.'"
+    },
+    {
+      "id": "NAM-269",
+      "round": "10a",
+      "name_ar": "كلية الآداب والدراسات الإسلامية بجامعة بايرو كانو",
+      "name_en": "Faculty of Arts and Islamic Studies, Bayero University Kano",
+      "type": "university_department",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "NG",
+      "founded": 1962,
+      "description_ar": "أكبر كلية للدراسات العربية والإسلامية في شمال نيجيريا، تضم قسم الدراسات الإسلامية والشريعة الذي يدرّس السيرة النبوية ضمن مقررات التاريخ الإسلامي، وتشرف على رسائل ماجستير ودكتوراه في السيرة.",
+      "url": "https://ais.buk.edu.ng/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "إبراهيم مايبشرا (رئيس قسم سابق)"
+      ],
+      "verification": "needs_verification",
+      "inclusion_tier": "borderline",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bayero_University_Kano"
+      ],
+      "evidence_quote": "Wikipedia confirms 'Faculty of Arts & Islamic Studies' at BUK; the department lists Islamic History and Sirah among its research output (Academia.edu departmental page)."
+    },
+    {
+      "id": "NAM-270",
+      "round": "10a",
+      "name_ar": "المركز العربي الإسلامي للتدريب (المركز) في أغيغي لاغوس",
+      "name_en": "Markaz Arabic and Islamic Training Centre, Agege",
+      "type": "university_center",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "NG",
+      "founded": 1952,
+      "description_ar": "أسسه الشيخ آدم عبد الله الإلوري عام 1952 في أبيوكوتا قبل انتقاله إلى أغيغي بلاغوس 1955، وهو المؤسسة المرجعية للدراسات العربية والإسلامية لدى يوربا غرب نيجيريا، ويدرّس السيرة النبوية ضمن مناهجه.",
+      "url": "https://markaz-uni.edu.ng/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "الشيخ آدم عبد الله الإلوري (1917-1992)",
+        "الشيخ محمد حبيب الله آدم الإلوري"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://markaz-uni.edu.ng/"
+      ],
+      "evidence_quote": "Official site: 'a unique and technologically inclined Arabic and Islamic Centre' affiliated with University of Ilorin; founded 1952 by Sheikh Adam al-Ilory."
+    },
+    {
+      "id": "NAM-271",
+      "round": "10a",
+      "name_ar": "آدم عبد الله الإلوري",
+      "name_en": "Sheikh Adam Abdullah al-Ilory",
+      "type": "individual_researcher",
+      "type_group": "individual_actors",
+      "region": "non_arab_muslim",
+      "country": "NG",
+      "founded": 1917,
+      "description_ar": "عالم نيجيري يوربي (1917-1992) خرّيج الأزهر، مؤسس مركز التعليم العربي الإسلامي في أغيغي، أصدر أكثر من مئة كتاب بالعربية، منها مؤلفات في تاريخ الإسلام والسيرة استُخدمت كمراجع في غرب إفريقيا.",
+      "url": "https://en.wikipedia.org/wiki/Adam_Abdullah_Al-Ilory",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "الشيخ آدم عبد الله الإلوري"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Adam_Abdullah_Al-Ilory"
+      ],
+      "evidence_quote": "Wikipedia: 'Shaykh Adam was a prolific writer ... He wrote well over hundred books, journal articles and manuscripts on Islam'; al-Islam fi Nijiriya is among most consulted references on Islamic history in Nigeria."
+    },
+    {
+      "id": "NAM-272",
+      "round": "10a",
+      "name_ar": "كلية الدراسات الإسلامية واللغة العربية بالجامعة الإسلامية في أوغندا",
+      "name_en": "Faculty of Islamic Studies and Arabic, Islamic University in Uganda",
+      "type": "university_department",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "UG",
+      "founded": 1988,
+      "description_ar": "كلية تابعة للجامعة الإسلامية بأوغندا (تأسست 1988 بمبادرة من منظمة التعاون الإسلامي)، يقع المقر الرئيس في مبالي، وتدرّس مقررات السيرة النبوية ضمن برامج البكالوريوس والدراسات العليا للناطقين بالإنجليزية في شرق وجنوب إفريقيا.",
+      "url": "https://www.iuiu.ac.ug/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [],
+      "verification": "needs_verification",
+      "inclusion_tier": "borderline",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://www.iuiu.ac.ug/"
+      ],
+      "evidence_quote": "IUIU site lists 'Islamic Studies and Arabic Language' faculty; Wikipedia: 'inaugurated in February 1988 ... main objective ... higher education needs of the English-speaking Muslim community in Southern and Eastern Africa.'"
+    },
+    {
+      "id": "NAM-273",
+      "round": "10a",
+      "name_ar": "مكتبة الشيخ الخديم في طوبى",
+      "name_en": "Library of Shaykh al-Khadim, Touba",
+      "type": "library_archive",
+      "type_group": "publishing_knowledge",
+      "region": "non_arab_muslim",
+      "country": "SN",
+      "founded": 1927,
+      "description_ar": "المستودع الأساسي لمخطوطات الشيخ أحمد بمبا مباكي (1853-1927) مؤسس الطريقة المريدية في طوبى السنغالية، وتضم آلاف القصائد في مدح النبي ﷺ وذكر شمائله، وتشكّل مرجعًا أصيلًا للدراسات السيرية في غرب إفريقيا.",
+      "url": "https://encyclopaediaafricana.com/cheikh-ahmadou-bamba-mbacke/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "الشيخ أحمد بمبا مباكي"
+      ],
+      "verification": "needs_verification",
+      "inclusion_tier": "borderline",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://toubamica.org/shaykh-ahmadou-bamba-bibliography/"
+      ],
+      "evidence_quote": "Encyclopaedia Africana / Toubamica bibliography: 'The library Shaykh El Khadim of Tuubaa is the main depository of most of his manuscripts ... His poems weighed in total about seven tons,' largely hymns 'to the qualities of Allāh and the Prophet Muḥammad.'"
+    },
+    {
+      "id": "NAM-274",
+      "round": "10a",
+      "name_ar": "أكاديميَّة السيرة - كُتَّاب الفاتح",
+      "name_en": "Akademi Siroh – Kuttab Al-Fatih",
+      "type": "research_center",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "ID",
+      "founded": 2012,
+      "description_ar": "أكاديميَّة متخصِّصة في تدريس السيرة النبويَّة ضمن منظومة تعليميَّة قرآنيَّة (كُتَّاب الفاتح) مُنتشِرة في أكثر من 25 فرعًا في 22 مدينة إندونيسيَّة، أسَّسها الأستاذ بودي أشاري خرّيج الجامعة الإسلامية بالمدينة.",
+      "url": "https://kuttabalfatih.com/project/akademi-siroh/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "بودي أشاري (Budi Ashari)"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://kuttabalfatih.com/project/akademi-siroh/"
+      ],
+      "evidence_quote": "Budi Ashari founded educational institutions including Sekolah Kuttab Al-Fatih, Parenting Nabawiyah, and Akademi Sirah Nabawiyah based on Sirah research."
+    },
+    {
+      "id": "NAM-275",
+      "round": "10a",
+      "name_ar": "مَجلِس رسول الله ﷺ",
+      "name_en": "Majelis Rasulullah SAW",
+      "type": "mosque_program",
+      "type_group": "museums_culture",
+      "region": "non_arab_muslim",
+      "country": "ID",
+      "founded": 1998,
+      "description_ar": "أكبر مجالس ذِكْر ومحبَّة في إندونيسيَّا، أسَّسه الحبيب المنذر المُسَوَّى عام 1998 في جاكرتا، يُركِّز على السيرة النبويَّة والمولد، ويحضره عشرات الألوف أسبوعيًّا ضمن برنامج «مَجلس البُردة وكَجِيان سيرة نبويَّة».",
+      "url": "https://www.majelisrasulullah.org/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "الحبيب المنذر المُسَوَّى (Habib Munzir Al-Musawa)",
+        "الحبيب أحمد بن نوح الجَيلاني"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://www.majelisrasulullah.org/kecintaan-al-habib-munzir-al-musawa-kepada-rasulullah-saw/"
+      ],
+      "evidence_quote": "Habib Munzir's goal was to call people to repentance and love of Prophet Muhammad; programs include 'Majelis Burdah & Kajian Sirah Nabawiyah'."
+    },
+    {
+      "id": "NAM-276",
+      "round": "10a",
+      "name_ar": "مَعهد الپَّرنتنغ النبوي (مؤسَّسة)",
+      "name_en": "Lembaga Parenting Nabawiyah",
+      "type": "foundation_waqf",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "ID",
+      "founded": 2014,
+      "description_ar": "مؤسَّسة متخصِّصة في إحياء منهج التربية النبويَّة استنادًا إلى السيرة والقرآن والحديث، يُشرف عليها الأستاذ بودي أشاري، وتُقدِّم برامج تدريبيَّة دوريَّة في الأسرة على هَدْي النبيِّ ﷺ.",
+      "url": "https://parentingnabawiyyah.com/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "بودي أشاري (Budi Ashari)"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://thisisgender.com/budi-ashari-lc-menghidupkan-kembali-parenting-nabawiyah/"
+      ],
+      "evidence_quote": "Parenting Nabawiyah is a family education concept based on real examples practiced by Prophet Muhammad, sources being Quran, Hadith, and salaf education."
+    },
+    {
+      "id": "NAM-277",
+      "round": "10a",
+      "name_ar": "متحف النبَّوي بماليزيا",
+      "name_en": "Muzium Nabawiah Malaysia",
+      "type": "museum",
+      "type_group": "museums_culture",
+      "region": "non_arab_muslim",
+      "country": "MY",
+      "founded": 2017,
+      "description_ar": "متحف متجوِّل في ماليزيا يَعرِض نسخًا طبق الأصل من آثار النبيِّ ﷺ وأصحابه ضمن معارض دوريَّة في المساجد والمراكز الإسلاميَّة، ويهدف إلى تعريف الجمهور بسيرة المصطفى عَبْر التفاعل البصري.",
+      "url": "https://www.facebook.com/muziumnabawiah/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://www.facebook.com/muziumnabawiah/"
+      ],
+      "evidence_quote": "Muzium Nabawiah Malaysia exhibits replica artifacts of the heritage left by Prophet Muhammad, presenting the sirah through exhibitions of replica treasures of the Prophet's heritage."
+    },
+    {
+      "id": "NAM-278",
+      "round": "10a",
+      "name_ar": "معرض أورا الإسلام",
+      "name_en": "Galeri Aura Islam",
+      "type": "museum",
+      "type_group": "museums_culture",
+      "region": "non_arab_muslim",
+      "country": "MY",
+      "founded": 2023,
+      "description_ar": "معرض دائم في إسكَنْدَر بوتَري بولاية جوهور يعرض أكثر من 300 قطعة أصليَّة من تراث النبيِّ ﷺ والصحابة والحضارة الإسلاميَّة، شعاره «حيث يَحْيا إرث النبيِّ ﷺ»، ويُعدّ الأكبر في جنوب شرق آسيا.",
+      "url": "https://www.galeriauraislam.com/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://www.auraislam.com/"
+      ],
+      "evidence_quote": "Galeri Aura Islam features over 200 original artifacts of the Prophet SAW & Islamic Civilization including the Turban of Prophet Muhammad and Companions' relics."
+    },
+    {
+      "id": "NAM-279",
+      "round": "10a",
+      "name_ar": "محمَّد قريش شِهاب (مؤلِّف)",
+      "name_en": "Prof. Dr. M. Quraish Shihab",
+      "type": "individual_researcher",
+      "type_group": "individual_actors",
+      "region": "non_arab_muslim",
+      "country": "ID",
+      "founded": 1944,
+      "description_ar": "مفسِّر إندونيسي بارز، صاحب كتاب «قراءة سيرة النبيِّ محمَّد ﷺ في ضوء القرآن والسنَّة الصحيحة» (1135 صفحة، طبعة لنترا هاتي 2011) الذي يُعدّ من أوسع المؤلَّفات في السيرة بالإندونيسيَّة المعاصرة.",
+      "url": "https://quraishshihab.com/karya-mqs/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://www.lenterahati.com/portfolio-item/membaca-sirah-nabi/"
+      ],
+      "evidence_quote": "Quraish Shihab's work 'Membaca Sirah Nabi Muhammad dalam Sorotan Al-Quran dan Hadis-Hadis Shahih' (1135 pages hard cover, Lentera Hati, 2011) — comprehensive critical study of the Prophet's biography."
+    },
+    {
+      "id": "NAM-280",
+      "round": "10a",
+      "name_ar": "آجِد طاهر (أكاديميٌّ)",
+      "name_en": "Dr. Ajid Thohir",
+      "type": "individual_researcher",
+      "type_group": "individual_actors",
+      "region": "non_arab_muslim",
+      "country": "ID",
+      "founded": 1965,
+      "description_ar": "أستاذ بكليَّة الآداب والعلوم الإنسانيَّة في جامعة سونان غونونغ جاتي الحكوميَّة بباندونغ، له كتاب «السيرة النبويَّة: محمَّد ﷺ في الدراسات الاجتماعيَّة الإنسانيَّة» (Marja, 2014، 313ص) ودراسات مُحكَّمة في تاريخ السيرة.",
+      "url": "https://digilib.uinsgd.ac.id/77782/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://jurnalmiqotojs.uinsu.ac.id/index.php/jurnalmiqot/search/authors/view?firstName=Ajid&middleName=&lastName=Thohir&affiliation=Fakultas+Adab+dan+Humaniora+UIN+Sunan+Gunung+Djati+Bandung&country=ID"
+      ],
+      "evidence_quote": "Ajid Thohir, lecturer at Fakultas Adab UIN Sunan Gunung Djati Bandung; author of 'Sirah Nabawiyah: Nabi Muhammad SAW dalam Kajian Ilmu Sosial Humaniora' (Marja 2014)."
+    },
+    {
+      "id": "NAM-281",
+      "round": "10a",
+      "name_ar": "فِراندا أَنْديرجا (مؤلِّف)",
+      "name_en": "Dr. Firanda Andirja, Lc., M.A.",
+      "type": "individual_researcher",
+      "type_group": "individual_actors",
+      "region": "non_arab_muslim",
+      "country": "ID",
+      "founded": 1979,
+      "description_ar": "حاصل على الدكتوراه من الجامعة الإسلاميَّة بالمدينة، خطيب سابق في المسجد النبوي للجالية الإندونيسيَّة، له موسوعة «السيرة النبويَّة: تعلَّم نَيْل المحبَّة الصادقة للرسول» في ستَّة مجلَّدات.",
+      "url": "https://firanda.com/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://www.facebook.com/100057239246680/videos/573476023362910/"
+      ],
+      "evidence_quote": "Firanda Andirja authored 'Sirah Nabawiyah: Belajar Meraih Cinta Sejati Kepada Sang Rasul' in 6 volumes, plus separate Stories of the Prophets work."
+    },
+    {
+      "id": "NAM-282",
+      "round": "10a",
+      "name_ar": "كُلِّيَّة الدراسات القرآنيَّة والسُّنِّيَّة بجامعة سَيْنس الإسلاميَّة الماليزيَّة",
+      "name_en": "Faculty of Quranic and Sunnah Studies (FPQS), USIM",
+      "type": "university_department",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "MY",
+      "founded": 2000,
+      "description_ar": "كُلِّيَّة بحثيَّة تابعة لجامعة سَيْنس الإسلاميَّة الماليزيَّة، تضمُّ تخصُّصات في تفسير وحديث وسيرة نبويَّة، وتُصدِر مجلَّة Journal of Hadith Studies التي تنشر دوريًّا أبحاثًا في تاريخ تدوين السيرة.",
+      "url": "https://fpqs.usim.edu.my/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://journalofhadith.usim.edu.my/index.php/johs/article/download/208/109"
+      ],
+      "evidence_quote": "USIM Faculty of Quranic & Sunnah Studies has expertise in Tafsir/Ulum Quran, Hadith, Sunnah, Sirah Nabawiyyah; its Journal of Hadith Studies publishes articles on Sirah literature."
+    },
+    {
+      "id": "NAM-283",
+      "round": "10a",
+      "name_ar": "مجلَّة البُرهان: مجلَّة دراسات القرآن والسُّنَّة - الجامعة الإسلاميَّة العالميَّة بماليزيا",
+      "name_en": "Al-Burhān: Journal of Qur'ān and Sunnah Studies (IIUM)",
+      "type": "journal",
+      "type_group": "publishing_knowledge",
+      "region": "non_arab_muslim",
+      "country": "MY",
+      "founded": 2017,
+      "description_ar": "دوريَّة مُحكَّمة نصف سنويَّة تَصدر عن قسم القرآن والسنَّة بكُلِّيَّة عبد الحميد أبو سليمان للمعارف الوحيانيَّة في الجامعة الإسلاميَّة العالميَّة بماليزيا، تنشر بحوثًا في القرآن والسنَّة والسيرة بالإنجليزيَّة والعربيَّة.",
+      "url": "https://journals.iium.edu.my/al-burhan/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://journals.iium.edu.my/al-burhan/"
+      ],
+      "evidence_quote": "AL-BURHĀN: Journal of Qurʾān and Sunnah Studies is a biannual internationally refereed journal welcoming contributions on Qurʾan, Sunnah and Sīrah studies."
+    },
+    {
+      "id": "NAM-284",
+      "round": "10a",
+      "name_ar": "دار النشر الكوثر",
+      "name_en": "Pustaka Al-Kautsar",
+      "type": "publisher",
+      "type_group": "publishing_knowledge",
+      "region": "non_arab_muslim",
+      "country": "ID",
+      "founded": 1992,
+      "description_ar": "دار نشر إندونيسيَّة كبرى متخصِّصة في الكتب الإسلاميَّة، تُصدر سلاسل سيرة نبويَّة (منها ترجمة «الرحيق المختوم») وتراجم الصحابة، وقدَّمت أكثر من 500 عنوانًا، وتُعدُّ المرجع الأبرز لكتب السيرة المُترجَمة في إندونيسيا.",
+      "url": "https://www.kautsar.co.id/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://www.kautsar.co.id/about-us/"
+      ],
+      "evidence_quote": "Pustaka Al-Kautsar publishes books on akidah, tafsir, hadits, sejarah Islam, Sirah Nabi, biografi sahabat; published Sirah Nabawiyah by Syaikh Shafiyyurrahman Al-Mubarakfuri."
+    },
+    {
+      "id": "NAM-285",
+      "round": "10a",
+      "name_ar": "دار نشر جَبَل",
+      "name_en": "Penerbit Jabal",
+      "type": "publisher",
+      "type_group": "publishing_knowledge",
+      "region": "non_arab_muslim",
+      "country": "ID",
+      "founded": 2004,
+      "description_ar": "دار نشر إسلاميَّة في باندونغ تأسَّست 2004م، اشتهرت بترجمة كتب التراث الكبرى ومنها «الرحيق المختوم» في السيرة النبويَّة، وأصبحت من أهمِّ نواشِر السيرة في إندونيسيا.",
+      "url": "https://penerbitjabal.com/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://penerbitjabal.com/daftar-isi-buku-sirah-nabawiyah-shafiyyurrahman/"
+      ],
+      "evidence_quote": "Penerbit Jabal established 2004 in Bandung, publishes translated classical texts such as Riyadush Shalihin, Shahih Bukhari, and Sirah Nabawi."
+    },
+    {
+      "id": "NAM-286",
+      "round": "10a",
+      "name_ar": "مَسجد الرسول المُؤسَّس - يادِم (مؤسَّسة الدعوة الإسلاميَّة الماليزيَّة)",
+      "name_en": "YADIM Sirah Programme – Yayasan Dakwah Islamiah Malaysia",
+      "type": "ministry_program",
+      "type_group": "institutional_infra",
+      "region": "non_arab_muslim",
+      "country": "MY",
+      "founded": 1974,
+      "description_ar": "مؤسَّسة الدعوة الإسلاميَّة الماليزيَّة، هيئة رسميَّة تنشُر السيرة عَبْر برنامج «تذكرة 24 ساعة بلا توقُّف للسيرة النبويَّة» ووَقَفَ توزيع كتاب «الرحيق المختوم» على المكتبات والمساجد، وترجمته إلى المالويَّة.",
+      "url": "https://www.yadim.com.my/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://buku.yadim.com.my/product/sirah-nabawiyyah/"
+      ],
+      "evidence_quote": "YADIM implemented Tazkirah 24 Jam Tanpa Henti Sirah Al Nabawiyah Al Rahiq Maukhtum program and distributed 329 copies of Ar-Rahiq Al-Makhtum Sirah Nabawiyyah as waqaf."
+    },
+    {
+      "id": "NAM-287",
+      "round": "10a",
+      "name_ar": "تلفزيون السيرة (قناة رقميَّة)",
+      "name_en": "Sirah TV (YouTube/digital channel)",
+      "type": "digital_platform",
+      "type_group": "media_audience",
+      "region": "non_arab_muslim",
+      "country": "ID",
+      "founded": 2018,
+      "description_ar": "قناة رقميَّة تابعة لمجتمع السيرة بإندونيسيا تَبثُّ سلاسل علميَّة كاملة في السيرة النبويَّة والخلافة الراشدة والحضارة الإسلاميَّة، بمحتوى مرئيٍّ مُنتِظم بإشراف الأستاذ آسف صباري.",
+      "url": "https://www.youtube.com/@sirah_tv",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "آسف صباري (Asep Sobari)"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://sirahcommunity.com/web-series/"
+      ],
+      "evidence_quote": "Sirah TV — Sirah Community Indonesia (SCI) Channel offers 'Kajian sirah nabawiyah dan peradaban islam' content on Madrasah Sirah Nabawiyah & Khilafah Rasyidah."
+    },
+    {
+      "id": "ARB-109",
+      "round": "10a",
+      "name_ar": "دار المصطفى للدراسات الإسلامية",
+      "name_en": "Dar al-Mustafa for Islamic Studies",
+      "type": "islamic_center",
+      "type_group": "museums_culture",
+      "region": "arabia",
+      "country": "YE",
+      "founded": 1994,
+      "description_ar": "معهد علمي تقليدي في تريم بحضرموت أسسه الحبيب عمر بن حفيظ، يدرّس السيرة النبوية والمولد ضمن منهجه الراتب الأسبوعي، ومنه يتخرج طلاب من عشرات الدول.",
+      "url": "https://tarim.shifa.net.au/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "الحبيب عمر بن حفيظ",
+        "الحبيب علي المشهور بن حفيظ",
+        "الحبيب كاظم السقاف"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Dar_al-Mustafa"
+      ],
+      "evidence_quote": "Educational institute focused on traditional Islamic Sciences; students gather Thursdays for recitation of the Mawlid 'al-Diya al-Lami' (The Shimmering Light) authored by Habib Umar bin Hafiz on the life of the Prophet."
+    },
+    {
+      "id": "ARB-110",
+      "round": "10a",
+      "name_ar": "رباط تريم",
+      "name_en": "Ribat (Rubat) Tarim",
+      "type": "islamic_center",
+      "type_group": "museums_culture",
+      "region": "arabia",
+      "country": "YE",
+      "founded": 1887,
+      "description_ar": "أقدم معهد علمي تقليدي في حضرموت، يدرّس فيه طلاب من اليمن والخارج علوم الشريعة والسيرة على منهج الباعلوية، تخرّج منه أكثر من ١٣ ألف عالم.",
+      "url": "http://rubat-tareem.net/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "الحبيب عبدالله بن عمر الشاطري",
+        "الحبيب سالم الشاطري",
+        "الحبيب عمر الشاطري"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Tarim,_Yemen"
+      ],
+      "evidence_quote": "Inaugurated 2 October 1887; per 2007 statistics, over 13,000 scholars have graduated; instruction follows the halaqah methodology covering fiqh, hadith and Sirah."
+    },
+    {
+      "id": "ARB-111",
+      "round": "10a",
+      "name_ar": "رباط البيضاء",
+      "name_en": "Ribat al-Bayda",
+      "type": "islamic_center",
+      "type_group": "museums_culture",
+      "region": "arabia",
+      "country": "YE",
+      "founded": 1972,
+      "description_ar": "معهد علمي شمالي اليمن أسسه الحبيب محمد بن عبدالله الحدّار، يُعنى بتدريس السيرة والمنهج النبوي ضمن منهج الباعلوية، وتخرّج فيه كبار علماء حضرموت المعاصرين.",
+      "url": "https://muwasala.org/2012/06/05/habib-umar-bin-hafiz/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "الحبيب محمد بن عبدالله الحدّار",
+        "الحبيب زين بن إبراهيم بن سميط",
+        "الحبيب إبراهيم بن عقيل بن يحيى"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://jurnal.fai.umi.ac.id/index.php/islamicresources/article/view/766"
+      ],
+      "evidence_quote": "Ribat of al-Bayda' was founded by Habib Muhammad bin 'Abdullah al-Haddar; renowned center where Habib Umar bin Hafiz studied for 10 years; main teacher Habib Zayn bin Sumait taught al-Manhaj al-Sawi covering the Prophetic biography and tariqah."
+    },
+    {
+      "id": "ARB-112",
+      "round": "10a",
+      "name_ar": "موقع مواصلة (المنبر الرقمي للحبيب عمر بن حفيظ)",
+      "name_en": "Muwasala Digital Platform",
+      "type": "digital_platform",
+      "type_group": "media_audience",
+      "region": "arabia",
+      "country": "YE",
+      "founded": 2010,
+      "description_ar": "منصة رقمية ناطقة باسم تيار الحبيب عمر بن حفيظ، تنشر مواد السيرة النبوية ودروسها وعظات الحضارمة المعاصرين بعدة لغات، ولها قسم مخصص للسيرة.",
+      "url": "https://muwasala.org/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "الحبيب عمر بن حفيظ",
+        "الحبيب علي الجفري"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://muwasala.org/category/the-prophet/prophetic-biography/"
+      ],
+      "evidence_quote": "Muwasala is a portal for the scholarly teachings of the blessed tradition of Hadramawt; features a dedicated 'Prophetic Biography' category presenting Habib Umar bin Hafiz's lessons on the Sira."
+    },
+    {
+      "id": "ARB-113",
+      "round": "10a",
+      "name_ar": "جامعة الأحقاف",
+      "name_en": "Al-Ahgaff University",
+      "type": "university_center",
+      "type_group": "research_education",
+      "region": "arabia",
+      "country": "YE",
+      "founded": 1995,
+      "description_ar": "جامعة في المكلا بحضرموت، تضم كلية الشريعة والقانون التي تدرّس مقررات السيرة النبوية، ولها فرع في تريم يستقطب طلاب آسيا وأفريقيا.",
+      "url": "https://en.ahgaff.edu/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "البروفيسور عبدالله بن محمد باهارون"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Al-Ahgaff_University"
+      ],
+      "evidence_quote": "Established 1995 in Mukalla; College of Sharia 'has graduated hundreds of foreign students' studying Islamic Sciences in Tarim, the Sufi-Hadrami center renowned for Sira and Mawlid scholarship."
+    },
+    {
+      "id": "NAM-288",
+      "round": "10a",
+      "name_ar": "مركز الإمام البخاري الدولي للبحوث",
+      "name_en": "Imam Bukhari International Scientific-Research Center",
+      "type": "research_center",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "UZ",
+      "founded": 2017,
+      "description_ar": "مركز بحثي تابع لمجلس وزراء أوزبكستان في سمرقند، يُعنى بدراسة الحديث وميراث البخاري، ويشمل عمله الإطار الأوسع للمصادر النبوية وعلومها.",
+      "url": "https://bukhari.uz/?lang=en",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "شوقات ميرضياييف (مرسوم التأسيس)"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://www.islamicity.org/105471/imam-al-bukhari-and-the-transmission-of-prophetic-knowledge-the-role-of-the-imam-bukhari-international-scientific-research-centre-in-samarkand/"
+      ],
+      "evidence_quote": "Under the Cabinet of Ministers of Uzbekistan; conducts research on the life, works, and Hadith compiled by Imam al-Bukhari and serves as a modern academic hub for Hadith and Prophetic-knowledge transmission."
+    },
+    {
+      "id": "NAM-289",
+      "round": "10a",
+      "name_ar": "مركز الإمام الترمذي الدولي للبحوث العلمية",
+      "name_en": "Imam at-Termizi International Scientific-Research Center",
+      "type": "research_center",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "UZ",
+      "founded": 2017,
+      "description_ar": "مركز بحثي رسمي في ترمذ (سرخندريا) أُسس بمرسوم رئاسي 2017، يدرس تراث الترمذي ومن ضمنه «الشمائل المحمدية» وهو من المصادر الكبرى لشمائل النبي ﷺ.",
+      "url": "https://termizi.uz/en/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "سعيدوف سرور أتابوللاييفيتش"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://termizi.uz/en/scientific-research-department/"
+      ],
+      "evidence_quote": "Established by Decree of the President of Uzbekistan signed 14 February 2017; research focuses on Imam Tirmidhi's works including Shamail al-Tirmidhi—a foundational text of the Sira genre on the Prophet's physical and moral attributes."
+    },
+    {
+      "id": "NAM-290",
+      "round": "10a",
+      "name_ar": "دار النشر «هلال نشر»",
+      "name_en": "Hilol Nashr Publishing House",
+      "type": "publisher",
+      "type_group": "publishing_knowledge",
+      "region": "non_arab_muslim",
+      "country": "UZ",
+      "founded": 2002,
+      "description_ar": "دار نشر إسلامية في طشقند تنشر مؤلفات الشيخ محمد صادق محمد يوسف وغيره، ولها إصدارات في السيرة النبوية بالأوزبكية والروسية، وتوزّع عبر شبكة واسعة.",
+      "url": "https://hilolnashr.uz/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "الشيخ محمد صادق محمد يوسف"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://gloqur.de/quran-translation-of-the-week-116-the-movarounnahr-revival-an-early-edition-of-tafsir-hilal-in-russian/"
+      ],
+      "evidence_quote": "Hilol Nashr distributes Sheikh Muhammad Sodiq Muhammad Yusuf's books on Sira nabawiyya in Uzbek and Russian; Sodiq's tafsir 'includes... sections of the Sīra nabawiyya (the Biography of the Prophet) that pertain to the Qur'an'."
+    },
+    {
+      "id": "NAM-291",
+      "round": "10a",
+      "name_ar": "الشيخ محمد صادق محمد يوسف",
+      "name_en": "Sheikh Muhammad Sodiq Muhammad Yusuf",
+      "type": "individual_researcher",
+      "type_group": "individual_actors",
+      "region": "non_arab_muslim",
+      "country": "UZ",
+      "founded": 1952,
+      "description_ar": "أول مفتي مستقل لأوزبكستان (١٩٥٢-٢٠١٥) وأكثر علماء آسيا الوسطى تأثيراً، له نحو ٢٠٠ مؤلَّف بالأوزبكية والروسية تشمل أجزاءً موسعة من السيرة النبوية، وسلسلته «الحديث والحياة».",
+      "url": "https://en.wikipedia.org/wiki/Muhammad_Sadik_Muhammad_Yusuf",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "محمد صادق محمد يوسف"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://hilolnashr.uz/shayh-hazratlarining-kitoblari"
+      ],
+      "evidence_quote": "Authored approximately 200 books on virtually all aspects of Islam in Uzbek, including the multi-volume 'Hadis va Hayot' series and Sira-rich sections within Tafsiri Hilol on the life of the Prophet."
+    },
+    {
+      "id": "NAM-292",
+      "round": "10a",
+      "name_ar": "الأكاديمية الإسلامية الدولية بأوزبكستان",
+      "name_en": "International Islamic Academy of Uzbekistan (IIAU)",
+      "type": "university_center",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "UZ",
+      "founded": 2018,
+      "description_ar": "مؤسسة جامعية في طشقند تضم كرسي إيسيسكو للدراسات الإسلامية وكرسي إرسيكا لتاريخ الإسلام، وتدرّس مساقات الحديث وتاريخ الإسلام والسيرة ضمن كلية الدراسات الإسلامية.",
+      "url": "https://iiau.uz/en",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "كرسي إيسيسكو",
+        "كرسي إرسيكا"
+      ],
+      "verification": "needs_verification",
+      "inclusion_tier": "borderline",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://www.ircica.org/activities/conferences/6th-international-conference-on-islamic-civilization-in-central-asia-past-and-present-coordinated-by-the-international-islamic-academy-of-uzbekistan-the-committee-on-religious-affairs-of-the-republic-of-uzbekistan-and-ircica"
+      ],
+      "evidence_quote": "Established 16 April 2018 on the basis of Tashkent Islamic University; offers courses in 'studies of the Quran, history of Islam, Hadith'; hosts an ICESCO Chair for 'Islamic Studies and Islamic Civilization' and IRCICA Chair for 'Islamic History and Source Studies'."
+    },
+    {
+      "id": "NAM-293",
+      "round": "10a",
+      "name_ar": "الأكاديمية الإسلامية ببلغار",
+      "name_en": "Bolgar Islamic Academy",
+      "type": "university_center",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "RU",
+      "founded": 2017,
+      "description_ar": "أعلى مؤسسة لاهوتية إسلامية في روسيا (تتارستان)، تخرّج ماجستير ودكتوراه في العلوم الإسلامية، ومن تخصصاتها علم الحديث الذي يشمل دراسات السيرة، ولها قسم بحث علمي.",
+      "url": "https://bolgar.academy/en/info/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "مجلس الإفتاء الروسي",
+        "إدارة مسلمي تتارستان"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://bolgar.academy/en/scientific-research-department/"
+      ],
+      "evidence_quote": "Opened 4 September 2017; specializations include 'Islamic law, Islamic creed (aqidah), Koran research, and hadith study'; trains masters and doctors of Islamic Sciences via its Scientific Research Department with an Islamic Heritage Center."
+    },
+    {
+      "id": "NAM-294",
+      "round": "10a",
+      "name_ar": "الجامعة الإسلامية الروسية على اسم كونتا-حاجي (غروزني)",
+      "name_en": "Russian Islamic University named after Kunta-Haji (Grozny)",
+      "type": "university_center",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "RU",
+      "founded": 2009,
+      "description_ar": "أكبر جامعة إسلامية في الشيشان، تدرّس العقيدة الإسلامية وعلوم الشريعة والسيرة بمنهج صوفي تقليدي، بالتعاون مع الأزهر وأبو النور بدمشق.",
+      "url": "http://riu-grozny.ru/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "شيخ كونتا حاجي كيشييف (المسمى عنه)"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9_%D0%B8%D1%81%D0%BB%D0%B0%D0%BC%D1%81%D0%BA%D0%B8%D0%B9_%D1%83%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82_(%D0%93%D1%80%D0%BE%D0%B7%D0%BD%D1%8B%D0%B9)"
+      ],
+      "evidence_quote": "Began its history 20 August 2009; offers cultural courses and Muslim doctrine; collaborates with Al-Azhar University in Cairo and Abu-Nour in Damascus; named after a 19th-century Sufi mystic central to Chechen Islamic tradition."
+    },
+    {
+      "id": "NAM-295",
+      "round": "10a",
+      "name_ar": "جامعة داغستان الإسلامية باسم الإمام الشافعي",
+      "name_en": "Dagestan Islamic University (Imam Shafi'i)",
+      "type": "university_center",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "RU",
+      "founded": 1991,
+      "description_ar": "من أوائل الجامعات الإسلامية بشمال القوقاز في محج قلعة بداغستان، تدرّس صراحةً «سيرة النبي (السير)» ضمن تخصصاتها الأساسية إلى جانب القرآن والحديث والفقه.",
+      "url": "https://naqshabandiyyah.blogspot.com/2010/04/yawning-heights-islamic-higher.html",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "الشيخ محمد اليراغي (المسمى عنه أصلاً)"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://naqshabandiyyah.blogspot.com/2010/04/yawning-heights-islamic-higher.html"
+      ],
+      "evidence_quote": "Major disciplines include 'Arabic, the Koran, Quranic reading, Quranic exegetics, hadith, the Prophet's biography (as-siyar), fundamentals of Islam, Muslim law, and Sufi religious practice.'"
+    },
+    {
+      "id": "ARB-114",
+      "round": "10a",
+      "name_ar": "جامعة الإيمان (صنعاء)",
+      "name_en": "Iman University (Sana'a)",
+      "type": "university_center",
+      "type_group": "research_education",
+      "region": "arabia",
+      "country": "YE",
+      "founded": 1993,
+      "description_ar": "جامعة شرعية أسسها الشيخ عبد المجيد الزنداني عام ١٩٩٣ في صنعاء، تخصصت في العلوم الإسلامية بما فيها السيرة، أُغلقت بعد سيطرة الحوثيين على صنعاء ٢٠١٤. (ثغرة موثَّقة)",
+      "url": "https://en.wikipedia.org/wiki/Iman_University",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "الشيخ عبد المجيد الزنداني"
+      ],
+      "verification": "needs_verification",
+      "inclusion_tier": "borderline",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Iman_University"
+      ],
+      "evidence_quote": "Sunni religious school founded in 1993 in Sanaa by Abdul-Majid al-Zindani; curriculum 'deals mostly, if not exclusively, with Islamist studies'; closed by Houthi authorities after the Battle of Sanaa 2014."
+    },
+    {
+      "id": "NAM-296",
+      "round": "10a",
+      "name_ar": "جامعة سلام (كابول)",
+      "name_en": "Salam University (Kabul)",
+      "type": "university_center",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "AF",
+      "founded": 2009,
+      "description_ar": "جامعة خاصة في كابول، تضم كلية الشريعة والقانون بخمسة أقسام منها قسم الدراسات الإسلامية وقسم التاريخ الإسلامي اللذين يُدرّسان السيرة النبوية ضمن مقرراتهما الرئيسية.",
+      "url": "https://salam.edu.af/faculties/sharia-and-law",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "مؤسسو سلام (مجموعة أساتذة)"
+      ],
+      "verification": "needs_verification",
+      "inclusion_tier": "borderline",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Salam_University"
+      ],
+      "evidence_quote": "Faculty of Sharia & Law (established 2009) comprises Department of Fiqh & Law, Department of Islamic Studies, Department of Islamic History, Department of Faith & Philosophy, Department of Arabic; offers BA/MA programs with curriculum revised three times. Verification needed for post-2021 Taliban-era status of programming."
+    },
+    {
+      "id": "ARB-115",
+      "round": "10a",
+      "name_ar": "كرسي يوسف عبداللطيف جميل العلمي للتطبيقات العلاجية في الطب النبوي",
+      "name_en": "Yousef Abdullatif Jameel Scientific Chair for Therapeutic Applications in Prophetic Medicine",
+      "type": "academic_chair",
+      "type_group": "research_education",
+      "region": "arabia",
+      "country": "SA",
+      "founded": 2009,
+      "description_ar": "كرسي بحثي في كلية الطب بجامعة الملك عبدالعزيز بجدة، متخصص بالكامل في التطبيقات العلاجية للطب النبوي (الحبة السوداء، العسل، الحجامة، التين، الرمان، زيت الزيتون) عبر التجارب السريرية والمخبرية.",
+      "url": "https://prophetmedresearch.com/en/home/",
+      "subjects": [
+        "seerah_general",
+        "medicine_prophetic"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "Sheikh Yousef Abdul Latif Jameel"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://prophetmed.kau.edu.sa/Pages-introd.aspx"
+      ],
+      "evidence_quote": "Y.A. Jameel Scientific Chair of Prophetic Medical Applications, Faculty of Medicine, King Abdulaziz University, Jeddah; research areas include whole grains, olive oil, camel products, pumpkin, pomegranate, black seed, and cupping therapy."
+    },
+    {
+      "id": "ARB-116",
+      "round": "10a",
+      "name_ar": "كرسي الشيخ عبدالله بن زيد بن غنيم لأبحاث التداوي بالطب النبوي وتطوير وتصنيع المنتجات الطبيعية",
+      "name_en": "Sheikh Abdullah bin Zaid bin Ghoneim Chair for Research on Treatment by Prophetic Medicine and Natural Products Development",
+      "type": "academic_chair",
+      "type_group": "research_education",
+      "region": "arabia",
+      "country": "SA",
+      "founded": 2014,
+      "description_ar": "كرسي بحثي بكلية الصيدلة في جامعة الأمير سطام بن عبدالعزيز (الخرج)، يركّز حصرًا على تطوير أدوية مستنبطة من الطب النبوي والطب التقليدي السعودي، بتمويل الشيخ سعد بن عبدالله بن غنيم.",
+      "url": "https://sgpm.psau.edu.sa/en",
+      "subjects": [
+        "seerah_general",
+        "medicine_prophetic"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "Prof. Maged S. Abdel-Kader",
+        "Sheikh Saad bin Abdullah bin Zaid bin Ghoneim"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://pharmacy.psau.edu.sa/en/news/2014-12-23"
+      ],
+      "evidence_quote": "The chair's message, vision, and objectives include seeking to develop drugs from prophetic medicine and traditional Saudi medicine."
+    },
+    {
+      "id": "NAM-297",
+      "round": "10a",
+      "name_ar": "المجلة الدولية للطب الإسلامي والتكميلي",
+      "name_en": "International Journal of Islamic and Complementary Medicine (IJICM)",
+      "type": "journal",
+      "type_group": "publishing_knowledge",
+      "region": "non_arab_muslim",
+      "country": "ID",
+      "founded": 2020,
+      "description_ar": "مجلة محكَّمة دولية مفتوحة الوصول (e-ISSN 2828-4569) يصدرها المنتدى الإسلامي الطبي الدولي في إندونيسيا، متخصصة في الطب الإسلامي والطب النبوي والطب التكميلي.",
+      "url": "https://islamicmedicine.or.id/",
+      "subjects": [
+        "seerah_general",
+        "medicine_prophetic"
+      ],
+      "subjects_category": [],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://islamicmedicine.or.id/index.php/ijim/article/view/69"
+      ],
+      "evidence_quote": "open access and peer-reviewed journal by International Islamic Medical Forum in the field of Islamic Medicine, Health Sciences and Complementary Medicine; publishes peer-reviewed research on prophetic medicine."
+    },
+    {
+      "id": "GLB-008",
+      "round": "10a",
+      "name_ar": "[فجوة موثقة] غياب مؤسسات بحثية متخصصة في خصائص النبوة كحقل مستقل",
+      "name_en": "[Documented gap] Absence of dedicated institutions for Khasa'is al-Nubuwwah as a standalone field",
+      "type": "documented_gap",
+      "type_group": "institutional_infra",
+      "region": "global",
+      "country": "—",
+      "founded": 0,
+      "description_ar": "البحث في الخصائص النبوية يَجري عبر تحقيق التراث (الخصائص الكبرى للسيوطي) ودراسات فردية متفرقة وكتب جامعة كـ\"من معين الخصائص النبوية\" لصالح الشامي، دون كرسي علمي أو مركز أو دورية مكرَّسة لهذا الحقل. الموضوع يُعالج كفصل ضمن مقررات السيرة العامة.",
+      "url": "",
+      "subjects": [
+        "khasais_nabawiyyah"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "صالح أحمد الشامي (كتاب جامع)",
+        "محققو الخصائص الكبرى"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://www.islamweb.net/ar/fatwa/402097/"
+      ],
+      "evidence_quote": "No verifiable academic chair, peer-reviewed journal, or research center with >=60% output on Khasa'is al-Nabawiyyah was located; the topic is treated within general Seerah curricula and through editions of al-Suyuti's Khasa'is al-Kubra."
+    },
+    {
+      "id": "LEV-050",
+      "round": "10a",
+      "name_ar": "تراجم سيدات بيت النبوة (سلسلة كتب عائشة عبدالرحمن \"بنت الشاطئ\")",
+      "name_en": "Tarajim Sayyidat Bayt al-Nubuwwah (Biographies of the Ladies of the Prophet's Household) — book series by Aisha Abd al-Rahman (Bint al-Shati')",
+      "type": "key_publication",
+      "type_group": "publishing_knowledge",
+      "region": "levant_iraq_nile",
+      "country": "EG",
+      "founded": 1958,
+      "description_ar": "سلسلة من خمسة كتب جامعة في مجلد واحد لعائشة عبدالرحمن (بنت الشاطئ) مكرَّسة بالكامل لنساء بيت النبوة: أم النبي، نساء النبي، بنات النبي. ترجمت إلى الفارسية والأردية والإندونيسية واليابانية.",
+      "url": "https://www.goodreads.com/book/show/2750208",
+      "subjects": [
+        "seerah_general",
+        "family_household"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "عائشة عبدالرحمن (بنت الشاطئ)"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://www.khotwacenter.com/د-عائشة-عبدالرحمن-بنت-الشاطئ/"
+      ],
+      "evidence_quote": "كتبته بنت الشاطئ في مجلد واحد جامع لخمسة كتب: أم النبي، نساء النبي، بنات النبي ... وتُرجمت إلى الفارسية والأردية والإندونيسية واليابانية."
+    },
+    {
+      "id": "ARB-117",
+      "round": "10a",
+      "name_ar": "المعرض والمتحف الدولي للسيرة النبوية والحضارة الإسلامية — جناح البيت النبوي والحجرات",
+      "name_en": "International Exhibition and Museum of the Prophet's Biography — Prophet's Household and Chambers Hall",
+      "type": "museum",
+      "type_group": "museums_culture",
+      "region": "arabia",
+      "country": "SA",
+      "founded": 2021,
+      "description_ar": "يضم المتحف الدولي للسيرة (إشراف رابطة العالم الإسلامي، المدينة المنورة) محاكاة تفصيلية لبيت النبوة والحجرات النبوية ضمن أجنحته الخمسة والعشرين، مع 500 قطعة من العهد النبوي.",
+      "url": "https://ethaf.com/en",
+      "subjects": [
+        "seerah_general",
+        "family_household",
+        "wufud_diplomacy"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "محمد بن عبدالكريم العيسى (رابطة العالم الإسلامي)"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://www.themwl.org/ar/Museum-of-the-Prophets-Sira-and-Islamic-Civilization"
+      ],
+      "evidence_quote": "المعرض يشتمل على أكثر من 25 جناحًا رئيسًا ... محاكاة لبيت النبوة من داخل متحف السيرة النبوية؛ ويضم الحديقة المحمدية، الطب النبوي، أمم أمثالكم."
+    },
+    {
+      "id": "LEV-051",
+      "round": "10a",
+      "name_ar": "سيرة الرسول صلى الله عليه وسلم: صور مقتبسة من القرآن الكريم — محمد عزة دروزة",
+      "name_en": "Sirat al-Rasul: Suwar Muqtabasah min al-Qur'an al-Karim — Muhammad Izzah Darwazah",
+      "type": "key_publication",
+      "type_group": "publishing_knowledge",
+      "region": "levant_iraq_nile",
+      "country": "PS",
+      "founded": 1948,
+      "description_ar": "مجلَّدان كرَّسهما دروزة لاستخراج السيرة النبوية حصرًا من القرآن الكريم، مع كتابيه المكملين \"عصر النبي\" و\"الدستور القرآني في شؤون الحياة\"؛ من أوائل المؤلَّفات المتخصصة في حقل \"السيرة في القرآن\".",
+      "url": "https://www.goodreads.com/book/show/24141699",
+      "subjects": [
+        "seerah_general",
+        "seerah_in_quran"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "محمد عزة دروزة"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://shamela.ws/index.php/author/1327"
+      ],
+      "evidence_quote": "كتب المؤلف ثلاثة كتب: عصر النبي، وسيرة الرسول صلى الله عليه وسلم من القرآن، والدستور القرآني في شؤون الحياة."
+    },
+    {
+      "id": "LEV-052",
+      "round": "10a",
+      "name_ar": "السيرة النبوية في ضوء القرآن والسنة — محمد بن محمد أبو شهبة",
+      "name_en": "Al-Sirah al-Nabawiyyah fi Daw' al-Qur'an wa al-Sunnah — Muhammad ibn Muhammad Abu Shuhbah",
+      "type": "key_publication",
+      "type_group": "publishing_knowledge",
+      "region": "levant_iraq_nile",
+      "country": "EG",
+      "founded": 1988,
+      "description_ar": "موسوعة في مجلدين لأبي شهبة (أستاذ الحديث بالأزهر والإمام محمد بن سعود) تستخرج السيرة من خلال القرآن والسنة بمنهج محرَّر، طبعها دار القلم بدمشق ووصلت إلى الطبعة الثامنة.",
+      "url": "https://shamela.ws/book/9896",
+      "subjects": [
+        "seerah_general",
+        "seerah_in_quran"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "محمد بن محمد أبو شهبة"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://archive.org/details/ProphetBiographyinLightOfQuranAndSunnah"
+      ],
+      "evidence_quote": "السيرة النبوية في ضوء القرآن والسنة، دراسة محررة جمعت بين أصالة القديم وجِدَّة الحديث، دار القلم - دمشق، طبعة ثامنة 1427هـ، جزآن."
+    },
+    {
+      "id": "LEV-053",
+      "round": "10a",
+      "name_ar": "عتاب الرسول صلى الله عليه وسلم في القرآن: تحليل وتوجيه — صلاح عبدالفتاح الخالدي",
+      "name_en": "Itab al-Rasul fi al-Qur'an: Tahlil wa Tawjih — Salah Abd al-Fattah al-Khalidi",
+      "type": "key_publication",
+      "type_group": "publishing_knowledge",
+      "region": "levant_iraq_nile",
+      "country": "JO",
+      "founded": 2000,
+      "description_ar": "كتاب متخصص للدكتور الخالدي (دكتوراه في التفسير) يحلل اثني عشر موضعًا من السيرة عبر آيات العتاب القرآنية (أسرى بدر، تبوك، زواج زينب، قصة الإفك...)؛ نموذج راسخ لحقل \"السيرة في القرآن\".",
+      "url": "https://www.goodreads.com/book/show/24278031",
+      "subjects": [
+        "seerah_general",
+        "seerah_in_quran"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "صلاح عبدالفتاح الخالدي"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://quran-uni.com/quran-sciences/عتاب-الرسول-في-القرآن-تحليل-وتوجيه/"
+      ],
+      "evidence_quote": "twelve instances of Quranic admonishment, including: prisoners of Badr, Tabuk, marriage to Zaynab bint Jahsh, separation from his wives, story of Gharaniq, Abdullah ibn Umm Maktum."
+    },
+    {
+      "id": "NAM-298",
+      "round": "10a",
+      "name_ar": "محمد حميد الله الحيدر آبادي — أعمال \"الوثائق السياسية للعهد النبوي\" و\"رسائل النبي إلى الملوك\"",
+      "name_en": "Muhammad Hamidullah — 'Al-Watha'iq al-Siyasiyyah' and works on the Prophet's letters to kings",
+      "type": "reference_thinker",
+      "type_group": "individual_actors",
+      "region": "non_arab_muslim",
+      "country": "IN",
+      "founded": 1941,
+      "description_ar": "العلامة الهندي حميد الله (ت 2002) جمع وحقَّق وثائق العهد النبوي والرسائل الدبلوماسية إلى هرقل وكسرى والمقوقس والنجاشي في موسوعته \"مجموعة الوثائق السياسية\"؛ المرجع المؤسِّس لحقل الدبلوماسية النبوية.",
+      "url": "https://en.wikipedia.org/wiki/Muhammad_Hamidullah",
+      "subjects": [
+        "seerah_general",
+        "wufud_diplomacy"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "محمد حميد الله"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://archive.org/download/ths-1/THS%201.pdf"
+      ],
+      "evidence_quote": "Muhammad Hamidullah, an Islamic research scholar, argues for the authenticity of the letter sent to Heraclius, and in a later work reproduces what is claimed to be the original letter ... reference work on the diplomatic correspondence of the Prophet."
+    },
+    {
+      "id": "GLB-009",
+      "round": "10a",
+      "name_ar": "[فجوة موثقة] غياب مؤتمر/مركز معاصر مخصَّص للوفود النبوية والدبلوماسية النبوية",
+      "name_en": "[Documented gap] Absence of contemporary conference series or dedicated center for the Prophetic Delegations and Diplomacy",
+      "type": "documented_gap",
+      "type_group": "institutional_infra",
+      "region": "global",
+      "country": "—",
+      "founded": 0,
+      "description_ar": "رغم وفرة الكتب الجامعة والأبحاث المتفرقة (هنداوي، إسلام ويب، الرابطة المحمدية للعلماء)، لا يوجد كرسي علمي أو مركز أو مؤتمر دوري مكرَّس حصرًا للوفود النبوية أو الدبلوماسية النبوية كحقل قائم بذاته. يُدرَّس الموضوع غالبًا ضمن السيرة العامة أو ضمن العلاقات الدولية في الإسلام.",
+      "url": "",
+      "subjects": [
+        "wufud_diplomacy"
+      ],
+      "subjects_category": [],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://www.alsirah.com/الـوفـــود/"
+      ],
+      "evidence_quote": "No standalone center, peer-reviewed journal, or conference series with primary focus on Wufud/Prophetic Diplomacy verified beyond Hamidullah's foundational work and the household-museum exhibits."
     }
   ],
-  "migration_note": "2026-05-13: STRICT AUDIT + ROUND 9-A — 235 entities (Seerah-only)",
+  "migration_note": "2026-05-16: ROUND 10-A — Path A inductive expansion (Africa+SEA+CAsia+Thematic): +53 → 322 entities",
   "url_audit_note": "2026-05-15: تَدقيق روابط الكيانات (الجولة 10) — 6 روابط ميّتة أُصلحت أو أُزيلت",
   "restoration_note": "2026-05-16: استرجاع 34 كياناً شريكاً محتملاً من الـ514 المُستبعَدة في المراجعة الصارمة. مُوسومون بـ project_alignment."
 }

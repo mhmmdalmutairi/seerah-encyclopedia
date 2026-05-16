@@ -1,131 +1,131 @@
 {
-  "generated_at": "2026-05-16T08:14:03.387408Z",
+  "generated_at": "2026-05-16T08:51:44.674561Z",
   "totals": {
-    "all_entities": 269,
-    "real": 267,
-    "core": 233,
+    "all_entities": 322,
+    "real": 320,
+    "core": 286,
     "secondary_register": 34
   },
   "completeness": {
     "id": {
-      "filled": 233,
-      "total": 233,
+      "filled": 286,
+      "total": 286,
       "pct": 100.0
     },
     "name_ar": {
-      "filled": 233,
-      "total": 233,
+      "filled": 286,
+      "total": 286,
       "pct": 100.0
     },
     "name_en": {
-      "filled": 185,
-      "total": 233,
-      "pct": 79.4
+      "filled": 238,
+      "total": 286,
+      "pct": 83.2
     },
     "type": {
-      "filled": 233,
-      "total": 233,
+      "filled": 286,
+      "total": 286,
       "pct": 100.0
     },
     "type_group": {
-      "filled": 233,
-      "total": 233,
+      "filled": 286,
+      "total": 286,
       "pct": 100.0
     },
     "country": {
-      "filled": 233,
-      "total": 233,
+      "filled": 286,
+      "total": 286,
       "pct": 100.0
     },
     "region": {
-      "filled": 233,
-      "total": 233,
+      "filled": 286,
+      "total": 286,
       "pct": 100.0
     },
     "city_ar": {
       "filled": 122,
-      "total": 233,
-      "pct": 52.4
+      "total": 286,
+      "pct": 42.7
     },
     "founded": {
-      "filled": 167,
-      "total": 233,
-      "pct": 71.7
+      "filled": 217,
+      "total": 286,
+      "pct": 75.9
     },
     "url": {
-      "filled": 177,
-      "total": 233,
-      "pct": 76.0
+      "filled": 228,
+      "total": 286,
+      "pct": 79.7
     },
     "description_ar": {
-      "filled": 233,
-      "total": 233,
+      "filled": 286,
+      "total": 286,
       "pct": 100.0
     },
     "languages": {
-      "filled": 233,
-      "total": 233,
+      "filled": 286,
+      "total": 286,
       "pct": 100.0
     },
     "subjects": {
-      "filled": 233,
-      "total": 233,
+      "filled": 286,
+      "total": 286,
       "pct": 100.0
     },
     "subjects_category": {
       "filled": 224,
-      "total": 233,
-      "pct": 96.1
+      "total": 286,
+      "pct": 78.3
     },
     "key_figures": {
-      "filled": 122,
-      "total": 233,
-      "pct": 52.4
+      "filled": 162,
+      "total": 286,
+      "pct": 56.6
     },
     "funding_type": {
-      "filled": 210,
-      "total": 233,
-      "pct": 90.1
+      "filled": 263,
+      "total": 286,
+      "pct": 92.0
     },
     "verification": {
-      "filled": 233,
-      "total": 233,
+      "filled": 286,
+      "total": 286,
       "pct": 100.0
     },
     "inclusion_tier": {
-      "filled": 233,
-      "total": 233,
+      "filled": 286,
+      "total": 286,
       "pct": 100.0
     },
     "methodology_school": {
       "filled": 52,
-      "total": 233,
-      "pct": 22.3
+      "total": 286,
+      "pct": 18.2
     },
     "trajectory": {
       "filled": 52,
-      "total": 233,
-      "pct": 22.3
+      "total": 286,
+      "pct": 18.2
     },
     "output_volume_yearly": {
       "filled": 52,
-      "total": 233,
-      "pct": 22.3
+      "total": 286,
+      "pct": 18.2
     },
     "target_audience": {
       "filled": 52,
-      "total": 233,
-      "pct": 22.3
+      "total": 286,
+      "pct": 18.2
     },
     "quality_signal": {
       "filled": 52,
-      "total": 233,
-      "pct": 22.3
+      "total": 286,
+      "pct": 18.2
     },
     "explicit_relations": {
       "filled": 58,
-      "total": 233,
-      "pct": 24.9
+      "total": 286,
+      "pct": 20.3
     }
   },
   "url_health": {
@@ -211,8 +211,8 @@
       {
         "lang": "en",
         "demand_m": 1000,
-        "supply": 143,
-        "m_per_entity": 7.0
+        "supply": 196,
+        "m_per_entity": 5.1
       },
       {
         "lang": "es",
@@ -229,33 +229,17 @@
       {
         "lang": "ar",
         "demand_m": 420,
-        "supply": 176,
-        "m_per_entity": 2.4
+        "supply": 229,
+        "m_per_entity": 1.8
       }
     ],
     "subjects": [
       {
+        "subject": "ahl_al_sunna",
+        "count": 0
+      },
+      {
         "subject": "tabaqat_companions",
-        "count": 0
-      },
-      {
-        "subject": "hadith_sciences",
-        "count": 0
-      },
-      {
-        "subject": "medicine_prophetic",
-        "count": 0
-      },
-      {
-        "subject": "khasais_nabawiyyah",
-        "count": 0
-      },
-      {
-        "subject": "family_household",
-        "count": 0
-      },
-      {
-        "subject": "wufud_diplomacy",
         "count": 0
       },
       {
@@ -263,20 +247,36 @@
         "count": 0
       },
       {
-        "subject": "seerah_in_quran",
+        "subject": "hadith_sciences",
         "count": 0
       },
       {
-        "subject": "ahl_al_sunna",
-        "count": 0
+        "subject": "khasais_nabawiyyah",
+        "count": 1
       },
       {
         "subject": "women_in_seerah",
         "count": 1
       },
       {
+        "subject": "family_household",
+        "count": 2
+      },
+      {
         "subject": "makkah_studies",
         "count": 2
+      },
+      {
+        "subject": "seerah_in_quran",
+        "count": 3
+      },
+      {
+        "subject": "wufud_diplomacy",
+        "count": 3
+      },
+      {
+        "subject": "medicine_prophetic",
+        "count": 3
       },
       {
         "subject": "madinah_studies",
@@ -297,36 +297,6 @@
     ],
     "countries": [
       {
-        "country": "NG",
-        "demand_m": 100,
-        "supply": 0,
-        "m_per_entity": 1000.0
-      },
-      {
-        "country": "AF",
-        "demand_m": 38,
-        "supply": 0,
-        "m_per_entity": 380.0
-      },
-      {
-        "country": "UZ",
-        "demand_m": 30,
-        "supply": 0,
-        "m_per_entity": 300.0
-      },
-      {
-        "country": "YE",
-        "demand_m": 27,
-        "supply": 0,
-        "m_per_entity": 270.0
-      },
-      {
-        "country": "RU",
-        "demand_m": 25,
-        "supply": 0,
-        "m_per_entity": 250.0
-      },
-      {
         "country": "CN",
         "demand_m": 25,
         "supply": 0,
@@ -337,12 +307,6 @@
         "demand_m": 22,
         "supply": 0,
         "m_per_entity": 220.0
-      },
-      {
-        "country": "ML",
-        "demand_m": 18,
-        "supply": 0,
-        "m_per_entity": 180.0
       },
       {
         "country": "TN",
@@ -363,12 +327,6 @@
         "m_per_entity": 76.5
       },
       {
-        "country": "ID",
-        "demand_m": 240,
-        "supply": 5,
-        "m_per_entity": 48.0
-      },
-      {
         "country": "DZ",
         "demand_m": 42,
         "supply": 1,
@@ -381,16 +339,58 @@
         "m_per_entity": 40.0
       },
       {
+        "country": "AF",
+        "demand_m": 38,
+        "supply": 1,
+        "m_per_entity": 38.0
+      },
+      {
         "country": "ET",
         "demand_m": 35,
         "supply": 1,
         "m_per_entity": 35.0
+      },
+      {
+        "country": "NG",
+        "demand_m": 100,
+        "supply": 3,
+        "m_per_entity": 33.3
+      },
+      {
+        "country": "IN",
+        "demand_m": 200,
+        "supply": 7,
+        "m_per_entity": 28.6
+      },
+      {
+        "country": "EG",
+        "demand_m": 95,
+        "supply": 5,
+        "m_per_entity": 19.0
+      },
+      {
+        "country": "ML",
+        "demand_m": 18,
+        "supply": 1,
+        "m_per_entity": 18.0
+      },
+      {
+        "country": "ID",
+        "demand_m": 240,
+        "supply": 15,
+        "m_per_entity": 16.0
+      },
+      {
+        "country": "SO",
+        "demand_m": 16,
+        "supply": 1,
+        "m_per_entity": 16.0
       }
     ]
   },
   "scores": {
-    "avg": 77.3,
-    "median": 75.0,
+    "avg": 77.4,
+    "median": 80.0,
     "low_quality": [
       {
         "id": "TUR-029",
