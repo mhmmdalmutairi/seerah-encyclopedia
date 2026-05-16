@@ -30,6 +30,38 @@
     });
   }
 
+  // Discreet footer toggle: flips localStorage and reloads
+  function initSheikhToggle() {
+    const btn = document.getElementById("sheikh-toggle");
+    if (!btn) return;
+    const lbl = btn.querySelector(".sheikh-toggle__lbl");
+    if (lbl) lbl.textContent = SHEIKH_MODE ? "طبقة المشروع نشطة" : "المشروع";
+    btn.addEventListener("click", function () {
+      try {
+        const cur = window.localStorage.getItem("sheikh_mode") === "1"
+          || new URLSearchParams(window.location.search).get("sheikh") === "1";
+        if (cur) {
+          window.localStorage.removeItem("sheikh_mode");
+          const u = new URL(window.location.href);
+          u.searchParams.delete("sheikh");
+          window.location.href = u.toString();
+        } else {
+          window.localStorage.setItem("sheikh_mode", "1");
+          window.location.reload();
+        }
+      } catch (e) {
+        alert("تعذَّر الحفظ في المتصفح.");
+      }
+    });
+  }
+  if (typeof document !== "undefined") {
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", initSheikhToggle);
+    } else {
+      initSheikhToggle();
+    }
+  }
+
   // ============================================================
   // 1. الترجمات: من رموز الـ schema إلى تسميات عربية
   // ============================================================
