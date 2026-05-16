@@ -1,140 +1,144 @@
 {
-  "generated_at": "2026-05-16T09:03:29.510729Z",
+  "generated_at": "2026-05-16T09:53:12.776719Z",
   "totals": {
-    "all_entities": 322,
-    "real": 320,
-    "core": 286,
+    "all_entities": 446,
+    "real": 444,
+    "core": 410,
     "secondary_register": 34
   },
   "completeness": {
     "id": {
-      "filled": 286,
-      "total": 286,
+      "filled": 410,
+      "total": 410,
       "pct": 100.0
     },
     "name_ar": {
-      "filled": 286,
-      "total": 286,
+      "filled": 410,
+      "total": 410,
       "pct": 100.0
     },
     "name_en": {
-      "filled": 238,
-      "total": 286,
-      "pct": 83.2
+      "filled": 362,
+      "total": 410,
+      "pct": 88.3
     },
     "type": {
-      "filled": 286,
-      "total": 286,
+      "filled": 410,
+      "total": 410,
       "pct": 100.0
     },
     "type_group": {
-      "filled": 286,
-      "total": 286,
+      "filled": 410,
+      "total": 410,
       "pct": 100.0
     },
     "country": {
-      "filled": 286,
-      "total": 286,
+      "filled": 410,
+      "total": 410,
       "pct": 100.0
     },
     "region": {
-      "filled": 286,
-      "total": 286,
+      "filled": 410,
+      "total": 410,
       "pct": 100.0
     },
     "city_ar": {
       "filled": 122,
-      "total": 286,
-      "pct": 42.7
+      "total": 410,
+      "pct": 29.8
     },
     "founded": {
-      "filled": 217,
-      "total": 286,
-      "pct": 75.9
+      "filled": 338,
+      "total": 410,
+      "pct": 82.4
     },
     "url": {
-      "filled": 228,
-      "total": 286,
-      "pct": 79.7
+      "filled": 352,
+      "total": 410,
+      "pct": 85.9
     },
     "description_ar": {
-      "filled": 286,
-      "total": 286,
+      "filled": 410,
+      "total": 410,
       "pct": 100.0
     },
     "languages": {
-      "filled": 286,
-      "total": 286,
+      "filled": 410,
+      "total": 410,
       "pct": 100.0
     },
     "subjects": {
-      "filled": 286,
-      "total": 286,
+      "filled": 410,
+      "total": 410,
       "pct": 100.0
     },
     "subjects_category": {
       "filled": 224,
-      "total": 286,
-      "pct": 78.3
+      "total": 410,
+      "pct": 54.6
     },
     "key_figures": {
-      "filled": 162,
-      "total": 286,
-      "pct": 56.6
+      "filled": 253,
+      "total": 410,
+      "pct": 61.7
     },
     "funding_type": {
-      "filled": 263,
-      "total": 286,
-      "pct": 92.0
+      "filled": 387,
+      "total": 410,
+      "pct": 94.4
     },
     "verification": {
-      "filled": 286,
-      "total": 286,
+      "filled": 410,
+      "total": 410,
       "pct": 100.0
     },
     "inclusion_tier": {
-      "filled": 286,
-      "total": 286,
+      "filled": 410,
+      "total": 410,
       "pct": 100.0
     },
     "methodology_school": {
       "filled": 52,
-      "total": 286,
-      "pct": 18.2
+      "total": 410,
+      "pct": 12.7
     },
     "trajectory": {
       "filled": 52,
-      "total": 286,
-      "pct": 18.2
+      "total": 410,
+      "pct": 12.7
     },
     "output_volume_yearly": {
       "filled": 52,
-      "total": 286,
-      "pct": 18.2
+      "total": 410,
+      "pct": 12.7
     },
     "target_audience": {
       "filled": 52,
-      "total": 286,
-      "pct": 18.2
+      "total": 410,
+      "pct": 12.7
     },
     "quality_signal": {
       "filled": 52,
-      "total": 286,
-      "pct": 18.2
+      "total": 410,
+      "pct": 12.7
     },
     "explicit_relations": {
       "filled": 58,
-      "total": 286,
-      "pct": 20.3
+      "total": 410,
+      "pct": 14.1
     }
   },
   "url_health": {
     "skipped": true
   },
   "duplicates": {
-    "suspected_groups": 1
+    "suspected_groups": 2
   },
   "duplicate_groups": {
+    "– « ﷺ»": [
+      "WEST-173",
+      "NAM-312"
+    ],
     "« ﷺ» –": [
       "WEST-179",
       "WEST-182"
@@ -211,8 +215,8 @@
       {
         "lang": "en",
         "demand_m": 1000,
-        "supply": 196,
-        "m_per_entity": 5.1
+        "supply": 320,
+        "m_per_entity": 3.1
       },
       {
         "lang": "es",
@@ -227,10 +231,10 @@
         "m_per_entity": 2.5
       },
       {
-        "lang": "ar",
-        "demand_m": 420,
-        "supply": 229,
-        "m_per_entity": 1.8
+        "lang": "tr",
+        "demand_m": 80,
+        "supply": 49,
+        "m_per_entity": 1.6
       }
     ],
     "subjects": [
@@ -243,11 +247,11 @@
         "count": 0
       },
       {
-        "subject": "khasais_nabawiyyah",
+        "subject": "tabaqat_companions",
         "count": 1
       },
       {
-        "subject": "tabaqat_companions",
+        "subject": "khasais_nabawiyyah",
         "count": 1
       },
       {
@@ -259,11 +263,11 @@
         "count": 1
       },
       {
-        "subject": "family_household",
+        "subject": "makkah_studies",
         "count": 2
       },
       {
-        "subject": "makkah_studies",
+        "subject": "family_household",
         "count": 2
       },
       {
@@ -303,42 +307,6 @@
         "m_per_entity": 250.0
       },
       {
-        "country": "NE",
-        "demand_m": 22,
-        "supply": 0,
-        "m_per_entity": 220.0
-      },
-      {
-        "country": "TN",
-        "demand_m": 11,
-        "supply": 0,
-        "m_per_entity": 110.0
-      },
-      {
-        "country": "BF",
-        "demand_m": 11,
-        "supply": 0,
-        "m_per_entity": 110.0
-      },
-      {
-        "country": "BD",
-        "demand_m": 153,
-        "supply": 2,
-        "m_per_entity": 76.5
-      },
-      {
-        "country": "DZ",
-        "demand_m": 42,
-        "supply": 1,
-        "m_per_entity": 42.0
-      },
-      {
-        "country": "SD",
-        "demand_m": 40,
-        "supply": 1,
-        "m_per_entity": 40.0
-      },
-      {
         "country": "AF",
         "demand_m": 38,
         "supply": 1,
@@ -357,22 +325,10 @@
         "m_per_entity": 33.3
       },
       {
-        "country": "IN",
-        "demand_m": 200,
-        "supply": 7,
-        "m_per_entity": 28.6
-      },
-      {
-        "country": "EG",
-        "demand_m": 95,
-        "supply": 5,
-        "m_per_entity": 19.0
-      },
-      {
-        "country": "ML",
-        "demand_m": 18,
+        "country": "NE",
+        "demand_m": 22,
         "supply": 1,
-        "m_per_entity": 18.0
+        "m_per_entity": 22.0
       },
       {
         "country": "ID",
@@ -385,11 +341,59 @@
         "demand_m": 16,
         "supply": 1,
         "m_per_entity": 16.0
+      },
+      {
+        "country": "BD",
+        "demand_m": 153,
+        "supply": 11,
+        "m_per_entity": 13.9
+      },
+      {
+        "country": "IN",
+        "demand_m": 200,
+        "supply": 15,
+        "m_per_entity": 13.3
+      },
+      {
+        "country": "BF",
+        "demand_m": 11,
+        "supply": 1,
+        "m_per_entity": 11.0
+      },
+      {
+        "country": "ML",
+        "demand_m": 18,
+        "supply": 2,
+        "m_per_entity": 9.0
+      },
+      {
+        "country": "TZ",
+        "demand_m": 17,
+        "supply": 2,
+        "m_per_entity": 8.5
+      },
+      {
+        "country": "RU",
+        "demand_m": 25,
+        "supply": 3,
+        "m_per_entity": 8.3
+      },
+      {
+        "country": "SD",
+        "demand_m": 40,
+        "supply": 5,
+        "m_per_entity": 8.0
+      },
+      {
+        "country": "PK",
+        "demand_m": 230,
+        "supply": 35,
+        "m_per_entity": 6.6
       }
     ]
   },
   "scores": {
-    "avg": 77.4,
+    "avg": 77.7,
     "median": 80.0,
     "low_quality": [
       {

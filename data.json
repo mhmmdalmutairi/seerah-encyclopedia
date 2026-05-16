@@ -23,7 +23,8 @@
     "08y",
     "08t",
     "09a",
-    "10a"
+    "10a",
+    "10b"
   ],
   "entities": [
     {
@@ -14032,9 +14033,4329 @@
         "https://www.alsirah.com/الـوفـــود/"
       ],
       "evidence_quote": "No standalone center, peer-reviewed journal, or conference series with primary focus on Wufud/Prophetic Diplomacy verified beyond Hamidullah's foundational work and the household-museum exhibits."
+    },
+    {
+      "id": "NAM-299",
+      "round": "10b",
+      "name_ar": "مولانا عبد الرحيم البنغالي",
+      "name_en": "Maulana Abdur Rahim (Sheikh Abdur Rahim, 1859-1933)",
+      "type": "popular_writer",
+      "type_group": "individual_actors",
+      "region": "non_arab_muslim",
+      "country": "BD",
+      "founded": 1887,
+      "description_ar": "يُعدّ أول مؤلّف بنغالي يكتب سيرة شاملة للنبي ﷺ بالبنغالية: «حضرت محمدر جيبنشريت أو دهرمنيتي» (1887) — أساس أدب السيرة في البنغال، نُقّح عدة مرات.",
+      "url": "https://en.banglapedia.org/index.php/Rahim,_Sheikh_Abdur",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "Sheikh Abdur Rahim"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://thefinancialexpress.com.bd/views/opinions/exploring-diverse-biographies-of-prophet"
+      ],
+      "evidence_quote": "The first Muslim biographer of the prophet is believed to be Sheikh Abdur Rahim (1859-1933) of Bengal. The title of his book is Hazrat Mohammader Jibancharita O Dharmaniti (1887)... In Bengali literature, Moulana Abdur Rahim writes the first comprehensive biography of the Prophet."
+    },
+    {
+      "id": "NAM-300",
+      "round": "10b",
+      "name_ar": "مولانا محمد أكرم خان – «مصطفى چريت»",
+      "name_en": "Mohammad Akram Khan – Mostofa Charit (1925)",
+      "type": "key_publication",
+      "type_group": "publishing_knowledge",
+      "region": "non_arab_muslim",
+      "country": "BD",
+      "founded": 1925,
+      "description_ar": "سيرة نبوية بنغالية كلاسيكية ألفها محمد أكرم خان (1868–1968)، مؤسس صحيفة «الآزاد» وعضو هيئة الفكر الإسلامي بباكستان. يعتبر «مصطفى چريت» (1925) معلَمًا أدبيًا للسيرة بالبنغالية.",
+      "url": "https://en.banglapedia.org/index.php/Khan,_Mohammad_Akram",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "Mohammad Akram Khan"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mohammad_Akram_Khan"
+      ],
+      "evidence_quote": "Mostofa Charita (1925) was a biography of the prophet by Moulana Mohammad Akram Khan (1868-1968). Maulana Akram Khan's great literary achievement is 'Mustala Chorito' - the biography of Hazrat Muhammad (Sm), a book praised by literary and religious stalwarts."
+    },
+    {
+      "id": "NAM-301",
+      "round": "10b",
+      "name_ar": "غلام مصطفى – «بشّو نبي» (نبي العالم)",
+      "name_en": "Golam Mostafa – Bishwanabi (1942)",
+      "type": "key_publication",
+      "type_group": "publishing_knowledge",
+      "region": "non_arab_muslim",
+      "country": "BD",
+      "founded": 1942,
+      "description_ar": "سيرة نبوية بلغة بنغالية شعرية رفيعة ألّفها الشاعر غلام مصطفى (1897–1964). من أعلى مرجعيات أدب السيرة البنغالي الحديث.",
+      "url": "https://en.wikipedia.org/wiki/Golam_Mostafa_(poet)",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "Golam Mostafa"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://thefinancialexpress.com.bd/views/opinions/exploring-diverse-biographies-of-prophet"
+      ],
+      "evidence_quote": "Golam Mostafa - Bishwanawbi (The Prophet of the World) - Publication year: 1942 - a poet and Islamic scholar who wrote this biography in lucid poetic language, coupled with detailed descriptions and analysis."
+    },
+    {
+      "id": "NAM-302",
+      "round": "10b",
+      "name_ar": "مولانا محيي الدين خان – مؤسس «الهيئة الوطنية للسيرة» بنغلاديش",
+      "name_en": "Maulana Muhiuddin Khan (1935–2016)",
+      "type": "individual_researcher",
+      "type_group": "individual_actors",
+      "region": "non_arab_muslim",
+      "country": "BD",
+      "founded": 1935,
+      "description_ar": "مؤسس ورئيس «الهيئة الوطنية للسيرة» في بنغلاديش (Jatiya Seerat Committee) ومحرر مجلة «الشهرية المدينة». مؤلف «سيراتُن نبي» و«خصائص الكبرى» وأعمال سيرية أساسية بالبنغالية.",
+      "url": "https://en.wikipedia.org/wiki/Muhiuddin_Khan",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "Muhiuddin Khan"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Maulana_Muhiuddin_Khan"
+      ],
+      "evidence_quote": "Muhiuddin Khan was the founder chairman of the Jatiya Seerat Committee of Bangladesh... He gave the realization that Muhammad can be a separate topic of literature... Sirah works: Biography of Prophet Muhammad's (সীরাতুন নবী), Extra-Ordinary Incidents of Prophet Muhammad's Life (خاسایسول কুবরা)."
+    },
+    {
+      "id": "NAM-303",
+      "round": "10b",
+      "name_ar": "مكتبة البيان – بنغلاديش (سلسلة «سيراتُن نبي» المكوّنة من ٣ مجلدات)",
+      "name_en": "Maktabatul Bayan – Seeratun Nabi 3-Volume Series",
+      "type": "publisher",
+      "type_group": "publishing_knowledge",
+      "region": "non_arab_muslim",
+      "country": "BD",
+      "founded": 2014,
+      "description_ar": "دار نشر بنغالية متخصصة في ترجمة كلاسيكيات السيرة وإصدار سلسلة «سيراتُن نبي ﷺ» في ثلاثة مجلدات. من أبرز ناشري السيرة بالبنغالية اليوم.",
+      "url": "https://maktabatulbayan.com/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://maktabatulbayan.com/publications/"
+      ],
+      "evidence_quote": "Maktabatul Bayan publishes a three-volume series on the biography of Prophet Muhammad (Seeratun Nabi ﷺ): সীরাতুন নবি Vol 1–3."
+    },
+    {
+      "id": "NAM-304",
+      "round": "10b",
+      "name_ar": "مكتبة الحراء – دكا، بنغلاديش",
+      "name_en": "Maktabatul Hera (Dhaka)",
+      "type": "publisher",
+      "type_group": "publishing_knowledge",
+      "region": "non_arab_muslim",
+      "country": "BD",
+      "founded": null,
+      "description_ar": "دار نشر إسلامية بدكا، تصدر عددًا كبيرًا من كتب السيرة النبوية بالبنغالية، وتُعدّ من ناشري السيرة الأنشط في بنغلاديش الراهنة.",
+      "url": "https://maktabatulhera.com/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://www.rokomari.com/book/publisher/3395/maktabatul-hera"
+      ],
+      "evidence_quote": "Maktabatul Hera is a publisher located at 11 Islami Tower (Underground) Shop #3, Banglabazar, Dhaka. The publisher specializes in Islamic books and materials. Listed on Rokomari and Wafilife as a leading Bengali Islamic publisher."
+    },
+    {
+      "id": "NAM-305",
+      "round": "10b",
+      "name_ar": "مركز الدعوة الإسلامية – دكا (مكتبة الكوثر الشهرية)",
+      "name_en": "Markazud Dawah Al-Islamia (Dhaka) – Monthly Al-Kawthar",
+      "type": "research_center",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "BD",
+      "founded": 2005,
+      "description_ar": "مؤسسة أبحاث إسلامية بدكا (تأسست فبراير 2005 بميربور)، ناطقها مجلة «الكوثر الشهرية»، تنشر بانتظام مقالات بحثية في السيرة النبوية بالبنغالية.",
+      "url": "https://www.pbs.com.bd/publisher/3933/markazud-dawah-alislamia",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://en.everybodywiki.com/Monthly_Al_Kawsar"
+      ],
+      "evidence_quote": "Markazud Dawah Al Islamia, Dhaka: higher Islamic research education institution located in Dhaka established in February 2005 in Mirpur... It is the mouthpiece of the publication 'Monthly Al Kawsar'."
+    },
+    {
+      "id": "NAM-306",
+      "round": "10b",
+      "name_ar": "د. ميزانور رحمن الأزهري – قناة يوتيوب الرسمية",
+      "name_en": "Dr. Mizanur Rahman Azhari (YouTube)",
+      "type": "digital_creator",
+      "type_group": "media_audience",
+      "region": "non_arab_muslim",
+      "country": "BD",
+      "founded": 1990,
+      "description_ar": "الواعظ البنغالي الأشهر على يوتيوب؛ خرّيج الأزهر ودكتوراه من الجامعة الإسلامية بماليزيا. سلاسله السيرية بالبنغالية واسعة الانتشار في بنغلاديش.",
+      "url": "https://www.youtube.com/channel/UCxStLx7yb96MGBfIMo20x7Q",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "Mizanur Rahman Azhari"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://www.tbsnews.net/features/panorama/how-religious-preachers-are-taking-hold-youtube-bangladesh-283744"
+      ],
+      "evidence_quote": "Dr Mizanur Rahman Azhari is a prominent Islamic scholar from Bangladesh... extensive Bengali lectures (waz) covering Islamic topics including Quranic exegesis, hadith, and the Prophet Muhammad (Sirah/biography). Studied at Al-Azhar Department of Tafsir and Quranic Sciences."
+    },
+    {
+      "id": "NAM-307",
+      "round": "10b",
+      "name_ar": "علامة سيد سليمان الندوي – مكمّل «سيرت النبي»",
+      "name_en": "Allama Syed Sulaiman Nadvi (1884–1953)",
+      "type": "individual_researcher",
+      "type_group": "individual_actors",
+      "region": "non_arab_muslim",
+      "country": "IN",
+      "founded": 1884,
+      "description_ar": "تلميذ شبلي النعماني وخليفته. أكمل المجلدات الخمسة الأخيرة من «سيرت النبي» وأصدر «خطباتُ مدراس» (محاضرات السيرة)، ويُعدّ ركيزة السيرة الأكاديمية بالأوردية.",
+      "url": "https://en.wikipedia.org/wiki/Sulaiman_Nadvi",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "Syed Sulaiman Nadvi"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Sirat-un-Nabi"
+      ],
+      "evidence_quote": "Sulaiman Nadvi (1884–1953) was a British Indian, and then Pakistani, Islamic scholar... After Nomani's death he edited and published the two volumes of Sirat-un-Nabi penned by Shibli and himself wrote and published the third, fourth, fifth and sixth volumes of this work."
+    },
+    {
+      "id": "NAM-308",
+      "round": "10b",
+      "name_ar": "علامة منظر أحسن الجيلاني – «النبي الخاتم»",
+      "name_en": "Manazir Ahsan Gilani (1892–1956) – Al-Nabi al-Khatim",
+      "type": "individual_researcher",
+      "type_group": "individual_actors",
+      "region": "non_arab_muslim",
+      "country": "IN",
+      "founded": 1892,
+      "description_ar": "خرّيج ديوبند وعميد كلية الإلهيات بجامعة عثمانية حيدر آباد. مؤلف «النبي الخاتم» وأعمال سيرية تأمّلية مؤثرة في الفكر الإسلامي الهندي.",
+      "url": "https://en.wikipedia.org/wiki/Manazir_Ahsan_Gilani",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "Manazir Ahsan Gilani"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://islaminsight.org/pdf-books/an-nabi-al-khatam-english-maulana-syed-manazir-ahsan-gilani/"
+      ],
+      "evidence_quote": "An Nabi al Khatam by Maulana Syed Manazir Ahsan Gilani... Syed Manazir Ahsan Gilani described the whole lifecycle of the Prophet of Islam. He talked about his virtues and character. Mawlana Gilani was Dean of the Faculty of Theology at Osmania University."
+    },
+    {
+      "id": "NAM-309",
+      "round": "10b",
+      "name_ar": "د. صفي الرحمن المباركفوري – صاحب «الرحيق المختوم»",
+      "name_en": "Safi al-Rahman al-Mubarakpuri (1942–2006)",
+      "type": "individual_researcher",
+      "type_group": "individual_actors",
+      "region": "non_arab_muslim",
+      "country": "IN",
+      "founded": 1942,
+      "description_ar": "عالم سيرة هندي من أعظم گره (أوتر برديش). كتابه «الرحيق المختوم» حاز الجائزة الأولى في مسابقة رابطة العالم الإسلامي 1399هـ من بين 171 مخطوطة، وأشهر سيرة عالمية معاصرة.",
+      "url": "https://en.wikipedia.org/wiki/Safi_al-Rahman_al-Mubarakpuri",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "Safi-ur-Rahman al-Mubarakpuri"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://archive.org/details/ar-raheeq-ul-makhtoom-by-safi-mubarakpuri"
+      ],
+      "evidence_quote": "Safiur Rahman Mubarakpuri (6 June 1942 – 1 December 2006) was an Indian Islamic scholar... He is best known for his biography of Muhammad, Ar-Raheeq Al-Makhtum, which won a prize at the 1978 Muslim World League-sponsored Islamic conference on Prophetic biography (seerah) in Mecca."
+    },
+    {
+      "id": "NAM-310",
+      "round": "10b",
+      "name_ar": "مولانا إدريس الكاندهلوي – «سيرت مصطفى»",
+      "name_en": "Idris Kandhlawi (1899–1974) – Seerat-e Mustafa",
+      "type": "individual_researcher",
+      "type_group": "individual_actors",
+      "region": "non_arab_muslim",
+      "country": "IN",
+      "founded": 1899,
+      "description_ar": "عالم سني (ديوباندي) ألّف «سيرت مصطفى» بالأوردية (٤ مجلدات، 1941–1966)، من المراجع الكلاسيكية للسيرة في شبه القارة.",
+      "url": "https://en.wikipedia.org/wiki/Idris_Kandhlawi",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "Idris Kandhlawi"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bibliography_of_Idris_Kandhlawi"
+      ],
+      "evidence_quote": "He also wrote a biography in Urdu of Muhammad, called Seerat-e Mustafa. The initial three volumes were printed in 1941, with the final volume, designed as a supplement, published in Deoband in 1966."
+    },
+    {
+      "id": "NAM-311",
+      "round": "10b",
+      "name_ar": "مولانا وحيد الدين خان – «النبي صانع السلام»",
+      "name_en": "Maulana Wahiduddin Khan (1925–2021)",
+      "type": "popular_writer",
+      "type_group": "individual_actors",
+      "region": "non_arab_muslim",
+      "country": "IN",
+      "founded": 1925,
+      "description_ar": "عالم وداعية هندي مؤسس «مركز السلام والروحانية» بنيودلهي. مؤلف «The Prophet of Peace» (2009) وأعمال سيرية إنكليزية واسعة الانتشار.",
+      "url": "https://en.wikipedia.org/wiki/Wahiduddin_Khan",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "Wahiduddin Khan"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://www.amazon.com/stores/author/B077QD5GQF"
+      ],
+      "evidence_quote": "Maulana Wahiduddin Khan (1925–2021) authored over 200 books... His most significant work related to your query is 'The Prophet of Peace: Teachings of the Prophet Muhammad,' published in 2009. He founded the Centre for Peace and Spirituality in 2001 in New Delhi."
+    },
+    {
+      "id": "NAM-312",
+      "round": "10b",
+      "name_ar": "ثناء الإسنين خان – «٣٦٥ قصة عن النبي محمد ﷺ»",
+      "name_en": "Saniyasnain Khan – 365 Prophet Muhammad Stories",
+      "type": "digital_creator",
+      "type_group": "media_audience",
+      "region": "non_arab_muslim",
+      "country": "IN",
+      "founded": 1996,
+      "description_ar": "مؤسس «Goodword Books» الهندية (1996، نجل وحيد الدين خان) وأبرز مؤلف معاصر للسيرة النبوية للأطفال بالإنجليزية. أعماله مترجمة لأكثر من ٢٠ لغة.",
+      "url": "https://www.goodwordbooks.com/collections/vendors?q=Saniyasnain+Khan",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "Saniyasnain Khan"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://www.amazon.com/Prophet-Muhammad-Stories-Saniyasnain-Khan/dp/B01FZ1GVL0"
+      ],
+      "evidence_quote": "Goodword Books was founded in 1996 by Saniyasnain Khan, son of the renowned Islamic scholar Maulana Wahiduddin Khan... 365 Prophet Muhammad Stories, a richly illustrated collection of 365 great seerah stories... His books have been translated into French, German, Italian, Spanish... Bengali, Urdu, etc."
+    },
+    {
+      "id": "NAM-313",
+      "round": "10b",
+      "name_ar": "إدارة تحقيقات الإمام أحمد رضا الدولية – كراتشي",
+      "name_en": "Idara Tahqeeqat Imam Ahmad Raza International, Karachi",
+      "type": "research_center",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "PK",
+      "founded": null,
+      "description_ar": "مركز بحثي بكراتشي يخدم تراث الإمام أحمد رضا خان البريلوي. أصدر سلسلة «مقالات سيرت طيبة» (1993) وعشرات الإصدارات السيرية بالأوردية.",
+      "url": "https://www.rekhta.org/publishers/idara-e-tahqeeqat-imam-ahmed-raza-karachi/all",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "Sayyid Wajahat Rasul Qadri"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://openlibrary.org/publishers/Idara_Tehqiqat_Imam_Ahmad_Raza_International,_Karachi,_Pakistan"
+      ],
+      "evidence_quote": "Idara Tahqeeqat Imam Ahmad Raza International is a research institute working on the great life and books of scholar Maulana Ahmad Raza Khan (1856-1921)... various essays on Sirah were published under the name Maqalat Sirat-e-Tayyiba in 1993."
+    },
+    {
+      "id": "NAM-314",
+      "round": "10b",
+      "name_ar": "مولانا نعيم الصدّيقي – «محسنُ إنسانيت»",
+      "name_en": "Maulana Naeem Siddiqui (1916–2002) – Muhsin-e-Insaniyat",
+      "type": "individual_researcher",
+      "type_group": "individual_actors",
+      "region": "non_arab_muslim",
+      "country": "PK",
+      "founded": 1916,
+      "description_ar": "عالم وكاتب باكستاني من مؤسسي «الجماعة الإسلامية». مؤلف «محسن إنسانيت» الذي يُعدّ من أبرز كتب السيرة الأدبية بالأوردية في القرن العشرين.",
+      "url": "https://en.wikipedia.org/wiki/Naeem_Siddiqui",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "Naeem Siddiqui"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://archive.org/details/muhsin-e-insaniyat"
+      ],
+      "evidence_quote": "Siddiqui is well-known for his biographical work on Islamic prophet Muhammad, Muhsin-e-Insaniyat, or The Benefactor of Humanity. It describes the lifecycle and Seerat of the Holy Prophet and is a most valuable work on the Seerat of the Holy Prophet in the Urdu language."
+    },
+    {
+      "id": "NAM-315",
+      "round": "10b",
+      "name_ar": "القاضي بير كرم شاه الأزهري – «ضياء النبي»",
+      "name_en": "Justice Pir Muhammad Karam Shah al-Azhari (1918–1998) – Zia un Nabi",
+      "type": "individual_researcher",
+      "type_group": "individual_actors",
+      "region": "non_arab_muslim",
+      "country": "PK",
+      "founded": 1918,
+      "description_ar": "عالم باكستاني وقاضٍ بالمحكمة العليا. مؤلف موسوعة «ضياء النبي» السيرية (1995) في ٧ مجلدات بالأوردية — مرجع رئيس للتيار البريلوي.",
+      "url": "https://archive.org/details/ZiaUnNabi",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "Pir Karam Shah al-Azhari"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://www.mohrasharif.com/index.php/al-qasim-library/biography/seerah/672-zia-un-nabi"
+      ],
+      "evidence_quote": "Justice Peer Muhammad Karam Shah al-Azhari (RA) [1918-1998] - a renowned Islamic scholar, Justice of the Supreme Court of Pakistan and Sufi Saint... well-known and notable for being the author of the book 'Zia un Nabi', a 1995 Urdu biography of Prophet Muhammad."
+    },
+    {
+      "id": "NAM-316",
+      "round": "10b",
+      "name_ar": "مفتي محمد شفيع العثماني – «سيرت خاتم الأنبياء»",
+      "name_en": "Mufti Muhammad Shafi Usmani (1897–1976) – Sirat Khatim al-Anbiya",
+      "type": "key_publication",
+      "type_group": "publishing_knowledge",
+      "region": "non_arab_muslim",
+      "country": "PK",
+      "founded": 1951,
+      "description_ar": "كتاب سيرة موجز ألّفه المفتي محمد شفيع العثماني، مؤسس «دار العلوم كراتشي». طُبع أكثر من ٥٠ طبعة بالأوردية، واعتُمد في مناهج مدارس الهند وباكستان وتُرجم للسندية والغوجاراتية والبنغالية.",
+      "url": "https://en.wikipedia.org/wiki/Mufti_Shafi_Usmani",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "Mufti Muhammad Shafi Usmani"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://archive.org/details/SeeratKhatimUlAmbiyaByMuftiMuhammadShafi"
+      ],
+      "evidence_quote": "Sirat Khatam al-Anbiya is a brief book comprising of the biography of our Messenger... This book was printed in the Urdu language more than fifty times, and some schools have chosen it as part of its religious curriculum in India and Pakistan. Some people translated it into other local languages like Sindhi, Gujarati and Bengali."
+    },
+    {
+      "id": "NAM-317",
+      "round": "10b",
+      "name_ar": "كرسي السيرة – جامعة بهاء الدين زكريا، ملتان",
+      "name_en": "Seerat Chair – Bahauddin Zakariya University (BZU), Multan",
+      "type": "academic_chair",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "PK",
+      "founded": 1982,
+      "description_ar": "كرسي السيرة ضمن قسم الدراسات الإسلامية بجامعة بهاء الدين زكريا (ملتان). يدرس تعاليم النبي ﷺ في سياق العصر ويردّ على الإشكالات بمنهج علمي.",
+      "url": "https://bzu.edu.pk/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "Altaf Hussain Langrial"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://journal.al-qawarir.com/index.php/alqawarir/article/view/613"
+      ],
+      "evidence_quote": "The Seerat Chair at Bahauddin Zakariya University has objectives that include studying and promoting the teachings of the Holy Prophet (pbuh) in the context of contemporary world's needs, and analyzing misconceptions regarding the life and mission of the Holy Prophet (pbuh) with scientific methods."
+    },
+    {
+      "id": "NAM-318",
+      "round": "10b",
+      "name_ar": "قناة «AJ Official» الرسمية لمولانا طارق جميل",
+      "name_en": "AJ Official – Maulana Tariq Jameel",
+      "type": "digital_creator",
+      "type_group": "media_audience",
+      "region": "non_arab_muslim",
+      "country": "PK",
+      "founded": 2014,
+      "description_ar": "أكبر قناة إسلامية باكستانية على يوتيوب (منذ ديسمبر 2014)، تنشر محاضرات مولانا طارق جميل بالأوردية، ومن أبرز سلاسلها «سيرت النبي ﷺ».",
+      "url": "https://www.youtube.com/ajofficialpk",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "Tariq Jameel"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://www.youtube.com/watch?v=kbb7btNBcYc"
+      ],
+      "evidence_quote": "AJ Official is Pakistan's largest Islamic YouTube channel since December 2014, which shares exclusive lectures by Maulana Tariq Jameel. Tariq Jameel's Seerat Un Nabi (sallallahu alaihi wasallam) Bayaan series widely uploaded on the channel."
+    },
+    {
+      "id": "NAM-319",
+      "round": "10b",
+      "name_ar": "تطبيق «سيراتُن نبي ﷺ» (Quran-e-Majeed)",
+      "name_en": "Seerat-un-Nabi ﷺ (Google Play app)",
+      "type": "mobile_app",
+      "type_group": "media_audience",
+      "region": "non_arab_muslim",
+      "country": "PK",
+      "founded": null,
+      "description_ar": "تطبيق محمول باكستاني مخصّص لسيرة النبي ﷺ بالأوردية والإنجليزية، نشره فريق «Quran-e-Majeed app». من أبرز تطبيقات السيرة في شبه القارة.",
+      "url": "https://play.google.com/store/apps/details?id=com.quranemajeedapp.org.seeratunnabi",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://apps.apple.com/us/app/seerat-un-nabi-biography/id1479399092"
+      ],
+      "evidence_quote": "Seerat-un-Nabi ﷺ - Apps on Google Play, comprehensive biography of Prophet Muhammad in two volumes with beautiful UI, customizable Urdu fonts, bookmarks, themes; companion app: Seerat-un-Nabi Biography on Apple App Store."
+    },
+    {
+      "id": "NAM-320",
+      "round": "10b",
+      "name_ar": "مديرية النشر بجامعة نظامية – حيدر آباد",
+      "name_en": "Directorate of Publications, Jamia Nizamia (Hyderabad)",
+      "type": "publisher",
+      "type_group": "publishing_knowledge",
+      "region": "non_arab_muslim",
+      "country": "IN",
+      "founded": 1876,
+      "description_ar": "أعرق مدرسة سنّية في الدكن (تأسست 1876 على يد الإمام أنوار الله الفاروقي). أصدرت مديرية النشر فيها أكثر من ١٠٠ كتاب في الفقه والسيرة بالأوردية والعربية.",
+      "url": "https://www.jamianizamia.org/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "Anwarullah Farooqui"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Jamia_Nizamia"
+      ],
+      "evidence_quote": "The Directorate of Publication at Jamia Nizamia, established by its founder Hazrat Shaykh ul Islam Moulana Hafiz Mohammed Anwaarullah Farooqui, focuses on propagating Islamic teachings through educational literature, having produced over 100 books on topics including fiqh, Sufism, Islamic philosophy, history, and seerah."
+    },
+    {
+      "id": "NAM-321",
+      "round": "10b",
+      "name_ar": "إدارة البحوث الإسلامية – جامعة سلفية ڤاراناسي",
+      "name_en": "Idaratul Buhusul Islamia – Jamia Salafia, Varanasi",
+      "type": "research_center",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "IN",
+      "founded": 1963,
+      "description_ar": "إدارة بحوث «الجامعة السلفية» بڤاراناسي (تأسست 1963 برعاية «جمعية أهل الحديث الهندية»). أكبر مؤسسة سلفية في الهند، أصدرت أكثر من ٤٢١ كتابًا بعضها في السيرة بالأوردية والعربية.",
+      "url": "https://aljamiatussalafiah.org/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://www.rekhta.org/publishers/idaratul-buhusul-islamia-jamia-salfia-varanasi/ebooks"
+      ],
+      "evidence_quote": "Jamia Salafia, Varanasi has Idaratul Buhusul Islamia (Research Department), which has published Urdu books and other publications. The books which have been printed and published have exceeded 421, and some of them go round from one to nine volumes."
+    },
+    {
+      "id": "MAG-055",
+      "round": "10b",
+      "name_ar": "علي محمد محمد الصلابي",
+      "name_en": "Ali Muhammad al-Sallabi",
+      "type": "individual_researcher",
+      "type_group": "individual_actors",
+      "region": "maghreb",
+      "country": "LY",
+      "founded": 1963,
+      "description_ar": "مؤرخ وعالم ليبي من مواليد بنغازي 1963، له موسوعة السيرة النبوية «عرض وقائع وتحليل أحداث» وعشرات المؤلفات في التاريخ الإسلامي وسير الصحابة.",
+      "url": "https://www.alsalabi.com/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "علي محمد الصلابي"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ali_al-Sallabi"
+      ],
+      "evidence_quote": "Ali Muhammad as-Sallabi… biographical works on the Prophet Muhammad and the early Caliphate add up to over 8,000 pages across several volumes (Wikipedia/Goodreads)."
+    },
+    {
+      "id": "MAG-056",
+      "round": "10b",
+      "name_ar": "جمعية الدعوة الإسلامية العالمية",
+      "name_en": "World Islamic Call Society (WICS) – Tripoli",
+      "type": "foundation_waqf",
+      "type_group": "research_education",
+      "region": "maghreb",
+      "country": "LY",
+      "founded": 1972,
+      "description_ar": "هيئة دعوية ليبية في طرابلس أُسست 1972، تنشر كتباً ومسابقات في السيرة النبوية ولها كلية الدعوة الإسلامية وفروع دولية.",
+      "url": "https://wicsociety.ly/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [],
+      "verification": "needs_verification",
+      "inclusion_tier": "borderline",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://almoqtabas.com/ar/publications?publisher=%D8%AC%D9%85%D8%B9%D9%8A%D8%A9+%D8%A7%D9%84%D8%AF%D8%B9%D9%88%D8%A9+%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%D8%A9+%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85%D9%8A%D8%A9-%D8%B7%D8%B1%D8%A7%D8%A8%D9%84%D8%B3"
+      ],
+      "evidence_quote": "نظمت الجمعية مسابقة السيرة النبوية الشريفة مع مجلس المنظمات والجامعات الإسلامية 1980م (ويكيبيديا، wicsociety.ly)."
+    },
+    {
+      "id": "MAG-057",
+      "round": "10b",
+      "name_ar": "الجامعة الأسمرية الإسلامية – زليتن",
+      "name_en": "Al-Asmarya Islamic University – Zliten",
+      "type": "university_center",
+      "type_group": "research_education",
+      "region": "maghreb",
+      "country": "LY",
+      "founded": 1995,
+      "description_ar": "جامعة إسلامية ليبية في زليتن أُسست 1995، أصلها الزاوية الأسمرية الصوفية، تدرّس السيرة النبوية ضمن كلية الشريعة وتصدر مجلة أصول الدين.",
+      "url": "https://asmarya.edu.ly/ar/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://journals.asmarya.edu.ly/jod/index.php/jod/article/download/26/26"
+      ],
+      "evidence_quote": "أوقاف الزاوية الأسمرية ودورها في الحياة العلمية بمدينة زليتن… والجامعة تتبنى تدريس علوم الشريعة والسيرة (الموقع الرسمي)."
+    },
+    {
+      "id": "MAG-058",
+      "round": "10b",
+      "name_ar": "جامعة الأمير عبد القادر للعلوم الإسلامية – قسنطينة (مخبر الدراسات القرآنية والسنة النبوية)",
+      "name_en": "Université Émir Abdelkader des Sciences Islamiques – Laboratory of Qur'anic & Prophetic Sunnah Studies",
+      "type": "research_center",
+      "type_group": "research_education",
+      "region": "maghreb",
+      "country": "DZ",
+      "founded": 1984,
+      "description_ar": "مخبر بحثي تابع لجامعة الأمير عبد القادر بقسنطينة، أنشئ ضمن الجامعة (1984)، يعنى بالدراسات القرآنية والسنة والسيرة النبوية وينظم ملتقيات سنوية حولها.",
+      "url": "https://www.univ-emir-constantine.edu.dz/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [],
+      "verification": "needs_verification",
+      "inclusion_tier": "borderline",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://www.univ-emir-constantine.edu.dz/download/semin-oussoul/madraset-imamboukhari/dibaja-moltaka-boukhari.pdf"
+      ],
+      "evidence_quote": "مخبر البحث في الدراسات القرآنية والسنة النبوية… ملتقى إسهامات علماء الجزائر في كتابة السيرة النبوية (الموقع الرسمي للجامعة)."
+    },
+    {
+      "id": "MAG-059",
+      "round": "10b",
+      "name_ar": "المجلس الإسلامي الأعلى الجزائري",
+      "name_en": "Algerian High Islamic Council (HCI)",
+      "type": "ministry_program",
+      "type_group": "institutional_infra",
+      "region": "maghreb",
+      "country": "DZ",
+      "founded": 1996,
+      "description_ar": "هيئة استشارية رسمية لدى رئاسة الجمهورية الجزائرية، أصدرت كتباً ومجلات في الدراسات الإسلامية بينها «في رحاب السيرة النبوية المشرفة» وكراسات السيرة.",
+      "url": "https://www.elmadjlis-hci.dz/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [],
+      "verification": "needs_verification",
+      "inclusion_tier": "borderline",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://dakhaer.islamanar.com/wp-content/uploads/2022/03/%D9%81%D9%8A-%D8%B1%D8%AD%D8%A7%D8%A8-%D8%A7%D9%84%D8%B3%D9%8A%D8%B1%D8%A9-%D8%A7%D9%84%D9%86%D8%A8%D9%88%D9%8A%D8%A9.pdf"
+      ],
+      "evidence_quote": "إصدارات المجلس… كتاب «في رحاب السيرة النبوية المشرفة» (elmadjlis-hci.dz)."
+    },
+    {
+      "id": "MAG-060",
+      "round": "10b",
+      "name_ar": "الخلافة العامة للطريقة التجانية – عين ماضي",
+      "name_en": "General Khilafa of the Tijaniyya Order – Aïn Madhi",
+      "type": "mosque_program",
+      "type_group": "museums_culture",
+      "region": "maghreb",
+      "country": "DZ",
+      "founded": 1737,
+      "description_ar": "المقر الأم للطريقة التجانية ومسقط رأس مؤسسها أحمد التجاني (1737)، تنظم ملتقى دولياً سنوياً عن «سيرة الحبيب المصطفى» ضمن احتفالية المولد النبوي.",
+      "url": "https://tidjaniya.com/ar/%D9%82%D8%B1%D9%8A%D8%A9-%D8%B9%D9%8A%D9%86-%D9%85%D8%A7%D8%B6%D9%8A-%D8%A7%D9%84%D8%AC%D8%B2%D8%A7%D8%A6%D8%B1/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "أحمد التجاني"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://tidjaniya.com/ar/%D9%82%D8%B1%D9%8A%D8%A9-%D8%B9%D9%8A%D9%86-%D9%85%D8%A7%D8%B6%D9%8A-%D8%A7%D9%84%D8%AC%D8%B2%D8%A7%D8%A6%D8%B1/"
+      ],
+      "evidence_quote": "ملتقى دولي «سيرة الحبيب المصطفى في عرفانيات القطب المكتوم سيدي أحمد التيجاني» (tidjaniya.com)."
+    },
+    {
+      "id": "MAG-061",
+      "round": "10b",
+      "name_ar": "الطريقة العلاوية الدرقاوية الشاذلية – مستغانم",
+      "name_en": "Tariqa Alawiyya Darqawiyya Shadhiliyya – Mostaganem",
+      "type": "mosque_program",
+      "type_group": "museums_culture",
+      "region": "maghreb",
+      "country": "DZ",
+      "founded": 1914,
+      "description_ar": "زاوية صوفية أسسها أحمد بن مصطفى العلاوي بمستغانم سنة 1914، تواظب على إحياء المولد النبوي ودرس السيرة في حلقاتها الأسبوعية ولها امتدادات في فرنسا والمغرب.",
+      "url": "https://www.assoalawimaroc.com/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "أحمد بن مصطفى العلاوي",
+        "خالد بن تونس"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://www.assoalawimaroc.com/?p=4620"
+      ],
+      "evidence_quote": "الزاوية العلاوية… تحتفل بعيد المولد النبوي الشريف… والورد مستوحى من كتاب الله وسنة رسوله (assoalawimaroc.com)."
+    },
+    {
+      "id": "MAG-062",
+      "round": "10b",
+      "name_ar": "محمد الصالح الصديق",
+      "name_en": "Mohammed Salah al-Sadiq",
+      "type": "individual_researcher",
+      "type_group": "individual_actors",
+      "region": "maghreb",
+      "country": "DZ",
+      "founded": 1925,
+      "description_ar": "عالم ومؤرخ جزائري من تيزي وزو (1925-2018)، صاحب أعمال كاملة في السنة النبوية والفكر الإسلامي والقرآن، له مؤلفات عديدة عن السيرة والشمائل.",
+      "url": "https://shamela-dz.net/?tag=%D9%85%D8%AD%D9%85%D8%AF-%D8%A7%D9%84%D8%B5%D8%A7%D9%84%D8%AD-%D8%A7%D9%84%D8%B5%D8%AF%D9%8A%D9%82",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "محمد الصالح الصديق"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://ar.wikipedia.org/wiki/%D9%85%D8%AD%D9%85%D8%AF_%D8%B5%D8%A7%D9%84%D8%AD_%D8%A7%D9%84%D8%B5%D8%AF%D9%8A%D9%82"
+      ],
+      "evidence_quote": "له أعمال كاملة في مجالات: السنة النبوية، الأدب والثقافة، الفكر الإسلامي، القرآن (المكتبة الجزائرية الشاملة)."
+    },
+    {
+      "id": "MAG-063",
+      "round": "10b",
+      "name_ar": "دار الإمام مالك للحديث النبوي – الوادي",
+      "name_en": "Dar al-Imam Malik for the Prophetic Hadith – El Oued",
+      "type": "islamic_center",
+      "type_group": "museums_culture",
+      "region": "maghreb",
+      "country": "DZ",
+      "founded": 2024,
+      "description_ar": "مشروع أول من نوعه بالجزائر في مدينة الوادي يخصص لحفظ ودراسة كتب السنة الستة والسيرة النبوية ضمن منهج محظري ممتد ثلاث سنوات.",
+      "url": "https://www.altahrironline.com/ara/articles/271789",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [],
+      "verification": "needs_verification",
+      "inclusion_tier": "borderline",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://www.altahrironline.com/ara/articles/271789"
+      ],
+      "evidence_quote": "المشروع الأول من نوعه في الجزائر… دار الإمام مالك للحديث النبوي بالوادي… تحفيظ كتب السنة النبوية الستة (altahrironline.com)."
+    },
+    {
+      "id": "MAG-064",
+      "round": "10b",
+      "name_ar": "إذاعة القرآن الكريم الجزائرية – برنامج «في ظلال السيرة»",
+      "name_en": "Algerian Holy Quran Radio – «Fi Zilal al-Sira» program",
+      "type": "podcast_institutional",
+      "type_group": "media_audience",
+      "region": "maghreb",
+      "country": "DZ",
+      "founded": 1991,
+      "description_ar": "إذاعة جزائرية رسمية متخصصة في القرآن الكريم، تبث برنامج «في ظلال السيرة» وحلقات السيرة النبوية ضمن برنامج «اللهم بك أصبحنا».",
+      "url": "https://my.radioalgerie.dz/ar/coran",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://alfiqh.net/%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D8%AC-%D9%81%D9%8A-%D8%B8%D9%84%D8%A7%D9%84-%D8%A7%D9%84%D8%B3%D9%8A%D8%B1%D8%A9-%D8%AD%D9%85%D8%AF-%D8%A7%D9%84%D8%AF%D8%B1%D9%8A%D9%87%D9%85/"
+      ],
+      "evidence_quote": "حلقات (في ظلال السيرة) التي تقدم في برنامج (اللهم بك أصبحنا) في إذاعة القرآن الكريم (alfiqh.net)."
+    },
+    {
+      "id": "MAG-065",
+      "round": "10b",
+      "name_ar": "المعهد العالي للحضارة الإسلامية – تونس (جامعة الزيتونة)",
+      "name_en": "Institut Supérieur de Civilisation Islamique – Tunis (Zitouna University)",
+      "type": "university_department",
+      "type_group": "research_education",
+      "region": "maghreb",
+      "country": "TN",
+      "founded": 1990,
+      "description_ar": "مؤسسة تعليم عال تابعة لجامعة الزيتونة في تونس، تدرّس السيرة النبوية ضمن أقسام القرآن والحديث والحضارة الإسلامية، وتمنح ماجستير ودكتوراه.",
+      "url": "https://isci.rnu.tn/fr",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [],
+      "verification": "needs_verification",
+      "inclusion_tier": "borderline",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://uz.rnu.tn/ar/article/659/almaahd-alaaaly-llhdar-alaslamy-btons"
+      ],
+      "evidence_quote": "Coran et Hadith / Civilisation islamique… يدرّس السيرة النبوية ضمن منظومة جامعة الزيتونة (isci.rnu.tn)."
+    },
+    {
+      "id": "MAG-066",
+      "round": "10b",
+      "name_ar": "مشيخة جامع الزيتونة المعمور",
+      "name_en": "Mashyakhat Jami' al-Zaytuna",
+      "type": "mosque_program",
+      "type_group": "museums_culture",
+      "region": "maghreb",
+      "country": "TN",
+      "founded": 737,
+      "description_ar": "إدارة التعليم الزيتوني التقليدي بجامع الزيتونة في تونس، تدرّس السيرة النبوية والسنة والفقه المالكي والعقيدة الأشعرية ضمن منهجها الرسمي.",
+      "url": "https://zaytouna.tn/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://islamentunisie.com/?p=17093"
+      ],
+      "evidence_quote": "السيرة النبوية من المواد التي يتم تدريسها في التعليم الزيتوني (tunisien.tn، islamentunisie.com)."
+    },
+    {
+      "id": "MAG-067",
+      "round": "10b",
+      "name_ar": "الدار المالكية للطباعة والنشر – تونس",
+      "name_en": "Dar al-Malikiya for Printing & Publishing – Tunis",
+      "type": "publisher",
+      "type_group": "publishing_knowledge",
+      "region": "maghreb",
+      "country": "TN",
+      "founded": 2011,
+      "description_ar": "دار نشر تونسية أُسست 2011 ببَاب سويقة بتونس، متخصصة في نشر التراث المالكي والزيتوني وكتب السيرة النبوية والشمائل المحمدية.",
+      "url": "https://daralmalikiya.com/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [],
+      "verification": "needs_verification",
+      "inclusion_tier": "borderline",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://daralmalikiya.com/tunisian-books"
+      ],
+      "evidence_quote": "تعنى بطباعة ونشر الكتب التراثية والدراسات الإسلامية… ونشر التراث المالكي والزيتوني (daralmalikiya.com)."
+    },
+    {
+      "id": "MAG-068",
+      "round": "10b",
+      "name_ar": "محمد المختار ولد اباه",
+      "name_en": "Mohamed El Moktar Ould Bah",
+      "type": "individual_researcher",
+      "type_group": "individual_actors",
+      "region": "maghreb",
+      "country": "MR",
+      "founded": 1924,
+      "description_ar": "أكاديمي ومفكر موريتاني فرنكوفوني (1924-2023)، دكتوراه من السوربون، له «في موكب السيرة النبوية» وترجم القرآن إلى الفرنسية وأسس جامعة شنقيط العصرية.",
+      "url": "https://fm6oa.org/revue/article/%D8%A7%D9%84%D8%B4%D9%8A%D8%AE-%D9%85%D8%AD%D9%85%D8%AF-%D8%A7%D9%84%D9%85%D8%AE%D8%AA%D8%A7%D8%B1-%D9%88%D9%84%D8%AF-%D8%A7%D8%A8%D8%A7%D9%87-%D8%B1%D8%AD%D9%85%D9%87-%D8%A7%D9%84%D9%84%D9%87/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "محمد المختار ولد اباه"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://www.aljazeera.net/encyclopedia/2023/2/21/%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85-%D9%88%D8%A7%D9%84%D8%B4%D8%A7%D8%B9%D8%B1-%D9%88%D8%A7%D9%84%D9%85%D8%A4%D9%84%D9%81-%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A-%D8%A7%D9%84%D8%A5%D9%85%D8%A7%D9%85"
+      ],
+      "evidence_quote": "من أبرز مؤلفاته كتاب في السيرة النبوية تحت عنوان «في موكب السيرة النبوية» (الجزيرة، إسلام أون لاين)."
+    },
+    {
+      "id": "MAG-069",
+      "round": "10b",
+      "name_ar": "محظرة النباغية",
+      "name_en": "Mahdara al-Nabaghiya",
+      "type": "islamic_center",
+      "type_group": "museums_culture",
+      "region": "maghreb",
+      "country": "MR",
+      "founded": 1975,
+      "description_ar": "محظرة شنقيطية أُسست منتصف السبعينات بقرية النباغية بولاية اترارزة جنوب موريتانيا، تدرّس السيرة النبوية ضمن المتون الأساسية ومنها «نظم غزوات البدوي».",
+      "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%AD%D8%B8%D8%B1%D8%A9_%D8%A7%D9%84%D9%86%D8%A8%D8%A7%D8%BA%D9%8A%D8%A9",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "محمد سالم ولد عدود",
+        "أباه ولد عبد الله"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://www.aljazeera.net/culture/2025/10/17/%D9%86%D8%B8%D9%85-%D8%A7%D9%84%D8%BA%D8%B2%D9%88%D8%A7%D8%AA-%D9%84%D9%84%D8%A8%D8%AF%D9%88%D9%8A-%D9%88%D8%AB%D9%86%D8%A7%D8%A6%D9%8A%D8%A9-%D8%A7%D9%84%D8%A5%D8%A8%D8%AF%D8%A7%D8%B9"
+      ],
+      "evidence_quote": "يدرس في محظرة النباغية النحو والفقه والمنطق والأصول والسيرة النبوية والشعر (ويكيبيديا، الجزيرة)."
+    },
+    {
+      "id": "MAG-070",
+      "round": "10b",
+      "name_ar": "محظرة آل الشيخ سيديا – بوتلميت",
+      "name_en": "Mahdara of the Sheikh Sidiyya Family – Boutilimit",
+      "type": "islamic_center",
+      "type_group": "museums_culture",
+      "region": "maghreb",
+      "country": "MR",
+      "founded": 1828,
+      "description_ar": "محظرة قادرية مؤثرة أسسها الشيخ سيديا الكبير في بوتلميت 1828، تدرّس السيرة والفقه والتصوف وتعد مدرسة الإصلاح الموريتاني الكبرى.",
+      "url": "https://alhadath.media/?p=5105",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "الشيخ سيديا الكبير",
+        "باب ولد الشيخ سيديا"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://alhadath.media/?p=5105"
+      ],
+      "evidence_quote": "أسس الشيخ سيديا الكبير زاويته في بوتلميت سنة 1828… مدرسة الإصلاح والأدب والتأسيس الفكري للدولة (alhadath.media)."
+    },
+    {
+      "id": "NAM-322",
+      "round": "10b",
+      "name_ar": "المجلس الأعلى للأئمة والمساجد والشؤون الإسلامية بكوت ديفوار (كوسيم)",
+      "name_en": "Conseil Supérieur des Imams, des Mosquées et des Affaires Islamiques (COSIM)",
+      "type": "foundation_waqf",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "CI",
+      "founded": 1995,
+      "description_ar": "أعلى هيئة دينية سنية في كوت ديفوار، تنظم احتفالات المولد النبوي السنوية القُطرية وتختار شعاراً سنوياً مستلهماً من قيم السيرة النبوية.",
+      "url": "https://www.aip.ci/242252/cote-divoire-aip-la-celebration-du-mawlid-prevue-dans-la-nuit-du-3-au-4-septembre-2025-cosim/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "الشيخ آيمة عثمان دياكيتي"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://news.abidjan.net/articles/744208/cote-divoire-le-cosim-annonce-la-celebration-du-mawlid-dans-la-nuit-du-3-au-4-septembre-2025"
+      ],
+      "evidence_quote": "COSIM choisit chaque année un thème inspiré des valeurs du Prophète Muhammad… célébration nationale du Mawlid (Abidjan.net, AIP)."
+    },
+    {
+      "id": "NAM-323",
+      "round": "10b",
+      "name_ar": "جمعية أنصار الدين – باماكو",
+      "name_en": "Association Ançar Dine – Bamako",
+      "type": "foundation_waqf",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "ML",
+      "founded": 1991,
+      "description_ar": "جمعية إسلامية مالية أسسها الشيخ شريف عثمان مدني هيدارا 1991، يتمحور خطابها حول تعظيم النبي وآل البيت ولها امتدادات في كوت ديفوار وبوركينا فاسو.",
+      "url": "http://www.abamako.com/qui/profil.asp?id=184",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "شريف عثمان مدني هيدارا"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://brill.com/edcollchap-oa/book/9789004522626/BP000026.xml?language=en"
+      ],
+      "evidence_quote": "Chérif Ousmane Madani Haïdara on the Obligation to Venerate the Prophet and His Family in Contemporary Mali (Brill, Jeune Afrique)."
+    },
+    {
+      "id": "NAM-324",
+      "round": "10b",
+      "name_ar": "الجامعة الإسلامية بالنيجر – ساي",
+      "name_en": "Université Islamique du Niger – Say",
+      "type": "university_center",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "NE",
+      "founded": 1986,
+      "description_ar": "جامعة منظمة التعاون الإسلامي بمدينة ساي جنوب غرب النيجر، أُسست 1974 وافتُتحت 1986، تدرّس السيرة النبوية ضمن كلية الشريعة وكلية اللغة العربية.",
+      "url": "https://www.uin-ne.org/en/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [],
+      "verification": "needs_verification",
+      "inclusion_tier": "borderline",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Universit%C3%A9_islamique_de_Say"
+      ],
+      "evidence_quote": "The Islamic University of Say was created in 1974… Faculty of Sharia and Law, Faculty of Arabic Language (Wikipedia, uin-ne.org)."
+    },
+    {
+      "id": "NAM-325",
+      "round": "10b",
+      "name_ar": "الإمام شيخ أبو بكر دوكوري – واغادوغو",
+      "name_en": "Cheikh Aboubacar Doukouré – Ouagadougou",
+      "type": "individual_researcher",
+      "type_group": "individual_actors",
+      "region": "non_arab_muslim",
+      "country": "BF",
+      "founded": 1950,
+      "description_ar": "مرشد ديني بوركينابي ورئيس المجلس التنفيذي لإيسيسكو سابقاً، يقود احتفالات المولد النبوي الكبرى في واغادوغو ويلقي خطباً سنوية في السيرة.",
+      "url": "https://www.sidwaya.info/maouloud-a-ouagadougou-dr-aboubacar-doukoure-preche-la-coexistence-pacifique/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "أبو بكر دوكوري"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://islam.domains.uflib.ufl.edu/s/bf-fr/item/5895"
+      ],
+      "evidence_quote": "Maouloud à Ouagadougou : Dr Aboubacar Doukouré prêche la coexistence pacifique… (Sidwaya, Collection Islam Burkina Faso)."
+    },
+    {
+      "id": "LEV-054",
+      "round": "10b",
+      "name_ar": "السيرة النبوية الشريفة - بوابة وزارة الأوقاف المصرية",
+      "name_en": "Egyptian Ministry of Awqaf - Noble Prophetic Biography Portal",
+      "type": "ministry_program",
+      "type_group": "institutional_infra",
+      "region": "levant_iraq_nile",
+      "country": "EG",
+      "founded": 2018,
+      "description_ar": "بوابة رسمية لوزارة الأوقاف المصرية مخصصة بالكامل لمحتوى السيرة النبوية الشريفة، تضم مقالات ومحاضرات وأحداث السيرة من القرآن والسنة.",
+      "url": "https://awkafonline.gov.eg/content-sections/120/%D8%A7%D9%84%D8%B3%D9%8A%D8%B1%D8%A9-%D8%A7%D9%84%D9%86%D8%A8%D9%88%D9%8A%D8%A9-%D8%A7%D9%84%D8%B4%D8%B1%D9%8A%D9%81%D8%A9",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "أسامة الأزهري",
+        "محمد مختار جمعة"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://awkafonline.gov.eg/content-sections/120/%D8%A7%D9%84%D8%B3%D9%8A%D8%B1%D8%A9-%D8%A7%D9%84%D9%86%D8%A8%D9%88%D9%8A%D8%A9-%D8%A7%D9%84%D8%B4%D8%B1%D9%8A%D9%81%D8%A9"
+      ],
+      "evidence_quote": "السيرة النبوية الشريفة - قسم مستقل ضمن المنصة الرسمية لوزارة الأوقاف"
+    },
+    {
+      "id": "LEV-055",
+      "round": "10b",
+      "name_ar": "لجنة السنة والسيرة - المجلس الأعلى للشؤون الإسلامية المصري",
+      "name_en": "Sunnah & Sirah Committee, Supreme Council for Islamic Affairs (Egypt)",
+      "type": "ministry_program",
+      "type_group": "institutional_infra",
+      "region": "levant_iraq_nile",
+      "country": "EG",
+      "founded": 1960,
+      "description_ar": "لجنة متخصصة بالمجلس الأعلى للشؤون الإسلامية تُعدّ «الموسوعة المصرية في خدمة السنة النبوية» وتنظم المؤتمرات والإصدارات في السيرة والسنة.",
+      "url": "http://islamic-council.net/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "محمد مختار جمعة"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://www.maspero.eg/egypt/2024/05/20/779732/"
+      ],
+      "evidence_quote": "لجنة السنة والسيرة بالشئون الإسلامية: إعداد الموسوعة المصرية في خدمة السنة النبوية"
+    },
+    {
+      "id": "LEV-056",
+      "round": "10b",
+      "name_ar": "لجنة بحوث السنة النبوية - مجمع البحوث الإسلامية بالأزهر",
+      "name_en": "Sunnah Research Committee, Islamic Research Academy (Al-Azhar)",
+      "type": "research_center",
+      "type_group": "research_education",
+      "region": "levant_iraq_nile",
+      "country": "EG",
+      "founded": 1961,
+      "description_ar": "لجنة دائمة ضمن مجمع البحوث الإسلامية بالأزهر متخصصة في بحوث السنة النبوية والسيرة، تصدر مجلة الأزهر وقسمها الخاص بدراسات السنة النبوية.",
+      "url": "https://azhar.eg/magmaa",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "شيخ الأزهر أحمد الطيب"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://ar.wikipedia.org/wiki/%D9%85%D8%AC%D9%85%D8%B9_%D8%A7%D9%84%D8%A8%D8%AD%D9%88%D8%AB_%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%D8%A9_%D8%A8%D8%A7%D9%84%D8%A3%D8%B2%D9%87%D8%B1"
+      ],
+      "evidence_quote": "مجلس مجمع البحوث الإسلامية يتضمن لجاناً أساسية متخصصة... من بينها لجنة بحوث السنة النبوية الشريفة"
+    },
+    {
+      "id": "LEV-057",
+      "round": "10b",
+      "name_ar": "مكتبة وهبة للطبع والنشر والتوزيع",
+      "name_en": "Maktabat Wahba Publishing House",
+      "type": "publisher",
+      "type_group": "publishing_knowledge",
+      "region": "levant_iraq_nile",
+      "country": "EG",
+      "founded": 1950,
+      "description_ar": "دار نشر قاهرية عريقة تنشر أمهات كتب السيرة، أبرزها كتاب «السيرة النبوية دروس وعبر» لمصطفى السباعي و«فقه السيرة» لمحمد الغزالي.",
+      "url": "https://www.facebook.com/p/%D9%85%D9%83%D8%AA%D8%A8%D8%A9-%D9%88%D9%87%D8%A8%D8%A9-%D9%84%D9%84%D8%B7%D8%A8%D8%B9-%D9%88%D8%A7%D9%84%D9%86%D8%B4%D8%B1-%D9%88%D8%A7%D9%84%D8%AA%D9%88%D8%B2%D9%8A%D8%B9-100063718366891/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://altibrah.ae/publisher/%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9-%D9%85%D9%83%D8%AA%D8%A8%D8%A9-%D9%88%D9%87%D8%A8%D8%A9"
+      ],
+      "evidence_quote": "نشر كتاب «السيرة النبوية دروس وعبر» لمصطفى السباعي و«فقه السيرة» لمحمد الغزالي"
+    },
+    {
+      "id": "LEV-058",
+      "round": "10b",
+      "name_ar": "دار الدعوة للطبع والنشر والتوزيع - الإسكندرية",
+      "name_en": "Dar al-Da'wa Publishing House (Alexandria)",
+      "type": "publisher",
+      "type_group": "publishing_knowledge",
+      "region": "levant_iraq_nile",
+      "country": "EG",
+      "founded": 1978,
+      "description_ar": "دار نشر إسلامية بالإسكندرية تنشر سلاسل في السيرة النبوية والغزوات وتراث الدعوة الإسلامية، تأسست على يد محمود شكري ومحمد عبد الحكيم خيال.",
+      "url": "https://alfagrbookstore.com/publishers/NGO5QT2QKS/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "محمود شكري"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://aotalecso.org/publishers/%D8%AF%D8%A7%D8%B1%20%D8%A7%D9%84%D8%AF%D8%B9%D9%88%D8%A9%20%D9%84%D9%84%D8%B7%D8%A8%D8%B9%20%D9%88%20%D8%A7%D9%84%D9%86%D8%B4%D8%B1%20%D9%88%20%D8%A7%D9%84%D8%AA%D9%88%D8%B2%D9%8A%D8%B9%20(%D9%85%D8%B5%D8%B1)?publisher_id=238785"
+      ],
+      "evidence_quote": "من أبرز إصداراتهم كتب السيرة النبوية وكتب عن الغزوات وحوار الرسول"
+    },
+    {
+      "id": "LEV-059",
+      "round": "10b",
+      "name_ar": "مركز المخطوطات بمكتبة الإسكندرية",
+      "name_en": "Manuscripts Center, Bibliotheca Alexandrina",
+      "type": "library_archive",
+      "type_group": "publishing_knowledge",
+      "region": "levant_iraq_nile",
+      "country": "EG",
+      "founded": 2002,
+      "description_ar": "مركز متخصص بمكتبة الإسكندرية لفهرسة وتحقيق المخطوطات العربية الإسلامية، يضم مخطوطات نادرة في السيرة النبوية ضمن قاعدة بياناته للباحثين.",
+      "url": "http://www.bibalex.org/ar/center/details/manuscriptscenter",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [],
+      "verification": "needs_verification",
+      "inclusion_tier": "borderline",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://www.bibalex.org/Manuscriptscenter/ar/Manuscript/ListManuscript.aspx?ManCat=2"
+      ],
+      "evidence_quote": "مركز المخطوطات هو أحد مراكز قطاع التواصل الثقافي بمكتبة الإسكندرية... فهرسةً وتحقيقًا ودراسةً للتراث العربي والإسلامي المخطوط"
+    },
+    {
+      "id": "LEV-060",
+      "round": "10b",
+      "name_ar": "محمد الغزالي السقا",
+      "name_en": "Muhammad al-Ghazali al-Saqqa",
+      "type": "individual_researcher",
+      "type_group": "individual_actors",
+      "region": "levant_iraq_nile",
+      "country": "EG",
+      "founded": 1917,
+      "description_ar": "عالم أزهري مصري (1917-1996)، صاحب «فقه السيرة» و«من معالم الحق» و«ركائز الإيمان»، من أعمق المعالجات الأدبية للسيرة في القرن العشرين.",
+      "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%AD%D9%85%D8%AF_%D8%A7%D9%84%D8%BA%D8%B2%D8%A7%D9%84%D9%8A_%D8%A7%D9%84%D8%B3%D9%82%D8%A7",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://ar.wikipedia.org/wiki/%D9%81%D9%82%D9%87_%D8%A7%D9%84%D8%B3%D9%8A%D8%B1%D8%A9_(%D8%A7%D9%84%D8%BA%D8%B2%D8%A7%D9%84%D9%8A)"
+      ],
+      "evidence_quote": "«فقه السيرة» يعتبر من أشهر الكتب الحديثة في السيرة النبوية... تأليف محمد الغزالي السقا"
+    },
+    {
+      "id": "LEV-061",
+      "round": "10b",
+      "name_ar": "محمد حسين هيكل",
+      "name_en": "Muhammad Husayn Haykal",
+      "type": "reference_thinker",
+      "type_group": "individual_actors",
+      "region": "levant_iraq_nile",
+      "country": "EG",
+      "founded": 1888,
+      "description_ar": "مفكر وأديب مصري (1888-1956)، صاحب كتاب «حياة محمد» (1935) الذي يعد أول سيرة نبوية حديثة بمنهج تاريخي علمي عربي، رد فيه على المستشرقين.",
+      "url": "https://www.hindawi.org/contributors/73037206/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://www.hindawi.org/books/20604026/"
+      ],
+      "evidence_quote": "كتاب «حياة محمد»... من أبرز الكتب التي كُتبت في العصر الحديث حول شخصية النبي محمد بأسلوب علمي راقٍ"
+    },
+    {
+      "id": "LEV-062",
+      "round": "10b",
+      "name_ar": "أحمد شلبي",
+      "name_en": "Ahmad Shalabi",
+      "type": "individual_researcher",
+      "type_group": "individual_actors",
+      "region": "levant_iraq_nile",
+      "country": "EG",
+      "founded": 1915,
+      "description_ar": "مؤرخ مصري (1915-2000)، أستاذ ورئيس قسم التاريخ الإسلامي بدار العلوم جامعة القاهرة، صاحب موسوعة التاريخ الإسلامي (10 أجزاء) التي تبدأ بالسيرة النبوية.",
+      "url": "https://ar.wikipedia.org/wiki/%D8%A3%D8%AD%D9%85%D8%AF_%D8%B4%D9%84%D8%A8%D9%8A",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://www.aljazeera.net/blogs/2020/6/29/%D8%A7%D9%84%D8%AF%D9%83%D8%AA%D9%88%D8%B1-%D8%A3%D8%AD%D9%85%D8%AF-%D8%B4%D9%84%D8%A8%D9%8A-%D8%A7%D9%84%D8%B0%D9%8A-%D8%A3%D8%B3%D8%B3-%D9%85%D8%AF%D8%B1%D8%B3%D8%A9"
+      ],
+      "evidence_quote": "موسوعة التاريخ الإسلامي (10 أجزاء)... المكتبة الإسلامية لكل الأعمار (100 جزء من السير والتاريخ)"
+    },
+    {
+      "id": "LEV-063",
+      "round": "10b",
+      "name_ar": "مصطفى العدوي",
+      "name_en": "Mustafa al-'Adawi",
+      "type": "individual_researcher",
+      "type_group": "individual_actors",
+      "region": "levant_iraq_nile",
+      "country": "EG",
+      "founded": 1955,
+      "description_ar": "عالم حديث وداعية مصري (مواليد 1959)، له «سلسلة السيرة النبوية» الصوتية والمكتوبة في عشرات الحلقات تغطي المولد والبعثة والمغازي والفتوحات.",
+      "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B5%D8%B7%D9%81%D9%89_%D8%A7%D9%84%D8%B9%D8%AF%D9%88%D9%8A",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://archive.org/details/islami-1475"
+      ],
+      "evidence_quote": "سلسلة السيرة النبوية للشيخ مصطفى العدوي تشمل: مولد النبي، بعثة النبي، غزوة بدر، غزوة أحد، غزوة الأحزاب، صلح الحديبية، غزوة تبوك، فتح مكة"
+    },
+    {
+      "id": "LEV-064",
+      "round": "10b",
+      "name_ar": "محمد رجب البيومي",
+      "name_en": "Muhammad Ragab al-Bayoumi",
+      "type": "individual_researcher",
+      "type_group": "individual_actors",
+      "region": "levant_iraq_nile",
+      "country": "EG",
+      "founded": 1923,
+      "description_ar": "أديب أزهري مصري (1923-2011)، رئيس تحرير مجلة الأزهر سابقًا، صاحب «أدب السيرة النبوية عند الرواد المعاصرين» و«في ظلال السيرة».",
+      "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%AD%D9%85%D8%AF_%D8%B1%D8%AC%D8%A8_%D8%A7%D9%84%D8%A8%D9%8A%D9%88%D9%85%D9%8A",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://islamonline.net/%D9%88%D9%81%D8%A7%D8%A9-%D9%85%D8%A4%D8%B1%D8%AE-%D8%A7%D9%84%D9%86%D9%87%D8%B6%D8%A9-%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%D8%A9/"
+      ],
+      "evidence_quote": "من أبرز مؤلفاته: أدب السيرة النبوية عند الرواد المعاصرين، وكتاب في ظلال السيرة"
+    },
+    {
+      "id": "LEV-065",
+      "round": "10b",
+      "name_ar": "محمد سعيد رمضان البوطي",
+      "name_en": "Muhammad Sa'id Ramadan al-Bouti",
+      "type": "reference_thinker",
+      "type_group": "individual_actors",
+      "region": "levant_iraq_nile",
+      "country": "SY",
+      "founded": 1929,
+      "description_ar": "علامة دمشقي (1929-2013)، رئيس قسم العقائد بكلية الشريعة جامعة دمشق، صاحب «فقه السيرة النبوية» المقرر الجامعي الأشهر، ومحاضرات السيرة التي بثت لعقود.",
+      "url": "https://www.naseemalsham.com/persons/muhammad_said_ramadan_al_bouti",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://shamela.ws/book/23657"
+      ],
+      "evidence_quote": "وضع كتاب «فقه السيرة» في تحليل أحداث السيرة... ورتبه على مناهج مقرر فقه السيرة الذي اعتمدته جامعة دمشق"
+    },
+    {
+      "id": "LEV-066",
+      "round": "10b",
+      "name_ar": "مصطفى السباعي",
+      "name_en": "Mustafa al-Siba'i",
+      "type": "reference_thinker",
+      "type_group": "individual_actors",
+      "region": "levant_iraq_nile",
+      "country": "SY",
+      "founded": 1915,
+      "description_ar": "مؤسس كلية الشريعة بجامعة دمشق وأول عميد لها (1915-1964)، صاحب «السيرة النبوية: دروس وعبر» التي ألقاها أصلاً محاضرات في كلية الشريعة.",
+      "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B5%D8%B7%D9%81%D9%89_%D8%A7%D9%84%D8%B3%D8%A8%D8%A7%D8%B9%D9%8A",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://shamela.ws/book/20364"
+      ],
+      "evidence_quote": "أصل الكتاب دروس ألقاها في كلية الشريعة بدمشق أيام كان مدرسا فيها"
+    },
+    {
+      "id": "LEV-067",
+      "round": "10b",
+      "name_ar": "معهد الفتح الإسلامي - مجمع الفتح",
+      "name_en": "Al-Fath Islamic Institute (Damascus)",
+      "type": "islamic_center",
+      "type_group": "museums_culture",
+      "region": "levant_iraq_nile",
+      "country": "SY",
+      "founded": 1956,
+      "description_ar": "معهد علمي شرعي بدمشق أسسه محمد صالح الفرفور، يعتمد كتاب «فقه السيرة» للبوطي مقررًا، وله قسم تخصص بمناهج جامعة الأزهر منذ 1994.",
+      "url": "https://www.alfatihonline.com/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "محمد صالح الفرفور",
+        "محمد سعيد رمضان البوطي"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://islamsyria.com/ar/%D9%86%D8%A8%D8%B0%D8%A9-%D8%B9%D9%86-%D9%85%D8%B9%D9%87%D8%AF-%D8%A7%D9%84%D9%81%D8%AA%D8%AD-%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A-%D8%A8%D8%AF%D9%85%D8%B4%D9%82-%D9%80/%D8%A7%D9%84%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA"
+      ],
+      "evidence_quote": "كانت تُدرس [السيرة] من خلال كتاب «فقه السيرة النبوية» للشيخ الدكتور محمد سعيد رمضان البوطي في معهد الفتح الإسلامي"
+    },
+    {
+      "id": "LEV-068",
+      "round": "10b",
+      "name_ar": "محمد رواس قلعجي",
+      "name_en": "Muhammad Rawwas Qal'aji",
+      "type": "individual_researcher",
+      "type_group": "individual_actors",
+      "region": "levant_iraq_nile",
+      "country": "SY",
+      "founded": 1934,
+      "description_ar": "فقيه ومؤرخ حلبي (1934-2014)، عكف على البحث في كتب الحديث والسيرة، من أبرز مؤلفاته «دراسة تحليلية لشخصية الرسول» و«قراءة سياسية للسيرة النبوية».",
+      "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%AD%D9%85%D8%AF_%D8%B1%D9%88%D8%A7%D8%B3_%D9%82%D9%84%D8%B9%D9%87_%D8%AC%D9%8A",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://www.goodreads.com/book/show/37773424"
+      ],
+      "evidence_quote": "من مؤلفاته: دراسة تحليلية لشخصية الرسول محمد من خلال سيرته الشريفة، وقراءة سياسية للسيرة النبوية"
+    },
+    {
+      "id": "LEV-069",
+      "round": "10b",
+      "name_ar": "قسم السيرة والدراسات النبوية - كلية العلوم الإسلامية جامعة الموصل",
+      "name_en": "Sirah & Prophetic Studies Section, College of Islamic Sciences, University of Mosul",
+      "type": "university_department",
+      "type_group": "research_education",
+      "region": "levant_iraq_nile",
+      "country": "IQ",
+      "founded": 2004,
+      "description_ar": "كلية العلوم الإسلامية بجامعة الموصل (تأسست 2004) تضم قسم الحديث وعلومه الذي يحتضن مسار السيرة والدراسات النبوية، وتعقد ندوات متخصصة في السيرة.",
+      "url": "https://uomosul.edu.iq/islamicscience/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "عبدالله أسود خلف"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://uomosul.edu.iq/islamicscience/%D8%A7%D9%84%D8%AD%D8%AF%D9%8A%D8%AB-%D9%88%D8%A3%D8%AB%D8%B1%D9%87-%D9%81%D9%8A-%D8%A7%D9%84%D8%B3%D9%8A%D8%B1%D8%A9-%D8%A7%D9%84%D9%86%D8%A8%D9%88%D9%8A%D8%A9-%D9%81%D9%8A-%D9%86%D8%AF%D9%88/"
+      ],
+      "evidence_quote": "ندوة علمية بعنوان «الحديث وأثره في السيرة النبوية» قسم الحديث وعلومه في كلية العلوم الإسلامية"
+    },
+    {
+      "id": "LEV-070",
+      "round": "10b",
+      "name_ar": "أكرم ضياء العمري",
+      "name_en": "Akram Diya al-Umari",
+      "type": "individual_researcher",
+      "type_group": "individual_actors",
+      "region": "levant_iraq_nile",
+      "country": "IQ",
+      "founded": 1942,
+      "description_ar": "مؤرخ عراقي من الموصل (مواليد 1942)، صاحب «السيرة النبوية الصحيحة - محاولة لتطبيق قواعد المحدثين في نقد روايات السيرة»، حائز جائزة الملك فيصل 1996.",
+      "url": "https://ar.wikipedia.org/wiki/%D8%A3%D9%83%D8%B1%D9%85_%D8%B6%D9%8A%D8%A7%D8%A1_%D8%A7%D9%84%D8%B9%D9%85%D8%B1%D9%8A",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://archive.org/details/20200311_20200311_1552"
+      ],
+      "evidence_quote": "كتاب: السيرة النبوية الصحيحة (محاولة لتطبيق قواعد المحدثين في نقد روايات السيرة النبوية)... أسس لفقه السيرة وإعادة كتابة السيرة وفق منهج المحدثين"
+    },
+    {
+      "id": "LEV-071",
+      "round": "10b",
+      "name_ar": "كلية العلوم الإسلامية - الجامعة العراقية",
+      "name_en": "College of Islamic Sciences, Iraqi University (Baghdad)",
+      "type": "university_department",
+      "type_group": "research_education",
+      "region": "levant_iraq_nile",
+      "country": "IQ",
+      "founded": 1989,
+      "description_ar": "كلية متخصصة بالعلوم الإسلامية ضمن الجامعة العراقية ببغداد، تدرّس مادة السيرة النبوية في المرحلة الثانية وتحتضن أبحاث طلابية في السيرة.",
+      "url": "https://islamic.aliraqia.edu.iq/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [],
+      "verification": "needs_verification",
+      "inclusion_tier": "borderline",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://repository.uobaghdad.edu.iq/researchers/kalid.ahmed.ircoedu"
+      ],
+      "evidence_quote": "تدريس مادة السيرة النبوية في السنة الثانية بكلية العلوم الإسلامية - الجامعة العراقية"
+    },
+    {
+      "id": "LEV-072",
+      "round": "10b",
+      "name_ar": "كلية الإمام الأعظم الجامعة",
+      "name_en": "Imam al-A'zam University College (Baghdad)",
+      "type": "university_center",
+      "type_group": "research_education",
+      "region": "levant_iraq_nile",
+      "country": "IQ",
+      "founded": 1067,
+      "description_ar": "أقدم المدارس الشرعية في العراق (أصلها 1067م)، تقع قرب جامع الإمام الأعظم ببغداد، تدرّس الفقه والعقيدة والسيرة النبوية ضمن المنهج الأزهري المقارن.",
+      "url": "https://www.imamaladham.edu.iq/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [],
+      "verification": "needs_verification",
+      "inclusion_tier": "borderline",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://ar.wikipedia.org/wiki/%D9%83%D9%84%D9%8A%D8%A9_%D8%A7%D9%84%D8%A5%D9%85%D8%A7%D9%85_%D8%A7%D9%84%D8%A3%D8%B9%D8%B8%D9%85_%D8%A7%D9%84%D8%AC%D8%A7%D9%85%D8%B9%D8%A9"
+      ],
+      "evidence_quote": "تدرس فيها مختلف العلوم الشرعية الإسلامية، كالفقه والعقيدة والدعوة... القائمة على القرآن الكريم والسنة النبوية المطهرة"
+    },
+    {
+      "id": "LEV-073",
+      "round": "10b",
+      "name_ar": "مجلة كلية العلوم الإسلامية - جامعة بغداد",
+      "name_en": "Journal of the College of Islamic Sciences, University of Baghdad",
+      "type": "journal",
+      "type_group": "publishing_knowledge",
+      "region": "levant_iraq_nile",
+      "country": "IQ",
+      "founded": 1965,
+      "description_ar": "مجلة علمية محكمة فصلية صدرت أول عدد لها 1965، تنشر بحوثًا في الدراسات الإسلامية والسيرة النبوية والفكر الإسلامي.",
+      "url": "https://jcois.uobaghdad.edu.iq/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://search.emarefa.net/ar/detail/BIM-260494-%D9%85%D8%AC%D9%84%D8%A9-%D9%83%D9%84%D9%8A%D8%A9-%D8%A7%D9%84%D8%B9%D9%84%D9%88%D9%85-%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%D8%A9"
+      ],
+      "evidence_quote": "مجلة علمية فصلية محكمة... تنشر البحوث المتعلقة بالدراسات الإسلامية واللغة العربية"
+    },
+    {
+      "id": "NAM-326",
+      "round": "10b",
+      "name_ar": "جامعة إفريقيا العالمية - كلية الشريعة والدراسات الإسلامية",
+      "name_en": "Sharia & Islamic Studies College, International University of Africa (Khartoum)",
+      "type": "university_department",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "SD",
+      "founded": 1966,
+      "description_ar": "جامعة سودانية بدأت كمعهد إسلامي أفريقي عام 1966، تضم كلية الشريعة والدراسات الإسلامية التي تدرّس السيرة النبوية لطلابها من أكثر من 70 دولة أفريقية.",
+      "url": "https://iua.edu.sd/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://kingfaisalprize.org/international-university-of-africa/"
+      ],
+      "evidence_quote": "بدأت الجامعة بكلية الشريعة والدراسات الإسلامية... كليات إنسانية منها كلية الدراسات الإسلامية، كلية الشريعة والقانون"
+    },
+    {
+      "id": "NAM-327",
+      "round": "10b",
+      "name_ar": "مركز بحوث القرآن الكريم والسنة النبوية - جامعة القرآن الكريم والعلوم الإسلامية",
+      "name_en": "Quran & Sunnah Research Center, University of the Holy Quran & Islamic Sciences (Omdurman)",
+      "type": "research_center",
+      "type_group": "research_education",
+      "region": "non_arab_muslim",
+      "country": "SD",
+      "founded": 1990,
+      "description_ar": "مركز بحثي بجامعة القرآن الكريم والعلوم الإسلامية بأم درمان، يضم دائرة السنة والشمائل ويصدر مجلة متخصصة في دراسات القرآن والسنة والسيرة.",
+      "url": "https://www.quran-unv.edu.sd/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://www.quran-unv.edu.sd/pd/staff/984/%D8%A3%D8%AD%D9%85%D8%AF-%D9%85%D8%AD%D9%85%D9%91%D8%AF-%D8%A3%D8%AD%D9%85%D8%AF-%D8%A2%D8%AF%D9%85-%D8%B5%D8%A7%D9%81%D9%8A-%D8%A7%D9%84%D8%AF%D9%91%D9%90%D9%8A%D9%86"
+      ],
+      "evidence_quote": "دائرة السنة والشمائل بمركز بحوث القرآن الكريم والسنة والنبوية... بها باحثون ومؤلفون في السيرة النبوية والثقافة الإسلامية"
+    },
+    {
+      "id": "NAM-328",
+      "round": "10b",
+      "name_ar": "مجلة معالم الدعوة الإسلامية - جامعة أم درمان الإسلامية",
+      "name_en": "Ma'alim al-Da'wa Journal, Omdurman Islamic University",
+      "type": "journal",
+      "type_group": "publishing_knowledge",
+      "region": "non_arab_muslim",
+      "country": "SD",
+      "founded": 2000,
+      "description_ar": "مجلة فصلية محكمة تصدر عن كلية الدعوة الإسلامية بجامعة أم درمان الإسلامية، تنشر أبحاثًا في السيرة النبوية والاستشراق في السيرة والدعوة.",
+      "url": "https://journal.oiu.edu.sd/index.php/fic",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://journal.oiu.edu.sd/index.php/fic/article/view/2934"
+      ],
+      "evidence_quote": "بحث «الاستشراق في السيرة النبوية (آراء مونتغمري وات أنموذجاً)» المنشور في مجلة معالم الدعوة الإسلامية - كلية الدعوة الإسلامية جامعة أم درمان الإسلامية"
+    },
+    {
+      "id": "LEV-074",
+      "round": "10b",
+      "name_ar": "الصحيح من سيرة النبي الأعظم (صلى الله عليه وآله)",
+      "name_en": "Al-Sahih min Sirat al-Nabi al-A'zam",
+      "type": "key_publication",
+      "type_group": "publishing_knowledge",
+      "region": "levant_iraq_nile",
+      "country": "LB",
+      "founded": 1980,
+      "description_ar": "موسوعة تحقيقية في خمسة وثلاثين مجلداً للسيد جعفر مرتضى العاملي، مكرّسة كاملاً لسيرة النبي محمد ﷺ بمنهج تحليلي شيعي معتمداً 1683 مصدراً من المصدرين السني والشيعي. حازت جائزة الكتاب في إيران 1992.",
+      "url": "https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%B5%D8%AD%D9%8A%D8%AD_%D9%85%D9%86_%D8%B3%D9%8A%D8%B1%D8%A9_%D8%A7%D9%84%D9%86%D8%A8%D9%8A_%D8%A7%D9%84%D8%A3%D8%B9%D8%B8%D9%85",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "السيد جعفر مرتضى العاملي"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://ar.wikishia.net/view/%D8%A7%D9%84%D8%B5%D8%AD%D9%8A%D8%AD_%D9%85%D9%86_%D8%B3%D9%8A%D8%B1%D8%A9_%D8%A7%D9%84%D9%86%D8%A8%D9%8A_%D8%A7%D9%84%D8%A3%D8%B9%D8%B8%D9%85_(%D9%83%D8%AA%D8%A7%D8%A8)"
+      ],
+      "evidence_quote": "Comprehensive work on Prophet Muhammad's biography... 35 volumes... took two decades to complete... covers both the Meccan and Medinan periods chronologically... book is divided into ten sections through which the author illuminated details of the Prophet's life."
+    },
+    {
+      "id": "LEV-075",
+      "round": "10b",
+      "name_ar": "السيد جعفر مرتضى العاملي",
+      "name_en": "Sayyid Ja'far Murtada al-'Amili",
+      "type": "individual_researcher",
+      "type_group": "individual_actors",
+      "region": "levant_iraq_nile",
+      "country": "LB",
+      "founded": 1945,
+      "description_ar": "عالم لبناني (1945-2019) من جبل عامل، أبرز سيريّ شيعي معاصر. مؤلف 'الصحيح من سيرة النبي الأعظم' في 35 مجلداً والمختصر منه وعشرات الدراسات حول جوانب من حياة النبي ﷺ. درس وعلّم في النجف وقم وأسس حوزة جبل عامل.",
+      "url": "http://www.al-ameli.com/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "جعفر مرتضى العاملي"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://en.wikishia.net/view/Al-Sayyid_Ja'far_Murtada_al-'Amili"
+      ],
+      "evidence_quote": "Religious scholar, an expert in the history of Islam and Shiism, a Shiite biographer... wrote books about the life-history of Ahl al-Bayt, including al-Sahih min sirat al-Nabi al-A'zam... has currently reached thirty-five volumes altogether."
+    },
+    {
+      "id": "NAM-329",
+      "round": "10b",
+      "name_ar": "آية الله جعفر السبحاني",
+      "name_en": "Ayatollah Ja'far Subhani",
+      "type": "individual_researcher",
+      "type_group": "individual_actors",
+      "region": "non_arab_muslim",
+      "country": "IR",
+      "founded": 1929,
+      "description_ar": "مرجع شيعي وعالم قمّي (مواليد 1929 تبريز)، مؤلف 'فروغ ابدیّت' (نور الأبدية) بالفارسية و'سيد المرسلين' بالعربية في سيرة النبي محمد ﷺ، وله عدة كتب موجّهة للأطفال والشباب عن حياة الرسول. مؤسس مؤسسة الإمام الصادق في قم.",
+      "url": "https://tohid.ir/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "جعفر السبحاني"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://en.wikishia.net/view/Ja'far_Subhani"
+      ],
+      "evidence_quote": "Furugh abadiyyat is one of his authored works on Islamic Studies... The Message [Who is Muhammad] is a detailed biography of the Holy Prophet of Islam by a contemporary traditionalist."
+    },
+    {
+      "id": "NAM-330",
+      "round": "10b",
+      "name_ar": "فروغ ابدیّت (نور الأبدية)",
+      "name_en": "Furugh-e Abadiyat",
+      "type": "key_publication",
+      "type_group": "publishing_knowledge",
+      "region": "non_arab_muslim",
+      "country": "IR",
+      "founded": 1976,
+      "description_ar": "السيرة النبوية المعمّقة للنبي محمد ﷺ بقلم آية الله جعفر السبحاني بالفارسية، تُرجمت للعربية بعنوان 'سيد المرسلين' وللإنجليزية باسم 'The Message'. تُعدّ السيرة الشيعية المرجعية الأكثر انتشاراً في إيران، طُبعت عشرات الطبعات.",
+      "url": "https://al-islam.org/message-jafar-subhani",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "جعفر السبحاني"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://shop.al-khoei.org/products/the-message-hardcover-by-ayatollah-jafar-subhani"
+      ],
+      "evidence_quote": "The Message is a detailed biography of the Holy Prophet of Islam by a contemporary traditionalist... The book comes in two different titles but with the same subject, with the titles 'Who Is Muhammad' and 'The Message' being the same books."
+    },
+    {
+      "id": "NAM-331",
+      "round": "10b",
+      "name_ar": "مجلة 'تاريخ الإسلام في مرآة البحث'",
+      "name_en": "Tarikh-e Islam dar Aineh-ye Pazhuhesh",
+      "type": "journal",
+      "type_group": "publishing_knowledge",
+      "region": "non_arab_muslim",
+      "country": "IR",
+      "founded": 2002,
+      "description_ar": "دورية علمية محكّمة فصلية بالفارسية يصدرها مؤسسة الإمام الخميني التعليمية والبحثية في قم منذ خريف 1381 هـ.ش (2002م) تختصّ بأبحاث السيرة النبوية والتاريخ الإسلامي وتاريخ التشيع. رئيس تحريرها مهدي پيشوايي.",
+      "url": "http://tarikh.nashriyat.ir/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "مهدي پيشوايي",
+        "محمد رضا جباري"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://www.noormags.ir/view/en/magazine/165/"
+      ],
+      "evidence_quote": "The journal accepts research findings on Islamic history... and also accepts articles related to new studies in the fields of Sirah (Islamic biography), Islamic history, and Shia history."
+    },
+    {
+      "id": "NAM-332",
+      "round": "10b",
+      "name_ar": "تاريخ الإسلام حتى رحلة النبي ﷺ",
+      "name_en": "History of Islam up to the Demise of the Prophet",
+      "type": "key_publication",
+      "type_group": "publishing_knowledge",
+      "region": "non_arab_muslim",
+      "country": "IR",
+      "founded": 2007,
+      "description_ar": "مؤلف بالفارسية للشيخ مهدي پيشوايي مخصّص كاملاً لسيرة النبي محمد ﷺ من الميلاد إلى الوفاة، يُدرَّس في الحوزات الإيرانية. تُرجم للإنجليزية والعربية، نشره مجمع أهل البيت العالمي.",
+      "url": "https://al-islam.org/history-islam-demise-prophet-s-mahdi-pishvai",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "مهدي پيشوايي"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "http://ahl-ul-bayt.org/en/book/history-of-islam-up-to-the-demise-of-the-prophet-s"
+      ],
+      "evidence_quote": "History of Islam; Up to the Demise of the Prophet... published by The Ahl al-Bayt ('a) World Assembly in 2007 with 367 pages... contains sections including SECTION TWO: Muhammad From Birth to Prophethood and SECTION THREE: From Prophethood to Migration."
+    },
+    {
+      "id": "NAM-333",
+      "round": "10b",
+      "name_ar": "تاريخ سياسي إسلام (السيرة النبوية – ج1)",
+      "name_en": "Tarikh-e Siyasi-ye Islam (Vol 1: Sireh-ye Rasul Khoda)",
+      "type": "key_publication",
+      "type_group": "publishing_knowledge",
+      "region": "non_arab_muslim",
+      "country": "IR",
+      "founded": 1995,
+      "description_ar": "مؤلف من جزأين بالفارسية للأستاذ رسول جعفريان، الجزء الأول 'سيرة رسول الله' في حوالي 700 صفحة مخصصة كاملاً للنبي محمد ﷺ. تُرجم للعربية والإنجليزية والأوردية ويُدرَّس في الجامعات الإيرانية.",
+      "url": "https://en.wikipedia.org/wiki/Bibliography_of_Rasul_Jafarian",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "رسول جعفريان"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Rasul_Jafarian"
+      ],
+      "evidence_quote": "Two-volume Political History of Islam (1995), described as covering 'The Life of the Messenger of God' (700 pages) and 'The Life of the Caliphs' (827 pages). This work achieved international reach through translations into English, Arabic, and Urdu."
+    },
+    {
+      "id": "NAM-334",
+      "round": "10b",
+      "name_ar": "رسول جعفريان",
+      "name_en": "Rasul Jafarian",
+      "type": "individual_researcher",
+      "type_group": "individual_actors",
+      "region": "non_arab_muslim",
+      "country": "IR",
+      "founded": 1964,
+      "description_ar": "مؤرخ شيعي إيراني (مواليد 1964 أصفهان)، أستاذ بجامعة طهران ومدير مكتبتها المركزية، عضو مجمع العلوم في إيران. مؤلف 'سيرة رسول الله' (700ص) و'تأملات في السيرة النبوية' (2006) ضمن أكثر من 90 كتاباً.",
+      "url": "https://scholar.google.com/citations?user=Nz9l_S8AAAAJ",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "رسول جعفريان"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Rasul_Jafarian"
+      ],
+      "evidence_quote": "Reflection on Prophetic Biography (2006) represents his focused study on the Prophet's life... His most significant work is the two-volume Political History of Islam (1995)."
+    },
+    {
+      "id": "NAM-335",
+      "round": "10b",
+      "name_ar": "تاريخ بيامبر اسلام (محمد إبراهيم آيتي)",
+      "name_en": "Tarikh-e Payambar-e Islam (Ayati)",
+      "type": "key_publication",
+      "type_group": "publishing_knowledge",
+      "region": "non_arab_muslim",
+      "country": "IR",
+      "founded": 1980,
+      "description_ar": "كتاب 'تاريخ بيامبر اسلام' للدكتور محمد إبراهيم آيتي (1294-1343هـ.ش) صدر عن مطبوعات جامعة طهران، يغطّي حياة النبي ﷺ من الولادة حتى الوفاة. حاز جائزة كتاب السنة في إيران بدورتها الأولى، ويُدرَّس بالجامعات الإيرانية في نسخة مختصرة من مؤسسة 'سَمت'.",
+      "url": "https://www.amazon.com/Tarikh-Payambar-Islam-%D8%AA%D8%A7%D8%B1%DB%8C%D8%AE-%D9%BE%DB%8C%D8%A7%D9%85%D8%A8%D8%B1/dp/6005634496",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "محمد إبراهيم آيتي"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://fa.wikishia.net/view/%D9%85%D8%AD%D9%85%D8%AF%D8%A7%D8%A8%D8%B1%D8%A7%D9%87%DB%8C%D9%85_%D8%A2%DB%8C%D8%AA%DB%8C"
+      ],
+      "evidence_quote": "The book examines the history of the Prophet's life from birth to the end of his blessed life... became the selected winner of the first cycle of the Iran Islamic Republic Book of the Year award... published by the University of Tehran Press."
+    },
+    {
+      "id": "NAM-336",
+      "round": "10b",
+      "name_ar": "موسوعة التاريخ الإسلامي - الشيخ محمد هادي اليوسفي الغروي",
+      "name_en": "Mawsu'at al-Tarikh al-Islami (Yousofi Gharavi)",
+      "type": "key_publication",
+      "type_group": "publishing_knowledge",
+      "region": "non_arab_muslim",
+      "country": "IR",
+      "founded": 1996,
+      "description_ar": "موسوعة التاريخ الإسلامي للشيخ محمد هادي اليوسفي الغروي (مولود 1947، قم) في عدة مجلدات، تتناول السيرة النبوية بالتفصيل بمنهج حديثي يعتمد على القرآن والأحاديث النبوية وأحاديث أهل البيت. صادرة عن مجمع الفكر الإسلامي في قم.",
+      "url": "https://archive.org/details/20200712_20200712_1342",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "محمد هادي اليوسفي الغروي"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://urd.ac.ir/en/78811/Methodology-of-Sheikh-Mohammad-Hadi-Al-Yousefi-Gharavi-in-writing-the-encyclopedia-Islamic/"
+      ],
+      "evidence_quote": "Sheikh Mohammad Hadi Al-Yousefi Gharavi relied in writing his encyclopedia on reliable chains of transmission through reliable original sources in transmitting Islamic history, presenting narrations to the Holy Qur'an, the Prophetic hadiths and the hadiths of the Ahl al-Bayt."
+    },
+    {
+      "id": "NAM-337",
+      "round": "10b",
+      "name_ar": "ترجمة سيرة ابن هشام إلى الفارسية - مسعود أنصاري",
+      "name_en": "Persian translation of Ibn Hisham's Sirah (Mas'ud Ansari)",
+      "type": "key_publication",
+      "type_group": "publishing_knowledge",
+      "region": "non_arab_muslim",
+      "country": "IR",
+      "founded": 2013,
+      "description_ar": "ترجمة فارسية كاملة لسيرة ابن هشام بقلم مسعود أنصاري في ثلاثة مجلدات بعناوين 'من النسب إلى الهجرة' و'من الهجرة إلى الخندق' و'من الخندق إلى الوفاة'. تُعدّ من أكمل الترجمات الفارسية المعاصرة للسيرة السنية الكلاسيكية.",
+      "url": "https://www.tasnimnews.com/fa/news/1392/08/05/166031/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "مسعود أنصاري"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://fa.wikipedia.org/wiki/%D8%B3%DB%8C%D8%B1%D9%87_%D9%86%D8%A8%D9%88%DB%8C_(%D8%A7%D8%A8%D9%86_%D9%87%D8%B4%D8%A7%D9%85)"
+      ],
+      "evidence_quote": "The book was translated into Persian by Mas'ud Ansari. This translation was published in three volumes titled 'From Genealogy to Emigration,' 'From Emigration to the Trench,' and 'From the Trench to Death'."
+    },
+    {
+      "id": "NAM-338",
+      "round": "10b",
+      "name_ar": "مؤسسة بوستان كتاب - قم",
+      "name_en": "Bustan-e Ketab (Boostan Ketab Publishing)",
+      "type": "publisher",
+      "type_group": "publishing_knowledge",
+      "region": "non_arab_muslim",
+      "country": "IR",
+      "founded": 1982,
+      "description_ar": "دار نشر إيرانية تابعة لحوزة قم تأسست 1982، تختصّ بنشر الكتب الإسلامية بما فيها سيرة النبي ﷺ بالفارسية، وتُعدّ من أبرز ناشري الكتاب الديني الشيعي.",
+      "url": "https://en.wikipedia.org/wiki/Bustan_Ketab",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bustan_Ketab"
+      ],
+      "evidence_quote": "Bustan Ketab Publishing is an Iranian publisher established by Qom hawza. Bustan Ketab Publishing was established in 1982. Since then Bustan Ketab has published titles in Islam."
+    },
+    {
+      "id": "LEV-076",
+      "round": "10b",
+      "name_ar": "آية الله محمد حسين فضل الله",
+      "name_en": "Sayyid Muhammad Husayn Fadlallah",
+      "type": "individual_researcher",
+      "type_group": "individual_actors",
+      "region": "levant_iraq_nile",
+      "country": "LB",
+      "founded": 1935,
+      "description_ar": "مرجع شيعي لبناني (1935-2010) من النجف، أقام في بيروت، له محاضرات وكتب مكرّسة للسيرة النبوية تنشرها مؤسسته 'بيّنات' ضمن سلسلة 'في رحاب السيرة النبوية' ومحاضرات السيرة. أسس جمعية المبرّات.",
+      "url": "https://www.bayynat.org.lb/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "محمد حسين فضل الله"
+      ],
+      "verification": "needs_verification",
+      "inclusion_tier": "borderline",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://en.wikishia.net/view/Al-Sayyid_Muhammad_Husayn_Fadl_Allah"
+      ],
+      "evidence_quote": "Bayynat is a website dedicated to preserving the heritage and thought of the Religious authority Sayyed Muhammad Hussein Fadlallah... lectures and books on Sirah of the Prophet are part of his preserved output (في رحاب السيرة النبوية)."
+    },
+    {
+      "id": "ARB-118",
+      "round": "10b",
+      "name_ar": "مسلسل عمر",
+      "name_en": "Omar (TV series)",
+      "type": "film_or_series",
+      "type_group": "media_audience",
+      "region": "arabia",
+      "country": "SA",
+      "founded": 2012,
+      "description_ar": "مسلسل تاريخي ضخم من إنتاج MBC وقطر، إخراج حاتم علي، يصور سيرة عمر بن الخطاب وأحداث الدعوة في عهد النبي ﷺ والخلفاء، ثلاثون ألف ممثل في 31 حلقة.",
+      "url": "https://www.mbcstudios.com/series/omar/season-1/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "حاتم علي",
+        "وليد سيف",
+        "سامر إسماعيل"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Omar_(TV_series)"
+      ],
+      "evidence_quote": "Largest ever Arabic production... based on the life of Omar ibn al-Khattab from age 18 until his death; co-produced by MBC and Qatar TV."
+    },
+    {
+      "id": "ARB-119",
+      "round": "10b",
+      "name_ar": "بلال: بطل من نوع جديد",
+      "name_en": "Bilal: A New Breed of Hero",
+      "type": "film_or_series",
+      "type_group": "media_audience",
+      "region": "arabia",
+      "country": "AE",
+      "founded": 2015,
+      "description_ar": "فيلم رسوم متحركة إماراتي ثلاثي الأبعاد من إنتاج برجون إنترتينمنت، يتناول سيرة بلال بن رباح في عهد النبي ﷺ، رُشح لجائزة أفضل فيلم رسوم متحركة في آسيا والباسيفيك.",
+      "url": "https://www.imdb.com/title/tt3576728/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "أيمن جمال",
+        "خرم علوي",
+        "برجون إنترتينمنت"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bilal:_A_New_Breed_of_Hero"
+      ],
+      "evidence_quote": "An Emirati 3D animated action-adventure film about the birth of Islam, depicting the life of Bilal ibn Rabah in 632 AD."
+    },
+    {
+      "id": "NAM-339",
+      "round": "10b",
+      "name_ar": "محمد رسول الله",
+      "name_en": "Muhammad: The Messenger of God",
+      "type": "film_or_series",
+      "type_group": "media_audience",
+      "region": "non_arab_muslim",
+      "country": "IR",
+      "founded": 2015,
+      "description_ar": "ملحمة سينمائية إيرانية من إخراج مجيد مجيدي، الجزء الأول من ثلاثية مخططة عن حياة النبي ﷺ تركز على طفولته حتى الثالثة عشرة، أكبر إنتاج إيراني بميزانية 40 مليون دولار.",
+      "url": "https://www.imdb.com/title/tt3921314/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "مجيد مجيدي",
+        "فيتوريو ستورارو",
+        "إيه. آر. رحمن"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Muhammad:_The_Messenger_of_God_(film)"
+      ],
+      "evidence_quote": "Iran's biggest-budget production... first part of the planned trilogy on the life of the Prophet... depicting Prophet Muhammad from birth until age 13."
+    },
+    {
+      "id": "WEST-188",
+      "round": "10b",
+      "name_ar": "محمد آخر الأنبياء",
+      "name_en": "Muhammad: The Last Prophet",
+      "type": "film_or_series",
+      "type_group": "media_audience",
+      "region": "western",
+      "country": "US",
+      "founded": 2002,
+      "description_ar": "فيلم رسوم متحركة أمريكي من إنتاج بدر الدولية وإخراج ريتشارد ريتش، يتتبع نبوة محمد ﷺ من بداية الدعوة بمكة حتى فتحها، دون تجسيد لشخص النبي.",
+      "url": "https://www.imdb.com/title/tt0430377/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "ريتشارد ريتش",
+        "موسى الكنوي",
+        "بدر الدولية"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Muhammad:_The_Last_Prophet"
+      ],
+      "evidence_quote": "A 2002 American animated religious epic film... follows Muhammad's first years as a prophet starting with Islam's beginnings in Mecca."
+    },
+    {
+      "id": "ARB-120",
+      "round": "10b",
+      "name_ar": "قناة السنة النبوية",
+      "name_en": "Saudi Sunnah TV Channel",
+      "type": "tv_channel",
+      "type_group": "media_audience",
+      "region": "arabia",
+      "country": "SA",
+      "founded": 2007,
+      "description_ar": "قناة فضائية تابعة لهيئة الإذاعة والتلفزيون السعودية تبث مباشرة من المسجد النبوي بالمدينة المنورة على مدار الساعة، مع برامج ودروس في السيرة والسنة.",
+      "url": "https://www.sba.sa/en/our-tv-channels",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "هيئة الإذاعة والتلفزيون السعودية",
+        "أئمة المسجد النبوي"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://www.arabsat.com/arabsat-channel/saudi-ch-for-sunnah-hd-105/"
+      ],
+      "evidence_quote": "Carries the five daily prayers live from Masjid an-Nabawi led by the imams of the Prophet's Mosque... alongside religious lessons and recitations, 24 hours a day."
+    },
+    {
+      "id": "ARB-121",
+      "round": "10b",
+      "name_ar": "قناة اقرأ",
+      "name_en": "Iqraa TV",
+      "type": "tv_channel",
+      "type_group": "media_audience",
+      "region": "arabia",
+      "country": "SA",
+      "founded": 1998,
+      "description_ar": "أول قناة فضائية إسلامية في العالم العربي، أسسها صالح كامل عبر شركة الإعلام العربية. تنتج برامج وثائقية عن سيرة النبي والسلف، إضافة إلى وثائقي «حياة الأعلام النبيلة».",
+      "url": "https://iqraa.com/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "صالح عبدالله كامل",
+        "شركة الإعلام العربية"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Iqraa"
+      ],
+      "evidence_quote": "Iqraa produces programming including 'The Lives of Noble Figures,' a documentary program that aims to connect Muslim youth with the great leaders of Arab and Muslim history."
+    },
+    {
+      "id": "ARB-122",
+      "round": "10b",
+      "name_ar": "قناة الرسالة",
+      "name_en": "Al Resalah TV",
+      "type": "tv_channel",
+      "type_group": "media_audience",
+      "region": "arabia",
+      "country": "SA",
+      "founded": 2006,
+      "description_ar": "قناة فضائية إسلامية يمولها الأمير الوليد بن طلال، تركز على الفقه والسنة وسيرة النبي ﷺ ضمن جداولها، وتعدّ ثاني أكبر قناة دينية بعد اقرأ.",
+      "url": "https://www.alresalah.net/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "الوليد بن طلال",
+        "طارق سويدان"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Al_Resalah"
+      ],
+      "evidence_quote": "An Arabic language satellite television channel 'to present true Islam'... concentrated on religious features."
+    },
+    {
+      "id": "WEST-189",
+      "round": "10b",
+      "name_ar": "لقاء محمد ﷺ - عمر سليمان / يقين",
+      "name_en": "Meeting Muhammad ﷺ - Dr. Omar Suleiman / Yaqeen Institute",
+      "type": "podcast_institutional",
+      "type_group": "media_audience",
+      "region": "western",
+      "country": "US",
+      "founded": 2020,
+      "description_ar": "سلسلة بودكاست/فيديو ينتجها معهد يقين بقيادة د. عمر سليمان حول جوانب من حياة النبي ﷺ وأخلاقه، إضافة إلى سلسلة «الأوائل» عن الصحابة.",
+      "url": "https://yaqeeninstitute.org/watch/history/life-of-the-prophet-seerah",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "عمر سليمان",
+        "Yaqeen Institute"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://www.youtube.com/playlist?list=PLQ02IYL5pmhHvZ02LKQVeey8H-2XBKMGb"
+      ],
+      "evidence_quote": "Meeting Muhammad ﷺ presented by Dr. Omar Suleiman... Yaqeen Institute's biography section covers the life events, character, and prophetic mission of Prophet Muhammad."
+    },
+    {
+      "id": "WEST-190",
+      "round": "10b",
+      "name_ar": "درب الراعي: سيرة النبي ﷺ - المغرب",
+      "name_en": "The Shepherd's Path: Seerah - AlMaghrib Institute",
+      "type": "podcast_institutional",
+      "type_group": "media_audience",
+      "region": "western",
+      "country": "US",
+      "founded": 2002,
+      "description_ar": "أول دورة درّسها معهد المغرب الإسلامي للشيخ محمد الشريف، عن سيرة النبي ﷺ، وأصبحت متاحة في «سلسلة الإرث» الصوتية ضمن إصدارات المعهد.",
+      "url": "https://www.almaghrib.org/legacyseries/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "محمد الشريف",
+        "AlMaghrib Institute"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://www.almaghrib.org/about-us/"
+      ],
+      "evidence_quote": "'The Shepherd's Path: The Seerah of The Prophet ﷺ' was among the most iconic seminars led by Shaykh Muhammad Alshareef... available as part of the Legacy Podcast Series."
+    },
+    {
+      "id": "ARB-123",
+      "round": "10b",
+      "name_ar": "السيرة النبوية - نبيل العوضي",
+      "name_en": "Al-Sirah al-Nabawiyyah - Nabil al-Awadhi",
+      "type": "podcast_institutional",
+      "type_group": "media_audience",
+      "region": "arabia",
+      "country": "KW",
+      "founded": 2008,
+      "description_ar": "سلسلة حلقات تلفزيونية رمضانية ثم رقمية للشيخ نبيل العوضي (الكويت) صوّرت في مواقع الأحداث وعُرضت رمضان 1429هـ، تُعدّ من أكثر سلاسل السيرة العربية المعاصرة انتشاراً.",
+      "url": "https://ar.islamway.net/collection/6784/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "نبيل العوضي"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://archive.org/details/syra-nabawyya-owadhy"
+      ],
+      "evidence_quote": "سلسلة متميزة عن السيرة النبوية صُوّرت في مختلف الأماكن وفقًا لأحداث السيرة المروية، نشرت رمضان 1429هـ (2008)."
+    },
+    {
+      "id": "NAM-340",
+      "round": "10b",
+      "name_ar": "تطبيق سيرة النبي ﷺ - مؤسسة جرين تك",
+      "name_en": "Seerah of Prophet Muhammad ﷺ - Greentech Apps Foundation",
+      "type": "mobile_app",
+      "type_group": "media_audience",
+      "region": "non_arab_muslim",
+      "country": "BD",
+      "founded": 2020,
+      "description_ar": "تطبيق سيرة رقمي يضم كتاب «الرحيق المختوم» للمباركفوري وخط زمني من مؤسسة MRDF، أكثر من 100 ألف تنزيل وتقييم 4.8، من المطور غير الربحي جرين تك (موثوق من 20 مليون مسلم).",
+      "url": "https://play.google.com/store/apps/details?id=org.gtaf.seerah",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "Greentech Apps Foundation",
+        "صفي الرحمن المباركفوري"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://gtaf.org/apps/seerah/"
+      ],
+      "evidence_quote": "The app features the award-winning book on the Biography of Prophet Muhammad ﷺ, Ar-Raheequl Makhtum... 100K+ downloads with a 4.8 star rating... trusted by 20M+ Muslims."
+    },
+    {
+      "id": "MAG-071",
+      "round": "10b",
+      "name_ar": "السيرة النبوية كاملة بدون نت - أطلس داتا",
+      "name_en": "Al-Sirah al-Nabawiyyah Kamilah Bidoun Net",
+      "type": "mobile_app",
+      "type_group": "media_audience",
+      "region": "maghreb",
+      "country": "MA",
+      "founded": 2017,
+      "description_ar": "تطبيق عربي مشهور لقراءة وسماع السيرة النبوية كاملة دون اتصال بالإنترنت، تجاوز مليون تنزيل على متجر جوجل بلاي، من تطوير أطلس داتا.",
+      "url": "https://play.google.com/store/apps/details?id=com.atlasdata.sira_al_nabawiya_sawt",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "Atlas Data"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://atlasdata-sira-nabawiya.ar.aptoide.com/app"
+      ],
+      "evidence_quote": "Another app called 'السيرة النبوية كاملة بدون نت' has reached 1M downloads (exceeding the 100K threshold)."
+    },
+    {
+      "id": "ARB-124",
+      "round": "10b",
+      "name_ar": "السيرة - تطبيق الأطفال",
+      "name_en": "The Sira (Seerah) App for Kids",
+      "type": "mobile_app",
+      "type_group": "media_audience",
+      "region": "arabia",
+      "country": "QA",
+      "founded": 2016,
+      "description_ar": "تطبيق قصصي تفاعلي للأطفال على iOS وأندرويد عن حياة النبي ﷺ وبدايات الإسلام، بالعربية والإنجليزية مع تمثيل صوتي احترافي لكل شخصية.",
+      "url": "https://sira.co/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "The Sira team"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://apps.apple.com/us/app/al-sirah-%D8%A8%D9%88%D8%A7%D8%A8%D8%A9-%D8%A7%D9%84%D8%B3%D9%8A%D8%B1%D8%A9-%D8%A7%D9%84%D9%86%D8%A8%D9%88%D9%8A%D8%A9/id1164145998"
+      ],
+      "evidence_quote": "The Sira (Seerah) is an interactive story book app for kids on iPad, iPhone and Android about the life of prophet Mohammed and the beginning of Islam."
+    },
+    {
+      "id": "LEV-077",
+      "round": "10b",
+      "name_ar": "خالد محمد خالد",
+      "name_en": "Khaled Muhammad Khaled",
+      "type": "popular_writer",
+      "type_group": "individual_actors",
+      "region": "levant_iraq_nile",
+      "country": "EG",
+      "founded": 1920,
+      "description_ar": "مفكر إسلامي مصري (1920–1996)، اشتهر بكتابه «رجال حول الرسول» الذي ترجم سيرة ستين صحابياً، إضافة إلى مؤلفات شعبية عديدة في السيرة وإنسانيات الإسلام.",
+      "url": "https://www.goodreads.com/author/show/871371._",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "خالد محمد خالد"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Khalid_Muhammad_Khalid"
+      ],
+      "evidence_quote": "His most famous and widespread work is the book 'Men Around the Messenger,' in which he competently discussed the biography of sixty of the Prophet Muhammad's companions."
+    },
+    {
+      "id": "LEV-078",
+      "round": "10b",
+      "name_ar": "محمود المصري (أبو عمار)",
+      "name_en": "Mahmoud al-Misri (Abu Ammar)",
+      "type": "popular_writer",
+      "type_group": "individual_actors",
+      "region": "levant_iraq_nile",
+      "country": "EG",
+      "founded": 1965,
+      "description_ar": "داعية وكاتب مصري شعبي، له مؤلفات في السيرة منها «سيرة الرسول» و«أصحاب الرسول» و«سيرة الرسول للأطفال»، واسع الانتشار في الكتب الإسلامية الموجهة للعامة.",
+      "url": "https://www.noor-book.com/en/ebooks-Mahmoud-Almasry-pdf",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "محمود المصري أبو عمار"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://www.goodreads.com/book/show/13635777"
+      ],
+      "evidence_quote": "Among his authored works are 'Sirat al-Rasul'... 'Pictures from the Lives of Prophets, Companions and Successors,' and 'Companions of the Messenger.'"
+    },
+    {
+      "id": "WEST-191",
+      "round": "10b",
+      "name_ar": "ياسر قاضي",
+      "name_en": "Yasir Qadhi",
+      "type": "popular_writer",
+      "type_group": "individual_actors",
+      "region": "western",
+      "country": "US",
+      "founded": 1975,
+      "description_ar": "عالم وكاتب أمريكي معاصر، صاحب سلسلة محاضرات السيرة بـ100 حلقة وكتاب «The Sirah of the Prophet: A Contemporary and Original Analysis»، من أبرز الأصوات الشعبية للسيرة بالإنجليزية.",
+      "url": "https://imamghazali.co/products/the-sirah-of-the-prophet-yasir-qadhi",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "ياسر قاضي"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://www.amazon.com/Sirah-Prophet-pbuh-Contemporary-Original/dp/086037873X"
+      ],
+      "evidence_quote": "The Sirah of the Prophet (pbuh): A Contemporary and Original Analysis by Yasir Qadhi."
+    },
+    {
+      "id": "WEST-192",
+      "round": "10b",
+      "name_ar": "عمر سليمان",
+      "name_en": "Omar Suleiman",
+      "type": "popular_writer",
+      "type_group": "individual_actors",
+      "region": "western",
+      "country": "US",
+      "founded": 1986,
+      "description_ar": "داعية وأكاديمي أمريكي مؤسس معهد يقين، صاحب سلاسل «لقاء محمد» و«الأوائل» المكتوبة والمسموعة، يعد من أبرز كُتّاب السيرة الشعبيين بالإنجليزية في العقد الأخير.",
+      "url": "https://yaqeeninstitute.org/team/omar-suleiman",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "عمر سليمان",
+        "Yaqeen Institute"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://yaqeeninstitute.org/read/history/life-of-the-prophet-seerah"
+      ],
+      "evidence_quote": "Dr. Omar Suleiman is the Founder and President of the Yaqeen Institute for Islamic Research... Meeting Muhammad ﷺ presented by Dr. Omar Suleiman."
+    },
+    {
+      "id": "NAM-341",
+      "round": "10b",
+      "name_ar": "مهدي رزق الله أحمد",
+      "name_en": "Mahdi Rizqallah Ahmad",
+      "type": "reference_thinker",
+      "type_group": "individual_actors",
+      "region": "non_arab_muslim",
+      "country": "SD",
+      "founded": 1947,
+      "description_ar": "أكاديمي سوداني، أستاذ السيرة والتاريخ الإسلامي بجامعة الإمام محمد بن سعود، صاحب «السيرة النبوية في ضوء المصادر الأصلية» الذي اعتمد فيه الصحيح والحسن من الروايات.",
+      "url": "https://books-library.com/sayings/Mahdi-Rizk-Allah-Ahmed",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "مهدي رزق الله أحمد"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://www.sifatusafwa.com/en/as-seerah-an-nabawiyyah/al-sirah-al-nabawiyyah-mahdi-rizqallah-ahmad-900-pages.html"
+      ],
+      "evidence_quote": "Among the best contemporary works of Sirah, and the author aimed to write a biography of the Prophet relying only on authentic narrations (sahih and hasan) while avoiding all weak narrations."
+    },
+    {
+      "id": "ARB-125",
+      "round": "10b",
+      "name_ar": "جائزة الأمير نايف العالمية للسنة النبوية والدراسات الإسلامية المعاصرة",
+      "name_en": "Naif bin Abdulaziz International Prize for Prophetic Sunnah and Contemporary Islamic Studies",
+      "type": "grant",
+      "type_group": "institutional_infra",
+      "region": "arabia",
+      "country": "SA",
+      "founded": 2001,
+      "description_ar": "جائزة دولية بمقرّ المدينة المنورة، أسسها الأمير نايف بن عبدالعزيز عام 1422هـ لتشجيع البحث في السنة والسيرة والدراسات الإسلامية المعاصرة، قيمتها 500,000 ريال لكل فائز.",
+      "url": "https://naifprize.org.sa/en/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "الأمير نايف بن عبدالعزيز",
+        "أمانة الجائزة بالمدينة"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://naifprize.org.sa/en/the-international-prize-for-the-prophets-sunnah-and-contemporary-islamic-studies/"
+      ],
+      "evidence_quote": "Aims to encourage scientific research in the field of prophetic Sunnah and its sciences and contemporary Islamic studies... monetary sum of 500,000 Saudi riyals."
+    },
+    {
+      "id": "ARB-126",
+      "round": "10b",
+      "name_ar": "مجمع الملك سلمان العالمي للحديث النبوي الشريف",
+      "name_en": "King Salman Complex for Prophetic Hadith",
+      "type": "royal_initiative",
+      "type_group": "institutional_infra",
+      "region": "arabia",
+      "country": "SA",
+      "founded": 2017,
+      "description_ar": "مبادرة ملكية بأمر الملك سلمان (2017)، مقرها المدينة المنورة، تجمع كبار علماء الحديث لخدمة السنة والسيرة وتمحيص الروايات ومحاربة توظيفها للعنف، يرأس مجلسه العلمي مشايخ كبار.",
+      "url": "https://kscpht.org.sa/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "الملك سلمان بن عبدالعزيز",
+        "محمد بن حسن آل الشيخ"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://www.arabnews.com/node/1179456/saudi-arabia"
+      ],
+      "evidence_quote": "Royal Order... to establish 'Custodian of the Two Holy Mosques King Salman Bin Abdulaziz Al Saud Complex for the Prophet's Hadith' in al-Madinah al-Munawwarah."
+    },
+    {
+      "id": "ARB-127",
+      "round": "10b",
+      "name_ar": "أطلس السيرة النبوية (دارة الملك عبدالعزيز)",
+      "name_en": "Historical Atlas of the Prophet's Sirah - Darah Project",
+      "type": "royal_initiative",
+      "type_group": "institutional_infra",
+      "region": "arabia",
+      "country": "SA",
+      "founded": 2015,
+      "description_ar": "مشروع علمي لإصدار أطلس تاريخي مصور للسيرة النبوية تشرف عليه دارة الملك عبدالعزيز، تفقّده الأمير فيصل بن سلمان المستشار الخاص للملك ورئيس مجلس إدارة الدارة.",
+      "url": "https://www.darah.org.sa/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "الأمير فيصل بن سلمان",
+        "دارة الملك عبدالعزيز"
+      ],
+      "verification": "needs_verification",
+      "inclusion_tier": "borderline",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://www.arabnews.com/node/2451731/saudi-arabia"
+      ],
+      "evidence_quote": "Prince Faisal bin Salman, the special advisor to King Salman and chairman of the board of directors of the King Abdulaziz Foundation for Research and Archives (Darah), inspected this project."
+    },
+    {
+      "id": "LEV-079",
+      "round": "10b",
+      "name_ar": "مدرسة فقه السيرة (المنهج النقدي–الفقهي)",
+      "name_en": "School of Fiqh al-Sirah (Critical–Jurisprudential Approach)",
+      "type": "school_of_thought",
+      "type_group": "institutional_infra",
+      "region": "levant_iraq_nile",
+      "country": "SY",
+      "founded": 1976,
+      "description_ar": "اتجاه في دراسة السيرة يربط الأحداث بأحكام فقهية ومقاصد تربوية، أبرز ممثليه محمد سعيد رمضان البوطي في «فقه السيرة»، يدرّس في كليات الشريعة بالشام ومنه تفرّعت مدارس مشابهة.",
+      "url": "https://en.wikipedia.org/wiki/Ramadan_al-Bouti",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "محمد سعيد رمضان البوطي",
+        "منير الغضبان"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://www.librairie-sana.com/en/%D9%83%D8%AA%D8%A8-%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9/6749-the-jurisprudence-of-the-biography-of-prophet-mohammed-saeed-by-dr-ramadan-al-bouti-%D9%81%D9%82%D9%87-%D8%A7%D9%84%D8%B3%D9%8A%D8%B1%D8%A9-%D9%85%D8%AD%D9%85%D8%AF-%D8%B3%D8%B9%D9%8A%D8%AF-%D8%B1%D9%85%D8%B6%D8%A7%D9%86-%D8%A7%D9%84%D8%A8%D9%88%D8%B7-9789933105600.html"
+      ],
+      "evidence_quote": "The book analyzes events of the Prophet's biography and extracts relevant evidence, lessons, and rulings based on the curriculum of Jurisprudence of the Prophet's Biography."
+    },
+    {
+      "id": "ARB-128",
+      "round": "10b",
+      "name_ar": "مدرسة السيرة الصحيحة (المنهج الحديثي–السلفي)",
+      "name_en": "School of As-Sirah As-Sahihah (Hadith-critical / Salafi method)",
+      "type": "school_of_thought",
+      "type_group": "institutional_infra",
+      "region": "arabia",
+      "country": "SA",
+      "founded": 1990,
+      "description_ar": "اتجاه يطبق قواعد المحدثين على روايات السيرة، رائده أكرم ضياء العمري في «السيرة النبوية الصحيحة» ومهدي رزق الله في «السيرة في ضوء المصادر الأصلية»، يدرّس في الجامعات السعودية.",
+      "url": "https://kingfaisalprize.org/ar/professor-akram-diaa-al-umari/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "أكرم ضياء العمري",
+        "مهدي رزق الله أحمد"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://www.sifatusafwa.com/en/as-seerah-an-nabawiyyah/as-sirah-an-nabawiyyah-as-sahihah-dr-akram-al-umari.html"
+      ],
+      "evidence_quote": "An attempt to apply the rules of hadith scholars in critiquing prophetic biography narratives... relying only on authentic narrations (sahih and hasan)."
+    },
+    {
+      "id": "LEV-080",
+      "round": "10b",
+      "name_ar": "السيرة النبوية لابن هشام – تحقيق مصطفى السقا وإبراهيم الأبياري وعبد الحفيظ شلبي",
+      "name_en": "Al-Sirah al-Nabawiyya (Ibn Hisham) — al-Saqqa / al-Abyari / Shalabi edition",
+      "type": "key_publication",
+      "type_group": "publishing_knowledge",
+      "region": "levant_iraq_nile",
+      "country": "EG",
+      "founded": 1955,
+      "description_ar": "أشهر طبعات سيرة ابن هشام، حقّقها ثلاثة من أعلام التحقيق المصري ونشرتها مكتبة ومطبعة مصطفى البابي الحلبي بمصر؛ مرجع أساسي في الدراسات السيريّة.",
+      "url": "https://shamela.ws/book/23833",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "مصطفى السقا",
+        "إبراهيم الأبياري",
+        "عبد الحفيظ شلبي",
+        "ابن هشام (المؤلف الأصلي)"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://shamela.ws/book/23833"
+      ],
+      "evidence_quote": "السيرة النبوية لابن هشام – ت السقا ورفاقه – نشر شركة مكتبة ومطبعة مصطفى البابي الحلبي وأولاده بمصر، الطبعة الثانية 1375هـ - 1955م، جزآن."
+    },
+    {
+      "id": "MAG-072",
+      "round": "10b",
+      "name_ar": "سيرة ابن إسحاق – تحقيق محمد حميد الله",
+      "name_en": "Sirat Ibn Ishaq — Muhammad Hamidullah edition (Rabat, 1976)",
+      "type": "key_publication",
+      "type_group": "publishing_knowledge",
+      "region": "maghreb",
+      "country": "MA",
+      "founded": 1976,
+      "description_ar": "أعاد محمد حميد الله إخراج النصّ الباقي من سيرة ابن إسحاق بعد عمل طويل في تتبّع شواهده، ونشره معهد الدراسات والأبحاث للتعريب بالرباط؛ يُعدّ من أهم استعادات الأصل قبل تهذيب ابن هشام.",
+      "url": "https://archive.org/details/Sirat_Ibn_Ishaq",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "محمد حميد الله",
+        "ابن إسحاق (المؤلف الأصلي)"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://darululoom-deoband.com/arabicarticles/archives/1275"
+      ],
+      "evidence_quote": "كان للدكتور حميد الله جهد مديد في تتبّع نصّ السيرة لابن إسحاق ونشره محقّقًا بعد بحث طويل في المصادر التي اقتبست منه."
+    },
+    {
+      "id": "WEST-193",
+      "round": "10b",
+      "name_ar": "كتاب المغازي للواقدي – تحقيق مارسدن جونز",
+      "name_en": "Kitab al-Maghazi of al-Waqidi — Marsden Jones edition (Oxford University Press, 1966)",
+      "type": "key_publication",
+      "type_group": "publishing_knowledge",
+      "region": "western",
+      "country": "GB",
+      "founded": 1966,
+      "description_ar": "الطبعة العلمية الأم لمغازي الواقدي، حقّقها المستشرق البريطاني مارسدن جونز ونشرتها مطبعة جامعة أكسفورد في ثلاثة أجزاء؛ المرجع المعتمد دوليًا للنصّ.",
+      "url": "https://archive.org/details/kitab-maghazi-waqidi",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "Marsden Jones",
+        "أبو عبد الله الواقدي (المؤلف الأصلي)"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://search.worldcat.org/title/kitab-al-maghazi-li-al-waqidi/oclc/17734939"
+      ],
+      "evidence_quote": "Al-Waqidi's Kitab al-Maghazi, edited by Dr. Marsden Jones, published by Oxford University Press in London in 1966, in three parts."
+    },
+    {
+      "id": "LEV-081",
+      "round": "10b",
+      "name_ar": "الطبقات الكبرى لابن سعد – تحقيق علي محمد عمر (طبعة الخانجي)",
+      "name_en": "Al-Tabaqat al-Kubra (Ibn Sa'd) — Ali Muhammad Umar edition (Maktabat al-Khanji, Cairo, 2001)",
+      "type": "key_publication",
+      "type_group": "publishing_knowledge",
+      "region": "levant_iraq_nile",
+      "country": "EG",
+      "founded": 2001,
+      "description_ar": "الطبعة الأكمل من طبقات ابن سعد بأجزائها الإحدى عشر، أعادت إثبات 1358 ترجمة كانت ساقطة في الطبعات السابقة؛ تتضمّن المجلدات الأولى السيرة الذاتية للنبي ﷺ وأهل بيته وصحبه.",
+      "url": "https://shamela.ws/book/146",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "علي محمد عمر",
+        "محمد بن سعد (المؤلف الأصلي)"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://waqfeya.net/book.php?bid=696"
+      ],
+      "evidence_quote": "الطبقات الكبير – ابن سعد – ط الخانجي، تحقيق علي محمد عمر، الطبعة الأولى 1421هـ - 2001م، 11 جزءًا، أضاف 1358 ترجمة كانت ساقطة."
+    },
+    {
+      "id": "LEV-082",
+      "round": "10b",
+      "name_ar": "دلائل النبوة للبيهقي – تحقيق عبد المعطي قلعجي",
+      "name_en": "Dala'il al-Nubuwwa (al-Bayhaqi) — Abd al-Mu'ti Qal'aji edition (Dar al-Kutub al-Ilmiyya, 1988)",
+      "type": "key_publication",
+      "type_group": "publishing_knowledge",
+      "region": "levant_iraq_nile",
+      "country": "LB",
+      "founded": 1988,
+      "description_ar": "الطبعة المرجعية لدلائل النبوة للبيهقي في سبعة أجزاء، صدرت عن دار الكتب العلمية ودار الريان للتراث بتحقيق الدكتور عبد المعطي قلعجي؛ يجمع الكتاب أعلام النبوّة وعلاماتها مع توثيق إسنادي دقيق.",
+      "url": "https://shamela.ws/book/7478",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "عبد المعطي أمين قلعجي",
+        "أبو بكر البيهقي (المؤلف الأصلي)"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://ebook.univeyes.com/60770"
+      ],
+      "evidence_quote": "دلائل النبوة ومعرفة أحوال صاحب الشريعة للبيهقي، تحقيق د. عبد المعطي قلعجي، دار الكتب العلمية ودار الريان للتراث، الطبعة الأولى 1408هـ - 1988م، 7 أجزاء."
+    },
+    {
+      "id": "LEV-083",
+      "round": "10b",
+      "name_ar": "الروض الأنف في شرح سيرة ابن هشام – تحقيق عبد الرحمن الوكيل",
+      "name_en": "Al-Rawd al-Unuf (al-Suhayli) — Abd al-Rahman al-Wakil edition (Dar al-Kutub al-Hadithah, Cairo, 1967-1970)",
+      "type": "key_publication",
+      "type_group": "publishing_knowledge",
+      "region": "levant_iraq_nile",
+      "country": "EG",
+      "founded": 1967,
+      "description_ar": "أهم شرح كلاسيكي لسيرة ابن هشام، حقّق نصّه عبد الرحمن الوكيل في سبعة مجلدات ونشره دار الكتب الحديثة في القاهرة 1387-1390هـ؛ مرجع لا غنى عنه لطلاّب السيرة في النحو والشرح اللغوي والبلاغي.",
+      "url": "https://shamela.ws/book/6864",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "عبد الرحمن الوكيل",
+        "أبو القاسم السهيلي (المؤلف الأصلي)"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://ketabonline.com/ar/books/5407"
+      ],
+      "evidence_quote": "الروض الأنف في شرح السيرة النبوية لابن هشام، للإمام السهيلي، تحقيق وتعليق وشرح: عبد الرحمن الوكيل، دار الكتب الحديثة، مصر، الطبعة الأولى 1387-1390هـ / 1967-1970م، 7 مجلدات."
+    },
+    {
+      "id": "LEV-084",
+      "round": "10b",
+      "name_ar": "السيرة النبوية من البداية والنهاية لابن كثير – تحقيق مصطفى عبد الواحد",
+      "name_en": "Al-Sirah al-Nabawiyya (Ibn Kathir, extracted from al-Bidaya wa al-Nihaya) — Mustafa Abd al-Wahid edition",
+      "type": "key_publication",
+      "type_group": "publishing_knowledge",
+      "region": "levant_iraq_nile",
+      "country": "LB",
+      "founded": 1976,
+      "description_ar": "أول استخراج علمي مستقل لقسم السيرة من البداية والنهاية لابن كثير، حقّقه مصطفى عبد الواحد وأصدرته دار المعرفة ببيروت 1395هـ في أربعة أجزاء؛ يُتداول كمرجع تعليمي وأكاديمي.",
+      "url": "https://shamela.ws/book/930",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "مصطفى عبد الواحد",
+        "ابن كثير الدمشقي (المؤلف الأصلي)"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://www.lisanarb.com/2023/11/pdf_278.html"
+      ],
+      "evidence_quote": "السيرة النبوية من البداية والنهاية لابن كثير، تحقيق مصطفى عبد الواحد، دار المعرفة للطباعة والنشر والتوزيع، بيروت، 1395هـ - 1976م، أربعة أجزاء."
+    },
+    {
+      "id": "LEV-085",
+      "round": "10b",
+      "name_ar": "تاريخ الطبري (تاريخ الرسل والملوك) – تحقيق محمد أبو الفضل إبراهيم",
+      "name_en": "Tarikh al-Tabari — Muhammad Abu al-Fadl Ibrahim edition (Dar al-Ma'arif, Cairo, 1960)",
+      "type": "key_publication",
+      "type_group": "publishing_knowledge",
+      "region": "levant_iraq_nile",
+      "country": "EG",
+      "founded": 1960,
+      "description_ar": "أفضل طبعات تاريخ الطبري من حيث ضبط النصّ، حقّقها العلامة محمد أبو الفضل إبراهيم في 11 مجلدًا بمقابلة 15 نسخة مخطوطة، نشرتها دار المعارف بالقاهرة؛ تتضمّن الأقسام النبوية الكاملة من السيرة والمغازي.",
+      "url": "https://ar.wikipedia.org/wiki/%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE_%D8%A7%D9%84%D8%B7%D8%A8%D8%B1%D9%8A",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "محمد أبو الفضل إبراهيم",
+        "محمد بن جرير الطبري (المؤلف الأصلي)"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://www.dostor.org/4860634"
+      ],
+      "evidence_quote": "طُبع تاريخ الطبري في مكتبة دار المعارف الشهيرة بتحقيق العلامة محمد أبو الفضل إبراهيم في أحد عشر مجلدًا، وهي أفضل طبعة من حيث النص."
+    },
+    {
+      "id": "LEV-086",
+      "round": "10b",
+      "name_ar": "سبل الهدى والرشاد في سيرة خير العباد للصالحي الشامي – طبعة المجلس الأعلى للشؤون الإسلامية بالقاهرة",
+      "name_en": "Subul al-Huda wa al-Rashad (al-Salihi al-Shami) — Supreme Council for Islamic Affairs edition (Ministry of Awqaf, Cairo, 1418/1997)",
+      "type": "key_publication",
+      "type_group": "publishing_knowledge",
+      "region": "levant_iraq_nile",
+      "country": "EG",
+      "founded": 1997,
+      "description_ar": "أكبر موسوعة في السيرة النبويّة قسّمها مؤلّفها إلى ألف باب منتقاة من أكثر من ثلاثمئة كتاب؛ أصدرها المجلس الأعلى للشؤون الإسلامية بوزارة الأوقاف المصرية بتحقيق فريق علمي في 12 مجلدًا.",
+      "url": "https://waqfeya.net/book.php?bid=13",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "مصطفى عبد الواحد (رئيس فريق التحقيق)",
+        "محمد بن يوسف الصالحي الشامي (المؤلف الأصلي)"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://www.almeshkat.net/book/1861"
+      ],
+      "evidence_quote": "سبل الهدى والرشاد في سيرة خير العباد ﷺ، ط. المجلس الأعلى للشؤون الإسلامية بالقاهرة 1418هـ - 1997م، 12 مجلدًا."
+    },
+    {
+      "id": "LEV-087",
+      "round": "10b",
+      "name_ar": "عيون الأثر في فنون المغازي والشمائل والسير لابن سيد الناس – طبعة دار القلم بيروت",
+      "name_en": "Uyun al-Athar (Ibn Sayyid al-Nas) — Ibrahim Muhammad Ramadan edition (Dar al-Qalam, Beirut, 1993)",
+      "type": "key_publication",
+      "type_group": "publishing_knowledge",
+      "region": "levant_iraq_nile",
+      "country": "LB",
+      "founded": 1993,
+      "description_ar": "طبعة دار القلم ببيروت بتعليق إبراهيم محمد رمضان في جزأين، 1414/1993؛ أحد الكتب الجامعة التي تربط السيرة بفن التراجم والشمائل.",
+      "url": "https://ketabonline.com/ar/books/102991",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "إبراهيم محمد رمضان",
+        "ابن سيد الناس اليعمري (المؤلف الأصلي)"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://archive.org/details/oyoun-athar-ibn-sayd-nass"
+      ],
+      "evidence_quote": "عيون الأثر في فنون المغازي والشمائل والسير، تعليق إبراهيم محمد رمضان، دار القلم بيروت، الطبعة الأولى 1414هـ/1993م، مجلدان."
+    },
+    {
+      "id": "ARB-129",
+      "round": "10b",
+      "name_ar": "مكتبة المسجد النبوي الشريف – قسم المخطوطات",
+      "name_en": "Manuscripts Department, Library of the Prophet's Mosque (Madinah)",
+      "type": "manuscript_holding",
+      "type_group": "museums_culture",
+      "region": "arabia",
+      "country": "SA",
+      "founded": 1933,
+      "description_ar": "أحد أعرق مرافق المخطوطات في المدينة المنورة؛ يضم قسم المخطوطات 4052 مخطوطة و4600 مخطوطة مصوّرة وأكثر من 260 ألف مخطوطة رقمية، تشمل نسخًا نادرة في السيرة النبويّة وعلوم النبيّ ﷺ.",
+      "url": "https://saudipedia.com/en/article/475/culture/knowledge/prophets-mosque-library",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "الهيئة العامة للعناية بشؤون المسجد النبوي"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://spa.gov.sa/en/N2002185"
+      ],
+      "evidence_quote": "The Manuscripts Department of the Prophet's Mosque Library contains 4,052 manuscripts, in addition to 4,600 illustrated manuscripts, and more than 260,000 digital manuscripts."
+    },
+    {
+      "id": "ARB-130",
+      "round": "10b",
+      "name_ar": "مكتبة الملك عبدالعزيز العامة بالمدينة المنورة – قسم مخطوطات السيرة النبوية",
+      "name_en": "King Abdulaziz Public Library — Madinah Branch (Sirah Manuscripts Section)",
+      "type": "manuscript_holding",
+      "type_group": "museums_culture",
+      "region": "arabia",
+      "country": "SA",
+      "founded": 1985,
+      "description_ar": "تضمّ المكتبة أكثر من 8000 مخطوطة من ضمنها قسم خاص بمخطوطات السيرة النبوية، إلى جانب 35 مكتبة وقفية ومجاميع علماء المدينة كمكتبة الشنقيطي؛ تخدم باحثي السيرة على وجه الخصوص.",
+      "url": "https://kapl.org.sa/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "مكتبة الملك عبدالعزيز العامة"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://aawsat.com/home/article/768861"
+      ],
+      "evidence_quote": "تضم المكتبة أكثر من 8000 مخطوطة تنوعت بين القرآن وعلومه، الحديث وعلومه، الفقه وأصوله، السيرة النبوية، والوعظ والإرشاد، واللغة العربية وآدابها، والتاريخ."
+    },
+    {
+      "id": "ARB-131",
+      "round": "10b",
+      "name_ar": "مكتبة الحرم المكي الشريف – قسم المخطوطات",
+      "name_en": "Manuscripts Section, Library of the Sacred Mosque in Mecca",
+      "type": "manuscript_holding",
+      "type_group": "museums_culture",
+      "region": "arabia",
+      "country": "SA",
+      "founded": 1898,
+      "description_ar": "تحتفظ مكتبة الحرم المكي بمخطوطات نادرة في السيرة النبوية والمغازي والشمائل، صدر لها فهرس متخصص في 12 مجلدًا (طبعة دار المأثور 1438هـ/2017م) يفهرس مخطوطات الحرم في كل الفنون.",
+      "url": "https://library.gph.gov.sa/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "الهيئة العامة للعناية بشؤون المسجد الحرام والمسجد النبوي"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://archive.org/details/FP170231"
+      ],
+      "evidence_quote": "فهرس مخطوطات مكتبة الحرم المكي الشريف 12/1، يفهرس مخطوطات الحرم في جميع العلوم بما فيها السيرة والمغازي والشمائل."
+    },
+    {
+      "id": "TUR-077",
+      "round": "10b",
+      "name_ar": "مكتبة السليمانية – استانبول (قسم المخطوطات)",
+      "name_en": "Süleymaniye Manuscript Library, Istanbul",
+      "type": "manuscript_holding",
+      "type_group": "museums_culture",
+      "region": "turkey",
+      "country": "TR",
+      "founded": 1918,
+      "description_ar": "أكبر مكتبة مخطوطات إسلامية في العالم بحوالي 100 ألف مجلد مخطوط؛ تضم مجموعات من السيرة النبوية وكتب الشمائل والمغازي، وتستضيف نسخًا من «سير النبي» للدارير ومن سيرة ابن هشام، مع رقمنة كاملة للمجموعة (2001-2011).",
+      "url": "https://www.suleymaniye.yek.gov.tr/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "وزارة الثقافة التركية / المديرية العامة للمكتبات والمنشورات"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://hazine.info/suleymaniye-library/"
+      ],
+      "evidence_quote": "The Süleymaniye Library is the largest manuscript library in Turkey and preserves one of the world's most extensive collections of Islamic manuscripts (~100,000 manuscript volumes)."
+    },
+    {
+      "id": "TUR-078",
+      "round": "10b",
+      "name_ar": "مكتبة قصر طوبقابي – قسم المخطوطات",
+      "name_en": "Topkapı Palace Museum Manuscript Library — Istanbul",
+      "type": "manuscript_holding",
+      "type_group": "museums_culture",
+      "region": "turkey",
+      "country": "TR",
+      "founded": 1924,
+      "description_ar": "يحتفظ مكتبة طوبقابي بنحو 13,400 مخطوطة بينها 8500 بالعربية، تشمل نسخًا فاخرة من «سير النبي» للدارير (1594-1595م) المُصوَّر بـ 814 منمنمة، إضافة إلى مخطوطات سيرة ابن هشام وكتب المغازي.",
+      "url": "https://topkapisarayi.gov.tr/en/manuscript-library-catalogue",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "متحف قصر طوبقابي",
+        "المُفهرس فهمي إدهم قاراطاي"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://libguides.ku.edu.tr/archives_in_turkey/topkapi_palace_museum_archive"
+      ],
+      "evidence_quote": "Topkapı Palace Library contains ~13,400 manuscripts; among them are precious Ottoman miniature paintings of Siyer-i Nebi (Sultan Murad III's six-volume copy)."
+    },
+    {
+      "id": "ARB-132",
+      "round": "10b",
+      "name_ar": "مركز الملك فيصل للبحوث والدراسات الإسلامية – قسم المخطوطات",
+      "name_en": "King Faisal Center for Research and Islamic Studies (KFCRIS) — Manuscripts Department",
+      "type": "manuscript_holding",
+      "type_group": "museums_culture",
+      "region": "arabia",
+      "country": "SA",
+      "founded": 1983,
+      "description_ar": "يحتفظ المركز بأكثر من 28,500 مخطوطة و180,000 ميكروفيلم؛ أصدر سلسلة «فهارس المخطوطات الأصلية» ومنها فهرس الحديث النبوي وعلومه، وتشمل مجموعته مخطوطات السيرة والمغازي والشمائل.",
+      "url": "https://kfcris.com/ar/publication/125",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "مؤسسة الملك فيصل الخيرية",
+        "عمار سعيد تمالت (مُفهرِس)"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://x.com/KFCRIS/status/1736732959607029907"
+      ],
+      "evidence_quote": "أصدر مركز الملك فيصل كتاب: فهرس الحديث النبوي الشريف وعلومه (ضمن سلسلة فهارس المخطوطات الأصلية)... تجمع لدى المركز قَدْر تخطّى ثمانية وعشرين ألف مخطوط."
+    },
+    {
+      "id": "LEV-088",
+      "round": "10b",
+      "name_ar": "دار الكتب والوثائق القومية المصرية – قسم المخطوطات",
+      "name_en": "Egyptian National Library and Archives (Dar al-Kutub) — Manuscripts Department",
+      "type": "manuscript_holding",
+      "type_group": "museums_culture",
+      "region": "levant_iraq_nile",
+      "country": "EG",
+      "founded": 1870,
+      "description_ar": "تحتفظ دار الكتب المصرية بحوالي 75,801 مخطوطة، تتضمّن مخطوطات مهمة من السيرة النبوية لابن هشام وعيون الأثر والروض الأنف والشمائل؛ نشرت مؤسسة الفرقان فهرسًا تفصيليًا لمخطوطاتها العربية.",
+      "url": "https://www.darelkotob.gov.eg/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "وزارة الثقافة المصرية"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://al-furqan.com/publication/catalogue-of-arabic-manuscripts-in-the-egyptian-national-library-9781905122400/"
+      ],
+      "evidence_quote": "دار الكتب والوثائق القومية المصرية تعتبر واحدة من أهم مراكز تجمع المخطوطات في مصر بحوالي 75,801 مخطوطة... فهرس المخطوطات العربية بدار الكتب المصرية، مؤسسة الفرقان."
+    },
+    {
+      "id": "WEST-194",
+      "round": "10b",
+      "name_ar": "المكتبة البريطانية – مجموعة المخطوطات العربية (Or.)",
+      "name_en": "British Library — Arabic Manuscripts Collection (Or. series)",
+      "type": "manuscript_holding",
+      "type_group": "museums_culture",
+      "region": "western",
+      "country": "GB",
+      "founded": 1753,
+      "description_ar": "تشمل مجموعة المخطوطات العربية بالمكتبة البريطانية مواد سيرة وتاريخ وتراجم منذ القرن الثامن الميلادي إلى التاسع عشر؛ مدرَجة في «مكتبة قطر الرقمية» بشراكة مع هيئة قطر للمكتبات.",
+      "url": "https://www.qdl.qa/en/arabic-manuscripts-collection-british-library",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "British Library",
+        "Qatar Digital Library (partner)"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://www.medieval.eu/the-arabic-manuscripts-collection-in-the-british-library/"
+      ],
+      "evidence_quote": "The British Library's Arabic manuscripts collection... covering Quranic sciences and commentaries, hadith, Islamic jurisprudence, mysticism and philosophy, as well as history, topography and biography."
+    },
+    {
+      "id": "WEST-195",
+      "round": "10b",
+      "name_ar": "المكتبة الوطنية الفرنسية – قسم المخطوطات العربية",
+      "name_en": "Bibliothèque nationale de France (BnF) — Department of Arabic Manuscripts",
+      "type": "manuscript_holding",
+      "type_group": "museums_culture",
+      "region": "western",
+      "country": "FR",
+      "founded": 1368,
+      "description_ar": "تضم BnF نسخًا قديمة من سيرة ابن هشام («سيرة رسول الله» لعبد الملك بن هشام، نسخة بـ Gallica تعود لعام 1420م تقريبًا)، إلى جانب فهرس دو سلان وزوتنبرغ (1883-1895) المرجعي للعربيات.",
+      "url": "https://archivesetmanuscrits.bnf.fr/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "MacGuckin de Slane (مُفهرِس)",
+        "Hermann Zotenberg"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://gallica.bnf.fr/ark:/12148/btv1b10032083x.image"
+      ],
+      "evidence_quote": "Sirat rasoul Allah, ou Sirat al-nabi al-moustafa wal-habib al-mourtida wal-nabi al-moudjtaba sidna Mohammad, biographie de Mahomet, par Abd al-Malik al-Basri, surnommé Ibn Hisham — BnF Gallica."
+    },
+    {
+      "id": "NAM-342",
+      "round": "10b",
+      "name_ar": "المكتبة المركزية للعتبة الرضوية المقدسة – مشهد",
+      "name_en": "Central Library of Astan Quds Razavi, Mashhad",
+      "type": "manuscript_holding",
+      "type_group": "museums_culture",
+      "region": "non_arab_muslim",
+      "country": "IR",
+      "founded": 974,
+      "description_ar": "من أقدم المكتبات الوقفية في إيران والعالم الإسلامي بنحو 47 ألف مخطوطة و247 ألف كتاب مطبوع؛ تضم مخطوطات سيرة وتراجم نبوية، وفهرسها أحمد گلچين معاني منذ 1963.",
+      "url": "https://library.razavi.ir/en",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "العتبة الرضوية المقدسة",
+        "أحمد گلچين معاني (مُفهرِس)"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Central_Library_of_Astan_Quds_Razavi"
+      ],
+      "evidence_quote": "Among the oldest public endowed libraries in Iran with ~47,000 manuscripts and 247,000 printed volumes... bibliographer Aḥmad Golčin Maʿāni (d. 2000)."
+    },
+    {
+      "id": "ARB-133",
+      "round": "10b",
+      "name_ar": "جائزة الملك فيصل العالمية – فرع الدراسات الإسلامية (دورات السيرة)",
+      "name_en": "King Faisal International Prize — Islamic Studies (Sirah-themed years)",
+      "type": "award",
+      "type_group": "institutional_infra",
+      "region": "arabia",
+      "country": "SA",
+      "founded": 1979,
+      "description_ar": "جائزة الملك فيصل العالمية – فرع الدراسات الإسلامية، خصّصت موضوعها عام 1996 «للسيرة النبوية ومنهج كتابتها»، ففاز بها أ.د. أكرم ضياء العمري عن «السيرة النبوية الصحيحة»؛ تتكرّر السيرة كموضوع للجائزة عبر دوراتها.",
+      "url": "https://kingfaisalprize.org/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "مؤسسة الملك فيصل الخيرية",
+        "أكرم ضياء العمري (فائز 1996)"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "https://kingfaisalprize.org/professor-akram-diaa-al-umari/"
+      ],
+      "evidence_quote": "He was awarded the King Faisal International Prize for Islamic Studies in 1996... his two-volume book The Authoritative History of the Prophet Muhammad."
+    },
+    {
+      "id": "WEST-196",
+      "round": "10b",
+      "name_ar": "كتاب «محمد رسول الله ﷺ – حياته ونبوته» – منهج الطريقة النقشبندية الحقّانية",
+      "name_en": "Muhammad: The Messenger of Allah — His Life and Prophecy (Hajjah Amina Adil, ed. Hisham Kabbani) — Naqshbandi-Haqqani Order curriculum",
+      "type": "key_publication",
+      "type_group": "publishing_knowledge",
+      "region": "western",
+      "country": "US",
+      "founded": 2002,
+      "description_ar": "كتاب السيرة الرئيس المعتمد في تعليم الطريقة النقشبندية الحقّانية، ألّفته الحاجة آمنة عادل (زوجة الشيخ ناظم الحقّاني) وحرّره الشيخ هشام قباني، نشره المجلس الإسلامي الأعلى الأمريكي؛ يتميّز بدمج المصادر الكلاسيكية مع الروايات الصوفية الروحية النادرة.",
+      "url": "https://naqshbandi.org/resources/books/",
+      "subjects": [
+        "seerah_general"
+      ],
+      "subjects_category": [],
+      "key_figures": [
+        "Hajjah Amina Adil (المؤلفة)",
+        "Shaykh Muhammad Hisham Kabbani (المحرر)",
+        "Naqshbandi-Haqqani Sufi Order"
+      ],
+      "verification": "desk_verified",
+      "inclusion_tier": "core",
+      "status": "active",
+      "scale": "national",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "output_types": [],
+      "funding_type": "unknown",
+      "project_alignment": "directly_aligned",
+      "sources": [
+        "http://naqshbandi.org/living-masters/hajjah-amina-adil/"
+      ],
+      "evidence_quote": "Muhammad the Messenger of Allah – His Life and Prophecy, by Hajjah Amina Adil, edited by Shaykh Muhammad Hisham Kabbani, Islamic Supreme Council of America, 2002, 582 pages... her remarkable Muhammad the Messenger of Islam, the life-history of Prophet Muhammad from classical sources full of rarely-heard spiritual narrations."
     }
   ],
-  "migration_note": "2026-05-16: ROUND 10-A — Path A inductive expansion (Africa+SEA+CAsia+Thematic): +53 → 322 entities",
+  "migration_note": "2026-05-16: ROUND 10-B — comprehensive expansion (6 streams): +124 → 446 entities",
   "url_audit_note": "2026-05-15: تَدقيق روابط الكيانات (الجولة 10) — 6 روابط ميّتة أُصلحت أو أُزيلت",
   "restoration_note": "2026-05-16: استرجاع 34 كياناً شريكاً محتملاً من الـ514 المُستبعَدة في المراجعة الصارمة. مُوسومون بـ project_alignment."
 }
